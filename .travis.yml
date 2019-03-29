@@ -4,9 +4,11 @@ python: 3.6 # Set the version of Python to use
 branches: master # Set the branch to build from
 
 install:
-    - pip install mkdocs mkdocs-material pymdown-extensions pygments # Install the required dependencies
+- pip install pygments
+- pip install mkdocs
+- pip install mkdocs-material
 
-before_deploy:
+script:
     - mkdocs build --verbose --clean # Build a local version of the docs
 
 deploy: # Deploy documentation to Github in the gh_pages branch
