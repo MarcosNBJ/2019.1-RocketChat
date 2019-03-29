@@ -1,0 +1,12 @@
+site_name: RocketChat
+pages:
+  - HOME: index.md
+
+theme: 
+    name: material
+    language: 'pt'
+    palette:
+        primary: 'white'
+
+repo_name: 'Rocket Chat'
+repo_url: 'https://github.com/marcosnbj/2019.1-RocketChat'
