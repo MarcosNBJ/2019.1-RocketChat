@@ -1,7 +1,7 @@
 # 2019.1-RocketChat
 ![Logo](docs/img/rocket-logo.png)
 
-Wiki do repositório da disciplina de Requisitos de Software 2019.1, cujo objetivo é reunir os artefatos de requisitos de software levantados e evoluidos durante o semestre aerca da aplicação Rocket.chat.
+Repositório da disciplina de Requisitos de Software 2019.1, cujo objetivo é reunir os artefatos de requisitos de software levantados e evoluidos durante o semestre acerca da aplicação Rocket.chat. Os mesmos podem ser visualizados em conjunto com breves descrições na Wikia do repositório: https://marcosnbj.github.io/2019.1-RocketChat/
 
 
 ## Equipe
