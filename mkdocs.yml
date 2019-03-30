@@ -5,6 +5,7 @@ theme:
     language: 'pt'
     palette:
         primary: 'white'
+    logo: 'favicon.png'
 
 repo_name: 'Rocket Chat'
 repo_url: 'https://github.com/marcosnbj/2019.1-RocketChat'
