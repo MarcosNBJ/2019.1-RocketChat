@@ -5,4 +5,4 @@ A argumentação se define por uma troca de palavras em forma de argumentos em m
 ## 1. Rich Picture
 
 Esse diagrama foi baseado na discussão que o grupo teve acerda de como construir o Rich Picture da aplicação.
-![AR-RichPicture](img/PreRastreabilidade/argumentacao_rich.png)
+![AR-RichPicture](../img/PreRastreabilidade/argumentacao_rich.png)
