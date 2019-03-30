@@ -19,7 +19,7 @@ Wiki do repositório da disciplina de Requisitos de Software 2019.1, cujo objeti
 
 #### Mais informações sobre o Rocket.chat:
 
-| <!-- --> |
-|:---:|
-|[**Site Oficial**](https://rocket.chat/)|
-|[**GitHub**](https://rocket.chat/)|
+| <!-- --> | <!-- --> |
+|:---:|:---:|
+|[**Site Oficial**](https://rocket.chat/)|[**GitHub**](https://rocket.chat/)|
+
