@@ -1,5 +1,5 @@
 
-![Screenshot](img/rocket.png)
+![Logo](img/rocket-logo.png)
 
 Wiki do repositório da disciplina de Requisitos de Software 2019.1, cujo objetivo é reunir os artefatos de requisitos de software levantados e evoluidos durante o semestre aerca da aplicação Rocket.chat.
 
