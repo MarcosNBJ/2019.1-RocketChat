@@ -12,6 +12,7 @@ Rich Picture - Geral V1.
 
 ![Geral-V1](../img/PreRastreabilidade/geral-v1.jpg)
 
+![](../img/PreRastreabilidade/RichPicture_Geral.png)
 
-## 2. Channel 
+## 2. Channel
 ![RP-Channel](../img/PreRastreabilidade/RichPicture_Channel.png)
