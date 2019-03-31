@@ -15,4 +15,10 @@ Rich Picture - Geral V1.
 ![](../img/PreRastreabilidade/RichPicture_Geral.png)
 
 ## 2. Channel
+
+O escopo definido como Channel ilustra toda a interação dos usuários dentro das salas de conversa da plataforma, bem como seus benefícios e particularidades.
+
+Rich Picture - Channel V1.
+
+![](../img/PreRastreabilidade/channel-v1.jpg)
 ![RP-Channel](../img/PreRastreabilidade/RichPicture_Channel.png)
