@@ -10,7 +10,6 @@ Wiki do repositório da disciplina de Requisitos de Software 2019.1, cujo objeti
 |:---:|:---:|
 | Marcos Nery |  [@marcosnbj](https://github.com/marcosnbj) |
 | João Lucas | [@zarbielli](https://github.com/zarbielli) |
-| Kaique Borges | [@kaiqueborges](https://github.com/kaiqueborges) |
 | Gabriel Davi | [@GabrielDVpereira](https://github.com/GabrielDVpereira) |
 | André Lucas | [@andrelucasf](https://github.com/andrelucasf) |
 | Heron Rodrigues | [@heron](heronrsousa@hotmail.com)|
