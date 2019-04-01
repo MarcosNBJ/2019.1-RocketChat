@@ -12,7 +12,8 @@ Rich Picture - Geral V1.
 
 ![Geral-V1](../img/PreRastreabilidade/geral-v1.jpg)
 
-![](../img/PreRastreabilidade/RichPicture_Geral.png)
+Rich Picture - Geral V2.
+![Geral-V2](../img/PreRastreabilidade/RichPicture_Geral.png)
 
 ## 2. Channel
 
@@ -20,5 +21,18 @@ O escopo definido como Channel ilustra toda a interação dos usuários dentro d
 
 Rich Picture - Channel V1.
 
-![](../img/PreRastreabilidade/channel-v1.jpg)
-![RP-Channel](../img/PreRastreabilidade/RichPicture_Channel.png)
+![RP-Channel-V1](../img/PreRastreabilidade/channel-v1.jpg)
+
+Rich Picture - Channel V2.
+![RP-Channel-V2](../img/PreRastreabilidade/RichPicture_Channel.png)
+
+## 2. Menus de configuração e perfil do usuário
+
+Aqui estão ilustradas as funcionalidades do menu de configurações da aplicação e das interações do usuário com seu perfil online.
+
+Rich Picture - Config e Perfil V1.
+
+![RP-CoPe-V1](../img/PreRastreabilidade/CoPe-v1.jpg)
+
+Rich Picture - Config e Perfil V2.
+![RP-CoPe-V2](../img/PreRastreabilidade/RichPicture-CoPe.png)
