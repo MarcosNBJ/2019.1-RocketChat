@@ -4,7 +4,7 @@ O Rich Picture é uma técnica que gera um artefato de grau inferior de formalid
 
 Como explicado no documento de estratégia, dividimos o escopo geral do aplicativo em 4 grandes grupos, sendo eles: Geral, Chats, Configuração + Perfil  e Externo.
 
-## 1. Geral
+## RP1 - Geral
 
 O escopo difinido como geral é a interação geral do usuário com as opções disponíveis na tela inicial do app, que são: Chats, Configuração, e Perfil. Para cada uma dessas opções disponíveis foram feitas Rich Pictures detalhando as funções.
 
@@ -15,7 +15,7 @@ Rich Picture - Geral V1.
 Rich Picture - Geral V2.
 ![Geral-V2](../img/PreRastreabilidade/RichPicture_Geral.png)
 
-## 2. Channel
+## RP2 - Channel
 
 O escopo definido como Channel ilustra toda a interação dos usuários dentro das salas de conversa da plataforma, bem como seus benefícios e particularidades.
 
@@ -26,7 +26,7 @@ Rich Picture - Channel V1.
 Rich Picture - Channel V2.
 ![RP-Channel-V2](../img/PreRastreabilidade/RichPicture_Channel.png)
 
-## 2. Menus de configuração e perfil do usuário
+## RP3 - Menus de configuração e perfil do usuário
 
 Aqui estão ilustradas as funcionalidades do menu de configurações da aplicação e das interações do usuário com seu perfil online.
 
@@ -36,3 +36,12 @@ Rich Picture - Config e Perfil V1.
 
 Rich Picture - Config e Perfil V2.
 ![RP-CoPe-V2](../img/PreRastreabilidade/RichPicture-CoPe.png)
+
+
+## Versionamento
+
+|  Versão | Data | Modificação | Autor |
+|  :------: | :------: | :------: | :------: |
+|  1.0 | 31/03/2019 | Adição da [RP1](#rp1-geral) | João Lucas e Heron Souza|
+|  1.1 | 31/03/2019 | Adição da [RP2](#rp2-channel) | Gabriel Davi e Lucas Maciel|
+|  1.2 | 31/03/2019 | Adição da [RP3](#rp3-Menus-de-configuração-e-perfil-do-usuário) | Marcos Nery |
