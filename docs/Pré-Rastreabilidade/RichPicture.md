@@ -37,6 +37,16 @@ Rich Picture - Config e Perfil V1.
 Rich Picture - Config e Perfil V2.
 ![RP-CoPe-V2](../img/PreRastreabilidade/RichPicture-CoPe.png)
 
+## RP4 - Externo
+
+O escopo definido como Externo ilustra todos os fatores e interações fora da plataforma. Bem como fluxo de caixa, investidores, desenvolvedores, servidores, concorrentes, comunidade open source e afins.
+
+Rich Picture - Externo V1.
+
+![](../img/PreRastreabilidade/externo-v1.jpg)
+
+Rich Picture - Externo V1.
+![RP-Externo](../img/PreRastreabilidade/RichPicture_Externo.png)
 
 ## Versionamento
 
@@ -45,3 +55,4 @@ Rich Picture - Config e Perfil V2.
 |  1.0 | 31/03/2019 | Adição da [RP1](#rp1-geral) | João Lucas e Heron Souza|
 |  1.1 | 31/03/2019 | Adição da [RP2](#rp2-channel) | Gabriel Davi e Lucas Maciel|
 |  1.2 | 31/03/2019 | Adição da [RP3](#rp3-Menus-de-configuração-e-perfil-do-usuário) | Marcos Nery |
+|  1.3 | 01/04/2019 | Adição da [RP4](#rp4-externo) | André Lucas e Weiller Fernandes |
