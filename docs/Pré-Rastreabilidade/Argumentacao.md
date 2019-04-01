@@ -21,6 +21,6 @@ Diagrama de argumentação baseada na discussão que o grupo teve sobre procurar
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-|  1.0 | 28/03/2019 | Adição da [AR2](#ar1-escolha-do-app) | Todo grupo |
-|  1.1 | 31/03/2019 | Adição da [AR1](#ar2-rich-picture) | Todo grupo |
+|  1.0 | 28/03/2019 | Adição da [AR2](#ar2-rich-picture) | Todo grupo |
+|  1.1 | 31/03/2019 | Adição da [AR1](#ar1-escolha-do-app) | Todo grupo |
 |  1.2 | 31/03/2019 | Adição da [AR3](#ar3-novo-membro) | Todo grupo |
