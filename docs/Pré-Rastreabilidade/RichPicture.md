@@ -45,7 +45,7 @@ Rich Picture - Externo V1.
 
 ![](../img/PreRastreabilidade/externo-v1.jpg)
 
-Rich Picture - Externo V1.
+Rich Picture - Externo V2.
 ![RP-Externo](../img/PreRastreabilidade/RichPicture_Externo.png)
 
 ## Versionamento
