@@ -14,7 +14,7 @@ Para cada uma dessas partes foram feitas Rich Pictures, com versões em papel e 
 <ul>
   <li> Geral - João Lucas e Heron </li>
   <li> Chats - Lucas Maciel e Gabriel Davi </li>
-  <li> Confirações + Perfil - Marcos Nery e Kaique </li>
+  <li> Confirações + Perfil - Marcos Nery </li>
   <li> Externo - André Lucas e Weiller Fernandes </li>
 </ul>
 
