@@ -60,3 +60,4 @@ Rich Picture - Config e Perfil v1.1
 |  0.2 | 31/03/2019 | Adição da [RP3](#rp3-channel) | Gabriel Davi e Lucas Maciel|
 |  0.3 | 31/03/2019 | Adição da [RP4](#rp4-menus-de-configuração-e-perfil-do-usuário) | Marcos Nery |
 |  0.4 | 01/04/2019 | Adição da [RP1](#rp1-externo) | André Lucas e Weiller Fernandes |
+|  0.5 | 02/04/2019 | Adição da [RP2](#rp2-geral)  | João Lucas |
