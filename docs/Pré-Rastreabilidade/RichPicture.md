@@ -8,44 +8,47 @@ Como explicado no documento de estratégia, dividimos o escopo geral do aplicati
 
 O escopo definido como Externo ilustra todos os fatores e interações fora da plataforma. Bem como fluxo de caixa, investidores, desenvolvedores, servidores, concorrentes, comunidade open source e afins.
 
-Rich Picture - Externo V1.
+Rich Picture - Externo v1.0
 
 ![](../img/PreRastreabilidade/externo-v1.jpg)
 
-Rich Picture - Externo V2.
+Rich Picture - Externo v1.1
 ![RP-Externo](../img/PreRastreabilidade/RichPicture_Externo.png)
 
 ## RP2 - Geral
 
 O escopo difinido como geral é a interação geral do usuário com as opções disponíveis na tela inicial do app, que são: Chats, Configuração, e Perfil. Para cada uma dessas opções disponíveis foram feitas Rich Pictures detalhando as funções.
 
-Rich Picture - Geral V1.
-
+Rich Picture - Geral v1.0
 ![Geral-V1](../img/PreRastreabilidade/geral-v1.jpg)
 
-Rich Picture - Geral V2.
+Rich Picture - Geral v1.1
 ![Geral-V2](../img/PreRastreabilidade/RichPicture_Geral.png)
+
+Rich Picture - Geral v2.0
+![Geral-V2.1](../img/PreRastreabilidade/GeralV2.jpg)
+
 
 ## RP3 - Channel
 
 O escopo definido como Channel ilustra toda a interação dos usuários dentro das salas de conversa da plataforma, bem como seus benefícios e particularidades.
 
-Rich Picture - Channel V1.
+Rich Picture - Channel v1.0
 
 ![RP-Channel-V1](../img/PreRastreabilidade/channel-v1.jpg)
 
-Rich Picture - Channel V2.
+Rich Picture - Channel V1.1
 ![RP-Channel-V2](../img/PreRastreabilidade/RichPicture_Channel.png)
 
 ## RP4 - Menus de configuração e perfil do usuário
 
 Aqui estão ilustradas as funcionalidades do menu de configurações da aplicação e das interações do usuário com seu perfil online.
 
-Rich Picture - Config e Perfil V1.
+Rich Picture - Config e Perfil v1.0
 
 ![RP-CoPe-V1](../img/PreRastreabilidade/CoPe-v1.jpg)
 
-Rich Picture - Config e Perfil V2.
+Rich Picture - Config e Perfil v1.1
 ![RP-CoPe-V2](../img/PreRastreabilidade/RichPicture-CoPe.png)
 
 
@@ -53,7 +56,7 @@ Rich Picture - Config e Perfil V2.
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-|  1.0 | 31/03/2019 | Adição da [RP2](#rp2-geral) | João Lucas e Heron Souza|
-|  1.1 | 31/03/2019 | Adição da [RP3](#rp3-channel) | Gabriel Davi e Lucas Maciel|
-|  1.2 | 31/03/2019 | Adição da [RP4](#rp4-menus-de-configuração-e-perfil-do-usuário) | Marcos Nery |
-|  1.3 | 01/04/2019 | Adição da [RP1](#rp1-externo) | André Lucas e Weiller Fernandes |
+|  0.1 | 31/03/2019 | Adição da [RP2](#rp2-geral) | João Lucas e Heron Souza|
+|  0.2 | 31/03/2019 | Adição da [RP3](#rp3-channel) | Gabriel Davi e Lucas Maciel|
+|  0.3 | 31/03/2019 | Adição da [RP4](#rp4-menus-de-configuração-e-perfil-do-usuário) | Marcos Nery |
+|  0.4 | 01/04/2019 | Adição da [RP1](#rp1-externo) | André Lucas e Weiller Fernandes |
