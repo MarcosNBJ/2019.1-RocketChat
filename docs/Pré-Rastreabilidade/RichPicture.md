@@ -28,6 +28,9 @@ Rich Picture - Geral v1.1
 Rich Picture - Geral v2.0
 ![Geral-V2.1](../img/PreRastreabilidade/GeralV2.jpg)
 
+Rich Picture - Geral v2.1
+![Geral-V2.1](../img/PreRastreabilidade/GeralV2.1.png)
+
 
 ## RP3 - Channel
 
@@ -61,3 +64,4 @@ Rich Picture - Config e Perfil v1.1
 |  0.3 | 31/03/2019 | Adição da [RP4](#rp4-menus-de-configuração-e-perfil-do-usuário) | Marcos Nery |
 |  0.4 | 01/04/2019 | Adição da [RP1](#rp1-externo) | André Lucas e Weiller Fernandes |
 |  0.5 | 02/04/2019 | Adição da [RP2](#rp2-geral)  | João Lucas |
+|  0.6 | 05/04/2019 | Adição da [RP2](#rp2-geral)  | João Lucas | 
