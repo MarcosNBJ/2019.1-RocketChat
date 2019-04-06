@@ -54,14 +54,22 @@ Rich Picture - Config e Perfil v1.0
 Rich Picture - Config e Perfil v1.1
 ![RP-CoPe-V2](../img/PreRastreabilidade/RichPicture-CoPe.png)
 
+## RP5 - Como contribuir
+
+Rocket chat é uma aplicação open source,  usuários da comunidade podem contribuir com o projeto. O rich picture a seguir tem como objetivo de ilustrar esse processo.
+
+Rich Picture - Como contribuir v1.0
+
+![RP-Contrib-V1](../img/PreRastreabilidade/Contrib-v1.jpg)
+
 
 ## Versionamento
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-|  0.1 | 31/03/2019 | Adição da [RP2](#rp2-geral) | João Lucas e Heron Souza|
+|  0.1 | 31/03/2019 | Adição da [RP2](#rp2-geral) | João Lucas e Heron Sousa|
 |  0.2 | 31/03/2019 | Adição da [RP3](#rp3-channel) | Gabriel Davi e Lucas Maciel|
 |  0.3 | 31/03/2019 | Adição da [RP4](#rp4-menus-de-configuração-e-perfil-do-usuário) | Marcos Nery |
 |  0.4 | 01/04/2019 | Adição da [RP1](#rp1-externo) | André Lucas e Weiller Fernandes |
 |  0.5 | 02/04/2019 | Adição da [RP2](#rp2-geral)  | João Lucas |
-|  0.6 | 05/04/2019 | Adição da [RP2](#rp2-geral)  | João Lucas | 
+|  0.6 | 05/04/2019 | Adição da [RP2](#rp2-geral)  | João Lucas |
