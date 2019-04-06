@@ -16,6 +16,11 @@ Esse diagrama foi baseado na discussão que o grupo teve acerca de como construi
 Diagrama de argumentação baseada na discussão que o grupo teve sobre procurar ou não um novo membro, após um integrande do time sair.
 ![AR-NovoMembro](../img/PreRastreabilidade/argumentacao_membro.png)
 
+## AR4 - Escolha de um aplicativo de comunicação
+
+Diagrama de argumentação baseado em uma situação de escolha de aplicativo de comunicação, que ilustra algumas das possibilidades do porquê alguém poderia escolher o Rocket.chat
+![AR-AppComunicacao](../img/PreRastreabilidade/arg-appDeComunicacao.png)
+
 
 ## Versionamento
 
@@ -24,3 +29,4 @@ Diagrama de argumentação baseada na discussão que o grupo teve sobre procurar
 |  1.0 | 28/03/2019 | Adição da [AR2](#ar2-rich-picture) | Todo grupo |
 |  1.1 | 31/03/2019 | Adição da [AR1](#ar1-escolha-do-app) | Todo grupo |
 |  1.2 | 31/03/2019 | Adição da [AR3](#ar3-novo-membro) | Todo grupo |
+|  1.3 | 06/04/2019 | Adição da [AR4](#ar4-escolha-de-um-aplicativo-de-comunicação) | Marcos Nery |
