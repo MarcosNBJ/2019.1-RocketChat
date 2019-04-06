@@ -15,6 +15,9 @@ Rich Picture - Externo v1.0
 Rich Picture - Externo v1.1
 ![RP-Externo](../img/PreRastreabilidade/RichPicture_Externo.png)
 
+Rich Picture - Externo v2.0
+![RP-Externo](../img/PreRastreabilidade/RichPicture_Externo_v2.png)
+
 ## RP2 - Geral
 
 O escopo difinido como geral é a interação geral do usuário com as opções disponíveis na tela inicial do app, que são: Chats, Configuração, e Perfil. Para cada uma dessas opções disponíveis foram feitas Rich Pictures detalhando as funções.
@@ -74,3 +77,4 @@ Rich Picture - Como contribuir v1.0
 |  0.5 | 02/04/2019 | Adição da [RP2](#rp2-geral)  | João Lucas |
 |  0.6 | 05/04/2019 | Adição da [RP2](#rp2-geral)  | João Lucas |
 |  0.7 | 05/04/2019 | Adição da [RP5](#rp5-contrib)  | Heron Sousa |
+|  0.8 | 06/04/2019 | Adição da nova versão da [RP1](#rp1-externo)  | André Lucas |
