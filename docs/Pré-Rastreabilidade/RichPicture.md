@@ -74,7 +74,7 @@ Rich Picture - Como contribuir v1.0
 |  0.2 | 31/03/2019 | Adição da [RP3](#rp3-channel) | Gabriel Davi e Lucas Maciel|
 |  0.3 | 31/03/2019 | Adição da [RP4](#rp4-menus-de-configuração-e-perfil-do-usuário) | Marcos Nery |
 |  0.4 | 01/04/2019 | Adição da [RP1](#rp1-externo) | André Lucas e Weiller Fernandes |
-|  0.5 | 02/04/2019 | Adição da [RP2](#rp2-geral)  | João Lucas |
-|  0.6 | 05/04/2019 | Adição da [RP2](#rp2-geral)  | João Lucas |
+|  0.5 | 02/04/2019 | Adição da versão 2.0 da [RP2](#rp2-geral)  | João Lucas |
+|  0.6 | 05/04/2019 | Adição da da versão 2.1 da[RP2](#rp2-geral)  | João Lucas |
 |  0.7 | 05/04/2019 | Adição da [RP5](#rp5-contrib)  | Heron Sousa |
 |  0.8 | 06/04/2019 | Adição da nova versão da [RP1](#rp1-externo)  | André Lucas |

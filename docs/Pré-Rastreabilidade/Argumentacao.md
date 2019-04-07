@@ -21,12 +21,17 @@ Diagrama de argumentação baseada na discussão que o grupo teve sobre procurar
 Diagrama de argumentação baseado em uma situação de escolha de aplicativo de comunicação, que ilustra algumas das possibilidades do porquê alguém poderia escolher o Rocket.chat
 ![AR-AppComunicacao](../img/PreRastreabilidade/arg-appDeComunicacao.png)
 
+## AR5 - Diferencial do aplicativo
+
+Diagrama da argumentação baseada na dicussão sobre o porque usar o Rocket.Chat
+![AR-Diferencial](../img/PreRastreabilidade/argumentação-diferencial.jpg)
 
 ## Versionamento
 
 |  Versão | Data | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-|  1.0 | 28/03/2019 | Adição da [AR2](#ar2-rich-picture) | Todo grupo |
-|  1.1 | 31/03/2019 | Adição da [AR1](#ar1-escolha-do-app) | Todo grupo |
-|  1.2 | 31/03/2019 | Adição da [AR3](#ar3-novo-membro) | Todo grupo |
-|  1.3 | 06/04/2019 | Adição da [AR4](#ar4-escolha-de-um-aplicativo-de-comunicação) | Marcos Nery |
+|  0.1 | 28/03/2019 | Adição da [AR2](#ar2-rich-picture) | Todo grupo |
+|  0.2 | 31/03/2019 | Adição da [AR1](#ar1-escolha-do-app) | Todo grupo |
+|  0.3 | 31/03/2019 | Adição da [AR3](#ar3-novo-membro) | Todo grupo |
+|  0.4 | 06/04/2019 | Adição da [AR4](#ar4-escolha-de-um-aplicativo-de-comunicação) | Marcos Nery |
+|  0.5 | 07/04/2019 | Adição da [AR5](#ar5-diferencial-do-aplicativo) | João Lucas |
