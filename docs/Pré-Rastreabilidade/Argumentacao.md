@@ -26,6 +26,11 @@ Diagrama de argumentação baseado em uma situação de escolha de aplicativo de
 Diagrama da argumentação baseada na dicussão sobre o porque usar o Rocket.Chat
 ![AR-Diferencial](../img/PreRastreabilidade/argumentação-diferencial.jpg)
 
+## AR6 - Reuniões semanais
+
+Diagrama simulando uma argumentação sobre a escolha do grupo de ter ou não reuniões semanais e em quais dias e horários.
+![AR-ReuniaoSemanal](../img/PreRastreabilidade/argReunioesSemanais.png)
+
 ## Versionamento
 
 |  Versão | Data | Modificação | Autor |
@@ -35,3 +40,4 @@ Diagrama da argumentação baseada na dicussão sobre o porque usar o Rocket.Cha
 |  0.3 | 31/03/2019 | Adição da [AR3](#ar3-novo-membro) | Todo grupo |
 |  0.4 | 06/04/2019 | Adição da [AR4](#ar4-escolha-de-um-aplicativo-de-comunicação) | Marcos Nery |
 |  0.5 | 07/04/2019 | Adição da [AR5](#ar5-diferencial-do-aplicativo) | João Lucas |
+|  0.6 | 07/04/2019 | Adição da [AR6](#ar6-reunioes-semanais) | Weiller Fernandes |
