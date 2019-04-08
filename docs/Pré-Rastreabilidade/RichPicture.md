@@ -50,12 +50,16 @@ Rich Picture - Channel V1.1
 
 Aqui estão ilustradas as funcionalidades do menu de configurações da aplicação e das interações do usuário com seu perfil online.
 
-Rich Picture - Config e Perfil v1.0
+Rich Picture - Menu v1.0
 
 ![RP-CoPe-V1](../img/PreRastreabilidade/CoPe-v1.jpg)
 
-Rich Picture - Config e Perfil v1.1
-![RP-CoPe-V2](../img/PreRastreabilidade/RichPicture-CoPe.png)
+Rich Picture - Menu v1.1
+![RP-CoPe-V1.1](../img/PreRastreabilidade/RichPicture-CoPe.png)
+
+Rich Picture - Menu v2.0
+![RP-Menu-V2](../img/PreRastreabilidade/RichPicture-Menu.png)
+
 
 ## RP5 - Como contribuir
 
