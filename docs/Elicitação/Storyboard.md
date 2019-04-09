@@ -1,14 +1,20 @@
-# Storyboard
+## Storyboard
 
-![Storytelling](../img/Elicitacao/storyboard_v1_1.png)
+Storyboard - Rocket.Chat v1.0
+![Storyboard](../img/Elicitacao/storyboard_1.png)
+_____
+
+Storyboard - Translate v1.0
+![Storyboard-translate](../img/Elicitacao/storyboard_2.png)
+
 _____
 
 
 _____
 
-![Storytelling-translate](../img/Elicitacao/storyboard_v3.png)
+Storyboard - OpenSource v1.0
+![Storyboard-opensource](../img/Elicitacao/storyboard_4.png)
 _____
-
 ## 1. O que é Storyboard?
 
 O storyboard é uma sequência de desenhos quadro a quadro com o esboço das diversas cenas pensadas para um conteúdo. O visual desse esboço é semelhante ao de uma história em quadrinhos e o objetivo é elaborar e detalhar a sequência da narrativa.
@@ -32,3 +38,4 @@ O objetivo é de mostrar em quadrinhos como o <a href="https://marcosnbj.github.
 | Data | Versão | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 07/04/2019 | 1.0 | Adição de storyboards | André Lucas |
+| 09/04/2019 | 1.1 | Adição storyboard opensource | André Lucas |
