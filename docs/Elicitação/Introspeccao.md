@@ -19,5 +19,6 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 
 ## Versionamento
 
-|  Versão | Data | Modificação | Autor |
+| Data | Versão | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
+| 08/04/2019 | 1.0 | Adição da Introspecção 01 | Heron Rodrigues |
