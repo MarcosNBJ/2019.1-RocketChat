@@ -17,8 +17,13 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 
 ![INT1](../img/Elicitacao/introspeccao_01.png)
 
+## Introspecção 02
+
+![INT2](../img/Elicitacao/introspeccao_02.png)
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 08/04/2019 | 1.0 | Adição da Introspecção 01 | Heron Rodrigues |
+| 09/04/2019 | 1.1 | Adição da Introspecção 02 | Weiller Fernandes |
