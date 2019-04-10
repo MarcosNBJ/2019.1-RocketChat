@@ -44,6 +44,27 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 | Eu, como usuário, gostaria de poder criar chats para conversas em grupo. | 02 | Must Have |
 | Eu, como usuário, gostaria de uma plataforma que tenha uma interface com um visual agradável, minimalista e intuitivo. | 02 | Should Have |
 
+## Introspecção 03
+
+![INT3](../img/Elicitacao/introspeccao_03.png)
+
+**Requisitos elicitados:**
+
+| Descrição | Prioridade |
+|  :------: | :------: |
+| A aplicação deve ser capaz de organizar multiplos grupos para contextos diferentes. | Must Have |
+| A plataforma deve oferecer a possibilidade de um servidor dedicado para o usuário assinante. | Should Have |
+| Os canais devem ser capazes de suportar o aumento de integrantes, sem afetar sua eficiência | Must Have |
+| As mensagens devem ser enviadas o mais rápido possível e sem perda de dados  | Must Have |
+| Os usuários deve ser capazes de conseguir realizar transmissões ao vivo, como Web Conferência e Compartilhamento de tela | Should Have |
+| A aplicação deve ser capaz de realizar a transcrição de audio em texto(traduzir), para equipes de pessoas que não tenham um idioma muito familiarizado | Would Have |
+| A aplicação deve estar disponível em diferentes plataformas, como mobile e Desktop | Could Have |
+| A plataforma deve permitir a integração com serviços externos | Should Have |
+| A plataforma deve permitir a integração de Bots | Should Have |
+| A empresa responsável pelo Rocket.Chat deve oferecer tutoriais e suporte técnico para ajudar novos usuários na plataforma | Should Have |
+
+
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
