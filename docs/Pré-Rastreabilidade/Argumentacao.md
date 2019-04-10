@@ -37,6 +37,11 @@ Diagrama da argumentação baseada na dicussão sobre o porque usar o Rocket.Cha
 Diagrama simulando uma argumentação sobre a escolha do grupo de ter ou não reuniões semanais e em quais dias e horários.
 ![AR-ReuniaoSemanal](../img/PreRastreabilidade/argReunioesSemanais.png)
 
+## AR7 - Escolha dos métodos de elicitação
+
+Diagrama simulando uma argumentação sobre a escolha dos métodos de elicitação.
+![AR-Elicitação](../img/PreRastreabilidade/elicitacao.png)
+
 ## Versionamento
 
 |  Versão | Data | Modificação | Autor |
@@ -48,3 +53,4 @@ Diagrama simulando uma argumentação sobre a escolha do grupo de ter ou não re
 |  0.5 | 07/04/2019 | Adição da [AR5](#ar5-diferencial-do-aplicativo) | João Lucas |
 |  0.6 | 07/04/2019 | Adição da [AR6](#ar6-reunioes-semanais) | Weiller Fernandes |
 |  0.7 | 08/04/2019 | Adição da versão 2.0 da [AR1](#ar1-escolha-do-app) | Weiller Fernandes |
+|  0.8 | 09/04/2019 | Adição da [AR7](#ar7-escolha-dos-métodos-de-elicitação) | Gabriel Davi |
