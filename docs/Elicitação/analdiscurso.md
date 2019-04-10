@@ -36,7 +36,7 @@ _Abaixo pode ser visto um resumo dos pontos princiapais levantados por cada orad
   _Requisitos : AD4_
 
 **André Lucas e Gabriel Davi**: Disseram que uma parte difícil no uso da aplicação é que ela não notifica o usuário das mensagens que chegam a menos que alguém tenha explicitamente mencionado a tag do usuário nelas, o que acaba sendo ruim para eles pois eles perdem a chegada de muitas mensagens. Por isso, eles opinaram que a plataforma deveria deixar o usuário escolher se prefere esse comportamento ou se gostaria de ser notificado sobre qualquer mensagem que chega.
-  _Requisitos : AD5 _
+  _Requisitos : AD5_
 
 **Gabriel Davi e Heron Rodrigues**: Citaram que, embora a versão web da aplicação seja muito boa, a versão mobile deixa a desejar, e além de um design pouco intuitívo e pouco atrativo, com muitas ferramentas escondidas do usuário, tem features que estão presentes na versão web mas não lá.
   _Requisitos : AD6_
@@ -76,4 +76,27 @@ Abaixo podem ser vistos de forma tabular os requisitos elicitados pelo moderador
 |AD10| A aplicação deve mostrar mensagens claras de erro, que ajudem o usuário a entender exatamente qual problema está ocorrendo| Should |
 |AD11| A aplicação deve permitir que o usuário pesquise por channels públicos dentro do servidor cujos assuntos sejam de interesse | Could |
 |AD12| A aplicação deve oferecer aos usuários a possibilidade de criptografar as mensagens trocadass via channel  |  Could |
-|AD13| Deve ser perguntado ao usuário se ele quer ou não entrar nos chennels gerais do servidor, sem coloca-lo neles arbitrariamente | Would |
+|AD13| Deve ser perguntado ao usuário se ele quer ou não entrar nos chennels gerais do servidor, sem coloca-lo neles arbitrariamente | Would|
+
+Por fim, segue também em formato tabular os requisitos anteriormente organizados, agora priorizados pelo método First Things First.
+
+
+
+|                       |                      |                      |              |             |                |             |                |             |              | 
+|-----------------------|----------------------|----------------------|--------------|-------------|----------------|-------------|----------------|-------------|--------------| 
+| Funcionalidades (FTF) | Benefício  Relativo | Penalidade  Relativa | Valor  Total | Valor  %    | Custo Relativo | Custo %     | Risco Relativo | Risco %     | Prioridade   | 
+|                       |                      |                      |              |             |                |             |                |             |              | 
+| AD1                   | 8                    | 9                    | 25           | 10,12145749 | 6              | 10,90909091 | 5              | 10,20408163 | 0,6321512847 | 
+| AD2                   | 7                    | 5                    | 19           | 7,692307692 | 6              | 10,90909091 | 5              | 10,20408163 | 0,4804349764 | 
+| AD3                   | 6                    | 1                    | 13           | 5,263157895 | 4              | 7,272727273 | 5              | 10,20408163 | 0,425313659  | 
+| AD4                   | 7                    | 5                    | 19           | 7,692307692 | 4              | 7,272727273 | 2              | 4,081632653 | 0,825927061  | 
+| AD5                   | 8                    | 9                    | 25           | 10,12145749 | 5              | 9,090909091 | 5              | 10,20408163 | 0,7131327565 | 
+| AD6                   | 8                    | 8                    | 24           | 9,71659919  | 5              | 9,090909091 | 4              | 8,163265306 | 0,7376404174 | 
+| AD7                   | 7                    | 8                    | 22           | 8,906882591 | 6              | 10,90909091 | 5              | 10,20408163 | 0,5562931305 | 
+| AD8                   | 4                    | 4                    | 12           | 4,858299595 | 3              | 5,454545455 | 2              | 4,081632653 | 0,6481741292 | 
+| AD9                   | 5                    | 6                    | 16           | 6,477732794 | 2              | 3,636363636 | 2              | 4,081632653 | 1,14101241   | 
+| AD10                  | 6                    | 8                    | 20           | 8,097165992 | 3              | 5,454545455 | 2              | 4,081632653 | 1,080290215  | 
+| AD11                  | 8                    | 9                    | 25           | 10,12145749 | 4              | 7,272727273 | 4              | 8,163265306 | 0,8914159456 | 
+| AD12                  | 6                    | 6                    | 18           | 7,287449393 | 5              | 9,090909091 | 6              | 12,24489796 | 0,4790164906 | 
+| AD13                  | 4                    | 1                    | 9            | 3,643724696 | 2              | 3,636363636 | 2              | 4,081632653 | 0,6418194808 | 
+| TOTAL                 | 84                   | 79                   | 247          | 100         | 55             | 100         | 49             | 30,6122449  |              | 
