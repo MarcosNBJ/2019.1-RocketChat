@@ -38,7 +38,7 @@ _Fomentando os requisitos: Q2 , Q5, Q6, Q7, Q8_
 
 
 |Principais pontos negativos levantados|Quantidade de usuários que apontaram|
-|--||--|
+|--|--|
 |Pouca customização visual|13|
 |Chamada em grupo ruim|8|
 |Chamada de voz ruim|12|
@@ -53,7 +53,7 @@ _Fomentando os requisitos: Q3 , Q4, Q10, Q13, Q16, Q17_
 ![](../img/Elicitacao/Questionario/tipo1/satisfacaoProfissa.PNG)
 
 |Principais pontos positivos levantados|Quantidade de usuários que apontaram|
-|--||--|
+|--|--|
 |Boas funcionalidades para conversas em grupo, como separação em channels|18|
 |Muitas possibilidades de personalização|10|
 |Não falha em notificar o usuário das mensagens que chegam|14|
@@ -62,7 +62,7 @@ _Fomentando os requisitos: Q16 , Q3, Q9, Q2_
 
 
 |Principais pontos negativos levantados|Quantidade de usuários que apontaram|
-|--||--|
+|--|--|
 |Falta de populariade entre usuários causais|14|
 |Interface pouco intuitiva|17|
 _Fomentando os requisitos: Q5_
@@ -82,7 +82,7 @@ _Fomentando os requisitos: Q18_
 ![](../img/Elicitacao/Questionario/tipo2/satisfacaco.PNG)
 
 |Principais diferenciais do Rocket.chat|Quantidade de usuários que apontaram|
-|--||--|
+|--|--|
 |Software Livre|6|
 |Poder subir sua própria instância|4|
 |Open Source|6|
@@ -95,7 +95,7 @@ _Fomentando os requisitos: Q19 , Q16, Q12, Q11, Q2, Q21_
 
 
 |Principais pontos negativos do Rocket.chat|Quantidade de usuários que apontaram|
-|--||--|
+|--|--|
 |Interface pouco intuitiva|8|
 |Falta de notificações para quando o usuário não é mencionado|5|
 |Muitas funcionalidades são pagas|4|
