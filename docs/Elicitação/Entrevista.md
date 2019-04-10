@@ -57,19 +57,19 @@ O grupo utilizou a técnica com o Diego Dorgam, Bot Engineer na RocketChat. Para
 9. **Quais funcionalidades você como usuário julga que precisam ser aprimoradas?** 
 
 
-    >R: "Integrações com ferramentas de produtividade."
+    >"Integrações com ferramentas de produtividade."
 
 
 10. **Quais funcionalidades você como desenvolvedor julga que precisam ser aprimoradas?** 
 
 
-    >R: "Elementos de interação para interface de chat, como botões, carrossel, listas e etc."
+    >"Elementos de interação para interface de chat, como botões, carrossel, listas e etc."
 
 
 11. **Qual a maior falha do software ? Como usuário e como desenvolvedor.**
 
 
-    >R: "Funcionar sob websockets, sobrecarrega as conexões do servidor e do aplicativo e limitam a escalabilidade."
+    >"Funcionar sob websockets, sobrecarrega as conexões do servidor e do aplicativo e limitam a escalabilidade."
 
 
 ## Prints para rastreio:
