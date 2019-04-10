@@ -72,6 +72,24 @@ O grupo utilizou a técnica com o Diego Dorgam, Bot Engineer na RocketChat. Para
     "Funcionar sob websockets, sobrecarrega as conexões do servidor e do aplicativo e limitam a escalabilidade."
 
 
+## Requisitos
+
+**Requisitos elicitados:**
+
+| Código | Descrição | Prioridade |
+| :------: | :------: | :------: |
+| ENT 1.1 | SDKs para conectar com bots | Should |
+| ENT 1.2 | Webhooks para integração | Could |
+| ENT 1.3 | Livechat para atendimento online | Should |
+| ENT 1.4 | Alertas de mensagens não lidas | Must |
+| ENT 1.5 | Citação de usuários | Must | 
+| ENT 1.6 | Integrações com ferramentas de produtividade | Could |
+| ENT 1.7 | Infraestrutura on-premises | Must |
+| ENT 1.8 | Arquitetura leve e performática | Must |
+| ENT 1.9 | Arquitetura escalavel | Should |
+
+
+
 ## Prints para rastreio:
 
 ![Prints](../img/Elicitacao/parte1-print.png)
@@ -85,3 +103,4 @@ O grupo utilizou a técnica com o Diego Dorgam, Bot Engineer na RocketChat. Para
 |  :------: | :------: | :------: | :------: |
 | 09/04/2019 | 0.1 | Adição da entrevista | João Lucas |
 | 09/04/2019 | 0.2 | Ajustando detalhes | Gabriel Davi |
+| 10/04/2019 | 0.3 | Adição de lista de requisitos | João Lucas |
