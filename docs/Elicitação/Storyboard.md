@@ -4,16 +4,20 @@ Storyboard - Rocket.Chat v1.0
 ![Storyboard](../img/Elicitacao/storyboard_1.png)
 _____
 
-Storyboard - Translate v1.0
-![Storyboard-translate](../img/Elicitacao/storyboard_2.png)
+Storyboard - Vídeo chamada v1.0
 
 _____
 
+Storyboard - Translate v1.0
+![Storyboard-translate](../img/Elicitacao/storyboard_3.png)
+_____
+
+Storyboard - Segurança dos dados v1.0
 
 _____
 
 Storyboard - OpenSource v1.0
-![Storyboard-opensource](../img/Elicitacao/storyboard_4.png)
+![Storyboard-opensource](../img/Elicitacao/storyboard_5.png)
 _____
 ## 1. O que é Storyboard?
 
@@ -29,7 +33,22 @@ O objetivo é de mostrar em quadrinhos como o <a href="https://marcosnbj.github.
 
 * [Storyboard That](https://www.storyboardthat.com/pt)
 
-## 4. Fontes
+## 4. Requisitos obtidos
+
+| Requisito | Storyboard | Prioridade |
+|  :------: | :------: | :------: |
+| Troca de mensagens | 1 | Must |
+| Divisão em channels | 1 | Must |
+| Aplicação OpenSource | 1, 5 | Should |
+| Compartilhamento de imagem | 2, 3 | Must |
+| Tradução Instantânea | 3 | Must |
+| Suporte de idiomas | 3 | Should |
+| Feedback usuários | 5 | Could |
+| Usuários contribuem | 5 | Could |
+| Integração de outras ferramentas | 5 | Should |
+| Avaliação de contribuições | 5 | Could |
+
+## 5. Fontes
 
 * [Storyboard: por que ele é essencial?](https://rockcontent.com/blog/storyboard/)
 
@@ -39,3 +58,4 @@ O objetivo é de mostrar em quadrinhos como o <a href="https://marcosnbj.github.
 |  :------: | :------: | :------: | :------: |
 | 07/04/2019 | 1.0 | Adição de storyboards | André Lucas |
 | 09/04/2019 | 1.1 | Adição storyboard opensource | André Lucas |
+| 09/04/2019 | 1.2 | Adição de requisitos e correções | André Lucas |
