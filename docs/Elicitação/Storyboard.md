@@ -39,19 +39,19 @@ _____
 
 | Requisito | Storyboard | Prioridade |
 |  :------: | :------: | :------: |
-| Troca de mensagens | 1 | Must |
-| Divisão em channels | 1 | Must |
-| Aplicação OpenSource | 1, 5 | Should |
-| Compartilhamento de imagem | 2, 3 | Must |
-| Tradução Instantânea | 3 | Must |
-| Suporte de idiomas | 3 | Should |
-| Feedback usuários | 5 | Could |
-| Usuários contribuem | 5 | Could |
-| Integração de outras ferramentas | 5 | Should |
-| Avaliação de contribuições | 5 | Could |
-| Realização de vídeo conferências | 2 | Should |
-| Suporte pra diversas plataformas | 2 | Should |
-| Criação de um servidor privado | 4 | Must |
+| O usuário deve ser capaz de realizar troca de mensagens | 1 | Must |
+| A plataforma deve oferecer a divisão de conversas em channels | 1 | Must |
+| A aplicação deve se manter OpenSource para receber contribuições de usuários | 1, 5 | Should |
+| O usuário deve ser capaz de compartilhar a sua tela durante uma video conferência | 2, 3 | Should |
+| A aplicação poderia oferecer uma tradução instantânea durante uma conversa| 3 | Would |
+| A plataforma deve oferecer suporte pra mais idiomas | 3 | Should |
+| A plataforma deve ter uma área para abranger o feedback de usuários | 5 | Could |
+| Os usuários podem contribuir para o desenvolvimento da plataforma | 5 | Could |
+| A plataforma deve permitir a integração com outras ferramentas | 5 | Should |
+| As contribuições podem ser avaliadas pela comunidade| 5 | Could |
+| O usuário deve ser capaz de realizar vídeo conferência | 2 | Should |
+| A aplicação deve estar disponível em diferentes plataformas, como mobile e Desktop | 2 | Should |
+| O app deve oferecer a possibilidade do usuário instalar seu próprio servidor privado | 4 | Must |
 
 ## 5. Fontes
 
@@ -66,3 +66,4 @@ _____
 | 09/04/2019 | 1.2 | Adição de requisitos e correções | André Lucas |
 | 09/04/2019 | 1.3 | Adição dos storyBoard 2 e 4 | Gabriel Davi |
 | 09/04/2019 | 1.4 | Adição de  Requisitos e priorizações | Gabriel Davi |
+| 10/04/2019 | 1.5 | Ajustes | Gabriel Davi |
