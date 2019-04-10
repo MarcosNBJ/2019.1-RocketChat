@@ -49,6 +49,9 @@ _____
 | Usuários contribuem | 5 | Could |
 | Integração de outras ferramentas | 5 | Should |
 | Avaliação de contribuições | 5 | Could |
+| Realização de vídeo conferências | 2 | Should |
+| Suporte pra diversas plataformas | 2 | Should |
+| Criação de um servidor privado | 4 | Must |
 
 ## 5. Fontes
 
@@ -62,3 +65,4 @@ _____
 | 09/04/2019 | 1.1 | Adição storyboard opensource | André Lucas |
 | 09/04/2019 | 1.2 | Adição de requisitos e correções | André Lucas |
 | 09/04/2019 | 1.3 | Adição dos storyBoard 2 e 4 | Gabriel Davi |
+| 09/04/2019 | 1.4 | Adição de  Requisitos e priorizações | Gabriel Davi |
