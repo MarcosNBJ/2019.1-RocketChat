@@ -33,16 +33,16 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 
 ![INT2](../img/Elicitacao/introspeccao_02.png)
 
-**Requisitos elicitados**
+**Requisitos elicitados:**
 
-| Requisito | Introspecção | Prioridade |
-|  :------: | :------: | :------: |
-| Eu, como usuário, gostaria de poder enviar arquivos e documentos em uma conversa. | 02 | Should Have |
-| Eu, como usuário, gostaria de poder pesquisar por uma palavra-chave dentro de uma conversa para poder achar uma mensagem relacionada. | 02 | Could Have |
-| Eu, como usuário, gostaria de ver uma listagem com todos os documentos já enviados em um grupo, podendo achar facilmente qualquer um deles quando eu precisar. | 02 | Could Have |
-| Eu, como usuário, gostaria de poder marcar/mencionar um determinado membro de um grupo para chamar sua atenção para uma mensagem importante. | 02 | Should Have |
-| Eu, como usuário, gostaria de poder criar chats para conversas em grupo. | 02 | Must Have |
-| Eu, como usuário, gostaria de uma plataforma que tenha uma interface com um visual agradável, minimalista e intuitivo. | 02 | Should Have |
+| Descrição | Prioridade |
+|  :------: | :--------: |
+| O usuário deve poder enviar arquivos e documentos em uma conversa. | Should Have |
+| O app deve oferecer um campo de busca dentro de uma conversa. | Could Have |
+| O app deve ser capaz de listar todos os documentos já enviados em uma conversa, para que o usuário consiga achar facilmente qualquer um deles. | Could Have |
+| O usuário deve poder marcar/mencionar um determinado membro de um grupo para chamar sua atenção para uma mensagem importante. | Should Have |
+| O usuário deve poder criar chats para conversas em grupo. | Must Have |
+| A plataforma deve ter uma interface com um visual agradável, minimalista e intuitivo. | Should Have |
 
 ## Introspecção 03
 
