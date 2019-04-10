@@ -100,3 +100,13 @@ Por fim, segue também em formato tabular os requisitos anteriormente organizado
 | AD12                  | 6                    | 6                    | 18           | 7,287449393 | 5              | 9,090909091 | 6              | 12,24489796 | 0,4790164906 | 
 | AD13                  | 4                    | 1                    | 9            | 3,643724696 | 2              | 3,636363636 | 2              | 4,081632653 | 0,6418194808 | 
 | TOTAL                 | 84                   | 79                   | 247          | 100         | 55             | 100         | 49             | 30,6122449  |              | 
+
+
+## Versionamento
+
+| Data | Versão | Modificação | Autor |
+|  :------: | :------: | :------: | :------: |
+| 06/04/2019 | 1.0 | Adição da análise de discurso | Marcos Nery |
+| 06/04/2019 | 1.1 | Adição da priorização por MoSCoW | Marcos Nery |
+| 09/04/2019 | 1.2 | Adição da priorização por FTF | Marcos Nery |
+

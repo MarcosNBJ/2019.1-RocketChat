@@ -166,3 +166,13 @@ Por fim, também de forma tabular, seguem os requisitos anteriormente listados, 
 | Q20                   | 4                   | 3                    | 11           | 2,949061662 | 6              | 6,382978723 | 2              | 2,298850575 | 0,3915166603 | 
 | Q21                   | 6                   | 2                    | 14           | 3,753351206 | 3              | 3,191489362 | 2              | 2,298850575 | 0,8646452441 | 
 | TOTAL                 | 122                 | 129                  | 373          | 100         | 94             | 100         | 87             | 100         |              | 
+
+
+## Versionamento
+
+| Data | Versão | Modificação | Autor |
+|  :------: | :------: | :------: | :------: |
+| 06/04/2019 | 1.0 | Adição da análise de discurso | Marcos Nery |
+| 06/04/2019 | 1.1 | Adição da priorização por MoSCoW | Marcos Nery |
+| 09/04/2019 | 1.2 | Adição da priorização por FTF | Marcos Nery |
+
