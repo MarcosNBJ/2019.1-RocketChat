@@ -17,13 +17,23 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 
 ![INT1](../img/Elicitacao/introspeccao_01.png)
 
+**Requisitos elicitados:**
+
+| Descrição | Prioridade |
+|  :------: | :------: |
+| O usuário deve ter a disposição, a criação de canais e grupos, privados/publicos, ilimitados. | Must Have |
+| O app deve possuir uma interface intuitiva, com boa usabilidade. | Should Have |
+| A plataforma deve oferecer a possibilidade do usuário entrar no app por meio de uma conta de outra aplicação. | Would Have |
+| O app deve oferecer a possibilidade do usuário instalar seu próprio servidor local. | Must Have |
+| O usuário deve ter a disposição, o uso de áudio e video conferência. | Should Have |
+| O app deve oferecer ao usuário, poder mencionar, um ou todos, os membros do grupo para chamar atenção para alguma mensagem. | Should Have |
+| Deve ser uma plataforma que ofereça segurança com dados dos usuários. | Must Have |
+
 ## Introspecção 02
 
 ![INT2](../img/Elicitacao/introspeccao_02.png)
 
-## 4. Requisitos e Priorização
-
-A partir dessas introspecções podemos abstrair uma série de requisitos, que estão listados na tabela abaixo, com suas devidas priorizações.
+**Requisitos elicitados**
 
 | Requisito | Introspecção | Prioridade |
 |  :------: | :------: | :------: |
@@ -41,3 +51,4 @@ A partir dessas introspecções podemos abstrair uma série de requisitos, que e
 | 08/04/2019 | 1.0 | Adição da Introspecção 01 | Heron Rodrigues |
 | 09/04/2019 | 1.1 | Adição da Introspecção 02 | Weiller Fernandes |
 | 09/04/2019 | 1.2 | Adição de Requisitos e Prioridades da Introspecção 02 | Weiller Fernandes |
+| 09/04/2019 | 1.3 | Adição de Requisitos e Prioridades da Introspecção 01 | Heron Rodrigues |
