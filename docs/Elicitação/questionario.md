@@ -172,7 +172,7 @@ Por fim, também de forma tabular, seguem os requisitos anteriormente listados, 
 
 | Data | Versão | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
-| 06/04/2019 | 1.0 | Adição da análise de discurso | Marcos Nery |
+| 06/04/2019 | 1.0 | Adição da análise do questionário | Marcos Nery |
 | 06/04/2019 | 1.1 | Adição da priorização por MoSCoW | Marcos Nery |
 | 09/04/2019 | 1.2 | Adição da priorização por FTF | Marcos Nery |
 
