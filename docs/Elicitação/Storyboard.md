@@ -1,24 +1,5 @@
 ## Storyboard
 
-Storyboard - Rocket.Chat v1.0
-![Storyboard](../img/Elicitacao/storyboard_1.png)
-_____
-
-Storyboard - Vídeo chamada v1.0
-
-_____
-
-Storyboard - Translate v1.0
-![Storyboard-translate](../img/Elicitacao/storyboard_3.png)
-_____
-
-Storyboard - Segurança dos dados v1.0
-
-_____
-
-Storyboard - OpenSource v1.0
-![Storyboard-opensource](../img/Elicitacao/storyboard_5.png)
-_____
 ## 1. O que é Storyboard?
 
 O storyboard é uma sequência de desenhos quadro a quadro com o esboço das diversas cenas pensadas para um conteúdo. O visual desse esboço é semelhante ao de uma história em quadrinhos e o objetivo é elaborar e detalhar a sequência da narrativa.
@@ -29,6 +10,27 @@ Ou seja, o objetivo é desenvolver uma sequência de ações da forma mais diver
 
 O objetivo é de mostrar em quadrinhos como o <a href="https://marcosnbj.github.io/2019.1-RocketChat/">Rocket. Chat</a> e suas ferramentas vão elevar a experiência de um grupo de alunos a frente de uma startup de software.
 
+
+
+Storyboard - Rocket.Chat v1.0
+![Storyboard](../img/Elicitacao/storyboard_1.png)
+_____
+
+Storyboard - Vídeo conferência v1.0
+![Storyboard-conferencia](../img/Elicitacao/videoConferencia.png)
+_____
+
+Storyboard - Translate v1.0
+![Storyboard-translate](../img/Elicitacao/storyboard_3.png)
+_____
+
+Storyboard - Segurança dos dados v1.0
+![Storyboard-privacy](../img/Elicitacao/privacyStoryBoard.jpg)
+_____
+
+Storyboard - OpenSource v1.0
+![Storyboard-opensource](../img/Elicitacao/storyboard_5.png)
+_____
 ## 3. Ferramenta utilizada
 
 * [Storyboard That](https://www.storyboardthat.com/pt)
@@ -59,3 +61,4 @@ O objetivo é de mostrar em quadrinhos como o <a href="https://marcosnbj.github.
 | 07/04/2019 | 1.0 | Adição de storyboards | André Lucas |
 | 09/04/2019 | 1.1 | Adição storyboard opensource | André Lucas |
 | 09/04/2019 | 1.2 | Adição de requisitos e correções | André Lucas |
+| 09/04/2019 | 1.3 | Adição dos storyBoard 2 e 4 | Gabriel Davi |
