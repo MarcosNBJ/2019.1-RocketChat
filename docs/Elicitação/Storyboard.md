@@ -14,22 +14,26 @@ O objetivo é de mostrar em quadrinhos como o <a href="https://marcosnbj.github.
 
 Storyboard - Rocket.Chat v1.0
 ![Storyboard](../img/Elicitacao/storyboard_1.png)
+Autores: Gabriel Davi e André Lucas
 _____
 
 Storyboard - Vídeo conferência v1.0
 ![Storyboard-conferencia](../img/Elicitacao/videoConferencia.png)
+Autor: Gabriel Davi
 _____
-
 Storyboard - Translate v1.0
 ![Storyboard-translate](../img/Elicitacao/storyboard_3.png)
+Autor: André Lucas
 _____
 
 Storyboard - Segurança dos dados v1.0
 ![Storyboard-privacy](../img/Elicitacao/privacyStoryBoard.jpg)
+Autor: Gabriel Davi
 _____
 
 Storyboard - OpenSource v1.0
 ![Storyboard-opensource](../img/Elicitacao/storyboard_5.png)
+Autor: André Lucas
 _____
 ## 3. Ferramenta utilizada
 
