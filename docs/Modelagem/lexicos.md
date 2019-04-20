@@ -3,12 +3,12 @@
 
 ### L1
 
-|**Título**|
+|**Título do Léxico**|
 |--|
 |**Noção**|
-| |
+| noção aqui|
 |**Impacto** |
-|  |
+| impacto aqui|
 |**Sinônimos**|
-||
+| sinônimo aqui|
 
