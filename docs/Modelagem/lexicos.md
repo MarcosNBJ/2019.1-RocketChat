@@ -58,6 +58,35 @@
 | - Lidar |
 
 
+### L10
+|**Remover reação**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|- Ação realizada pelo usuário.|
+|- Acontece quando o mesmo retira uma reação anteriormente adicionada a uma mensagem.|
+|- Usuário clica na reação adicionada, e ela é então retirada.|
+|**Impacto** |
+|- Se outros usuários reagiram aquela mensagem com o mesmo emoji, a contagem dessas reações na mensagem decresce em um.|
+|- Se não haviam outras reações com o mesmo emoji, a reação é completamente removida da mensagem.|
+
+
+### L13
+|**Copiar Permalink**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+| - Ação realizada pelo usuário.|
+| - O usuário clica em uma mensagem, e então vai até a opção “Copiar Permalink”, que o permite copiar um link que leva diretamente para a mensagem selecionada dentro do channel.|
+|**Impacto** |
+|- É gerado um Permalink, que o usuário pode então compartilhar com outros usuários.|
+|- Outros usuários que clicam no permalink poderão ver a mensagem por ele salva, e então realizar ações como responder ou adicionar reação.|
+
+
+
+
 ### L14
 
 |**Adicionar novo servidor**|
@@ -72,6 +101,33 @@
 | Um usuário pode adicionar um novo servidor para trabalhar com dois grupos de trabalho diferentes | 
 |**Sinônimos**|
 | |
+
+
+### L15
+
+|**Permalink**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - É um link permanente que pode levar o usuário que clicar a um channel, a uma mensagem, ou a um servidor. |
+|**Impacto**|
+|- O usuário pode gerar o permalink através da ação de Copiar Permalink para mensagem, ou de convidar um outro usuário para um determinado channel ou servidor.
+|- O usuário que receber e usar o permalink será levado para o destino para o qual ele foi gerado. | 
+
+
+### L16
+
+|**Mensagem Fixada**|
+|--|
+|**Classificação**|
+| Estado|
+|**Noção**|
+|- O usuário pode fixar mensagem em um channel ao clicar nela e selecionar a opção de fixar mensagem.|
+|- Uma mensagem fixada poderá ser facilmente acessada pelo menu de mensagens fixadas do channel.|
+|**Impacto**|
+|- Se a mensagem está fixada, os usuários podem clicar nela e escolher desafixar mensagem. Ação pela qual a mensagem passa para o estado de não fixada e deixa de aparecer no menu de mensagens fixadas.|
+
 
 ### L18
 
@@ -199,6 +255,125 @@
 | - Uma notificação não pode ser cancelada, somente ignorada |
 |**Sinônimos**|
 | - Alerta |
+
+
+### L32
+
+|**Anúncio**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - É um aviso textual que o usuário gostaria que fosse visto pelos outros integrantes de um channel. |
+|**Impacto** |
+|- Um Anúncio pode ser criado pelo usuário em um channel|
+|- Um Anúncio criado será fixado na aba Anúncios do channel para todos os outros usuários|
+|- Um Anúncio pode ser removido pelo usuário, desde que este tenha os privilégios necessários|
+|**Sinônimos**|
+| - Aviso |
+
+
+### L33
+
+|**Tópico**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Descrição textual que identifica o assunto a ser tratado em um channel. |
+|**Impacto** |
+|- O administrador do channel pode editar o tópico do channel.|
+|- O tópico colocado será visto por todos os outros usuários membros do channel que forem até a sua descrição.|
+|**Sinônimos**|
+| - Assunto |
+
+
+### L34
+
+|**Channel Favoritado**|
+|--|
+|**Classificação**|
+| Estado|
+|**Noção**|
+|- Um channel favoritado irá aparecer em destaque em relação aos outros na lista de channels do usuário|
+|- Estado é atribuído ao channel quando o usuário realiza a ação de favoritar um channel|
+|**Impacto** |
+|- O usuário pode desfavoritar um channel que esteja favoritado.|
+|- O usuário pode favoritar um channel ainda não favoritado.|
+|**Sinônimos**|
+| - Stared channel |
+
+### L35
+
+|**Favoritar channel**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|- Ação realizada pelo usuário.|
+|- O usuário vai até sua lista de channels e dá um click no botão com ícone de estrela para favoritar um channel. |
+|**Impacto** |
+|- Um channel favoritado vai aparecer em destaque na lista de channels |
+|- O usuário pode desfavoritar um channel favoritado|
+|**Sinônimos**|
+| - Star channel |
+
+### L36
+
+|**Desfavoritar channel**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|- Ação realizada pelo usuário.|
+|- O usuário vai até um channel favoritado e dá um click no ícone da estrela, para desfavoritar o canal.|
+|**Impacto** |
+|- O canal não irá mais aparecer em destaque |
+|- O usuário poderá favoritar novamente o channel |
+|**Sinônimos**|
+| - Unstar channel |
+
+### L37
+
+|**Tom de pele padrão**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+|- Cor da pele que será utilizada nos Emojis que representam figuras humanas|
+|- É possível escolher uma tonalidade dentre 6, 1 neutra que é amarela e 5 que são inspiradas na realidade|
+|**Impacto** |
+|- O usuário pode escolher o tom de pele padrão que será utilizado nos Emojis que ele usar.|
+|**Sinônimos**|
+| - Emoji Skin |
+
+### L38
+
+|**Escolher tom de pele padrão**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|- Ação realizada pelo usuário.|
+|- Usuário realiza a ação ao, dentro de uma conversa, selecionar o ícone de Emojis e em seguida selecionar o ícone circular colorido que representa o tom de pele padrão.|
+|**Impacto** |
+|- Todos os emojis que representam figuras humanas que o usuário mandar terão a cor de pele na tonalidade selecionada|
+|- O usuário pode tocar no botão novamente para trocar a cor|
+
+### L33
+
+|**Tópico**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Descrição textual que identifica o assunto a ser tratado em um channel. |
+|**Impacto** |
+|- O administrador do channel pode editar o tópico do channel.|
+|- O tópico colocado será visto por todos os outros usuários membros do channel que forem até a sua descrição.|
+|**Sinônimos**|
+| - Assunto |
+
 
 ### L39
 
@@ -359,3 +534,4 @@ Usuário pode ocultar os chat |
 | 20/04/2019 | 1.1 | Adição dos léxicos L9, L14, L18, L20, L22, L48-L50 | João Lucas |
 | 20/04/2019 | 1.2 | Adição dos léxicos L25-L28 | Lucas Maciel |
 | 21/04/2019 | 1.3 | Adição dos léxicos L39-L43, L51 | Lucas Maciel |
+| 21/04/2019 | 1.4 | Adição dos léxicos L6, L7, L10, L13, L15 L32-L38 | Marcos Nery |
