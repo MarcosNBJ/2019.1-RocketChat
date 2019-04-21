@@ -13,6 +13,23 @@
 | - sinônimo aqui|
 
 
+### L4
+
+|**Mencionar usuário**|
+|--|
+|**Classificação**|
+| Verbo |
+|**Noção**|
+| - Ação do usuário em marcar o nome de outro usuário|
+| - Realizada ao digitar o símbolo ‘@’, colocando a tag do usuário |
+| - A aplicação mostrará uma lista com todos os usuários |
+| - Realizada em um channel ou grupo privado |
+|**Impacto** |
+| - Com isso, o usuário mencionado receberá uma notificação |
+| - Na área “Menções” estará listada todas as mensagens em que o usuário foi mencionado |
+|**Sinônimos**|
+| - Mentions, Menções, Mencionar pessoas |
+
 ### L6
 |**Tag**|
 |--|
@@ -71,6 +88,18 @@
 |- Se outros usuários reagiram aquela mensagem com o mesmo emoji, a contagem dessas reações na mensagem decresce em um.|
 |- Se não haviam outras reações com o mesmo emoji, a reação é completamente removida da mensagem.|
 
+### L12
+
+|**Membros**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Usuários que participam de um channel|
+|**Impacto** |
+| - Membros podem reagir a mensagem, procurar mensagem, remover reação, procurar mensagem,  fixar mensagem, favoritar mensagem,  mencionar usuário, desenhar, anexar arquivo|
+|**Sinônimos**|
+| - Members|
 
 ### L13
 |**Copiar Permalink**|
@@ -84,9 +113,6 @@
 |- É gerado um Permalink, que o usuário pode então compartilhar com outros usuários.|
 |- Outros usuários que clicam no permalink poderão ver a mensagem por ele salva, e então realizar ações como responder ou adicionar reação.|
 
-
-
-
 ### L14
 
 |**Adicionar novo servidor**|
@@ -98,7 +124,7 @@
 | - Usar outro conector entre usuários |
 |**Impacto**|
 | Um usuário pode se conectar a outra instância do software para poder ter maior controle da privacidade das suas mensagens |
-| Um usuário pode adicionar um novo servidor para trabalhar com dois grupos de trabalho diferentes | 
+| Um usuário pode adicionar um novo servidor para trabalhar com dois grupos de trabalho diferentes |
 |**Sinônimos**|
 | |
 
@@ -113,7 +139,7 @@
 | - É um link permanente que pode levar o usuário que clicar a um channel, a uma mensagem, ou a um servidor. |
 |**Impacto**|
 |- O usuário pode gerar o permalink através da ação de Copiar Permalink para mensagem, ou de convidar um outro usuário para um determinado channel ou servidor.
-|- O usuário que receber e usar o permalink será levado para o destino para o qual ele foi gerado. | 
+|- O usuário que receber e usar o permalink será levado para o destino para o qual ele foi gerado. |
 
 
 ### L16
@@ -138,12 +164,28 @@
 |**Noção**|
 | - Computador responsável por hospedar o software |
 | - Computador que possui uma instância do software e lida com as requisições|
-| - Sistema de computação centralizada que fornece serviços| 
+| - Sistema de computação centralizada que fornece serviços|
 |**Impacto**|
 | - Um usuário tem que se conectar a um servidor para poder enviar mensagem |
 | - Um usuário pode ser conectar a vários servidores para poder utilizar ambientes diferentes para situações diferentes |
 |**Sinônimo**|
 | - Servo |
+
+### L19
+
+|**Usuário**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Aquele que desfruta do Rocket.chat, possui conta de usuário|
+|**Impacto** |
+| - Rocket.chat disponibiliza todas as suas funcionalidades ao usuário|
+|- Usuário pode se tornar membro de um channel|
+|- O usuário utiliza uma conta de usuário|
+|- Usuário é inicialmente cadastrado como Usuário Community, podendo se tornar usuário Usuário Pro ou Usuário Enterprise|
+|**Sinônimos**|
+| - User, Users, Usuários|
 
 ### L20
 
@@ -185,7 +227,7 @@
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Opção de comunicação alternativa ao chat por texto em que o usuário se comunica através de contato visual e sonoro |	
+| - Opção de comunicação alternativa ao chat por texto em que o usuário se comunica através de contato visual e sonoro |
 | - Tecnologia que permite o contacto visual e sonoro em tempo real, entre pessoas que estão em lugares diferentes |
 | - Reunião virtual entre integrantes de um grupo |
 | - Usuário deseja realizar uma reunião online com sua equipe. |
@@ -525,6 +567,47 @@ Usuário pode ocultar os chat |
 | - Bate-Papo |
 | - Sala Virtual |
 | - Chat |
+
+### L65
+
+|**Rocket.chat**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Plataforma de chat de código aberto, gratuita|
+| - Aplicação focada para equipes que desejam controlar e centralizar sua comunicação|
+|**Impacto** |
+| - O Rocket chat disponibiliza todas as suas funcionalidades aos seus usuários, essas funcionalidades variando para usuário community, usuário pro ou usuário enterprise|
+|**Sinônimos**|
+| - |
+
+### L66
+
+|**Usuário Community**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Aquele que desfruta das funcionalidades gratuitas do Rocket.chat|
+|**Impacto** |
+| - Usuário community pode criar chat, enviar mensagem, desenhar, anexar arquivo, conectar-se a um servidor, juntar-se a comunidade, criar um servidor, deletar conta, alterar o status do usuário, gerar um permalink, reagir a mensagem, procurar mensagem, remover reação, procurar mensagem,  fixar mensagem, favoritar mensagem,  mencionar usuário|
+|**Sinônimos**|
+| - Usuário comum|
+
+### L67
+
+|**Conta de usuário**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Agrupamento dos dados do usuário|
+|- Criada no momento de cadastrar um novo usuário|
+|**Impacto** |
+| - É necessário uma conta para que o usuário utilize as funcionalidades que o Rocket.chat disponibiliza|
+|**Sinônimos**|
+| - Conta|
 
 ## Versionamento
 
