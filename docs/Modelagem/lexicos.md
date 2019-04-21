@@ -6,11 +6,11 @@
 |**Título do Léxico**|
 |--|
 |**Noção**|
-| noção aqui|
+| - noção aqui|
 |**Impacto** |
-| impacto aqui|
+| - impacto aqui|
 |**Sinônimos**|
-| sinônimo aqui|
+| - sinônimo aqui|
 
 
 ### L9
@@ -85,6 +85,73 @@
 | - Estado|
 | - Condição |
 
+### L25
+
+|**Webconferência**|
+|--|
+|**Noção**|
+| - Opção de comunicação alternativa ao chat por texto em que o usuário se comunica através de contato visual e sonoro |	
+| - Tecnologia que permite o contacto visual e sonoro em tempo real, entre pessoas que estão em lugares diferentes |
+| - Reunião virtual entre integrantes de um grupo |
+| - Usuário deseja realizar uma reunião online com sua equipe. |
+|**Impacto** |
+| - Usuário inicia uma webconferência para se comunicar com outros usuários |
+| - Usuários participantes de uma Webconferência podem interagir entre si |
+| - Permite que os integrantes de um grupo não precisem se deslocarem para uma reunião em um local físico |
+| - Usuário grava um video da webconferência e compartilha com sua equipe para uma possível consulta do que foi acordado e discutido |
+| - Permite ao usuário transmitir a tela do seu dispositivo (computador ou celular) |
+|**Sinônimos**|
+| - Videoconferência |
+| - Reunião Online |
+
+### L26
+
+|**Bot**|
+|--|
+|**Noção**|
+| - Robôs que realizam certas tarefas pré determinadas no channel ou grupo do aplicativo |
+| - Módulo que pode ser integrado a uma parte maior de um programa |
+| - Aplicação de software concebido para simular ações humanas repetidas vezes de maneira padrão |
+| - Aplicação de software para automatizar determinadas ações |
+| - Bots são considerados como Usuário não gerenciador por um humano, mas por uma programa |
+|**Impacto** |
+| - Os bots realizam as tarefas, previamente programadas, repetidas vezes, assim, economizando algum tempo do usuário real |
+| - Alguns Bots providos de inteligência artificial podem realizar ações que não são esperadas |
+| - Usuário pode configurar o bot da maneira desejada, de acordo com as possibilidades com que o bot foi desenvolvido |
+|**Sinônimos**|
+| - Robô |
+
+
+### L27
+
+|**Discussão**|
+|--|
+|**Noção**|
+| - “Subgrupo” para os usuários adicionarem apenas um parte de outros membros para discutir algum assunto |
+| - “Thread” do grupo ou channel principal |
+| - Usuário deseja realizar um debate entre alguns membros do grupo, sem incomodar o restante do grupo com assuntos que não são de interesse geral |
+|**Impacto** |
+| - Usuário inicia uma discussão a parte do assunto principal do channel ou grupo com outros membros |
+| - Gera um novo canal de comunicação na barra lateral, na categoria de private groups ou grupo privado |
+| - Usuários adicionados passam a ser integrantes da sala ou grupo criado |
+| - Usuários podem deixar a sala |
+| - Usuários podem receber notificações da sala, grupo ou channel |
+
+### L28
+
+|**Notificação**|
+|--|
+|**Noção**|
+| - Alerta por meio visual e/ou sonoro ao usuário |
+| - Alerta de mensagem enviada por outro usuário |
+| - Alerta quando usuário é mencionado em um grupo |
+|**Impacto** |
+| - “Disparado” alerta ao usuário ser mencionado por outro usuário |
+| - As notificações de um channel, grupo ou usuário podem ser silenciadas |
+| - Uma notificação não pode ser cancelada, somente ignorada |
+|**Sinônimos**|
+| - Alerta |
+
 ### L47
 
 |**Sair da Sala (João)**|
@@ -123,3 +190,10 @@
 | - Guia |
 | - Livro de Consulta | 
 
+## Versionamento
+
+| Data | Versão | Modificação | Autor |
+|  :------: | :------: | :------: | :------: |
+| 19/04/2019 | 1.0 | Abertura do documento | Marcos Nery |
+| 20/04/2019 | 1.1 | Adição dos léxicos L9, L14, L18, L20, L22, L47-L49 | João Lucas |
+| 20/04/2019 | 1.2 | Adição dos léxicos L25-L28 | Lucas Maciel |
