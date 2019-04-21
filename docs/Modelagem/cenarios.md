@@ -23,6 +23,163 @@
 |  qual técnica ou quais técnicas levantaram esse necessidade|
 
 
+### C1 - V1
+
+|**Cadastro de  um novo usuário no Rocket.Chat**|
+|--|
+|**Objetivo** |
+| Cadastrar um novo usuário |
+|**Contexto** |
+| -Local: Página inical do app do rocket.chat |
+| -pré-condição: Possuir internet, não estar logado na plataforma |
+| -Pós-condição:  Usuário cadastrado |
+|**Atores** |
+|  Usuário não cadastrado |
+|**Recursos** |
+|  -Internet. |
+|  -Computador/celular. |
+|  -Rocket.Chat instalado. |
+|**Restrição**|
+|  -Internet ruim, não possuir uma conta em uma rede social externa. |
+|  -não possuir uma conta em uma rede social externa. |
+|**Exceção** |
+|  -Internet cair. |
+|  -App dar crash. |
+|  -Senha inválida. |
+|  -Email inválido. |
+|  -Conta em uma rede social externa inexistente. |
+|**Episódios** |
+|  -Um novo usuário ou usuário que deseja uma nova conta entra na plataforma do Rocket.Chat em seu computador ou celular. |
+|-Na tela inicial, o usuário não logado seleciona a opção “Registrar um novo usuário”.|
+|-Na tela de cadastro, o usuário preenche os campos de cadastro com sua senha e email e nome. Caso deseje, pode-se também selecionar umas das redes sociais para fazer log up.|
+|-Criando um usuário do zero ou usando uma rede social, o novo usuário é direcionado para uma página onde deve selecionar seu user name.|
+|-O usuário preenche o campo de user name e seu cadastro é realizado com sucesso.|
+|**Levantado pela técnica**|
+|  - |
+
+
+### C1 - V2
+
+|**Cadastrar um novo usuário**|
+|--|
+|**Objetivo** |
+| Acessar as funcionalidades da plataforma disponíveis para usuários cadastrados |
+|**Contexto** |
+| -Local: Página inical do app do rocket.chat |
+| -pré-condição: Possuir internet, não estar logado na plataforma |
+| -Pós-condição:  Usuário cadastrado |
+|**Atores** |
+|  Usuário não cadastrado |
+|**Recursos** |
+|  -Internet. |
+|  -Computador/celular. |
+|  -Rocket.Chat instalado. |
+|**Restrição**|
+|  -Internet ruim, não possuir uma conta em uma rede social externa. |
+|  -não possuir uma conta em uma rede social externa. |
+|**Exceção** |
+|  -Internet cair. |
+|  -App dar crash. |
+|  -Senha inválida. |
+|  -Email inválido. |
+|  -Conta em uma rede social externa inexistente. |
+|**Episódios** |
+|  -Um novo usuário ou usuário que deseja uma nova conta entra na plataforma do Rocket.Chat em seu computador ou celular. |
+|-Na tela inicial, o usuário não logado seleciona a opção “Registrar um novo usuário”.|
+|-Na tela de cadastro, o usuário preenche os campos de cadastro com sua senha e email e nome. Caso deseje, pode-se também selecionar umas das redes sociais para fazer sign up.|
+|-Criando um usuário do zero ou usando uma rede social, o novo usuário é direcionado para uma página onde deve selecionar seu user name.|
+|-O usuário preenche o campo de user name e seu cadastro é realizado com sucesso.|
+|**Levantado pela técnica**|
+|-|
+
+
+### C2 - V1
+
+|**Realizar Web conferência**|
+|--|
+|**Objetivo** |
+| Realizar uma reunião online |
+|**Contexto** |
+| -Local: Plataforma Rocket.chat |
+| -Pré-condição: possuir internet, possuir a plataforma Rocket.Chat no celular ou computador |
+| -Pós-condição: Web conferência será realizada com sucesso entre os usuários
+|
+|**Atores** |
+|  -Pessoa 1 |
+|  -Pessoa 2 |
+|**Recursos** |
+|  -Internet |
+|  -Computador/celular |
+|  -Rocket.Chat instalado |
+|**Restrição**|
+|  -Internet ruim |
+|  -bug na plataforma |
+|  -muito ruído externo |
+|  -microfone ruim |
+|  -alto-falante ruim |
+|  -computador ou celular com configurações ruins |
+|  -ausência de webcam |
+|**Exceção** |
+|  -Internet cair. |
+|  -Plataforma dar crash. |
+|  -computador quebrar. |
+|  -microfone do computador quebrar.|
+|**Episódios** |
+|  -Pessoa 1 um marca reunião com a pessoa 2. |
+|  -Pessoa 1 acessa a internet e baixa o rocket.chat em seu computador.|
+|  -Pessoa 1 pega seu fone de ouvido e testa seu microfone.|
+|  -Pessoa 2 acessa a internet e baixa o rocket chat em seu celular.|
+|  -Pessoa 2 testa o microfone e autofalante de seu celular, já que não possui fones de ouvido.|
+|  -Pessoa um entra em sua conta no Rocket.Chat e procura o usuário da Pessoa 2.|
+|  -Pessoa 1 entra em um bate papo com a pessoa 2. |
+|  -Pessoa 1 seleciona a opção “Realizar Vídeo conferência” e manda o convite para a pessoa 2.|
+|  -Pessoa 2 entra em sua conta do Rocket.chat e aceita o convite para a realização da web conferencia.|
+|**Levantado pela técnica**|
+|  Storyboard, introspecção, questionário, análise de protocolo, análise de discurso |
+
+
+### C2 - V2
+
+|**Realizar Web conferência**|
+|--|
+|**Objetivo** |
+| Conversar a distância com outro usuário/grupo. |
+|**Contexto** |
+| -Local: Plataforma Rocket.chat |
+| -Pré-condição: possuir internet, possuir a plataforma Rocket.Chat no celular ou computador |
+| -Pós-condição: Web conferência será realizada com sucesso entre os usuários
+|
+|**Atores** |
+|  -Criador da web conferência |
+|  -Grupo/pessoas que irão participar  |
+|**Recursos** |
+|  -Internet |
+|  -Computador/celular |
+|  -Rocket.Chat instalado |
+|**Restrição**|
+|  -Internet ruim |
+|  -bug na plataforma |
+|  -muito ruído externo |
+|  -microfone ruim |
+|  -alto-falante ruim |
+|  -computador ou celular com configurações ruins |
+|  -ausência de webcam |
+|**Exceção** |
+|  -Internet cair. |
+|  -Plataforma dar crash. |
+|  -computador quebrar. |
+|  -microfone do computador quebrar.|
+|**Episódios** |
+| -O criador da web conferência um marca reunião com o grupo/pessoa.|
+| -Todos os envolvidos pegam seu fone de ouvido e testam seu microfone.|
+| -Criador da conversa entra em sua conta no Rocket.Chat e procura o usuário dos outros envolvidos.|
+| -Criador da web conferência entra em um bate papo com o grupo/pessoa.|
+| -Criador da web conferência seleciona a opção “Realizar Vídeo conferência” e manda o convite para o grupo/pessoa.|
+| -O grupo/pessoa entra em sua conta do Rocket.chat e aceita o convite para a realização da web conferência.|
+|**Levantado pela técnica**|
+|  Storyboard, introspecção, questionário, análise de protocolo, análise de discurso |
+
+
 ### C5
 
 |**Editar uma mensagem**|
@@ -32,7 +189,7 @@
 |**Contexto** |
 |-Local: channel da conversa|
 |-Tempo: A qualquer momento|
-|-Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel, bem como ter as permissões necessárias 
+|-Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel, bem como ter as permissões necessárias
 |-Pós-condição: A dada mensagem no channel será mostrada com o conteúdo editado e um identificador contendo a palavra “Editada”|
 |**Atores** |
 |  Usuário |
@@ -96,7 +253,7 @@
 |**Contexto** |
 |- Local: channel da conversa|
 |- Tempo: A qualquer momento|
-|- Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel| 
+|- Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel|
 |- Pós-condição: Será visto no channel o desenho enviado pelo usuário|
 |**Atores** |
 |  Usuário |
@@ -114,7 +271,7 @@
 |- Usuário entra no channel desejado|
 |- Usuário clica no botão de “plus”|
 |- Usuário clica na opção “desenho”|
-|- Usuário desenha o conteúdo desejado| 
+|- Usuário desenha o conteúdo desejado|
 |- Usuário envia o desenho|
 |**Levantado pela técnica**|
 |  qual técnica ou quais técnicas levantaram esse necessidade|
@@ -145,7 +302,7 @@
 |- Usuário cancela a ação|
 |**Episódios** |
 |- Usuário entra logado no servidor|
-|- Usuário entra no channel desejado| 
+|- Usuário entra no channel desejado|
 |- Usuário clica no botão “plus”|
 |- Usuário clica em anexar um arquivo|
 |- Usuário seleciona o arquivo desejado|
@@ -163,7 +320,7 @@
 |**Contexto** |
 |- Local: channel da conversa|
 |- Tempo: A qualquer momento|
-|- Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel no qual deseja enviar uma mensagem| 
+|- Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel no qual deseja enviar uma mensagem|
 |- Pós-condição: A mensagem enviada será mostrada no channel para todos os usuários membros, junto com uma notificação que chegará se o usuário tiver sido mencionado|
 |**Atores** |
 |  Usuário |
@@ -188,10 +345,85 @@
 |**Levantado pela técnica**|
 |  qual técnica ou quais técnicas levantaram esse necessidade|
 
+### C15 - V1
+
+|**Sair de um channel  **|
+|--|
+|**Objetivo** |
+| Não ser mais participante de um channel na plataforma e com isso não receber notificações do mesmo |
+|**Contexto** |
+| -Local: Um channel dentro da plataforma|
+| -Tempo: A qualquer momento após um chat em grupo ser iniciado e o membro que deseja se retirar seja adicionado|
+| -Pré-condição: Estar conectado com a internet, ter o Rocket.chat baixado em seu computador, possuir um usuário na plataforma, estar presente no chat que deseja sair.|
+| -Pós-condição: Não participação no chat em grupo.|
+|**Atores** |
+|  Usuário cadastrado presente no channel |
+|**Recursos** |
+|  -Internet. |
+|  -Computador/celular. |
+|  -Rocket.Chat instalado. |
+|  -Estar presente em um channel |
+|**Restrição**|
+| -Baixa conexão com a internet|
+| -Baixo desempenho do computador, causando lentidão no processo|
+|**Exceção** |
+| -Não possuir internet |
+| -App dar crash |
+| -Computador quebrar |
+| -Não participar de nenhum grupo |
+| -Não possuir Rocket.chat versão desktop, nem conta na plataforma |
+|**Episódios** |
+| -Surge no usuário o desejo sair de um determinado grupo.|
+| -O usuário abre a plataforma em seu computador.|
+| -O usuário busca na área de channels, o grupo no qual deseja se retirar.|
+| -O usuário clica nos três pontos que surgem ao manter o cursor em cima do grupo que deseja sair.|
+| -Após o clique, surgem diversas interações que podem ser realizadas com o grupo, dentre tais a de “Deixar grupo”.|
+| -O usuário clica na opção “ Deixar grupo” e , com isso, deixa o grupo.|
+|**Levantado pela técnica**|
+|-|
+
+### C16 - V1
+
+|**Esconder sala**|
+|--|
+|**Objetivo** |
+| Não ver mais uma sala e nem receber notificações da mesma|
+|**Contexto** |
+| -Local: Plataforma Rocket.Chat.|
+| -Tempo: a qualquer momento, quando o surgir no usuário o desejo de deixar uma sala.|
+| -Pré-condição: Estar conectado com a internet, ter o Rocket.chat baixado em seu computador, possuir um usuário na plataforma, estar presente no chat que deseja Esconder.|
+| -Pós-condição: Não ver mais e nem ser notificado pelo chat escondido.|
+|**Atores** |
+|  Usuário cadastrado presente no channel |
+|**Recursos** |
+|  -Internet. |
+|  -Computador/celular. |
+|  -Rocket.Chat instalado. |
+|  -Estar presente em um channel |
+|**Restrição**|
+| -Baixa conexão com a internet|
+| -Baixo desempenho do computador, causando lentidão no processo|
+|**Exceção** |
+| -Não possuir internet |
+| -App dar crash |
+| -Computador quebrar |
+| -Não participar de nenhum grupo |
+| -Não possuir Rocket.chat versão desktop, nem conta na plataforma |
+|**Episódios** |
+| -Surge no usuário o desejo sair de esconder um grupo.|
+| -O usuário abre a plataforma em seu computador.|
+| -O usuário busca na área de channels, o grupo no qual deseja se esconder.|
+| -O usuário clica nos três pontos que surgem ao manter o cursor em cima do grupo.|
+| -Após o clique, surgem diversas interações que podem ser realizadas com o grupo, dentre tais a de “esconder grupo”.|
+| -O usuário clica na opção “ esconder grupo” e , com isso, esconde o grupo, passando a não receber mais atividades do mesmo, mas podendo restaurar a qualquer momento.|
+|**Levantado pela técnica**|
+|-|
+
 
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 19/04/2019 | 1.0 | Abertura do documento | Marcos Nery |
-| 21/04/2019 | 1.1 | Adição dos Cenários C5, C7, C8, C9, L12 | Marcos Nery |
+| 21/04/2019 | 1.1 | Adição dos Cenários C5, C7, C8, C9, c12 | Marcos Nery |
+| 21/04/2019 | 1.2 | Adição dos Cenários C1 - v1, C1 - v2, C2 - v1, C2 - v2, C15, C16, c12 | Gabriel Davi |
