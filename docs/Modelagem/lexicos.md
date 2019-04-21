@@ -13,10 +13,39 @@
 | - sinônimo aqui|
 
 
+### L6
+|**Tag**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Palavra precedida pelo símbolo "@", identifica o usuário, sendo que cada um possui uma tag única. E também existe a tag especial @all, que identifica todos os usuários de um dado channel.|
+|**Impacto** |
+|- O usuário define sua própria Tag.|
+|- É utilizada pelos usuários para procurar por usuários, adicionar usuários a um grupo, e mencionar usuários em uma conversa.|
+
+
+### L7
+|**Emoji**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Símbolos gráficos usados para representar ações, objetos ou ideias abstratas, como uma risada, um choro, raiva, um relógio, uma bola, ou mesmo a ação de pedalar.|
+|**Impacto** |
+|- Podem ser utilizados pelo usuário dentro durante uma conversa para exprimir essas ideias ou ações sem ter que descreve-las por palavras.|
+|- O usuário pode adicionar uma reação a uma mensagem, anexando a ela um emoji. |
+|- Muitos já são obtidos junto com o aplicativo. Mas o usuário também pode incluir novos, feitos por ele ou por terceiros.|
+|**Sinônimos**|
+| - Reação |
+
+
 ### L9
 
 |**Reagir a mensagem**|
 |--|
+|**Classificação**|
+| Verbo|
 |**Noção**|
 | - Ação dentro do Channel a qual um usuário pode se expressar seu sentimento em relação a alguma mensagem enviada por outro usuário através de emojis|
 |**Impacto** |
@@ -33,6 +62,8 @@
 
 |**Adicionar novo servidor**|
 |--|
+|**Classificação**|
+| Verbo|
 |**Noção**|
 | - Se conectar a uma nova instância do software |
 | - Usar outro conector entre usuários |
@@ -46,6 +77,8 @@
 
 |**Servidor**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - Computador responsável por hospedar o software |
 | - Computador que possui uma instância do software e lida com as requisições|
@@ -60,6 +93,8 @@
 
 |**Instância do software**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - Cópia do software em funcionamento em um computador ou servidor |
 |**Impacto**|
@@ -73,6 +108,8 @@
 
 |**Status do Usuário**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - Estado do usuário no software |
 | - Disponibilidade do usuário para conversar |
@@ -89,6 +126,8 @@
 
 |**Webconferência**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - Opção de comunicação alternativa ao chat por texto em que o usuário se comunica através de contato visual e sonoro |	
 | - Tecnologia que permite o contacto visual e sonoro em tempo real, entre pessoas que estão em lugares diferentes |
@@ -108,6 +147,8 @@
 
 |**Bot**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - Robôs que realizam certas tarefas pré determinadas no channel ou grupo do aplicativo |
 | - Módulo que pode ser integrado a uma parte maior de um programa |
@@ -126,6 +167,8 @@
 
 |**Discussão**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - “Subgrupo” para os usuários adicionarem apenas um parte de outros membros para discutir algum assunto |
 | - “Thread” do grupo ou channel principal |
@@ -144,6 +187,8 @@
 
 |**Notificação**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - Alerta por meio visual e/ou sonoro ao usuário |
 | - Alerta de mensagem enviada por outro usuário |
@@ -159,6 +204,8 @@
 
 |**Ordenação de chats**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - É a categorização dos chats  que pode ser visualizada no menu localizado à esquerda na Versão Desktop do aplicativo |
 | - Disposição de cada tipo de chat em sua categoria: channels, grupos privados, discussões ou mensagens diretas |
@@ -176,6 +223,8 @@ Usuário pode ocultar os chat |
 
 |**Conversão de áudio para texto**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - Ação realizada pelo aplicativo |
 | - Ação acontece em uma webconferência |
@@ -191,6 +240,8 @@ Usuário pode ocultar os chat |
 
 |**Enviar mensagens**|
 |--|
+|**Classificação**|
+| Verbo|
 |**Noção**|
 | - Ação realizada por um usuário em um grupo, channel ou chat pessoal |
 | - Ação de escrever um texto, adicionar imagens, fazer um desenho a partir do aplicativo e compartilhar a um grupo ou outro usuário do aplicativo |
@@ -207,6 +258,8 @@ Usuário pode ocultar os chat |
 
 |**Mensagem**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - Objeto criado por usuário que contém texto, desenho, ou arquivo anexado |
 | - Representação de informações ou idéias compartilhadas em grupo, channel ou chat pessoal |
@@ -223,6 +276,8 @@ Usuário pode ocultar os chat |
 
 |**Desenhar**|
 |--|
+|**Classificação**|
+| Verbo|
 |**Noção**|
 | - Ação realizada por um usuário em um grupo, channel ou chat pessoal
 | - Maneira alternativa de criar uma mensagem através da criação de um desenho no momento em que se cria a mensagem |
@@ -239,6 +294,8 @@ Usuário pode ocultar os chat |
 
 |**Sair da Sala**|
 |--|
+|**Classificação**|
+| Verbo|
 |**Noção**|
 | - Ação de deixar de participar de um canal |
 |**Impacto**|
@@ -252,6 +309,8 @@ Usuário pode ocultar os chat |
 
 |**Esconder Sala**|
 |--|
+|**Classificação**|
+| Verbo|
 |**Noção**|
 | - Ação de fazer com que um canal não seja mais visível |
 |**Impacto**|
@@ -264,6 +323,8 @@ Usuário pode ocultar os chat |
 
 |**Diretório**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - Página onde se encontram todos os canais e usuários de um servidor|
 |**Impacto**|
@@ -277,6 +338,8 @@ Usuário pode ocultar os chat |
 
 |**Room**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - É uma sala virtual onde participantes de um grupo podem conversar, compartilhar informações ou idéias |
 | - É o termo genérico para channel, grupo privado, discussão ou mensagens diretas presentes no aplicativo |
