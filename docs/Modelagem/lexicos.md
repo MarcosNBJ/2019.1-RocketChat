@@ -1,7 +1,7 @@
 # Léxicos
 
 
-### L1
+### L
 
 |**Título do Léxico**|
 |--|
@@ -136,6 +136,9 @@
 | - Usuários adicionados passam a ser integrantes da sala ou grupo criado |
 | - Usuários podem deixar a sala |
 | - Usuários podem receber notificações da sala, grupo ou channel |
+|**Sinônimos**|
+| - Discussões |
+| - Subgrupo |
 
 ### L28
 
@@ -152,7 +155,87 @@
 |**Sinônimos**|
 | - Alerta |
 
-### L47
+### L39
+
+|**Ordenação de chats**|
+|--|
+|**Noção**|
+| - É a categorização dos chats  que pode ser visualizada no menu localizado à esquerda na Versão Desktop do aplicativo |
+| - Disposição de cada tipo de chat em sua categoria: channels, grupos privados, discussões ou mensagens diretas |
+ |
+|**Impacto** |
+| - Usuários são capazes de visualizarem cada chat em sua devida categoria |
+| - Facilita encontrar algum chat
+Usuário pode ocultar os chat |
+| - Usuário pode criar novo chat |
+|**Sinônimos**|
+| - Categorias de Chats |
+| - Listagem de Chats |
+
+### L40
+
+|**Conversão de áudio para texto**|
+|--|
+|**Noção**|
+| - Ação realizada pelo aplicativo |
+| - Ação acontece em uma webconferência |
+| - Aplicativo utiliza um processo de reconhecimento e, logo após, mostra ao usuário o áudio processado em formato de texto |
+|**Impacto** |
+| - Usuários podem ver os resultados do reconhecimento do áudio quase que em tempo real |
+| - Usuários podem desabilitar essa opção ou ação do aplicativo |
+| - Essa opção pode ajudar usuários que possuem deficiências auditivas |
+|**Sinônimos**|
+| - Transcrição de áudio em texto |
+
+### L41
+
+|**Enviar mensagens**|
+|--|
+|**Noção**|
+| - Ação realizada por um usuário em um grupo, channel ou chat pessoal |
+| - Ação de escrever um texto, adicionar imagens, fazer um desenho a partir do aplicativo e compartilhar a um grupo ou outro usuário do aplicativo |
+| - Usuário deseja compartilhar uma idéia ou informação com um ou vários outros usuários no aplicativo |
+|**Impacto** |
+| - Usuário(s) destinatário(s) recebem uma notificação se tiverem sido mencionados em um grupo ou se a mensagem foi enviada de maneira pessoal |
+| - Usuário(s) destinatário(s), ou seja, os usuários presentes no grupo, ou channel que a mensagem foi gerada ou usuários destinatários diretos conseguem visualizar a mensagem gerada |
+| - Uma nova mensagem é adicionada em um chat de um grupo, channel, ou chat pessoal |
+| - Mensagem gerada pode receber todas as ações de uma mensagem |
+|**Sinônimos**|
+| - Mandar Mensagem |
+
+### L42
+
+|**Mensagem**|
+|--|
+|**Noção**|
+| - Objeto criado por usuário que contém texto, desenho, ou arquivo anexado |
+| - Representação de informações ou idéias compartilhadas em grupo, channel ou chat pessoal |
+|**Impacto** |
+| - Usuário remetente pode a qualquer momento remover mensagem enviada, porém somente o conteúdo da mensagem é apagado, ainda é possível ver que a mensagem por um momento “existiu” |
+| - Mensagem gerada torna-se disponível para algum usuário favoritar mensagem |
+| - Usuários podem fixar mensagem |
+| - Usuários podem copiar mensagem |
+| - Usuários podem citar ou responder mensagem |
+| - Usuário remetente pode editar mensagem |
+| - Usuários podem copiar permalink |
+
+### L43
+
+|**Desenhar**|
+|--|
+|**Noção**|
+| - Ação realizada por um usuário em um grupo, channel ou chat pessoal
+| - Maneira alternativa de criar uma mensagem através da criação de um desenho no momento em que se cria a mensagem |
+| - Usuário deseja expressar uma idéia ou informação através de um desenho |
+| - Opção disponível na versão mobile do aplicativo |
+|**Impacto** |
+| - Usuário(s) presentes em um grupo, channel ou chat pessoal vão poder visualizar a mensagem em formato de desenho |
+| - Usuários poderão realizar as mesmas ações que uma mensagem comum |
+|**Sinônimos**|
+| - Rascunho |
+| - Rasura |
+
+### L48
 
 |**Sair da Sala**|
 |--|
@@ -165,7 +248,7 @@
 | - Retirar-se |
 | - Abandonar |
 
-### L48
+### L49
 
 |**Esconder Sala**|
 |--|
@@ -177,7 +260,7 @@
 | - Ocultar |
 | - Desaparecer |
 
-### L49
+### L50
 
 |**Diretório**|
 |--|
@@ -188,12 +271,28 @@
 | - Procurando um usuário que não lembrava seu nome de usuário, o usuário 1 acessou o diretório e procurou o nome de usuário do usuário 2|
 |**Sinônimo**|
 | - Guia |
-| - Livro de Consulta | 
+| - Livro de Consulta |
+
+### L51
+
+|**Room**|
+|--|
+|**Noção**|
+| - É uma sala virtual onde participantes de um grupo podem conversar, compartilhar informações ou idéias |
+| - É o termo genérico para channel, grupo privado, discussão ou mensagens diretas presentes no aplicativo |
+|**Impacto** |
+| - Uma Room pode ser criada por um usuário e este pode convidar usuários para serem membros da equipe na sala |
+| - Uma Room pode ser ocultada (somente Versão Desktop) |
+|**Sinônimos**|
+| - Bate-Papo |
+| - Sala Virtual |
+| - Chat |
 
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 19/04/2019 | 1.0 | Abertura do documento | Marcos Nery |
-| 20/04/2019 | 1.1 | Adição dos léxicos L9, L14, L18, L20, L22, L47-L49 | João Lucas |
+| 20/04/2019 | 1.1 | Adição dos léxicos L9, L14, L18, L20, L22, L48-L50 | João Lucas |
 | 20/04/2019 | 1.2 | Adição dos léxicos L25-L28 | Lucas Maciel |
+| 21/04/2019 | 1.3 | Adição dos léxicos L39-L43, L51 | Lucas Maciel |
