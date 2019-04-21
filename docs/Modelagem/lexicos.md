@@ -618,3 +618,4 @@ Usuário pode ocultar os chat |
 | 20/04/2019 | 1.2 | Adição dos léxicos L25-L28 | Lucas Maciel |
 | 21/04/2019 | 1.3 | Adição dos léxicos L39-L43, L51 | Lucas Maciel |
 | 21/04/2019 | 1.4 | Adição dos léxicos L6, L7, L10, L13, L15 L32-L38 | Marcos Nery |
+| 21/04/2019 | 1.5 | Adição dos léxicos L4, L12, L19, L65-L67 | Heron Rodrigues |
