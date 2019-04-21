@@ -15,7 +15,7 @@
 
 ### L9
 
-|**Reagir a mensagem (João)**|
+|**Reagir a mensagem**|
 |--|
 |**Noção**|
 | - Ação dentro do Channel a qual um usuário pode se expressar seu sentimento em relação a alguma mensagem enviada por outro usuário através de emojis|
@@ -31,7 +31,7 @@
 
 ### L14
 
-|**Adicionar novo servidor (João)**|
+|**Adicionar novo servidor**|
 |--|
 |**Noção**|
 | - Se conectar a uma nova instância do software |
@@ -44,7 +44,7 @@
 
 ### L18
 
-|**Servidor (João)**|
+|**Servidor**|
 |--|
 |**Noção**|
 | - Computador responsável por hospedar o software |
@@ -58,7 +58,7 @@
 
 ### L20
 
-|**Instância do software (João)**|
+|**Instância do software**|
 |--|
 |**Noção**|
 | - Cópia do software em funcionamento em um computador ou servidor |
@@ -71,7 +71,7 @@
 
 ### L22
 
-|**Status do Usuário (João)**|
+|**Status do Usuário**|
 |--|
 |**Noção**|
 | - Estado do usuário no software |
@@ -154,7 +154,7 @@
 
 ### L47
 
-|**Sair da Sala (João)**|
+|**Sair da Sala**|
 |--|
 |**Noção**|
 | - Ação de deixar de participar de um canal |
@@ -167,7 +167,7 @@
 
 ### L48
 
-|**Esconder Sala (João)**|
+|**Esconder Sala**|
 |--|
 |**Noção**|
 | - Ação de fazer com que um canal não seja mais visível |
@@ -179,7 +179,7 @@
 
 ### L49
 
-|**Diretório (João)**|
+|**Diretório**|
 |--|
 |**Noção**|
 | - Página onde se encontram todos os canais e usuários de um servidor|
