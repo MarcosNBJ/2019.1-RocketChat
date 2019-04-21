@@ -5,6 +5,8 @@
 
 |**Título do Léxico**|
 |--|
+|**Classificação**|
+| Objeto|
 |**Noção**|
 | - noção aqui|
 |**Impacto** |
@@ -12,6 +14,67 @@
 |**Sinônimos**|
 | - sinônimo aqui|
 
+### L1
+
+|**Channel**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+|-Canal de comunicação e compartilhamento de informações.|
+|-Salas criadas por usuários.|
+|-Onde ocorre as principais discussões de grupo dentro da plataforma.|
+|-Função principal da plataforma no campo de comunicação entre os usuários.|
+|-Grupo de conversa com um tema selecionado.|
+|**Impacto** |
+|-Um canal pode ser criado por determinado usuário|
+|-Um grupo pode receber determinado nome.|
+|-Um usuário pode ser adicionado a um channel|
+|-Um usuário pode ser removido de um channel|
+|-Um usuário pode se retirar de um canal|
+|-Arquivos, fotos podem ser compartilhados dentro de um canal|
+|-Pode-se mencionar pessoas dentro de um canal|
+|-Dentro de um grupo, pode-se pesquisar mensagens específicas|
+|-Há a possibilidade de adicionar uma descrição e um tópico a um channel|
+|-Pode-se dar pin em mensagens em um grupo para salvá-las.|
+|-Um canal pode ser deletado.|
+|-Um canal pode ser integrado a bots.|
+|**Sinônimos**|
+| - Grupos/grupos, chats/chat, canal/canais, channels. |
+
+### L2
+
+|**Channel Criado**|
+|--|
+|**Classificação**|
+| Estado|
+|**Noção**|
+|-Ocorre quando um usuário clica na opção: “criar canal”|
+|-Um grupo separado com várias pessoas está em atividade |
+|**Impacto** |
+| -Usuários podem trocar informações com outros usuários simultaneamente |
+| -Usuários podem enviar arquivos e fotos dentro do canal|
+|**Sinônimos**|
+| - Canal aberto/Canais abertos, grupo aberto/grupos abertos|
+
+### L3
+
+|**Fixar mensagens**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|-Atividade realizada pelo usuário|
+|-É feito dentro de canais de conversa|
+|-Quando um usuário salva uma mensagem|
+|-Uma mensagem leva pin caso haja interesse de visualizá-la em outro momento. (Visualizar mensagens com pin)|
+|-Uma opção "fixar mensagem ” possibilita a realização da ação|
+|**Impacto** |
+|-Mensagem está “Fixada”|
+|-Se uma mensagem foi fixada, eu posso visualizá-la em um local onde mensagens “fixadas” irão aparecer|
+|-Eu posso desfazer a ação de fixar uma mensagem, retirando -a da área de mensagens com pin|
+|**Sinônimos**|
+| - Salvar mensagem, pinar mensagem, fixar mensagem|
 
 ### L6
 |**Tag**|
@@ -98,7 +161,7 @@
 | - Usar outro conector entre usuários |
 |**Impacto**|
 | Um usuário pode se conectar a outra instância do software para poder ter maior controle da privacidade das suas mensagens |
-| Um usuário pode adicionar um novo servidor para trabalhar com dois grupos de trabalho diferentes | 
+| Um usuário pode adicionar um novo servidor para trabalhar com dois grupos de trabalho diferentes |
 |**Sinônimos**|
 | |
 
@@ -113,7 +176,7 @@
 | - É um link permanente que pode levar o usuário que clicar a um channel, a uma mensagem, ou a um servidor. |
 |**Impacto**|
 |- O usuário pode gerar o permalink através da ação de Copiar Permalink para mensagem, ou de convidar um outro usuário para um determinado channel ou servidor.
-|- O usuário que receber e usar o permalink será levado para o destino para o qual ele foi gerado. | 
+|- O usuário que receber e usar o permalink será levado para o destino para o qual ele foi gerado. |
 
 
 ### L16
@@ -138,7 +201,7 @@
 |**Noção**|
 | - Computador responsável por hospedar o software |
 | - Computador que possui uma instância do software e lida com as requisições|
-| - Sistema de computação centralizada que fornece serviços| 
+| - Sistema de computação centralizada que fornece serviços|
 |**Impacto**|
 | - Um usuário tem que se conectar a um servidor para poder enviar mensagem |
 | - Um usuário pode ser conectar a vários servidores para poder utilizar ambientes diferentes para situações diferentes |
@@ -178,6 +241,37 @@
 | - Estado|
 | - Condição |
 
+### L23
+
+|** Software Livre**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+|-programa de computador que pode ser executado, copiado, modificado e redistribuído pelos usuários gratuitamente.|
+|-Carrega a filosofia de liberdade de expressão e não o lucro.|
+|-Tem como contraste, o software proprietário|
+|**Impacto** |
+| - Um usuário pode pode fazer alterações no código fonte, caso programa seja software livre |
+|**Sinônimos**|
+| - |
+
+### L24
+
+|**Software proprietário**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+|-Software privado ou não livre|
+|-Software para computadores que é licenciado com direitos exclusivos do produtor.|
+|-Seu conceito faz oposição ao de software livre|
+|**Impacto** |
+|-Um software proprietário é comprado e não pode ter seu código fonte alterado|
+|-Recebe patentes, direitos do autor e alguns casos, limitações para comercialização em países terceiros.|
+|**Sinônimos**|
+| - software privado, software não livre|
+
 ### L25
 
 |**Webconferência**|
@@ -185,7 +279,7 @@
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Opção de comunicação alternativa ao chat por texto em que o usuário se comunica através de contato visual e sonoro |	
+| - Opção de comunicação alternativa ao chat por texto em que o usuário se comunica através de contato visual e sonoro |
 | - Tecnologia que permite o contacto visual e sonoro em tempo real, entre pessoas que estão em lugares diferentes |
 | - Reunião virtual entre integrantes de um grupo |
 | - Usuário deseja realizar uma reunião online com sua equipe. |
@@ -526,6 +620,80 @@ Usuário pode ocultar os chat |
 | - Sala Virtual |
 | - Chat |
 
+### L55
+
+|**Editar Mensagem**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|-Ação realizada pelo usuário cadastrado.|
+|-Acontece quando um usuário altera o conteúdo de uma mensagem que já foi enviada.|
+|-Ocorre dentro de um chat em grupo ou chat pessoal.|
+|-Ao pressionar uma mensagem, dentre várias ações, há a de ‘editar mensagem’.|
+|**Impacto** |
+|-O conteúdo de uma mensagem é modificada.|
+|-Todos para quem a mensagem foi encaminhada anteriormente poderão visualizar a nova mensagem editada.|
+|**Sinônimos**|
+| - Modificar mensagem/mensagens, alterar mensagem/mensagens|
+
+### L56
+
+|**Responder Mensagem**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|-Ação realizada por um usuário cadastrado|
+|-Acontece quando o usuário pretende enviar uma mensagem como sendo uma resposta a uma mensagem previamente enviada por ele mesmo ou outro usuário|
+|-Ao clicar na mensagem no qual se deseja responder, dentre várias ações possíveis, há a de “responder”|
+|**Impacto** |
+|-Uma mensagem será destacada como respondida e ,logo embaixo, haverá a resposta para tal mensagem.|
+|-Uma mensagem será respondida.|
+|-Uma nova mensagem é enviada.|
+|-A mensagem enviada como resposta destaca a mensagem que está sendo respondida.|
+|**Sinônimos**|
+| - Responder mensagens|
+
+### L57
+
+|**Pesquisar Mensagem **|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|-Atividade realizada pelo usuário logado|
+|-Seu acontecimento ocorre quando o usuário faz uma busca por uma determinada mensagem|
+|-Ocorre dentro do chanel criado na ferramenta de lupa na parte superior|
+|-Usuário clica na ferramenta de busca e digita a mensagem a ser buscada|
+|-Mensagem irá ser destacada, caso exista na busca. Caso contrário, um aviso indicará ao usuário a ausência da mensagem.|
+|**Impacto** |
+|-Uma mensagem será buscada|
+|-Uma mensagem poderá ser encontrada|
+|-Se não houver a mensagem, então mensagem não encontrada|
+|-mensagem encontrada é exibida dentro da área do chat|
+|**Sinônimos**|
+| - Buscar mensagem|
+
+### L58
+
+|**Remover Mensagem**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|-Ação realizada por um usuário|
+|-ocorre dentro de um chat em grupo ou em um chat pessoal|
+|-Acontece quando um usuário tentar apagar uma mensagem antes enviada|
+|-Usuário verifica que a mensagem foi enviada e diante da percepção de um equívoco, deseja desfazer a ação.|
+|-Ação realizada diante de uma mensagem.|
+|-Ao pressionar um  mensagem, diante de diversas ações que podem ser realizadas sobre uma mensagem, há a opção ‘remover mensagem’|
+|**Impacto** |
+|-Ao apagar a mensagem, ela desaparece do chat, tanto para quem enviou tanto para quem recebeu|
+|-Mensagem apagada|
+|**Sinônimos**|
+| - apagar mensagem/mensagens, deletar mensagem/mensagens.|
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -535,3 +703,4 @@ Usuário pode ocultar os chat |
 | 20/04/2019 | 1.2 | Adição dos léxicos L25-L28 | Lucas Maciel |
 | 21/04/2019 | 1.3 | Adição dos léxicos L39-L43, L51 | Lucas Maciel |
 | 21/04/2019 | 1.4 | Adição dos léxicos L6, L7, L10, L13, L15 L32-L38 | Marcos Nery |
+| 21/04/2019 | 1.5 | Adição dos léxicos L1, L2, L3, L23, L24,L55-L58 | Gabriel Davi |
