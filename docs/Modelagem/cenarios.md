@@ -579,12 +579,12 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Enviar mensagem**|
 |--|
 |**Objetivo** |
-|- Transmitir aos outros integrantes da conversa uma mensagem, que pode conter texto, Emojis, [arquivos de mídia](#c9), documentos, áudios gravados pelo app, e [desenhos digitais](#c8) feitos pelo menu do app.|
+|- Transmitir aos outros integrantes da conversa uma [mensagem](lexicos.md#l42), que pode conter texto, Emojis, [arquivos de mídia](#c9), documentos, áudios gravados pelo app, e [desenhos digitais](#c8) feitos pelo menu do app.|
 |**Contexto** |
 |- Local: [channel](lexicos.md#l1) da conversa|
 |- Tempo: A qualquer momento|
-|- Pré-condição: O [usuário](lexicos.md#l19) ter [conta](lexicos.md#l67) no aplicativo e estar dentro do [channel](lexicos.md#l1) no qual deseja enviar uma mensagem|
-|- Pós-condição: A mensagem enviada será mostrada no [channel](lexicos.md#l1) para todos os usuários [membros](lexicos.md#l12), junto com uma notificação que chegará se o [usuário](lexicos.md#l19) tiver sido mencionado|
+|- Pré-condição: O [usuário](lexicos.md#l19) ter [conta](lexicos.md#l67) no aplicativo e estar dentro do [channel](lexicos.md#l1) no qual deseja enviar uma [mensagem](lexicos.md#l42)|
+|- Pós-condição: A [mensagem](lexicos.md#l42) enviada será mostrada no [channel](lexicos.md#l1) para todos os usuários [membros](lexicos.md#l12), junto com uma notificação que chegará se o [usuário](lexicos.md#l19) tiver sido mencionado|
 |**Atores** |
 |  [Usuário](lexicos.md#l19) |
 |**Recursos** |
@@ -592,7 +592,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Conta](lexicos.md#l67) no aplicativo|
 |**Restrição**|
 |- [Usuário](lexicos.md#l19) escrever corretamente o que quer expressar |
-|- A aplicação oferecer ferramentas que ajudem o [usuário](lexicos.md#l19) a escrever sua mensagem, como um corretor ortográfico|
+|- A aplicação oferecer ferramentas que ajudem o [usuário](lexicos.md#l19) a escrever sua [mensagem](lexicos.md#l42), como um corretor ortográfico|
 |- O [usuário](lexicos.md#l19) conseguir [anexar](lexicos.md#l5) todos os arquivos que quer|
 |**Exceção** |
 |- Queda da internet|
@@ -604,7 +604,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) digita a mensagem no campo de texto|
 |- [Usuário](lexicos.md#l19) [anexa todos os arquivos](#c9) ou [desenhos](#c8) que quiser na mensagem|
 |- [Usuário](lexicos.md#l19) insere um [Emoji](lexicos.md#l7) se quiser|
-|- [Usuário](lexicos.md#l19) envia a mensagem clicando no botão presente na caixa de texto para essa finalidade|
+|- [Usuário](lexicos.md#l19) envia a [mensagem](lexicos.md#l42) clicando no botão presente na caixa de texto para essa finalidade|
 |**Levantado pela técnica**|
 | - [Questionário](../Elicitação/questionario.md)|
 | - [StotyBoarding](../Elicitação/storyboarding.md) |
