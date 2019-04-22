@@ -586,21 +586,6 @@
 |- Todos os emojis que representam figuras humanas que o usuário mandar terão a cor de pele na tonalidade selecionada|
 |- O usuário pode tocar no botão novamente para trocar a cor|
 
-### L33
-
-|**Tópico**|
-|--|
-|**Classificação**|
-| Objeto|
-|**Noção**|
-| - Descrição textual que identifica o assunto a ser tratado em um channel. |
-|**Impacto** |
-|- O administrador do channel pode editar o tópico do channel.|
-|- O tópico colocado será visto por todos os outros usuários membros do channel que forem até a sua descrição.|
-|**Sinônimos**|
-| - Assunto |
-
-
 ### L39
 
 |**Ordenação de chats**|
