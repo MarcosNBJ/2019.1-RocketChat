@@ -32,7 +32,7 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 | INT1.6 | O app deve oferecer ao usuário, poder mencionar, um ou todos, os membros do grupo para chamar atenção para alguma mensagem. | Should Have |
 | INT1.7 | Deve ser uma plataforma que ofereça segurança com dados dos usuários. | Must Have |
 
-## Introspecção 04
+## Introspecção 02
 
 ![INT4](../img/Elicitacao/introspeccao_04.png)
 
