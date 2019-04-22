@@ -953,3 +953,4 @@ Usuário pode ocultar os chat |
 | 21/04/2019 | 1.4 | Adição dos léxicos L6, L7, L10, L13, L15 L32-L38 | Marcos Nery |
 | 21/04/2019 | 1.5 | Adição dos léxicos L4, L12, L19, L65-L67 | Heron Rodrigues |
 | 21/04/2019 | 1.6 | Adição dos léxicos L1, L2, L3, L23, L24,L55-L58 | Gabriel Davi |
+| 21/04/2019 | 1.7 | Adição dos léxicos L5, L8, L11, L17, L21, L44-L47 | Weiller Fernandes |
