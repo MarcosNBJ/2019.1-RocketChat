@@ -80,14 +80,14 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 
 ### L4
 
-|**Mencionar usuário**|
+|**Mencionar [Usuário](#l19)**|
 |--|
 |**Classificação**|
 | Verbo |
 |**Noção**|
-| - Ação do [usuário](#l19) em marcar o nome de outro usuário|
+| - Ação do [usuário](#l19) em marcar o nome de outro [usuário](#l19)|
 | - Realizada ao digitar o símbolo ‘@’, colocando a tag do [usuário](#l19) |
-| - A aplicação mostrará uma lista com todos os usuários |
+| - A aplicação mostrará uma lista com todos os [usuário](#l19) |
 | - Realizada em um channel ou grupo privado |
 |**Impacto** |
 | - Com isso, o [usuário](#l19) mencionado receberá uma notificação |
@@ -102,14 +102,14 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Verbo|
 |**Noção**|
-| - Ação realizada por um usuário|
+| - Ação realizada por um [usuário](#l19)|
 | - Ação ocorre ao clicar no botão “Anexar um arquivo”|
 | - [usuário](#l19) envia um arquivo para um channel|
 | - [usuário](#l19) escolhe um tipo de arquivo para enviar (foto, vídeo, documento, etc)|
 |**Impacto** |
-| - Usuários do channel recebem o arquivo|
-| - Usuários do channel podem visualizar o arquivo|
-| - Usuários do channel podem salvar o arquivo em seu dispositivo|
+| - [Usuários](#l19) do channel recebem o arquivo|
+| - [Usuários](#l19) do channel podem visualizar o arquivo|
+| - [Usuários](#l19) do channel podem salvar o arquivo em seu dispositivo|
 |**Sinônimos**|
 | - Enviar arquivo|
 
@@ -122,7 +122,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Palavra precedida pelo símbolo "@", identifica o [usuário](#l19), sendo que cada um possui uma tag única. E também existe a tag especial @all, que identifica todos os [usuários](#l19) de um dado channel.|
 |**Impacto** |
 |- O [usuário](#l19) define sua própria Tag.|
-|- É utilizada pelos usuários para procurar por [usuários](#l19), [adicionar usuários a um grupo](#l59) , e mencionar usuários em uma conversa.|
+|- É utilizada pelos [usuários](#l19) para procurar por [usuários](#l19), [adicionar usuários a um grupo](#l59) , e mencionar [usuários](#l19) em uma conversa.|
 
 
 ### L7
@@ -146,12 +146,12 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Área onde o [usuário](#l19) pode ver suas informações como nome, nome de usuário, email e foto de perfil|
+| - Área onde o [usuário](#l19) pode ver suas informações como nome, [nome de usuário](#l17), email e foto de perfil|
 |**Impacto** |
 | - O [usuário](#l19) pode deletar sua conta|
 | - O [usuário](#l19) pode editar suas informações pessoais, como nome e email|
 | - O [usuário](#l19) pode adicionar uma foto ao perfil, tirando uma foto ou selecionando da galeria|
-| - O [usuário](#l19) pode editar seu nome de usuário|
+| - O [usuário](#l19) pode editar seu [nome de usuário](#l17)|
 |**Sinônimos**|
 | - Profile|
 
@@ -180,11 +180,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Verbo|
 |**Noção**|
-|- Ação realizada pelo usuário.|
+|- Ação realizada pelo [usuário](#l19).|
 |- Acontece quando o mesmo retira uma [reação](#l7) anteriormente [adicionada](#l9) a uma mensagem.|
 |- [usuário](#l19) clica na reação adicionada, e ela é então retirada.|
 |**Impacto** |
-|- Se outros usuários reagiram aquela mensagem com o mesmo [emoji](#l7), a contagem dessas reações na mensagem decresce em um.|
+|- Se outros [usuários](#l19) reagiram aquela mensagem com o mesmo [emoji](#l7), a contagem dessas reações na mensagem decresce em um.|
 |- Se não haviam outras reações com o mesmo [emoji](#l7), a reação é completamente removida da mensagem.|
 
 ### L11
@@ -193,7 +193,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Verbo|
 |**Noção**|
-|- Ação realizada pelo usuário|
+|- Ação realizada pelo [usuário](#l19)|
 |- Ocorre quando o [usuário](#l19) clica no botão de “lupa” dentro de um channel|
 |- [usuário](#l19) digita uma palavra-chave que será procurada por toda aquela conversa|
 |**Impacto** |
@@ -210,9 +210,9 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Usuários que participam de um channel|
+| - [Usuários](#l19) que participam de um channel|
 |**Impacto** |
-| - Membros podem reagir a mensagem, procurar mensagem, remover reação, procurar mensagem,  fixar mensagem, favoritar mensagem,  mencionar usuário, desenhar, anexar arquivo|
+| - Membros podem reagir a mensagem, procurar mensagem, remover reação, procurar mensagem,  fixar mensagem, favoritar mensagem,  mencionar [usuário](#l19), desenhar, anexar arquivo|
 |**Sinônimos**|
 | - Members|
 
@@ -222,11 +222,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Verbo|
 |**Noção**|
-| - Ação realizada pelo usuário.|
+| - Ação realizada pelo [usuário](#l19).|
 | - O [usuário](#l19) clica em uma mensagem, e então vai até a opção “Copiar [Permalink](#l15) ”, que o permite copiar um link que leva diretamente para a mensagem selecionada dentro do channel.|
 |**Impacto** |
-|- É gerado um [Permalink](#l15), que o [usuário](#l19) pode então compartilhar com outros usuários.|
-|- Outros usuários que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidcionar reação](#l9) ou [responder](#l56).|
+|- É gerado um [Permalink](#l15), que o [usuário](#l19) pode então compartilhar com outros [usuários](#l19).|
+|- Outros [usuários](#l19) que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidcionar reação](#l9) ou [responder](#l56).|
 
 ### L14
 
@@ -236,7 +236,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | Verbo|
 |**Noção**|
 | - Se conectar a uma nova instância do software |
-| - Usar outro conector entre usuários |
+| - Usar outro conector entre [usuários](#l19) |
 |**Impacto**|
 | Um [usuário](#l19) pode se conectar a outra instância do software para poder ter maior controle da privacidade das suas mensagens |
 | Um [usuário](#l19) pode adicionar um novo servidor para trabalhar com dois grupos de trabalho diferentes |
@@ -267,7 +267,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |- O [usuário](#l19) pode fixar mensagem em um channel ao clicar nela e selecionar a opção de fixar mensagem.|
 |- Uma mensagem fixada poderá ser facilmente acessada pelo menu de mensagens fixadas do channel.|
 |**Impacto**|
-|- Se a mensagem está fixada, os usuários podem clicar nela e escolher desafixar mensagem. Ação pela qual a mensagem passa para o estado de não fixada e deixa de aparecer no menu de mensagens fixadas.|
+|- Se a mensagem está fixada, os [usuários](#l19) podem clicar nela e escolher desafixar mensagem. Ação pela qual a mensagem passa para o estado de não fixada e deixa de aparecer no menu de mensagens fixadas.|
 
 ### L17
 
@@ -277,11 +277,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | Objeto|
 |**Noção**|
 | - Nome pelo qual o [usuário](#l19) é identificado dentro do app|
-| - Deve ser único, ou seja, não podem existir dois usuários com mesmo nome de usuário|
+| - Deve ser único, ou seja, não podem existir dois [usuários](#l19) com mesmo [nome de usuário](#l17)|
 |**Impacto**|
 | - Pode ser alterado dentro do perfil |
 | - Pode ser mencionado dentro de uma conversa, para que o [usuário](#l19) seja notificado de uma mensagem |
-| - Todos os nomes de usuários dos membros de um grupo podem ser vistos na aba “membros”|
+| - Todos os nomes de [usuários](#l19) dos membros de um grupo podem ser vistos na aba “membros”|
 |**Sinônimo**|
 | - Username |
 | - Nickname |
@@ -314,11 +314,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Aquele que desfruta do Rocket.chat, possui conta de usuário|
+| - Aquele que desfruta do Rocket.chat, possui conta de [usuário](#l19)|
 |**Impacto** |
-| - [Rocket.Chat](#l65) disponibiliza todas as suas funcionalidades ao usuário|
+| - [Rocket.Chat](#l65) disponibiliza todas as suas funcionalidades ao [usuário](#l19)|
 |- [usuário](#l19) pode se tornar membro de um channel|
-|- O [usuário](#l19) utiliza uma conta de usuário|
+|- O [usuário](#l19) utiliza uma conta de [usuários](#l19)|
 |- [usuário](#l19) é inicialmente cadastrado como [usuário](#l19) Community, podendo se tornar [usuário](#l19) [usuário](#l19) Pro ou [usuário](#l19) Enterprise|
 |**Sinônimos**|
 | - User, Users, Usuários|
@@ -359,7 +359,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 
 ### L22
 
-|**Status do Usuário**|
+|**Status do [Usuário](#l19)**|
 |--|
 |**Classificação**|
 | Objeto|
@@ -382,7 +382,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto|
 |**Noção**|
-|-programa de computador que pode ser executado, copiado, modificado e redistribuído pelos usuários gratuitamente.|
+|-programa de computador que pode ser executado, copiado, modificado e redistribuído pelos [usuários](#l19) gratuitamente.|
 |-Carrega a filosofia de liberdade de expressão e não o lucro.|
 |-Tem como contraste, o [software proprietário](#l24)|
 |**Impacto** |
@@ -418,8 +418,8 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Reunião virtual entre integrantes de um grupo |
 | - [usuário](#l19) deseja realizar uma reunião online com sua equipe. |
 |**Impacto** |
-| - [usuário](#l19) inicia uma webconferência para se comunicar com outros usuários |
-| - Usuários participantes de uma Webconferência podem interagir entre si |
+| - [usuário](#l19) inicia uma webconferência para se comunicar com outros [usuários](#l19) |
+| - [Usuários](#l19) participantes de uma Webconferência podem interagir entre si |
 | - Permite que os integrantes de um grupo não precisem se deslocarem para uma reunião em um local físico |
 | - [usuário](#l19) grava um video da webconferência e compartilha com sua equipe para uma possível consulta do que foi acordado e discutido |
 | - Permite ao [usuário](#l19) transmitir a tela do seu dispositivo (computador ou celular) |
@@ -454,15 +454,15 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - “Subgrupo” para os usuários adicionarem apenas um parte de outros membros para discutir algum assunto |
+| - “Subgrupo” para os [usuários](#l19) adicionarem apenas um parte de outros membros para discutir algum assunto |
 | - “Thread” do grupo ou channel principal |
 | - [usuário](#l19) deseja realizar um debate entre alguns membros do grupo, sem incomodar o restante do grupo com assuntos que não são de interesse geral |
 |**Impacto** |
 | - [usuário](#l19) inicia uma discussão a parte do assunto principal do channel ou grupo com outros membros |
 | - Gera um novo canal de comunicação na barra lateral, na categoria de private groups ou grupo privado |
-| - Usuários adicionados passam a ser integrantes da sala ou grupo criado |
-| - Usuários podem deixar a sala |
-| - Usuários podem receber notificações da sala, grupo ou channel |
+| - [Usuários](#l19) adicionados passam a ser integrantes da sala ou grupo criado |
+| - [Usuários](#l19) podem deixar a sala |
+| - [Usuários](#l19) podem receber notificações da sala, grupo ou channel |
 |**Sinônimos**|
 | - Discussões |
 | - Subgrupo |
@@ -494,8 +494,8 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - [usuário](#l19) Pro que desfruta de serviços exclusivos no [Rocket.chat](#l65) |
 | - Para empresas prontas para intensificar a comunicação da equipe e acessar mais recursos |
 |**Impacto** |
-| - [Rocket.chat](#l65) disponibiliza mais funcionalidades que ao [[usuário](#l19) community](#l66) |
-| - Além de todas as funcionalidades disponibilizadas para o [[usuário](#l19) community](#l66), o [usuário](#l19) Pro possui uma quantidade maior de [notificações](#28), [tradução em tempo real](#31), suporte 24 horas, assistência de migração e integração |
+| - [Rocket.chat](#l65) disponibiliza mais funcionalidades que ao [usuário](#l19) community](#l66) |
+| - Além de todas as funcionalidades disponibilizadas para o [usuário](#l19) community](#l66), o [usuário](#l19) Pro possui uma quantidade maior de [notificações](#28), [tradução em tempo real](#31), suporte 24 horas, assistência de migração e integração |
 |**Sinônimos**|
 | - [usuário](#l19) premium |
 
@@ -509,8 +509,8 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - [usuário](#l19) Enterprise que desfruta de todos serviços exclusivos no [Rocket.chat](#l65) |
 | - Para empresas que precisam de escalabilidade de alto nível, gerenciamento e recursos ilimitados |
 |**Impacto** |
-| - [Rocket.chat](#l65) disponibiliza mais funcionalidades que ao [[usuário](#l19) community](#l66) |
-| - Além de todas as funcionalidades disponibilizadas para o [[usuário](#l19) community](#l66), e [[usuário](#l19) Pro](#l29), o [usuário](#l19) Enterprise possui painel de leitura de mensagens, quantidade ilimitada de [notificações](#l28), [conversão de áudio para texto](#l40), relatórios pós-incidente de suporte, ligação de onboarding e acesso ao product team |
+| - [Rocket.chat](#l65) disponibiliza mais funcionalidades que ao [usuário community](#l66) |
+| - Além de todas as funcionalidades disponibilizadas para o [usuáriocommunity](#l66), e [usuário Pro](#l29), o [usuário](#l19) Enterprise possui painel de leitura de mensagens, quantidade ilimitada de [notificações](#l28), [conversão de áudio para texto](#l40), relatórios pós-incidente de suporte, ligação de onboarding e acesso ao product team |
 |**Sinônimos**|
 | - [usuário](#l19) corporativo |
 
@@ -521,7 +521,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto |
 |**Noção**|
-| - [[usuário](#l19) Pro](#l29) e [[usuário](#l19) Enterprise](#l30) podem [enviar mensagens](#l41) e fazer [Webconferência](#l25)  com tradução em vários idiomas |
+| - [usuário Pro](#l29) e [usuário Enterprise](#l30) podem [enviar mensagens](#l41) e fazer [Webconferência](#l25)  com tradução em vários idiomas |
 | - Tecnologia que permite o [usuário](#l19) se comunicar em tempo real, entre [usuários](#l19) que falam idiomas diferentes, sem restrições |
 |**Impacto** |
 | - [Usuário](#l19) pode trocar mensagens com [usuários](#l19) de outros países |
@@ -541,8 +541,8 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - É um aviso textual que o [usuário](#l19) gostaria que fosse visto pelos outros integrantes de um [channel](#l1). |
 |**Impacto** |
 |- Um Anúncio pode ser criado pelo [usuário](#l19) em um [channel](#l1)|
-|- Um Anúncio criado será fixado na aba Anúncios do channel para todos os outros usuários|
-|- Um Anúncio pode ser removido pelo usuário, desde que este tenha os privilégios necessários|
+|- Um Anúncio criado será fixado na aba Anúncios do channel para todos os outros [usuários](#l19)|
+|- Um Anúncio pode ser removido pelo [usuário](#l19), desde que este tenha os privilégios necessários|
 |**Sinônimos**|
 | - Aviso |
 
@@ -599,7 +599,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Verbo|
 |**Noção**|
-|- Ação realizada pelo usuário.|
+|- Ação realizada pelo [usuário](#l19).|
 |- O [usuário](#l19) vai até um [channel favoritado](#l34) e dá um click no ícone da estrela, para desfavoritar o [canal](#l1).|
 |**Impacto** |
 |- O canal não irá mais aparecer em [destaque](#l34) |
@@ -645,9 +645,9 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Disposição de cada tipo de chat em sua categoria: channels, grupos privados, discussões ou mensagens diretas |
  |
 |**Impacto** |
-| - Usuários são capazes de visualizarem cada chat em sua devida categoria |
-| - Facilita encontrar algum chat
-[usuário](#l19) pode ocultar os chat |
+| - [Usuários](#l19) são capazes de visualizarem cada chat em sua devida categoria |
+| - Facilita encontrar algum chat |
+| - [usuário](#l19) pode ocultar os chat |
 | - [usuário](#l19) pode criar novo chat |
 |**Sinônimos**|
 | - Categorias de Chats |
@@ -664,9 +664,9 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Ação acontece em uma webconferência |
 | - Aplicativo utiliza um processo de reconhecimento e, logo após, mostra ao [usuário](#l19) o áudio processado em formato de texto |
 |**Impacto** |
-| - Usuários podem ver os resultados do reconhecimento do áudio quase que em tempo real |
-| - Usuários podem desabilitar essa opção ou ação do aplicativo |
-| - Essa opção pode ajudar usuários que possuem deficiências auditivas |
+| - [Usuários](#l19) podem ver os resultados do reconhecimento do áudio quase que em tempo real |
+| - [Usuários](#l19) podem desabilitar essa opção ou ação do aplicativo |
+| - Essa opção pode ajudar [usuários](#l19) que possuem deficiências auditivas |
 |**Sinônimos**|
 | - Transcrição de áudio em texto |
 
@@ -679,10 +679,10 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 | - Ação realizada por um [usuário](#l19) em um grupo, channel ou chat pessoal |
 | - Ação de escrever um texto, adicionar imagens, fazer um desenho a partir do aplicativo e compartilhar a um grupo ou outro [usuário](#l19) do aplicativo |
-| - [usuário](#l19) deseja compartilhar uma idéia ou informação com um ou vários outros usuários no aplicativo |
+| - [usuário](#l19) deseja compartilhar uma idéia ou informação com um ou vários outros [usuários](#l19) no aplicativo |
 |**Impacto** |
-| - Usuário(s) destinatário(s) recebem uma notificação se tiverem sido mencionados em um grupo ou se a mensagem foi enviada de maneira pessoal |
-| - Usuário(s) destinatário(s), ou seja, os usuários presentes no grupo, ou channel que a mensagem foi gerada ou usuários destinatários diretos conseguem visualizar a mensagem gerada |
+| - [Usuários](#l19) destinatário(s) recebem uma notificação se tiverem sido mencionados em um grupo ou se a mensagem foi enviada de maneira pessoal |
+| - [Usuários](#l19) destinatário(s), ou seja, os [usuários](#l19) presentes no grupo, ou channel que a mensagem foi gerada ou [usuários](#l19) destinatários diretos conseguem visualizar a mensagem gerada |
 | - Uma nova mensagem é adicionada em um chat de um grupo, channel, ou chat pessoal |
 | - Mensagem gerada pode receber todas as ações de uma mensagem |
 |**Sinônimos**|
@@ -700,11 +700,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Impacto** |
 | - [usuário](#l19) remetente pode a qualquer momento remover mensagem enviada, porém somente o conteúdo da mensagem é apagado, ainda é possível ver que a mensagem por um momento “existiu” |
 | - Mensagem gerada torna-se disponível para algum [usuário](#l19) favoritar mensagem |
-| - Usuários podem fixar mensagem |
-| - Usuários podem copiar mensagem |
-| - Usuários podem citar ou responder mensagem |
-| - [usuário](#l19) remetente pode editar mensagem |
-| - Usuários podem copiar permalink |
+| - [Usuários](#l19) podem fixar mensagem |
+| - [Usuários](#l19) podem copiar mensagem |
+| - [Usuários](#l19) podem citar ou responder mensagem |
+| - [Usuário](#l19) remetente pode editar mensagem |
+| - [Usuários](#l19) podem copiar permalink |
 
 ### L43
 
@@ -715,11 +715,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 | - Ação realizada por um [usuário](#l19) em um grupo, channel ou chat pessoal
 | - Maneira alternativa de criar uma mensagem através da criação de um desenho no momento em que se cria a mensagem |
-| - [usuário](#l19) deseja expressar uma idéia ou informação através de um desenho |
+| - [Usuário](#l19) deseja expressar uma idéia ou informação através de um desenho |
 | - Opção disponível na versão mobile do aplicativo |
 |**Impacto** |
-| - Usuário(s) presentes em um grupo, channel ou chat pessoal vão poder visualizar a mensagem em formato de desenho |
-| - Usuários poderão realizar as mesmas ações que uma mensagem comum |
+| - [Usuários](#l19) presentes em um grupo, channel ou chat pessoal vão poder visualizar a mensagem em formato de desenho |
+| - [Usuários](#l19) poderão realizar as mesmas ações que uma mensagem comum |
 |**Sinônimos**|
 | - Rascunho |
 | - Rasura |
@@ -836,10 +836,10 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Página onde se encontram todos os canais e usuários de um servidor|
+| - Página onde se encontram todos os canais e [usuários](#l19) de um servidor|
 |**Impacto**|
 | - Em busca de uma grupo com tema específico o [usuário](#l19) acessou o diretório e pesquisou os canais|
-| - Procurando um [usuário](#l19) que não lembrava seu nome de usuário, o [usuário](#l19) 1 acessou o diretório e procurou o nome de [usuário](#l19) do [usuário](#l19) 2|
+| - Procurando um [usuário](#l19) que não lembrava seu [nome de usuário](#l17), o [usuário](#l19) 1 acessou o diretório e procurou o nome de [usuário](#l19) do [usuário](#l19) 2|
 |**Sinônimo**|
 | - Guia |
 | - Livro de Consulta |
@@ -854,7 +854,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - É uma sala virtual onde participantes de um grupo podem conversar, compartilhar informações ou idéias |
 | - É o termo genérico para channel, grupo privado, discussão ou mensagens diretas presentes no aplicativo |
 |**Impacto** |
-| - Uma Room pode ser criada por um [usuário](#l19) e este pode convidar usuários para serem membros da equipe na sala |
+| - Uma Room pode ser criada por um [usuário](#l19) e este pode convidar [usuários](#l19) para serem membros da equipe na sala |
 | - Uma Room pode ser ocultada (somente Versão Desktop) |
 |**Sinônimos**|
 | - Bate-Papo |
@@ -934,7 +934,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | Verbo|
 |**Noção**|
 |-Ação realizada por um [usuário](#l19) cadastrado|
-|-Acontece quando o [usuário](#l19) pretende enviar uma [mensagem](#l42) como sendo uma resposta a uma [mensagem](#l42) previamente enviada por ele mesmo ou outro usuário|
+|-Acontece quando o [usuário](#l19) pretende enviar uma [mensagem](#l42) como sendo uma resposta a uma [mensagem](#l42) previamente enviada por ele mesmo ou outro [usuário](#l19)|
 |-Ao clicar na [mensagem](#l42) no qual se deseja responder, dentre várias ações possíveis, há a de “responder”|
 |**Impacto** |
 |-Uma [mensagem](#l42) será destacada como respondida e ,logo embaixo, haverá a resposta para tal mensagem.|
@@ -985,7 +985,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 
 ### L59
 
-|**Adicionar Usuário**|
+|**Adicionar [Usuário](#l19)**|
 |--|
 |**Classificação**|
 | Verbo |
@@ -1022,7 +1022,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Plataforma de chat de código aberto, gratuita|
 | - Aplicação focada para equipes que desejam controlar e centralizar sua comunicação|
 |**Impacto** |
-| - O Rocket chat disponibiliza todas as suas funcionalidades aos seus usuários, essas funcionalidades variando para [usuário](#l19) community, [usuário](#l19) pro ou [usuário](#l19) enterprise|
+| - O Rocket chat disponibiliza todas as suas funcionalidades aos seus [usuários](#l19), essas funcionalidades variando para [usuário](#l19) community, [usuário](#l19) pro ou [usuário](#l19) enterprise|
 |**Sinônimos**|
 | - |
 
@@ -1035,19 +1035,19 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 | - Aquele que desfruta das funcionalidades gratuitas do Rocket.chat|
 |**Impacto** |
-| - [usuário](#l19) community pode criar chat, enviar mensagem, desenhar, anexar arquivo, conectar-se a um servidor, juntar-se a comunidade, criar um servidor, deletar conta, alterar o status do usuário, gerar um permalink, reagir a mensagem, procurar mensagem, remover reação, procurar mensagem,  fixar mensagem, favoritar mensagem,  mencionar usuário|
+| - [usuário](#l19) community pode criar chat, enviar mensagem, desenhar, anexar arquivo, conectar-se a um servidor, juntar-se a comunidade, criar um servidor, deletar conta, alterar o status do [usuário](#l19), gerar um permalink, reagir a mensagem, procurar mensagem, remover reação, procurar mensagem,  fixar mensagem, favoritar mensagem,  mencionar [usuário](#l19)|
 |**Sinônimos**|
 | - [usuário](#l19) comum|
 
 ### L67
 
-|**Conta de usuário**|
+|**Conta de [Usuário](#l19)**|
 |--|
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Agrupamento dos dados do usuário|
-|- Criada no momento de cadastrar um novo usuário|
+| - Agrupamento dos dados do [usuário](#l19)|
+|- Criada no momento de cadastrar um novo [usuários](#l19)|
 |**Impacto** |
 | - É necessário uma conta para que o [usuário](#l19) utilize as funcionalidades que o [Rocket.Chat](#l65) disponibiliza|
 |**Sinônimos**|
