@@ -491,7 +491,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) envia o arquivo|
 |**Levantado pela técnica**|
 | - [Questionário](../Elicitação/questionario.md)|
-| - [Introspecção](../Elicitação/introspeccao.md) |
+| - [Introspecção](../Elicitação/Introspeccao.md) |
 
 
 ### C10
