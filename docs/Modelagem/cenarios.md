@@ -602,7 +602,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
 |- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado |
 |- [Usuário](lexicos.md#l19) digita a mensagem no campo de texto|
-|- [Usuário](lexicos.md#l19) [anexa](lexicos.md#l9) todos os arquivos que quiser na mensagem|
+|- [Usuário](lexicos.md#l19) [anexa todos os arquivos](#c9) ou [desenhos](#c8) que quiser na mensagem|
 |- [Usuário](lexicos.md#l19) insere um [Emoji](lexicos.md#l7) se quiser|
 |- [Usuário](lexicos.md#l19) envia a mensagem clicando no botão presente na caixa de texto para essa finalidade|
 |**Levantado pela técnica**|
