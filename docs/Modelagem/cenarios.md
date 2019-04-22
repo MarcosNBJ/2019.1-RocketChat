@@ -810,7 +810,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | [Usuário](lexicos.md#l19) preenche o [login](lexicos.md#l62) e senha |
 | [Usuário](lexicos.md#l19) clica em "Entrar" |
 |**Levantado pela técnica**|
-| - |
+| [Introspecção](../Elicitação/Introspeccao.md) |
 
 ### C19
 
@@ -840,7 +840,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | [Usuário](lexicos.md#l19) clica nas [notificações](lexicos.md#l28) |
 | [Usuário](lexicos.md#l19) vê a mensagem de outro [usuário](lexicos.md#l19) |
 |**Levantado pela técnica**|
-| - |
+| [Questionário](../Elicitação/questionario.md) |
 
 ### C20
 
@@ -940,6 +940,12 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Levantado pela técnica**|
 | - |
 
+## Cenários que não correspondem a nenhum requisito elicitado
+
+Alguns cenários listados não são correlacionados a nenhum requisito previamente elicitado. Fato este que demonstra uma provável falha na etapa de elicitação, que não permitiu que algumas necessidades fossem identificados.
+*[c1](#c1-v2) [c5](#c5-v2) [c6](#c6) [c8](#c8) [c13](#c13) [c14](#c14) [c15](#c15) [c16](#c16) [c17](#c17) [c18](#c18) [c23](#c23)  [c22](#c22) [c21](#c21)*
+
+
 
 ## Versionamento
 
@@ -955,3 +961,4 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | 22/04/2019 | 1.7 | Criando alguns links | Gabriel Davi |
 | 22/04/2019 | 1.8 | Adição dos Cenários C21, C22, C23 | João Lucas |
 | 22/04/2019 | 1.9 | Criando alguns links | Weiller Fernandes |
+| 22/04/2019  |2.0  | Adicionando tabelamento de cenários não elicitados| Marcos Nery|
