@@ -579,7 +579,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Enviar mensagem**|
 |--|
 |**Objetivo** |
-|- Transmitir aos outros integrantes da conversa uma mensagem, que pode conter texto, Emojis, arquivos de mídia, documentos, áudios gravados pelo app, e desenhos digitais feitos pelo menu do app.|
+|- Transmitir aos outros integrantes da conversa uma mensagem, que pode conter texto, Emojis, [arquivos de mídia](#c9), documentos, áudios gravados pelo app, e [desenhos digitais](#c8) feitos pelo menu do app.|
 |**Contexto** |
 |- Local: [channel](lexicos.md#l1) da conversa|
 |- Tempo: A qualquer momento|
