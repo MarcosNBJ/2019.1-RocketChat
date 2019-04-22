@@ -482,6 +482,52 @@
 |**Sinônimos**|
 | - Alerta |
 
+### L29
+
+|**Usuário Pro**|
+|--|
+|**Classificação**|
+| Objeto |
+|**Noção**|
+| - Usuário Pro que desfruta de serviços exclusivos no Rocket.Chat |
+| - Para empresas prontas para intensificar a comunicação da equipe e acessar mais recursos |
+|**Impacto** |
+| - [Rocket.chat](#l65) disponibiliza mais funcionalidades que ao [usuário community](#l66) |
+| - Além de todas as funcionalidades disponibilizadas para o [usuário community](#l66), o Usuário Pro possui uma quantidade maior de [notificações](#28), [tradução em tempo real](#31), suporte 24 horas, assistência de migração e integração |
+|**Sinônimos**|
+| - Usuário premium |
+
+### L30
+
+|**Usuário Enterprise**|
+|--|
+|**Classificação**|
+| Objeto |
+|**Noção**|
+| - Usuário Enterprise que desfruta de todos serviços exclusivos no [Rocket.chat](#l65) |
+| - Para empresas que precisam de escalabilidade de alto nível, gerenciamento e recursos ilimitados |
+|**Impacto** |
+| - [Rocket.chat](#l65) disponibiliza mais funcionalidades que ao [usuário community](#l66) |
+| - Além de todas as funcionalidades disponibilizadas para o [usuário community](#l66), e [Usuário Pro](#l29), o Usuário Enterprise possui painel de leitura de mensagens, quantidade ilimitada de [notificações](#l28), [conversão de áudio para texto](#l40), relatórios pós-incidente de suporte, ligação de onboarding e acesso ao product team |
+|**Sinônimos**|
+| - Usuário corporativo |
+
+### L31
+
+|**Tradução em tempo real**|
+|--|
+|**Classificação**|
+| Objeto |
+|**Noção**|
+| - [Usuário Pro](#l29) e [Usuário Enterprise](#l30) podem [enviar mensagens](#l41) e fazer [Webconferência](#l25)  com tradução em vários idiomas |
+| - Tecnologia que permite o [usuário](#l19) se comunicar em tempo real, entre [usuários](#l19) que falam idiomas diferentes, sem restrições |
+|**Impacto** |
+| - [Usuário](#l19) pode trocar mensagens com [usuários](#l19) de outros países |
+| - [Usuário](#l19) pode participar de [Webconferência](#l25) com [usuários](#l19) de outros países |
+| - Permite um melhor relacionamento com [usuários](#l19)/empresas que falam outro idioma |
+|**Sinônimos**|
+| - Tradutor, Realtime translation |
+
 
 ### L32
 
@@ -813,6 +859,54 @@ Usuário pode ocultar os chat |
 | - Sala Virtual |
 | - Chat |
 
+### L52
+
+|**Grupo Privado**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Ocorre quando somente [usuários](#l19) adicionados pelo [usuário](#l19) administrador do grupo privado podem visualizar e interagir |
+|**Impacto** |
+| - Para um grupo privado, os [usuários](#l19) precisam ser convidados para ter acesso |
+| - O [usuário](#l19) precisa aceitar a solicitação para entrar no grupo privado |
+| - O [usuário](#l19) pode se recusar a entrar no grupo privado |
+|**Sinônimos**|
+| - Grupos privados |
+| - channel privado |
+
+### L53
+
+|**Mensagem direta**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Canal de comunicação direta com outros [usuários](#l19) do [Rocket.chat](#l65) |
+| - Local onde ocorre a troca de mensagens, áudios, fotos e arquivos |
+| - Local onde é possível realizar [webconferências](#l25) |
+|**Impacto** |
+| - O [usuário](#l19) envia uma mensagem direta para outro [usuário](#l19) |
+| - Ocorre a troca de mensagens, fotos e arquivos dentro da mensagem direta |
+|**Sinônimos**|
+| - Chat Pessoal |
+
+### L54
+
+|**Copiar mensagem**|
+|--|
+|**Classificação**|
+| Verbo |
+|**Noção**|
+| - Ato de copiar um texto no [Rocket.chat](#l65) |
+| - Atividade realizada pelo [usuário](#l19) dentro de uma conversa ou [chanel](#l1) |
+|**Impacto** |
+| - O [usuário](#l19) pode copiar mensagem para enviar para outros [usuários](#l19) |
+| - O [usuário](#l19) pode utilizar em outros locais |
+|**Sinônimos**|
+| - Copiar mensagens |
+| - Clonar mensagem |
+
 ### L55
 
 |**Editar Mensagem**|
@@ -886,6 +980,36 @@ Usuário pode ocultar os chat |
 |-Mensagem apagada|
 |**Sinônimos**|
 | - apagar mensagem/mensagens, deletar mensagem/mensagens.|
+
+### L59
+
+|**Adicionar Usuário**|
+|--|
+|**Classificação**|
+| Verbo |
+|**Noção**|
+| - Opção de incluir um usuário a um [grupo privado](#l52), um [chanel](#l1) ou até uma [webconferência](#l25) |
+|**Impacto** |
+| - [Usuário](#l19) pode adicionar outro usuário a um [grupo privado](#l52) |
+| - [Usuário](#l19) pode adicionar outro usuário a um [chanel](#l1) |
+| - [Usuário](#l19) pode adicionar outro usuário a uma [webconferência](#l25) |
+|**Sinônimos**|
+| - Colocar usuário |
+
+### L62
+
+|**Login**|
+|--|
+|**Classificação**|
+| Verbo |
+|**Noção**|
+| - Ter acesso a uma conta previamente cadastrada usando dados de um [usuário](#l19). |
+|**Impacto** |
+| - Ao fazer o login com a conta, o [usuário](#l19) pode enviar uma [mensagem direta](#l53), criar um [channel](#l1), fazer uma [webconferência](#l25) e usufruir de várias funcionalidades do [Rocket.chat](#l65) |
+|**Sinônimos**|
+| - Logar no Aplicativo |
+| - Entrar no aplicativo |
+
 ### L65
 
 |**Rocket.chat**|
@@ -927,6 +1051,21 @@ Usuário pode ocultar os chat |
 |**Sinônimos**|
 | - Conta|
 
+### L68
+
+|**Salvar imagem**|
+|--|
+|**Classificação**|
+| Verbo |
+|**Noção**|
+| - Ato do [usuário](#l19) de fazer o download de uma imagem para a galeria de seu dispositivo pessoal |
+|**Impacto** |
+| - O [usuário](#l19) pode salvar imagem para usar em outros lugares |
+| - O [usuário](#l19) pode salvar imagem para editar |
+|**Sinônimos**|
+| - Baixar imagem |
+| - Download de imagem |
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -939,3 +1078,4 @@ Usuário pode ocultar os chat |
 | 21/04/2019 | 1.5 | Adição dos léxicos L4, L12, L19, L65-L67 | Heron Rodrigues |
 | 21/04/2019 | 1.6 | Adição dos léxicos L1, L2, L3, L23, L24,L55-L58 | Gabriel Davi |
 | 21/04/2019 | 1.7 | Adição dos léxicos L5, L8, L11, L17, L21, L44-L47 | Weiller Fernandes |
+| 21/04/2019 | 1.8 | Adição dos léxicos L29-L31, L52-L54, L59, L62, L68 | André Lucas |
