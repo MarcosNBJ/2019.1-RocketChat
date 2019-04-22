@@ -364,14 +364,14 @@
 |**Deletar conta**|
 |--|
 |**Objetivo** |
-| Deletar uma conta existente no app Rocket.Chat |
+| [Deletar uma conta](lexicos.md#l21) existente no app Rocket.Chat, por não se interessar mais em usa-lo |
 |**Contexto** |
 | Local: Perfil do usuário |
 |Tempo: A qualquer momento após uma conta ter sido criada|
 |Pré-condição: Estar conectado à internet, possuir conta no Rocket.Chat|
 |Pós-condição: A conta será deletada com sucesso|
 |**Atores** |
-|  Usuário com conta no Rocket.Chat |
+|  [usuário](lexicos.md#l19) com conta no Rocket.Chat |
 |**Recursos** |
 | Internet |
 | Celular |
@@ -488,7 +488,7 @@
 |- [Usuário](lexicos.md#l19) seleciona o arquivo desejado|
 |- [Usuário](lexicos.md#l19) envia o arquivo|
 |**Levantado pela técnica**|
-|  qual técnica ou quais técnicas levantaram esse necessidade|
+|  [Questionário](../Elicitação/questionario.md)|
 
 ### C10
 
@@ -502,7 +502,7 @@
 | Pré-condição: Estar conectado à internet, possuir conta no Rocket.Chat |
 | Pós-condição: O status será diferente do status inicial |
 |**Atores** |
-|  Usuário com conta no Rocket.Chat |
+|  [Usuário](#l19) com conta no Rocket.Chat |
 |**Recursos** |
 | Internet|
 | Celular |
@@ -588,14 +588,14 @@
 |- [Usuário](lexicos.md#l19) insere um Emoji se quiser|
 |- [Usuário](lexicos.md#l19) envia a mensagem clicando no botão presente na caixa de texto para essa finalidade|
 |**Levantado pela técnica**|
-|  qual técnica ou quais técnicas levantaram esse necessidade|
+|  [Questionário](../Elicitação/questionario.md)|
 
 ### C13
 
 |**Favoritar Mensagem**|
 |--|
 |**Objetivo** |
-| Favoritar uma mensagem para que seja possível visualizá-la com mais facilidade posteriormente |
+| [Favoritar uma mensagem](lexicos.md#l46) para que seja possível visualizá-la com mais facilidade posteriormente |
 |**Contexto** |
 | Local: Chat privado ou em grupo no Rocket.Chat |
 | Tempo: A qualquer momento após um chat ser iniciado e possuir mensagens enviadas |
@@ -617,7 +617,7 @@
 | Usuário escolher opção errada |
 | App parar de funcionar |
 |**Episódios** |
-| Um usuário participante de um chat deseja favoritar uma mensagem para que seja possível visualizá-la mais facilmente depois |
+| Um [usuário](lexicos.md#l19) participante de um chat deseja favoritar uma mensagem para que seja possível visualizá-la mais facilmente depois |
 | O usuário abre uma conversa e clica na mensagem que deseja favoritar |
 | Várias opções são exibidas ao usuário, dentre elas a opção de Favoritar, que pode ser identificada também pelo ícone de estrela |
 | Usuário favorita a mensagem |
