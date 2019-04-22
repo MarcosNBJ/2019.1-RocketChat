@@ -853,6 +853,76 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Levantado pela técnica**|
 | - |
 
+### C21
+
+|**Escolher tom de pele padrão**|
+|--|
+|**Objetivo**|
+| Escolher o tom de pele padrão dos [emojis](lexicos.md#l7) | 
+|**Contexto**|
+| Local: Icone de [emojis](lexicos.md#l7) dentro de uma conversa, sendo individual ou em um canal |
+| Tempo: A qualquer momento 
+| Pré-condição: O [usuário](lexicos.md#l19) deve estar logado em sua conta do [Rocket.chat](lexicos.md#l65) |
+| Pós-condição O [usuário](lexicos.md#l19) possui um tom de pele padrão para seus emojis |
+|**Atores**|
+| [Usuário](lexicos.md#l19) |
+|**Restrição**|
+| O [usuário](lexicos.md#l19) estar logado em uma conta |
+|**Exceção**|
+| Estar sem internet |
+|**Episódios**|
+| [Usuário](lexicos.md#l19) já logado abre o [Rocket.chat](lexicos.md#l65) |
+| [Usuário](lexicos.md#l19) entra em alguma conversa ou [canal](lexicos.md#l1) |
+| [Usuário](lexicos.md#l19) clica no simbolo de emoji presente no canto inferior esquerdo |
+| [Usuário](lexicos.md#l19) clica na circulo amarelo abaixo dos [emojis](lexicos.md#l7), no conto inferior direito |
+| [Usuário](lexicos.md#l19) usuário escolhe a cor de pele padrão |
+| [Usuário](lexicos.md#l19) é retornado a conversa ou [canal](lexicos.md#l1) |
+|**Levantado pela técnica**|
+| - |
+
+### C22
+
+|**Criar only read [Channel](lexicos.md#l1)**|
+|--|
+|**Objetivo**|
+| Criar um channel onde apenas o administrador pode mandar mensagem |
+|**Contexto**|
+| Local: Criar chat, menu lateral do aplicativo |
+| Tempo: A qualquer momento |
+| Pré-condição: O [usuário](lexicos.md#l19) deve estar logado em sua conta do [Rocket.chat](lexicos.md#l65) |
+| Pós-condição: O [usuário](lexicos.md#l19) cria um read only channel e vira adminstrador do mesmo |
+|**Atores**|
+| [usuário](lexicos.md#l19) |
+|**Exceção**|
+| Estar sem internet |
+|**Episódios**|
+| [usuário](lexicos.md#l19) aperta no menu lateral do aplicativo no canto superior esquerdo |
+| [usuário](lexicos.md#l19) clica no botão Criar chat |
+| Na página de criar chat o [usuário](lexicos.md#l19) seleciona a opção Read only channel e cria o channel |
+|**Levantado pela técnica**|
+| - |
+
+### C23 
+
+|**Definir membro de [channel](lexicos.md#l1) como proprietário**|
+|--|
+|**Objetivo**|
+| Definir um usuário como proprietário do channel |
+|**Contexto**|
+| Local: Dentro do channel |
+| Tempo: A qualquer momento |
+| Pré-condição: O [usuário](lexicos.md#l19) deve estar logado em sua conta do [Rocket.chat](lexicos.md#l65) e ser membro do channel |
+| Pós-condição: O [usuário](lexicos.md#l19) escolhido como propríetário recebe os privilégios de proprietário |
+|**Atores**|
+| [usuário](lexicos.md#l19) administrador do channel e participante do grupo |
+|**Episódios**|
+| O [usuário](lexicos.md#l19) adminstrador entrar no channel |
+| O [usuário](lexicos.md#l19) administrador clica na lista de membros na parte superior direita |
+| O [usuário](lexicos.md#l19) clica nos tres pontos ao lado do [usuário](lexicos.md#l19) o qual deseja tornar proprietário do channel |
+|**Levantado pela técnica**|
+| - |
+
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -865,3 +935,4 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | 21/04/2019 | 1.5 | Adição dos Cenários C6, C10, C13, C14 | Weiller Fernandes |
 | 21/04/2019 | 1.6 | Adição dos Cenários 17-20 | André Lucas |
 | 22/04/2019 | 1.7 | Criando alguns links | Gabriel Davi |
+| 22/04/2019 | 1.8 | Adição dos Cenários C21, C22, C23 | João Lucas |
