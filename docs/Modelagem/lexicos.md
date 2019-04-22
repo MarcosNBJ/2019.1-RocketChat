@@ -117,10 +117,10 @@
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Palavra precedida pelo símbolo "@", identifica o usuário, sendo que cada um possui uma tag única. E também existe a tag especial @all, que identifica todos os usuários de um dado channel.|
+| - Palavra precedida pelo símbolo "@", identifica o [usuário](#l19), sendo que cada um possui uma tag única. E também existe a tag especial @all, que identifica todos os [usuários](#l19) de um dado channel.|
 |**Impacto** |
 |- O usuário define sua própria Tag.|
-|- É utilizada pelos usuários para procurar por usuários, adicionar usuários a um grupo, e mencionar usuários em uma conversa.|
+|- É utilizada pelos usuários para procurar por [usuários](#l19), [adicionar usuários a um grupo](#l59) , e mencionar usuários em uma conversa.|
 
 
 ### L7
@@ -131,9 +131,9 @@
 |**Noção**|
 | - Símbolos gráficos usados para representar ações, objetos ou ideias abstratas, como uma risada, um choro, raiva, um relógio, uma bola, ou mesmo a ação de pedalar.|
 |**Impacto** |
-|- Podem ser utilizados pelo usuário dentro durante uma conversa para exprimir essas ideias ou ações sem ter que descreve-las por palavras.|
-|- O usuário pode adicionar uma reação a uma mensagem, anexando a ela um emoji. |
-|- Muitos já são obtidos junto com o aplicativo. Mas o usuário também pode incluir novos, feitos por ele ou por terceiros.|
+|- Podem ser utilizados pelo [usuário](#l19) dentro durante uma conversa para exprimir essas ideias ou ações sem ter que descreve-las por palavras.|
+|- O usuário pode [adicionar uma reação](#l9) a uma mensagem, anexando a ela um emoji. |
+|- Muitos já são obtidos junto com o aplicativo. Mas o [usuário](#l19) também pode incluir novos, feitos por ele ou por terceiros.|
 |**Sinônimos**|
 | - Reação |
 
@@ -179,11 +179,11 @@
 | Verbo|
 |**Noção**|
 |- Ação realizada pelo usuário.|
-|- Acontece quando o mesmo retira uma reação anteriormente adicionada a uma mensagem.|
+|- Acontece quando o mesmo retira uma [reação](#l7) anteriormente [adicionada](#l9) a uma mensagem.|
 |- Usuário clica na reação adicionada, e ela é então retirada.|
 |**Impacto** |
-|- Se outros usuários reagiram aquela mensagem com o mesmo emoji, a contagem dessas reações na mensagem decresce em um.|
-|- Se não haviam outras reações com o mesmo emoji, a reação é completamente removida da mensagem.|
+|- Se outros usuários reagiram aquela mensagem com o mesmo [emoji](#l7), a contagem dessas reações na mensagem decresce em um.|
+|- Se não haviam outras reações com o mesmo [emoji](#l7), a reação é completamente removida da mensagem.|
 
 ### L11
 |**Procurar mensagem**|
@@ -221,10 +221,10 @@
 | Verbo|
 |**Noção**|
 | - Ação realizada pelo usuário.|
-| - O usuário clica em uma mensagem, e então vai até a opção “Copiar Permalink”, que o permite copiar um link que leva diretamente para a mensagem selecionada dentro do channel.|
+| - O usuário clica em uma mensagem, e então vai até a opção “Copiar [Permalink](#l15) ”, que o permite copiar um link que leva diretamente para a mensagem selecionada dentro do channel.|
 |**Impacto** |
-|- É gerado um Permalink, que o usuário pode então compartilhar com outros usuários.|
-|- Outros usuários que clicam no permalink poderão ver a mensagem por ele salva, e então realizar ações como responder ou adicionar reação.|
+|- É gerado um [Permalink](#l15), que o usuário pode então compartilhar com outros usuários.|
+|- Outros usuários que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidcionar reação](#l9) ou [responder](#l56).|
 
 ### L14
 
@@ -249,9 +249,9 @@
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - É um link permanente que pode levar o usuário que clicar a um channel, a uma mensagem, ou a um servidor. |
+| - É um link permanente que pode levar o [usuário](#l19) que clicar a um [channel](#l1), a uma [mensagem](#l42), ou a um [servidor](#l18). |
 |**Impacto**|
-|- O usuário pode gerar o permalink através da ação de Copiar Permalink para mensagem, ou de convidar um outro usuário para um determinado channel ou servidor.
+|- O usuário pode gerar o permalink através da ação de [Copiar Permalink](#l13) para mensagem, ou de convidar um outro usuário para um determinado channel ou servidor.|
 |- O usuário que receber e usar o permalink será levado para o destino para o qual ele foi gerado. |
 
 
@@ -536,9 +536,9 @@
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - É um aviso textual que o usuário gostaria que fosse visto pelos outros integrantes de um channel. |
+| - É um aviso textual que o [usuário](#l19) gostaria que fosse visto pelos outros integrantes de um [channel](#l1). |
 |**Impacto** |
-|- Um Anúncio pode ser criado pelo usuário em um channel|
+|- Um Anúncio pode ser criado pelo usuário em um [channel](#l1)|
 |- Um Anúncio criado será fixado na aba Anúncios do channel para todos os outros usuários|
 |- Um Anúncio pode ser removido pelo usuário, desde que este tenha os privilégios necessários|
 |**Sinônimos**|
@@ -552,10 +552,10 @@
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Descrição textual que identifica o assunto a ser tratado em um channel. |
+| - Descrição textual que identifica o assunto a ser tratado em um [channel](#l1). |
 |**Impacto** |
 |- O administrador do channel pode editar o tópico do channel.|
-|- O tópico colocado será visto por todos os outros usuários membros do channel que forem até a sua descrição.|
+|- O tópico colocado será visto por todos os outros [usuários](#l19) membros do channel que forem até a sua descrição.|
 |**Sinônimos**|
 | - Assunto |
 
@@ -567,10 +567,10 @@
 |**Classificação**|
 | Estado|
 |**Noção**|
-|- Um channel favoritado irá aparecer em destaque em relação aos outros na lista de channels do usuário|
-|- Estado é atribuído ao channel quando o usuário realiza a ação de favoritar um channel|
+|- Um [channel](#l1) favoritado irá aparecer em destaque em relação aos outros na lista de channels do [usuário](#l19)|
+|- Estado é atribuído ao channel quando o usuário realiza a ação de [favoritar um channel](#l35) |
 |**Impacto** |
-|- O usuário pode desfavoritar um channel que esteja favoritado.|
+|- O usuário pode [desfavoritar um channel](#l36) que esteja favoritado.|
 |- O usuário pode favoritar um channel ainda não favoritado.|
 |**Sinônimos**|
 | - Stared channel |
@@ -582,10 +582,10 @@
 |**Classificação**|
 | Verbo|
 |**Noção**|
-|- Ação realizada pelo usuário.|
-|- O usuário vai até sua lista de channels e dá um click no botão com ícone de estrela para favoritar um channel. |
+|- Ação realizada pelo [usuário](#l19).|
+|- O usuário vai até sua lista de [channels](#l1) e dá um click no botão com ícone de estrela para favoritar um channel. |
 |**Impacto** |
-|- Um channel favoritado vai aparecer em destaque na lista de channels |
+|- Um [channel favoritado](#l34) vai aparecer em destaque na lista de channels |
 |- O usuário pode desfavoritar um channel favoritado|
 |**Sinônimos**|
 | - Star channel |
@@ -598,10 +598,10 @@
 | Verbo|
 |**Noção**|
 |- Ação realizada pelo usuário.|
-|- O usuário vai até um channel favoritado e dá um click no ícone da estrela, para desfavoritar o canal.|
+|- O [usuário](#l19) vai até um [channel favoritado](#l34) e dá um click no ícone da estrela, para desfavoritar o [canal](#l1).|
 |**Impacto** |
-|- O canal não irá mais aparecer em destaque |
-|- O usuário poderá favoritar novamente o channel |
+|- O canal não irá mais aparecer em [destaque](#l34) |
+|- O usuário poderá [favoritar](#l35) novamente o channel |
 |**Sinônimos**|
 | - Unstar channel |
 
@@ -612,10 +612,10 @@
 |**Classificação**|
 | Objeto|
 |**Noção**|
-|- Cor da pele que será utilizada nos Emojis que representam figuras humanas|
+|- Cor da pele que será utilizada nos [Emojis](#l7) que representam figuras humanas|
 |- É possível escolher uma tonalidade dentre 6, 1 neutra que é amarela e 5 que são inspiradas na realidade|
 |**Impacto** |
-|- O usuário pode escolher o tom de pele padrão que será utilizado nos Emojis que ele usar.|
+|- O [usuário](#l19) pode [escolher o tom de pele padrão](#l38) que será utilizado nos Emojis que ele usar.|
 |**Sinônimos**|
 | - Emoji Skin |
 
@@ -626,8 +626,8 @@
 |**Classificação**|
 | Verbo|
 |**Noção**|
-|- Ação realizada pelo usuário.|
-|- Usuário realiza a ação ao, dentro de uma conversa, selecionar o ícone de Emojis e em seguida selecionar o ícone circular colorido que representa o tom de pele padrão.|
+|- Ação realizada pelo [usuário](#l19).|
+|- Usuário realiza a ação ao, dentro de uma [conversa](#l1), selecionar o ícone de [Emojis](#l7) e em seguida selecionar o ícone circular colorido que representa o tom de pele padrão.|
 |**Impacto** |
 |- Todos os emojis que representam figuras humanas que o usuário mandar terão a cor de pele na tonalidade selecionada|
 |- O usuário pode tocar no botão novamente para trocar a cor|
