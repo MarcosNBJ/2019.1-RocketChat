@@ -408,7 +408,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 
 ### L25
 
-|**Webconferência**|
+|**Video Chat**|
 |--|
 |**Classificação**|
 | Objeto|
@@ -418,14 +418,16 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Reunião virtual entre integrantes de um grupo |
 | - [usuário](#l19) deseja realizar uma reunião online com sua equipe. |
 |**Impacto** |
-| - [usuário](#l19) inicia uma webconferência para se comunicar com outros [usuários](#l19) |
-| - [Usuários](#l19) participantes de uma Webconferência podem interagir entre si |
+| - [usuário](#l19) inicia uma [Video Chat](#l25) para se comunicar com outros [usuários](#l19) |
+| - [Usuários](#l19) participantes de uma [Video Chat](#l25) podem interagir entre si |
 | - Permite que os integrantes de um grupo não precisem se deslocarem para uma reunião em um local físico |
-| - [usuário](#l19) grava um video da webconferência e compartilha com sua equipe para uma possível consulta do que foi acordado e discutido |
+| - [usuário](#l19) grava um video da [Video Chat](#l25) e compartilha com sua equipe para uma possível consulta do que foi acordado e discutido |
 | - Permite ao [usuário](#l19) transmitir a tela do seu dispositivo (computador ou celular) |
 |**Sinônimos**|
 | - Videoconferência |
 | - Reunião Online |
+| - Webconferência |
+| - Chamada de video |
 
 ### L26
 
@@ -521,11 +523,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto |
 |**Noção**|
-| - [usuário Pro](#l29) e [usuário Enterprise](#l30) podem [enviar mensagens](#l41) e fazer [Webconferência](#l25)  com tradução em vários idiomas |
+| - [usuário Pro](#l29) e [usuário Enterprise](#l30) podem [enviar mensagens](#l41) e fazer [Video Chat](#l25)  com tradução em vários idiomas |
 | - Tecnologia que permite o [usuário](#l19) se comunicar em tempo real, entre [usuários](#l19) que falam idiomas diferentes, sem restrições |
 |**Impacto** |
 | - [Usuário](#l19) pode trocar mensagens com [usuários](#l19) de outros países |
-| - [Usuário](#l19) pode participar de [Webconferência](#l25) com [usuários](#l19) de outros países |
+| - [Usuário](#l19) pode participar de [Video Chat](#l25) com [usuários](#l19) de outros países |
 | - Permite um melhor relacionamento com [usuários](#l19)/empresas que falam outro idioma |
 |**Sinônimos**|
 | - Tradutor, Realtime translation |
@@ -661,7 +663,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | Objeto|
 |**Noção**|
 | - Ação realizada pelo aplicativo |
-| - Ação acontece em uma webconferência |
+| - Ação acontece em uma [Video Chat](#l25) |
 | - Aplicativo utiliza um processo de reconhecimento e, logo após, mostra ao [usuário](#l19) o áudio processado em formato de texto |
 |**Impacto** |
 | - [Usuários](#l19) podem ver os resultados do reconhecimento do áudio quase que em tempo real |
@@ -886,7 +888,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 | - Canal de comunicação direta com outros [usuários](#l19) do [Rocket.chat](#l65) |
 | - Local onde ocorre a troca de mensagens, áudios, fotos e arquivos |
-| - Local onde é possível realizar [webconferências](#l25) |
+| - Local onde é possível realizar [Video Chats](#l25) |
 |**Impacto** |
 | - O [usuário](#l19) envia uma mensagem direta para outro [usuário](#l19) |
 | - Ocorre a troca de mensagens, fotos e arquivos dentro da mensagem direta |
@@ -990,11 +992,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Verbo |
 |**Noção**|
-| - Opção de incluir um [usuário](#l19) a um [grupo privado](#l52), um [chanel](#l1) ou até uma [webconferência](#l25) |
+| - Opção de incluir um [usuário](#l19) a um [grupo privado](#l52), um [chanel](#l1) ou até uma [Video Chat](#l25) |
 |**Impacto** |
 | - [Usuário](#l19) pode adicionar outro [usuário](#l19) a um [grupo privado](#l52) |
 | - [Usuário](#l19) pode adicionar outro [usuário](#l19) a um [chanel](#l1) |
-| - [Usuário](#l19) pode adicionar outro [usuário](#l19) a uma [webconferência](#l25) |
+| - [Usuário](#l19) pode adicionar outro [usuário](#l19) a uma [Video Chat](#l25) |
 |**Sinônimos**|
 | - Colocar [usuário](#l19) |
 
@@ -1007,7 +1009,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 | - Ter acesso a uma conta previamente cadastrada usando dados de um [usuário](#l19). |
 |**Impacto** |
-| - Ao fazer o login com a conta, o [usuário](#l19) pode enviar uma [mensagem direta](#l53), criar um [channel](#l1), fazer uma [webconferência](#l25) e usufruir de várias funcionalidades do [Rocket.chat](#l65) |
+| - Ao fazer o login com a conta, o [usuário](#l19) pode enviar uma [mensagem direta](#l53), criar um [channel](#l1), fazer uma [Video Chat](#l25) e usufruir de várias funcionalidades do [Rocket.chat](#l65) |
 |**Sinônimos**|
 | - Logar no Aplicativo |
 | - Entrar no aplicativo |
