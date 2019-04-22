@@ -209,10 +209,10 @@
 | - [Usuário](lexicos.md#l19) escolhe os [membros](lexicos.md#l12) que irão participar do [channel](lexicos.md#l1)|
 | - [Usuário](lexicos.md#l19) clica no botão “Criar”|
 |**Levantado pela técnica**|
-| - Introspecção INT1.1, INT2.5, INT3.1|
-| - Storyboard 1 |
-| - Analise de Protocolo AP4 |
-| - Questionário Q16 |
+| - Introspecção [INT1.1](../Elicitação/introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/introspeccao.md#introspeccao-03)|
+| - [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos)|
+| - Analise de Protocolo [AP4](../Elicitação/analprot.md#requisitos-elicitados) |
+| - Questionário [Q16](../Elicitação/questionario#requisitos-elicitados) |
 
 ### C3 - V2
 |**Criar [channel](lexicos.md#l1)**|
@@ -247,10 +247,10 @@
 | - [Usuário](lexicos.md#l19) escolhe os [membros](lexicos.md#l12) que irão participar do [channel](lexicos.md#l1)|
 | - [Usuário](lexicos.md#l19) clica no botão “Criar”|
 |**Levantado pela técnica**|
-| - Introspecção INT1.1, INT2.5, INT3.1|
-| - Storyboard 1 |
-| - Analise de Protocolo AP4 |
-| - Questionário Q16 |
+| - Introspecção [INT1.1](../Elicitação/introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/introspeccao.md#introspeccao-03)|
+| - [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos)|
+| - Analise de Protocolo [AP4](../Elicitação/analprot.md#requisitos-elicitados) |
+| - Questionário [Q16](../Elicitação/questionario#requisitos-elicitados) |
 
 
 ### C4 - V1
@@ -282,11 +282,11 @@
 | - [Usuário](lexicos.md#l19) insere o endereço do [servidor](lexicos.md#l18) |   
 | - [Usuário](lexicos.md#l19) clica em “Conectar” |
 |**Levantado pela técnica**|
-| - Entrevista ENT1.7 |
-| - Introspecção INT1.4, INT3.2|
-| - Storyboard 4 |
-| - Analise de Discurso AD13 |
-| - Analise de Protocolo AP2 |
+| - Entrevista [ENT1.7](../Elicitação/Entrevista.md#requisitos) |
+| - Introspecção [INT1.4](../Elicitação/introspeccao.md#introspeccao-01), [INT3.2](../Elicitação/introspeccao.md#introspeccao-03)|
+| - [Storyboard 4](../Elicitação/Storyboard.md#4-requisitos-obtidos) |
+| - Analise de Discurso [AD13](../Elicitação/analdiscurso.md#requisitos-elicitados) |
+| - Analise de Protocolo [AP2](../Elicitação/analprot.md#requisitos-elicitados) |
 
 ### C4 - V2
 
@@ -320,11 +320,11 @@
 | - [Usuário](lexicos.md#l19) insere o endereço do [servidor](lexicos.md#l18)    
 | - [Usuário](lexicos.md#l19) clica em “Conectar” |
 |**Levantado pela técnica**|
-| - Entrevista ENT1.7 |
-| - Introspecção INT1.4, INT3.2|
-| - Storyboard 4 |
-| - Analise de Discurso AD13 |
-| - Analise de Protocolo AP2 |
+| - Entrevista [ENT1.7](../Elicitação/Entrevista.md#requisitos) |
+| - Introspecção [INT1.4](../Elicitação/introspeccao.md#introspeccao-01), [INT3.2](../Elicitação/introspeccao.md#introspeccao-03)|
+| - [Storyboard 4](../Elicitação/Storyboard.md#4-requisitos-obtidos) |
+| - Analise de Discurso [AD13](../Elicitação/analdiscurso.md#requisitos-elicitados) |
+| - Analise de Protocolo [AP2](../Elicitação/analprot.md#requisitos-elicitados) |
 
 ### C5
 
