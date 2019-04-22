@@ -1,5 +1,7 @@
 # Cenários
 
+Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos de ações possíveis no app através da listagem de todos os fatores que os constituem, sendo estes: objetivo, contexto, atores envolvidos, recursos necessários, restrições, exceções e episódios que constituem o fluxo. Adicionalmente, são aqui colocados também qual requisito elicitou cada cenário, para melhorar a rastreabilidade.
+
 ### C
 
 |**Título do Cenário**|
