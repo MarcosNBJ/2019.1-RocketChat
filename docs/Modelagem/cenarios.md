@@ -340,6 +340,41 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Levantado pela técnica**|
 | - |
 
+### C5 - V2
+
+|**Editar uma mensagem**|
+|--|
+|**Objetivo** |
+| [Usuário](lexicos.md#l19) editar o conteúdo textual de uma mensagem para exprimir uma ideia diferente da anterior |
+|**Contexto** |
+|-Local: [channel](lexicos.md#l1) da conversa|
+|-Tempo: A qualquer momento|
+|-Pré-condição: O [usuário](lexicos.md#l19) ter [conta](lexicos.md#l67) no aplicativo e estar dentro do [channel](lexicos.md#l1), bem como ter as permissões necessárias
+|-Pós-condição: A dada mensagem no [channel](lexicos.md#l1) será mostrada com o conteúdo editado e um identificador contendo a palavra “Editada”|
+|**Atores** |
+|  [Usuário](lexicos.md#l19) |
+|**Recursos** |
+|- Internet|
+|- [Conta](lexicos.md#l67) no aplicativo|
+|**Restrição**|
+|- Qualidade da conexão com a internet |
+|- Usuário exprimir corretamente a ideia que gostaria|
+|**Exceção** |
+|- Queda da internet|
+|- [Usuário](lexicos.md#l19) não tem permissão|
+|- [Usuário](lexicos.md#l19) cancela a ação|
+|**Episódios** |
+|- [Usuário](lexicos.md#l19) abre o aplicativo|
+|- [Usuário](lexicos.md#l19) loga no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) vai até o [channel](lexicos.md#l1)|
+|- [Usuário](lexicos.md#l19) clica na mensagem que deseja editar|
+|- [Usuário](lexicos.md#l19) clica na opção editar|
+|- [Usuário](lexicos.md#l19) edita o conteúdo da mensagem|
+|- [Usuário](lexicos.md#l19) clica no botão enviar, finalizando a edição|
+|**Levantado pela técnica**|
+| - |
+
+
 ### C6
 
 |**Deletar conta**|
@@ -465,7 +500,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
 |- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado|
 |- [Usuário](lexicos.md#l19) clica no botão “plus”|
-|- [Usuário](lexicos.md#l19) clica em anexar um arquivo|
+|- [Usuário](lexicos.md#l19) clica em [anexar um arquivo](#c9)|
 |- [Usuário](lexicos.md#l19) seleciona o arquivo desejado|
 |- [Usuário](lexicos.md#l19) envia o arquivo|
 |**Levantado pela técnica**|
@@ -544,7 +579,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Enviar mensagem**|
 |--|
 |**Objetivo** |
-|- Transmitir aos outros integrantes da conversa uma mensagem, que pode conter texto, Emojis, arquivos de mídia, documentos, áudios gravados pelo app, e desenhos digitais feitos pelo menu do app.|
+|- Transmitir aos outros integrantes da conversa uma mensagem, que pode conter texto, Emojis, [arquivos de mídia](#c9), documentos, áudios gravados pelo app, e [desenhos digitais](#c8) feitos pelo menu do app.|
 |**Contexto** |
 |- Local: [channel](lexicos.md#l1) da conversa|
 |- Tempo: A qualquer momento|
@@ -567,8 +602,8 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
 |- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado |
 |- [Usuário](lexicos.md#l19) digita a mensagem no campo de texto|
-|- [Usuário](lexicos.md#l19) [anexa](lexicos.md#l5) todos os arquivos que quiser na mensagem|
-|- [Usuário](lexicos.md#l19) insere um Emoji se quiser|
+|- [Usuário](lexicos.md#l19) [anexa todos os arquivos](#c9) ou [desenhos](#c8) que quiser na mensagem|
+|- [Usuário](lexicos.md#l19) insere um [Emoji](lexicos.md#l7) se quiser|
 |- [Usuário](lexicos.md#l19) envia a mensagem clicando no botão presente na caixa de texto para essa finalidade|
 |**Levantado pela técnica**|
 | - [Questionário](../Elicitação/questionario.md)|
@@ -775,7 +810,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | [Usuário](lexicos.md#l19) preenche o [login](lexicos.md#l62) e senha |
 | [Usuário](lexicos.md#l19) clica em "Entrar" |
 |**Levantado pela técnica**|
-| - |
+| [Introspecção](../Elicitação/Introspeccao.md) |
 
 ### C19
 
@@ -805,7 +840,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | [Usuário](lexicos.md#l19) clica nas [notificações](lexicos.md#l28) |
 | [Usuário](lexicos.md#l19) vê a mensagem de outro [usuário](lexicos.md#l19) |
 |**Levantado pela técnica**|
-| - |
+| [Questionário](../Elicitação/questionario.md) |
 
 ### C20
 
@@ -944,6 +979,13 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | - [Questionário](../Elicitação/questionario.md) |
 | - [StoryBoard](../Elicitação/Storyboard.md)
 
+
+## Cenários que não correspondem a nenhum requisito elicitado
+
+Alguns cenários listados não são correlacionados a nenhum requisito previamente elicitado. Fato este que demonstra uma provável falha na etapa de elicitação, que não permitiu que algumas necessidades fossem identificados.
+*[c1](#c1-v2) [c5](#c5-v2) [c6](#c6) [c8](#c8) [c13](#c13) [c14](#c14) [c15](#c15) [c16](#c16) [c17](#c17) [c18](#c18) [c23](#c23)  [c22](#c22) [c21](#c21)*
+
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -958,3 +1000,4 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | 22/04/2019 | 1.7 | Criando alguns links | Gabriel Davi |
 | 22/04/2019 | 1.8 | Adição dos Cenários C21, C22, C23 | João Lucas |
 | 22/04/2019 | 1.9 | Criando alguns links | Weiller Fernandes |
+| 22/04/2019  |2.0  | Adicionando tabelamento de cenários não elicitados| Marcos Nery|

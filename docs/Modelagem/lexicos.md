@@ -3,18 +3,6 @@
 Aqui estão listados os lexicos, que são termos específicos do contexto do domínio da aplicação, para os quais agora estão listadas uma descrição de significado, seus sinônimos, impactos. E também uma classificação, que pode ser de objeto, verbo ou estado. O segundo para ações, o terceiro para estados, e o primeiro para os quais não se encaixam nas outras duas e se referem apenas para termos, os quais tem um significado, mas não ações.
 
 
-### L
-
-|**Título do Léxico**|
-|--|
-|**Classificação**|
-| Objeto|
-|**Noção**|
-| - noção aqui|
-|**Impacto** |
-| - impacto aqui|
-|**Sinônimos**|
-| - sinônimo aqui|
 
 ### L1
 
