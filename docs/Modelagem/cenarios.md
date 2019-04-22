@@ -2,27 +2,6 @@
 
 Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos de ações possíveis no app através da listagem de todos os fatores que os constituem, sendo estes: objetivo, contexto, atores envolvidos, recursos necessários, restrições, exceções e episódios que constituem o fluxo. Adicionalmente, são aqui colocados também qual requisito elicitou cada cenário, para melhorar a rastreabilidade.
 
-### C
-
-|**Título do Cenário**|
-|--|
-|**Objetivo** |
-| objetivo aqui |
-|**Contexto** |
-| contexto aqui |
-|**Atores** |
-|  atores aqui |
-|**Recursos** |
-|  recursos aqui |
-|**Restrição**|
-|  restrições aqui |
-|**Exceção** |
-|  exeções aqui |
-|**Episódios** |
-|  episódios aqui |
-|**Levantado pela técnica**|
-|  qual técnica ou quais técnicas levantaram esse necessidade|
-
 
 ### C1 - V1
 
@@ -359,7 +338,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) edita o conteúdo da mensagem|
 |- [Usuário](lexicos.md#l19) clica no botão enviar, finalizando a edição|
 |**Levantado pela técnica**|
-|  qual técnica ou quais técnicas levantaram esse necessidade|
+| - |
 
 ### C6
 
@@ -424,7 +403,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) escreve o conteúdo desejado|
 |- [Usuário](lexicos.md#l19) envia a resposta|
 |**Levantado pela técnica**|
-|  qual técnica ou quais técnicas levantaram esse necessidade|
+| - [StotyBoarding](../Elicitação/StotyBoarding.md) |
 
 ### C8
 
@@ -456,7 +435,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) desenha o conteúdo desejado|
 |- [Usuário](lexicos.md#l19) envia o desenho|
 |**Levantado pela técnica**|
-|  qual técnica ou quais técnicas levantaram esse necessidade|
+|  - |
 
 ### C9
 
