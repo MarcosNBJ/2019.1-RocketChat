@@ -96,14 +96,14 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 
 ### C2 - V1
 
-|**Realizar Web conferência**|
+|**Realizar [Web conferência](lexicos.md#l25)**|
 |--|
 |**Objetivo** |
 | Realizar uma reunião online |
 |**Contexto** |
 | -Local: Plataforma [Rocket.chat](lexicos.md#l65) |
 | -Pré-condição: possuir internet, possuir a plataforma [Rocket.chat](lexicos.md#l65) no celular ou computador |
-| -Pós-condição: Web conferência será realizada com sucesso entre os [usuários](lexicos.md#l19)
+| -Pós-condição: [Web conferência](lexicos.md#l25) será realizada com sucesso entre os [usuários](lexicos.md#l19)
 |
 |**Atores** |
 |  -Pessoa 1 |
@@ -129,29 +129,29 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |  -Pessoa 1 um marca reunião com a pessoa 2. |
 |  -Pessoa 1 acessa a internet e baixa o [Rocket.chat](lexicos.md#l65) em seu computador.|
 |  -Pessoa 1 pega seu fone de ouvido e testa seu microfone.|
-|  -Pessoa 2 acessa a internet e baixa o rocket chat em seu celular.|
+|  -Pessoa 2 acessa a internet e baixa o [Rocket.chat](lexicos.md#l65) em seu celular.|
 |  -Pessoa 2 testa o microfone e autofalante de seu celular, já que não possui fones de ouvido.|
 |  -Pessoa um entra em sua [conta](lexicos.md#l67) no [Rocket.chat](lexicos.md#l65) e procura o [usuário](lexicos.md#l19) da Pessoa 2.|
 |  -Pessoa 1 entra em um bate papo com a pessoa 2. |
-|  -Pessoa 1 seleciona a opção “Realizar Vídeo conferência” e manda o convite para a pessoa 2.|
-|  -Pessoa 2 entra em sua conta do [Rocket.chat](lexicos.md#l65) e aceita o convite para a realização da web conferencia.|
+|  -Pessoa 1 seleciona a opção “Realizar [Vídeo conferência](lexicos.md#l25)” e manda o convite para a pessoa 2.|
+|  -Pessoa 2 entra em sua conta do [Rocket.chat](lexicos.md#l65) e aceita o convite para a realização da [web conferencia](lexicos.md#l25).|
 |**Levantado pela técnica**|
 |  Storyboard, introspecção, questionário, análise de protocolo, análise de discurso |
 
 
 ### C2 - V2
 
-|**Realizar Web conferência**|
+|**Realizar [Web Conferencia](lexicos.md#l25)**|
 |--|
 |**Objetivo** |
 | Conversar a distância com outro [usuário](lexicos.md#l19)/grupo. |
 |**Contexto** |
 | -Local: Plataforma [Rocket.chat](lexicos.md#l65) |
 | -Pré-condição: possuir internet, possuir a plataforma [Rocket.chat](lexicos.md#l65) no celular ou computador |
-| -Pós-condição: Web conferência será realizada com sucesso entre os [usuários](lexicos.md#l19)
+| -Pós-condição: [web conferencia](lexicos.md#l25) será realizada com sucesso entre os [usuários](lexicos.md#l19)
 |
 |**Atores** |
-|  -Criador da web conferência |
+|  -Criador da [web conferencia](lexicos.md#l25) |
 |  -Grupo/pessoas que irão participar  |
 |**Recursos** |
 |  -Internet |
@@ -171,11 +171,11 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |  -computador quebrar. |
 |  -microfone do computador quebrar.|
 |**Episódios** |
-| -O criador da web conferência um marca reunião com o grupo/pessoa.|
+| -O criador da [web conferencia](lexicos.md#l25) um marca reunião com o grupo/pessoa.|
 | -Todos os envolvidos pegam seu fone de ouvido e testam seu microfone.|
 | -Criador da conversa entra em sua [conta](lexicos.md#l67) no [Rocket.chat](lexicos.md#l65) e procura o [usuários](lexicos.md#l19) dos outros envolvidos.|
-| -Criador da web conferência entra em um bate papo com o grupo/pessoa.|
-| -Criador da web conferência seleciona a opção “Realizar Vídeo conferência” e manda o convite para o grupo/pessoa.|
+| -Criador da [web conferencia](lexicos.md#l25) entra em um bate papo com o grupo/pessoa.|
+| -Criador da [web conferencia](lexicos.md#l25) seleciona a opção “Realizar [web conferencia](lexicos.md#l25)” e manda o convite para o grupo/pessoa.|
 | -O grupo/pessoa entra em sua [conta](lexicos.md#l67) do [Rocket.chat](lexicos.md#l65) e aceita o convite para a realização da web conferência.|
 |**Levantado pela técnica**|
 |  Storyboard, introspecção, questionário, análise de protocolo, análise de discurso |
@@ -703,11 +703,11 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Esconder sala**|
 |--|
 |**Objetivo** |
-| Não ver mais uma sala e nem receber notificações da mesma|
+| Não ver mais uma sala e nem receber [notificações](lexicos.md#l28) da mesma|
 |**Contexto** |
 | -Local: Plataforma [Rocket.chat](lexicos.md#l65).|
 | -Tempo: a qualquer momento, quando o surgir no [usuário](lexicos.md#l19) o desejo de deixar uma sala.|
-| -Pré-condição: Estar conectado com a internet, ter o [Rocket.chat](lexicos.md#l65) baixado em seu computador, possuir um [usuário](lexicos.md#l19) na plataforma, estar presente no chat que deseja Esconder.|
+| -Pré-condição: Estar conectado com a internet, ter o [Rocket.chat](lexicos.md#l65) baixado em seu computador, possuir um [usuário](lexicos.md#l19) na plataforma, estar presente no [chat](lexicos.md#l1) que deseja Esconder.|
 | -Pós-condição: Não ver mais e nem ser notificado pelo chat escondido.|
 |**Atores** |
 |  [Usuário](lexicos.md#l19) cadastrado presente no [channel](lexicos.md#l1) |
@@ -723,15 +723,15 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | -Não possuir internet |
 | -App dar crash |
 | -Computador quebrar |
-| -Não participar de nenhum grupo |
+| -Não participar de nenhum [grupo](lexicos.md#l1) |
 | -Não possuir [Rocket.chat](lexicos.md#l65) versão desktop, nem [conta](lexicos.md#l67) na plataforma |
 |**Episódios** |
-| -Surge no [usuário](lexicos.md#l19) o desejo sair de esconder um grupo.|
+| -Surge no [usuário](lexicos.md#l19) o desejo sair de esconder um [grupo](lexicos.md#l1).|
 | -O [usuário](lexicos.md#l19) abre a plataforma em seu computador.|
-| -O [usuário](lexicos.md#l19) busca na área de [channels](lexicos.md#l1), o grupo no qual deseja se esconder.|
-| -O [usuário](lexicos.md#l19) clica nos três pontos que surgem ao manter o cursor em cima do grupo.|
-| -Após o clique, surgem diversas interações que podem ser realizadas com o grupo, dentre tais a de “esconder grupo”.|
-| -O [usuário](lexicos.md#l19) clica na opção “ esconder grupo” e , com isso, esconde o grupo, passando a não receber mais atividades do mesmo, mas podendo restaurar a qualquer momento.|
+| -O [usuário](lexicos.md#l19) busca na área de [channels](lexicos.md#l1), o [grupo](lexicos.md#l1) no qual deseja se esconder.|
+| -O [usuário](lexicos.md#l19) clica nos três pontos que surgem ao manter o cursor em cima do [grupo](lexicos.md#l1).|
+| -Após o clique, surgem diversas interações que podem ser realizadas com o [grupo](lexicos.md#l1), dentre tais a de “esconder [grupo](lexicos.md#l1)”.|
+| -O [usuário](lexicos.md#l19) clica na opção “ esconder [grupo](lexicos.md#l1)” e , com isso, escondendo-o, passando a não receber mais atividades do mesmo, mas podendo restaurar a qualquer momento.|
 |**Levantado pela técnica**|
 |-|
 
@@ -863,4 +863,5 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | 21/04/2019 | 1.3 | Adição do Cenário C11 | Lucas Maciel |
 | 21/04/2019 | 1.4 | Adição do Cenários C3, C4 | Heron Rodrigues |
 | 21/04/2019 | 1.5 | Adição dos Cenários C6, C10, C13, C14 | Weiller Fernandes |
-| 21/04/2019 | 1.6 | André Lucas | Adição dos Cenários 17-20 |
+| 21/04/2019 | 1.6 | Adição dos Cenários 17-20 | André Lucas |
+| 22/04/2019 | 1.7 | Gabriel Davi | Criando alguns links |
