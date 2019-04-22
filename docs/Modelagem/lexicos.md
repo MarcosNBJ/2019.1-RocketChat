@@ -1070,6 +1070,36 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Baixar imagem |
 | - Download de imagem |
 
+### L69
+
+|**Read only channel**|
+|--|
+|**Classificação**|
+| Objeto |
+|**Noção**|
+| - Canal o qual apenas os administradores do grupo podem falar |
+| - Canal onde apenas se visualiza [mensagens](#l42) |
+|**Impacto**|
+| - Um [usuário](#l19) quer informar algumas pessoas sobre algo, então cria um read only channel |
+| - Um [usuário](#l19) quer fazer um canal apenas de informações onde não exista conversas além do informativos então cria um read only channel, onde apenas quem o cria pode enviar [mensagem](#l42) |
+|**Sinônimos**|
+| - Lista de transmissão |
+
+
+### L70 
+
+|**Administrador do [channel](#l1)**|
+|--|
+|**Classificação**|
+| Objeto |
+|**Noção**|
+| - Pessoa a qual cria um [channel](#l1), ou recebe o privilégios de administrador de quem criou o channel |
+|**Impacto**|
+| - Um [usuário](#l19) o qual cria um channel se torna o administrador do mesmo |
+| - O administrador do channel pode querer ceder os privilégios de administrador a outro [usuário](#l19) podendo então torna-lo também administrador do channel |
+|**Sinônimos**|
+| - Gerente |
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -1085,3 +1115,4 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | 21/04/2019 | 1.8 | Adição dos léxicos L29-L31, L52-L54, L59, L62, L68 | André Lucas |
 | 22/04/2019 | 1.9 | Linkando alguns lexicos | Gabriel Davi |
 | 22/04/2019 | 2.0 | Linkando alguns léxicos | Weiller Fernandes|
+| 22/04/2019 | 2.1 | Adição dos léxicos L69 e L70 | João Lucas |
