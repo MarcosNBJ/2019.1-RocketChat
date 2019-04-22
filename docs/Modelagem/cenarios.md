@@ -500,7 +500,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
 |- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado|
 |- [Usuário](lexicos.md#l19) clica no botão “plus”|
-|- [Usuário](lexicos.md#l19) clica em anexar um arquivo|
+|- [Usuário](lexicos.md#l19) clica em [anexar um arquivo](#c9)|
 |- [Usuário](lexicos.md#l19) seleciona o arquivo desejado|
 |- [Usuário](lexicos.md#l19) envia o arquivo|
 |**Levantado pela técnica**|
@@ -602,8 +602,8 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
 |- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado |
 |- [Usuário](lexicos.md#l19) digita a mensagem no campo de texto|
-|- [Usuário](lexicos.md#l19) [anexa](lexicos.md#l5) todos os arquivos que quiser na mensagem|
-|- [Usuário](lexicos.md#l19) insere um Emoji se quiser|
+|- [Usuário](lexicos.md#l19) [anexa](lexicos.md#l9) todos os arquivos que quiser na mensagem|
+|- [Usuário](lexicos.md#l19) insere um [Emoji](lexicos.md#l7) se quiser|
 |- [Usuário](lexicos.md#l19) envia a mensagem clicando no botão presente na caixa de texto para essa finalidade|
 |**Levantado pela técnica**|
 | - [Questionário](../Elicitação/questionario.md)|
