@@ -340,6 +340,41 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Levantado pela técnica**|
 | - |
 
+### C5 - V2
+
+|**Editar uma mensagem**|
+|--|
+|**Objetivo** |
+| [Usuário](lexicos.md#l19) editar o conteúdo textual de uma mensagem para exprimir uma ideia diferente da anterior |
+|**Contexto** |
+|-Local: [channel](lexicos.md#l1) da conversa|
+|-Tempo: A qualquer momento|
+|-Pré-condição: O [usuário](lexicos.md#l19) ter [conta](lexicos.md#l67) no aplicativo e estar dentro do [channel](lexicos.md#l1), bem como ter as permissões necessárias
+|-Pós-condição: A dada mensagem no [channel](lexicos.md#l1) será mostrada com o conteúdo editado e um identificador contendo a palavra “Editada”|
+|**Atores** |
+|  [Usuário](lexicos.md#l19) |
+|**Recursos** |
+|- Internet|
+|- [Conta](lexicos.md#l67) no aplicativo|
+|**Restrição**|
+|- Qualidade da conexão com a internet |
+|- Usuário exprimir corretamente a ideia que gostaria|
+|**Exceção** |
+|- Queda da internet|
+|- [Usuário](lexicos.md#l19) não tem permissão|
+|- [Usuário](lexicos.md#l19) cancela a ação|
+|**Episódios** |
+|- [Usuário](lexicos.md#l19) abre o aplicativo|
+|- [Usuário](lexicos.md#l19) loga no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) vai até o [channel](lexicos.md#l1)|
+|- [Usuário](lexicos.md#l19) clica na mensagem que deseja editar|
+|- [Usuário](lexicos.md#l19) clica na opção editar|
+|- [Usuário](lexicos.md#l19) edita o conteúdo da mensagem|
+|- [Usuário](lexicos.md#l19) clica no botão enviar, finalizando a edição|
+|**Levantado pela técnica**|
+| - |
+
+
 ### C6
 
 |**Deletar conta**|
