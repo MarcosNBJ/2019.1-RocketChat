@@ -32,9 +32,9 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 | INT1.6 | O app deve oferecer ao usuário, poder mencionar, um ou todos, os membros do grupo para chamar atenção para alguma mensagem. | Should Have |
 | INT1.7 | Deve ser uma plataforma que ofereça segurança com dados dos usuários. | Must Have |
 
-## Introspecção 02
+## Introspecção 04
 
-![INT2](../img/Elicitacao/introspeccao_02.png)
+![INT4](../img/Elicitacao/introspeccao_04.png)
 
 **Requisitos elicitados:**
 
@@ -66,7 +66,22 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 | INT3.9 | A plataforma deve permitir a integração de Bots | Should Have |
 | INT3.10 | A empresa responsável pelo Rocket.Chat deve oferecer tutoriais e suporte técnico para ajudar novos usuários na plataforma | Should Have |
 
+## Introspecção 04
 
+![INT4](../img/Elicitacao/introspeccao_04.png)
+
+**Requisitos elicitados:**
+
+| Código | Descrição | Prioridade |
+|  :------: |  :------: | :------: |
+| INT4.1 | A aplicação deve oferece aos usuários troca de mensagens | Must |
+| INT4.2 | A aplicação deve oferece ao usuário divisão em channels | Must |
+| INT4.3 | A aplicação possui compartilhamento de imagem disponível para usuários | Must |
+| INT4.4 | A aplicação deve ser capaz de fazer tradução instantânea | Must |
+| INT4.5 | A aplicação deve possuir suporte de idiomas para o usuário| Should |
+| INT4.6 | A aplicação deve possuir integração com outras ferramentas | Should |
+| INT4.7 | A aplicação deve fornecer conversão de áudio em texto para o usuário | Should |
+| INT4.8 | O app oferece ao usuário instalar seu próprio servidor local | Should |
 
 ## Versionamento
 
@@ -78,3 +93,4 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 | 09/04/2019 | 1.3 | Adição de Requisitos e Prioridades da Introspecção 01 | Heron Rodrigues |
 | 10/04/2019 | 1.4 | Adição de Requisitos e Prioridades da Introspecção 03 | Lucas Maciel |
 | 10/04/2019 | 1.5 | Adição de Índices nos Requisitos | Lucas Maciel |
+| 21/04/2019 | 1.6 | Adição de Requisitos e Prioridades da Introspecção 04 | André Lucas |
