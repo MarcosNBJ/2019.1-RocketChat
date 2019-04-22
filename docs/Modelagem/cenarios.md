@@ -1,4 +1,3 @@
-
 # Cenários
 
 ### C
@@ -25,20 +24,20 @@
 
 ### C1 - V1
 
-|**Cadastro de  um novo usuário no Rocket.Chat**|
+|**Cadastro de  um novo [usuário](lexicos.md#l19) no [Rocket.chat](lexicos.md#l65)**|
 |--|
 |**Objetivo** |
-| Cadastrar um novo usuário |
+| Cadastrar um novo [usuário](lexicos.md#l19) |
 |**Contexto** |
-| -Local: Página inical do app do rocket.chat |
+| -Local: Página inical do app do [Rocket.chat](lexicos.md#l65) |
 | -pré-condição: Possuir internet, não estar logado na plataforma |
-| -Pós-condição:  Usuário cadastrado |
+| -Pós-condição:  [Usuário](lexicos.md#l19) cadastrado |
 |**Atores** |
-|  Usuário não cadastrado |
+|  [Usuário](lexicos.md#l19) não cadastrado |
 |**Recursos** |
 |  -Internet. |
 |  -Computador/celular. |
-|  -Rocket.Chat instalado. |
+|  -[Rocket.chat](lexicos.md#l65) instalado. |
 |**Restrição**|
 |  -Internet ruim, não possuir uma conta em uma rede social externa. |
 |  -não possuir uma conta em uma rede social externa. |
@@ -49,31 +48,31 @@
 |  -Email inválido. |
 |  -Conta em uma rede social externa inexistente. |
 |**Episódios** |
-|  -Um novo usuário ou usuário que deseja uma nova conta entra na plataforma do Rocket.Chat em seu computador ou celular. |
-|-Na tela inicial, o usuário não logado seleciona a opção “Registrar um novo usuário”.|
-|-Na tela de cadastro, o usuário preenche os campos de cadastro com sua senha e email e nome. Caso deseje, pode-se também selecionar umas das redes sociais para fazer log up.|
-|-Criando um usuário do zero ou usando uma rede social, o novo usuário é direcionado para uma página onde deve selecionar seu user name.|
-|-O usuário preenche o campo de user name e seu cadastro é realizado com sucesso.|
+|  -Um novo [usuário](lexicos.md#l19) ou [usuário](lexicos.md#l19) que deseja uma nova conta entra na plataforma do [Rocket.chat](lexicos.md#l65) em seu computador ou celular. |
+|-Na tela inicial, o [usuário](lexicos.md#l19) não logado seleciona a opção “Registrar um novo [usuário](lexicos.md#l19)”.|
+|-Na tela de cadastro, o [usuário](lexicos.md#l19) preenche os campos de cadastro com sua senha e email e nome. Caso deseje, pode-se também selecionar umas das redes sociais para fazer log up.|
+|-Criando um [usuário](lexicos.md#l19) do zero ou usando uma rede social, o novo [usuário](lexicos.md#l19) é direcionado para uma página onde deve selecionar seu user name.|
+|-O [usuário](lexicos.md#l19) preenche o campo de user name e seu cadastro é realizado com sucesso.|
 |**Levantado pela técnica**|
 |  - |
 
 
 ### C1 - V2
 
-|**Cadastrar um novo usuário**|
+|**Cadastrar um novo [usuário](lexicos.md#l19)**|
 |--|
 |**Objetivo** |
-| Acessar as funcionalidades da plataforma disponíveis para usuários cadastrados |
+| Acessar as funcionalidades da plataforma disponíveis para [usuários](lexicos.md#l19) cadastrados |
 |**Contexto** |
-| -Local: Página inical do app do rocket.chat |
+| -Local: Página inical do app do [Rocket.chat](lexicos.md#l65) |
 | -pré-condição: Possuir internet, não estar logado na plataforma |
-| -Pós-condição:  Usuário cadastrado |
+| -Pós-condição:  [Usuário](lexicos.md#l19) cadastrado |
 |**Atores** |
-|  Usuário não cadastrado |
+|  [Usuário](lexicos.md#l19) não cadastrado |
 |**Recursos** |
 |  -Internet. |
 |  -Computador/celular. |
-|  -Rocket.Chat instalado. |
+|  -[Rocket.chat](lexicos.md#l65) instalado. |
 |**Restrição**|
 |  -Internet ruim, não possuir uma conta em uma rede social externa. |
 |  -não possuir uma conta em uma rede social externa. |
@@ -84,11 +83,11 @@
 |  -Email inválido. |
 |  -Conta em uma rede social externa inexistente. |
 |**Episódios** |
-|  -Um novo usuário ou usuário que deseja uma nova conta entra na plataforma do Rocket.Chat em seu computador ou celular. |
-|-Na tela inicial, o usuário não logado seleciona a opção “Registrar um novo usuário”.|
-|-Na tela de cadastro, o usuário preenche os campos de cadastro com sua senha e email e nome. Caso deseje, pode-se também selecionar umas das redes sociais para fazer sign up.|
-|-Criando um usuário do zero ou usando uma rede social, o novo usuário é direcionado para uma página onde deve selecionar seu user name.|
-|-O usuário preenche o campo de user name e seu cadastro é realizado com sucesso.|
+|  -Um novo [usuário](lexicos.md#l19) ou [usuário](lexicos.md#l19) que deseja uma nova conta entra na plataforma do [Rocket.chat](lexicos.md#l65) em seu computador ou celular. |
+|-Na tela inicial, o [usuário](lexicos.md#l19) não logado seleciona a opção “Registrar um novo [usuário](lexicos.md#l19)”.|
+|-Na tela de cadastro, o [usuário](lexicos.md#l19) preenche os campos de cadastro com sua senha e email e nome. Caso deseje, pode-se também selecionar umas das redes sociais para fazer sign up.|
+|-Criando um [usuário](lexicos.md#l19) do zero ou usando uma rede social, o novo [usuário](lexicos.md#l19) é direcionado para uma página onde deve selecionar seu user name.|
+|-O [usuário](lexicos.md#l19) preenche o campo de user name e seu cadastro é realizado com sucesso.|
 |**Levantado pela técnica**|
 |-|
 
@@ -100,9 +99,9 @@
 |**Objetivo** |
 | Realizar uma reunião online |
 |**Contexto** |
-| -Local: Plataforma Rocket.chat |
-| -Pré-condição: possuir internet, possuir a plataforma Rocket.Chat no celular ou computador |
-| -Pós-condição: Web conferência será realizada com sucesso entre os usuários
+| -Local: Plataforma [Rocket.chat](lexicos.md#l65) |
+| -Pré-condição: possuir internet, possuir a plataforma [Rocket.chat](lexicos.md#l65) no celular ou computador |
+| -Pós-condição: Web conferência será realizada com sucesso entre os [usuários](lexicos.md#l19)
 |
 |**Atores** |
 |  -Pessoa 1 |
@@ -110,7 +109,7 @@
 |**Recursos** |
 |  -Internet |
 |  -Computador/celular |
-|  -Rocket.Chat instalado |
+|  -[Rocket.chat](lexicos.md#l65) instalado |
 |**Restrição**|
 |  -Internet ruim |
 |  -bug na plataforma |
@@ -126,14 +125,14 @@
 |  -microfone do computador quebrar.|
 |**Episódios** |
 |  -Pessoa 1 um marca reunião com a pessoa 2. |
-|  -Pessoa 1 acessa a internet e baixa o rocket.chat em seu computador.|
+|  -Pessoa 1 acessa a internet e baixa o [Rocket.chat](lexicos.md#l65) em seu computador.|
 |  -Pessoa 1 pega seu fone de ouvido e testa seu microfone.|
 |  -Pessoa 2 acessa a internet e baixa o rocket chat em seu celular.|
 |  -Pessoa 2 testa o microfone e autofalante de seu celular, já que não possui fones de ouvido.|
-|  -Pessoa um entra em sua conta no Rocket.Chat e procura o usuário da Pessoa 2.|
+|  -Pessoa um entra em sua conta no [Rocket.chat](lexicos.md#l65) e procura o [usuário](lexicos.md#l19) da Pessoa 2.|
 |  -Pessoa 1 entra em um bate papo com a pessoa 2. |
 |  -Pessoa 1 seleciona a opção “Realizar Vídeo conferência” e manda o convite para a pessoa 2.|
-|  -Pessoa 2 entra em sua conta do Rocket.chat e aceita o convite para a realização da web conferencia.|
+|  -Pessoa 2 entra em sua conta do [Rocket.chat](lexicos.md#l65) e aceita o convite para a realização da web conferencia.|
 |**Levantado pela técnica**|
 |  Storyboard, introspecção, questionário, análise de protocolo, análise de discurso |
 
@@ -143,11 +142,11 @@
 |**Realizar Web conferência**|
 |--|
 |**Objetivo** |
-| Conversar a distância com outro usuário/grupo. |
+| Conversar a distância com outro [usuário](lexicos.md#l19)/grupo. |
 |**Contexto** |
-| -Local: Plataforma Rocket.chat |
-| -Pré-condição: possuir internet, possuir a plataforma Rocket.Chat no celular ou computador |
-| -Pós-condição: Web conferência será realizada com sucesso entre os usuários
+| -Local: Plataforma [Rocket.chat](lexicos.md#l65) |
+| -Pré-condição: possuir internet, possuir a plataforma [Rocket.chat](lexicos.md#l65) no celular ou computador |
+| -Pós-condição: Web conferência será realizada com sucesso entre os [usuários](lexicos.md#l19)
 |
 |**Atores** |
 |  -Criador da web conferência |
@@ -155,7 +154,7 @@
 |**Recursos** |
 |  -Internet |
 |  -Computador/celular |
-|  -Rocket.Chat instalado |
+|  -[Rocket.chat](lexicos.md#l65) instalado |
 |**Restrição**|
 |  -Internet ruim |
 |  -bug na plataforma |
@@ -172,43 +171,43 @@
 |**Episódios** |
 | -O criador da web conferência um marca reunião com o grupo/pessoa.|
 | -Todos os envolvidos pegam seu fone de ouvido e testam seu microfone.|
-| -Criador da conversa entra em sua conta no Rocket.Chat e procura o usuário dos outros envolvidos.|
+| -Criador da conversa entra em sua conta no [Rocket.chat](lexicos.md#l65) e procura o [usuários](lexicos.md#l19) dos outros envolvidos.|
 | -Criador da web conferência entra em um bate papo com o grupo/pessoa.|
 | -Criador da web conferência seleciona a opção “Realizar Vídeo conferência” e manda o convite para o grupo/pessoa.|
-| -O grupo/pessoa entra em sua conta do Rocket.chat e aceita o convite para a realização da web conferência.|
+| -O grupo/pessoa entra em sua conta do [Rocket.chat](lexicos.md#l65) e aceita o convite para a realização da web conferência.|
 |**Levantado pela técnica**|
 |  Storyboard, introspecção, questionário, análise de protocolo, análise de discurso |
 
 ### C3 - V1
-|**Criar channel**|
+|**Criar [channel](lexicos.md#l1)**|
 |--|
 |**Objetivo** |
 | Criação de um local para discussões |
 |**Contexto** |
-| - Em um servidor do Rocket.chat |
+| - Em um [servidor](lexicos.md#l18) do [Rocket.chat](lexicos.md#l65) |
 |**Atores** |
-|  - Usuário e membros |
+|  - [Usuários](lexicos.md#l19) e membros |
 |**Recursos** |
 | - Possuir internet |
-| - Conta no Rocket.chat |
+| - Conta no [Rocket.chat](lexicos.md#l65) |
 |**Restrição**|
 | - Internet ruim
-| - Diversos usuários para participar do channel|
+| - Diversos [usuários](lexicos.md#l19) para participar do [channel](lexicos.md#l1)|
 |**Exceção** |
 | - Não possuir internet |
 | - Aplicação para de funcionar |
 | - Dispositivo não funcionar |
 |**Episódios** |
-| - Usuário, que possui internet, instala o Rocket.chat em um dispositivo |
-| - Usuário, que possui internet, instala o Rocket.chat em um dispositivo|
-| - Usuário entre na aplicação|
-| - Usuário entra na aplicação e conecta-se a um servidor|
-| - Usuário efetua o login através de uma conta|
-| - Na aba lateral do app, o usuário clica em “Criar chat”|
-| - Usuário define se o channel será privado, se somente usuários autorizados poderão enviar mensagens, se o channel será criptografado ou se somente usuários autorizados poderão enviar mensagens e os demais membros poderão apenas responder às mensagens|
-| - Usuário insere o nome do channel|
-| - Usuário escolhe os membros que irão participar do channel|
-| - Usuário clica no botão “Criar”|
+| - [Usuário](lexicos.md#l19), que possui internet, instala o [Rocket.chat](lexicos.md#l65) em um dispositivo |
+| - [Usuário](lexicos.md#l19), que possui internet, instala o [Rocket.chat](lexicos.md#l65) em um dispositivo|
+| - [Usuário](lexicos.md#l19) entre na aplicação|
+| - [Usuário](lexicos.md#l19) entra na aplicação e conecta-se a um [servidor](lexicos.md#l18)|
+| - [Usuário](lexicos.md#l19) efetua o login através de uma conta|
+| - Na aba lateral do app, o [usuário](lexicos.md#l19) clica em “Criar chat”|
+| - [Usuário](lexicos.md#l19) define se o [channel](lexicos.md#l1) será privado, se somente [usuários](lexicos.md#l19) autorizados poderão enviar mensagens, se o [channel](lexicos.md#l1) será criptografado ou se somente [usuários](lexicos.md#l19) autorizados poderão enviar mensagens e os demais membros poderão apenas responder às mensagens|
+| - [Usuário](lexicos.md#l19) insere o nome do [channel](lexicos.md#l1)|
+| - [Usuário](lexicos.md#l19) escolhe os membros que irão participar do [channel](lexicos.md#l1)|
+| - [Usuário](lexicos.md#l19) clica no botão “Criar”|
 |**Levantado pela técnica**|
 | - Introspecção INT1.1, INT2.5, INT3.1|
 | - Storyboard 1 |
@@ -216,37 +215,37 @@
 | - Questionário Q16 |
 
 ### C3 - V2
-|**Criar channel**|
+|**Criar [channel](lexicos.md#l1)**|
 |--|
 |**Objetivo** |
 | Criação de um local para discussões |
 |**Contexto** |
-| - Local: Em um servidor do Rocket.chat|
+| - Local: Em um [servidor](lexicos.md#l18) do [Rocket.chat](lexicos.md#l65)|
 | - Tempo: A qualquer momento|
-| - Pré-condição: possuir internet, possuir a plataforma Rocket.Chat no celular ou computador, estar conectado à um servidor do aplicativo |
-| - Pós-condição: Channel estará criado |
+| - Pré-condição: possuir internet, possuir a plataforma [Rocket.chat](lexicos.md#l65) no celular ou computador, estar conectado à um [servidor](lexicos.md#l18) do aplicativo |
+| - Pós-condição: [Channel](lexicos.md#l1) estará criado |
 |**Atores** |
-|  - Usuário e membros |
+|  - [Usuário](lexicos.md#l19) e membros |
 |**Recursos** |
-| - Dispositivo com Rocket.chat instalado |
+| - Dispositivo com [Rocket.chat](lexicos.md#l65) instalado |
 | - Possuir internet |
-| - Conta no Rocket.chat |
-| - Usuário precisa estar conectado à um servidor |
+| - Conta no [Rocket.chat](lexicos.md#l65) |
+| - [Usuário](lexicos.md#l19) precisa estar conectado à um [servidor](lexicos.md#l18) |
 |**Restrição**|
 | - Internet ruim
-| - Diversos usuários para participar do channel|
+| - Diversos [Usuários](lexicos.md#l19) para participar do [channel](lexicos.md#l1)|
 | - Membros que mantém o foco e sejam concisos nas discussões|
 |**Exceção** |
 | - Não possuir internet |
 | - Aplicação para de funcionar |
 | - Dispositivo não funcionar |
-| - Servidor cair |
+| - [Servidor](lexicos.md#l18) cair |
 |**Episódios** |
-| - Na aba lateral do app, o usuário clica em “Criar chat”|
-| - Usuário define se o channel será privado, se somente usuários autorizados poderão enviar mensagens, se o channel será criptografado ou se somente usuários autorizados poderão enviar mensagens e os demais membros poderão apenas responder às mensagens|
-| - Usuário insere o nome do channel|
-| - Usuário escolhe os membros que irão participar do channel|
-| - Usuário clica no botão “Criar”|
+| - Na aba lateral do app, o [usuário](lexicos.md#l19) clica em “Criar chat”|
+| - [Usuário](lexicos.md#l19) define se o [channel](lexicos.md#l1) será privado, se somente [usuários](lexicos.md#l19) autorizados poderão enviar mensagens, se o [channel](lexicos.md#l1) será criptografado ou se somente [usuários](lexicos.md#l19) autorizados poderão enviar mensagens e os demais membros poderão apenas responder às mensagens|
+| - [Usuário](lexicos.md#l19) insere o nome do [channel](lexicos.md#l1)|
+| - [Usuário](lexicos.md#l19) escolhe os membros que irão participar do [channel](lexicos.md#l1)|
+| - [Usuário](lexicos.md#l19) clica no botão “Criar”|
 |**Levantado pela técnica**|
 | - Introspecção INT1.1, INT2.5, INT3.1|
 | - Storyboard 1 |
@@ -256,32 +255,32 @@
 
 ### C4 - V1
 
-|**Conectar com um servidor**|
+|**Conectar com um [servidor](lexicos.md#l18)**|
 |--|
 |**Objetivo** |
-| Iniciar conexão com uma instância do Rocket.chat |
+| Iniciar conexão com uma instância do [Rocket.chat](lexicos.md#l65) |
 |**Contexto** |
-| - Local: Tela inicial do app ou na aba lateral dentro de um servidor |
+| - Local: Tela inicial do app ou na aba lateral dentro de um [servidor](lexicos.md#l18) |
 |**Atores** |
-| - Usuário |
+| - [Usuário](lexicos.md#l19) |
 |**Recursos** |
 | - Possuir internet |
-| - Conta no Rocket.chat |
+| - Conta no [Rocket.chat](lexicos.md#l65) |
 |**Restrição**|
 | - Internet ruim |
 |**Exceção** |
 | - Dispositivo não funcionar |
-| - Não ser um servidor válido |
+| - Não ser um [servidor](lexicos.md#l18) válido |
 | - Aplicação para de funcionar |
 | - Não possuir internet |
 |**Episódios** |
-| - Usuário, que possui internet, instala o Rocket.chat em um dispositivo |
-| - Usuário entra na aplicação |
-| - Se usuário não estiver conectado à um servidor, na primeira tela do aplicativo. Caso contrário, na aba lateral, usuário vai até “Adicionar novo servidor” |
-| - Usuário clica em “Conectar com um servidor”|
-| - Usuário define o protocolo de conexão|
-| - Usuário insere o endereço do servidor |   
-| - Usuário clica em “Conectar” |
+| - [Usuário](lexicos.md#l19), que possui internet, instala o [Rocket.chat](lexicos.md#l65) em um dispositivo |
+| - [Usuário](lexicos.md#l19) entra na aplicação |
+| - Se usuário não estiver conectado à um [servidor](lexicos.md#l18), na primeira tela do aplicativo. Caso contrário, na aba lateral, [usuário](lexicos.md#l19) vai até “Adicionar novo [servidor](lexicos.md#l18)” |
+| - [Usuário](lexicos.md#l19) clica em “Conectar com um [servidor](lexicos.md#l18)”|
+| - [Usuário](lexicos.md#l19) define o protocolo de conexão|
+| - [Usuário](lexicos.md#l19) insere o endereço do [servidor](lexicos.md#l18) |   
+| - [Usuário](lexicos.md#l19) clica em “Conectar” |
 |**Levantado pela técnica**|
 | - Entrevista ENT1.7 |
 | - Introspecção INT1.4, INT3.2|
@@ -291,35 +290,35 @@
 
 ### C4 - V2
 
-|**Conectar com um servidor**|
+|**Conectar com um [servidor](lexicos.md#l18)**|
 |--|
 |**Objetivo** |
-| Iniciar conexão com uma instância do Rocket.chat |
+| Iniciar conexão com uma instância do [Rocket.chat](lexicos.md#l65) |
 |**Contexto** |
-| - Local: Tela inicial do app ou na aba lateral dentro de um servidor |
+| - Local: Tela inicial do app ou na aba lateral dentro de um [servidor](lexicos.md#l18) |
 | - Tempo: A qualquer momento|
-| - Pré-condição: possuir internet, possuir a plataforma Rocket.Chat no celular ou computador|
-| - Pós-condição: Usuário estará conectado com um servidor |
+| - Pré-condição: possuir internet, possuir a plataforma [Rocket.chat](lexicos.md#l65) no celular ou computador|
+| - Pós-condição: [Usuário](lexicos.md#l19) estará conectado com um [servidor](lexicos.md#l18) |
 |**Atores** |
-| - Usuário |
+| - [Usuário](lexicos.md#l19) |
 |**Recursos** |
-| - Dispositivo com Rocket.chat instalado |
+| - Dispositivo com [Rocket.chat](lexicos.md#l65) instalado |
 | - Possuir internet |
-| - Conta de usuário |
+| - Conta de [usuário](lexicos.md#l19) |
 |**Restrição**|
 | - Internet ruim |
-| - Servidor instável |
+| - [Servidor](lexicos.md#l18) instável |
 |**Exceção** |
 | - Dispositivo não funcionar |
-| - Não ser um servidor válido |
+| - Não ser um [servidor](lexicos.md#l18) válido |
 | - Aplicação para de funcionar |
 | - Não possuir internet |
 |**Episódios** |
-| - Se usuário não estiver conectado à um servidor, na primeira tela do aplicativo, caso contrário, na aba lateral, usuário vai até “Adicionar novo servidor”
-| - Usuário clica em “Conectar com um servidor”
-| - Usuário define o protocolo de conexão
-| - Usuário insere o endereço do servidor    
-| - Usuário clica em “Conectar” |
+| - Se [usuário](lexicos.md#l19) não estiver conectado à um [servidor](lexicos.md#l18), na primeira tela do aplicativo, caso contrário, na aba lateral, [usuário](lexicos.md#l19) vai até “Adicionar novo [servidor](lexicos.md#l18)”
+| - [Usuário](lexicos.md#l19) clica em “Conectar com um [servidor](lexicos.md#l18)”
+| - [Usuário](lexicos.md#l19) define o protocolo de conexão
+| - [Usuário](lexicos.md#l19) insere o endereço do [servidor](lexicos.md#l18)    
+| - [Usuário](lexicos.md#l19) clica em “Conectar” |
 |**Levantado pela técnica**|
 | - Entrevista ENT1.7 |
 | - Introspecção INT1.4, INT3.2|
@@ -332,14 +331,14 @@
 |**Editar uma mensagem**|
 |--|
 |**Objetivo** |
-| Usuário editar o conteúdo textual de uma mensagem em um texto |
+| [Usuário](lexicos.md#l19) editar o conteúdo textual de uma mensagem em um texto |
 |**Contexto** |
-|-Local: channel da conversa|
+|-Local: [channel](lexicos.md#l1) da conversa|
 |-Tempo: A qualquer momento|
-|-Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel, bem como ter as permissões necessárias
-|-Pós-condição: A dada mensagem no channel será mostrada com o conteúdo editado e um identificador contendo a palavra “Editada”|
+|-Pré-condição: O [usuário](lexicos.md#l19) ter conta no aplicativo e estar dentro do [channel](lexicos.md#l1), bem como ter as permissões necessárias
+|-Pós-condição: A dada mensagem no [channel](lexicos.md#l1) será mostrada com o conteúdo editado e um identificador contendo a palavra “Editada”|
 |**Atores** |
-|  Usuário |
+|  [Usuário](lexicos.md#l19) |
 |**Recursos** |
 |- Internet|
 |- Conta no aplicativo|
@@ -347,16 +346,16 @@
 |  restrições aqui |
 |**Exceção** |
 |- Queda da internet|
-|- Usuário não tem permissão|
-|- Usuário cancela a ação|
+|- [Usuário](lexicos.md#l19) não tem permissão|
+|- [Usuário](lexicos.md#l19) cancela a ação|
 |**Episódios** |
-|- Usuário abre o aplicativo|
-|- Usuário loga no servidor|
-|- Usuário vai até o channel|
-|- Usuário clica na mensagem que deseja editar|
-|- Usuário clica na opção editar|
-|- Usuário edita o conteúdo da mensagem|
-|- Usuário clica no botão enviar, finalizando a edição|
+|- [Usuário](lexicos.md#l19) abre o aplicativo|
+|- [Usuário](lexicos.md#l19) loga no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) vai até o [channel](lexicos.md#l1)|
+|- [Usuário](lexicos.md#l19) clica na mensagem que deseja editar|
+|- [Usuário](lexicos.md#l19) clica na opção editar|
+|- [Usuário](lexicos.md#l19) edita o conteúdo da mensagem|
+|- [Usuário](lexicos.md#l19) clica no botão enviar, finalizando a edição|
 |**Levantado pela técnica**|
 |  qual técnica ou quais técnicas levantaram esse necessidade|
 
@@ -366,14 +365,14 @@
 |**Responder  mensagem**|
 |--|
 |**Objetivo** |
-|- Usuário enviar uma mensagem que responde uma outra mensagem anterior|
+|- [Usuário](lexicos.md#l19) enviar uma mensagem que responde uma outra mensagem anterior|
 |**Contexto** |
-|- Local: channel da conversa|
+|- Local: [channel](lexicos.md#l1) da conversa|
 |- Tempo: A qualquer momento|
-|- Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel |
-|- Pós-condição: A resposta enviada pelo usuário será mostrada no channel com o anexo da mensagem respondida abaixo|
+|- Pré-condição: O [usuário](lexicos.md#l19) ter conta no aplicativo e estar dentro do [channel](lexicos.md#l1) |
+|- Pós-condição: A resposta enviada pelo [usuário](lexicos.md#l19) será mostrada no [channel](lexicos.md#l1) com o anexo da mensagem respondida abaixo|
 |**Atores** |
-|  Usuário |
+|  [Usuário](lexicos.md#l19) |
 |**Recursos** |
 |- Internet|
 |- Conta no aplicativo|
@@ -381,13 +380,13 @@
 |  restrições aqui |
 |**Exceção** |
 |- Queda da internet|
-|- Usuário cancela a ação|
+|- [Usuário](lexicos.md#l19) cancela a ação|
 |**Episódios** |
-|- Usuário loga no servidor|
-|- Usuário clica no channel desejado|
-|- Usuário clica na mensagem que deseja responder|
-|- Usuário escreve o conteúdo desejado|
-|- Usuário envia a resposta|
+|- [Usuário](lexicos.md#l19) loga no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) clica no [channel](lexicos.md#l1) desejado|
+|- [Usuário](lexicos.md#l19) clica na mensagem que deseja responder|
+|- [Usuário](lexicos.md#l19) escreve o conteúdo desejado|
+|- [Usuário](lexicos.md#l19) envia a resposta|
 |**Levantado pela técnica**|
 |  qual técnica ou quais técnicas levantaram esse necessidade|
 
@@ -396,30 +395,30 @@
 |**Enviar desenho**|
 |--|
 |**Objetivo** |
-|- Usuário enviar uma mensagem cujo conteúdo é um desenho digital feito por ele na aplicação, com o objetivo de expor alguma ideia ou mensagem ilustrada|
+|- [Usuário](lexicos.md#l19) enviar uma mensagem cujo conteúdo é um desenho digital feito por ele na aplicação, com o objetivo de expor alguma ideia ou mensagem ilustrada|
 |**Contexto** |
-|- Local: channel da conversa|
+|- Local: [channel](lexicos.md#l1) da conversa|
 |- Tempo: A qualquer momento|
-|- Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel|
-|- Pós-condição: Será visto no channel o desenho enviado pelo usuário|
+|- Pré-condição: O [usuário](lexicos.md#l19) ter conta no aplicativo e estar dentro do [channel](lexicos.md#l1)|
+|- Pós-condição: Será visto no [channel](lexicos.md#l1) o desenho enviado pelo [usuário](lexicos.md#l19)|
 |**Atores** |
-|  Usuário |
+|  [Usuário](lexicos.md#l19) |
 |**Recursos** |
 |- Internet|
 |- Conta no aplicativo|
 |**Restrição**|
-|- Usuário não desenhou corretamente o que queria|
-|- Ferramenta de desenhos digitais não oferecia algum recurso de desenho que o usuário precisava|
+|- [Usuário](lexicos.md#l19) não desenhou corretamente o que queria|
+|- Ferramenta de desenhos digitais não oferecia algum recurso de desenho que o [usuário](lexicos.md#l19) precisava|
 |**Exceção** |
 |- Queda da internet|
-|- Usuário cancela a ação|
+|- [Usuário](lexicos.md#l19) cancela a ação|
 |**Episódios** |
-|- Usuário entra logado no servidor|
-|- Usuário entra no channel desejado|
-|- Usuário clica no botão de “plus”|
-|- Usuário clica na opção “desenho”|
-|- Usuário desenha o conteúdo desejado|
-|- Usuário envia o desenho|
+|- [Usuário](lexicos.md#l19) entra logado no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado|
+|- [Usuário](lexicos.md#l19) clica no botão de “plus”|
+|- [Usuário](lexicos.md#l19) clica na opção “desenho”|
+|- [Usuário](lexicos.md#l19) desenha o conteúdo desejado|
+|- [Usuário](lexicos.md#l19) envia o desenho|
 |**Levantado pela técnica**|
 |  qual técnica ou quais técnicas levantaram esse necessidade|
 
@@ -428,32 +427,32 @@
 |**Anexar um arquivo**|
 |--|
 |**Objetivo** |
-|- Usuário enviar, com ou sem uma mensagem textual, um arquivo de mídia (como fotos ou vídeos) ou um documento|
+|- [Usuário](lexicos.md#l19) enviar, com ou sem uma mensagem textual, um arquivo de mídia (como fotos ou vídeos) ou um documento|
 |**Contexto** |
-|- Local: channel da conversa|
+|- Local: [channel](lexicos.md#l1) da conversa|
 |- Tempo: A qualquer momento|
-|- Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel |
-|- Pós-condição: Será mostrado para os outros usuários no channel o arquivo enviado pelo usuário, com a opção de download|
+|- Pré-condição: O [usuário](lexicos.md#l19) ter conta no aplicativo e estar dentro do [channel](lexicos.md#l1) |
+|- Pós-condição: Será mostrado para os outros usuários no [channel](lexicos.md#l1) o arquivo enviado pelo [usuário](lexicos.md#l19), com a opção de download|
 |**Atores** |
-|  Usuário |
+|  [Usuário](lexicos.md#l19) |
 |**Recursos** |
 |- Internet|
 |- Conta no aplicativo|
 |- Arquivo qualquer|
 |**Restrição**|
-|- Usuário enviar o arquivo correto|
+|- [Usuário](lexicos.md#l19) enviar o arquivo correto|
 |- O arquivo não deve demorar para ser enviado|
 |**Exceção** |
 |- Queda da internet|
-|- Usuário não tem permissão|
-|- Usuário cancela a ação|
+|- [Usuário](lexicos.md#l19) não tem permissão|
+|- [Usuário](lexicos.md#l19) cancela a ação|
 |**Episódios** |
-|- Usuário entra logado no servidor|
-|- Usuário entra no channel desejado|
-|- Usuário clica no botão “plus”|
-|- Usuário clica em anexar um arquivo|
-|- Usuário seleciona o arquivo desejado|
-|- Usuário envia o arquivo|
+|- [Usuário](lexicos.md#l19) entra logado no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado|
+|- [Usuário](lexicos.md#l19) clica no botão “plus”|
+|- [Usuário](lexicos.md#l19) clica em anexar um arquivo|
+|- [Usuário](lexicos.md#l19) seleciona o arquivo desejado|
+|- [Usuário](lexicos.md#l19) envia o arquivo|
 |**Levantado pela técnica**|
 |  qual técnica ou quais técnicas levantaram esse necessidade|
 
@@ -464,13 +463,13 @@
 |**Objetivo** |
 | - Encontrar uma mensagem com mais facilidade |
 |**Contexto** |
-| - Local: Menu de opções de mensagens presentes em channels ou grupos |
-| - Tempo: Quando uma mensagem está disponível no channel ou grupo |
-| - Pré-condição:  O usuário ter conta no aplicativo e estar dentro do channel |
-| - Pós-condição: As mensagens fixadas ficarão disponíveis em “mensagens fixadas” localizada no menu principal do channel ou grupo |
+| - Local: Menu de opções de mensagens presentes em [channels](lexicos.md#l1) ou grupos |
+| - Tempo: Quando uma mensagem está disponível no [channel](lexicos.md#l1) ou grupo |
+| - Pré-condição:  O [usuário](lexicos.md#l19) ter conta no aplicativo e estar dentro do [channel](lexicos.md#l1) |
+| - Pós-condição: As mensagens fixadas ficarão disponíveis em “mensagens fixadas” localizada no menu principal do [channel](lexicos.md#l1) ou grupo |
  |
 |**Atores** |
-|- Usuário devidamente cadastrado no app e participante de um grupo |
+|- [Usuário](lexicos.md#l19) devidamente cadastrado no app e participante de um grupo |
 |**Recursos** |
 | - Internet |
 | - Plataforma para uso da aplicação (celular ou computador) |
@@ -479,15 +478,15 @@
 | - Baixa qualidade na conexão de internet |
 |**Exceção** |
 | - Impossibilidade de conexão de internet |
-| - Usuário cancelar ação |
+| - [Usuário](lexicos.md#l19) cancelar ação |
 | - Mensagem a ser fixada foi removida |
 | - Bug no aplicativo |
 |**Episódios** |
-| - Usuário abre o aplicativo se loga em um servidor |
-| - Usuário seleciona um grupo |
-| - Usuário encontra uma mensagem de seu interesse |
-| - Usuário seleciona a mensagem desejada através do menu de opções da mensagem |
-| - Usuário seleciona o botão de fixar mensagem |
+| - [Usuário](lexicos.md#l19) abre o aplicativo se loga em um [servidor](lexicos.md#l18) |
+| - [Usuário](lexicos.md#l19) seleciona um grupo |
+| - [Usuário](lexicos.md#l19) encontra uma mensagem de seu interesse |
+| - [Usuário](lexicos.md#l19) seleciona a mensagem desejada através do menu de opções da mensagem |
+| - [Usuário](lexicos.md#l19) seleciona o botão de fixar mensagem |
 
 
 ### C12
@@ -497,51 +496,51 @@
 |**Objetivo** |
 |- Transmitir aos outros integrantes da conversa uma mensagem, que pode conter texto, Emojis, arquivos de mídia, documentos, áudios gravados pelo app, e desenhos digitais feitos pelo menu do app.|
 |**Contexto** |
-|- Local: channel da conversa|
+|- Local: [channel](lexicos.md#l1) da conversa|
 |- Tempo: A qualquer momento|
-|- Pré-condição: O usuário ter conta no aplicativo e estar dentro do channel no qual deseja enviar uma mensagem|
-|- Pós-condição: A mensagem enviada será mostrada no channel para todos os usuários membros, junto com uma notificação que chegará se o usuário tiver sido mencionado|
+|- Pré-condição: O [usuário](lexicos.md#l19) ter conta no aplicativo e estar dentro do [channel](lexicos.md#l1) no qual deseja enviar uma mensagem|
+|- Pós-condição: A mensagem enviada será mostrada no [channel](lexicos.md#l1) para todos os usuários membros, junto com uma notificação que chegará se o [usuário](lexicos.md#l19) tiver sido mencionado|
 |**Atores** |
-|  Usuário |
+|  [Usuário](lexicos.md#l19) |
 |**Recursos** |
 |- Internet|
 |- Conta no aplicativo|
 |**Restrição**|
-|- Usuário escrever corretamente o que quer expressar |
-|- A aplicação oferecer ferramentas que ajudem o usuário a escrever sua mensagem, como um corretor ortográfico|
-|- O usuário conseguir anexar todos os arquivos que quer|
+|- [Usuário](lexicos.md#l19) escrever corretamente o que quer expressar |
+|- A aplicação oferecer ferramentas que ajudem o [usuário](lexicos.md#l19) a escrever sua mensagem, como um corretor ortográfico|
+|- O [usuário](lexicos.md#l19) conseguir anexar todos os arquivos que quer|
 |**Exceção** |
 |- Queda da internet|
-|- Usuário cancela a ação|
-|- Mensagem do usuário está acima do limite de caracteres|
+|- [Usuário](lexicos.md#l19) cancela a ação|
+|- Mensagem do [usuário](lexicos.md#l19) está acima do limite de caracteres|
 |**Episódios** |
-|- Usuário entra logado no servidor|
-|- Usuário entra no channel desejado |
-|- Usuário digita a mensagem no campo de texto|
-|- Usuário anexa todos os arquivos que quiser na mensagem|
-|- Usuário insere um Emoji se quiser|
-|- Usuário envia a mensagem clicando no botão presente na caixa de texto para essa finalidade|
+|- [Usuário](lexicos.md#l19) entra logado no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado |
+|- [Usuário](lexicos.md#l19) digita a mensagem no campo de texto|
+|- [Usuário](lexicos.md#l19) anexa todos os arquivos que quiser na mensagem|
+|- [Usuário](lexicos.md#l19) insere um Emoji se quiser|
+|- [Usuário](lexicos.md#l19) envia a mensagem clicando no botão presente na caixa de texto para essa finalidade|
 |**Levantado pela técnica**|
 |  qual técnica ou quais técnicas levantaram esse necessidade|
 
 ### C15 - V1
 
-|**Sair de um channel  **|
+|**Sair de um [channel](lexicos.md#l1)  **|
 |--|
 |**Objetivo** |
-| Não ser mais participante de um channel na plataforma e com isso não receber notificações do mesmo |
+| Não ser mais participante de um [channel](lexicos.md#l1) na plataforma e com isso não receber notificações do mesmo |
 |**Contexto** |
-| -Local: Um channel dentro da plataforma|
+| -Local: Um [channel](lexicos.md#l1) dentro da plataforma|
 | -Tempo: A qualquer momento após um chat em grupo ser iniciado e o membro que deseja se retirar seja adicionado|
-| -Pré-condição: Estar conectado com a internet, ter o Rocket.chat baixado em seu computador, possuir um usuário na plataforma, estar presente no chat que deseja sair.|
+| -Pré-condição: Estar conectado com a internet, ter o [Rocket.chat](lexicos.md#l65) baixado em seu computador, possuir um [usuário](lexicos.md#l19) na plataforma, estar presente no chat que deseja sair.|
 | -Pós-condição: Não participação no chat em grupo.|
 |**Atores** |
-|  Usuário cadastrado presente no channel |
+|  [Usuário](lexicos.md#l19) cadastrado presente no [channel](lexicos.md#l1) |
 |**Recursos** |
 |  -Internet. |
 |  -Computador/celular. |
-|  -Rocket.Chat instalado. |
-|  -Estar presente em um channel |
+|  -[Rocket.chat](lexicos.md#l65) instalado. |
+|  -Estar presente em um [channel](lexicos.md#l1) |
 |**Restrição**|
 | -Baixa conexão com a internet|
 | -Baixo desempenho do computador, causando lentidão no processo|
@@ -550,14 +549,14 @@
 | -App dar crash |
 | -Computador quebrar |
 | -Não participar de nenhum grupo |
-| -Não possuir Rocket.chat versão desktop, nem conta na plataforma |
+| -Não possuir [Rocket.chat](lexicos.md#l65) versão desktop, nem conta na plataforma |
 |**Episódios** |
-| -Surge no usuário o desejo sair de um determinado grupo.|
-| -O usuário abre a plataforma em seu computador.|
-| -O usuário busca na área de channels, o grupo no qual deseja se retirar.|
-| -O usuário clica nos três pontos que surgem ao manter o cursor em cima do grupo que deseja sair.|
+| -Surge no [usuário](lexicos.md#l19) o desejo sair de um determinado grupo.|
+| -O [usuário](lexicos.md#l19) abre a plataforma em seu computador.|
+| -O [usuário](lexicos.md#l19) busca na área de [channels](lexicos.md#l1), o grupo no qual deseja se retirar.|
+| -O [usuário](lexicos.md#l19) clica nos três pontos que surgem ao manter o cursor em cima do grupo que deseja sair.|
 | -Após o clique, surgem diversas interações que podem ser realizadas com o grupo, dentre tais a de “Deixar grupo”.|
-| -O usuário clica na opção “ Deixar grupo” e , com isso, deixa o grupo.|
+| -O [usuário](lexicos.md#l19) clica na opção “ Deixar grupo” e , com isso, deixa o grupo.|
 |**Levantado pela técnica**|
 |-|
 
@@ -568,17 +567,17 @@
 |**Objetivo** |
 | Não ver mais uma sala e nem receber notificações da mesma|
 |**Contexto** |
-| -Local: Plataforma Rocket.Chat.|
-| -Tempo: a qualquer momento, quando o surgir no usuário o desejo de deixar uma sala.|
-| -Pré-condição: Estar conectado com a internet, ter o Rocket.chat baixado em seu computador, possuir um usuário na plataforma, estar presente no chat que deseja Esconder.|
+| -Local: Plataforma [Rocket.chat](lexicos.md#l65).|
+| -Tempo: a qualquer momento, quando o surgir no [usuário](lexicos.md#l19) o desejo de deixar uma sala.|
+| -Pré-condição: Estar conectado com a internet, ter o [Rocket.chat](lexicos.md#l65) baixado em seu computador, possuir um [usuário](lexicos.md#l19) na plataforma, estar presente no chat que deseja Esconder.|
 | -Pós-condição: Não ver mais e nem ser notificado pelo chat escondido.|
 |**Atores** |
-|  Usuário cadastrado presente no channel |
+|  [Usuário](lexicos.md#l19) cadastrado presente no [channel](lexicos.md#l1) |
 |**Recursos** |
 |  -Internet. |
 |  -Computador/celular. |
-|  -Rocket.Chat instalado. |
-|  -Estar presente em um channel |
+|  -[Rocket.chat](lexicos.md#l65) instalado. |
+|  -Estar presente em um [channel](lexicos.md#l1) |
 |**Restrição**|
 | -Baixa conexão com a internet|
 | -Baixo desempenho do computador, causando lentidão no processo|
@@ -587,14 +586,14 @@
 | -App dar crash |
 | -Computador quebrar |
 | -Não participar de nenhum grupo |
-| -Não possuir Rocket.chat versão desktop, nem conta na plataforma |
+| -Não possuir [Rocket.chat](lexicos.md#l65) versão desktop, nem conta na plataforma |
 |**Episódios** |
-| -Surge no usuário o desejo sair de esconder um grupo.|
-| -O usuário abre a plataforma em seu computador.|
-| -O usuário busca na área de channels, o grupo no qual deseja se esconder.|
-| -O usuário clica nos três pontos que surgem ao manter o cursor em cima do grupo.|
+| -Surge no [usuário](lexicos.md#l19) o desejo sair de esconder um grupo.|
+| -O [usuário](lexicos.md#l19) abre a plataforma em seu computador.|
+| -O [usuário](lexicos.md#l19) busca na área de [channels](lexicos.md#l1), o grupo no qual deseja se esconder.|
+| -O [usuário](lexicos.md#l19) clica nos três pontos que surgem ao manter o cursor em cima do grupo.|
 | -Após o clique, surgem diversas interações que podem ser realizadas com o grupo, dentre tais a de “esconder grupo”.|
-| -O usuário clica na opção “ esconder grupo” e , com isso, esconde o grupo, passando a não receber mais atividades do mesmo, mas podendo restaurar a qualquer momento.|
+| -O [usuário](lexicos.md#l19) clica na opção “ esconder grupo” e , com isso, esconde o grupo, passando a não receber mais atividades do mesmo, mas podendo restaurar a qualquer momento.|
 |**Levantado pela técnica**|
 |-|
 
@@ -607,3 +606,4 @@
 | 21/04/2019 | 1.1 | Adição dos Cenários C5, C7, C8, C9, c12 | Marcos Nery |
 | 21/04/2019 | 1.2 | Adição dos Cenários C1 - v1, C1 - v2, C2 - v1, C2 - v2, C15, C16, c12 | Gabriel Davi |
 | 21/04/2019 | 1.3 | Adição do Cenário C11 | Lucas Maciel |
+| 21/04/2019 | 1.4 | Adição do Cenários C3, C4 | Heron Rodrigues |
