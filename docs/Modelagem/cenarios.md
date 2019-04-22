@@ -310,6 +310,40 @@
 |**Levantado pela técnica**|
 |  qual técnica ou quais técnicas levantaram esse necessidade|
 
+### C1
+
+|**Fixar Mensagem**|
+|--|
+|**Objetivo** |
+| - Encontrar uma mensagem com mais facilidade |
+|**Contexto** |
+| - Local: Menu de opções de mensagens presentes em channels ou grupos |
+| - Tempo: Quando uma mensagem está disponível no channel ou grupo |
+| - Pré-condição:  O usuário ter conta no aplicativo e estar dentro do channel |
+| - Pós-condição: As mensagens fixadas ficarão disponíveis em “mensagens fixadas” localizada no menu principal do channel ou grupo |
+ |
+|**Atores** |
+|- Usuário devidamente cadastrado no app e participante de um grupo |
+|**Recursos** |
+| - Internet |
+| - Plataforma para uso da aplicação (celular ou computador) |
+| Aplicativo instalado |
+|**Restrição**|
+| - Baixa qualidade na conexão de internet |
+|**Exceção** |
+| - Impossibilidade de conexão de internet |
+| - Usuário cancelar ação |
+| - Mensagem a ser fixada foi removida |
+| - Bug no aplicativo |
+|**Episódios** |
+| - Usuário abre o aplicativo se loga em um servidor |
+| - Usuário seleciona um grupo |
+| - Usuário encontra uma mensagem de seu interesse |
+| - Usuário seleciona a mensagem desejada através do menu de opções da mensagem |
+| - Usuário seleciona o botão de fixar mensagem |
+|**Levantado pela técnica**|
+|  qual técnica ou quais técnicas levantaram esse necessidade|
+
 
 ### C12
 
@@ -427,3 +461,4 @@
 | 19/04/2019 | 1.0 | Abertura do documento | Marcos Nery |
 | 21/04/2019 | 1.1 | Adição dos Cenários C5, C7, C8, C9, c12 | Marcos Nery |
 | 21/04/2019 | 1.2 | Adição dos Cenários C1 - v1, C1 - v2, C2 - v1, C2 - v2, C15, C16, c12 | Gabriel Davi |
+| 21/04/2019 | 1.3 | Adição do Cenário C11 | Lucas Maciel |
