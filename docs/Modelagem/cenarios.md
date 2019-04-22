@@ -1,7 +1,7 @@
 
 # Cenários
 
-### C1
+### C
 
 |**Título do Cenário**|
 |--|
@@ -179,6 +179,153 @@
 |**Levantado pela técnica**|
 |  Storyboard, introspecção, questionário, análise de protocolo, análise de discurso |
 
+### C3 - V1
+|**Criar channel**|
+|--|
+|**Objetivo** |
+| Criação de um local para discussões |
+|**Contexto** |
+| - Em um servidor do Rocket.chat |
+|**Atores** |
+|  - Usuário e membros |
+|**Recursos** |
+| - Possuir internet |
+| - Conta no Rocket.chat |
+|**Restrição**|
+| - Internet ruim
+| - Diversos usuários para participar do channel|
+|**Exceção** |
+| - Não possuir internet |
+| - Aplicação para de funcionar |
+| - Dispositivo não funcionar |
+|**Episódios** |
+| - Usuário, que possui internet, instala o Rocket.chat em um dispositivo |
+| - Usuário, que possui internet, instala o Rocket.chat em um dispositivo|
+| - Usuário entre na aplicação|
+| - Usuário entra na aplicação e conecta-se a um servidor|
+| - Usuário efetua o login através de uma conta|
+| - Na aba lateral do app, o usuário clica em “Criar chat”|
+| - Usuário define se o channel será privado, se somente usuários autorizados poderão enviar mensagens, se o channel será criptografado ou se somente usuários autorizados poderão enviar mensagens e os demais membros poderão apenas responder às mensagens|
+| - Usuário insere o nome do channel|
+| - Usuário escolhe os membros que irão participar do channel|
+| - Usuário clica no botão “Criar”|
+|**Levantado pela técnica**|
+| - Introspecção INT1.1, INT2.5, INT3.1|
+| - Storyboard 1 |
+| - Analise de Protocolo AP4 |
+| - Questionário Q16 |
+
+### C3 - V2
+|**Criar channel**|
+|--|
+|**Objetivo** |
+| Criação de um local para discussões |
+|**Contexto** |
+| - Local: Em um servidor do Rocket.chat|
+| - Tempo: A qualquer momento|
+| - Pré-condição: possuir internet, possuir a plataforma Rocket.Chat no celular ou computador, estar conectado à um servidor do aplicativo |
+| - Pós-condição: Channel estará criado |
+|**Atores** |
+|  - Usuário e membros |
+|**Recursos** |
+| - Dispositivo com Rocket.chat instalado |
+| - Possuir internet |
+| - Conta no Rocket.chat |
+| - Usuário precisa estar conectado à um servidor |
+|**Restrição**|
+| - Internet ruim
+| - Diversos usuários para participar do channel|
+| - Membros que mantém o foco e sejam concisos nas discussões|
+|**Exceção** |
+| - Não possuir internet |
+| - Aplicação para de funcionar |
+| - Dispositivo não funcionar |
+| - Servidor cair |
+|**Episódios** |
+| - Na aba lateral do app, o usuário clica em “Criar chat”|
+| - Usuário define se o channel será privado, se somente usuários autorizados poderão enviar mensagens, se o channel será criptografado ou se somente usuários autorizados poderão enviar mensagens e os demais membros poderão apenas responder às mensagens|
+| - Usuário insere o nome do channel|
+| - Usuário escolhe os membros que irão participar do channel|
+| - Usuário clica no botão “Criar”|
+|**Levantado pela técnica**|
+| - Introspecção INT1.1, INT2.5, INT3.1|
+| - Storyboard 1 |
+| - Analise de Protocolo AP4 |
+| - Questionário Q16 |
+
+
+### C4 - V1
+
+|**Conectar com um servidor**|
+|--|
+|**Objetivo** |
+| Iniciar conexão com uma instância do Rocket.chat |
+|**Contexto** |
+| - Local: Tela inicial do app ou na aba lateral dentro de um servidor |
+|**Atores** |
+| - Usuário |
+|**Recursos** |
+| - Possuir internet |
+| - Conta no Rocket.chat |
+|**Restrição**|
+| - Internet ruim |
+|**Exceção** |
+| - Dispositivo não funcionar |
+| - Não ser um servidor válido |
+| - Aplicação para de funcionar |
+| - Não possuir internet |
+|**Episódios** |
+| - Usuário, que possui internet, instala o Rocket.chat em um dispositivo |
+| - Usuário entra na aplicação |
+| - Se usuário não estiver conectado à um servidor, na primeira tela do aplicativo. Caso contrário, na aba lateral, usuário vai até “Adicionar novo servidor” |
+| - Usuário clica em “Conectar com um servidor”|
+| - Usuário define o protocolo de conexão|
+| - Usuário insere o endereço do servidor |   
+| - Usuário clica em “Conectar” |
+|**Levantado pela técnica**|
+| - Entrevista ENT1.7 |
+| - Introspecção INT1.4, INT3.2|
+| - Storyboard 4 |
+| - Analise de Discurso AD13 |
+| - Analise de Protocolo AP2 |
+
+### C4 - V2
+
+|**Conectar com um servidor**|
+|--|
+|**Objetivo** |
+| Iniciar conexão com uma instância do Rocket.chat |
+|**Contexto** |
+| - Local: Tela inicial do app ou na aba lateral dentro de um servidor |
+| - Tempo: A qualquer momento|
+| - Pré-condição: possuir internet, possuir a plataforma Rocket.Chat no celular ou computador|
+| - Pós-condição: Usuário estará conectado com um servidor |
+|**Atores** |
+| - Usuário |
+|**Recursos** |
+| - Dispositivo com Rocket.chat instalado |
+| - Possuir internet |
+| - Conta de usuário |
+|**Restrição**|
+| - Internet ruim |
+| - Servidor instável |
+|**Exceção** |
+| - Dispositivo não funcionar |
+| - Não ser um servidor válido |
+| - Aplicação para de funcionar |
+| - Não possuir internet |
+|**Episódios** |
+| - Se usuário não estiver conectado à um servidor, na primeira tela do aplicativo, caso contrário, na aba lateral, usuário vai até “Adicionar novo servidor”
+| - Usuário clica em “Conectar com um servidor”
+| - Usuário define o protocolo de conexão
+| - Usuário insere o endereço do servidor    
+| - Usuário clica em “Conectar” |
+|**Levantado pela técnica**|
+| - Entrevista ENT1.7 |
+| - Introspecção INT1.4, INT3.2|
+| - Storyboard 4 |
+| - Analise de Discurso AD13 |
+| - Analise de Protocolo AP2 |
 
 ### C5
 
