@@ -489,7 +489,7 @@
 |**Classificação**|
 | Objeto |
 |**Noção**|
-| - Usuário Pro que desfruta de serviços exclusivos no Rocket.Chat |
+| - Usuário Pro que desfruta de serviços exclusivos no [Rocket.chat](#l65) |
 | - Para empresas prontas para intensificar a comunicação da equipe e acessar mais recursos |
 |**Impacto** |
 | - [Rocket.chat](#l65) disponibiliza mais funcionalidades que ao [usuário community](#l66) |
@@ -873,7 +873,7 @@ Usuário pode ocultar os chat |
 | - O [usuário](#l19) pode se recusar a entrar no grupo privado |
 |**Sinônimos**|
 | - Grupos privados |
-| - channel privado |
+| - Channel privado |
 
 ### L53
 
@@ -899,7 +899,7 @@ Usuário pode ocultar os chat |
 | Verbo |
 |**Noção**|
 | - Ato de copiar um texto no [Rocket.chat](#l65) |
-| - Atividade realizada pelo [usuário](#l19) dentro de uma conversa ou [chanel](#l1) |
+| - Atividade realizada pelo [usuário](#l19) dentro de uma [mensagem direta](#l53) ou [chanel](#l1) |
 |**Impacto** |
 | - O [usuário](#l19) pode copiar mensagem para enviar para outros [usuários](#l19) |
 | - O [usuário](#l19) pode utilizar em outros locais |
@@ -988,13 +988,13 @@ Usuário pode ocultar os chat |
 |**Classificação**|
 | Verbo |
 |**Noção**|
-| - Opção de incluir um usuário a um [grupo privado](#l52), um [chanel](#l1) ou até uma [webconferência](#l25) |
+| - Opção de incluir um [usuário](#l19) a um [grupo privado](#l52), um [chanel](#l1) ou até uma [webconferência](#l25) |
 |**Impacto** |
-| - [Usuário](#l19) pode adicionar outro usuário a um [grupo privado](#l52) |
-| - [Usuário](#l19) pode adicionar outro usuário a um [chanel](#l1) |
-| - [Usuário](#l19) pode adicionar outro usuário a uma [webconferência](#l25) |
+| - [Usuário](#l19) pode adicionar outro [usuário](#l19) a um [grupo privado](#l52) |
+| - [Usuário](#l19) pode adicionar outro [usuário](#l19) a um [chanel](#l1) |
+| - [Usuário](#l19) pode adicionar outro [usuário](#l19) a uma [webconferência](#l25) |
 |**Sinônimos**|
-| - Colocar usuário |
+| - Colocar [usuário](#l19) |
 
 ### L62
 

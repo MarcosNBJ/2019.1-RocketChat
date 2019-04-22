@@ -279,7 +279,7 @@
 | - Se usuário não estiver conectado à um [servidor](lexicos.md#l18), na primeira tela do aplicativo. Caso contrário, na aba lateral, [usuário](lexicos.md#l19) vai até “Adicionar novo [servidor](lexicos.md#l18)” |
 | - [Usuário](lexicos.md#l19) clica em “Conectar com um [servidor](lexicos.md#l18)”|
 | - [Usuário](lexicos.md#l19) define o protocolo de conexão|
-| - [Usuário](lexicos.md#l19) insere o endereço do [servidor](lexicos.md#l18) |   
+| - [Usuário](lexicos.md#l19) insere o endereço do [servidor](lexicos.md#l18) |
 | - [Usuário](lexicos.md#l19) clica em “Conectar” |
 |**Levantado pela técnica**|
 | - Entrevista [ENT1.7](../Elicitação/Entrevista.md#requisitos) |
@@ -317,7 +317,7 @@
 | - Se [usuário](lexicos.md#l19) não estiver conectado à um [servidor](lexicos.md#l18), na primeira tela do aplicativo, caso contrário, na aba lateral, [usuário](lexicos.md#l19) vai até “Adicionar novo [servidor](lexicos.md#l18)”
 | - [Usuário](lexicos.md#l19) clica em “Conectar com um [servidor](lexicos.md#l18)”
 | - [Usuário](lexicos.md#l19) define o protocolo de conexão
-| - [Usuário](lexicos.md#l19) insere o endereço do [servidor](lexicos.md#l18)    
+| - [Usuário](lexicos.md#l19) insere o endereço do [servidor](lexicos.md#l18)
 | - [Usuário](lexicos.md#l19) clica em “Conectar” |
 |**Levantado pela técnica**|
 | - Entrevista [ENT1.7](../Elicitação/Entrevista.md#requisitos) |
@@ -733,6 +733,123 @@
 |**Levantado pela técnica**|
 |-|
 
+### C17
+
+|**Pesquisar mensagem**|
+|--|
+|**Objetivo** |
+| Encontrar a mensagem desejada pelo [usuário](lexicos.md#l19) |
+|**Contexto** |
+| Local: Página do Chanel do [Rocket.chat](lexicos.md#l65) |
+| Tempo: a qualquer momento |
+| Pré-condição: O [usuário](lexicos.md#l19) ter em mente as mensagens que deseja |
+| Pós-condição: O [usuários](lexicos.md#l19) encontrará a mensagem de acordo com o que pesquisou |
+|**Atores** |
+|  [Usuário](lexicos.md#l19) |
+|**Recursos** |
+| Internet|
+| Conta ativa no [Rocket.chat](lexicos.md#l65) |
+|**Restrição**|
+|  O conteúdo retornado pela pesquisa deve ter relação com o pesquisado |
+|**Exceção** |
+| Internet cair |
+| Palavras não tão bem especificadas que coincidem com outras |
+| Não existir a mensagem pesquisada |
+|**Episódios** |
+| [Usuário](lexicos.md#l19) já logado abre o chanel |
+| [Usuário](lexicos.md#l19) pesquisa a mensagem desejada na barra de pesquisa |
+| [Usuário](lexicos.md#l19) pressiona a lupa |
+| O aplicativo retorna uma seleção de mensagens conforme a pesquisa do [usuário](lexicos.md#l19) |
+|**Levantado pela técnica**|
+| - |
+
+### C18
+
+|**Fazer login**|
+|--|
+|**Objetivo** |
+| Utilizar todas as funcionalidades disponíveis para [usuários](lexicos.md#l19) |
+|**Contexto** |
+| Local: Página inicial do [Rocket.chat](lexicos.md#l65) |
+| Tempo: a qualquer momento |
+| Pré-condição: O [usuário](lexicos.md#l19) ter conta no aplicativo, inserir o [login](lexicos.md#l62) e senha corretos |
+| Pós-condição: O [usuários](lexicos.md#l19) está logado |
+|**Atores** |
+|  [Usuário](lexicos.md#l19) |
+|**Recursos** |
+| Internet|
+| Conta ativa no [Rocket.chat](lexicos.md#l65) |
+|**Restrição**|
+| - |
+|**Exceção** |
+| Esqueceu a senha |
+| Esqueceu o [login](lexicos.md#l62) |
+| Não está cadastrado |
+|**Episódios** |
+| Inicia o Rocket.chat |
+| [Usuário](lexicos.md#l19) preenche o [login](lexicos.md#l62) e senha |
+| [Usuário](lexicos.md#l19) clica em "Entrar" |
+|**Levantado pela técnica**|
+| - |
+
+### C19
+
+|**Receber notificação**|
+|--|
+|**Objetivo** |
+| Ser notificado sobre alguma mensagem recebida ou interações de outros [usuários](lexicos.md#l19) |
+|**Contexto** |
+| Local: Aba de [notificações](lexicos.md#l28) |
+| Tempo: a qualquer momento |
+| Pré-condição: O [usuário](lexicos.md#l19) deve estar logado e com o aplicativo do [Rocket.chat](lexicos.md#l65) em segundo plano |
+| Pós-condição: O [usuário](lexicos.md#l19) receberá a notificação quando receber uma mensagem ou ocorrer alguma interação |
+|**Atores** |
+|  [Usuário](lexicos.md#l19) |
+|**Recursos** |
+| Internet|
+| Conta ativa no [Rocket.chat](lexicos.md#l65) |
+|**Restrição**|
+| O [usuário](lexicos.md#l19) não ter as [notificações](lexicos.md#l28) desativadas |
+|**Exceção** |
+| Internet cair |
+| App dar crash |
+| Não estar com o app em segundo plano |
+|**Episódios** |
+| [Usuário](lexicos.md#l19) já logado acessa o [Rocket.chat](lexicos.md#l65) |
+| [Usuário](lexicos.md#l19) recebe uma mensagem |
+| [Usuário](lexicos.md#l19) clica nas [notificações](lexicos.md#l28) |
+| [Usuário](lexicos.md#l19) vê a mensagem de outro [usuário](lexicos.md#l19) |
+|**Levantado pela técnica**|
+| - |
+
+### C20
+
+|**Sair do Rocket.chat**|
+|--|
+|**Objetivo** |
+| Sair de uma [conta](lexicos.md#l67) de [usuário](lexicos.md#l19) logada |
+|**Contexto** |
+| Local: Aba lateral de opcões do [Rocket.chat](lexicos.md#l65) |
+| Tempo: a qualquer momento |
+| Pré-condição: O [usuário](lexicos.md#l19) deve estar logado em sua conta do [Rocket.chat](lexicos.md#l65) |
+| Pós-condição: O [usuário](lexicos.md#l19) saiu da sua conta no [Rocket.chat](lexicos.md#l65) |
+|**Atores** |
+|  [Usuário](lexicos.md#l19) |
+|**Recursos** |
+| Internet|
+| Conta ativa no [Rocket.chat](lexicos.md#l65) |
+|**Restrição**|
+| O [usuário](lexicos.md#l19) estar logado em uma conta |
+|**Exceção** |
+| Internet cair |
+| App dar crash |
+|**Episódios** |
+| [Usuário](lexicos.md#l19) já logado abre o [Rocket.chat](lexicos.md#l65) |
+| [Usuário](lexicos.md#l19) entra na aba de opções |
+| [Usuário](lexicos.md#l19) seleciona a opção Sair |
+| [Usuário](lexicos.md#l19) retorna para página inicial de [login](lexicos.md#l62) do [Rocket.chat](lexicos.md#l65) |
+|**Levantado pela técnica**|
+| - |
 
 ## Versionamento
 
@@ -744,3 +861,4 @@
 | 21/04/2019 | 1.3 | Adição do Cenário C11 | Lucas Maciel |
 | 21/04/2019 | 1.4 | Adição do Cenários C3, C4 | Heron Rodrigues |
 | 21/04/2019 | 1.5 | Adição dos Cenários C6, C10, C13, C14 | Weiller Fernandes |
+| 21/04/2019 | 1.6 | André Lucas | Adição dos Cenários 17-20 |
