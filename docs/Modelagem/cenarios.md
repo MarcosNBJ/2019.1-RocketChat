@@ -53,8 +53,8 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |  -Um novo [usuário](lexicos.md#l19) ou [usuário](lexicos.md#l19) que deseja uma nova [conta](lexicos.md#l67) entra na plataforma do [Rocket.chat](lexicos.md#l65) em seu computador ou celular. |
 |-Na tela inicial, o [usuário](lexicos.md#l19) não [logado](lexicos.md#l62) seleciona a opção “Registrar um novo [usuário](lexicos.md#l19)”.|
 |-Na tela de cadastro, o [usuário](lexicos.md#l19) preenche os campos de cadastro com sua senha e email e nome. Caso deseje, pode-se também selecionar umas das redes sociais para fazer log up.|
-|-Criando um [usuário](lexicos.md#l19) do zero ou usando uma rede social, o novo [usuário](lexicos.md#l19) é direcionado para uma página onde deve selecionar seu user name.|
-|-O [usuário](lexicos.md#l19) preenche o campo de user name e seu cadastro é realizado com sucesso.|
+|-Criando um [usuário](lexicos.md#l19) do zero ou usando uma rede social, o novo [usuário](lexicos.md#l19) é direcionado para uma página onde deve selecionar seu [user name](lexicos.md#l17).|
+|-O [usuário](lexicos.md#l19) preenche o campo de [user name](lexicos.md#l17) e seu cadastro é realizado com sucesso.|
 |**Levantado pela técnica**|
 |  - |
 
@@ -88,8 +88,8 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |  -Um novo [usuário](lexicos.md#l19) ou [usuário](lexicos.md#l19) que deseja uma nova [conta](lexicos.md#l67) entra na plataforma do [Rocket.chat](lexicos.md#l65) em seu computador ou celular. |
 |-Na tela inicial, o [usuário](lexicos.md#l19) não [logado](lexicos.md#l62) seleciona a opção “Registrar um novo [usuário](lexicos.md#l19)”.|
 |-Na tela de cadastro, o [usuário](lexicos.md#l19) preenche os campos de cadastro com sua senha e email e nome. Caso deseje, pode-se também selecionar umas das redes sociais para fazer sign up.|
-|-Criando um [usuário](lexicos.md#l19) do zero ou usando uma rede social, o novo [usuário](lexicos.md#l19) é direcionado para uma página onde deve selecionar seu user name.|
-|-O [usuário](lexicos.md#l19) preenche o campo de user name e seu cadastro é realizado com sucesso.|
+|-Criando um [usuário](lexicos.md#l19) do zero ou usando uma rede social, o novo [usuário](lexicos.md#l19) é direcionado para uma página onde deve selecionar seu [user name](lexicos.md#l17).|
+|-O [usuário](lexicos.md#l19) preenche o campo de [user name](lexicos.md#l17) e seu cadastro é realizado com sucesso.|
 |**Levantado pela técnica**|
 |-|
 
@@ -366,18 +366,18 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Deletar conta**|
 |--|
 |**Objetivo** |
-| [Deletar uma conta](lexicos.md#l21) existente no app Rocket.Chat, por não se interessar mais em usa-lo |
+| [Deletar uma conta](lexicos.md#l21) existente no app [Rocket.Chat](lexicos.md#l65), por não se interessar mais em usa-lo |
 |**Contexto** |
-| Local: Perfil do usuário |
+| Local: [Perfil](lexicos.md#l8) do usuário |
 |Tempo: A qualquer momento após uma conta ter sido criada|
-|Pré-condição: Estar conectado à internet, possuir conta no Rocket.Chat|
+|Pré-condição: Estar conectado à internet, possuir conta no [Rocket.Chat](lexicos.md#65)|
 |Pós-condição: A conta será deletada com sucesso|
 |**Atores** |
-|  [usuário](lexicos.md#l19) com conta no Rocket.Chat |
+|  [usuário](lexicos.md#l19) com conta no [Rocket.Chat](lexicos.md#l65) |
 |**Recursos** |
 | Internet |
 | Celular |
-|  Conta ativa no Rocket.Chat |
+|  Conta ativa no [Rocket.Chat](lexicos.md#l65) |
 |**Restrição**|
 | Conexão de baixa qualidade com a internet |
 |**Exceção** |
@@ -386,12 +386,12 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Usuário cancelar a ação|
 | App parar de funcionar |
 |**Episódios** |
-| Um usuário que já possui uma conta no Rocket.Chat deseja excluí-la |
-| Usuário acessa o seu perfil e clica em “deletar conta” |
-| Uma tela com a mensagem “Você tem certeza?” é exibida ao usuário |
-| Usuário preenche o campo obrigatório com a senha de sua conta |
-| Usuário clica em “Deletar Conta” |
-| Usuário tem sua conta deletada com sucesso |
+| Um usuário que já possui uma conta no [Rocket.Chat](lexicos.md#l65) deseja excluí-la |
+| [Usuário](lexicos.md#l19) acessa o seu perfil e clica em “deletar conta” |
+| Uma tela com a mensagem “Você tem certeza?” é exibida ao [usuário](lexicos.md#l19) |
+| [Usuário](lexicos.md#l19) preenche o campo obrigatório com a senha de sua conta |
+| [Usuário](lexicos.md#l19) clica em “Deletar Conta” |
+| [Usuário](lexicos.md#l19) tem sua conta deletada com sucesso |
 |**Levantado pela técnica**|
 | - |
 
@@ -460,7 +460,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 
 ### C9
 
-|**Anexar um arquivo**|
+|**[Anexar um arquivo](lexicos.md#l5)**|
 |--|
 |**Objetivo** |
 |- [Usuário](lexicos.md#l19) enviar, com ou sem uma mensagem textual, um arquivo de mídia (como fotos ou vídeos) ou um documento|
@@ -468,7 +468,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- Local: [channel](lexicos.md#l1) da conversa|
 |- Tempo: A qualquer momento|
 |- Pré-condição: O [usuário](lexicos.md#l19) ter [conta](lexicos.md#l67) no aplicativo e estar dentro do [channel](lexicos.md#l1) |
-|- Pós-condição: Será mostrado para os outros usuários no [channel](lexicos.md#l1) o arquivo enviado pelo [usuário](lexicos.md#l19), com a opção de download|
+|- Pós-condição: Será mostrado para os outros usuários no [channel](lexicos.md#l1) o [arquivo enviado](lexicos.md#l5) pelo [usuário](lexicos.md#l19), com a opção de download|
 |**Atores** |
 |  [Usuário](lexicos.md#l19) |
 |**Recursos** |
@@ -476,7 +476,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Conta](lexicos.md#l67) no aplicativo|
 |- Arquivo qualquer|
 |**Restrição**|
-|- [Usuário](lexicos.md#l19) enviar o arquivo correto|
+|- [Usuário](lexicos.md#l19) [enviar o arquivo](lexicos.md#l5) correto|
 |- O arquivo não deve demorar para ser enviado|
 |**Exceção** |
 |- Queda da internet|
@@ -497,31 +497,31 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Alterar status do perfil**|
 |--|
 |**Objetivo** |
-| Alterar o status de uma conta existente no app Rocket.Chat entre um dos 4 existentes |
+| Alterar o status de uma conta existente no app [Rocket.Chat](lexicos.md#l65) entre um dos 4 existentes |
 |**Contexto** |
-| Local: Aba lateral do Rocket.Chat |
+| Local: Aba lateral do [Rocket.Chat](lexicos.md#l65)|
 | Tempo: A qualquer momento após uma conta ter sido criada |
-| Pré-condição: Estar conectado à internet, possuir conta no Rocket.Chat |
+| Pré-condição: Estar conectado à internet, possuir conta no [Rocket.Chat](lexicos.md#l65) |
 | Pós-condição: O status será diferente do status inicial |
 |**Atores** |
-|  [Usuário](#l19) com conta no Rocket.Chat |
+|  [Usuário](#l19) com conta no [Rocket.Chat](lexicos.md#l65) |
 |**Recursos** |
 | Internet|
 | Celular |
-| Conta ativa no Rocket.Chat |
+| Conta ativa no [Rocket.Chat](lexicos.md#l65) |
 |**Restrição**|
 |  Conexão de baixa qualidade com a internet |
 |**Exceção** |
 | Internet cair |
-| Usuário selecionar o status que já possuía anteriormente |
-| Usuário cancelar a ação |
+| [Usuário](lexicos.md#l19) selecionar o status que já possuía anteriormente |
+| [Usuário](lexicos.md#l19) cancelar a ação |
 | App parar de funcionar |
 |**Episódios** |
-| Um usuário que já possui uma conta no Rocket.Chat deseja alterar seu status dentro do app |
-| Usuário clica na aba lateral do aplicativo |
-| Usuário visualiza uma lista com os status disponíveis |
-| Usuário escolhe um status entre as opções Online, Ausente, Ocupado e Invisível |
-| O usuário agora tem um novo status |
+| Um [usuário](lexicos.md#l19) que já possui uma conta no [Rocket.Chat](lexicos.md#l65) deseja alterar seu status dentro do app |
+| [Usuário](lexicos.md#l19) clica na aba lateral do aplicativo |
+| [Usuário](lexicos.md#l19) visualiza uma lista com os status disponíveis |
+| [Usuário](lexicos.md#l19) escolhe um status entre as opções Online, Ausente, Ocupado e Invisível |
+| O [usuário](lexicos.md#l19) agora tem um novo status |
 |**Levantado pela técnica**|
 | Análise de protocolo |
 
@@ -577,7 +577,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Restrição**|
 |- [Usuário](lexicos.md#l19) escrever corretamente o que quer expressar |
 |- A aplicação oferecer ferramentas que ajudem o [usuário](lexicos.md#l19) a escrever sua mensagem, como um corretor ortográfico|
-|- O [usuário](lexicos.md#l19) conseguir anexar todos os arquivos que quer|
+|- O [usuário](lexicos.md#l19) conseguir [anexar](lexicos.md#l5) todos os arquivos que quer|
 |**Exceção** |
 |- Queda da internet|
 |- [Usuário](lexicos.md#l19) cancela a ação|
@@ -586,7 +586,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
 |- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado |
 |- [Usuário](lexicos.md#l19) digita a mensagem no campo de texto|
-|- [Usuário](lexicos.md#l19) anexa todos os arquivos que quiser na mensagem|
+|- [Usuário](lexicos.md#l19) [anexa](lexicos.md#l5) todos os arquivos que quiser na mensagem|
 |- [Usuário](lexicos.md#l19) insere um Emoji se quiser|
 |- [Usuário](lexicos.md#l19) envia a mensagem clicando no botão presente na caixa de texto para essa finalidade|
 |**Levantado pela técnica**|
@@ -594,70 +594,70 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 
 ### C13
 
-|**Favoritar Mensagem**|
+|**[Favoritar Mensagem](lexicos.md#l44)**|
 |--|
 |**Objetivo** |
-| [Favoritar uma mensagem](lexicos.md#l46) para que seja possível visualizá-la com mais facilidade posteriormente |
+| [Favoritar uma mensagem](lexicos.md#l44) para que seja possível visualizá-la com mais facilidade posteriormente |
 |**Contexto** |
-| Local: Chat privado ou em grupo no Rocket.Chat |
+| Local: Chat privado ou em grupo no [Rocket.Chat](lexicos.md#l65) |
 | Tempo: A qualquer momento após um chat ser iniciado e possuir mensagens enviadas |
-| Pré-condição: Estar conectado à internet, possuir conta no Rocket.Chat e estar em um chat que já possua mensagens enviadas |
+| Pré-condição: Estar conectado à internet, possuir conta no [Rocket.Chat](lexicos.md#l65) e estar em um chat que já possua mensagens enviadas |
 | Pós-condição: A mensagem favoritada irá aparecer no menu de mensagens favoritas |
 |**Atores** |
 | Usuário participante de um chat |
 |**Recursos** |
 | Internet |
 | Celular |
-| Conta ativa no Rocket.Chat |
+| Conta ativa no [Rocket.Chat](lexicos.md#l65) |
 | Chat privado ou em grupo |
 |**Restrição**|
 | Conexão de baixa qualidade com a internet |
 | Chat não possuir nenhuma mensagem ainda |
 |**Exceção** |
 | Internet cair |
-| Usuário cancelar a ação |
-| Usuário escolher opção errada |
+| [Usuário](lexicos.md#l19) cancelar a ação |
+| [Usuário](lexicos.md#l19) escolher opção errada |
 | App parar de funcionar |
 |**Episódios** |
-| Um [usuário](lexicos.md#l19) participante de um chat deseja favoritar uma mensagem para que seja possível visualizá-la mais facilmente depois |
-| O usuário abre uma conversa e clica na mensagem que deseja favoritar |
-| Várias opções são exibidas ao usuário, dentre elas a opção de Favoritar, que pode ser identificada também pelo ícone de estrela |
-| Usuário favorita a mensagem |
+| Um [usuário](lexicos.md#l19) participante de um chat deseja [favoritar uma mensagem](lexicos.md#l44) para que seja possível visualizá-la mais facilmente depois |
+| O [usuário](lexicos.md#l19) abre uma conversa e clica na mensagem que deseja [favoritar](lexicos.md#l44) |
+| Várias opções são exibidas ao [usuário](lexicos.md#l19), dentre elas a opção de [Favoritar](lexicos.md#l44), que pode ser identificada também pelo ícone de estrela |
+| [Usuário](lexicos.md#l19) [favorita a mensagem](lexicos.md#l44) |
 | Mensagem favoritada pode ser vista pelo menu de Mensagens Favoritas na aba de Detalhes do canal |
 |**Levantado pela técnica**|
 | - |
 
 ### C14
 
-|**Visualizar membros de chat em grupo**|
+|**Visualizar [membros](lexicos.md#l12) de chat em grupo**|
 |--|
 |**Objetivo** |
-| Visualizar membros participantes de determinado chat em grupo |
+| Visualizar [membros](lexicos.md#l12) participantes de determinado chat em grupo |
 |**Contexto** |
-| Local: Menu “Membros” dentro do menu “Detalhes do canal” em um chat em grupo |
-| Tempo: A qualquer momento após um chat em grupo ser iniciado e possuir dois ou mais membros |
-| Pré-condição: Estar conectado à internet, possuir conta no Rocket.Chat e estar em um chat em grupo |
-| Pós-condição: Uma área com todos os membros pertencentes a um grupo é exibida |
+| Local: Menu “[Membros](lexicos.md#l12)” dentro do menu “Detalhes do canal” em um chat em grupo |
+| Tempo: A qualquer momento após um chat em grupo ser iniciado e possuir dois ou mais [membros](lexicos.md#l12) |
+| Pré-condição: Estar conectado à internet, possuir conta no [Rocket.Chat](lexicos.md#l65) e estar em um chat em grupo |
+| Pós-condição: Uma área com todos os [membros](lexicos.md#l12) pertencentes a um grupo é exibida |
 |**Atores** |
 | Usuário participante de um chat em grupo |
 |**Recursos** |
 | Internet |
 | Celular |
-| Conta ativa no Rocket.Chat |
+| Conta ativa no [Rocket.Chat](lexicos.md#l65) |
 | Chat em grupo |
 |**Restrição**|
 | Conexão de baixa qualidade com a internet|
-| Chat não possuir membros ainda |
+| Chat não possuir [membros](lexicos.md#l12) ainda |
 |**Exceção** |
 | Internet cair|
 | Usuário escolher opção errada|
 | App parar de funcionar|
-| Todos os membros saírem do chat em grupo |
+| Todos os [membros](lexicos.md#l12) saírem do chat em grupo |
 |**Episódios** |
-| Um usuário participante de um chat em grupo deseja ver quais os membros que também fazem parte daquele chat|
+| Um usuário participante de um chat em grupo deseja ver quais os [membros](lexicos.md#l12) que também fazem parte daquele chat|
 | O usuário abre uma conversa e clica no nome do grupo para abrir o menu de Detalhes do canal |
-| Várias opções são exibidas ao usuário, dentre elas a opção de “Membros” |
-| Usuário clica na opção Membros e uma lista é exibida com todos os usuários do grupo bem como seus respectivos status, fotos de perfil e [nome de usuário](#l17)|
+| Várias opções são exibidas ao usuário, dentre elas a opção de “[Membros](lexicos.md#l12)” |
+| Usuário clica na opção [Membros](lexicos.md#l12) e uma lista é exibida com todos os usuários do grupo bem como seus respectivos status, fotos de perfil e [nome de usuário](#l17)|
 |**Levantado pela técnica**|
 | - |
 
@@ -865,3 +865,4 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | 21/04/2019 | 1.5 | Adição dos Cenários C6, C10, C13, C14 | Weiller Fernandes |
 | 21/04/2019 | 1.6 | Adição dos Cenários 17-20 | André Lucas |
 | 22/04/2019 | 1.7 | Criando alguns links | Gabriel Davi |
+| 22/04/2019 | 1.8 | Criando alguns links | Weiller Fernandes |
