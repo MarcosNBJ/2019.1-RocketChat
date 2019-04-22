@@ -22,16 +22,16 @@
 | Objeto|
 |**Noção**|
 |-Canal de comunicação e compartilhamento de informações.|
-|-Salas criadas por usuários.|
+|-Salas criadas por [usuários](#l19).|
 |-Onde ocorre as principais discussões de grupo dentro da plataforma.|
-|-Função principal da plataforma no campo de comunicação entre os usuários.|
+|-Função principal da plataforma no campo de comunicação entre os [usuários](#l19).|
 |-Grupo de conversa com um tema selecionado.|
 |**Impacto** |
-|-Um canal pode ser criado por determinado usuário|
+|-Um canal pode ser criado por determinado [usuário](#l19)|
 |-Um grupo pode receber determinado nome.|
-|-Um usuário pode ser adicionado a um channel|
-|-Um usuário pode ser removido de um channel|
-|-Um usuário pode se retirar de um canal|
+|-Um [usuário](#l19) pode ser adicionado a um channel|
+|-Um [usuário](#l19) pode ser removido de um channel|
+|-Um [usuário](#l19) pode se retirar de um canal|
 |-Arquivos, fotos podem ser compartilhados dentro de um canal|
 |-Pode-se mencionar pessoas dentro de um canal|
 |-Dentro de um grupo, pode-se pesquisar mensagens específicas|
@@ -49,11 +49,11 @@
 |**Classificação**|
 | Estado|
 |**Noção**|
-|-Ocorre quando um usuário clica na opção: “criar canal”|
-|-Um grupo separado com várias pessoas está em atividade |
+|-Ocorre quando um [usuário](#l19) clica na opção: “criar canal”|
+|-Um [grupo](#l1) separado com várias pessoas está em atividade |
 |**Impacto** |
-| -Usuários podem trocar informações com outros usuários simultaneamente |
-| -Usuários podem enviar arquivos e fotos dentro do canal|
+| -[Usuários](#l19) podem trocar informações com outros [usuários](#l19) simultaneamente |
+| -[Usuários](#l19) podem enviar arquivos e fotos dentro do canal|
 |**Sinônimos**|
 | - Canal aberto/Canais abertos, grupo aberto/grupos abertos|
 
