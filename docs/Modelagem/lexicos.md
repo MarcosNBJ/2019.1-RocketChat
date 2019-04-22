@@ -34,9 +34,9 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |-Um [usuário](#l19) pode ser adicionado a um channel|
 |-Um [usuário](#l19) pode ser removido de um channel|
 |-Um [usuário](#l19) pode se retirar de um canal|
-|-Arquivos, fotos podem ser compartilhados dentro de um canal|
+|-[Arquivos](#l5), fotos podem ser compartilhados dentro de um canal|
 |-Pode-se [mencionar pessoas](#l4) dentro de um canal|
-|-Dentro de um grupo, pode-se [pesquisar mensagens](#l57) específicas|
+|-Dentro de um grupo, pode-se [pesquisar mensagens](#l11) específicas|
 |-Há a possibilidade de adicionar uma descrição e um tópico a um channel|
 |-Pode-se [dar pin em mensagens](#l3) em um grupo para salvá-las.|
 |-Um canal pode ser deletado.|
@@ -55,7 +55,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |-Um [grupo](#l1) separado com várias pessoas está em atividade |
 |**Impacto** |
 | -[Usuários](#l19) podem trocar informações com outros [usuários](#l19) simultaneamente |
-| -[Usuários](#l19) podem enviar arquivos e fotos dentro do [canal](#l1)|
+| -[Usuários](#l19) podem [enviar arquivos](#l5) e fotos dentro do [canal](#l1)|
 |**Sinônimos**|
 | - Canal aberto/Canais abertos, grupo aberto/grupos abertos|
 
@@ -102,7 +102,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Verbo|
 |**Noção**|
-| - Ação realizada por um usuário|
+| - Ação realizada por um [usuário](#l19)|
 | - Ação ocorre ao clicar no botão “Anexar um arquivo”|
 | - [usuário](#l19) envia um arquivo para um [channel](#l1)|
 | - [usuário](#l19) escolhe um tipo de arquivo para enviar (foto, vídeo, documento, etc)|
@@ -146,12 +146,12 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Área onde o [usuário](#l19) pode ver suas informações como nome, nome de usuário, email e foto de perfil|
+| - Área onde o [usuário](#l19) pode ver suas informações como nome, [nome de usuário](#l17), email e foto de perfil|
 |**Impacto** |
-| - O [usuário](#l19) pode deletar sua conta|
+| - O [usuário](#l19) pode [deletar sua conta](#l21)|
 | - O [usuário](#l19) pode editar suas informações pessoais, como nome e email|
 | - O [usuário](#l19) pode adicionar uma foto ao perfil, tirando uma foto ou selecionando da galeria|
-| - O [usuário](#l19) pode editar seu nome de usuário|
+| - O [usuário](#l19) pode editar seu [nome de usuário](#l17)|
 |**Sinônimos**|
 | - Profile|
 
@@ -180,7 +180,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Verbo|
 |**Noção**|
-|- Ação realizada pelo usuário.|
+|- Ação realizada pelo [usuário](#l19).|
 |- Acontece quando o mesmo retira uma [reação](#l7) anteriormente [adicionada](#l9) a uma mensagem.|
 |- [usuário](#l19) clica na reação adicionada, e ela é então retirada.|
 |**Impacto** |
@@ -193,7 +193,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Verbo|
 |**Noção**|
-|- Ação realizada pelo usuário|
+|- Ação realizada pelo [usuário](#l19)|
 |- Ocorre quando o [usuário](#l19) clica no botão de “lupa” dentro de um [channel](#l1)|
 |- [usuário](#l19) digita uma palavra-chave que será procurada por toda aquela conversa|
 |**Impacto** |
@@ -236,7 +236,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | Verbo|
 |**Noção**|
 | - Se conectar a uma nova instância do software |
-| - Usar outro conector entre usuários |
+| - Usar outro conector entre [usuários](#l19) |
 |**Impacto**|
 | Um [usuário](#l19) pode se conectar a outra instância do software para poder ter maior controle da privacidade das suas mensagens |
 | Um [usuário](#l19) pode adicionar um novo servidor para trabalhar com dois grupos de trabalho diferentes |
@@ -267,7 +267,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |- O [usuário](#l19) pode fixar mensagem em um [channel](#l1) ao clicar nela e selecionar a opção de fixar mensagem.|
 |- Uma mensagem fixada poderá ser facilmente acessada pelo menu de mensagens fixadas do [channel](#l1).|
 |**Impacto**|
-|- Se a mensagem está fixada, os usuários podem clicar nela e escolher desafixar mensagem. Ação pela qual a mensagem passa para o estado de não fixada e deixa de aparecer no menu de mensagens fixadas.|
+|- Se a mensagem está fixada, os [usuários](#l19) podem clicar nela e escolher desafixar mensagem. Ação pela qual a mensagem passa para o estado de não fixada e deixa de aparecer no menu de mensagens fixadas.|
 
 ### L17
 
@@ -277,11 +277,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | Objeto|
 |**Noção**|
 | - Nome pelo qual o [usuário](#l19) é identificado dentro do app|
-| - Deve ser único, ou seja, não podem existir dois usuários com mesmo nome de usuário|
+| - Deve ser único, ou seja, não podem existir dois [usuários](#l19) com mesmo nome de usuário|
 |**Impacto**|
-| - Pode ser alterado dentro do perfil |
-| - Pode ser mencionado dentro de uma conversa, para que o [usuário](#l19) seja notificado de uma mensagem |
-| - Todos os nomes de usuários dos membros de um grupo podem ser vistos na aba “membros”|
+| - Pode ser alterado dentro do [perfil](#l8) |
+| - Pode ser [mencionado](#l4) dentro de uma conversa, para que o [usuário](#l19) seja notificado de uma mensagem |
+| - Todos os nomes de usuários dos [membros](#l12) de um grupo podem ser vistos na aba “[membros](#l12)”|
 |**Sinônimo**|
 | - Username |
 | - Nickname |
@@ -346,8 +346,8 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | Verbo|
 |**Noção**|
 | - Ação realizada pelo [usuário](#l19) |
-| - Opção que pode ser acessada a partir do perfil do usuário|
-| - Uma tela de confirmação é exibida ao usuário|
+| - Opção que pode ser acessada a partir do [perfil](#l8) do usuário|
+| - Uma tela de confirmação é exibida ao [usuário](#l19)|
 | - [usuário](#l19) deve digitar sua senha para conseguir deletar sua conta|
 |**Impacto**|
 | - A conta do [usuário](#l19) é deletada |
@@ -454,11 +454,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - “Subgrupo” para os usuários adicionarem apenas um parte de outros membros para discutir algum assunto |
+| - “Subgrupo” para os usuários adicionarem apenas um parte de outros [membros](#l12) para discutir algum assunto |
 | - “Thread” do grupo ou [channel](#l1) principal |
-| - [usuário](#l19) deseja realizar um debate entre alguns membros do grupo, sem incomodar o restante do grupo com assuntos que não são de interesse geral |
+| - [usuário](#l19) deseja realizar um debate entre alguns [membros](#l12) do grupo, sem incomodar o restante do grupo com assuntos que não são de interesse geral |
 |**Impacto** |
-| - [usuário](#l19) inicia uma discussão a parte do assunto principal do [channel](#l1) ou grupo com outros membros |
+| - [usuário](#l19) inicia uma discussão a parte do assunto principal do [channel](#l1) ou grupo com outros [membros](#l12) |
 | - Gera um novo canal de comunicação na barra lateral, na categoria de private groups ou grupo privado |
 | - Usuários adicionados passam a ser integrantes da sala ou grupo criado |
 | - Usuários podem deixar a sala |
@@ -541,8 +541,8 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - É um aviso textual que o [usuário](#l19) gostaria que fosse visto pelos outros integrantes de um [channel](#l1). |
 |**Impacto** |
 |- Um Anúncio pode ser criado pelo [usuário](#l19) em um [channel](#l1)|
-|- Um Anúncio criado será fixado na aba Anúncios do [channel](#l1) para todos os outros usuários|
-|- Um Anúncio pode ser removido pelo usuário, desde que este tenha os privilégios necessários|
+|- Um Anúncio criado será fixado na aba Anúncios do [channel](#l1) para todos os outros [usuários](#l19)|
+|- Um Anúncio pode ser removido pelo [usuário](#l19), desde que este tenha os privilégios necessários|
 |**Sinônimos**|
 | - Aviso |
 
@@ -643,11 +643,10 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 | - É a categorização dos chats  que pode ser visualizada no menu localizado à esquerda na Versão Desktop do aplicativo |
 | - Disposição de cada tipo de chat em sua categoria: channels, grupos privados, discussões ou mensagens diretas |
- |
 |**Impacto** |
 | - Usuários são capazes de visualizarem cada chat em sua devida categoria |
-| - Facilita encontrar algum chat
-[usuário](#l19) pode ocultar os chat |
+| - Facilita encontrar algum chat|
+|- [usuário](#l19) pode ocultar os chat |
 | - [usuário](#l19) pode criar novo chat |
 |**Sinônimos**|
 | - Categorias de Chats |
@@ -666,7 +665,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Impacto** |
 | - Usuários podem ver os resultados do reconhecimento do áudio quase que em tempo real |
 | - Usuários podem desabilitar essa opção ou ação do aplicativo |
-| - Essa opção pode ajudar usuários que possuem deficiências auditivas |
+| - Essa opção pode ajudar [usuários](#l19) que possuem deficiências auditivas |
 |**Sinônimos**|
 | - Transcrição de áudio em texto |
 
@@ -695,11 +694,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Objeto criado por [usuário](#l19) que contém texto, desenho, ou arquivo anexado |
+| - Objeto criado por [usuário](#l19) que contém texto, desenho, ou [arquivo anexado](#l5) |
 | - Representação de informações ou idéias compartilhadas em grupo, channel ou chat pessoal |
 |**Impacto** |
 | - [usuário](#l19) remetente pode a qualquer momento remover mensagem enviada, porém somente o conteúdo da mensagem é apagado, ainda é possível ver que a mensagem por um momento “existiu” |
-| - Mensagem gerada torna-se disponível para algum [usuário](#l19) favoritar mensagem |
+| - Mensagem gerada torna-se disponível para algum [usuário](#l19) [favoritar mensagem](#l44) |
 | - Usuários podem fixar mensagem |
 | - Usuários podem copiar mensagem |
 | - Usuários podem citar ou responder mensagem |
@@ -726,40 +725,40 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 
 ### L44
 
-|**Favoritar mensagem**|
+|**Favoritar [mensagem](#l42)**|
 |--|
 |**Classificação**|
 | Verbo|
 |**Noção**|
 | - Atividade realizada pelo [usuário](#l19) |
 | - É feito dentro de uma conversa ou canais de conversa |
-| - Quando um [usuário](#l19) clica  em uma mensagem um menu é exibido |
+| - Quando um [usuário](#l19) clica  em uma [mensagem](#l42) um menu é exibido |
 | - O [usuário](#l19) clica na opção de favoritar, identificada por uma estrela |
 | - A mensagem favoritada aparece no menu de Detalhes do canal, em Mensagens Favoritadas|
 |**Impacto** |
-| - Mensagem é favoritada |
-| - Mensagem pode ser acessada facilmente no menu Mensagens Favoritadas|
-| - Ao clicar novamente sobre a mensagem, é exibida a opção de Desfavoritar|
+| - [Mensagem](#l42) é favoritada |
+| - [Mensagem](#l42) pode ser acessada facilmente no menu Mensagens Favoritadas|
+| - Ao clicar novamente sobre a [mensagem](#l42), é exibida a opção de [Desfavoritar](#l45)|
 |**Sinônimos**|
 | - Favoritar mensagens |
 | - Favoritar |
 
 ### L45
 
-|**Desfavoritar mensagem**|
+|**Desfavoritar [mensagem](#l42)**|
 |--|
 |**Classificação**|
 | Verbo|
 |**Noção**|
 | - Atividade realizada pelo [usuário](#l19) |
 | - É feito dentro de uma conversa ou canais de conversa |
-| - Quando um [usuário](#l19) clica  em uma mensagem já favoritada anteriormente, um menu é exibido |
+| - Quando um [usuário](#l19) clica  em uma [mensagem favoritada](#l44) anteriormente, um menu é exibido |
 | - O [usuário](#l19) clica na opção de desfavoritar, identificada por uma estrela |
-| - A mensagem é desfavoritada e some do menu de Mensagens Favoritadas|
-| - A mensagem desfavoritada pode ser favoritada novamente|
+| - A [mensagem](#l42) é desfavoritada e some do menu de Mensagens Favoritadas|
+| - A mensagem desfavoritada pode ser [favoritada](#l44) novamente|
 |**Impacto** |
-| - Mensagem é desfavoritada |
-| - Mensagem não é mais exibida no menu Mensagens Favoritadas|
+| - [Mensagem](#l42) é desfavoritada |
+| - [Mensagem](#l42) não é mais exibida no menu Mensagens Favoritadas|
 |**Sinônimos**|
 | - Desfavoritar mensagens |
 | - Desfavoritar |
@@ -839,7 +838,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Página onde se encontram todos os canais e usuários de um servidor|
 |**Impacto**|
 | - Em busca de uma grupo com tema específico o [usuário](#l19) acessou o diretório e pesquisou os canais|
-| - Procurando um [usuário](#l19) que não lembrava seu nome de usuário, o [usuário](#l19) 1 acessou o diretório e procurou o nome de [usuário](#l19) do [usuário](#l19) 2|
+| - Procurando um [usuário](#l19) que não lembrava seu [nome de usuário](#l17), o [usuário](#l19) 1 acessou o diretório e procurou o [nome de usuário](#l17) do [usuário](#l19) 2|
 |**Sinônimo**|
 | - Guia |
 | - Livro de Consulta |
@@ -854,7 +853,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - É uma sala virtual onde participantes de um grupo podem conversar, compartilhar informações ou idéias |
 | - É o termo genérico para channel, grupo privado, discussão ou mensagens diretas presentes no aplicativo |
 |**Impacto** |
-| - Uma Room pode ser criada por um [usuário](#l19) e este pode convidar usuários para serem membros da equipe na sala |
+| - Uma Room pode ser criada por um [usuário](#l19) e este pode convidar usuários para serem [membros](#l12) da equipe na sala |
 | - Uma Room pode ser ocultada (somente Versão Desktop) |
 |**Sinônimos**|
 | - Bate-Papo |
@@ -885,11 +884,11 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | Objeto|
 |**Noção**|
 | - Canal de comunicação direta com outros [usuários](#l19) do [Rocket.chat](#l65) |
-| - Local onde ocorre a troca de mensagens, áudios, fotos e arquivos |
+| - Local onde ocorre a troca de mensagens, áudios, fotos e [arquivos](#l5) |
 | - Local onde é possível realizar [webconferências](#l25) |
 |**Impacto** |
 | - O [usuário](#l19) envia uma mensagem direta para outro [usuário](#l19) |
-| - Ocorre a troca de mensagens, fotos e arquivos dentro da mensagem direta |
+| - Ocorre a troca de mensagens, fotos e [arquivos](#l5) dentro da mensagem direta |
 |**Sinônimos**|
 | - Chat Pessoal |
 
@@ -937,7 +936,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |-Acontece quando o [usuário](#l19) pretende enviar uma [mensagem](#l42) como sendo uma resposta a uma [mensagem](#l42) previamente enviada por ele mesmo ou outro usuário|
 |-Ao clicar na [mensagem](#l42) no qual se deseja responder, dentre várias ações possíveis, há a de “responder”|
 |**Impacto** |
-|-Uma [mensagem](#l42) será destacada como respondida e ,logo embaixo, haverá a resposta para tal mensagem.|
+|-Uma [mensagem](#l42) será destacada como respondida e ,logo embaixo, haverá a resposta para tal [mensagem](#l42).|
 |-Uma [mensagem](#l42) será respondida.|
 |-Uma nova [mensagem](#l42) é enviada.|
 |-A [mensagem](#l42) enviada como resposta destaca a [mensagem](#l42) que está sendo respondida.|
@@ -1082,3 +1081,4 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | 21/04/2019 | 1.7 | Adição dos léxicos L5, L8, L11, L17, L21, L44-L47 | Weiller Fernandes |
 | 21/04/2019 | 1.8 | Adição dos léxicos L29-L31, L52-L54, L59, L62, L68 | André Lucas |
 | 22/04/2019 | 1.9 | Linkando alguns lexicos | Gabriel Davi |
+| 22/04/2019 | 2.0 | Linkando alguns léxicos | Weiller Fernandes|
