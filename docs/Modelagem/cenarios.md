@@ -32,7 +32,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Cadastrar um novo [usuário](lexicos.md#l19) |
 |**Contexto** |
 | -Local: Página inical do app do [Rocket.chat](lexicos.md#l65) |
-| -pré-condição: Possuir internet, não estar logado na plataforma |
+| -pré-condição: Possuir internet, não estar [logado](lexicos.md#l62) na plataforma |
 | -Pós-condição:  [Usuário](lexicos.md#l19) cadastrado |
 |**Atores** |
 |  [Usuário](lexicos.md#l19) não cadastrado |
@@ -51,7 +51,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |  -Conta em uma rede social externa inexistente. |
 |**Episódios** |
 |  -Um novo [usuário](lexicos.md#l19) ou [usuário](lexicos.md#l19) que deseja uma nova [conta](lexicos.md#l67) entra na plataforma do [Rocket.chat](lexicos.md#l65) em seu computador ou celular. |
-|-Na tela inicial, o [usuário](lexicos.md#l19) não logado seleciona a opção “Registrar um novo [usuário](lexicos.md#l19)”.|
+|-Na tela inicial, o [usuário](lexicos.md#l19) não [logado](lexicos.md#l62) seleciona a opção “Registrar um novo [usuário](lexicos.md#l19)”.|
 |-Na tela de cadastro, o [usuário](lexicos.md#l19) preenche os campos de cadastro com sua senha e email e nome. Caso deseje, pode-se também selecionar umas das redes sociais para fazer log up.|
 |-Criando um [usuário](lexicos.md#l19) do zero ou usando uma rede social, o novo [usuário](lexicos.md#l19) é direcionado para uma página onde deve selecionar seu user name.|
 |-O [usuário](lexicos.md#l19) preenche o campo de user name e seu cadastro é realizado com sucesso.|
@@ -67,7 +67,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Acessar as funcionalidades da plataforma disponíveis para [usuários](lexicos.md#l19) cadastrados |
 |**Contexto** |
 | -Local: Página inical do app do [Rocket.chat](lexicos.md#l65) |
-| -pré-condição: Possuir internet, não estar logado na plataforma |
+| -pré-condição: Possuir internet, não estar [logado](lexicos.md#l62) na plataforma |
 | -Pós-condição:  [Usuário](lexicos.md#l19) cadastrado |
 |**Atores** |
 |  [Usuário](lexicos.md#l19) não cadastrado |
@@ -86,7 +86,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |  -Conta em uma rede social externa inexistente. |
 |**Episódios** |
 |  -Um novo [usuário](lexicos.md#l19) ou [usuário](lexicos.md#l19) que deseja uma nova [conta](lexicos.md#l67) entra na plataforma do [Rocket.chat](lexicos.md#l65) em seu computador ou celular. |
-|-Na tela inicial, o [usuário](lexicos.md#l19) não logado seleciona a opção “Registrar um novo [usuário](lexicos.md#l19)”.|
+|-Na tela inicial, o [usuário](lexicos.md#l19) não [logado](lexicos.md#l62) seleciona a opção “Registrar um novo [usuário](lexicos.md#l19)”.|
 |-Na tela de cadastro, o [usuário](lexicos.md#l19) preenche os campos de cadastro com sua senha e email e nome. Caso deseje, pode-se também selecionar umas das redes sociais para fazer sign up.|
 |-Criando um [usuário](lexicos.md#l19) do zero ou usando uma rede social, o novo [usuário](lexicos.md#l19) é direcionado para uma página onde deve selecionar seu user name.|
 |-O [usuário](lexicos.md#l19) preenche o campo de user name e seu cadastro é realizado com sucesso.|
@@ -96,14 +96,14 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 
 ### C2 - V1
 
-|**Realizar [Web conferência](lexicos.md#l25)**|
+|**Realizar [Video Chat](lexicos.md#l25)**|
 |--|
 |**Objetivo** |
 | Realizar uma reunião online |
 |**Contexto** |
 | -Local: Plataforma [Rocket.chat](lexicos.md#l65) |
 | -Pré-condição: possuir internet, possuir a plataforma [Rocket.chat](lexicos.md#l65) no celular ou computador |
-| -Pós-condição: [Web conferência](lexicos.md#l25) será realizada com sucesso entre os [usuários](lexicos.md#l19)
+| -Pós-condição: [Video Chat](lexicos.md#l25) será realizada com sucesso entre os [usuários](lexicos.md#l19)
 |
 |**Atores** |
 |  -Pessoa 1 |
@@ -134,24 +134,24 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |  -Pessoa um entra em sua [conta](lexicos.md#l67) no [Rocket.chat](lexicos.md#l65) e procura o [usuário](lexicos.md#l19) da Pessoa 2.|
 |  -Pessoa 1 entra em um bate papo com a pessoa 2. |
 |  -Pessoa 1 seleciona a opção “Realizar [Vídeo conferência](lexicos.md#l25)” e manda o convite para a pessoa 2.|
-|  -Pessoa 2 entra em sua conta do [Rocket.chat](lexicos.md#l65) e aceita o convite para a realização da [web conferencia](lexicos.md#l25).|
+|  -Pessoa 2 entra em sua conta do [Rocket.chat](lexicos.md#l65) e aceita o convite para a realização da [Video Chat](lexicos.md#l25).|
 |**Levantado pela técnica**|
 |  Storyboard, introspecção, questionário, análise de protocolo, análise de discurso |
 
 
 ### C2 - V2
 
-|**Realizar [Web Conferencia](lexicos.md#l25)**|
+|**Realizar [Video Chat](lexicos.md#l25)**|
 |--|
 |**Objetivo** |
 | Conversar a distância com outro [usuário](lexicos.md#l19)/grupo. |
 |**Contexto** |
 | -Local: Plataforma [Rocket.chat](lexicos.md#l65) |
 | -Pré-condição: possuir internet, possuir a plataforma [Rocket.chat](lexicos.md#l65) no celular ou computador |
-| -Pós-condição: [web conferencia](lexicos.md#l25) será realizada com sucesso entre os [usuários](lexicos.md#l19)
+| -Pós-condição: [Video Chat](lexicos.md#l25) será realizada com sucesso entre os [usuários](lexicos.md#l19)
 |
 |**Atores** |
-|  -Criador da [web conferencia](lexicos.md#l25) |
+|  -Criador da [Video Chat](lexicos.md#l25) |
 |  -Grupo/pessoas que irão participar  |
 |**Recursos** |
 |  -Internet |
@@ -171,12 +171,12 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |  -computador quebrar. |
 |  -microfone do computador quebrar.|
 |**Episódios** |
-| -O criador da [web conferencia](lexicos.md#l25) um marca reunião com o grupo/pessoa.|
+| -O criador da [Video Chat](lexicos.md#l25) um marca reunião com o grupo/pessoa.|
 | -Todos os envolvidos pegam seu fone de ouvido e testam seu microfone.|
 | -Criador da conversa entra em sua [conta](lexicos.md#l67) no [Rocket.chat](lexicos.md#l65) e procura o [usuários](lexicos.md#l19) dos outros envolvidos.|
-| -Criador da [web conferencia](lexicos.md#l25) entra em um bate papo com o grupo/pessoa.|
-| -Criador da [web conferencia](lexicos.md#l25) seleciona a opção “Realizar [web conferencia](lexicos.md#l25)” e manda o convite para o grupo/pessoa.|
-| -O grupo/pessoa entra em sua [conta](lexicos.md#l67) do [Rocket.chat](lexicos.md#l65) e aceita o convite para a realização da web conferência.|
+| -Criador da [Video Chat](lexicos.md#l25) entra em um bate papo com o grupo/pessoa.|
+| -Criador da [Video Chat](lexicos.md#l25) seleciona a opção “Realizar [Video Chat](lexicos.md#l25)” e manda o convite para o grupo/pessoa.|
+| -O grupo/pessoa entra em sua [conta](lexicos.md#l67) do [Rocket.chat](lexicos.md#l65) e aceita o convite para a realização da [Video Chat](#l25).|
 |**Levantado pela técnica**|
 |  Storyboard, introspecção, questionário, análise de protocolo, análise de discurso |
 
@@ -449,7 +449,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- Queda da internet|
 |- [Usuário](lexicos.md#l19) cancela a ação|
 |**Episódios** |
-|- [Usuário](lexicos.md#l19) entra logado no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
 |- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado|
 |- [Usuário](lexicos.md#l19) clica no botão de “plus”|
 |- [Usuário](lexicos.md#l19) clica na opção “desenho”|
@@ -483,7 +483,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) não tem permissão|
 |- [Usuário](lexicos.md#l19) cancela a ação|
 |**Episódios** |
-|- [Usuário](lexicos.md#l19) entra logado no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
 |- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado|
 |- [Usuário](lexicos.md#l19) clica no botão “plus”|
 |- [Usuário](lexicos.md#l19) clica em anexar um arquivo|
@@ -583,7 +583,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) cancela a ação|
 |- Mensagem do [usuário](lexicos.md#l19) está acima do limite de caracteres|
 |**Episódios** |
-|- [Usuário](lexicos.md#l19) entra logado no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
 |- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado |
 |- [Usuário](lexicos.md#l19) digita a mensagem no campo de texto|
 |- [Usuário](lexicos.md#l19) anexa todos os arquivos que quiser na mensagem|
@@ -657,7 +657,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Um usuário participante de um chat em grupo deseja ver quais os membros que também fazem parte daquele chat|
 | O usuário abre uma conversa e clica no nome do grupo para abrir o menu de Detalhes do canal |
 | Várias opções são exibidas ao usuário, dentre elas a opção de “Membros” |
-| Usuário clica na opção Membros e uma lista é exibida com todos os usuários do grupo bem como seus respectivos status, fotos de perfil e nomes de usuário|
+| Usuário clica na opção Membros e uma lista é exibida com todos os usuários do grupo bem como seus respectivos status, fotos de perfil e [nome de usuário](#l17)|
 |**Levantado pela técnica**|
 | - |
 
@@ -758,7 +758,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Palavras não tão bem especificadas que coincidem com outras |
 | Não existir a mensagem pesquisada |
 |**Episódios** |
-| [Usuário](lexicos.md#l19) já logado abre o chanel |
+| [Usuário](lexicos.md#l19) já [logado](lexicos.md#l62) abre o chanel |
 | [Usuário](lexicos.md#l19) pesquisa a mensagem desejada na barra de pesquisa |
 | [Usuário](lexicos.md#l19) pressiona a lupa |
 | O aplicativo retorna uma seleção de mensagens conforme a pesquisa do [usuário](lexicos.md#l19) |
@@ -775,7 +775,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Local: Página inicial do [Rocket.chat](lexicos.md#l65) |
 | Tempo: a qualquer momento |
 | Pré-condição: O [usuário](lexicos.md#l19) ter conta no aplicativo, inserir o [login](lexicos.md#l62) e senha corretos |
-| Pós-condição: O [usuários](lexicos.md#l19) está logado |
+| Pós-condição: O [usuários](lexicos.md#l19) está [logado](lexicos.md#l62) |
 |**Atores** |
 |  [Usuário](lexicos.md#l19) |
 |**Recursos** |
@@ -803,7 +803,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Contexto** |
 | Local: Aba de [notificações](lexicos.md#l28) |
 | Tempo: a qualquer momento |
-| Pré-condição: O [usuário](lexicos.md#l19) deve estar logado e com o aplicativo do [Rocket.chat](lexicos.md#l65) em segundo plano |
+| Pré-condição: O [usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) e com o aplicativo do [Rocket.chat](lexicos.md#l65) em segundo plano |
 | Pós-condição: O [usuário](lexicos.md#l19) receberá a notificação quando receber uma mensagem ou ocorrer alguma interação |
 |**Atores** |
 |  [Usuário](lexicos.md#l19) |
@@ -817,7 +817,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | App dar crash |
 | Não estar com o app em segundo plano |
 |**Episódios** |
-| [Usuário](lexicos.md#l19) já logado acessa o [Rocket.chat](lexicos.md#l65) |
+| [Usuário](lexicos.md#l19) já [logado](lexicos.md#l62) acessa o [Rocket.chat](lexicos.md#l65) |
 | [Usuário](lexicos.md#l19) recebe uma mensagem |
 | [Usuário](lexicos.md#l19) clica nas [notificações](lexicos.md#l28) |
 | [Usuário](lexicos.md#l19) vê a mensagem de outro [usuário](lexicos.md#l19) |
@@ -833,7 +833,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Contexto** |
 | Local: Aba lateral de opcões do [Rocket.chat](lexicos.md#l65) |
 | Tempo: a qualquer momento |
-| Pré-condição: O [usuário](lexicos.md#l19) deve estar logado em sua conta do [Rocket.chat](lexicos.md#l65) |
+| Pré-condição: O [usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) em sua conta do [Rocket.chat](lexicos.md#l65) |
 | Pós-condição: O [usuário](lexicos.md#l19) saiu da sua conta no [Rocket.chat](lexicos.md#l65) |
 |**Atores** |
 |  [Usuário](lexicos.md#l19) |
@@ -841,7 +841,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Internet|
 | Conta ativa no [Rocket.chat](lexicos.md#l65) |
 |**Restrição**|
-| O [usuário](lexicos.md#l19) estar logado em uma conta |
+| O [usuário](lexicos.md#l19) estar [logado](lexicos.md#l62) em uma conta |
 |**Exceção** |
 | Internet cair |
 | App dar crash |
