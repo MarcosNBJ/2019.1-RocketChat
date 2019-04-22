@@ -310,7 +310,7 @@
 |**Levantado pela técnica**|
 |  qual técnica ou quais técnicas levantaram esse necessidade|
 
-### C1
+### C11
 
 |**Fixar Mensagem**|
 |--|
@@ -341,8 +341,6 @@
 | - Usuário encontra uma mensagem de seu interesse |
 | - Usuário seleciona a mensagem desejada através do menu de opções da mensagem |
 | - Usuário seleciona o botão de fixar mensagem |
-|**Levantado pela técnica**|
-|  qual técnica ou quais técnicas levantaram esse necessidade|
 
 
 ### C12
