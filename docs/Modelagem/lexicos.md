@@ -93,6 +93,24 @@
 |**Sinônimos**|
 | - Mentions, Menções, Mencionar pessoas |
 
+### L5
+
+|**Anexar arquivo**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+| - Ação realizada por um usuário|
+| - Ação ocorre ao clicar no botão “Anexar um arquivo”|
+| - Usuário envia um arquivo para um channel|
+| - Usuário escolhe um tipo de arquivo para enviar (foto, vídeo, documento, etc)|
+|**Impacto** |
+| - Usuários do channel recebem o arquivo|
+| - Usuários do channel podem visualizar o arquivo|
+| - Usuários do channel podem salvar o arquivo em seu dispositivo|
+|**Sinônimos**|
+| - Enviar arquivo|
+
 ### L6
 |**Tag**|
 |--|
@@ -118,6 +136,22 @@
 |- Muitos já são obtidos junto com o aplicativo. Mas o usuário também pode incluir novos, feitos por ele ou por terceiros.|
 |**Sinônimos**|
 | - Reação |
+
+### L8
+
+|**Perfil**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Área onde o usuário pode ver suas informações como nome, nome de usuário, email e foto de perfil|
+|**Impacto** |
+| - O usuário pode deletar sua conta|
+| - O usuário pode editar suas informações pessoais, como nome e email|
+| - O usuário pode adicionar uma foto ao perfil, tirando uma foto ou selecionando da galeria|
+| - O usuário pode editar seu nome de usuário|
+|**Sinônimos**|
+| - Profile|
 
 
 ### L9
@@ -150,6 +184,22 @@
 |**Impacto** |
 |- Se outros usuários reagiram aquela mensagem com o mesmo emoji, a contagem dessas reações na mensagem decresce em um.|
 |- Se não haviam outras reações com o mesmo emoji, a reação é completamente removida da mensagem.|
+
+### L11
+|**Procurar mensagem**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|- Ação realizada pelo usuário|
+|- Ocorre quando o usuário clica no botão de “lupa” dentro de um channel|
+|- Usuário digita uma palavra-chave que será procurada por toda aquela conversa|
+|**Impacto** |
+|- Todas as mensagens que contêm a palavra pesquisada serão exibidas|
+|- Se uma palavra buscada não existir na conversa, o usuário é avisado sobre isso|
+|**Sinônimos**|
+| - Buscar mensagem |
+| - Busca |
 
 ### L12
 
@@ -217,6 +267,27 @@
 |**Impacto**|
 |- Se a mensagem está fixada, os usuários podem clicar nela e escolher desafixar mensagem. Ação pela qual a mensagem passa para o estado de não fixada e deixa de aparecer no menu de mensagens fixadas.|
 
+### L17
+
+|**Nome de usuário**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Nome pelo qual o usuário é identificado dentro do app|
+| - Deve ser único, ou seja, não podem existir dois usuários com mesmo nome de usuário|
+|**Impacto**|
+| - Pode ser alterado dentro do perfil |
+| - Pode ser mencionado dentro de uma conversa, para que o usuário seja notificado de uma mensagem |
+| - Todos os nomes de usuários dos membros de um grupo podem ser vistos na aba “membros”|
+|**Sinônimo**|
+| - Username |
+| - Nickname |
+| - Nick |
+| - Apelido |
+| - User |
+| - Usuário |
+
 
 ### L18
 
@@ -264,6 +335,25 @@
 | - Para usar o Rocket.Chat só é preciso fazer o download porém para ter seu servidor é necessário instanciar o software em seu servidor ou computador |
 |**Sinônimo**|
 | - Exemplo |
+
+### L21
+
+|**Deletar conta**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+| - Ação realizada pelo usuário |
+| - Opção que pode ser acessada a partir do perfil do usuário|
+| - Uma tela de confirmação é exibida ao usuário|
+| - Usuário deve digitar sua senha para conseguir deletar sua conta|
+|**Impacto**|
+| - A conta do usuário é deletada |
+| - O usuário perde acesso à sua conta |
+| - O usuário não consegue mais enviar mensagens em nenhum channel e nem utilizar nenhuma funcionalidade do app |
+|**Sinônimo**|
+| - Apagar conta |
+| - Excluir conta|
 
 ### L22
 
@@ -600,6 +690,82 @@ Usuário pode ocultar os chat |
 |**Sinônimos**|
 | - Rascunho |
 | - Rasura |
+
+### L44
+
+|**Favoritar mensagem**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+| - Atividade realizada pelo usuário |
+| - É feito dentro de uma conversa ou canais de conversa |
+| - Quando um usuário clica  em uma mensagem um menu é exibido |
+| - O usuário clica na opção de favoritar, identificada por uma estrela |
+| - A mensagem favoritada aparece no menu de Detalhes do canal, em Mensagens Favoritadas|
+|**Impacto** |
+| - Mensagem é favoritada |
+| - Mensagem pode ser acessada facilmente no menu Mensagens Favoritadas|
+| - Ao clicar novamente sobre a mensagem, é exibida a opção de Desfavoritar|
+|**Sinônimos**|
+| - Favoritar mensagens |
+| - Favoritar |
+
+### L45
+
+|**Desfavoritar mensagem**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+| - Atividade realizada pelo usuário |
+| - É feito dentro de uma conversa ou canais de conversa |
+| - Quando um usuário clica  em uma mensagem já favoritada anteriormente, um menu é exibido |
+| - O usuário clica na opção de desfavoritar, identificada por uma estrela |
+| - A mensagem é desfavoritada e some do menu de Mensagens Favoritadas|
+| - A mensagem desfavoritada pode ser favoritada novamente|
+|**Impacto** |
+| - Mensagem é desfavoritada |
+| - Mensagem não é mais exibida no menu Mensagens Favoritadas|
+|**Sinônimos**|
+| - Desfavoritar mensagens |
+| - Desfavoritar |
+
+### L46
+
+|**Alterar senha**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+| - Atividade realizada pelo usuário |
+| - É feito dentro das configurações do app |
+| - Quando um usuário clica  na aba de configurações um menu com uma série de opções é exibido, dentre elas está a opção de alterar a senha da conta|
+| - O usuário clica na opção de alterar senha e preenche o campo com sua nova senha |
+| - O usuário preenche o campo de confirmar a nova senha e então a senha é alterada com sucesso|
+|**Impacto** |
+| - A senha do usuário é alterada |
+| - Para fazer login no app novamente o usuário deve digitar sua nova senha|
+|**Sinônimos**|
+| - Redefinir senha|
+
+### L47
+
+|**Compartilhar app**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+| - Atividade realizada pelo usuário |
+| - É feito dentro das configurações do app |
+| - Quando um usuário clica  na aba de configurações um menu com uma série de opções é exibido, dentre elas está a opção de compartilhar o app|
+| - O usuário clica na opção de compartilhar app e um novo menu é exibido |
+| - O usuário escolhe por onde quer compartilhar o app, whatsapp, facebook, instagram, etc|
+| - Um link é gerado e enviado para a pessoa ou pessoas escolhidas, este link dá acesso à página do app na play store|
+|**Impacto** |
+| - Um link é compartilhado através de um app que o usuário escolheu |
+| - Uma ou mais pessoas recebem o link|
+| - Com este link é possível fazer o download do app|
 
 ### L48
 
