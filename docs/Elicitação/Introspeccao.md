@@ -16,7 +16,7 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 
  [Geração de personas](https://geradordepersonas.com.br/)
 
-## Instrospecção 01
+## Introspecção 01
 
 ![INT1](../img/Elicitacao/introspeccao_01.png)
 

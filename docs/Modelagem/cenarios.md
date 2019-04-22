@@ -211,10 +211,10 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | - [Usuário](lexicos.md#l19) escolhe os [membros](lexicos.md#l12) que irão participar do [channel](lexicos.md#l1)|
 | - [Usuário](lexicos.md#l19) clica no botão “Criar”|
 |**Levantado pela técnica**|
-| - Introspecção [INT1.1](../Elicitação/introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/introspeccao.md#introspeccao-03)|
+| - Introspecção [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03)|
 | - [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos)|
 | - Analise de Protocolo [AP4](../Elicitação/analprot.md#requisitos-elicitados) |
-| - Questionário [Q16](../Elicitação/questionario#requisitos-elicitados) |
+| - Questionário [Q16](../Elicitação/questionario.md#requisitos-elicitados) |
 
 ### C3 - V2
 |**Criar [channel](lexicos.md#l1)**|
@@ -235,7 +235,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | - [Usuário](lexicos.md#l19) precisa estar conectado à um [servidor](lexicos.md#l18) |
 |**Restrição**|
 | - Internet ruim
-| - Diversos [Usuários](lexicos.md#l19) para participar do [channel](lexicos.md#l1)|
+| - Diversos [usuários](lexicos.md#l19) para participar do [channel](lexicos.md#l1)|
 | - [Membros](lexicos.md#l12) que mantém o foco e sejam concisos nas discussões|
 |**Exceção** |
 | - Não possuir internet |
@@ -249,10 +249,10 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | - [Usuário](lexicos.md#l19) escolhe os [membros](lexicos.md#l12) que irão participar do [channel](lexicos.md#l1)|
 | - [Usuário](lexicos.md#l19) clica no botão “Criar”|
 |**Levantado pela técnica**|
-| - Introspecção [INT1.1](../Elicitação/introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/introspeccao.md#introspeccao-03)|
+| - Introspecção [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03)|
 | - [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos)|
 | - Analise de Protocolo [AP4](../Elicitação/analprot.md#requisitos-elicitados) |
-| - Questionário [Q16](../Elicitação/questionario#requisitos-elicitados) |
+| - Questionário [Q16](../Elicitação/questionario.md#requisitos-elicitados) |
 
 
 ### C4 - V1
@@ -285,7 +285,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | - [Usuário](lexicos.md#l19) clica em “Conectar” |
 |**Levantado pela técnica**|
 | - Entrevista [ENT1.7](../Elicitação/Entrevista.md#requisitos) |
-| - Introspecção [INT1.4](../Elicitação/introspeccao.md#introspeccao-01), [INT3.2](../Elicitação/introspeccao.md#introspeccao-03)|
+| - Introspecção [INT1.4](../Elicitação/Introspeccao.md#introspeccao-01), [INT3.2](../Elicitação/Introspeccao.md#introspeccao-03)|
 | - [Storyboard 4](../Elicitação/Storyboard.md#4-requisitos-obtidos) |
 | - Analise de Discurso [AD13](../Elicitação/analdiscurso.md#requisitos-elicitados) |
 | - Analise de Protocolo [AP2](../Elicitação/analprot.md#requisitos-elicitados) |
@@ -323,7 +323,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | - [Usuário](lexicos.md#l19) clica em “Conectar” |
 |**Levantado pela técnica**|
 | - Entrevista [ENT1.7](../Elicitação/Entrevista.md#requisitos) |
-| - Introspecção [INT1.4](../Elicitação/introspeccao.md#introspeccao-01), [INT3.2](../Elicitação/introspeccao.md#introspeccao-03)|
+| - Introspecção [INT1.4](../Elicitação/Introspeccao.md#introspeccao-01), [INT3.2](../Elicitação/Introspeccao.md#introspeccao-03)|
 | - [Storyboard 4](../Elicitação/Storyboard.md#4-requisitos-obtidos) |
 | - Analise de Discurso [AD13](../Elicitação/analdiscurso.md#requisitos-elicitados) |
 | - Analise de Protocolo [AP2](../Elicitação/analprot.md#requisitos-elicitados) |
@@ -864,4 +864,4 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | 21/04/2019 | 1.4 | Adição do Cenários C3, C4 | Heron Rodrigues |
 | 21/04/2019 | 1.5 | Adição dos Cenários C6, C10, C13, C14 | Weiller Fernandes |
 | 21/04/2019 | 1.6 | Adição dos Cenários 17-20 | André Lucas |
-| 22/04/2019 | 1.7 | Gabriel Davi | Criando alguns links |
+| 22/04/2019 | 1.7 | Criando alguns links | Gabriel Davi |
