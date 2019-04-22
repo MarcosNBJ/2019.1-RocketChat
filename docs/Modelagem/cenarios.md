@@ -742,8 +742,5 @@
 | 21/04/2019 | 1.1 | Adição dos Cenários C5, C7, C8, C9, c12 | Marcos Nery |
 | 21/04/2019 | 1.2 | Adição dos Cenários C1 - v1, C1 - v2, C2 - v1, C2 - v2, C15, C16, c12 | Gabriel Davi |
 | 21/04/2019 | 1.3 | Adição do Cenário C11 | Lucas Maciel |
-<<<<<<< 93385b14d74cdef434636303d1d7ccf43c22ab7c
 | 21/04/2019 | 1.4 | Adição do Cenários C3, C4 | Heron Rodrigues |
-=======
-| 21/04/2019 | 1.4 | Adição dos Cenários C6, C10, C13, C14 | Weiller Fernandes |
->>>>>>> adding some Cenarios in cenarios.md document
+| 21/04/2019 | 1.5 | Adição dos Cenários C6, C10, C13, C14 | Weiller Fernandes |
