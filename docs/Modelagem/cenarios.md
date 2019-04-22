@@ -905,6 +905,44 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Levantado pela técnica**|
 | - |
 
+### C24
+
+|**Integrar Serviços**|
+|--|
+|**Objetivo**|
+| - Melhorar comunicação com a equipe |
+| - Aumentar produtividade |
+| - Visualização de serviços externos no aplicativo |
+|**Contexto**|
+| - Local: No aplicativo e na documentação de integração do Rocket.Chat e do serviço que deseja integrar |
+| - Tempo: Qualquer momento |
+| - Pré-condição: [Usuário](lexicos.md#l19) deve possuir um cadastro ativo, ter o Rocket.Chat instalado, possuir conexão com internet e ter um certo conhecimento em integrações ao Rocket.Chat |
+| - Pós-condição: Integração de um serviço que ajudará a equipe, geralmente um [bot](lexicos.md#l26) |
+|**Atores**|
+| - Usuário Administrador |
+|**Recursos**|
+| - Internet |
+| - Conta no aplicativo |
+|**Restrição**|
+| - Estar logado em uma conta |
+| - Não possuir um servidor próprio |
+| - Falta de conhecimento no assunto |
+| - Falta de tutoriais ou suporte |
+|**Excessão**|
+| - Queda de conexão com a internet |
+| - Não possuir uma documentação adequada que instrua como |
+| - realizar a integração de certo serviço |
+| - Serviço de integração foi descontinuado |
+|**Episódios**|
+| - Usuário acessa aplicativo através do desktop preferencialmente |
+| - Na tela inicial acessa um servidor |
+| - Cria um novo usuário para o bot no [grupo](lexicos.md#l51) ou channel |
+| - Usuário define os scripts para configurar o bot |
+|**Levantado pela técnica**|
+| - [Entrevista](../Elicitação/Entrevista.md) |
+| - [Introspecção](../Elicitação/Introspeccao.md) |
+| - [Questionário](../Elicitação/questionario.md) |
+| - [StoryBoard](../Elicitação/Storyboard.md)
 
 ## Versionamento
 
