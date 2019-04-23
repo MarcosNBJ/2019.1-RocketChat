@@ -64,7 +64,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |-Se uma [mensagem](#l42) foi fixada, eu posso visualizá-la em um local onde [mensagens “fixadas”](#l16) irão aparecer|
 |-Eu posso desfazer a ação de fixar uma [mensagem](#l42), retirando -a da área de [mensagens](#l42) com pin|
 |**Sinônimos**|
-| - Salvar [mensagem](#l42), pinar [mensagem](#42), fixar [mensagem](#l42)|
+| - Salvar [mensagem](#l42), pinar [mensagem](#l42), fixar [mensagem](#l42)|
 
 ### L4
 
@@ -134,11 +134,13 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Classificação**|
 | Objeto|
 |**Noção**|
-| - Área onde o [usuário](#l19) pode ver suas informações como nome, [nome de usuário](#l17), email e foto de perfil|
+| - Área onde o [usuário](#l19) pode ver suas informações como nome, [nome de usuário](#l17), email e avatar(foto de perfil)|
+| - Área onde o [usuário](#l19) pode editar suas informações pessoais ou deletar sua conta |
 |**Impacto** |
-| - O [usuário](#l19) pode [deletar sua conta](#l21)|
+| - O [usuário](#l19) pode [deltar sua conta|
 | - O [usuário](#l19) pode editar suas informações pessoais, como nome e email|
-| - O [usuário](#l19) pode adicionar uma foto ao perfil, tirando uma foto ou selecionando da galeria|
+| - O [usuário](#l19) pode adicionar um avatar, tirando uma foto ou selecionando da galeria|
+| - O [usuário](#l19) pode resetar seu avatar |
 | - O [usuário](#l19) pode editar seu [nome de usuário](#l17)|
 |**Sinônimos**|
 | - Profile|
@@ -187,6 +189,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Impacto** |
 |- Todas as mensagens que contêm a palavra pesquisada serão exibidas|
 |- Se uma palavra buscada não existir na conversa, o [usuário](#l19) é avisado sobre isso|
+|- Ao clicar em uma das mensagens resultantes da pesquisa, o [usuário](#l19) poderá realizar qualquer ação possível em uma mensagem comum |
 |**Sinônimos**|
 | - Buscar mensagem |
 | - Busca |
@@ -200,7 +203,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 | - [Usuários](#l19) que participam de um [channel](#l1)|
 |**Impacto** |
-| - Membros podem [enviar mensagem](#l41), [reagir a mensagem](#l9), [procurar mensagem](#l11), [remover reação](#l10), [fixar mensagem](#l3), [favoritar mensagem](#l44), [mencionar usuário](#l4), [desenhar](#l43), [anexar arquivo](#l5)|
+| - Membros podem [enviar mensagem](#l41), [reagir a mensagem](#l9), [procurar mensagem](#l11), [remover reação](#l10), [fixar mensagem](#l3), favoritar mensagem, [mencionar usuário](#l4), [desenhar](#l43), [anexar arquivo](#l5)|
 |**Sinônimos**|
 | - Membro, members, member|
 
@@ -266,8 +269,10 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 | - Nome pelo qual o [usuário](#l19) é identificado dentro do app|
 | - Deve ser único, ou seja, não podem existir dois [usuários](#l19) com mesmo nome de [usuário](#l19)|
+| - Não pode conter caracteres especiais, apenas letras e números |
+| - Não pode ser nulo ou deixado em branco |
 |**Impacto**|
-| - Pode ser alterado dentro do [perfil](#l8) |
+| - Pode ser alterado dentro do [perfil](#l8) a qualquer momento |
 | - Pode ser [mencionado](#l4) dentro de uma conversa, para que o [usuário](#l19) seja notificado de uma mensagem |
 | - Todos os nomes de usuários dos [membros](#l12) de um grupo podem ser vistos na aba “[membros](#l12)”|
 |**Sinônimo**|
@@ -328,22 +333,22 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 
 ### L21
 
-|**Deletar conta**|
+|**Senha**|
 |--|
 |**Classificação**|
-| Verbo|
+| Objeto|
 |**Noção**|
-| - Ação realizada pelo [usuário](#l19) |
-| - Opção que pode ser acessada a partir do [perfil](#l8) do usuário|
-| - Uma tela de confirmação é exibida ao [usuário](#l19)|
-| - [usuário](#l19) deve digitar sua senha para conseguir deletar sua conta|
+| - Código associado à [conta](#l67) usado para se garantir mais segurança e privacidade no app|
+| - A senha é criada no momento em que se cria a [conta](#l67) |
+| - A senha deve conter no mínimo 6 dígitos|
+| - A senha pode ser [alterada](#l44) posteriormente|
 |**Impacto**|
-| - A conta do [usuário](#l19) é deletada |
-| - O [usuário](#l19) perde acesso à sua conta |
-| - O [usuário](#l19) não consegue mais enviar mensagens em nenhum [channel](#l1) e nem utilizar nenhuma funcionalidade do app |
+| - A senha pode ser [alterada](#l44) no menu de configurações do app |
+| - Para se [alterar a senha](#l44) é necessário [informar a nova senha](#l45) e [confirmar a nova senha](#l46) |
+| - Para fazer [login](#l62) no app a senha é exigida |
+| - Para se [deletar a conta](cenarios.md#c6) no app a senha é exigida |
 |**Sinônimo**|
-| - Apagar conta |
-| - Excluir conta|
+| - Password |
 
 ### L22
 
@@ -485,7 +490,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Para empresas prontas para intensificar a comunicação da equipe e acessar mais recursos |
 |**Impacto** |
 | - [Rocket.chat](#l65) disponibiliza mais funcionalidades que ao [usuário](#l19) community](#l66) |
-| - Além de todas as funcionalidades disponibilizadas para o [usuário](#l19) community](#l66), o [usuário](#l19) Pro possui uma quantidade maior de [notificações](#28), [tradução em tempo real](#31), suporte 24 horas, assistência de migração e integração |
+| - Além de todas as funcionalidades disponibilizadas para o [usuário](#l19) community](#l66), o [usuário](#l19) Pro possui uma quantidade maior de [notificações](#l28), [tradução em tempo real](#l31), suporte 24 horas, assistência de migração e integração |
 |**Sinônimos**|
 | - [usuário](#l19) premium |
 
@@ -688,7 +693,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Representação de informações ou idéias compartilhadas em grupo, channel ou chat pessoal |
 |**Impacto** |
 | - [usuário](#l19) remetente pode a qualquer momento remover mensagem enviada, porém somente o conteúdo da mensagem é apagado, ainda é possível ver que a mensagem por um momento “existiu” |
-| - Mensagem gerada torna-se disponível para algum [usuário](#l19) [favoritar mensagem](#l44) |
+| - Mensagem gerada torna-se disponível para algum [usuário](#l19) favoritar mensagem |
 | - [Usuários](#l19) podem fixar mensagem |
 | - [Usuários](#l19) podem copiar mensagem |
 | - [Usuários](#l19) podem citar ou responder mensagem |
@@ -716,61 +721,59 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 
 ### L44
 
-|**Favoritar [mensagem](#l42)**|
-|--|
-|**Classificação**|
-| Verbo|
-|**Noção**|
-| - Atividade realizada pelo [usuário](#l19) |
-| - É feito dentro de uma conversa ou canais de conversa |
-| - Quando um [usuário](#l19) clica  em uma [mensagem](#l42) um menu é exibido |
-| - O [usuário](#l19) clica na opção de favoritar, identificada por uma estrela |
-| - A mensagem favoritada aparece no menu de Detalhes do canal, em Mensagens Favoritadas|
-|**Impacto** |
-| - [Mensagem](#l42) é favoritada |
-| - [Mensagem](#l42) pode ser acessada facilmente no menu Mensagens Favoritadas|
-| - Ao clicar novamente sobre a [mensagem](#l42), é exibida a opção de [Desfavoritar](#l45)|
-|**Sinônimos**|
-| - Favoritar mensagens |
-| - Favoritar |
-
-### L45
-
-|**Desfavoritar [mensagem](#l42)**|
-|--|
-|**Classificação**|
-| Verbo|
-|**Noção**|
-| - Atividade realizada pelo [usuário](#l19) |
-| - É feito dentro de uma conversa ou canais de conversa |
-| - Quando um [usuário](#l19) clica  em uma [mensagem favoritada](#l44) anteriormente, um menu é exibido |
-| - O [usuário](#l19) clica na opção de desfavoritar, identificada por uma estrela |
-| - A [mensagem](#l42) é desfavoritada e some do menu de Mensagens Favoritadas|
-| - A mensagem desfavoritada pode ser [favoritada](#l44) novamente|
-|**Impacto** |
-| - [Mensagem](#l42) é desfavoritada |
-| - [Mensagem](#l42) não é mais exibida no menu Mensagens Favoritadas|
-|**Sinônimos**|
-| - Desfavoritar mensagens |
-| - Desfavoritar |
-
-### L46
-
-|**Alterar senha**|
+|**Alterar [senha](#l21)**|
 |--|
 |**Classificação**|
 | Verbo|
 |**Noção**|
 | - Atividade realizada pelo [usuário](#l19) |
 | - É feito dentro das configurações do app |
-| - Quando um [usuário](#l19) clica  na aba de configurações um menu com uma série de opções é exibido, dentre elas está a opção de alterar a senha da conta|
-| - O [usuário](#l19) clica na opção de alterar senha e preenche o campo com sua nova senha |
-| - O [usuário](#l19) preenche o campo de confirmar a nova senha e então a senha é alterada com sucesso|
+| - Quando um [usuário](#l19) clica  na aba de configurações um menu com uma série de opções é exibido, dentre elas está a opção de alterar a [senha](#l21) da [conta](#l67)|
+| - O [usuário](#l19) clica na opção de alterar [senha](#l21) e preenche o campo com sua nova [senha](#l21) |
+| - O [usuário](#l19) preenche o campo de [confirmar a nova senha](#l46) e então a [senha](#l21) é alterada com sucesso|
 |**Impacto** |
-| - A senha do [usuário](#l19) é alterada |
-| - Para fazer login no app novamente o [usuário](#l19) deve digitar sua nova senha|
+| - A [senha](#l21) do [usuário](#l19) é alterada |
+| - Para fazer login no app novamente o [usuário](#l19) deve digitar sua nova [senha](#l21)|
 |**Sinônimos**|
-| - Redefinir senha|
+| - Change password |
+| - Redefinir [senha](#l21)|
+
+### L45
+
+|**Informar nova [senha](#l21)**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+| - Atividade realizada pelo [usuário](#l19)   que possui uma [conta](#l67) no app|
+| - É feito quando o [usuário](#l19) deseja substituir uma [senha](#l21) antiga por uma nova |
+| - É feito dentro da opção "[Alterar senha](#l44)" do menu de configurações do app |
+| - A nova [senha](#l21) deve possuir no mínimo 6 caracteres |
+|**Impacto** |
+| - Quando o [usuário](#l19) informa a nova [senha](#l21) ele deverá repetí-la no campo de [confirmar a nova senha](#l46) |
+| - O [usuário](#l19) não pode visualizar a nova [senha](#l21) digitada, ficando essa escondida por pontos que representam apenas a quantidade de caracteres inserida |
+|**Sinônimos**|
+| - Inform new password |
+
+
+### L46
+
+|**Confirmar nova [senha](#l21)**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+| - Atividade realizada pelo [usuário](#l19)   que possui uma [conta](#l67) no app|
+| - É feito quando o usuário deseja substituir uma [senha](#l21) antiga por uma nova |
+| - É feito dentro da opção "[Alterar senha](#l44)" do menu de configurações do app |
+| - A [senha](#l21) digitada no campo "confirme a nova senha" deve ser igual a [senha](#l21) digitada no campo "[informe a nova senha](#l45)" |
+|**Impacto** |
+| - Quando o [usuário](#l19) confirma a nova [senha](#l21) que deseja atribuir a sua [conta](#l67), ele deve clicar no botão de "correto" para que essa alteração seja validada |
+| - Caso a [senha](#l21) digitada no campo "confirme a nova senha" seja diferente da digitada no campo "[informe a nova senha](#l45)", o botão de validação não é exibido |
+| - A nova [senha](#l21) passa a ser necessária para se fazer [login](#l62) no app |
+| - A nova [senha](#l21) passa a ser necessária para se [deletar a conta](#cenarios.md#c6) |
+|**Sinônimos**|
+| - Confirm new password |
 
 ### L47
 
@@ -918,7 +921,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 
 ### L56
 
-|**Responder [Mensagem](#42)**|
+|**Responder [Mensagem](#l42)**|
 |--|
 |**Classificação**|
 | Verbo|
@@ -1025,7 +1028,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 | - Aquele que desfruta das funcionalidades gratuitas do [Rocket.chat](#l65)|
 |**Impacto** |
-| - [Usuário Community](#l66) pode [criar channel](cenarios.md#c3-v2), [enviar mensagem](#l41), [desenhar](#l43), [anexar arquivo](#l5), [conectar-se a um servidor](cenarios.md#c4-v2), juntar-se a comunidade, criar um servidor, [deletar conta](#l21), alterar o [status do usuário](#l22), gerar um [permalink](#l15), [reagir a mensagem](#l9), [procurar mensagem](#l11), [remover reação](#l10),  [fixar mensagem](#l3), [favoritar mensagem](#l44), [mencionar usuário](#l4), [salvar imagem](#l68)|
+| - [Usuário Community](#l66) pode [criar channel](cenarios.md#c3-v2), [enviar mensagem](#l41), [desenhar](#l43), [anexar arquivo](#l5), [conectar-se a um servidor](cenarios.md#c4-v2), juntar-se a comunidade, criar um servidor, deletar conta, alterar o [status do usuário](#l22), gerar um [permalink](#l15), [reagir a mensagem](#l9), [procurar mensagem](#l11), [remover reação](#l10),  [fixar mensagem](#l3), favoritar mensagem, [mencionar usuário](#l4), [salvar imagem](#l68)|
 |**Sinônimos**|
 | - Usuário comum|
 
@@ -1074,7 +1077,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Lista de transmissão |
 
 
-### L70 
+### L70
 
 |**Administrador do [channel](#l1)**|
 |--|
@@ -1087,6 +1090,23 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - O administrador do channel pode querer ceder os privilégios de administrador a outro [usuário](#l19) podendo então torna-lo também administrador do channel |
 |**Sinônimos**|
 | - Gerente |
+
+### L71
+
+|**[Mensagem](#l42) favoritada**|
+|--|
+|**Classificação**|
+| Estado|
+|**Noção**|
+| - Estado decorrente da ação do [usuário](#l19) em favoritar mensagem |
+| - Mensagens favoritadas podem ser identificadas em uma conversa pelo símbolo de estrela |
+|**Impacto** |
+| - Uma mensagem favoritada é exibida dentro do menu de Detalhes do canal, na opção "Mensagens Favoritas" |
+| - Uma mensagem favoritada pode ser desfavoritada a qualquer momento, bastando clicar nela e selecionando a opção "desfavoritar" |
+| - O [usuário](#l19) pode favoritar uma mensagem não favoritada|
+|**Sinônimos**|
+| - Favorite message |
+| - Mensagens favoritadas |
 
 ## Versionamento
 
@@ -1104,3 +1124,4 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | 22/04/2019 | 1.9 | Linkando alguns lexicos | Gabriel Davi |
 | 22/04/2019 | 2.0 | Linkando alguns léxicos | Weiller Fernandes|
 | 22/04/2019 | 2.1 | Adição dos léxicos L69 e L70 | João Lucas |
+| 23/04/2019 | 2.2 | Editando alguns léxicos e adicionando léxico L71 | Weiller Fernandes |
