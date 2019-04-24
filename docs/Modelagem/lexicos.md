@@ -137,7 +137,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Área onde o [usuário](#l19) pode ver suas informações como nome, [nome de usuário](#l17), email e avatar(foto de perfil)|
 | - Área onde o [usuário](#l19) pode editar suas informações pessoais ou deletar sua conta |
 |**Impacto** |
-| - O [usuário](#l19) pode [deltar sua conta|
+| - O [usuário](#l19) pode deletar sua conta|
 | - O [usuário](#l19) pode editar suas informações pessoais, como nome e email|
 | - O [usuário](#l19) pode adicionar um avatar, tirando uma foto ou selecionando da galeria|
 | - O [usuário](#l19) pode resetar seu avatar |
