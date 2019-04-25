@@ -400,8 +400,11 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Usuário cancelar a ação|
 | App parar de funcionar |
 |**Episódios** |
-| Um usuário que já possui uma [conta](lexicos.md#l67) no [Rocket.Chat](lexicos.md#l65) deseja excluí-la |
-| [Usuário](lexicos.md#l19) acessa o seu [perfil](lexicos.md#l8) e clica em “deletar conta” |
+| Um [usuário](lexicos.md#l19) que já possui uma [conta](lexicos.md#l67) no [Rocket.Chat](lexicos.md#l65) deseja excluí-la |
+| [Usuário](lexicos.md#l19) acessa a página inicial do aplicativo |
+| [Usuário](lexicos.md#l19) abre a aba lateral |
+| [Usuário](lexicos.md#l19) acessa o seu [perfil](lexicos.md#l8) |
+| [Usuário](lexicos.md#l19)  clica em “deletar conta” |
 | Uma tela com a mensagem “Você tem certeza?” é exibida ao [usuário](lexicos.md#l19) |
 | [Usuário](lexicos.md#l19) preenche o campo obrigatório com a senha de sua [conta](lexicos.md#l67) |
 | [Usuário](lexicos.md#l19) clica em “Deletar Conta” |
@@ -534,8 +537,9 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | App parar de funcionar |
 |**Episódios** |
 | Um [usuário](lexicos.md#l19) que já possui uma [conta](lexicos.md#l67) no [Rocket.Chat](lexicos.md#l65) deseja alterar seu status dentro do app |
-| [Usuário](lexicos.md#l19) clica na aba lateral do aplicativo |
-| [Usuário](lexicos.md#l19) clica na seta localizada ao lado direito do seu [nome de usuário](lexicos.md#l17) |
+| [Usuário](lexicos.md#l19) acessa a página inicial do aplicativo |
+| [Usuário](lexicos.md#l19) clica na aba lateral |
+| [Usuário](lexicos.md#l19) clica no seu [nome de usuário](lexicos.md#l17) |
 | Uma lista com os status disponíveis é exibida |
 | [Usuário](lexicos.md#l19) escolhe um status entre as opções Online, Ausente, Ocupado e Invisível e clica nele|
 | O [usuário](lexicos.md#l19) agora tem um novo status |
@@ -640,6 +644,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | App parar de funcionar |
 |**Episódios** |
 | Um [usuário](lexicos.md#l19) participante de um chat deseja favoritar uma mensagem para que seja possível visualizá-la mais facilmente depois |
+| O [usuário](lexicos.md#l19) acessa a página inicial do aplicativo |
 | O [usuário](lexicos.md#l19) abre uma conversa |
 | O [usuário](lexicos.md#l19) clica na mensagem que deseja favoritar |
 | Várias opções são exibidas ao [usuário](lexicos.md#l19), dentre elas a opção de Favoritar, que pode ser identificada também pelo ícone de estrela |
@@ -677,7 +682,9 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Todos os [membros](lexicos.md#l12) saírem do chat em grupo |
 |**Episódios** |
 | Um [usuário](lexicos.md#l19) participante de um chat em grupo deseja ver quais os [membros](lexicos.md#l12) que também fazem parte daquele chat|
-| O [usuário](lexicos.md#l19) abre uma conversa e clica no nome do grupo para abrir o menu de Detalhes do canal |
+| O [usuário](lexicos.md#l19) acessa a página inicial do aplicativo |
+| O [usuário](lexicos.md#l19) abre uma conversa |
+| O [usuário](lexicos.md#l19) clica no nome do grupo para abrir o menu de Detalhes do canal |
 | Várias opções são exibidas ao [usuário](lexicos.md#l19), dentre elas a opção de “[Membros](lexicos.md#l12)” |
 | [Usuário](lexicos.md#l19) clica na opção [Membros](lexicos.md#l12) |
 | Uma lista é exibida com todos os [usuários](lexicos.md#l19) do grupo bem como seus respectivos status, fotos de perfil e [nome de usuário](#l17)|
@@ -1007,3 +1014,4 @@ Alguns cenários listados não são correlacionados a nenhum requisito previamen
 | 22/04/2019 | 1.9 | Criando alguns links | Weiller Fernandes |
 | 22/04/2019 | 2.0 | Adicionando tabelamento de cenários não elicitados| Marcos Nery|
 | 24/04/2019 | 2.1 | Editando alguns Cenários | Weiller Fernandes |
+| 25/04/2019 | 2.2 | Editando cenários C6, C10, C13, C14 | Weiller Fernandes |
