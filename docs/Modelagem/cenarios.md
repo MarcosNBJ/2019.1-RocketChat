@@ -970,6 +970,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Recursos**|
 | - Internet |
 | - Conta no aplicativo |
+| - Uma room na posse do usuário |
 |**Restrição**|
 | - Estar logado em uma conta |
 | - Não possuir um servidor próprio |
@@ -989,13 +990,44 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | - [Entrevista](../Elicitação/Entrevista.md) |
 | - [Introspecção](../Elicitação/Introspeccao.md) |
 | - [Questionário](../Elicitação/questionario.md) |
-| - [StoryBoard](../Elicitação/Storyboard.md)
+| - [StoryBoard](../Elicitação/Storyboard.md) |
+
+### C25
+
+|**Visualizar Mensagens Fixadas**|
+|--|
+|**Objetivo**|
+| - Encontrar Mensagens que foram fixadas |
+| - Acesso rápido a mensagens do interesse do [usuário](lexicos.md#l19) |
+|**Contexto**|
+| - Local: Menu principal da room |
+| - Tempo: Quando mensagens já foram fixadas anteriormente |
+| - Pré-condição:  O usuário ter conta no aplicativo e estar dentro do channel |
+| - Pós-condição: As mensagens fixadas ficarão disponíveis em “mensagens fixadas” localizada no menu principal da [room](lexicos.md#l51) |
+|**Atores**|
+| - Usuário membro em uma room |
+|**Recursos**|
+| - Internet |
+| - Plataforma para uso da aplicação (celular ou computador) |
+| - Aplicativo instalado |
+|**Restrição**|
+| - Baixa qualidade na conexão de internet |
+|**Excessão**|
+| - Impossibilidade de conexão de internet |
+| - Mensagem fixada foi removida |
+| - Bug no aplicativo |
+| - Usuário foi expulso da room |
+|**Episódios**|
+| - Usuário abre o aplicativo se loga em um servidor |
+| - Usuário seleciona um grupo |
+| - Usuário entra no menu principal da room |
+| - Usuário seleciona a opção de ver [Mensagens Fixadas](lexicos.md#l16) |
 
 
 ## Cenários que não correspondem a nenhum requisito elicitado
 
 Alguns cenários listados não são correlacionados a nenhum requisito previamente elicitado. Fato este que demonstra uma provável falha na etapa de elicitação, que não permitiu que algumas necessidades fossem identificados.
-*[c1](#c1-v2) [c5](#c5-v2) [c6](#c6) [c8](#c8) [c13](#c13) [c14](#c14) [c15](#c15) [c16](#c16) [c17](#c17) [c18](#c18) [c23](#c23)  [c22](#c22) [c21](#c21)*
+*[c1](#c1-v2) [c5](#c5-v2) [c6](#c6) [c8](#c8) [c13](#c13) [c14](#c14) [c15](#c15) [c16](#c16) [c17](#c17) [c18](#c18) [c21](#c21) [c22](#c22) [c23](#c23) [c25](#c25)*
 
 
 ## Versionamento
@@ -1015,3 +1047,4 @@ Alguns cenários listados não são correlacionados a nenhum requisito previamen
 | 22/04/2019 | 2.0 | Adicionando tabelamento de cenários não elicitados| Marcos Nery|
 | 24/04/2019 | 2.1 | Editando alguns Cenários | Weiller Fernandes |
 | 25/04/2019 | 2.2 | Editando cenários C6, C10, C13, C14 | Weiller Fernandes |
+| 26/04/2019 | 2.1 | Adição do Cenário 25 | Lucas Maciel |
