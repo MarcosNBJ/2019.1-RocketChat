@@ -23,7 +23,27 @@
 | **Cenário** |
 | |
 
+## EC1
 
+|**Fixar Mensagem**|
+|--|
+| **Descrição**|
+| - Funcionalidade que tem como objetivo fazer com que o usuário consiga encontrar mensagens com mais facilidade, possui uma similaridade com a funcionalidade de favoritar mensagem |
+| **Atores** |
+| - [usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
+| **Pré Condições** |
+| - usuário deve estar logado no aplicativo |
+| - usuário deve ser integrante em uma room no aplicativo |
+| **Fluxo Principal** |
+| 1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona uma mensagem de seu interesse <br> 3 - Abre o menu de opções da mensagem <br> 4 - Seleciona a opção de "fixar mensagem" |
+| **Fluxos Alternativos** |
+| - |
+| **Fluxos de Exceção**|
+| __FE1__ - Erro de conexão |
+| **Pós Condições**|
+| - As mensagens fixadas ficarão disponíveis em “mensagens fixadas” localizada no menu principal da [room](lexicos.md#l51) |
+| **Cenário** |
+| - [Fixar Mensagem](cenarios.md#c11) |
 
 ## Versionamento
 
