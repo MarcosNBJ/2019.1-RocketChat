@@ -200,7 +200,7 @@
 | **Descrição**|
 | - Funcionalidade que tem como objetivo definir um usuário do channel como dono do mesmo, com a finalidade de aumentar suas permissões sobre o [channel](lexicos.md#l1) e assim poder administra-lo |
 |**Atores**|
-| - Usuário criador do channel | 
+| - Usuário criador do channel |
 | - Usuário que participa do channel |
 |**Pré-Condição**|
 | - O [channel](lexicos.md#l1) deve possuir mais do que um participante |
@@ -241,6 +241,54 @@
 |**Cenário**|
 | [Escolher tom de pele padrão](cenarios.md#c21) |
 
+## EC10
+
+|**Criar channel**|
+|--|
+| **Descrição**|
+|- Funcionalidade que permite o usuário criar um novo [channel](lexicos.md#l1) |
+| **Atores** |
+| - [Usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
+| **Pré Condições** |
+| - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
+| - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
+| **Fluxo Principal** |
+| 1 - Usuário acessa página inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica em "Criar chat" <br> 4 - Usuário define se o channel será publico **[FA1]** <br> 5 - Usuário escolhe se o channel será somente para leitura <br> 6 - Usuário define o nome do channel **[FE1]** <br> 7 - Usuário convida membros do channel **[FA2]** <br> 8 - Clica no botão "check" no canto superior direito |
+| **Fluxos Alternativos** |
+| __FA1__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe se o channel será privado |
+| __FA2__ - No passo 7 do fluxo principal <br> 1 - Usuário pode criar um channel sem outros membros |
+| **Fluxos de Exceção**|
+| __FE1__ - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão |
+| __FE2__ - No passo 6 do fluxo principal <br> 1 - Usuário não define o nome do channel <br> 2 - Botão "check", não estará disponivel |
+| **Pós Condições**|
+| - [Channel](lexicos.md#l1) estará criado |
+| **Cenário** |
+| - [Criar channel](cenarios.md#c3-v2)|
+
+## EC11
+
+|**Conectar com um servidor**|
+|--|
+| **Descrição**|
+| - Funcionalidade que permiti o usuário iniciar conexão com uma instância do [Rocket.chat](lexicos.md#l65)  |
+| **Atores** |
+| - Usuário |
+| **Pré Condições** |
+| - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
+| **Fluxo Principal** |
+| 1 - Usuário acessa a primeira página do aplicativo <br> 2 - Usuário clica em "Conectar com um servidor" <br> 3 - Usuário define o protocolo de conexão **[FA1] [FA2]** <br> 4 - Usuário insere o endereço do servidor **[FE1]** <br> 5 - Usuário clica em “Conectar” **[FE2]** |
+| **Fluxos Alternativos** |
+| __FA1__ - No passo 3 do fluxo principal <br> 1 - Usuário escolhe o protocolo de conexão "https" |
+| __FA2__ - No passo 3 do fluxo principal <br> 1 - Usuário escolhe o protocolo de conexão "http" |
+| **Fluxos de Exceção**|
+| __FE1__ - No passo 4 do fluxo principal <br>1 - Usuário insere um endereço de servidor inválido <br> 2 - Será mostrado ao usuário um aviso com o erro |
+| __FE2__ - No passo 5 do fluxo principal <br>1 - Erro de conexão|
+| **Pós Condições**|
+| - Usuário estará conectado com um servidor |
+| **Cenário** |
+| - [Conectar com um servidor](cenarios.md#c4-v2) |
+
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -251,5 +299,5 @@
 | 28/04/2019 | 1.3 | Adição de EC2 e EC3 | João Lucas |
 | 28/04/2019 | 1.4 | Adição da EC4, EC5, EC6 e EC7 | Weiller Fernandes |
 | 28/04/2019 | 1.5 | Editando EC4, EC5, EC6 e EC7 | Gabriel Davi |
-| 29/04/2019 | 1.6 | Adição EC8 e EC9 | João Lucas |
-
+| 28/04/2019 | 1.6 | Adição EC8 e EC9 | João Lucas |
+| 28/04/2019 | 1.7 | Adição EC9 e EC10 | Heron Rodrigues |
