@@ -117,6 +117,82 @@
 | **Cenário** |
 | - [Alterar Status](cenarios.md#c10) |
 
+
+## EC5
+
+|**Deletar Conta**|
+|--|
+| **Descrição**|
+| - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa excluir sua conta do Rocket.Chat |
+| **Atores** |
+| - [Usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
+| **Pré Condições** |
+| - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
+| - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
+| **Fluxo Principal** |
+| 1 - Usuário acessa página inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário abre o perfil <br> 4 - Usuário clica em "Deletar Conta" <br> 5 - Usuário digita senha <br> 6 - Usuário clica em "Deletar Conta" novamente <br> 7 - Usuário tem sua conta deletada |
+| **Fluxos Alternativos** |
+| __FA1__ - Nos passos 4 ou 5 do fluxo principal <br> 1 - Usuário clica em cancelar <br> 2 - A conta do usuário é mantida |
+| **Fluxos de Exceção**|
+| __FE1__ - Erro de conexão |
+| __FE2__ - No passo 5 do fluxo principal <br> 1 - Usuário digita sua senha errado <br> 2 - A conta do usuário é mantida |
+| **Pós Condições**|
+| - A conta será deletada com sucesso |
+| **Cenário** |
+| - [Deletar Conta](cenarios.md#c6) |
+
+
+## EC6
+
+|**Mensagens Favoritadas**|
+|--|
+| **Descrição**|
+| - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa favoritar mensagens de um determinado channel e visualizar as mensagens favoritadas |
+| **Atores** |
+| - [Usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
+| **Pré Condições** |
+| - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
+| - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
+| - [Usuário](lexicos.md#l19) deve estar participando de algum channel que possua mensagens enviadas |
+| **Fluxo Principal** |
+| 1 - Usuário acessa página inicial <br> 2 - Usuário abre um channel <br> 3 - Usuário clica em uma mensagem <br> 4 - Usuário clica em "Favoritar" <br> 5 - Mensagem é favoritada |
+| **Fluxos Alternativos** |
+| __FA1__ - No passo 2 do fluxo principal <br> 1 - Usuário clica no nome do channel <br> 2 - Usuário clica em "Mensagens Favoritas" <br> 3 - Usuário visualiza as mensagens favoritadas |
+| __FA2__ - No passo 3 do fluxo principal <br> 1 - Usuário clica em "Desfavoritar Mensagem" <br> 2 - Mensagem é desfavoritada |
+| **Fluxos de Exceção**|
+| __FE1__ - Erro de conexão |
+| __FE2__ - No passo 2 do fluxo principal <br> Channel não possui nenhuma mensagem |
+| **Pós Condições**|
+| - A mensagem favoritada irá aparecer no menu de mensagens favoritas e será identificada dentro do chat por um ícone de estrela |
+| **Cenário** |
+| - [Favoritar Mensagem](cenarios.md#c13) |
+
+
+## EC7
+
+|**Visualizar membros de chat em grupo**|
+|--|
+| **Descrição**|
+| - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa visualizar os membros participantes de determinado chat em grupo bem como visualizar seus status, fotos de perfil e nomes de usuário |
+| **Atores** |
+| - [Usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
+| **Pré Condições** |
+| - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
+| - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
+| - [Usuário](lexicos.md#l19) deve estar participando de algum chat em grupo |
+| **Fluxo Principal** |
+| 1 - Usuário acessa página inicial <br> 2 - Usuário abre um channel em grupo <br> 3 - Usuário clica no nome do channel <br> 4 - Usuário clica em "Membros" <br> 5 - Usuário visualiza os membros do grupo e suas informações |
+| **Fluxos Alternativos** |
+| __FA1__ - No passo 5 do fluxo principal <br> 1 - Usuário clica em um determinado membro do grupo <br> 2 - Usuário envia mensagem privada para o membro do grupo |
+| __FA2__ - No passo 5 do fluxo principal <br> 1 - Usuário clica em um determinado membro do grupo <br> 2 - Usuário inicia videochamada com o membro do grupo |
+| **Fluxos de Exceção**|
+| __FE1__ - Erro de conexão |
+| __FE2__ - No passo 4 do fluxo principal <br> Channel não possui nenhum membro |
+| **Pós Condições**|
+| - Usuário pode visualizar todos os membros pertencentes a determinado chat em grupo |
+| **Cenário** |
+| - [Visualizar Membros de Chat em Grupo](cenarios.md#c14) |
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -125,4 +201,4 @@
 | 25/04/2019 | 1.1 | Inclusão do template para criação das especificações de casos de uso | Marcos Nery|
 | 26/04/2019 | 1.2 | Adição da EC1 | Lucas Maciel |
 | 28/04/2019 | 1.3 | Adição de EC2 e EC3 | João Lucas |
-| 28/04/2019 | 1.4 | Adição da EC4 | Weiller Fernandes |
+| 28/04/2019 | 1.4 | Adição da EC4, EC5, EC6 e EC7 | Weiller Fernandes |
