@@ -896,6 +896,10 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Pós-condição O [usuário](lexicos.md#l19) possui um tom de pele padrão para seus emojis |
 |**Atores**|
 | [Usuário](lexicos.md#l19) |
+|**Recursos**|
+| - Internet |
+| - Plataforma para uso da aplicação (celular ou computador) |
+| - Aplicativo instalado |
 |**Restrição**|
 | O [usuário](lexicos.md#l19) estar logado em uma conta |
 |**Exceção**|
@@ -916,6 +920,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |--|
 |**Objetivo**|
 | Criar um channel onde apenas o administrador pode mandar mensagem |
+| Fazer uma lista de transmissão |
 |**Contexto**|
 | Local: Criar chat, menu lateral do aplicativo |
 | Tempo: A qualquer momento |
@@ -923,8 +928,14 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Pós-condição: O [usuário](lexicos.md#l19) cria um read only channel e vira adminstrador do mesmo |
 |**Atores**|
 | [usuário](lexicos.md#l19) |
+|**Recursos**|
+| - Internet |
+| - Plataforma para uso da aplicação (celular ou computador) |
+| - Aplicativo instalado |
+|**Restrição**|
+| - Estar logado |
 |**Exceção**|
-| Estar sem internet |
+| - Estar sem internet |
 |**Episódios**|
 | [usuário](lexicos.md#l19) aperta no menu lateral do aplicativo no canto superior esquerdo |
 | [usuário](lexicos.md#l19) clica no botão Criar chat |
@@ -937,7 +948,8 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Definir membro de [channel](lexicos.md#l1) como proprietário**|
 |--|
 |**Objetivo**|
-| Definir um usuário como proprietário do channel |
+| - Definir um usuário como proprietário do channel |
+| - Mudar permissões de um membro do channel |
 |**Contexto**|
 | Local: Dentro do channel |
 | Tempo: A qualquer momento |
@@ -945,12 +957,24 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | Pós-condição: O [usuário](lexicos.md#l19) escolhido como propríetário recebe os privilégios de proprietário |
 |**Atores**|
 | [usuário](lexicos.md#l19) administrador do channel e participante do grupo |
+|**Recursos**|
+| - Internet |
+| - Plataforma para uso da aplicação (celular ou computador) |
+| - Aplicativo instalado |
+| - Permissões de criador do grupo |
+|**Restrição**|
+| - Ser criador do canal |
+| - Possuir conexão estável com a internet |
+|**Excessão**|
+| - Impossibilidade de conexão com a internet |
+| - Criador do canal não fazer mais parte do grupo |  
 |**Episódios**|
 | O [usuário](lexicos.md#l19) adminstrador entrar no channel |
 | O [usuário](lexicos.md#l19) administrador clica na lista de membros na parte superior direita |
 | O [usuário](lexicos.md#l19) clica nos tres pontos ao lado do [usuário](lexicos.md#l19) o qual deseja tornar proprietário do channel |
 |**Levantado pela técnica**|
 | - |
+
 
 ### C24
 
@@ -1048,7 +1072,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Excessão**|
 | - Impossibilidade de conexão com a internet |
 | - Usuário dono do canal não fazer mais parte do grupo |
-| - Criador do canal | 
+| - Criador do canal não fazer mais parte do grupo |  
 |**Episódios**|
 | - Usuário dono do canal ou criador abre o aplicativo se loga em um servidor |
 | - Usuário dono do canal ou criador seleciona um canal |
@@ -1056,12 +1080,13 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | - No modal aberto o usuário dono do canal ou criador clica em editar no canto inferior esquerdo do modal |
 | - Na opção Publico/Privado o usuário dono do canal ou criador muda o estado de privacidade clicando no radio button |
 | - Usuário dono do canal ou criador clica em salvar no canto inferior direito para salvar a mudança |
-
+|**Levantado pela técnica**|
+| - |
 
 ## Cenários que não correspondem a nenhum requisito elicitado
 
 Alguns cenários listados não são correlacionados a nenhum requisito previamente elicitado. Fato este que demonstra uma provável falha na etapa de elicitação, que não permitiu que algumas necessidades fossem identificados.
-*[c1](#c1-v2) [c5](#c5-v2) [c6](#c6) [c8](#c8) [c13](#c13) [c14](#c14) [c15](#c15) [c16](#c16) [c17](#c17) [c18](#c18) [c21](#c21) [c22](#c22) [c23](#c23) [c25](#c25)*
+*[c1](#c1-v2) [c5](#c5-v2) [c6](#c6) [c8](#c8) [c13](#c13) [c14](#c14) [c15](#c15) [c16](#c16) [c17](#c17) [c18](#c18) [c21](#c21) [c22](#c22) [c23](#c23) [c25](#c25)* [c26](#c26)
 
 
 ## Versionamento
@@ -1083,3 +1108,4 @@ Alguns cenários listados não são correlacionados a nenhum requisito previamen
 | 25/04/2019 | 2.2 | Editando cenários C6, C10, C13, C14 | Weiller Fernandes |
 | 26/04/2019 | 2.1 | Adição do Cenário C25 | Lucas Maciel |
 | 28/04/2019 | 2.2 | Adição do Cenário C26 | João Lucas |
+| 28/04/2019 | 2.3 | Edição dos cenários C21, C22, C23 | João Lucas |
