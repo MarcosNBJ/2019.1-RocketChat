@@ -1108,12 +1108,33 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Favorite message |
 | - Mensagens favoritadas |
 
+### L72
+
+|**Privacidade do [channel](#l1)**|
+|--|
+|**Classificação**|
+| Estado |
+|**Noção**|
+| - Estado de visibilidade de um [channel](#l1) |
+| - Estado de possibilidade de participação de um [channel](#l1) |
+| - Dita a possibilidade de visualização de um [channel](#l1) |
+|**Impacto**|
+| - Um [channel](#l1) pode ser visivel ou não dependendo da [privacidade do channel](#l72) |
+| - O usuário criador do [channel](#l1) quer deixa-lo privado, faz isso alterando a [privacidade do channel](#l72) |
+| - O usuário criador [channel](#l1) quer deixa-lo público, faz isso alterando a [privacidade do channel](#l72) |
+| - A [privacidade do channel](#l72) determina quem pode ou não ver a conversa do [channel](#l1) | 
+|**Sinônimo**|
+| - privatividade |
+| - Visibilidade |
+| - Acessibilidade |
+
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 19/04/2019 | 1.0 | Abertura do documento | Marcos Nery |
-| 20/04/2019 | 1.1 | Adição dos léxicos L9, L14, L18, L20, L22, L48-L50 | João Lucas |
+| 20/04/2019 | 1.1 | Adição dos léxicos L9, L14, L18, L20, L22, L48, L49 e L50 | João Lucas |
 | 20/04/2019 | 1.2 | Adição dos léxicos L25-L28 | Lucas Maciel |
 | 21/04/2019 | 1.3 | Adição dos léxicos L39-L43, L51 | Lucas Maciel |
 | 21/04/2019 | 1.4 | Adição dos léxicos L6, L7, L10, L13, L15 L32-L38 | Marcos Nery |
@@ -1125,3 +1146,4 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | 22/04/2019 | 2.0 | Linkando alguns léxicos | Weiller Fernandes|
 | 22/04/2019 | 2.1 | Adição dos léxicos L69 e L70 | João Lucas |
 | 23/04/2019 | 2.2 | Editando alguns léxicos e adicionando léxico L71 | Weiller Fernandes |
+| 28/04/2019 | 2.3 | Adicionando léxico L72 | João Lucas |
