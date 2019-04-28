@@ -253,7 +253,7 @@
 | - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | **Fluxo Principal** |
-| 1 - Usuário acessa página inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica em "Criar chat" <br> 4 - Usuário define se o channel será publico **[FA1]** <br> 5 - Usuário escolhe se o channel será somente para leitura <br> 6 - Usuário define o nome do channel **[FE1]** <br> 7 - Usuário convida membros do channel **[FA2]** <br> 8 - Clica no botão "check" no canto superior direito |
+| 1 - Usuário se conecta à um servidor <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica em "Criar chat" <br> 4 - Usuário define se o channel será publico **[FA1]** <br> 5 - Usuário escolhe se o channel será somente para leitura <br> 6 - Usuário define o nome do channel **[FE1]** <br> 7 - Usuário convida membros do channel **[FA2]** <br> 8 - Clica no botão "check" no canto superior direito |
 | **Fluxos Alternativos** |
 | __FA1__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe se o channel será privado |
 | __FA2__ - No passo 7 do fluxo principal <br> 1 - Usuário pode criar um channel sem outros membros |
@@ -276,7 +276,7 @@
 | **Pré Condições** |
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | **Fluxo Principal** |
-| 1 - Usuário acessa a primeira página do aplicativo <br> 2 - Usuário clica em "Conectar com um servidor" <br> 3 - Usuário define o protocolo de conexão **[FA1] [FA2]** <br> 4 - Usuário insere o endereço do servidor **[FE1]** <br> 5 - Usuário clica em “Conectar” **[FE2]** |
+| 1 - Usuário acessa a pagina inicial <br> 2 - Usuário clica em "Conectar com um servidor" <br> 3 - Usuário define o protocolo de conexão **[FA1] [FA2]** <br> 4 - Usuário insere o endereço do servidor **[FE1]** <br> 5 - Usuário clica em “Conectar” **[FE2]** |
 | **Fluxos Alternativos** |
 | __FA1__ - No passo 3 do fluxo principal <br> 1 - Usuário escolhe o protocolo de conexão "https" |
 | __FA2__ - No passo 3 do fluxo principal <br> 1 - Usuário escolhe o protocolo de conexão "http" |
@@ -300,4 +300,4 @@
 | 28/04/2019 | 1.4 | Adição da EC4, EC5, EC6 e EC7 | Weiller Fernandes |
 | 28/04/2019 | 1.5 | Editando EC4, EC5, EC6 e EC7 | Gabriel Davi |
 | 28/04/2019 | 1.6 | Adição EC8 e EC9 | João Lucas |
-| 28/04/2019 | 1.7 | Adição EC9 e EC10 | Heron Rodrigues |
+| 28/04/2019 | 1.7 | Adição EC10 e EC11 | Heron Rodrigues |
