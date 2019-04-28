@@ -105,13 +105,13 @@
 | - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | **Fluxo Principal** |
-| 1 - Usuário acessa página inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica no nome de usuário <br> 4 - Usuário escolhe um dos status disponíveis <br> 5 - Usuário escolhe status online <br> 6 - Usuário tem um novo status|
+| 1 - Usuário acessa página inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica no nome de usuário <br> 4 - Usuário escolhe um dos status disponíveis **[FA1][FA2][FA3]** <br> 5 - Usuário escolhe status online <br> 6 - Usuário tem um novo status|
 | **Fluxos Alternativos** |
 | __FA1__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe status ausente <br> 2 - Usuário tem um novo status |
 | __FA2__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe status Ocupado <br> 2 - Usuário tem um novo status |
 | __FA3__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe status Invisível <br> 2 - Usuário tem um novo status |
 | **Fluxos de Exceção**|
-| __FE1__ - Erro de conexão |
+| __FE1__ - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão |
 | **Pós Condições**|
 | - O status será diferente do status inicial |
 | **Cenário** |
@@ -130,11 +130,11 @@
 | - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | **Fluxo Principal** |
-| 1 - Usuário acessa página inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário abre o perfil <br> 4 - Usuário clica em "Deletar Conta" <br> 5 - Usuário digita senha <br> 6 - Usuário clica em "Deletar Conta" novamente <br> 7 - Usuário tem sua conta deletada |
+| 1 - Usuário acessa página inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário abre o perfil <br> 4 - Usuário clica em "Deletar Conta"**[FA1]** <br> 5 - Usuário digita senha**[FA1][FE2]** <br> 6 - Usuário clica em "Deletar Conta" novamente <br> 7 - Usuário tem sua conta deletada |
 | **Fluxos Alternativos** |
 | __FA1__ - Nos passos 4 ou 5 do fluxo principal <br> 1 - Usuário clica em cancelar <br> 2 - A conta do usuário é mantida |
 | **Fluxos de Exceção**|
-| __FE1__ - Erro de conexão |
+| __FE1__ - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão |
 | __FE2__ - No passo 5 do fluxo principal <br> 1 - Usuário digita sua senha errado <br> 2 - A conta do usuário é mantida |
 | **Pós Condições**|
 | - A conta será deletada com sucesso |
@@ -155,12 +155,12 @@
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | - [Usuário](lexicos.md#l19) deve estar participando de algum channel que possua mensagens enviadas |
 | **Fluxo Principal** |
-| 1 - Usuário acessa página inicial <br> 2 - Usuário abre um channel <br> 3 - Usuário clica em uma mensagem <br> 4 - Usuário clica em "Favoritar" <br> 5 - Mensagem é favoritada |
+| 1 - Usuário acessa página inicial <br> 2 - Usuário abre um channel**[FA1][FE2]** <br> 3 - Usuário clica em uma mensagem**[FA2]** <br> 4 - Usuário clica em "Favoritar" <br> 5 - Mensagem é favoritada |
 | **Fluxos Alternativos** |
 | __FA1__ - No passo 2 do fluxo principal <br> 1 - Usuário clica no nome do channel <br> 2 - Usuário clica em "Mensagens Favoritas" <br> 3 - Usuário visualiza as mensagens favoritadas |
 | __FA2__ - No passo 3 do fluxo principal <br> 1 - Usuário clica em "Desfavoritar Mensagem" <br> 2 - Mensagem é desfavoritada |
 | **Fluxos de Exceção**|
-| __FE1__ - Erro de conexão |
+| __FE1__ - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão |
 | __FE2__ - No passo 2 do fluxo principal <br> Channel não possui nenhuma mensagem |
 | **Pós Condições**|
 | - A mensagem favoritada irá aparecer no menu de mensagens favoritas e será identificada dentro do chat por um ícone de estrela |
@@ -181,7 +181,7 @@
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | - [Usuário](lexicos.md#l19) deve estar participando de algum chat em grupo |
 | **Fluxo Principal** |
-| 1 - Usuário acessa página inicial <br> 2 - Usuário abre um channel em grupo <br> 3 - Usuário clica no nome do channel <br> 4 - Usuário clica em "Membros" <br> 5 - Usuário visualiza os membros do grupo e suas informações |
+| 1 - Usuário acessa página inicial <br> 2 - Usuário abre um channel em grupo <br> 3 - Usuário clica no nome do channel <br> 4 - Usuário clica em "Membros"**[FE2]** <br> 5 - Usuário visualiza os membros do grupo e suas informações**[FA1][FA2]** |
 | **Fluxos Alternativos** |
 | __FA1__ - No passo 5 do fluxo principal <br> 1 - Usuário clica em um determinado membro do grupo <br> 2 - Usuário envia mensagem privada para o membro do grupo |
 | __FA2__ - No passo 5 do fluxo principal <br> 1 - Usuário clica em um determinado membro do grupo <br> 2 - Usuário inicia videochamada com o membro do grupo |
@@ -202,3 +202,4 @@
 | 26/04/2019 | 1.2 | Adição da EC1 | Lucas Maciel |
 | 28/04/2019 | 1.3 | Adição de EC2 e EC3 | João Lucas |
 | 28/04/2019 | 1.4 | Adição da EC4, EC5, EC6 e EC7 | Weiller Fernandes |
+| 28/04/2019 | 1.5 | Editando EC4, EC5, EC6 e EC7 | Gabriel Davi |
