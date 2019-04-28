@@ -7,7 +7,7 @@ Os diagramas de caso de uso são representações esquematizadas possíveis aç�
 ### **Realização de Video chat**
 Diagrama inspirado pelo cenário **[Video Chat](cenarios.md#c2)**
 
-[Especificação de casos de uso: ECU -]()
+Especificação de casos de uso: [ECU]()
 
 ![DCU-1](../img/Modelagem/Diagrama_videoConf_v1.png)
 
@@ -15,7 +15,7 @@ Diagrama inspirado pelo cenário **[Video Chat](cenarios.md#c2)**
 ### **Realização de Video chat**
 Diagrama inspirado pelo cenário **[Video Chat](cenarios.md#c2)**
 
-[Especificação de casos de uso: ECU -]()
+Especificação de casos de uso: [ECU]()
 
 ![DCU-1](../img/Modelagem/Diagrama_videoConf_v2.png)
 
@@ -23,7 +23,7 @@ Diagrama inspirado pelo cenário **[Video Chat](cenarios.md#c2)**
 ### **Mandar mensagem**
 Diagrama inspirado pelo cenário **[Enviar mensagem](cenarios.md#c12)**
 
-[Especificação de casos de uso: ECU -]()
+Especificação de casos de uso: [ECU]()
 
 ![DCU-1](../img/Modelagem/mandarMSG_v1.png)
 
@@ -31,7 +31,7 @@ Diagrama inspirado pelo cenário **[Enviar mensagem](cenarios.md#c12)**
 ### **Mandar mensagem**
 Diagrama inspirado pelo cenário **[Enviar mensagem](cenarios.md#c12)**
 
-[Especificação de casos de uso: ECU -]()
+Especificação de casos de uso: [ECU]()
 
 ![DCU-1](../img/Modelagem/mandarMSG_v2.png)
 
