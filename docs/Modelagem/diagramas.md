@@ -68,6 +68,38 @@ Diagrama inspirado pelo cenário **[Visualizar Membros de Chat em Grupo](cenario
 
 ![DCU7](../img/Modelagem/Visualizar Membros de Chat em GrupoV1.png)
 
+## DCU8 - V1
+### **Privacidade do Channel**
+Diagrama inspirado pelo cenário **[Mudar privacidade do Channel](cenarios.md#c26)**
+
+[Especificação de casos de uso: EC - 2](especificacao.md#ec2)
+
+![DCU8](../img/Modelagem/privacidade.png)
+
+## DCU9 - V1
+### **Only-read Channel**
+Diagrama inspirado pelo cenário **[Criar only-read Channel](cenarios.md#c22)**
+
+[Especificação de casos de uso: EC - 3](especificacao.md#ec3)
+
+![DCU9](../img/Modelagem/only-read.png)
+
+## DCU10 - V1 
+### **Channel owner**
+Diagrama inspirado pelo cenário **[Definir membro de channel como proprietário](cenarios.md#23)**
+
+[Especificação de casos de uso: EC - 8](especificacao.md#ec8)
+
+![DCU10](../img/Modelagem/proprietario.png)
+
+## DCU11 - V1 
+### **Escolher tom de pele padrão**
+Diagrama inspirado pelo cenário **[Escolher tom de pele padrão](cenarios.md#21)**
+
+[Especificação de casos de uso: EC - 9](especificacao.md#ec9)
+
+![DCU11](../img/Modelagem/tom-pele.png)
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -75,3 +107,4 @@ Diagrama inspirado pelo cenário **[Visualizar Membros de Chat em Grupo](cenario
 | 25/04/2019 | 1.0 | Abertura do documento | Gabriel Davi|
 | 28/04/2019 | 1.1 | Adição dos diagramas DCU1 - V1, DCU1 - V2, DCU2 - V1, DCU2 - V2 | Gabriel Davi|
 | 28/04/2019 | 1.2 | Adição dos diagramas DCU4 - V1, DCU5 - V1, DCU6 - V1 e DCU7 - V1 | WeillerFernandes |
+| 28/04/2019 | 1.3 | Adição dos diagramas DCU8 - V1, DCU9 - V1, DCU10 - V1 e DCU11 - V1 | João Lucas |
