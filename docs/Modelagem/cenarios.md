@@ -1023,6 +1023,40 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 | - Usuário entra no menu principal da room |
 | - Usuário seleciona a opção de ver [Mensagens Fixadas](lexicos.md#l16) |
 
+### C26
+
+|**Mudar [privacidade do Channel](lexicos.md#l72)**|
+|--|
+|**Objetivo**|
+| - Alterar quem pode ver o [canal](lexicos.md#l1) |
+| - Alterar quem pode participar do canal |
+|**Contexto**|
+| - Local: Dentro da janela do Canal - Aplicativo para desktop |
+| - Tempo: A qualquer momento após a criação do canal |
+| - Pré-condição: Apenas o usuário o qual criou o canal ou o dono pode mudar sua privacidade |
+| - Pós-condição: O estado de privacidade do canal se torna oposto ao qual era antes |
+|**Atores**|
+| - [Usuário](lexicos.md#l19) o qual criou o canal ou o dono do canal, caso exista |
+|**Recursos**|
+| - Internet |
+| - Plataforma para uso da aplicação (celular ou computador) |
+| - Aplicativo instalado |
+|**Restrição**|
+| - Ser usuário dono do canal |
+| - Ser criador do canal |
+| - Possuir conexão estável com a internet |
+|**Excessão**|
+| - Impossibilidade de conexão com a internet |
+| - Usuário dono do canal não fazer mais parte do grupo |
+| - Criador do canal | 
+|**Episódios**|
+| - Usuário dono do canal ou criador abre o aplicativo se loga em um servidor |
+| - Usuário dono do canal ou criador seleciona um canal |
+| - Usuário dono do canal ou criador clica em informações da sala na parte superior direita da janela do canal |
+| - No modal aberto o usuário dono do canal ou criador clica em editar no canto inferior esquerdo do modal |
+| - Na opção Publico/Privado o usuário dono do canal ou criador muda o estado de privacidade clicando no radio button |
+| - Usuário dono do canal ou criador clica em salvar no canto inferior direito para salvar a mudança |
+
 
 ## Cenários que não correspondem a nenhum requisito elicitado
 
@@ -1047,4 +1081,5 @@ Alguns cenários listados não são correlacionados a nenhum requisito previamen
 | 22/04/2019 | 2.0 | Adicionando tabelamento de cenários não elicitados| Marcos Nery|
 | 24/04/2019 | 2.1 | Editando alguns Cenários | Weiller Fernandes |
 | 25/04/2019 | 2.2 | Editando cenários C6, C10, C13, C14 | Weiller Fernandes |
-| 26/04/2019 | 2.1 | Adição do Cenário 25 | Lucas Maciel |
+| 26/04/2019 | 2.1 | Adição do Cenário C25 | Lucas Maciel |
+| 28/04/2019 | 2.2 | Adição do Cenário C26 | João Lucas |
