@@ -193,6 +193,54 @@
 | **Cenário** |
 | - [Visualizar Membros de Chat em Grupo](cenarios.md#c14) |
 
+## EC8
+
+|**Definir membro do [channel](lexicos.md#l1) como proprietário**|
+|--|
+| **Descrição**|
+| - Funcionalidade que tem como objetivo definir um usuário do channel como dono do mesmo, com a finalidade de aumentar suas permissões sobre o [channel](lexicos.md#l1) e assim poder administra-lo |
+|**Atores**|
+| - Usuário criador do channel | 
+| - Usuário que participa do channel |
+|**Pré-Condição**|
+| - O [channel](lexicos.md#l1) deve possuir mais do que um participante |
+| - O usuário criador do [channel](lexicos.md#l1) deve ainda fazer parte do channel |
+|**Fluxo Principal**|
+| 1 - Usuário criador do channel abre o aplicativo e faz login <br> 2 - Usuário procura o channel criado por ele <br> 3 - Usuário criador do channel entra no channel criado por ele <br> 4 - Usuário criador do channel clica na lista de membros na parte superior direita <br> 5 - Usuário criador do channel clica nos tres pontos ao lado do [usuário](lexicos.md#l19) o qual deseja tornar proprietário do channel |
+|**Fluxos Alternativos**|
+| __FA1__ - No passo 2 o criador do channel procura seu channel pela funcionalidade de busca no canto superior direito |
+|**Fluxos de Excessão**|
+| __FE1__ - Sem conexão com a internet |
+| __FE2__ - No passo 2 o usuário não consegue achar o channel pois ele foi apagado |
+| __FE3__ - No passo 4 o usuário criardor não consegue definir um novo propriétario pois outro proprietário retirou sua permissão |
+|**Pós-Condição**|
+| - Usuário selecionado se torna proprietário do grupo |
+|**Cenário**|
+| [Definir membro de channel como proprietário](cenarios.md#c23) |
+
+##EC9
+
+|**Escolher tom de pele padrão**|
+|--|
+| **Descrição**|
+| - Funcionalidade que tem como objetivo definir o tom de pele padrão dos emojis para assim poder transmitir com mais representatividade os sentimentos expressados pelos mesmos |
+|**Atores**|
+| - [Usuário](lexicos.md#l19) |
+|**Pré-Condição**|
+| - O [usuário](lexicos.md#l19) deve estar logado |
+| - O [usuário](lexicos.md#l19) deve possuir conexão com a internet |
+|**Fluxo Principal**|
+| 1 - Usuário abre o aplicativo e faz login <br> 2 - Usuário abre uma conversa privada <br> 3 - Usuário clica no simbolo de emoji presente no canto inferior direito <br> 4 - Usuário clica no circulo amarelo abaixo dos [emojis](lexicos.md#l7), no conto inferior direito <br> 5 - [Usuário](lexicos.md#l19) escolhe a cor de pele padrão <br> 6 - Usuário retorna a conversa |
+|**Fluxos ALternativos**|
+| __FA1__ - No passo 2 do fluxo principal o usuário seleciona um channel ao invés de uma conversa privada |
+| __FA2__ - No passo 6 o usuário retorna ao channel ao invés da conversa caso tenha usado o __FA1__ |
+|**Fluxo de Excessão**|
+| __FE1__ - Sem conexão com a internet |
+|**Pós-Condição**|
+| - Os emojis quando clicados aparecerão com o tom de pele escolhido pelo usuário |
+|**Cenário**|
+| [Escolher tom de pele padrão](cenarios.md#c21) |
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -203,3 +251,5 @@
 | 28/04/2019 | 1.3 | Adição de EC2 e EC3 | João Lucas |
 | 28/04/2019 | 1.4 | Adição da EC4, EC5, EC6 e EC7 | Weiller Fernandes |
 | 28/04/2019 | 1.5 | Editando EC4, EC5, EC6 e EC7 | Gabriel Davi |
+| 29/04/2019 | 1.6 | Adição EC8 e EC9 | João Lucas |
+
