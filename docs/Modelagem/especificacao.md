@@ -93,7 +93,29 @@
 | - [Criar only read Channel](cenarios.md#c21) |
 
 
+## EC4
 
+|**Alterar Status**|
+|--|
+| **Descrição**|
+| - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa trocar seu status para mostrar sua disponibilidade dentro do app|
+| **Atores** |
+| - [Usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
+| **Pré Condições** |
+| - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
+| - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
+| **Fluxo Principal** |
+| 1 - Usuário acessa página inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica no nome de usuário <br> 4 - Usuário escolhe um dos status disponíveis <br> 5 - Usuário escolhe status online <br> 6 - Usuário tem um novo status|
+| **Fluxos Alternativos** |
+| __FA1__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe status ausente <br> 2 - Usuário tem um novo status |
+| __FA2__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe status Ocupado <br> 2 - Usuário tem um novo status |
+| __FA3__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe status Invisível <br> 2 - Usuário tem um novo status |
+| **Fluxos de Exceção**|
+| __FE1__ - Erro de conexão |
+| **Pós Condições**|
+| - O status será diferente do status inicial |
+| **Cenário** |
+| - [Alterar Status](cenarios.md#c10) |
 
 ## Versionamento
 
@@ -103,3 +125,4 @@
 | 25/04/2019 | 1.1 | Inclusão do template para criação das especificações de casos de uso | Marcos Nery|
 | 26/04/2019 | 1.2 | Adição da EC1 | Lucas Maciel |
 | 28/04/2019 | 1.3 | Adição de EC2 e EC3 | João Lucas |
+| 28/04/2019 | 1.4 | Adição da EC4 | Weiller Fernandes |
