@@ -84,7 +84,7 @@ Diagrama inspirado pelo cenário **[Criar only-read Channel](cenarios.md#c22)**
 
 ![DCU9](../img/Modelagem/only-read.png)
 
-## DCU10 - V1 
+## DCU10 - V1
 ### **Channel owner**
 Diagrama inspirado pelo cenário **[Definir membro de channel como proprietário](cenarios.md#23)**
 
@@ -92,13 +92,45 @@ Diagrama inspirado pelo cenário **[Definir membro de channel como proprietário
 
 ![DCU10](../img/Modelagem/proprietario.png)
 
-## DCU11 - V1 
+## DCU11 - V1
 ### **Escolher tom de pele padrão**
 Diagrama inspirado pelo cenário **[Escolher tom de pele padrão](cenarios.md#21)**
 
 [Especificação de casos de uso: EC - 9](especificacao.md#ec9)
 
 ![DCU11](../img/Modelagem/tom-pele.png)
+
+## DCU12 - V1
+### **Pesquisa de mensagem**
+Diagrama inspirado pelo cenário **[Pesquisar mensagem](cenarios.md#c17)**
+
+Especificação de casos de uso: [ECU]()
+
+![DCU-1](../img/Modelagem/uc_pesquisar_mensagem_v1.png)
+
+## DCU13 - V1.2
+### **Realização de login**
+Diagrama inspirado pelo cenário **[Fazer login](cenarios.md#18)**
+
+Especificação de casos de uso: [ECU]()
+
+![DCU-1](../img/Modelagem/uc_fazer_login_v1.png)
+
+## DCU14 - V1
+### **Recebendo notificações**
+Diagrama inspirado pelo cenário **[Receber notificações](cenarios.md#c19)**
+
+Especificação de casos de uso: [ECU]()
+
+![DCU-1](../img/Modelagem/uc_receber_notificacao_v1.png)
+
+## DCU15 - V1
+### **Sair do aplicativo**
+Diagrama inspirado pelo cenário **[Sair do Rocket.chat](cenarios.md#c20)**
+
+Especificação de casos de uso: [ECU]()
+
+![DCU-1](../img/Modelagem/uc_sair_app_v1.png)
 
 ## Versionamento
 
@@ -108,3 +140,4 @@ Diagrama inspirado pelo cenário **[Escolher tom de pele padrão](cenarios.md#21
 | 28/04/2019 | 1.1 | Adição dos diagramas DCU1 - V1, DCU1 - V2, DCU2 - V1, DCU2 - V2 | Gabriel Davi|
 | 28/04/2019 | 1.2 | Adição dos diagramas DCU4 - V1, DCU5 - V1, DCU6 - V1 e DCU7 - V1 | WeillerFernandes |
 | 28/04/2019 | 1.3 | Adição dos diagramas DCU8 - V1, DCU9 - V1, DCU10 - V1 e DCU11 - V1 | João Lucas |
+| 28/04/2019 | 1.4 | Adição dos diagramas DCU12 - DCU15 | André Lucas |
