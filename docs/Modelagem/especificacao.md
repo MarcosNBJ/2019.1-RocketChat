@@ -3,31 +3,6 @@
 Aqui estão listadas as especificações de casos de uso, que, sendo baseadas cada uma em seu respectivo diagrama de caso de uso, buscam ilustrar de forma verbal e mais detalhada o expresso pelo diagrama.
 
 
-## EC0
-
-|**Título**|
-|--|
-| **Descrição**|
-| |
-| **Atores** |
-| |
-| **Pré Condições** |
-| |
-| **Fluxo Principal** |
-| |
-| **Fluxos Alternativos** |
-| |
-| **Fluxos de Exceção**|
-| |
-| **Pós Condições**|
-| |
-|**Requerimentos especiais**|
-| |
-| **Cenário** |
-| |
-|**Diagrama**|
-|[DCU](diagramas.md#)|
-
 ## EC1
 
 |**Fixar Mensagem**|
@@ -738,6 +713,35 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 | [DCU14](diagramas.md#dcu14-v1) |
 
+## EC25
+
+|**Sair do aplicativo**|
+|--|
+| **Descrição**|
+| - Usuário que esteja logado sair de sua conta do [Rocket.chat](lexicos.md#l65)|
+| **Atores** |
+| - [Usuário](lexicos.md#l19) [logado](lexicos.md#l62) na aplicação |
+| **Pré Condições** |
+| - Usuário possuir uma conta no Rocket.chat |
+| - Usuário estar logado |
+| - Usuário possuir internet |
+| **Fluxo Principal** |
+| 1- Usuário abre a aplicação <br> 2- Usuário é redirecionado a página inicial <br> 3- Usuário clica em "opções" na aba lateral **[FA1][FA2][FA3]** <br> 4- Seleciona a opção de "Sair" <br> 5- Usuário confirma que deseja sair **[FE1]** <br> 6- Usuário é redirecionado para página de login|
+| **Fluxos Alternativos** |
+| **[FA1]** - Ocorre no passo 3 <br> - Usuário recebe uma mensagem <br> - Usuário acessa os chats|
+| **[FA2]** - Ocorre no passo 3 <br> - Usuário acessa perfil <br> - Usuário edita algo no perfil|
+| **[FA3]** - Ocorre no passo 3 <br> - Usuário acessa as configurações <br> - Usuário muda alguma configuração|
+| **Fluxos de Exceção**|
+| **[FE1]** - Ocorre no passo 5 <br> - Aplicação retorna uma falha devido a falta de internet do usuário <br> - Usuário não consegue concluir a ação |
+| **Pós Condições**|
+| - Usuário deslogado da aplicação|
+|**Requerimentos especiais**|
+| - A aplicação deve dar opcão de saida aos usuários|
+| **Cenário** |
+| [Sair do Rocket.chat](cenarios.md#c20) |
+|**Diagrama**|
+|[DCU15](diagramas.md#dcu15-v1)|
+
 
 ## Versionamento
 
@@ -756,3 +760,4 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | 28/04/2019 | 2.0 | Adição de EC15 a EC19 | Marcos Nery |
 | 29/04/2019 | 2.1 | Adição de EC20 a EC23 | Gabriel Davi |
 | 29/04/2019 | 2.2 | Adição EC24 | Lucas Maciel |
+| 29/04/2019 | 2.3 | Adição EC25 | André Lucas |
