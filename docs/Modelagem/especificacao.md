@@ -1,5 +1,8 @@
 # Especificação de Caso de Uso
 
+Aqui estão listadas as especificações de casos de uso, que, sendo baseadas cada uma em seu respectivo diagrama de caso de uso, buscam ilustrar de forma verbal e mais detalhada o expresso pelo diagrama.
+
+
 ## EC0
 
 |**Título**|
@@ -22,6 +25,8 @@
 | |
 | **Cenário** |
 | |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
 
 ## EC1
 
@@ -45,6 +50,8 @@
 | - As mensagens fixadas ficarão disponíveis em “mensagens fixadas” localizada no menu principal da [room](lexicos.md#l51) |
 | **Cenário** |
 | - [Fixar Mensagem](cenarios.md#c11) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
 
 
 ## EC2
@@ -70,6 +77,8 @@
 | - A [privacidade do channel](lexicos.md#l72) é alterada para a aposta a anterior |
 | **Cenário** |
 | - [Mudar privacidade do Channel](cenarios.md#c26) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
 
 
 ## EC3
@@ -92,6 +101,8 @@
 | - Um [only-read channel](lexicos.md#69) é criado |
 | **Cenário** |
 | - [Criar only read Channel](cenarios.md#c21) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
 
 
 ## EC4
@@ -117,6 +128,8 @@
 | - O status será diferente do status inicial |
 | **Cenário** |
 | - [Alterar Status](cenarios.md#c10) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
 
 
 ## EC5
@@ -141,6 +154,8 @@
 | - A conta será deletada com sucesso |
 | **Cenário** |
 | - [Deletar Conta](cenarios.md#c6) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
 
 
 ## EC6
@@ -167,6 +182,9 @@
 | - A mensagem favoritada irá aparecer no menu de mensagens favoritas e será identificada dentro do chat por um ícone de estrela |
 | **Cenário** |
 | - [Favoritar Mensagem](cenarios.md#c13) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
+
 
 
 ## EC7
@@ -193,6 +211,9 @@
 | - Usuário pode visualizar todos os membros pertencentes a determinado chat em grupo |
 | **Cenário** |
 | - [Visualizar Membros de Chat em Grupo](cenarios.md#c14) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
+
 
 ## EC8
 
@@ -218,6 +239,9 @@
 | - Usuário selecionado se torna proprietário do grupo |
 |**Cenário**|
 | [Definir membro de channel como proprietário](cenarios.md#c23) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
+
 
 ##EC9
 
@@ -241,6 +265,9 @@
 | - Os emojis quando clicados aparecerão com o tom de pele escolhido pelo usuário |
 |**Cenário**|
 | [Escolher tom de pele padrão](cenarios.md#c21) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
+
 
 ## EC10
 
@@ -265,6 +292,9 @@
 | - [Channel](lexicos.md#l1) estará criado |
 | **Cenário** |
 | - [Criar channel](cenarios.md#c3-v2)|
+|**Diagrama**|
+|[DCU](diagramas.md#)|
+
 
 ## EC11
 
@@ -288,6 +318,9 @@
 | - Usuário estará conectado com um servidor |
 | **Cenário** |
 | - [Conectar com um servidor](cenarios.md#c4-v2) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
+
 
 ## EC12
 
@@ -312,6 +345,9 @@
 | - Usuário estará conectado com um servidor |
 | **Cenário** |
 | - [Conectar com um servidor](cenarios.md#c4-v2) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
+
 
 ## EC13
 
@@ -335,6 +371,9 @@
 | - São retornadas mensagens relacionadas as pesquisadas pelo usuário|
 | **Cenário** |
 | - [Pesquisar mensagem](cenarios.md#c17) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
+
 
 ## EC14
 
@@ -364,6 +403,179 @@
 | - Acessar o aplicativo e todas as funcionalidades disponíveis para usuário logado|
 | **Cenário** |
 | - [Fazer login](cenarios.md#c17) |
+|**Diagrama**|
+|[DCU](diagramas.md#)|
+
+
+## EC15
+
+|**Enviar mensagem**|
+|--|
+| **Descrição**|
+| Descrição Enviar uma mensagem em uma conversa para um usuário ou grupo de usuários. |
+| **Atores** |
+| Usuário Logado.|
+| **Pré Condições** |
+| O usuário ter conta no aplicativo e estar dentro do channel. |
+| **Fluxo Principal (FE)** |
+|1- Entrar na sua lista de channels no aplicativo.|
+|2- Entrar no channel desejado.|
+|3- Digitar o texto da mensagem|
+|4- Enviar mensagem|
+| **Fluxos Alternativos** |
+|*FA1* - Procurar por channel fora da lista. **[FP-1]**|
+|*FA2* - Selecionar mensagem para [responder](#ec38) **[FP -2]**|
+|*FA3* - [Anexar arquivo](#ec16)  **[FP -2]**|
+| **Fluxos de Exceção**|
+| *FE1* - Queda de conexão **[Todo o processo]**|
+| *FE2* - Numero máximo de caractéres excedido **[FP-4]**|
+| **Pós Condições**|
+| A mensagem enviada pelo usuário poderá ser vista no channel pelos outros usuários membros.|
+|**Requerimentos especiais**|
+| O limite máximo de caractéres deve ser satisfatório.|
+| As ferramentas de edição e formatação do texto devem oferecer grande quantidade de recursos.|
+| **Cenário** |
+| **[Enviar mensagem](cenarios.md#c12)** |
+|**Diagrama**|
+|[DCU2-V3](diagramas.md#dcu2-v3)|
+
+
+## EC16
+
+|**Anexar arquivo**|
+|--|
+| **Descrição**|
+|Anexar um arquivo de mídia, como uma foto ou vídeo, a mensagem. |
+| **Atores** |
+| Usuário Logado.|
+| **Pré Condições** |
+| O usuário ter conta no aplicativo e estar dentro do channel. |
+| **Fluxo Principal (FE)** |
+|1- Entrar na sua lista de channels no aplicativo.|
+|2- Entrar no channel desejado.|
+|3- Clicar no botão de "anexar arquivo" dentro da caixa de texto.|
+|4- Selecionar o tipo de arquivo a ser anexado. |
+|5- Confirmar o arquivo.|
+| **Fluxos Alternativos** |
+|*FA1* - Procurar por channel fora da lista. **[FP-1]**|
+|*FA2* -  Seleciona o tipo "Tirar Foto" **[FP-4]**|
+| 1- Tirar foto com a câmera|
+| 2- Confirmar foto tirada  |
+|*FA3* -  Seleciona o tipo "Arquivo"  **[FP-4]**|
+| 1- Vai até a lista de arquivos do dispositivo|
+| 2- Seleciona o arquivo desejado |
+|*FA4* -  Seleciona o tipo "Desenho" **[FP-4]**|
+| 1- [Anexa um desenho](#ec17)|
+| **Fluxos de Exceção**|
+| *FE1* - Queda de conexão **[Todo o processo]**|
+| *FE2* - Formato de arquivo não suportado **[FA3-2]**|
+| *FE3* - Falha no envio **[FA3-2]**|
+| **Pós Condições**|
+| O usuário terá em sua mensagem o arquivo anexado.|
+|**Requerimentos especiais**|
+| Uma grande quantidade de formatos de arquivo deve ser suportada.|
+| **Cenário** |
+| **[Anexar um arquivo](cenarios.md#c9)** |
+|**Diagrama**|
+|[DCU18](diagramas.md#18-v1)|
+
+
+## EC17
+
+|**Anexar desenho**|
+|--|
+| **Descrição**|
+|Anexar um dsenho digital, feito na plataforma, a mensagem|
+| **Atores** |
+| Usuário Logado|
+| **Pré Condições** |
+|O usuário ter conta no aplicativo e estar dentro do channel|
+| **Fluxo Principal** |
+|1- Logar no servidor|
+|2- Clicar no channel desejado|
+|3- Clicar no botão de anexar arquivo|
+|4- Seecionar a opção desenho|
+|5- Desenhar|
+|6- Confirmar desenho|
+| **Fluxos Alternativos (FA)** |
+| *FA1* - Procurar por channel fora da lista. **[FP-1]**|
+| **Fluxos de Exceção**|
+| *FE1* - Queda de conexão **[Todo o processo]**|
+| **Pós Condições**|
+|O usuário poderá enviar a mensagem com o desenho anexado|
+|**Requerimentos especiais**|
+| A plataforma deve oferecer uma interface intuitíva de desenho, que ofereça ferramentas como coloração, apagador e tipo do pincel.|
+| **Cenário** |
+| **[Anexar um desenho](cenarios.md#c8)**|
+|**Diagrama**|
+|[DCU18](diagramas.md#dcu18-v1)|
+
+
+## EC18
+
+|**Responder mensagem**|
+|--|
+| **Descrição**|
+| Enviar uma mensagem que responde especificamente a uma outra mensagem, de forma explícita|
+| **Atores** |
+| Usuário logado|
+| **Pré Condições** |
+| O usuário ter conta no aplicativo e estar dentro do channel|
+| **Fluxo Principal** |
+|1- Logar no servidor|
+|2- Clicar no channel desejado|
+|3- Clicar na mensagem que deseja responder|
+|4- Clicar na função responder|
+|5- Escrever e [envia a mensagem](#ec15)|
+| **Fluxos Alternativos (FA)** |
+| *FA1* - Procurar por channel fora da lista. **[FP-1]**|
+| *FA2* - Pesquisar por uma mensagem no channel.**[FP-2]**|
+| **Fluxos de Exceção**|
+| *FE1* - Queda de conexão **[Todo o processo]**|
+| *FE2* - Mensagem foi apagada **[FP-3]**|
+| **Pós Condições**|
+| A resposta enviada pelo usuário será mostrada no channel com o anexo da mensagem respondida abaixo|
+|**Requerimentos especiais**|
+| - |
+| **Cenário** |
+| **[Responder uma mensagem](cenarios.md#c7)** |
+|**Diagrama**|
+|[DCU20](diagramas.md#dcu20-v1)|
+
+
+## EC19
+
+|**Editar Mensagem**|
+|--|
+| **Descrição**|
+| Usuário editar o conteúdo textual de uma mensagem para exprimir uma ideia diferente da anterior|
+| **Atores** |
+| Usuário logado|
+| **Pré Condições** |
+| O usuário ter conta no aplicativo e estar dentro do channel|
+| **Fluxo Principal (FP)** |
+|1-  Ir até a lista de channels|
+|2-  Ir até o channel desejado|
+|3-  Clicar na mensagem que deseja editar|
+|4-  Clicar na opção editar|
+|5-  Entrar no modo de edição de mensagem|
+|6-  Clicar no botão enviar, fnalizando a edição|
+| **Fluxos Alternativos (FA)** |
+| *FA1* - Procurar por channel fora da lista. **[FP-1]**|
+| *FA2* - Pesquisar por uma mensagem no channel.**[FP-2]**|
+| **Fluxos de Exceção**|
+| *FE1* - Queda de conexão **[Todo o processo]**|
+| *FE2* - Mensagem foi apagada **[FP-6]**|
+| **Pós Condições**|
+| A dada mensagem no channel será mostrada com o conteúdo editado e um identificador contendo a palavra “Editada”|
+|**Requerimentos especiais**|
+| A interface para editar mensagens deve conter tantos recursos quanto a de enviar.|
+| **Cenário** |
+| **[Editar uma Mensagem](cenarios.md#c5)** |
+|**Diagrama**|
+|[DCU19](diagramas.md#dcu19-v1)|
+
+
 
 ## Versionamento
 
@@ -379,3 +591,4 @@
 | 28/04/2019 | 1.7 | Adição EC10 e EC11 | Heron Rodrigues |
 | 28/04/2019 | 1.8 | Adição EC12 | Lucas Maciel |
 | 28/04/2019 | 1.9 | Adição EC13 e EC14 | André Lucas |
+| 28/04/2019 | 2.0 | Adição de EC15 a EC19 | Marcos Nery |

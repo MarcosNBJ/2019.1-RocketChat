@@ -21,7 +21,7 @@ Especificação de casos de uso: [ECU]()
 ![DCU-1](../img/Modelagem/Diagrama_videoConf_v2.png)
 
 ## DCU2 - V1
-### **Mandar mensagem**
+### **Enviar mensagem**
 Diagrama inspirado pelo cenário **[Enviar mensagem](cenarios.md#c12)**
 
 Especificação de casos de uso: [ECU]()
@@ -29,12 +29,22 @@ Especificação de casos de uso: [ECU]()
 ![DCU-1](../img/Modelagem/mandarMSG_v1.png)
 
 ## DCU2 - V2
-### **Mandar mensagem**
+### **Enviar mensagem**
 Diagrama inspirado pelo cenário **[Enviar mensagem](cenarios.md#c12)**
 
 Especificação de casos de uso: [ECU]()
 
 ![DCU-1](../img/Modelagem/mandarMSG_v2.png)
+
+
+## DCU2 - V3
+### **Enviar mensagem**
+Diagrama inspirado pelo cenário **[Enviar mensagem](cenarios.md#c12)**
+
+Especificação de casos de uso: [ECU](especificacao.md#ec15)
+
+![DCU-1](../img/Modelagem/mandarMSG_v3.png)
+
 
 ## DCU3
 ### **Fixar Mensagem**
@@ -163,6 +173,34 @@ Especificação de casos de uso: [ECU11](especificacao.md#ec11)
 
 ![DCU-17](../img/Modelagem/conectar-servidor-v1.png)
 
+
+## DCU18 - V1
+### **Anexar um Arquivo a mensagem**
+Diagrama inspirado pelos cenários  **[Anexar um arquivo](cenarios.md#c9)** e **[Anexar um desenho](cenarios.md#c8)**
+
+Especificações de casos de uso: [ECU16](especificacao.md#ec16) e [ECU17](especificacao.md#ec17)
+
+![DCU-1](../img/Modelagem/anexarArquivo.png)
+
+
+## DCU19 - V1
+### **Editar uma mensagem**
+Diagrama inspirado pelo cenário **[Editar uma Mensagem](cenarios.md#c5)**
+
+Especificação de casos de uso: [ECU19](especificacao.md#ec19)
+
+![DCU-1](../img/Modelagem/editarMensagem.png)
+
+
+## DCU20 - V1
+### **Responder uma mensagem**
+Diagrama inspirado pelo cenário **[Responder uma mensagem](cenarios.md#c7)**
+
+Especificação de casos de uso: [ECU18](especificacao.md#ec18)
+
+![DCU-1](../img/Modelagem/responderMensagem.png)
+
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -174,3 +212,4 @@ Especificação de casos de uso: [ECU11](especificacao.md#ec11)
 | 28/04/2019 | 1.4 | Adição dos diagramas DCU12 - DCU15 | André Lucas |
 | 28/04/2019 | 1.5 | Adição dos diagramas DCU16 e DCU17 | Heron Rodrigues |
 | 28/04/2019 | 1.6 | Adição do diagrama DCU3 - V1 | Lucas Maciel |
+| 28/04/2019 | 1.7 | Adição dos diagramas DCU18, DCU19, DCU20 e DCU2 - V3 | Marcos Nery |
