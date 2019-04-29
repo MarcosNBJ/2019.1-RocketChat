@@ -159,6 +159,12 @@ Rocket.Chat é compativel à General Data Protection Regulation (GDPR), é um re
 ## Observações Legais, de Copyright e Outras
 A aplicação é licenciada sob a MIT License. É permitido o uso, copía, modificação, entre outros, totalmente gratuito garantido pela [licença do software](https://github.com/RocketChat/Rocket.Chat.Hubot/blob/master/LICENSE).
 
+## Referências
+
+* [Documentação do Rocket chat](https://rocket.chat/docs/)
+* [Site do Rocket chat](https://rocket.chat/)
+* [Repositórios do Rocket chat](https://github.com/RocketChat)
+
 
 ## Versionamento
 
@@ -173,3 +179,4 @@ A aplicação é licenciada sob a MIT License. É permitido o uso, copía, modif
 | 29/04/2019 | 1.6 | Adição da listagem de Interfaces | Marcos Nery|
 | 29/04/2019 | 1.7 | Adição das observações legais e copyright | Heron Rodrigues|
 | 29/04/2019 | 1.8 | Adição dos requisitos de licenciamento | Heron Rodrigues|
+| 29/04/2019 | 1.9 | Adição das referências | Marcos Nery|
