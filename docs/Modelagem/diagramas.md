@@ -200,6 +200,30 @@ Especificação de casos de uso: [ECU18](especificacao.md#ec18)
 
 ![DCU-1](../img/Modelagem/responderMensagem.png)
 
+## DCU21 - V1
+### **Cadastrar novo usuário**
+Diagrama inspirado pelo cenário **[Cadastrar novo usuário](cenarios.md#c1-v1)**
+
+Especificação de casos de uso: [ECU21](especificacao.md#ec21)
+
+![DCU-20](../img/Modelagem/Cadastro.png)
+
+## DCU22 - V1
+### **Sair de um channel**
+Diagrama inspirado pelo cenário **[Sair de um channel](cenarios.md#c15-v1)**
+
+Especificação de casos de uso: [ECU22](especificacao.md#ec22)
+
+![DCU-21](../img/Modelagem/deixarGrupo.png)
+
+## DCU23 - V1
+### **Esconder um channel**
+Diagrama inspirado pelo cenário **[Esconder um channel](cenarios.md#c16-v1)**
+
+Especificação de casos de uso: [ECU23](especificacao.md#ec23)
+
+![DCU-21](../img/Modelagem/esconder.png)
+
 
 ## Versionamento
 
@@ -213,3 +237,4 @@ Especificação de casos de uso: [ECU18](especificacao.md#ec18)
 | 28/04/2019 | 1.5 | Adição dos diagramas DCU16 e DCU17 | Heron Rodrigues |
 | 28/04/2019 | 1.6 | Adição do diagrama DCU3 - V1 | Lucas Maciel |
 | 28/04/2019 | 1.7 | Adição dos diagramas DCU18, DCU19, DCU20 e DCU2 - V3 | Marcos Nery |
+| 29/04/2019 | 1.8 | Adição dos diagramas DCU21 a DCU22 -V1| Gabriel Davi |

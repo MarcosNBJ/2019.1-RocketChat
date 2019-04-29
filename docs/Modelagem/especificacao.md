@@ -575,6 +575,131 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 |[DCU19](diagramas.md#dcu19-v1)|
 
+## EC20
+
+|**Realizar video Chat**|
+|--|
+| **Descrição**|
+| Comunicação a distância e online entre um grupo de usuários do Rocket.chat|
+| **Atores** |
+| -Usuário logado criador da sala de video chat|
+| -Participantes do grupo |
+| **Pré Condições** |
+|-Possuir o Rocket.chat instalado em seu computador/celular|
+|-Todos os participantes estarem  logados em suas respectivas contas|
+|-Participar de um grupo dentro da plataforma|
+|-Possuir acesso a internet|
+| **Fluxo Principal** |
+| 1. Usuários abrem o Rocket.chat em seu computador ou celular<br>2. Usuários procuram um grupo na área lateral da página inicial**[FA1][FE1]**<br>3. Usuários clicam no canal e o acessa**[FA2]**<br>4. Usuário criador do video chat manda o convite para acesso de uma sala de video conferência<br>5. Participantes do grupo aceitam o convite **[FA3][FE2]**|
+| **Fluxos Alternativos** |
+| **FA1** -No passo 2 do fluxo principal<br>1 - Usuário pode clicar na ferramenta de pesquisa<br>2 - Usuário digita o nome do grupo que deseja<br>3 - Usuário seleciona o grupo, se o mesmo for encontrado **[FE1]**|
+|**FA2** - no passo 3 do fluxo principal<br>1- usuário pode entrar no chat<br>2- Usuário Desliza a tela para cima<br>3- Usuário lê os comentários anteriores|
+|**FA3** - No passo 5 do fluxo principal<br>1 - O usuário recebe o convite<br>2 - O usuário não entra na sala, ignorando o convite|
+| **Fluxos de Exceção**|
+|**FE1** - Pode acontecer no fluxo principal  2 ou no fluxo alternativo 1 passo 3:<br>1 -  Não encontrar a sala para a video conferencia|
+|**FE2** - pode ocorrer no fluxo principal 5<br>1- sala de videio chat atingir um numero limite de participante|
+|**FE3** - pode ocorrer a qualquer momento da ação<br>1- internet cair no do decorrer do video chat|
+| **Pós Condições**|
+|-Realização da video conferencia bem sucedida  |
+|**Requerimentos especiais**|
+|- Para cada interação com o usuário, um convite de video chat é enviado por vez|
+| **Cenário** |
+|[Realizar video chat](cenarios.md#c2-v2) |
+|**Diagrama**|
+|[DCU](diagramas.md#dcu1-v2)|
+
+## EC21
+
+|**Cadastrar novo usuário**|
+|--|
+| **Descrição**|
+|-Um usuário irá criar sua conta na plataforma|
+| **Atores** |
+|-Usuário não cadastrado |
+| **Pré Condições** |
+|-Possuir internet |
+|-Possuir possuir email |
+|-Ter acesso a plataforma em seu computador/celular |
+| **Fluxo Principal** |
+|1. Usuário acessa a página inicial de login<br>2. Usuário clica em registrar nova conta<br>3. Usuário acessa página de cadastro**[FA1]**<br>4. Usuário faz o cadastro pelo formulário**[FA2]**<br>5. Usuário preeche o campo de nome**[FE1]**<br>6. O usuário preenche o campo de email**[FE2]**<br>7. Usuário preenche o campo de senha**[FE3]**<br>8. Usuário preeche o campo de confirmação de senha**[FE4]**|
+| **Fluxos Alternativos** |
+|**FA1** - No passo 3 do fluxo principal:<br>1. O usuário pode clicar em "retornar para a página de login" e retornar para a página de login|
+|**FA2** - No passo 4 do fluxo princial:<br>1. O usuário pode criar sua conta usando redes sociais**[FE5]**<br>1.1 usuário pode cadastrar usando o facebook<br>1.2 usuário pode cadastrar usando o Google + <br>1.3 usuário pode cadastrar usando o Twitter<br>1.4 usuário pode cadastrar usando o Github<br>1.5 usuário pode cadastrar usando o GitLab<br>1.6 usuário pode cadastrar usando o meteor<br>|
+| **Fluxos de Exceção**|
+|**FE1** - No passo 5 do fluxo principal<br>1. O campo  de nome opde estar em branco|
+|**FE2** - No passo 6 do fluxo principal<br>1. Campo de email pode estar em branco ou o email pode ser inexistente|
+|**FE3** - No passo 7 do fluxo principal<br>1. Senha fraca ou campo em branco|
+|**FE4** - No passo 8 do fluxo princial<br>1. Campo de confirmação de senha não coincide com o campo de senha|
+|**FE5** - No FA2<br>1. Rede social informada incorreta|
+|**FE6** - Em qualquer momento da interação<br>1. Pode ocorrer falaha na conexão|
+| **Pós Condições**|
+|- Usuário passa a possuir uma nova conta no  Rocket.chat|
+|**Requerimentos especiais**|
+|- Os passos 5, 6 e 7 do fluxo principal não precisa seguir a ordem informada|
+| **Cenário** |
+|[Cadastrar um novo usuário](cenarios.md#c1-v2) |
+|**Diagrama**|
+|[DCU](diagramas.md#21)|
+
+## EC22
+
+|**Deixar Grupo**|
+|--|
+| **Descrição**|
+|- O usuário sai de um grupo, passando a não receber mais notificações do mesmo |
+| **Atores** |
+|- usuário logado |
+| **Pré Condições** |
+|- Possuir conta no Rocket.chat |
+|- Estar logado a uma conta no Rocket.chat |
+|- Participar de um grupo  |
+|- Possuir acesso a internet  |
+| **Fluxo Principal** |
+|1.Entrar na página inical do rocket.chat<br>2. Buscar o grupo no  qual deseja sair pela barra lateral onde se encontram os grupos**[FA1][FE2]**<br>2. Clicar nos 3 pontos ao lado do ícone do grupo<br>3. Escolher entre as opções mostradas a de "Deixar grupo"<br>4. Confirmar a retirada do grupo**[FA2]** |
+| **Fluxos Alternativos** |
+| **FA1** - No passo 2 do fluxo principal<br>1. O usuário pode pesquiser o grupo usando a ferramenta de pesquisa|
+| **FA2** - No passo 4 do fluxo principal<br>1. O usuário pode clicar em cancelar|
+| **Fluxos de Exceção**|
+|**FE1** - Em qualquer momento da interação<br>1. Pode ocorrer falaha na conexão|
+|**FE2** - No passo2 do fluxo principal:<br>1. O grupo pode não ser encontrado |
+| **Pós Condições**|
+|- Usuário não mais participa do grupo|
+|**Requerimentos especiais**|
+|- |
+| **Cenário** |
+| [Sair de um channel](cenarios.md#c15-v1)|
+|**Diagrama**|
+|[DCU](diagramas.md#dcu22-v1)|
+
+## EC23
+
+|**Esconder Grupo**|
+|--|
+| **Descrição**|
+|- O usuário esconde um grupo, passando a não receber mais notificações do mesmo |
+| **Atores** |
+|- usuário logado |
+| **Pré Condições** |
+|- Possuir conta no Rocket.chat |
+|- Estar logado a uma conta no Rocket.chat |
+|- Participar de um grupo  |
+|- Possuir acesso a internet  |
+| **Fluxo Principal** |
+|1.Entrar na página inical do rocket.chat<br>2. Buscar o grupo no  qual deseja esconder pela barra lateral onde se encontram os grupos**[FA1][FE2]**<br>2. Clicar nos 3 pontos ao lado do ícone do grupo<br>3. Escolher entre as opções mostradas a de "Esconder grupo"<br>4. Confirmar ação**[FA2]** |
+| **Fluxos Alternativos** |
+| **FA1** - No passo 2 do fluxo principal<br>1. O usuário pode pesquiser o grupo usando a ferramenta de pesquisa|
+| **FA2** - No passo 4 do fluxo principal<br>1. O usuário pode clicar em cancelar|
+| **Fluxos de Exceção**|
+|**FE1** - Em qualquer momento da interação<br>1. Pode ocorrer falaha na conexão|
+|**FE2** - No passo2 do fluxo principal:<br>1. O grupo pode não ser encontrado |
+| **Pós Condições**|
+|- Grupo possa e ser escondido|
+|**Requerimentos especiais**|
+|-|
+| **Cenário** |
+| [Sair de um channel](cenarios.md#c16-v1)|
+|**Diagrama**|
+|[DCU](diagramas.md#dcu23-v1)|
 
 
 ## Versionamento
@@ -592,3 +717,4 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | 28/04/2019 | 1.8 | Adição EC12 | Lucas Maciel |
 | 28/04/2019 | 1.9 | Adição EC13 e EC14 | André Lucas |
 | 28/04/2019 | 2.0 | Adição de EC15 a EC19 | Marcos Nery |
+| 29/04/2019 | 2.1 | Adição de EC20 a EC23 | Gabriel Davi |
