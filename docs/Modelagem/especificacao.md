@@ -30,10 +30,10 @@
 | **Descrição**|
 | - Funcionalidade que tem como objetivo fazer com que o usuário consiga encontrar mensagens com mais facilidade, possui uma similaridade com a funcionalidade de favoritar mensagem |
 | **Atores** |
-| - [usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
+| - [Usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
 | **Pré Condições** |
-| - usuário deve estar logado no aplicativo |
-| - usuário deve ser integrante em uma room no aplicativo |
+| - Usuário deve estar logado no aplicativo |
+| - Usuário deve ser integrante em uma room no aplicativo |
 | **Fluxo Principal** |
 | 1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona uma mensagem de seu interesse <br> 3 - Abre o menu de opções da mensagem <br> 4 - Seleciona a opção de "fixar mensagem" |
 | **Fluxos Alternativos** |
@@ -272,7 +272,7 @@
 | **Descrição**|
 | - Funcionalidade que permiti o usuário iniciar conexão com uma instância do [Rocket.chat](lexicos.md#l65)  |
 | **Atores** |
-| - Usuário |
+| - [Usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
 | **Pré Condições** |
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | **Fluxo Principal** |
@@ -288,6 +288,57 @@
 | **Cenário** |
 | - [Conectar com um servidor](cenarios.md#c4-v2) |
 
+## EC12
+
+|**Pesquisa de mensagem**|
+|--|
+| **Descrição**|
+| - Funcionalidade que permite utilizar uma mensagem como base de pesquisa para encontrar mensagens desejadas.|
+| **Atores** |
+| - [Usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
+| **Pré Condições** |
+| - Usuário possuir conta no [Rocket.chat](lexicos.md#l65) <br> - Usuário ter em mente as mensagens a serem pesquisadas |
+| **Fluxo Principal** |
+| 1- Usuário acessa o aplicativo <br> 2- Na página inicial seleciona um channel <br> 3- Usuário clica na "Lupa" no canto superior <br> 4- Usuário digita a mensagem que deseja pesquisar **[FA1]** <br> 5- Mensagens relacionadas ao que foi pesquisado são retornadas para o usuário <br> 6- A pesquisa é realizada com sucesso **[FE1]** **[FE2]**|
+| **Fluxos Alternativos** |
+| **[FA1]** - Ocorre no passo 4 do fluxo principal |
+| - O usuário não especifica bem o termo para pesquisa de mensagem <br> - São retornadas várias mensagens semelhantes a pesquisa |
+| **Fluxos de Exceção**|
+| **[FE1]** Ocorre no passo 6 do fluxo principal <br> - São retornadas mensagens que não correspondem a pesquisada pelo usuário <br> - A pesquisa é finalizada|
+|  **[FE2]** Ocorre no passo 6 do fluxo principal <br> - Nada é retornado, a mensagem pesquisada foi apagada ou não existe <br> - A pesquisa é finalizada|
+| **Pós Condições**|
+| - São retornadas mensagens relacionadas as pesquisadas pelo usuário|
+| **Cenário** |
+| - [Pesquisar mensagem](cenarios.md#c17) |
+
+## EC13
+
+|**Realização de login**|
+|--|
+| **Descrição**|
+| - Fazer login no [Rocket.chat](lexicos.md#l65) para ter acesso a todas as funcionalidades disponíveis para [usuário](lexicos.md#l19) [logado](lexicos.md#l62)  |
+| **Atores** |
+| - [Usuário](lexicos.md#l19) |
+| **Pré Condições** |
+| - Usuário possuir o Rocket.chat instalado <br> - Usuário deve ter acesso a internet <br> - Usuário deve possuir uma conta de e-mail ou de alguma rede social |
+| **Fluxo Principal** |
+| 1- Usuário entra na página de login do aplicativo **[FA1][FA2][FA3][FA4] [FE1][FE2][FE3]]**<br> 2- Usuário usa um e-mail e senha válidos **[FE1][FE2][FA5]**<br> 3- Usuário obtem acesso e é direcionado para página inicial|
+| **Fluxos Alternativos** |
+| **[FA1]** - Ocorre no passo 1 do fluxo principal <br> - Usuário faz o login com o **Facebook** <br> - Usuário é redirecionado para página principal |
+| **[FA2]** - Ocorre no passo 1 do fluxo principal <br> - Usuário faz o login com o **Google** <br> - Usuário é redirecionado para página principal |
+| **[FA3]** - Ocorre no passo 1 do fluxo principal <br> - Usuário faz o login com o **Github** <br> - Usuário é redirecionado para página principal |
+| **[FA4]** - Ocorre no passo 1 do fluxo principal <br> - Usuário criar uma nova conta com e-mail <br> - Usuário cadastra e-mail e senha de acesso <br> - Usuário é redirecionado para página principal |
+| **[FA5]** - Ocorre no passo 2 do fluxo principal <br> - Usuário não se lembra da senha de acesso <br> - Usuário clica em "Esqueci minha senha" e é redirecionado para criar uma nova senha |
+| **Fluxos de Exceção**|
+| **[FE1]** - Ocorre no passo 1 do fluxo principal <br> - Usuário não tem permissão de acesso a conta do **Facebook** <br> - Usuário retorna a página de login |
+| **[FE1]** - Ocorre no passo 1 do fluxo principal <br> - Usuário não tem permissão de acesso a conta do **Google** <br> - Usuário retorna a página de login |
+| **[FE1]** - Ocorre no passo 1 do fluxo principal <br> - Usuário não tem permissão de acesso a conta do **Github** <br> - Usuário retorna a página de login |
+| **[FE1]** - Ocorre no passo 2 do fluxo principal <br> - Usuário digita um e-mail inválido <br> - Usuário retorna a página de login |
+| **[FE2]** - Ocorre no passo 2 do fluxo principal <br> - Usuário digita uma senha inválida <br> - Usuário retorna a página de login |
+| **Pós Condições**|
+| - Acessar o aplicativo e todas as funcionalidades disponíveis para usuário logado|
+| **Cenário** |
+| - [Fazer login](cenarios.md#c17) |
 
 ## Versionamento
 
@@ -301,3 +352,4 @@
 | 28/04/2019 | 1.5 | Editando EC4, EC5, EC6 e EC7 | Gabriel Davi |
 | 28/04/2019 | 1.6 | Adição EC8 e EC9 | João Lucas |
 | 28/04/2019 | 1.7 | Adição EC10 e EC11 | Heron Rodrigues |
+| 28/04/2019 | 1.8 | Adição EC12 e EC13 | André Lucas |
