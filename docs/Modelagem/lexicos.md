@@ -74,7 +74,7 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Verbo |
 |**Noção**|
 | - Ação do [usuário](#l19) em marcar o nome de outro [usuário](#l19)|
-| - Realizada ao digitar o símbolo ‘@’, colocando a [tag](#l6) do [usuário](#l19) |
+| - Realizada ao digitar o símbolo ‘@’, colocando a [tag](#l6-v2) do [usuário](#l19) |
 | - A aplicação mostrará uma lista com todos os [usuários](#l19) |
 | - Realizada em um [channel](#l1) ou [grupo privado](#l52) |
 |**Impacto** |
@@ -157,9 +157,9 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Impacto** |
 |- Podem ser utilizados pelo [usuário](#l19) durante uma conversa para exprimir essas ideias ou ações sem ter que descreve-las por palavras.|
 |- O [usuário](#l19) pode [adicionar uma reação](#l9) a uma [mensagem](#l42), anexando a ela um emoji. |
-|- O [usuário](#l19) pode [remover uma reação](#l10) de uma [mensagem](#l42), retirando o emoji a ela adicionado. |
+|- O [usuário](#l19) pode [remover uma reação](#l10-v2) de uma [mensagem](#l42), retirando o emoji a ela adicionado. |
 |- Muitos já são obtidos junto com o aplicativo. Mas o [usuário](#l19) também pode incluir novos emojis, feitos por ele ou por terceiros.|
-|- O [usuário](#l19) pode [modificar a coloração de pele do Emoji](#l37), caso este represente uma figura humana.|
+|- O [usuário](#l19) pode [modificar a coloração de pele do Emoji](#l37-v2), caso este represente uma figura humana.|
 |**Sinônimos**|
 | - Reação |
 
@@ -209,11 +209,11 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Verbo|
 |**Noção**|
 |- Ação realizada pelo [usuário](#l19).|
-|- Acontece quando o mesmo retira uma [reação](#l7) anteriormente [adicionada](#l9) a uma mensagem.|
+|- Acontece quando o mesmo retira uma [reação](#l7-v2) anteriormente [adicionada](#l9) a uma mensagem.|
 |- [usuário](#l19) clica na reação adicionada, e ela é então retirada.|
 |**Impacto** |
-|- Se outros [usuários](#l19) reagiram aquela mensagem com o mesmo [emoji](#l7), a contagem dessas reações na mensagem decresce em um.|
-|- Se não haviam outras reações com o mesmo [emoji](#l7), a reação é completamente removida da mensagem.|
+|- Se outros [usuários](#l19) reagiram aquela mensagem com o mesmo [emoji](#l7-v2), a contagem dessas reações na mensagem decresce em um.|
+|- Se não haviam outras reações com o mesmo [emoji](#l7-v2), a reação é completamente removida da mensagem.|
 
 
 ### L10 - V2
@@ -223,12 +223,12 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Verbo|
 |**Noção**|
 |- Ação realizada pelo [usuário](#l19).|
-|- Acontece dentro de uma [conversa](#l1) quando o [usuário](#l19) retira uma [reação](#l7) anteriormente [adicionada](#l9) a uma mensagem.|
+|- Acontece dentro de uma [conversa](#l1) quando o [usuário](#l19) retira uma [reação](#l7-v2) anteriormente [adicionada](#l9) a uma mensagem.|
 |- [Usuário](#l19) clica na reação adicionada, que vai estar logo abaixo do texto da respectiva [mensagem](#l42), e ela é então retirada.|
 |**Impacto** |
-|- Se outros [usuários](#l19) reagiram aquela mensagem com o mesmo [emoji](#l7), a contagem dessas reações na mensagem decresce em um.|
-|- Se não haviam outras reações com o mesmo [emoji](#l7), a reação é completamente removida da mensagem.|
-|- O [usuário](#l19) pode agora [adicionar a reação](#l10) novamente se desejar.|
+|- Se outros [usuários](#l19) reagiram aquela mensagem com o mesmo [emoji](#l7-v2), a contagem dessas reações na mensagem decresce em um.|
+|- Se não haviam outras reações com o mesmo [emoji](#l7-v2), a reação é completamente removida da mensagem.|
+|- O [usuário](#l19) pode agora [adicionar a reação](#l10-v2) novamente se desejar.|
 |**Sinônimos**|
 |- Remover emoji|
 
@@ -258,7 +258,7 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Noção**|
 | - [Usuários](#l19) que participam de um [channel](#l1)|
 |**Impacto** |
-| - Membros podem [enviar mensagem](#l41), [reagir a mensagem](#l9), [procurar mensagem](#l11), [remover reação](#l10), [fixar mensagem](#l3), favoritar mensagem, [mencionar usuário](#l4), [desenhar](#l43), [anexar arquivo](#l5)|
+| - Membros podem [enviar mensagem](#l41), [reagir a mensagem](#l9), [procurar mensagem](#l11), [remover reação](#l10-v2), [fixar mensagem](#l3), favoritar mensagem, [mencionar usuário](#l4), [desenhar](#l43), [anexar arquivo](#l5)|
 |**Sinônimos**|
 | - Membro, members, member|
 
@@ -269,10 +269,10 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Verbo|
 |**Noção**|
 | - Ação realizada pelo [usuário](#l19).|
-| - O [usuário](#l19) clica em uma mensagem, e então vai até a opção “Copiar [Permalink](#l15) ”, que o permite copiar um link que leva diretamente para a mensagem selecionada dentro do [channel](#l1).|
+| - O [usuário](#l19) clica em uma mensagem, e então vai até a opção “Copiar [Permalink](#l15-v2) ”, que o permite copiar um link que leva diretamente para a mensagem selecionada dentro do [channel](#l1).|
 |**Impacto** |
-|- É gerado um [Permalink](#l15), que o [usuário](#l19) pode então compartilhar com outros [usuários](#l19).|
-|- Outros [usuários](#l19) que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidicionar reação](#l9) ou [responder](#l56).|
+|- É gerado um [Permalink](#l15-v2), que o [usuário](#l19) pode então compartilhar com outros [usuários](#l19).|
+|- Outros [usuários](#l19) que clicam no [permalink](#l15-v2) poderão ver a mensagem por ele salva, e então realizar ações como [aidicionar reação](#l9) ou [responder](#l56).|
 
 
 ### L13 - V2
@@ -282,10 +282,10 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Verbo|
 |**Noção**|
 | - Ação realizada pelo [usuário](#l19).|
-| - O [usuário](#l19) clica em uma [mensagem](#l42), e então vai até a opção “Copiar [Permalink](#l15) ”, que o permite copiar um link que leva diretamente para a [mensagem](#l42) selecionada dentro do [channel](#l1).|
+| - O [usuário](#l19) clica em uma [mensagem](#l42), e então vai até a opção “Copiar [Permalink](#l15-v2) ”, que o permite copiar um link que leva diretamente para a [mensagem](#l42) selecionada dentro do [channel](#l1).|
 |**Impacto** |
-|- É gerado um [Permalink](#l15), que o [usuário](#l19) pode então compartilhar com outros [usuários](#l19). Seja pelo próprio app ou por fora.|
-|- Outros [usuários](#l19) que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidicionar reação](#l9) ou [responder mensagem](#l56).|
+|- É gerado um [Permalink](#l15-v2), que o [usuário](#l19) pode então compartilhar com outros [usuários](#l19). Seja pelo próprio app ou por fora.|
+|- Outros [usuários](#l19) que clicam no [permalink](#l15-v2) poderão ver a mensagem por ele salva, e então realizar ações como [aidicionar reação](#l9) ou [responder mensagem](#l56).|
 |- O link gerado será adicionado a uma lista de permalinks existentes dentro de um determinado [channel](#l1), e deverá continuar ativo até que seja manualmente removido|
 |**Sinônimos**|
 |-Linkar |
@@ -317,7 +317,7 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Noção**|
 | - É um link permanente que pode levar o [usuário](#l19) que clicar a um [channel](#l1), a uma [mensagem](#l42), ou a um [servidor](#l18). |
 |**Impacto**|
-|- O [usuário](#l19) pode gerar o permalink através da ação de [Copiar Permalink](#l13) para mensagem, ou de convidar um outro [usuário](#l19) para um determinado [channel](#l1) ou servidor.|
+|- O [usuário](#l19) pode gerar o permalink através da ação de [Copiar Permalink](#l13-v2) para mensagem, ou de convidar um outro [usuário](#l19) para um determinado [channel](#l1) ou servidor.|
 |- O [usuário](#l19) que receber e usar o permalink será levado para o destino para o qual ele foi gerado. |
 
 
@@ -331,7 +331,7 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Noção**|
 | - É um link permanente que pode levar o [usuário](#l19) que clicar a um [channel](#l1), a uma [mensagem](#l42), ou a um [servidor](#l18). |
 |**Impacto**|
-|- O [usuário](#l19) pode gerar o permalink através da ação de [Copiar Permalink](#l13) para mensagem, ou de convidar um outro [usuário](#l19) para um determinado [channel](#l1) ou servidor.|
+|- O [usuário](#l19) pode gerar o permalink através da ação de [Copiar Permalink](#l13-v2) para mensagem, ou de convidar um outro [usuário](#l19) para um determinado [channel](#l1) ou servidor.|
 |- O [usuário](#l19) que receber e usar o permalink será levado para o destino para o qual ele foi gerado. |
 |- O [usuário](#l19) pode desativar um permalink que criou|
 |- Os permalinks existentes podem ser vistos por outros [usuários](#l19) do [channel](#l1)|
@@ -690,9 +690,9 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Estado|
 |**Noção**|
 |- Um [channel](#l1) favoritado irá aparecer em destaque em relação aos outros na lista de channels do [usuário](#l19)|
-|- Estado é atribuído ao [channel](#l1) quando o [usuário](#l19) realiza a ação de [favoritar um channel](#l35) |
+|- Estado é atribuído ao [channel](#l1) quando o [usuário](#l19) realiza a ação de [favoritar um channel](#l35-v2) |
 |**Impacto** |
-|- O [usuário](#l19) pode [desfavoritar um channel](#l36) que esteja favoritado.|
+|- O [usuário](#l19) pode [desfavoritar um channel](#l36-v2) que esteja favoritado.|
 |- O [usuário](#l19) pode favoritar um channel ainda não favoritado.|
 |**Sinônimos**|
 | - Stared channel |
@@ -706,9 +706,9 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Estado|
 |**Noção**|
 |- Um [channel](#l1) favoritado irá aparecer em destaque em relação aos outros na lista de channels do [usuário](#l19).|
-|- Estado é atribuído ao [channel](#l1) quando o [usuário](#l19) realiza a ação de [favoritar um channel](#l35). |
+|- Estado é atribuído ao [channel](#l1) quando o [usuário](#l19) realiza a ação de [favoritar um channel](#l35-v2). |
 |**Impacto** |
-|- O [usuário](#l19) pode [desfavoritar um channel](#l36) que esteja favoritado.|
+|- O [usuário](#l19) pode [desfavoritar um channel](#l36-v2) que esteja favoritado.|
 |- O [usuário](#l19) pode favoritar um channel ainda não favoritado ou desfavoritado.|
 |- O [usuário](#l19) entrar mais fácilmente em um channel favoritado.|
 |**Sinônimos**|
@@ -725,7 +725,7 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |- Ação realizada pelo [usuário](#l19).|
 |- O [usuário](#l19) vai até sua lista de [channels](#l1) e dá um click no botão com ícone de estrela para favoritar um channel. |
 |**Impacto** |
-|- Um [channel favoritado](#l34) vai aparecer em destaque na lista de channels |
+|- Um [channel favoritado](#l34-v2) vai aparecer em destaque na lista de channels |
 |- O [usuário](#l19) pode desfavoritar um channel favoritado|
 |**Sinônimos**|
 | - Star channel |
@@ -741,7 +741,7 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |- Ação realizada pelo [usuário](#l19) que quer que um determinado [channel](#l1) fique destacado.|
 |- O [usuário](#l19) vai até sua lista de [channels](#l1) e dá um click no botão com ícone de estrela para favoritar um channel. |
 |**Impacto** |
-|- Um [channel favoritado](#l34) vai aparecer em destaque na lista de channels do [usuário](#l19) . |
+|- Um [channel favoritado](#l34-v2) vai aparecer em destaque na lista de channels do [usuário](#l19) . |
 |- O [usuário](#l19) pode desfavoritar um channel favoritado.|
 |**Sinônimos**|
 | - Star channel |
@@ -756,10 +756,10 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Verbo|
 |**Noção**|
 |- Ação realizada pelo [usuário](#l19).|
-|- O [usuário](#l19) vai até um [channel favoritado](#l34) e dá um click no ícone da estrela, para desfavoritar o [canal](#l1).|
+|- O [usuário](#l19) vai até um [channel favoritado](#l34-v2) e dá um click no ícone da estrela, para desfavoritar o [canal](#l1).|
 |**Impacto** |
-|- O canal não irá mais aparecer em [destaque](#l34) |
-|- O [usuário](#l19) poderá [favoritar](#l35) novamente o channel |
+|- O canal não irá mais aparecer em [destaque](#l34-v2) |
+|- O [usuário](#l19) poderá [favoritar](#l35-v2) novamente o channel |
 |**Sinônimos**|
 | - Unstar channel |
 
@@ -772,11 +772,11 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Verbo|
 |**Noção**|
 |- Ação realizada pelo [usuário](#l19).|
-|- Para ser desfavoritado, o [channel](#l1) deverá estar [favoritado](#l34).|
-|- O [usuário](#l19) vai até um [channel favoritado](#l34) e dá um click no ícone da estrela, para desfavoritá-lo.|
+|- Para ser desfavoritado, o [channel](#l1) deverá estar [favoritado](#l34-v2).|
+|- O [usuário](#l19) vai até um [channel favoritado](#l34-v2) e dá um click no ícone da estrela, para desfavoritá-lo.|
 |**Impacto** |
-|- O canal não irá mais aparecer em [destaque](#l34) na lista de [channels](#l1) do [usuário](#l19). |
-|- O [usuário](#l19) poderá [favoritar](#l35) novamente o channel. |
+|- O canal não irá mais aparecer em [destaque](#l34-v2) na lista de [channels](#l1) do [usuário](#l19). |
+|- O [usuário](#l19) poderá [favoritar](#l35-v2) novamente o channel. |
 |**Sinônimos**|
 | - Unstar channel |
 
@@ -807,8 +807,8 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |- Cor da pele que será utilizada nos [Emojis](#l7-v2) que representam figuras humanas|
 |- Existem 6 tonalidades, 1 neutra que é amarela e 5 que são inspiradas na realidade, indo de tons de pele mais clara até os mais escuros.|
 |**Impacto** |
-|- O [usuário](#l19) pode [escolher o tom de pele padrão](#l38) que será utilizado nos Emojis que ele usar.|
-|- O [usuário](#l19) pode a qualquer momento [modificar o tom de pele escolhido](#l38).|
+|- O [usuário](#l19) pode [escolher o tom de pele padrão](#l38-v2) que será utilizado nos Emojis que ele usar.|
+|- O [usuário](#l19) pode a qualquer momento [modificar o tom de pele escolhido](#l38-v2).|
 |- Caso o [usuário](#l19) não defina um tom de pele padrão, o aplicativo utiliza o tom amarelo.|
 |**Sinônimos**|
 | - Emoji Skin |
@@ -1246,7 +1246,7 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Noção**|
 | - Aquele que desfruta das funcionalidades gratuitas do [Rocket.chat](#l65)|
 |**Impacto** |
-| - [Usuário Community](#l66) pode [criar channel](cenarios.md#c3-v2), [enviar mensagem](#l41), [desenhar](#l43), [anexar arquivo](#l5), [conectar-se a um servidor](cenarios.md#c4-v2), juntar-se a comunidade, criar um servidor, deletar conta, alterar o [status do usuário](#l22), gerar um [permalink](#l15), [reagir a mensagem](#l9), [procurar mensagem](#l11), [remover reação](#l10),  [fixar mensagem](#l3), favoritar mensagem, [mencionar usuário](#l4), [salvar imagem](#l68)|
+| - [Usuário Community](#l66) pode [criar channel](cenarios.md#c3-v2), [enviar mensagem](#l41), [desenhar](#l43), [anexar arquivo](#l5), [conectar-se a um servidor](cenarios.md#c4-v2), juntar-se a comunidade, criar um servidor, deletar conta, alterar o [status do usuário](#l22), gerar um [permalink](#l15-v2), [reagir a mensagem](#l9), [procurar mensagem](#l11), [remover reação](#l10-v2),  [fixar mensagem](#l3), favoritar mensagem, [mencionar usuário](#l4), [salvar imagem](#l68)|
 |**Sinônimos**|
 | - Usuário comum|
 
