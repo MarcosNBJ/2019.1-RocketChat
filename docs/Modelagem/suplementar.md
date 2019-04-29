@@ -110,7 +110,22 @@ O sistema de possuir a opção do usuário adicionar servidores particulares par
 Aqui são listados todos os requisitos referentes a ajuda e suporte aos usuários da aplicação.
 
 ### Requisito de Suporte ao Usuário Um
+A plataforma deve possuir uma documentação bem organizada, no formato de uma Wikia. Que explique todas as funcionalidades e restrições aplicáveis.
 
+### Requisito de Suporte ao Usuário Dois
+Dentro do menu da aplicação deve haver um botão de ajuda. Que leva para uma página com problemas frequentes dos usuário e suas respectivas resoluções, bem como um link para a documentação e para entrar em contato com o suporte caso a ajuda ali não seja suficiente.
+
+### Requisito de Suporte ao Usuário Três
+A equipe de suporte ao usuário deve ser eficiente, de forma que o usuário que entre em contato para receber ajuda com algo deve receber sua resposta idealmente no prazo máximo de 24 horas.
+
+### Requisito de Suporte ao Usuário Quatro
+Deve haver um fórum dedicado a discussão de problemas e submissão de feedbacks acerca da aplicação. Pelo qual tanto os usuário quanto a equipe de desenvolvimento podem se manifestar.
+
+### Requisito de Suporte ao Usuário Cinco
+Por ser uma aplicação Open Source, na documentação deve haver uma secção explicando claramente os passos de como alguém pode contribuir com o projeto.
+
+### Requisito de Suporte ao Usuário Seis
+O repositório da aplicação do Github deve ser bem organizado, de modo que os interessados consigam facilmente submeter problemas, resoluções e feedbacks através das issues.
 
 
 ## Interfaces
@@ -133,3 +148,4 @@ Aqui são abordados os requisitos relacionados a parte legal da aplicação.
 | 29/04/2019 | 1.2 | Preenchendo os requisitos de usabilidade e desempenho | Gabriel Davi|
 | 29/04/2019 | 1.3 | Adição dos requisitos de portabilidade e segurança | Lucas Maciel |
 | 29/04/2019 | André Lucas | Adição dos requisitos de conectividade e tratamento de falhas | 1.4 |
+| 29/04/2019 | 1.5 | Adição dos requisitos de suporte ao usuário | Marcos Nery|
