@@ -36,13 +36,20 @@ Especificação de casos de uso: [ECU]()
 
 ![DCU-1](../img/Modelagem/mandarMSG_v2.png)
 
-## DCU3 - V1
+## DCU3
 ### **Fixar Mensagem**
 Diagrama inspirado pelos cenários **[Fixar Mensagem](cenarios.md#c11)** e **[Visualizar Mensagens Fixadas](cenarios.md#c25)**
 
 [Especificação de casos de uso: ECU - 1](especificacao.md#ec1) e  [Especificação de casos de uso: ECU - 12](especificacao.md#ec12)
 
+### **V1**
+
 ![DCU3](../img/Modelagem/fixar_mensagem_v1.png)
+
+### **V2**
+
+![DCU3](../img/Modelagem/fixar_mensagem_v2.png)
+
 
 ## DCU4 - V1
 ### **Alterar status**
