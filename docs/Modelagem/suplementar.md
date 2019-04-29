@@ -102,6 +102,16 @@ O sistema de possuir a opção do usuário adicionar servidores particulares par
 
 ## Restrições de Design
 
+### Restrição de Design um
+Na página principal do usuário, deverão estar acessíveis os chennels principais que o usuário acessa, um menu com as configurações do aplicativo e opções de suporte, bem como ferramentas de pesquisa para que o usuário procure rapidamente por usuários ou channels.
+
+### Restrição de Design Dois
+Dentro do channel, deverá existir uma interface de edição de texto com ferramentas para formatar e escrever o texto. Bem como menus visíveis com todas as funcionalidades relacionadas aquele channel em específico.
+
+### Restrição de Design Três
+A interface deverá estar disponível na maior pluralidade possível de idiomas.
+
+
 ### Restrição de Design Um
 
 ## Requisitos de Suporte ao usuário
