@@ -10,7 +10,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Objetivo** |
 | Cadastrar um novo [usuário](lexicos.md#l19) |
 |**Contexto** |
-| -Local: Página inical do app do [Rocket.chat](lexicos.md#l65) |
+| -Local: Página inicial do app do [Rocket.chat](lexicos.md#l65) |
 | -pré-condição: Possuir internet, não estar [logado](lexicos.md#l62) na plataforma |
 | -Pós-condição:  [Usuário](lexicos.md#l19) cadastrado |
 |**Atores** |
@@ -45,7 +45,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Objetivo** |
 | Acessar as funcionalidades da plataforma disponíveis para [usuários](lexicos.md#l19) cadastrados |
 |**Contexto** |
-| -Local: Página inical do app do [Rocket.chat](lexicos.md#l65) |
+| -Local: Página inicial do app do [Rocket.chat](lexicos.md#l65) |
 | -pré-condição: Possuir internet, não estar [logado](lexicos.md#l62) na plataforma |
 | -Pós-condição:  [Usuário](lexicos.md#l19) cadastrado |
 |**Atores** |
@@ -109,7 +109,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |  -Pessoa 1 acessa a internet e baixa o [Rocket.chat](lexicos.md#l65) em seu computador.|
 |  -Pessoa 1 pega seu fone de ouvido e testa seu microfone.|
 |  -Pessoa 2 acessa a internet e baixa o [Rocket.chat](lexicos.md#l65) em seu celular.|
-|  -Pessoa 2 testa o microfone e autofalante de seu celular, já que não possui fones de ouvido.|
+|  -Pessoa 2 testa o microfone e auto-falante de seu celular, já que não possui fones de ouvido.|
 |  -Pessoa um entra em sua [conta](lexicos.md#l67) no [Rocket.chat](lexicos.md#l65) e procura o [usuário](lexicos.md#l19) da Pessoa 2.|
 |  -Pessoa 1 entra em um bate papo com a pessoa 2. |
 |  -Pessoa 1 seleciona a opção “Realizar [Vídeo conferência](lexicos.md#l25)” e manda o convite para a pessoa 2.|
@@ -441,7 +441,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) escreve o conteúdo desejado|
 |- [Usuário](lexicos.md#l19) envia a resposta|
 |**Levantado pela técnica**|
-| - [StotyBoarding](../Elicitação/StotyBoarding.md) |
+| - [StoryBoarding](../Elicitação/StoryBoarding.md) |
 
 
 ### C7 - V2
@@ -475,7 +475,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) escreve o conteúdo desejado na caixa de diálogo que aparece|
 |- [Usuário](lexicos.md#l19) envia a resposta|
 |**Levantado pela técnica**|
-| - [StotyBoarding Requisito 1](../Elicitação/StotyBoarding.md#4-requisitos-obtidos) |
+| - [StoryBoarding Requisito 1](../Elicitação/StoryBoarding.md#4-requisitos-obtidos) |
 
 
 
@@ -615,7 +615,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) envia o arquivo|
 |**Levantado pela técnica**|
 | - [Questionário requisito Q6](../Elicitação/questionario.md#requisitos-elicitados)|
-| - [Introspecção requsito INT2.1 ](../Elicitação/Introspeccao.md#introspeccao-02) |
+| - [Introspecção requisito INT2.1 ](../Elicitação/Introspeccao.md#introspeccao-02) |
 
 
 
@@ -721,7 +721,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) envia a [mensagem](lexicos.md#l42) clicando no botão presente na caixa de texto para essa finalidade|
 |**Levantado pela técnica**|
 | - [Questionário](../Elicitação/questionario.md)|
-| - [StotyBoarding](../Elicitação/storyboarding.md) |
+| - [StoryBoarding](../Elicitação/storyboarding.md) |
 
 
 ### C12 - V2
@@ -756,8 +756,8 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) insere um [Emoji](lexicos.md#l7) se quiser|
 |- [Usuário](lexicos.md#l19) envia a [mensagem](lexicos.md#l42) clicando no botão presente na caixa de texto para essa finalidade|
 |**Levantado pela técnica**|
-| - [Introspecção requsito INT4.1 ](../Elicitação/Introspeccao.md#introspeccao-04)|
-| - [StotyBoarding Requisito 1](../Elicitação/storyboarding.md#4-requisitos-obtidos) |
+| - [Introspecção requisito INT4.1 ](../Elicitação/Introspeccao.md#introspeccao-04)|
+| - [StoryBoarding Requisito 1](../Elicitação/storyboarding.md#4-requisitos-obtidos) |
 
 
 

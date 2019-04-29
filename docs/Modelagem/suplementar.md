@@ -11,7 +11,7 @@ O escopo é definido por uma plataforma de chat, focada em uso profissional e ch
  Listados nos [Léxicos](lexicos.md).
 
 ### Visão Geral
-   TOPICOS ABORDADOS DAQUI PRA FRENTE
+   TÓPICOS ABORDADOS DAQUI PRA FRENTE
 
 ## Funcionalidades
 
@@ -34,7 +34,7 @@ O sistema deve dar avisos ao usuário quando alguma ação importante ocorrer na
 O sistema deve fornecer feedbacks ao usuário, de forma que ele entenda o antes, durante e depois das suas ações no sistema.
 
 ###Requisito de usabilidade Cinco
-O sistema deve pssuir ícones e cores que condizem com alguma ação que será realizada no aplicativo
+O sistema deve possuir ícones e cores que condizem com alguma ação que será realizada no aplicativo
 
 ###Requisito de usabilidade Seis
 O sistema deve fornecer avisos quando houver algum erro no ato de uma ação.
@@ -47,7 +47,7 @@ Este tópico descreve as restrições de comportamento geral do sistema.
 A aplicação deve ser capaz de responder com rapidez a uma ação de um usuário.
 
 ### Requisito de Desempenho Dois
-O sistema deve possuir servidores eficientes para o suporte e tratamento do fluxo de dados criado pelos diversos usuários sem gerar sobrecarga, considerando também o suporte a escabilidade de usuários ao longo do ciclo de existência do aplicativo.
+O sistema deve possuir servidores eficientes para o suporte e tratamento do fluxo de dados criado pelos diversos usuários sem gerar sobrecarga, considerando também o suporte a escalabilidade de usuários ao longo do ciclo de existência do aplicativo.
 
 ## Portabilidade
 Aqui são listados os requisitos da aplicação quanto a sua portabilidade, em diferentes plataformas.
@@ -75,7 +75,7 @@ Aqui são tratados os requerimentos da aplicação quanto a sua segurança e a s
 A aplicação deve fornecer um sistema de autenticação segura, por meio de e-mail ou nome de usuário, acrescido da senha do usuário.
 
 ### Requisito de Segurança Dois
-A aplicação deve oferecer a opção de Criptografar as mensagens dos grupos privados e mensagens diretas na aplicação, atravé de uma chave E2E única para cada usuário no servidor principal compartilhado da Rocket.Chat
+A aplicação deve oferecer a opção de Criptografar as mensagens dos grupos privados e mensagens diretas na aplicação, através de uma chave E2E única para cada usuário no servidor principal compartilhado da Rocket.Chat
 
 ### Requisito de Segurança Três
 O sistema de possuir a opção do usuário adicionar servidores particulares para a prevenção e segurança dos seus dados.

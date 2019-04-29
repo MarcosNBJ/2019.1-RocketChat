@@ -1,6 +1,6 @@
 # Léxicos
 
-Aqui estão listados os lexicos, que são termos específicos do contexto do domínio da aplicação, para os quais agora estão listadas uma descrição de significado, seus sinônimos, impactos. E também uma classificação, que pode ser de objeto, verbo ou estado. O segundo para ações, o terceiro para estados, e o primeiro para os quais não se encaixam nas outras duas e se referem apenas para termos, os quais tem um significado, mas não ações.
+Aqui estão listados os léxicos, que são termos específicos do contexto do domínio da aplicação, para os quais agora estão listadas uma descrição de significado, seus sinônimos, impactos. E também uma classificação, que pode ser de objeto, verbo ou estado. O segundo para ações, o terceiro para estados, e o primeiro para os quais não se encaixam nas outras duas e se referem apenas para termos, os quais tem um significado, mas não ações.
 
 
 
@@ -269,7 +269,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - O [usuário](#l19) clica em uma mensagem, e então vai até a opção “Copiar [Permalink](#l15) ”, que o permite copiar um link que leva diretamente para a mensagem selecionada dentro do [channel](#l1).|
 |**Impacto** |
 |- É gerado um [Permalink](#l15), que o [usuário](#l19) pode então compartilhar com outros [usuários](#l19).|
-|- Outros [usuários](#l19) que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidcionar reação](#l9) ou [responder](#l56).|
+|- Outros [usuários](#l19) que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidicionar reação](#l9) ou [responder](#l56).|
 
 
 ### L13 - V2
@@ -282,7 +282,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - O [usuário](#l19) clica em uma [mensagem](#l42), e então vai até a opção “Copiar [Permalink](#l15) ”, que o permite copiar um link que leva diretamente para a [mensagem](#l42) selecionada dentro do [channel](#l1).|
 |**Impacto** |
 |- É gerado um [Permalink](#l15), que o [usuário](#l19) pode então compartilhar com outros [usuários](#l19). Seja pelo próprio app ou por fora.|
-|- Outros [usuários](#l19) que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidcionar reação](#l9) ou [responder mensagem](#l56).|
+|- Outros [usuários](#l19) que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidicionar reação](#l9) ou [responder mensagem](#l56).|
 
 
 ### L14
@@ -500,7 +500,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Sinônimos**|
 | - Videoconferência |
 | - Reunião Online |
-| - Webconferência |
+| - Web conferência |
 | - Chamada de video |
 
 ### L26
@@ -778,7 +778,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 |- Ação realizada pelo [usuário](#l19).|
 |- Para ser desfavoritado, o [channel](#l1) deverá estar [favoritado](#l34).|
-|- O [usuário](#l19) vai até um [channel favoritado](#l34) e dá um click no ícone da estrela, para desfavorita-lo.|
+|- O [usuário](#l19) vai até um [channel favoritado](#l34) e dá um click no ícone da estrela, para desfavoritá-lo.|
 |**Impacto** |
 |- O canal não irá mais aparecer em [destaque](#l34) na lista de [channels](#l1) do [usuário](#l19). |
 |- O [usuário](#l19) poderá [favoritar](#l35) novamente o channel. |
@@ -931,7 +931,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Noção**|
 | - Ação realizada por um [usuário](#l19) em um grupo, channel ou chat pessoal
 | - Maneira alternativa de criar uma mensagem através da criação de um desenho no momento em que se cria a mensagem |
-| - [Usuário](#l19) deseja expressar uma idéia ou informação através de um desenho |
+| - [Usuário](#l19) deseja expressar uma ideia ou informação através de um desenho |
 | - Opção disponível na versão mobile do aplicativo |
 |**Impacto** |
 | - [Usuários](#l19) presentes em um grupo, channel ou chat pessoal vão poder visualizar a mensagem em formato de desenho |
@@ -1363,7 +1363,7 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | 21/04/2019 | 1.6 | Adição dos léxicos L1, L2, L3, L23, L24,L55-L58 | Gabriel Davi |
 | 21/04/2019 | 1.7 | Adição dos léxicos L5, L8, L11, L17, L21, L44-L47 | Weiller Fernandes |
 | 21/04/2019 | 1.8 | Adição dos léxicos L29-L31, L52-L54, L59, L62, L68 | André Lucas |
-| 22/04/2019 | 1.9 | Linkando alguns lexicos | Gabriel Davi |
+| 22/04/2019 | 1.9 | Linkando alguns léxicos | Gabriel Davi |
 | 22/04/2019 | 2.0 | Linkando alguns léxicos | Weiller Fernandes|
 | 22/04/2019 | 2.1 | Adição dos léxicos L69 e L70 | João Lucas |
 | 23/04/2019 | 2.2 | Editando alguns léxicos e adicionando léxico L71 | Weiller Fernandes |

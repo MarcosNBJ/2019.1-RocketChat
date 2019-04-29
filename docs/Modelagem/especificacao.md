@@ -64,7 +64,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | - [Usuário](lexicos.md#l19) dono do grupo |
 | - [Usuário](lexicos.md#l19) criador do grupo |
 |**Pré-Condições**|
-| - [Usuário](lexicos.md#l19) deve estar lógado |
+| - [Usuário](lexicos.md#l19) deve estar logado |
 | - [Usuário](lexicos.md#l19) deve possuir internet com conexão de mínima qualidade |
 | - [Usuário](lexicos.md#l19) deve ser dono do grupo ou criador do grupo|
 |**Fluxo Principal**|
@@ -90,9 +90,9 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Atores**|
 | - [Usuário](lexicos.md#l19)|
 |**Pré-Condições**|
-| - [Usuário](lexicos.md#l19) deve estar lógado |
+| - [Usuário](lexicos.md#l19) deve estar logado |
 |**Fluxo Principal**|
-| 1 - Usuário abre o aplicativo e faz login <br> 2 - Usuário perta no menu lateral do aplicativo no canto superior esquerdo <br> 3 - Usuário clica no botão Criar chat <br> 4 - Usuário seleciona a opção Read only channel e cria o channel |
+| 1 - Usuário abre o aplicativo e faz login <br> 2 - Usuário aperta no menu lateral do aplicativo no canto superior esquerdo <br> 3 - Usuário clica no botão Criar chat <br> 4 - Usuário seleciona a opção Read only channel e cria o channel |
 | **Fluxos Alternativos** |
 | - |
 | **Fluxos de Exceção**|
@@ -231,10 +231,10 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | 1 - Usuário criador do channel abre o aplicativo e faz login <br> 2 - Usuário procura o channel criado por ele <br> 3 - Usuário criador do channel entra no channel criado por ele <br> 4 - Usuário criador do channel clica na lista de membros na parte superior direita <br> 5 - Usuário criador do channel clica nos tres pontos ao lado do [usuário](lexicos.md#l19) o qual deseja tornar proprietário do channel |
 |**Fluxos Alternativos**|
 | __FA1__ - No passo 2 o criador do channel procura seu channel pela funcionalidade de busca no canto superior direito |
-|**Fluxos de Excessão**|
+|**Fluxos de Exceção**|
 | __FE1__ - Sem conexão com a internet |
 | __FE2__ - No passo 2 o usuário não consegue achar o channel pois ele foi apagado |
-| __FE3__ - No passo 4 o usuário criardor não consegue definir um novo propriétario pois outro proprietário retirou sua permissão |
+| __FE3__ - No passo 4 o usuário criador não consegue definir um novo proprietário pois outro proprietário retirou sua permissão |
 |**Pós-Condição**|
 | - Usuário selecionado se torna proprietário do grupo |
 |**Cenário**|
@@ -256,10 +256,10 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | - O [usuário](lexicos.md#l19) deve possuir conexão com a internet |
 |**Fluxo Principal**|
 | 1 - Usuário abre o aplicativo e faz login <br> 2 - Usuário abre uma conversa privada <br> 3 - Usuário clica no simbolo de emoji presente no canto inferior direito <br> 4 - Usuário clica no circulo amarelo abaixo dos [emojis](lexicos.md#l7), no conto inferior direito <br> 5 - [Usuário](lexicos.md#l19) escolhe a cor de pele padrão <br> 6 - Usuário retorna a conversa |
-|**Fluxos ALternativos**|
+|**Fluxos Alternativos**|
 | __FA1__ - No passo 2 do fluxo principal o usuário seleciona um channel ao invés de uma conversa privada |
 | __FA2__ - No passo 6 o usuário retorna ao channel ao invés da conversa caso tenha usado o __FA1__ |
-|**Fluxo de Excessão**|
+|**Fluxo de Exceção**|
 | __FE1__ - Sem conexão com a internet |
 |**Pós-Condição**|
 | - Os emojis quando clicados aparecerão com o tom de pele escolhido pelo usuário |
@@ -287,7 +287,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | __FA2__ - No passo 7 do fluxo principal <br> 1 - Usuário pode criar um channel sem outros membros |
 | **Fluxos de Exceção**|
 | __FE1__ - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão |
-| __FE2__ - No passo 6 do fluxo principal <br> 1 - Usuário não define o nome do channel <br> 2 - Botão "check", não estará disponivel |
+| __FE2__ - No passo 6 do fluxo principal <br> 1 - Usuário não define o nome do channel <br> 2 - Botão "check", não estará disponível |
 | **Pós Condições**|
 | - [Channel](lexicos.md#l1) estará criado |
 | **Cenário** |
@@ -428,11 +428,11 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |*FA3* - [Anexar arquivo](#ec16)  **[FP -2]**|
 | **Fluxos de Exceção**|
 | *FE1* - Queda de conexão **[Todo o processo]**|
-| *FE2* - Numero máximo de caractéres excedido **[FP-4]**|
+| *FE2* - Numero máximo de caracteres excedido **[FP-4]**|
 | **Pós Condições**|
 | A mensagem enviada pelo usuário poderá ser vista no channel pelos outros usuários membros.|
 |**Requerimentos especiais**|
-| O limite máximo de caractéres deve ser satisfatório.|
+| O limite máximo de caracteres deve ser satisfatório.|
 | As ferramentas de edição e formatação do texto devem oferecer grande quantidade de recursos.|
 | **Cenário** |
 | **[Enviar mensagem](cenarios.md#c12)** |
@@ -485,7 +485,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Anexar desenho**|
 |--|
 | **Descrição**|
-|Anexar um dsenho digital, feito na plataforma, a mensagem|
+|Anexar um desenho digital, feito na plataforma, a mensagem|
 | **Atores** |
 | Usuário Logado|
 | **Pré Condições** |
@@ -494,7 +494,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |1- Logar no servidor|
 |2- Clicar no channel desejado|
 |3- Clicar no botão de anexar arquivo|
-|4- Seecionar a opção desenho|
+|4- Selecionar a opção desenho|
 |5- Desenhar|
 |6- Confirmar desenho|
 | **Fluxos Alternativos (FA)** |
@@ -504,7 +504,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Pós Condições**|
 |O usuário poderá enviar a mensagem com o desenho anexado|
 |**Requerimentos especiais**|
-| A plataforma deve oferecer uma interface intuitíva de desenho, que ofereça ferramentas como coloração, apagador e tipo do pincel.|
+| A plataforma deve oferecer uma interface intuitiva de desenho, que ofereça ferramentas como coloração, apagador e tipo do pincel.|
 | **Cenário** |
 | **[Anexar um desenho](cenarios.md#c8)**|
 |**Diagrama**|
@@ -559,7 +559,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |3-  Clicar na mensagem que deseja editar|
 |4-  Clicar na opção editar|
 |5-  Entrar no modo de edição de mensagem|
-|6-  Clicar no botão enviar, fnalizando a edição|
+|6-  Clicar no botão enviar, finalizando a edição|
 | **Fluxos Alternativos (FA)** |
 | *FA1* - Procurar por channel fora da lista. **[FP-1]**|
 | *FA2* - Pesquisar por uma mensagem no channel.**[FP-2]**|
@@ -621,17 +621,17 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |-Possuir possuir email |
 |-Ter acesso a plataforma em seu computador/celular |
 | **Fluxo Principal** |
-|1. Usuário acessa a página inicial de login<br>2. Usuário clica em registrar nova conta<br>3. Usuário acessa página de cadastro**[FA1]**<br>4. Usuário faz o cadastro pelo formulário**[FA2]**<br>5. Usuário preeche o campo de nome**[FE1]**<br>6. O usuário preenche o campo de email**[FE2]**<br>7. Usuário preenche o campo de senha**[FE3]**<br>8. Usuário preeche o campo de confirmação de senha**[FE4]**|
+|1. Usuário acessa a página inicial de login<br>2. Usuário clica em registrar nova conta<br>3. Usuário acessa página de cadastro**[FA1]**<br>4. Usuário faz o cadastro pelo formulário**[FA2]**<br>5. Usuário preenche o campo de nome**[FE1]**<br>6. O usuário preenche o campo de email**[FE2]**<br>7. Usuário preenche o campo de senha**[FE3]**<br>8. Usuário preenche o campo de confirmação de senha**[FE4]**|
 | **Fluxos Alternativos** |
 |**FA1** - No passo 3 do fluxo principal:<br>1. O usuário pode clicar em "retornar para a página de login" e retornar para a página de login|
-|**FA2** - No passo 4 do fluxo princial:<br>1. O usuário pode criar sua conta usando redes sociais**[FE5]**<br>1.1 usuário pode cadastrar usando o facebook<br>1.2 usuário pode cadastrar usando o Google + <br>1.3 usuário pode cadastrar usando o Twitter<br>1.4 usuário pode cadastrar usando o Github<br>1.5 usuário pode cadastrar usando o GitLab<br>1.6 usuário pode cadastrar usando o meteor<br>|
+|**FA2** - No passo 4 do fluxo principal:<br>1. O usuário pode criar sua conta usando redes sociais**[FE5]**<br>1.1 usuário pode cadastrar usando o facebook<br>1.2 usuário pode cadastrar usando o Google + <br>1.3 usuário pode cadastrar usando o Twitter<br>1.4 usuário pode cadastrar usando o Github<br>1.5 usuário pode cadastrar usando o GitLab<br>1.6 usuário pode cadastrar usando o meteor<br>|
 | **Fluxos de Exceção**|
-|**FE1** - No passo 5 do fluxo principal<br>1. O campo  de nome opde estar em branco|
+|**FE1** - No passo 5 do fluxo principal<br>1. O campo  de nome pode estar em branco|
 |**FE2** - No passo 6 do fluxo principal<br>1. Campo de email pode estar em branco ou o email pode ser inexistente|
 |**FE3** - No passo 7 do fluxo principal<br>1. Senha fraca ou campo em branco|
-|**FE4** - No passo 8 do fluxo princial<br>1. Campo de confirmação de senha não coincide com o campo de senha|
+|**FE4** - No passo 8 do fluxo principal<br>1. Campo de confirmação de senha não coincide com o campo de senha|
 |**FE5** - No FA2<br>1. Rede social informada incorreta|
-|**FE6** - Em qualquer momento da interação<br>1. Pode ocorrer falaha na conexão|
+|**FE6** - Em qualquer momento da interação<br>1. Pode ocorrer falha na conexão|
 | **Pós Condições**|
 |- Usuário passa a possuir uma nova conta no  Rocket.chat|
 |**Requerimentos especiais**|
@@ -657,10 +657,10 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Fluxo Principal** |
 |1.Entrar na página inical do rocket.chat<br>2. Buscar o grupo no  qual deseja sair pela barra lateral onde se encontram os grupos**[FA1][FE2]**<br>2. Clicar nos 3 pontos ao lado do ícone do grupo<br>3. Escolher entre as opções mostradas a de "Deixar grupo"<br>4. Confirmar a retirada do grupo**[FA2]** |
 | **Fluxos Alternativos** |
-| **FA1** - No passo 2 do fluxo principal<br>1. O usuário pode pesquiser o grupo usando a ferramenta de pesquisa|
+| **FA1** - No passo 2 do fluxo principal<br>1. O usuário pode pesquisar o grupo usando a ferramenta de pesquisa|
 | **FA2** - No passo 4 do fluxo principal<br>1. O usuário pode clicar em cancelar|
 | **Fluxos de Exceção**|
-|**FE1** - Em qualquer momento da interação<br>1. Pode ocorrer falaha na conexão|
+|**FE1** - Em qualquer momento da interação<br>1. Pode ocorrer falha na conexão|
 |**FE2** - No passo2 do fluxo principal:<br>1. O grupo pode não ser encontrado |
 | **Pós Condições**|
 |- Usuário não mais participa do grupo|
@@ -685,12 +685,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |- Participar de um grupo  |
 |- Possuir acesso a internet  |
 | **Fluxo Principal** |
-|1.Entrar na página inical do rocket.chat<br>2. Buscar o grupo no  qual deseja esconder pela barra lateral onde se encontram os grupos**[FA1][FE2]**<br>2. Clicar nos 3 pontos ao lado do ícone do grupo<br>3. Escolher entre as opções mostradas a de "Esconder grupo"<br>4. Confirmar ação**[FA2]** |
+|1.Entrar na página inicial do rocket.chat<br>2. Buscar o grupo no  qual deseja esconder pela barra lateral onde se encontram os grupos**[FA1][FE2]**<br>2. Clicar nos 3 pontos ao lado do ícone do grupo<br>3. Escolher entre as opções mostradas a de "Esconder grupo"<br>4. Confirmar ação**[FA2]** |
 | **Fluxos Alternativos** |
-| **FA1** - No passo 2 do fluxo principal<br>1. O usuário pode pesquiser o grupo usando a ferramenta de pesquisa|
+| **FA1** - No passo 2 do fluxo principal<br>1. O usuário pode pesquisar o grupo usando a ferramenta de pesquisa|
 | **FA2** - No passo 4 do fluxo principal<br>1. O usuário pode clicar em cancelar|
 | **Fluxos de Exceção**|
-|**FE1** - Em qualquer momento da interação<br>1. Pode ocorrer falaha na conexão|
+|**FE1** - Em qualquer momento da interação<br>1. Pode ocorrer falha na conexão|
 |**FE2** - No passo2 do fluxo principal:<br>1. O grupo pode não ser encontrado |
 | **Pós Condições**|
 |- Grupo possa e ser escondido|
