@@ -302,11 +302,12 @@
 | - Usuário deve estar logado no aplicativo |
 | - Usuário deve ser integrante em uma room no aplicativo |
 | **Fluxo Principal** |
-| 1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona o Menu de Opções da Room <br> 3 - Seleciona opção de "Mensagens Fixadas" ou "Pinned Messages" para visualizar as mensagens **[FE1]** |
+| 1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona o Menu de Opções da Room <br> 3 - Seleciona opção de "Mensagens Fixadas" ou "Pinned Messages" para visualizar as mensagens **[FE2]** |
 | **Fluxos Alternativos** |
 | - |
 | **Fluxos de Exceção**|
-| __FE1__ - Mensagem fixada foi deletada |
+| __FE1__ - Erro de conexão |
+| __FE2__ - Mensagem fixada foi deletada |
 | **Pós Condições**|
 | - Usuário estará conectado com um servidor |
 | **Cenário** |

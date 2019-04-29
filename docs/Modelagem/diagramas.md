@@ -42,11 +42,11 @@ Diagrama inspirado pelos cenários **[Fixar Mensagem](cenarios.md#c11)** e **[Vi
 
 [Especificação de casos de uso: ECU - 1](especificacao.md#ec1) e  [Especificação de casos de uso: ECU - 12](especificacao.md#ec12)
 
-### **V1**
+- **V1**
 
 ![DCU3](../img/Modelagem/fixar_mensagem_v1.png)
 
-### **V2**
+- **V2**
 
 ![DCU3](../img/Modelagem/fixar_mensagem_v2.png)
 
