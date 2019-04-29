@@ -47,21 +47,38 @@ Este tópico descreve as restrições de comportamento geral do sistema.
 A aplicação deve ser capaz de responder com rapidez a uma ação de um usuário.
 
 ### Requisito de Desempenho Dois
-O sistema deve possuir um servidor eficiente para o suporte e tratamento do fluxo de dados criado pelos diversos usuários sem gerar sobrecarga
-
-
+O sistema deve possuir servidores eficientes para o suporte e tratamento do fluxo de dados criado pelos diversos usuários sem gerar sobrecarga, considerando também o suporte a escabilidade de usuários ao longo do ciclo de existência do aplicativo.
 
 ## Portabilidade
 Aqui são listados os requisitos da aplicação quanto a sua portabilidade, em diferentes plataformas.
 
 ### Requisito de Portabilidade Um
+A aplicação deve estar disponível e ser suportada em dispositivos móveis com sistema operacional Android 5.0 ou superior, incluindo tablets e smartphones
+
+### Requisito de Portabilidade Dois
+A aplicação deve estar disponível e ser suportada em dispositivos móveis com sistema operacional IOS 11.0 ou superior, incluindo dispositivos como Iphone e Ipad.
+
+### Requisito de Portabilidade Três
+A aplicação deve estar disponível e ser suportada em computadores ou notebooks com sistema operacional Windows 7 ou superior.
+
+### Requisito de Portabilidade Quatro
+A aplicação deve estar disponível e ser suportada em computadores ou notebooks com sistema operacional Linux, com processadores de 32 ou 64 bits, incluindo diversas distribuições: CentOs, Baseadas no Debian através dos pacotes .deb ou gerenciadores de pacote (apt ou snap), RedHat ou outras distribuições que suportam pacotes .rpm.
+
+### Requisito de Portabilidade Cinco
+A aplicação deve estar disponível e ser suportada em computadores ou notebooks com sistema operacional MacOs X 10.10.0 ou superior, com processadores de 64 bits.
 
 
 ## Segurança
 Aqui são tratados os requerimentos da aplicação quanto a sua segurança e a segurança dos dados que nela trafegam.
 
 ### Requisito de Segurança Um
+A aplicação deve fornecer um sistema de autenticação segura, por meio de e-mail ou nome de usuário, acrescido da senha do usuário.
 
+### Requisito de Segurança Dois
+A aplicação deve oferecer a opção de Criptografar as mensagens dos grupos privados e mensagens diretas na aplicação, atravé de uma chave E2E única para cada usuário no servidor principal compartilhado da Rocket.Chat
+
+### Requisito de Segurança Três
+O sistema de possuir a opção do usuário adicionar servidores particulares para a prevenção e segurança dos seus dados.
 
 
 ## Restrições de Design
@@ -93,3 +110,4 @@ Aqui são abordados os requisitos relacionados a parte legal da aplicação.
 | 28/04/2019 | 1.0 | Abertura do documento e inclusão do template | Marcos Nery|
 | 28/04/2019 | 1.1 | Preenchimento inicial do documento, de introdução à funcionalidades | Marcos Nery|
 | 29/04/2019 | 1.2 | Preenchendo os requisitos de usabilidade e desempenho | Gabriel Davi|
+| 29/04/2019 | 1.3 | Adição dos requisitos de portabilidade e segurança | Lucas Maciel |
