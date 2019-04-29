@@ -26,7 +26,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Fixar Mensagem](cenarios.md#c11) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu3)|
 
 
 ## EC2
@@ -53,7 +53,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Mudar privacidade do Channel](cenarios.md#c26) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu8-v1)|
 
 
 ## EC3
@@ -77,7 +77,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Criar only read Channel](cenarios.md#c21) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu9-v1)|
 
 
 ## EC4
@@ -215,7 +215,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Cenário**|
 | [Definir membro de channel como proprietário](cenarios.md#c23) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu10-v1)|
 
 
 ##EC9
@@ -241,7 +241,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Cenário**|
 | [Escolher tom de pele padrão](cenarios.md#c21) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu11-v1)|
 
 
 ## EC10
@@ -268,7 +268,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Criar channel](cenarios.md#c3-v2)|
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu16-v1)|
 
 
 ## EC11
@@ -294,7 +294,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Conectar com um servidor](cenarios.md#c4-v2) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu17-v1)|
 
 
 ## EC12
@@ -321,7 +321,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Conectar com um servidor](cenarios.md#c4-v2) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu3)|
 
 
 ## EC13
