@@ -110,22 +110,22 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Alterar Status**|
 |--|
 | **Descrição**|
-| - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa trocar seu status para mostrar sua disponibilidade dentro do app|
+| - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa trocar seu [status](lexicos.md#l22) para mostrar sua disponibilidade dentro do app|
 | **Atores** |
 | - [Usuário](lexicos.md#l19) [logado](lexicos.md#l62) no aplicativo |
 | **Pré Condições** |
 | - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | **Fluxo Principal** |
-| 1 - Usuário acessa página inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica no nome de usuário <br> 4 - Usuário escolhe um dos status disponíveis **[FA1][FA2][FA3]** <br> 5 - Usuário escolhe status online <br> 6 - Usuário tem um novo status|
+| 1 - [Usuário](lexicos.md#l19) acessa página inicial <br> 2 - [Usuário](lexicos.md#l19) abre a aba lateral do app <br> 3 - [Usuário](lexicos.md#l19) clica no [nome de usuário](lexicos.md#l17) <br> 4 - [Usuário](lexicos.md#l19) escolhe um dos [status](lexicos.md#l22) disponíveis **[FA1][FA2][FA3]** <br> 5 - [Usuário](lexicos.md#l19) escolhe [status](lexicos.md#l22) online <br> 6 - [Usuário](lexicos.md#l19) tem um novo [status](lexicos.md#l22)|
 | **Fluxos Alternativos** |
-| __FA1__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe status ausente <br> 2 - Usuário tem um novo status |
-| __FA2__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe status Ocupado <br> 2 - Usuário tem um novo status |
-| __FA3__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe status Invisível <br> 2 - Usuário tem um novo status |
+| __FA1__ - No passo 4 do fluxo principal <br> 1 - [Usuário](lexicos.md#l19) escolhe [status](lexicos.md#l22) ausente <br> 2 - [Usuário](lexicos.md#l19) tem um novo [status](lexicos.md#l22) |
+| __FA2__ - No passo 4 do fluxo principal <br> 1 - [Usuário](lexicos.md#l19) escolhe [status](lexicos.md#l22) Ocupado <br> 2 - [Usuário](lexicos.md#l19) tem um novo [status](lexicos.md#l22) |
+| __FA3__ - No passo 4 do fluxo principal <br> 1 - [Usuário](lexicos.md#l19) escolhe [status](lexicos.md#l22) Invisível <br> 2 - [Usuário](lexicos.md#l19) tem um novo [status](lexicos.md#l22) |
 | **Fluxos de Exceção**|
 | __FE1__ - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão |
 | **Pós Condições**|
-| - O status será diferente do status inicial |
+| - O [status](lexicos.md#l22) será diferente do [status](lexicos.md#l22) inicial |
 | **Cenário** |
 | - [Alterar Status](cenarios.md#c10) |
 |**Diagrama**|
@@ -144,12 +144,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | **Fluxo Principal** |
-| 1 - Usuário acessa página inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário abre o perfil <br> 4 - Usuário clica em "Deletar Conta"**[FA1]** <br> 5 - Usuário digita senha**[FA1][FE2]** <br> 6 - Usuário clica em "Deletar Conta" novamente <br> 7 - Usuário tem sua conta deletada |
+| 1 - [Usuário](lexicos.md#l19) acessa página inicial <br> 2 - [Usuário](lexicos.md#l19) abre a aba lateral do app <br> 3 - [Usuário](lexicos.md#l19) abre o perfil <br> 4 - [Usuário](lexicos.md#l19) clica em "Deletar Conta"**[FA1]** <br> 5 - [Usuário](lexicos.md#l19) digita senha**[FA1][FE2]** <br> 6 - [Usuário](lexicos.md#l19) clica em "Deletar Conta" novamente <br> 7 - [Usuário](lexicos.md#l19) tem sua conta deletada |
 | **Fluxos Alternativos** |
-| __FA1__ - Nos passos 4 ou 5 do fluxo principal <br> 1 - Usuário clica em cancelar <br> 2 - A conta do usuário é mantida |
+| __FA1__ - Nos passos 4 ou 5 do fluxo principal <br> 1 - [Usuário](lexicos.md#l19) clica em cancelar <br> 2 - A conta do [usuário](lexicos.md#l19) é mantida |
 | **Fluxos de Exceção**|
 | __FE1__ - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão |
-| __FE2__ - No passo 5 do fluxo principal <br> 1 - Usuário digita sua senha errado <br> 2 - A conta do usuário é mantida |
+| __FE2__ - No passo 5 do fluxo principal <br> 1 - [Usuário](lexicos.md#l19) digita sua senha errado <br> 2 - A conta do [usuário](lexicos.md#l19) é mantida |
 | **Pós Condições**|
 | - A conta será deletada com sucesso |
 | **Cenário** |
@@ -171,10 +171,10 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | - [Usuário](lexicos.md#l19) deve estar participando de algum channel que possua mensagens enviadas |
 | **Fluxo Principal** |
-| 1 - Usuário acessa página inicial <br> 2 - Usuário abre um channel**[FA1][FE2]** <br> 3 - Usuário clica em uma mensagem**[FA2]** <br> 4 - Usuário clica em "Favoritar" <br> 5 - Mensagem é favoritada |
+| 1 - [Usuário](lexicos.md#l19) acessa página inicial <br> 2 - Usuário abre um channel**[FA1][FE2]** <br> 3 - Usuário clica em uma mensagem**[FA2]** <br> 4 - Usuário clica em "Favoritar" <br> 5 - Mensagem é favoritada |
 | **Fluxos Alternativos** |
-| __FA1__ - No passo 2 do fluxo principal <br> 1 - Usuário clica no nome do channel <br> 2 - Usuário clica em "Mensagens Favoritas" <br> 3 - Usuário visualiza as mensagens favoritadas |
-| __FA2__ - No passo 3 do fluxo principal <br> 1 - Usuário clica em "Desfavoritar Mensagem" <br> 2 - Mensagem é desfavoritada |
+| __FA1__ - No passo 2 do fluxo principal <br> 1 - [Usuário](lexicos.md#l19) clica no nome do channel <br> 2 - [Usuário](lexicos.md#l19) clica em "Mensagens Favoritas" <br> 3 - [Usuário](lexicos.md#l19) visualiza as mensagens favoritadas |
+| __FA2__ - No passo 3 do fluxo principal <br> 1 - [Usuário](lexicos.md#l19) clica em "Desfavoritar Mensagem" <br> 2 - Mensagem é desfavoritada |
 | **Fluxos de Exceção**|
 | __FE1__ - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão |
 | __FE2__ - No passo 2 do fluxo principal <br> Channel não possui nenhuma mensagem |
@@ -200,15 +200,15 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | - [Usuário](lexicos.md#l19) deve estar participando de algum chat em grupo |
 | **Fluxo Principal** |
-| 1 - Usuário acessa página inicial <br> 2 - Usuário abre um channel em grupo <br> 3 - Usuário clica no nome do channel <br> 4 - Usuário clica em "Membros"**[FE2]** <br> 5 - Usuário visualiza os membros do grupo e suas informações**[FA1][FA2]** |
+| 1 - [Usuário](lexicos.md#l19) acessa página inicial <br> 2 - [Usuário](lexicos.md#l19) abre um channel em grupo <br> 3 - [Usuário](lexicos.md#l19) clica no nome do channel <br> 4 - [Usuário](lexicos.md#l19) clica em "Membros"**[FE2]** <br> 5 - [Usuário](lexicos.md#l19) visualiza os membros do grupo e suas informações**[FA1][FA2]** |
 | **Fluxos Alternativos** |
-| __FA1__ - No passo 5 do fluxo principal <br> 1 - Usuário clica em um determinado membro do grupo <br> 2 - Usuário envia mensagem privada para o membro do grupo |
-| __FA2__ - No passo 5 do fluxo principal <br> 1 - Usuário clica em um determinado membro do grupo <br> 2 - Usuário inicia videochamada com o membro do grupo |
+| __FA1__ - No passo 5 do fluxo principal <br> 1 - [Usuário](lexicos.md#l19) clica em um determinado membro do grupo <br> 2 - [Usuário](lexicos.md#l19) envia mensagem privada para o membro do grupo |
+| __FA2__ - No passo 5 do fluxo principal <br> 1 - [Usuário](lexicos.md#l19) clica em um determinado membro do grupo <br> 2 - [Usuário](lexicos.md#l19) inicia videochamada com o membro do grupo |
 | **Fluxos de Exceção**|
 | __FE1__ - Erro de conexão |
 | __FE2__ - No passo 4 do fluxo principal <br> Channel não possui nenhum membro |
 | **Pós Condições**|
-| - Usuário pode visualizar todos os membros pertencentes a determinado chat em grupo |
+| - [Usuário](lexicos.md#l19) pode visualizar todos os membros pertencentes a determinado chat em grupo |
 | **Cenário** |
 | - [Visualizar Membros de Chat em Grupo](cenarios.md#c14) |
 |**Diagrama**|
@@ -756,3 +756,4 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | 28/04/2019 | 2.0 | Adição de EC15 a EC19 | Marcos Nery |
 | 29/04/2019 | 2.1 | Adição de EC20 a EC23 | Gabriel Davi |
 | 29/04/2019 | 2.2 | Adição EC24 | Lucas Maciel |
+| 29/04/2019 | 2.3 | Adição de links | Weiller Fernandes |
