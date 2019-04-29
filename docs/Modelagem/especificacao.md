@@ -253,7 +253,7 @@
 | - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | **Fluxo Principal** |
-| 1 - Usuário se conecta à um servidor <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica em "Criar chat" <br> 4 - Usuário define se o channel será publico **[FA1]** <br> 5 - Usuário escolhe se o channel será somente para leitura <br> 6 - Usuário define o nome do channel **[FE1]** <br> 7 - Usuário convida membros do channel **[FA2]** <br> 8 - Clica no botão "check" no canto superior direito |
+| 1 - Usuário acessa a pagina inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica em "Criar chat" <br> 4 - Usuário define se o channel será publico **[FA1]** <br> 5 - Usuário escolhe se o channel será somente para leitura <br> 6 - Usuário define o nome do channel **[FE1]** <br> 7 - Usuário convida membros do channel **[FA2]** <br> 8 - Clica no botão "check" no canto superior direito |
 | **Fluxos Alternativos** |
 | __FA1__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe se o channel será privado |
 | __FA2__ - No passo 7 do fluxo principal <br> 1 - Usuário pode criar um channel sem outros membros |
