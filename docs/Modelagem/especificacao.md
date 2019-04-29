@@ -1,4 +1,4 @@
-#Especificação de casos de uso
+# Especificação de Caso de Uso
 
 ## EC0
 
