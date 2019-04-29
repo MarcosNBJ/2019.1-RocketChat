@@ -131,12 +131,14 @@ O repositório da aplicação do Github deve ser bem organizado, de modo que os 
 ## Interfaces
 Aqui são definidos todos os tipos de interface presentes na aplicação.
 
+### Interfaces do Usuário
+A plataforma deverá possuir uma interface gráfica, pela qual os usuários sejam capazes de interagir com todas as funcionalidades para eles disponíveis no sistema.
 
-## Requisitos de Licenciamento
-Aqui são abordados os requisitos relacionados a parte legal da aplicação.
+### Interfaces de Hardware
+Os dispositivos de hardware nos quais a aplicação pode ser instalada são: Computadores Desktop, Notebooks e dispositivos mobile como smartphones e tablets. 
 
-
-### Requisito de Licenciamento um
+### Interfaces de Software
+As definições de linguagens, frameworks e paradigmas para a criação e evolução do software devem ser as quais ofereçam a longo prazo uma fácil manutenção e confiabilidade.
 
 
 ## Versionamento
@@ -149,3 +151,4 @@ Aqui são abordados os requisitos relacionados a parte legal da aplicação.
 | 29/04/2019 | 1.3 | Adição dos requisitos de portabilidade e segurança | Lucas Maciel |
 | 29/04/2019 | André Lucas | Adição dos requisitos de conectividade e tratamento de falhas | 1.4 |
 | 29/04/2019 | 1.5 | Adição dos requisitos de suporte ao usuário | Marcos Nery|
+| 29/04/2019 | 1.6 | Adição da listagem de Interfaces | Marcos Nery|
