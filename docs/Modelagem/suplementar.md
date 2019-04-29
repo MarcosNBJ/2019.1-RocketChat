@@ -31,10 +31,10 @@ O sistema deve dar avisos ao usuário quando alguma ação importante ocorrer na
 ### Requisito de Usabilidade Quatro
 O sistema deve fornecer feedbacks ao usuário, de forma que ele entenda o antes, durante e depois das suas ações no sistema.
 
-###Requisito de usabilidade Cinco
+### Requisito de usabilidade Cinco
 O sistema deve possuir ícones e cores que condizem com alguma ação que será realizada no aplicativo
 
-###Requisito de usabilidade Seis
+### Requisito de usabilidade Seis
 O sistema deve fornecer avisos quando houver algum erro no ato de uma ação.
 
 ## Desempenho
@@ -112,12 +112,7 @@ Dentro do channel, deverá existir uma interface de edição de texto com ferram
 A interface deverá estar disponível na maior pluralidade possível de idiomas.
 
 
-### Restrição de Design Quatro
-Possíveis ações a serem realizadas detro do canal devem estar claras para o usuário de como podem ser realizadas
-
-### Restrição de Design Cinco
-O aplicativo deve deixar claro ao usuário em qual região da plataforma o mesmo está situado, como por exemplo, em qual channel o usuário se encontra
-
+### Restrição de Design Um
 
 ## Requisitos de Suporte ao usuário
 Aqui são listados todos os requisitos referentes a ajuda e suporte aos usuários da aplicação.
@@ -179,3 +174,4 @@ A aplicação é licenciada sob a MIT License. É permitido o uso, copía, modif
 | 29/04/2019 | 1.5 | Adição dos requisitos de suporte ao usuário | Marcos Nery|
 | 29/04/2019 | 1.6 | Adição da listagem de Interfaces | Marcos Nery|
 | 29/04/2019 | 1.7 | Adição das observações legais e copyright | Heron Rodrigues|
+| 29/04/2019 | 1.8 | Adição dos requisitos de licenciamento | Heron Rodrigues|
