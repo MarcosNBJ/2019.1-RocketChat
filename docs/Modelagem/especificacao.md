@@ -394,16 +394,16 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | Usuário Logado.|
 | **Pré Condições** |
 | O usuário ter conta no aplicativo e estar dentro do channel. |
-| **Fluxo Principal (FE)** |
+| **Fluxo Principal (FP)** |
 |1- Entrar na sua lista de channels no aplicativo.|
 |2- Entrar no channel desejado.|
 |3- Digitar o texto da mensagem|
 |4- Enviar mensagem|
-| **Fluxos Alternativos** |
+| **Fluxos Alternativos (FA)** |
 |*FA1* - Procurar por channel fora da lista. **[FP-1]**|
 |*FA2* - Selecionar mensagem para [responder](#ec38) **[FP -2]**|
 |*FA3* - [Anexar arquivo](#ec16)  **[FP -2]**|
-| **Fluxos de Exceção**|
+| **Fluxos de Exceção (FE)**|
 | *FE1* - Queda de conexão **[Todo o processo]**|
 | *FE2* - Numero máximo de caracteres excedido **[FP-4]**|
 | **Pós Condições**|
@@ -427,13 +427,13 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | Usuário Logado.|
 | **Pré Condições** |
 | O usuário ter conta no aplicativo e estar dentro do channel. |
-| **Fluxo Principal (FE)** |
+| **Fluxo Principal (FP)** |
 |1- Entrar na sua lista de channels no aplicativo.|
 |2- Entrar no channel desejado.|
 |3- Clicar no botão de "anexar arquivo" dentro da caixa de texto.|
 |4- Selecionar o tipo de arquivo a ser anexado. |
 |5- Confirmar o arquivo.|
-| **Fluxos Alternativos** |
+| **Fluxos Alternativos (FA)** |
 |*FA1* - Procurar por channel fora da lista. **[FP-1]**|
 |*FA2* -  Seleciona o tipo "Tirar Foto" **[FP-4]**|
 | 1- Tirar foto com a câmera|
@@ -443,7 +443,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | 2- Seleciona o arquivo desejado |
 |*FA4* -  Seleciona o tipo "Desenho" **[FP-4]**|
 | 1- [Anexa um desenho](#ec17)|
-| **Fluxos de Exceção**|
+| **Fluxos de Exceção (FE)**|
 | *FE1* - Queda de conexão **[Todo o processo]**|
 | *FE2* - Formato de arquivo não suportado **[FA3-2]**|
 | *FE3* - Falha no envio **[FA3-2]**|
@@ -467,7 +467,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | Usuário Logado|
 | **Pré Condições** |
 |O usuário ter conta no aplicativo e estar dentro do channel|
-| **Fluxo Principal** |
+| **Fluxo Principal (FP)** |
 |1- Logar no servidor|
 |2- Clicar no channel desejado|
 |3- Clicar no botão de anexar arquivo|
@@ -476,7 +476,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |6- Confirmar desenho|
 | **Fluxos Alternativos (FA)** |
 | *FA1* - Procurar por channel fora da lista. **[FP-1]**|
-| **Fluxos de Exceção**|
+| **Fluxos de Exceção (FE)**|
 | *FE1* - Queda de conexão **[Todo o processo]**|
 | **Pós Condições**|
 |O usuário poderá enviar a mensagem com o desenho anexado|
@@ -498,7 +498,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | Usuário logado|
 | **Pré Condições** |
 | O usuário ter conta no aplicativo e estar dentro do channel|
-| **Fluxo Principal** |
+| **Fluxo Principal (FP)** |
 |1- Logar no servidor|
 |2- Clicar no channel desejado|
 |3- Clicar na mensagem que deseja responder|
@@ -507,7 +507,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Fluxos Alternativos (FA)** |
 | *FA1* - Procurar por channel fora da lista. **[FP-1]**|
 | *FA2* - Pesquisar por uma mensagem no channel.**[FP-2]**|
-| **Fluxos de Exceção**|
+| **Fluxos de Exceção (FE)**|
 | *FE1* - Queda de conexão **[Todo o processo]**|
 | *FE2* - Mensagem foi apagada **[FP-3]**|
 | **Pós Condições**|
@@ -540,7 +540,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Fluxos Alternativos (FA)** |
 | *FA1* - Procurar por channel fora da lista. **[FP-1]**|
 | *FA2* - Pesquisar por uma mensagem no channel.**[FP-2]**|
-| **Fluxos de Exceção**|
+| **Fluxos de Exceção (FE)**|
 | *FE1* - Queda de conexão **[Todo o processo]**|
 | *FE2* - Mensagem foi apagada **[FP-6]**|
 | **Pós Condições**|
