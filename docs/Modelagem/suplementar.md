@@ -112,8 +112,6 @@ Dentro do channel, deverá existir uma interface de edição de texto com ferram
 A interface deverá estar disponível na maior pluralidade possível de idiomas.
 
 
-### Restrição de Design Um
-
 ## Requisitos de Suporte ao usuário
 Aqui são listados todos os requisitos referentes a ajuda e suporte aos usuários da aplicação.
 
@@ -170,7 +168,7 @@ A aplicação é licenciada sob a MIT License. É permitido o uso, copía, modif
 | 28/04/2019 | 1.1 | Preenchimento inicial do documento, de introdução à funcionalidades | Marcos Nery|
 | 29/04/2019 | 1.2 | Preenchendo os requisitos de usabilidade e desempenho | Gabriel Davi|
 | 29/04/2019 | 1.3 | Adição dos requisitos de portabilidade e segurança | Lucas Maciel |
-| 29/04/2019 | André Lucas | Adição dos requisitos de conectividade e tratamento de falhas | 1.4 |
+| 29/04/2019 | 1.4 | Adição dos requisitos de conectividade e tratamento de falhas | André Lucas |
 | 29/04/2019 | 1.5 | Adição dos requisitos de suporte ao usuário | Marcos Nery|
 | 29/04/2019 | 1.6 | Adição da listagem de Interfaces | Marcos Nery|
 | 29/04/2019 | 1.7 | Adição das observações legais e copyright | Heron Rodrigues|
