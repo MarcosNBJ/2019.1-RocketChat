@@ -15,7 +15,7 @@ O escopo é definido por uma plataforma de chat, focada em uso profissional e ch
 
 ## Funcionalidades
 
-  Os requisitos funcionais podem ser vistos através das listagens nos métodos de elicitação e também por meio dos [Cenários](cenarios.md), [Casos de uso][diagramas.md], e [especificações dos casos de uso](especificacao.md)
+  Os requisitos funcionais podem ser vistos através das listagens nos métodos de elicitação e também por meio dos [Cenários](cenarios.md), [Casos de uso](diagramas.md), e [especificações dos casos de uso](especificacao.md)
 
 ## Usabilidade
 
