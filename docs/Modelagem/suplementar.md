@@ -10,8 +10,6 @@ O escopo é definido por uma plataforma de chat, focada em uso profissional e ch
 ### Definições, Acrônimos e Abreviações
  Listados nos [Léxicos](lexicos.md).
 
-### Visão Geral
-   TÓPICOS ABORDADOS DAQUI PRA FRENTE
 
 ## Funcionalidades
 
@@ -104,6 +102,16 @@ O sistema de possuir a opção do usuário adicionar servidores particulares par
 
 ## Restrições de Design
 
+### Restrição de Design um
+Na página principal do usuário, deverão estar acessíveis os chennels principais que o usuário acessa, um menu com as configurações do aplicativo e opções de suporte, bem como ferramentas de pesquisa para que o usuário procure rapidamente por usuários ou channels.
+
+### Restrição de Design Dois
+Dentro do channel, deverá existir uma interface de edição de texto com ferramentas para formatar e escrever o texto. Bem como menus visíveis com todas as funcionalidades relacionadas aquele channel em específico.
+
+### Restrição de Design Três
+A interface deverá estar disponível na maior pluralidade possível de idiomas.
+
+
 ### Restrição de Design Um
 
 ## Requisitos de Suporte ao usuário
@@ -135,10 +143,15 @@ Aqui são definidos todos os tipos de interface presentes na aplicação.
 A plataforma deverá possuir uma interface gráfica, pela qual os usuários sejam capazes de interagir com todas as funcionalidades para eles disponíveis no sistema.
 
 ### Interfaces de Hardware
-Os dispositivos de hardware nos quais a aplicação pode ser instalada são: Computadores Desktop, Notebooks e dispositivos mobile como smartphones e tablets. 
+Os dispositivos de hardware nos quais a aplicação pode ser instalada são: Computadores Desktop, Notebooks e dispositivos mobile como smartphones e tablets.
 
 ### Interfaces de Software
 As definições de linguagens, frameworks e paradigmas para a criação e evolução do software devem ser as quais ofereçam a longo prazo uma fácil manutenção e confiabilidade.
+
+
+
+## Observações Legais, de Copyright e Outras
+A aplicação é licenciada sob a MIT License. É permitido o uso, copía, modificação, entre outros, totalmente gratuito garantido pela [licença do software](https://github.com/RocketChat/Rocket.Chat.Hubot/blob/master/LICENSE).
 
 
 ## Versionamento
@@ -152,3 +165,4 @@ As definições de linguagens, frameworks e paradigmas para a criação e evolu�
 | 29/04/2019 | André Lucas | Adição dos requisitos de conectividade e tratamento de falhas | 1.4 |
 | 29/04/2019 | 1.5 | Adição dos requisitos de suporte ao usuário | Marcos Nery|
 | 29/04/2019 | 1.6 | Adição da listagem de Interfaces | Marcos Nery|
+| 29/04/2019 | 1.7 | Adição das observações legais e copyright | Heron Rodrigues|
