@@ -129,7 +129,7 @@ Diagrama inspirado pelo cenário **[Escolher tom de pele padrão](cenarios.md#21
 ### **Pesquisa de mensagem**
 Diagrama inspirado pelo cenário **[Pesquisar mensagem](cenarios.md#c17)**
 
-Especificação de casos de uso: [ECU13](especificacao.md#ec13)
+Especificação de casos de uso: [EC - 13](especificacao.md#ec13)
 
 ![DCU-1](../img/Modelagem/uc_pesquisar_mensagem_v1.png)
 
@@ -137,7 +137,7 @@ Especificação de casos de uso: [ECU13](especificacao.md#ec13)
 ### **Realização de login**
 Diagrama inspirado pelo cenário **[Fazer login](cenarios.md#18)**
 
-Especificação de casos de uso: [ECU14](especificacao.md#ec14)
+Especificação de casos de uso: [EC - 14](especificacao.md#ec14)
 
 ![DCU-1](../img/Modelagem/uc_fazer_login_v1.png)
 

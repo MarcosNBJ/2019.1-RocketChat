@@ -369,10 +369,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |  **[FE2]** Ocorre no passo 6 do fluxo principal <br> - Nada é retornado, a mensagem pesquisada foi apagada ou não existe <br> - A pesquisa é finalizada|
 | **Pós Condições**|
 | - São retornadas mensagens relacionadas as pesquisadas pelo usuário|
+|**Requerimentos especiais**|
+| As ferramentas de pesquisa de mensagens devem oferecer uma interface intuitiva |
 | **Cenário** |
 | - [Pesquisar mensagem](cenarios.md#c17) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU12-v1](diagramas.md#dcu12-v1)|
 
 
 ## EC14
@@ -404,7 +406,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Fazer login](cenarios.md#c17) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU13-v1](diagramas.md#dcu13-v1)|
 
 
 ## EC15

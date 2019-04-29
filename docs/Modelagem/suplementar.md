@@ -67,6 +67,27 @@ A aplicação deve estar disponível e ser suportada em computadores ou notebook
 ### Requisito de Portabilidade Cinco
 A aplicação deve estar disponível e ser suportada em computadores ou notebooks com sistema operacional MacOs X 10.10.0 ou superior, com processadores de 64 bits.
 
+## Conectividade
+Descreve a integração da aplicação com diferentes plataformas de sistema e aplicações de terceiros.
+
+### Requisito de Conectividade Um
+A aplicação deve permitir a integração com redes sociais, para maior facilidade do usuário em se cadastrar.
+
+### Requisito de Conectividade Dois
+A aplicação deve manter um padrão de interface em todas as plataformas se adequando a qualquer dispositivo, para que o usuário possa ter uma fácil integração em todos os meios.
+
+### Requisito de Conectividade Três
+A aplicação deve manter a comunicação com o usuário por meio de notificações e por meio de e-mails previamente cadastrados.
+
+## Tratamento de Falhas
+Este tópico descrece como a aplicação deve identificar e tratar erros.
+
+### Requisito de Tratamento de Falhas Um
+A aplicação deve manter monitoramento e inspeção constantes de problemas afim de executar a correção de bugs.
+### Requisito de Tratamento de Falhas Dois
+A aplicação pede ao usuário que certifique-se de que está executando a última versão. É muito provável que a simples atualização resolva seu problema.
+### Requisito de Tratamento de Falhas Três
+A aplicação relata ao usuário que ocorreu uma falha no sistema e solicita um feedback para tentar resolve-lá. Com essas informações o suporte pode corrigir o problema mais rapidamente.
 
 ## Segurança
 Aqui são tratados os requerimentos da aplicação quanto a sua segurança e a segurança dos dados que nela trafegam.
