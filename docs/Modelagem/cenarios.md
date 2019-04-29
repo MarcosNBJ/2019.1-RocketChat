@@ -443,6 +443,42 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Levantado pela técnica**|
 | - [StotyBoarding](../Elicitação/StotyBoarding.md) |
 
+
+### C7 - V2
+
+|**Responder  mensagem**|
+|--|
+|**Objetivo** |
+|- [Usuário](lexicos.md#l19) enviar uma mensagem que responde especificamente a uma outra mensagem anterior.|
+|**Contexto** |
+|- Local: [channel](lexicos.md#l1) da conversa|
+|- Tempo: A qualquer momento|
+|- Pré-condição: O [usuário](lexicos.md#l19) ter [conta](lexicos.md#l67) no aplicativo e estar dentro do [channel](lexicos.md#l1) |
+|- Pós-condição: A resposta enviada pelo [usuário](lexicos.md#l19) será mostrada no [channel](lexicos.md#l1) com o anexo da mensagem respondida abaixo|
+|**Atores** |
+|  [Usuário](lexicos.md#l19) |
+|**Recursos** |
+|- Internet|
+|- [Conta](lexicos.md#l67) no aplicativo|
+|**Restrição**|
+|- Qualidade da conexão com a internet |
+|- Usuário exprimir corretamente a ideia que gostaria|
+|- Usuário responder a mensagem correta|
+|**Exceção** |
+|- Queda da internet|
+|- Mensagem a qual o usuário deseja responder foi apagada|
+|- [Usuário](lexicos.md#l19) cancela a ação|
+|**Episódios** |
+|- [Usuário](lexicos.md#l19) loga no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) clica no [channel](lexicos.md#l1) desejado|
+|- [Usuário](lexicos.md#l19) clica na mensagem que deseja responder|
+|- [Usuário](lexicos.md#l19) escreve o conteúdo desejado na caixa de diálogo que aparece|
+|- [Usuário](lexicos.md#l19) envia a resposta|
+|**Levantado pela técnica**|
+| - [StotyBoarding Requisito 1](../Elicitação/StotyBoarding.md#4-requisitos-obtidos) |
+
+
+
 ### C8
 
 |**Enviar desenho**|
@@ -474,6 +510,41 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |- [Usuário](lexicos.md#l19) envia o desenho|
 |**Levantado pela técnica**|
 |  - |
+
+
+### C8 - V2
+
+|**Enviar desenho**|
+|--|
+|**Objetivo** |
+|- [Usuário](lexicos.md#l19) enviar uma mensagem cujo conteúdo é um desenho digital feito por ele na aplicação, com o objetivo de expor alguma ideia ou mensagem ilustrada|
+|**Contexto** |
+|- Local: [channel](lexicos.md#l1) da conversa|
+|- Tempo: A qualquer momento|
+|- Pré-condição: O [usuário](lexicos.md#l19) ter [conta](lexicos.md#l67) no aplicativo e estar dentro do [channel](lexicos.md#l1)|
+|- Pós-condição: Será visto no [channel](lexicos.md#l1) o desenho enviado pelo [usuário](lexicos.md#l19)|
+|**Atores** |
+|  [Usuário](lexicos.md#l19) |
+|**Recursos** |
+|- Internet|
+|- [Conta](lexicos.md#l67) no aplicativo|
+|**Restrição**|
+|- [Usuário](lexicos.md#l19) não desenhou corretamente o que queria|
+|- Ferramenta de desenhos digitais não oferecia algum recurso de desenho que o [usuário](lexicos.md#l19) precisava|
+|**Exceção** |
+|- Queda da internet|
+|- [Usuário](lexicos.md#l19) cancela a ação|
+|**Episódios** |
+|- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado|
+|- [Usuário](lexicos.md#l19) clica no botão de “plus”|
+|- [Usuário](lexicos.md#l19) clica na opção “desenho”|
+|- [Usuário](lexicos.md#l19) desenha o conteúdo desejado|
+|- [Usuário](lexicos.md#l19) envia o desenho|
+|**Levantado pela técnica**|
+|  - |
+
+
 
 ### C9
 
@@ -509,6 +580,44 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Levantado pela técnica**|
 | - [Questionário](../Elicitação/questionario.md)|
 | - [Introspecção](../Elicitação/Introspeccao.md) |
+
+
+### C9 - V2
+
+|**[Anexar um arquivo](lexicos.md#l5)**|
+|--|
+|**Objetivo** |
+|- [Usuário](lexicos.md#l19) enviar, com ou sem uma mensagem textual, um arquivo de mídia (como fotos ou vídeos) ou um documento|
+|**Contexto** |
+|- Local: [channel](lexicos.md#l1) da conversa|
+|- Tempo: A qualquer momento|
+|- Pré-condição: O [usuário](lexicos.md#l19) ter [conta](lexicos.md#l67) no aplicativo e estar dentro do [channel](lexicos.md#l1) |
+|- Pós-condição: Será mostrado para os outros usuários no [channel](lexicos.md#l1) o [arquivo enviado](lexicos.md#l5) pelo [usuário](lexicos.md#l19), com a opção de download|
+|**Atores** |
+|  [Usuário](lexicos.md#l19) |
+|**Recursos** |
+|- Internet|
+|- [Conta](lexicos.md#l67) no aplicativo|
+|- Arquivo qualquer|
+|**Restrição**|
+|- [Usuário](lexicos.md#l19) [enviar o arquivo](lexicos.md#l5) correto|
+|- O arquivo não deve demorar para ser enviado|
+|**Exceção** |
+|- Queda da internet|
+|- [Usuário](lexicos.md#l19) não tem permissão|
+|- [Usuário](lexicos.md#l19) cancela a ação|
+|**Episódios** |
+|- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado|
+|- [Usuário](lexicos.md#l19) clica no botão “plus”|
+|- [Usuário](lexicos.md#l19) clica em [anexar um arquivo](#c9)|
+|- [Usuário](lexicos.md#l19) seleciona o arquivo desejado|
+|- [Usuário](lexicos.md#l19) envia o arquivo|
+|**Levantado pela técnica**|
+| - [Questionário requisito Q6](../Elicitação/questionario.md#requisitos-elicitados)|
+| - [Introspecção requsito INT2.1 ](../Elicitação/Introspeccao.md#introspeccao-02) |
+
+
 
 
 ### C10
@@ -613,6 +722,44 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Levantado pela técnica**|
 | - [Questionário](../Elicitação/questionario.md)|
 | - [StotyBoarding](../Elicitação/storyboarding.md) |
+
+
+### C12 - V2
+
+|**Enviar mensagem**|
+|--|
+|**Objetivo** |
+|- Transmitir aos outros integrantes da conversa uma [mensagem](lexicos.md#l42), que pode conter texto, Emojis, [arquivos de mídia](#c9), documentos, áudios gravados pelo app, e [desenhos digitais](#c8) feitos pelo menu do app.|
+|**Contexto** |
+|- Local: [channel](lexicos.md#l1) da conversa|
+|- Tempo: A qualquer momento|
+|- Pré-condição: O [usuário](lexicos.md#l19) ter [conta](lexicos.md#l67) no aplicativo e estar dentro do [channel](lexicos.md#l1) no qual deseja enviar uma [mensagem](lexicos.md#l42)|
+|- Pós-condição: A [mensagem](lexicos.md#l42) enviada será mostrada no [channel](lexicos.md#l1) para todos os usuários [membros](lexicos.md#l12), junto com uma notificação que chegará se o [usuário](lexicos.md#l19) tiver sido mencionado|
+|**Atores** |
+|  [Usuário](lexicos.md#l19) |
+|**Recursos** |
+|- Internet|
+|- [Conta](lexicos.md#l67) no aplicativo|
+|**Restrição**|
+|- [Usuário](lexicos.md#l19) escrever corretamente o que quer expressar |
+|- A aplicação oferecer ferramentas que ajudem o [usuário](lexicos.md#l19) a escrever sua [mensagem](lexicos.md#l42), como um corretor ortográfico|
+|- O [usuário](lexicos.md#l19) conseguir [anexar](lexicos.md#l5) todos os arquivos que quer|
+|**Exceção** |
+|- Queda da internet|
+|- [Usuário](lexicos.md#l19) cancela a ação|
+|- Mensagem do [usuário](lexicos.md#l19) está acima do limite de caracteres|
+|**Episódios** |
+|- [Usuário](lexicos.md#l19) entra [logado](lexicos.md#l62) no [servidor](lexicos.md#l18)|
+|- [Usuário](lexicos.md#l19) entra no [channel](lexicos.md#l1) desejado |
+|- [Usuário](lexicos.md#l19) digita a mensagem no campo de texto|
+|- [Usuário](lexicos.md#l19) [anexa todos os arquivos](#c9) ou [desenhos](#c8) que quiser na mensagem|
+|- [Usuário](lexicos.md#l19) insere um [Emoji](lexicos.md#l7) se quiser|
+|- [Usuário](lexicos.md#l19) envia a [mensagem](lexicos.md#l42) clicando no botão presente na caixa de texto para essa finalidade|
+|**Levantado pela técnica**|
+| - [Introspecção requsito INT4.1 ](../Elicitação/Introspeccao.md#introspeccao-04)|
+| - [StotyBoarding Requisito 1](../Elicitação/storyboarding.md#4-requisitos-obtidos) |
+
+
 
 
 ### C13
@@ -1109,3 +1256,4 @@ Alguns cenários listados não são correlacionados a nenhum requisito previamen
 | 26/04/2019 | 2.1 | Adição do Cenário C25 | Lucas Maciel |
 | 28/04/2019 | 2.2 | Adição do Cenário C26 | João Lucas |
 | 28/04/2019 | 2.3 | Edição dos cenários C21, C22, C23 | João Lucas |
+| 28/04/2019 | 2.4 | Adição de segunda versão para os cenários C7, C8, C9, C12 | Marcos Nery |

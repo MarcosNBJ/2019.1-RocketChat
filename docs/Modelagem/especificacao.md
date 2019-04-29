@@ -35,11 +35,12 @@
 | - Usuário deve estar logado no aplicativo |
 | - Usuário deve ser integrante em uma room no aplicativo |
 | **Fluxo Principal** |
-| 1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona uma mensagem de seu interesse <br> 3 - Abre o menu de opções da mensagem <br> 4 - Seleciona a opção de "fixar mensagem" |
+| 1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona uma mensagem de seu interesse <br> 3 - Abre o menu de opções da mensagem <br> 4 - Seleciona a opção de "fixar mensagem" **[FE2]**|
 | **Fluxos Alternativos** |
 | - |
 | **Fluxos de Exceção**|
 | __FE1__ - Erro de conexão |
+| __FE2__ - Mensagem foi apagada |
 | **Pós Condições**|
 | - As mensagens fixadas ficarão disponíveis em “mensagens fixadas” localizada no menu principal da [room](lexicos.md#l51) |
 | **Cenário** |
@@ -253,7 +254,7 @@
 | - [Usuário](lexicos.md#l19) deve estar [logado](lexicos.md#l62) no aplicativo |
 | - [Usuário](lexicos.md#l19) deve possuir acesso á internet |
 | **Fluxo Principal** |
-| 1 - Usuário se conecta à um servidor <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica em "Criar chat" <br> 4 - Usuário define se o channel será publico **[FA1]** <br> 5 - Usuário escolhe se o channel será somente para leitura <br> 6 - Usuário define o nome do channel **[FE1]** <br> 7 - Usuário convida membros do channel **[FA2]** <br> 8 - Clica no botão "check" no canto superior direito |
+| 1 - Usuário acessa a pagina inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica em "Criar chat" <br> 4 - Usuário define se o channel será publico **[FA1]** <br> 5 - Usuário escolhe se o channel será somente para leitura <br> 6 - Usuário define o nome do channel **[FE1]** <br> 7 - Usuário convida membros do channel **[FA2]** <br> 8 - Clica no botão "check" no canto superior direito |
 | **Fluxos Alternativos** |
 | __FA1__ - No passo 4 do fluxo principal <br> 1 - Usuário escolhe se o channel será privado |
 | __FA2__ - No passo 7 do fluxo principal <br> 1 - Usuário pode criar um channel sem outros membros |
@@ -290,6 +291,29 @@
 
 ## EC12
 
+|**Visualizar Mensagem Fixada**|
+|--|
+| **Descrição**|
+| - Encontrar Mensagens que foram fixadas |
+| - Acesso rápido a mensagens do interesse do [usuário](lexicos.md#l19) |
+| **Atores** |
+| - Usuário Membro em uma Room |
+| **Pré Condições** |
+| - Usuário deve estar logado no aplicativo |
+| - Usuário deve ser integrante em uma room no aplicativo |
+| **Fluxo Principal** |
+| 1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona o Menu de Opções da Room <br> 3 - Seleciona opção de "Mensagens Fixadas" ou "Pinned Messages" para visualizar as mensagens **[FE1]** |
+| **Fluxos Alternativos** |
+| - |
+| **Fluxos de Exceção**|
+| __FE1__ - Mensagem fixada foi deletada |
+| **Pós Condições**|
+| - Usuário estará conectado com um servidor |
+| **Cenário** |
+| - [Conectar com um servidor](cenarios.md#c4-v2) |
+
+## EC13
+
 |**Pesquisa de mensagem**|
 |--|
 | **Descrição**|
@@ -311,7 +335,7 @@
 | **Cenário** |
 | - [Pesquisar mensagem](cenarios.md#c17) |
 
-## EC13
+## EC14
 
 |**Realização de login**|
 |--|
@@ -352,4 +376,5 @@
 | 28/04/2019 | 1.5 | Editando EC4, EC5, EC6 e EC7 | Gabriel Davi |
 | 28/04/2019 | 1.6 | Adição EC8 e EC9 | João Lucas |
 | 28/04/2019 | 1.7 | Adição EC10 e EC11 | Heron Rodrigues |
-| 28/04/2019 | 1.8 | Adição EC12 e EC13 | André Lucas |
+| 28/04/2019 | 1.8 | Adição EC12 | Lucas Maciel |
+| 28/04/2019 | 1.9 | Adição EC13 e EC14 | André Lucas |
