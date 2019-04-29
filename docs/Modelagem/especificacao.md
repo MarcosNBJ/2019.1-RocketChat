@@ -129,7 +129,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Alterar Status](cenarios.md#c10) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu4-v1)|
 
 
 ## EC5
@@ -155,7 +155,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Deletar Conta](cenarios.md#c6) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu5-v1)|
 
 
 ## EC6
@@ -183,7 +183,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Favoritar Mensagem](cenarios.md#c13) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu6-v1)|
 
 
 
@@ -212,7 +212,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Visualizar Membros de Chat em Grupo](cenarios.md#c14) |
 |**Diagrama**|
-|[DCU](diagramas.md#)|
+|[DCU](diagramas.md#dcu7-v1)|
 
 
 ## EC8
