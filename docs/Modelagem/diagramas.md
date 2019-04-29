@@ -40,7 +40,7 @@ Especificação de casos de uso: [ECU]()
 ### **Fixar Mensagem**
 Diagrama inspirado pelos cenários **[Fixar Mensagem](cenarios.md#c11)** e **[Visualizar Mensagens Fixadas](cenarios.md#c25)**
 
-[Especificação de casos de uso: ECU - 1](especificacao.md#ec1) e  [Especificação de casos de uso: ECU - 12](especificacao.md#ec12)  
+[Especificação de casos de uso: ECU - 1](especificacao.md#ec1) e  [Especificação de casos de uso: ECU - 12](especificacao.md#ec12)
 
 ![DCU3](../img/Modelagem/fixar_mensagem_v1.png)
 
@@ -112,7 +112,7 @@ Diagrama inspirado pelo cenário **[Escolher tom de pele padrão](cenarios.md#21
 ### **Pesquisa de mensagem**
 Diagrama inspirado pelo cenário **[Pesquisar mensagem](cenarios.md#c17)**
 
-Especificação de casos de uso: [ECU]()
+Especificação de casos de uso: [ECU13](especificacao.md#ec13)
 
 ![DCU-1](../img/Modelagem/uc_pesquisar_mensagem_v1.png)
 
@@ -120,7 +120,7 @@ Especificação de casos de uso: [ECU]()
 ### **Realização de login**
 Diagrama inspirado pelo cenário **[Fazer login](cenarios.md#18)**
 
-Especificação de casos de uso: [ECU]()
+Especificação de casos de uso: [ECU14](especificacao.md#ec14)
 
 ![DCU-1](../img/Modelagem/uc_fazer_login_v1.png)
 
