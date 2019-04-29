@@ -113,6 +113,23 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |- É utilizada pelos [usuários](#l19) para procurar por [usuários](#l19), [adicionar usuários a um grupo](#l59) , e mencionar [usuários](#l19) em uma conversa.|
 
 
+### L6 - V2
+|**Tag**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Palavra precedida pelo símbolo "@" que identifica um [usuário](#l19). |
+| - Cada [usuários](#l19) possui uma tag única, que além do "@" que a precede pode ter letras e números. | 
+| - Também existe a tag especial @all, que identifica todos os [usuários](#l19) de um dado [channel](#l1).|
+|**Impacto** |
+|- O [usuário](#l19) define sua própria Tag.|
+|- O [usuários](#l19) pode mudar a sua Tag.|
+|- É utilizada pelos [usuários](#l19) para procurar pelo [usuário](#l19) dono de uma determinada Tag. |
+|- É utilizada pelos [usuários](#l19) para [adicionar outros usuários a um grupo](#l59).| 
+|- É utilizada pelos [usuários](#l19) para mencionar [outros usuários](#l19) em uma conversa.|
+
+
 ### L7
 |**Emoji**|
 |--|
@@ -126,6 +143,25 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |- Muitos já são obtidos junto com o aplicativo. Mas o [usuário](#l19) também pode incluir novos, feitos por ele ou por terceiros.|
 |**Sinônimos**|
 | - Reação |
+
+
+### L7 - V2
+|**Emoji**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Pequenos símbolos gráficos usados para representar ações, objetos ou ideias abstratas, como uma risada, um choro, raiva, um relógio, uma bola, ou mesmo a ação de pedalar.|
+|**Impacto** |
+|- Podem ser utilizados pelo [usuário](#l19) durante uma conversa para exprimir essas ideias ou ações sem ter que descreve-las por palavras.|
+|- O [usuário](#l19) pode [adicionar uma reação](#l9) a uma [mensagem](#l42), anexando a ela um emoji. |
+|- O [usuário](#l19) pode [remover uma reação](#l10) de uma [mensagem](#l42), retirando o emoji a ela adicionado. |
+|- Muitos já são obtidos junto com o aplicativo. Mas o [usuário](#l19) também pode incluir novos emojis, feitos por ele ou por terceiros.|
+|- O [usuário](#l19) pode [modificar a coloração de pele do Emoji](#l37), caso este represente uma figura humana.|
+|**Sinônimos**|
+| - Reação |
+
+
 
 ### L8
 
@@ -177,6 +213,22 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |- Se outros [usuários](#l19) reagiram aquela mensagem com o mesmo [emoji](#l7), a contagem dessas reações na mensagem decresce em um.|
 |- Se não haviam outras reações com o mesmo [emoji](#l7), a reação é completamente removida da mensagem.|
 
+
+### L10 - V2
+|**Remover reação**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|- Ação realizada pelo [usuário](#l19).|
+|- Acontece dentro de uma [conversa](#l1) quando o [usuário](#l19) retira uma [reação](#l7) anteriormente [adicionada](#l9) a uma mensagem.|
+|- [Usuário](#l19) clica na reação adicionada, que vai estar logo abaixo do texto da respectiva [mensagem](#l42), e ela é então retirada.|
+|**Impacto** |
+|- Se outros [usuários](#l19) reagiram aquela mensagem com o mesmo [emoji](#l7), a contagem dessas reações na mensagem decresce em um.|
+|- Se não haviam outras reações com o mesmo [emoji](#l7), a reação é completamente removida da mensagem.|
+|- O [usuário](#l19) pode agora [adicionar a reação](#l10) novamente se desejar.|
+
+
 ### L11
 |**Procurar mensagem**|
 |--|
@@ -219,6 +271,20 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |- É gerado um [Permalink](#l15), que o [usuário](#l19) pode então compartilhar com outros [usuários](#l19).|
 |- Outros [usuários](#l19) que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidcionar reação](#l9) ou [responder](#l56).|
 
+
+### L13 - V2
+|**Copiar Permalink**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+| - Ação realizada pelo [usuário](#l19).|
+| - O [usuário](#l19) clica em uma [mensagem](#l42), e então vai até a opção “Copiar [Permalink](#l15) ”, que o permite copiar um link que leva diretamente para a [mensagem](#l42) selecionada dentro do [channel](#l1).|
+|**Impacto** |
+|- É gerado um [Permalink](#l15), que o [usuário](#l19) pode então compartilhar com outros [usuários](#l19). Seja pelo próprio app ou por fora.|
+|- Outros [usuários](#l19) que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidcionar reação](#l9) ou [responder mensagem](#l56).|
+
+
 ### L14
 
 |**Adicionar novo servidor**|
@@ -246,6 +312,21 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Impacto**|
 |- O [usuário](#l19) pode gerar o permalink através da ação de [Copiar Permalink](#l13) para mensagem, ou de convidar um outro [usuário](#l19) para um determinado [channel](#l1) ou servidor.|
 |- O [usuário](#l19) que receber e usar o permalink será levado para o destino para o qual ele foi gerado. |
+
+
+
+### L15 - V2
+
+|**Permalink**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - É um link permanente que pode levar o [usuário](#l19) que clicar a um [channel](#l1), a uma [mensagem](#l42), ou a um [servidor](#l18). |
+|**Impacto**|
+|- O [usuário](#l19) pode gerar o permalink através da ação de [Copiar Permalink](#l13) para mensagem, ou de convidar um outro [usuário](#l19) para um determinado [channel](#l1) ou servidor.|
+|- O [usuário](#l19) que receber e usar o permalink será levado para o destino para o qual ele foi gerado. |
+
 
 
 ### L16
@@ -542,6 +623,23 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | - Aviso |
 
 
+### L32 - V2
+
+|**Anúncio**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - É um aviso textual, uma [mensagem](#l42), que o [usuário](#l19) gostaria que fosse visto pelos outros integrantes de um [channel](#l1). E que portanto possuí destaque, aparecendo na aba anúncios do [channel](#l1). |
+|**Impacto** |
+|- Um Anúncio pode ser criado pelo [usuário](#l19) em um [channel](#l1).|
+|- Um Anúncio criado será fixado na aba Anúncios do [channel](#l1) para todos os outros [usuários](#l19) [membros](#l12) do [channel](#l1).|
+|- Um Anúncio pode ser removido pelo [usuário](#l19), desde que este tenha os privilégios necessários dentro do [channel](#l1).|
+|**Sinônimos**|
+| - Aviso |
+
+
+
 ### L33
 
 |**Tópico**|
@@ -555,6 +653,23 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |- O tópico colocado será visto por todos os outros [usuários](#l19) membros do [channel](#l1) que forem até a sua descrição.|
 |**Sinônimos**|
 | - Assunto |
+
+
+### L33 - V2
+
+|**Tópico**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+| - Descrição textual que identifica o assunto a ser tratado em um [channel](#l1). Podendo ou não estar presente em um determinado [channel](#l1), dependendo da preferência do seu criador.|
+|**Impacto** |
+|- O criador do [channel](#l1) pode adcionar a ele um tópico.|
+|- O administrador do [channel](#l1) pode editar o tópico do [channel](#l1) a qualquer momento.|
+|- O tópico colocado será visto por todos os outros [usuários](#l19) membros do [channel](#l1) que forem até a sua descrição.|
+|**Sinônimos**|
+| - Assunto |
+
 
 
 ### L34
@@ -572,6 +687,39 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Sinônimos**|
 | - Stared channel |
 
+
+### L34
+
+|**Channel Favoritado**|
+|--|
+|**Classificação**|
+| Estado|
+|**Noção**|
+|- Um [channel](#l1) favoritado irá aparecer em destaque em relação aos outros na lista de channels do [usuário](#l19).|
+|- Estado é atribuído ao [channel](#l1) quando o [usuário](#l19) realiza a ação de [favoritar um channel](#l35). |
+|**Impacto** |
+|- O [usuário](#l19) pode [desfavoritar um channel](#l36) que esteja favoritado.|
+|- O [usuário](#l19) pode favoritar um channel ainda não favoritado ou desfavoritado.|
+|**Sinônimos**|
+| - Stared channel |
+
+
+### L34 - V2
+
+|**Channel Favoritado**|
+|--|
+|**Classificação**|
+| Estado|
+|**Noção**|
+|- Um [channel](#l1) favoritado irá aparecer em destaque em relação aos outros na lista de channels do [usuário](#l19).|
+|- Estado é atribuído ao [channel](#l1) quando o [usuário](#l19) realiza a ação de [favoritar um channel](#l35). |
+|**Impacto** |
+|- O [usuário](#l19) pode [desfavoritar um channel](#l36) que esteja favoritado.|
+|- O [usuário](#l19) pode favoritar um channel ainda não favoritado ou desfavoritado.|
+|**Sinônimos**|
+| - Stared channel |
+
+
 ### L35
 
 |**Favoritar channel**|
@@ -586,6 +734,24 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |- O [usuário](#l19) pode desfavoritar um channel favoritado|
 |**Sinônimos**|
 | - Star channel |
+
+
+### L35 - V2
+
+|**Favoritar channel**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|- Ação realizada pelo [usuário](#l19) que quer que um determinado [channel](#l1) fique destacado.|
+|- O [usuário](#l19) vai até sua lista de [channels](#l1) e dá um click no botão com ícone de estrela para favoritar um channel. |
+|**Impacto** |
+|- Um [channel favoritado](#l34) vai aparecer em destaque na lista de channels do [usuário](#l19) . |
+|- O [usuário](#l19) pode desfavoritar um channel favoritado.|
+|**Sinônimos**|
+| - Star channel |
+
+
 
 ### L36
 
@@ -602,6 +768,25 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Sinônimos**|
 | - Unstar channel |
 
+
+### L36 - V2
+
+|**Desfavoritar channel**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|- Ação realizada pelo [usuário](#l19).|
+|- Para ser desfavoritado, o [channel](#l1) deverá estar [favoritado](#l34).|
+|- O [usuário](#l19) vai até um [channel favoritado](#l34) e dá um click no ícone da estrela, para desfavorita-lo.|
+|**Impacto** |
+|- O canal não irá mais aparecer em [destaque](#l34) na lista de [channels](#l1) do [usuário](#l19). |
+|- O [usuário](#l19) poderá [favoritar](#l35) novamente o channel. |
+|**Sinônimos**|
+| - Unstar channel |
+
+
+
 ### L37
 
 |**Tom de pele padrão**|
@@ -616,6 +801,25 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Sinônimos**|
 | - Emoji Skin |
 
+
+### L37 - V2
+
+|**Tom de pele padrão**|
+|--|
+|**Classificação**|
+| Objeto|
+|**Noção**|
+|- Cor da pele que será utilizada nos [Emojis](#l7) que representam figuras humanas|
+|- Existem 6 tonalidades, 1 neutra que é amarela e 5 que são inspiradas na realidade, indo de tons de pele mais clara até os mais escuros.|
+|**Impacto** |
+|- O [usuário](#l19) pode [escolher o tom de pele padrão](#l38) que será utilizado nos Emojis que ele usar.|
+|- O [usuário](#l19) pode a qualquer momento [modificar o tom de pele escolhido](#l38).|
+|- Caso o [usuário](#l19) não defina um tom de pele padrão, o aplicativo utiliza o tom amarelo.|
+|**Sinônimos**|
+| - Emoji Skin |
+
+
+
 ### L38
 
 |**Escolher tom de pele padrão**|
@@ -628,6 +832,23 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 |**Impacto** |
 |- Todos os emojis que representam figuras humanas que o [usuário](#l19) mandar terão a cor de pele na tonalidade selecionada|
 |- O [usuário](#l19) pode tocar no botão novamente para trocar a cor|
+
+
+### L38 - V2
+
+|**Escolher tom de pele padrão**|
+|--|
+|**Classificação**|
+| Verbo|
+|**Noção**|
+|- Ação realizada pelo [usuário](#l19).|
+|- [Usuário](#l19) realiza a ação ao, dentro de uma [conversa](#l1), selecionar o ícone de [Emojis](#l7) e em seguida selecionar o ícone circular colorido que representa o tom de pele padrão.|
+|**Impacto** |
+|- Todos os [emojis](#l7) que representam figuras humanas que o [usuário](#l19) mandar terão a cor de pele na tonalidade selecionada|
+|- O [usuário](#l19) pode tocar no botão novamente para trocar a cor|
+|- Uma cor escolhida vai ser utilizada para os [emojis](#l7) utilizados em qualquer [conversa](#l1) dentro do aplicativo.|
+
+
 
 ### L39
 
@@ -1147,3 +1368,4 @@ Aqui estão listados os lexicos, que são termos específicos do contexto do dom
 | 22/04/2019 | 2.1 | Adição dos léxicos L69 e L70 | João Lucas |
 | 23/04/2019 | 2.2 | Editando alguns léxicos e adicionando léxico L71 | Weiller Fernandes |
 | 28/04/2019 | 2.3 | Adicionando léxico L72 | João Lucas |
+| 28/04/2019 | 2.4 | Adicionando segunda versão para os Léxicos L6, L7, L10, L13, L15 L32-L38|Marcos Nery|
