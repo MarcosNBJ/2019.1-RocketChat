@@ -14,21 +14,41 @@ O escopo é definido por uma plataforma de chat, focada em uso profissional e ch
    TOPICOS ABORDADOS DAQUI PRA FRENTE
 
 ## Funcionalidades
-  
-  Os requisitos funcionais podem ser vistos através das listagens nos métodos de elicitação e também por meio dos [Cenários](cenarios.md), [Casos de uso][diagramas.md], e [especificações dos casos de uso](especificacao.md) 
+
+  Os requisitos funcionais podem ser vistos através das listagens nos métodos de elicitação e também por meio dos [Cenários](cenarios.md), [Casos de uso][diagramas.md], e [especificações dos casos de uso](especificacao.md)
 
 ## Usabilidade
 
 Aqui são listados critérios de qualidade quanto a interação do usuário com a aplicação.
 
 ### Requisito de Usabilidade Um
+A plataforma deve oferecer um fluxo intuitivo de navegação pela plataforma
 
+### Requisito de Usabilidade Dois
+A aplicação deve possuir instruções aos novos usuário para ajudá-lo no uso do aplicativo.
+
+### Requisito de Usabilidade Três
+O sistema deve dar avisos ao usuário quando alguma ação importante ocorrer na plataforma, como uma nova mensagem
+
+### Requisito de Usabilidade Quatro
+O sistema deve fornecer feedbacks ao usuário, de forma que ele entenda o antes, durante e depois das suas ações no sistema.
+
+###Requisito de usabilidade Cinco
+O sistema deve pssuir ícones e cores que condizem com alguma ação que será realizada no aplicativo
+
+###Requisito de usabilidade Seis
+O sistema deve fornecer avisos quando houver algum erro no ato de uma ação.
 
 ## Desempenho
 
 Este tópico descreve as restrições de comportamento geral do sistema.
 
 ### Requisito de Desempenho Um
+A aplicação deve ser capaz de responder com rapidez a uma ação de um usuário.
+
+### Requisito de Desempenho Dois
+O sistema deve possuir um servidor eficiente para o suporte e tratamento do fluxo de dados criado pelos diversos usuários sem gerar sobrecarga
+
 
 
 ## Portabilidade
@@ -72,3 +92,4 @@ Aqui são abordados os requisitos relacionados a parte legal da aplicação.
 |  :------: | :------: | :------: | :------: |
 | 28/04/2019 | 1.0 | Abertura do documento e inclusão do template | Marcos Nery|
 | 28/04/2019 | 1.1 | Preenchimento inicial do documento, de introdução à funcionalidades | Marcos Nery|
+| 29/04/2019 | 1.2 | Preenchendo os requisitos de usabilidade e desempenho | Gabriel Davi|
