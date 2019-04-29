@@ -655,7 +655,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |- Participar de um grupo  |
 |- Possuir acesso a internet  |
 | **Fluxo Principal** |
-|1.Entrar na página inical do rocket.chat<br>2. Buscar o grupo no  qual deseja sair pela barra lateral onde se encontram os grupos**[FA1][FE2]**<br>2. Clicar nos 3 pontos ao lado do ícone do grupo<br>3. Escolher entre as opções mostradas a de "Deixar grupo"<br>4. Confirmar a retirada do grupo**[FA2]** |
+|1.Entrar na página inicial do rocket.chat<br>2. Buscar o grupo no  qual deseja sair pela barra lateral onde se encontram os grupos**[FA1][FE2]**<br>2. Clicar nos 3 pontos ao lado do ícone do grupo<br>3. Escolher entre as opções mostradas a de "Deixar grupo"<br>4. Confirmar a retirada do grupo**[FA2]** |
 | **Fluxos Alternativos** |
 | **FA1** - No passo 2 do fluxo principal<br>1. O usuário pode pesquisar o grupo usando a ferramenta de pesquisa|
 | **FA2** - No passo 4 do fluxo principal<br>1. O usuário pode clicar em cancelar|
@@ -702,6 +702,41 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |[DCU](diagramas.md#dcu23-v1)|
 
 
+## EC24
+
+|**Receber Notificação**|
+|--|
+| **Descrição**|
+| - Funcionalidade(Caso de Uso) com objetivo do usuário receber notificações diversas de mensagens, como de "mensagens diretas" ou o usuário deve ser marcado ou mencionado em qualquer outra room (channel, private groups ou discussões); receber notificações de convite para um Video-Chat(WebConferência) ou notificações de Convite para o usuário se tornar membro em uma room |
+| **Atores** |
+| - Usuário 1 logado e membro em uma room (realiza ação) |
+| - Usuário 2 logado e membro em uma room (recebe notificação) |
+| **Pré Condições** |
+| - Possuir conta no Rocket.chat |
+| - Estar logado a uma conta no Rocket.chat |
+| - Participar de uma room |
+| - Possuir acesso a internet |
+| - Usuário 1 deve ser o owner(proprietário) de um grupo **[FA2]**|
+| **Fluxo Principal** |
+|1. Usuário 2 Recebe uma notificação de mensagem **[FA1][FA2]**<br>2. Usuário 2 abre a notificação **[FA3][FE1]**<br>3. Usuário 2 ler a mensagem |
+| **Fluxos Alternativos** |
+| **FA1** - 1. Usuário 1 envia uma notificação de convite para Video Chat(WebConferência) <br> 2. Usuário 2  abre a notificação <br> 3. Usuário 2 participar do Video Chat **[FA5]** |
+| **FA2** - 1. Usuário 1 envia uma notificação de convite para um grupo <br> 2. Usuário 2  abre a notificação **[FA3]**<br> 3. Usuário 2 aceita participar do grupo **[FA4]**|
+| **FA3** - Usuário 2 ignora a notificação |
+| **FA4** - Usuário 2 se recusa a participar do grupo |
+| **FA5** - Usuário 2 se recusa a participar da Video chat(WebConferência) |
+| **Fluxos de Exceção**|
+|**FE1** - Erro ao visualizar conteúdo da notificação <br>1. Pode ocorrer falha na conexão |
+| **Pós Condições**|
+| - A notificação irá desaparecer após ocorrer a interação do Usuário 2 |
+|**Requerimentos especiais**|
+|-|
+| **Cenário** |
+| [Receber Notificação](cenarios.md#c19) |
+|**Diagrama**|
+| [DCU14](diagramas.md#dcu14-v1) |
+
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -718,3 +753,4 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | 28/04/2019 | 1.9 | Adição EC13 e EC14 | André Lucas |
 | 28/04/2019 | 2.0 | Adição de EC15 a EC19 | Marcos Nery |
 | 29/04/2019 | 2.1 | Adição de EC20 a EC23 | Gabriel Davi |
+| 29/04/2019 | 2.2 | Adição EC24 | Lucas Maciel |
