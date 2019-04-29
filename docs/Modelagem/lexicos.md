@@ -128,7 +128,9 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |- É utilizada pelos [usuários](#l19) para procurar pelo [usuário](#l19) dono de uma determinada Tag. |
 |- É utilizada pelos [usuários](#l19) para [adicionar outros usuários a um grupo](#l59).| 
 |- É utilizada pelos [usuários](#l19) para mencionar [outros usuários](#l19) em uma conversa.|
-
+|**Sinônimos**|
+|- Arroba|
+|- Label|
 
 ### L7
 |**Emoji**|
@@ -227,7 +229,8 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |- Se outros [usuários](#l19) reagiram aquela mensagem com o mesmo [emoji](#l7), a contagem dessas reações na mensagem decresce em um.|
 |- Se não haviam outras reações com o mesmo [emoji](#l7), a reação é completamente removida da mensagem.|
 |- O [usuário](#l19) pode agora [adicionar a reação](#l10) novamente se desejar.|
-
+|**Sinônimos**|
+|- Remover emoji|
 
 ### L11
 |**Procurar mensagem**|
@@ -283,6 +286,10 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Impacto** |
 |- É gerado um [Permalink](#l15), que o [usuário](#l19) pode então compartilhar com outros [usuários](#l19). Seja pelo próprio app ou por fora.|
 |- Outros [usuários](#l19) que clicam no [permalink](#l15) poderão ver a mensagem por ele salva, e então realizar ações como [aidicionar reação](#l9) ou [responder mensagem](#l56).|
+|- O link gerado será adicionado a uma lista de permalinks existentes dentro de um determinado [channel](#l1), e deverá continuar ativo até que seja manualmente removido|
+|**Sinônimos**|
+|-Linkar |
+|-Compartilhar|
 
 
 ### L14
@@ -326,7 +333,10 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Impacto**|
 |- O [usuário](#l19) pode gerar o permalink através da ação de [Copiar Permalink](#l13) para mensagem, ou de convidar um outro [usuário](#l19) para um determinado [channel](#l1) ou servidor.|
 |- O [usuário](#l19) que receber e usar o permalink será levado para o destino para o qual ele foi gerado. |
-
+|- O [usuário](#l19) pode desativar um permalink que criou|
+|- Os permalinks existentes podem ser vistos por outros [usuários](#l19) do [channel](#l1)|
+|**Sinônimo**|
+|- Link permanente|
 
 
 ### L16
@@ -688,22 +698,6 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | - Stared channel |
 
 
-### L34
-
-|**Channel Favoritado**|
-|--|
-|**Classificação**|
-| Estado|
-|**Noção**|
-|- Um [channel](#l1) favoritado irá aparecer em destaque em relação aos outros na lista de channels do [usuário](#l19).|
-|- Estado é atribuído ao [channel](#l1) quando o [usuário](#l19) realiza a ação de [favoritar um channel](#l35). |
-|**Impacto** |
-|- O [usuário](#l19) pode [desfavoritar um channel](#l36) que esteja favoritado.|
-|- O [usuário](#l19) pode favoritar um channel ainda não favoritado ou desfavoritado.|
-|**Sinônimos**|
-| - Stared channel |
-
-
 ### L34 - V2
 
 |**Channel Favoritado**|
@@ -716,6 +710,7 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Impacto** |
 |- O [usuário](#l19) pode [desfavoritar um channel](#l36) que esteja favoritado.|
 |- O [usuário](#l19) pode favoritar um channel ainda não favoritado ou desfavoritado.|
+|- O [usuário](#l19) entrar mais fácilmente em um channel favoritado.|
 |**Sinônimos**|
 | - Stared channel |
 
@@ -794,10 +789,10 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Classificação**|
 | Objeto|
 |**Noção**|
-|- Cor da pele que será utilizada nos [Emojis](#l7) que representam figuras humanas|
+|- Cor da pele que será utilizada nos [Emojis](#l7-v2) que representam figuras humanas|
 |- É possível escolher uma tonalidade dentre 6, 1 neutra que é amarela e 5 que são inspiradas na realidade|
 |**Impacto** |
-|- O [usuário](#l19) pode [escolher o tom de pele padrão](#l38) que será utilizado nos Emojis que ele usar.|
+|- O [usuário](#l19) pode [escolher o tom de pele padrão](#l38-v2) que será utilizado nos Emojis que ele usar.|
 |**Sinônimos**|
 | - Emoji Skin |
 
@@ -809,7 +804,7 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Classificação**|
 | Objeto|
 |**Noção**|
-|- Cor da pele que será utilizada nos [Emojis](#l7) que representam figuras humanas|
+|- Cor da pele que será utilizada nos [Emojis](#l7-v2) que representam figuras humanas|
 |- Existem 6 tonalidades, 1 neutra que é amarela e 5 que são inspiradas na realidade, indo de tons de pele mais clara até os mais escuros.|
 |**Impacto** |
 |- O [usuário](#l19) pode [escolher o tom de pele padrão](#l38) que será utilizado nos Emojis que ele usar.|
@@ -828,10 +823,12 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Verbo|
 |**Noção**|
 |- Ação realizada pelo [usuário](#l19).|
-|- [usuário](#l19) realiza a ação ao, dentro de uma [conversa](#l1), selecionar o ícone de [Emojis](#l7) e em seguida selecionar o ícone circular colorido que representa o tom de pele padrão.|
+|- [usuário](#l19) realiza a ação ao, dentro de uma [conversa](#l1), selecionar o ícone de [Emojis](#l7-v2) e em seguida selecionar o ícone circular colorido que representa o tom de pele padrão.|
 |**Impacto** |
 |- Todos os emojis que representam figuras humanas que o [usuário](#l19) mandar terão a cor de pele na tonalidade selecionada|
 |- O [usuário](#l19) pode tocar no botão novamente para trocar a cor|
+|**Sinônimo**|
+|-Mudar tom de pele padrão|
 
 
 ### L38 - V2
@@ -842,12 +839,12 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 | Verbo|
 |**Noção**|
 |- Ação realizada pelo [usuário](#l19).|
-|- [Usuário](#l19) realiza a ação ao, dentro de uma [conversa](#l1), selecionar o ícone de [Emojis](#l7) e em seguida selecionar o ícone circular colorido que representa o tom de pele padrão.|
+|- [Usuário](#l19) realiza a ação ao, dentro de uma [conversa](#l1), selecionar o ícone de [Emojis](#l7-v2) e em seguida selecionar o ícone circular colorido que representa o tom de pele padrão.|
 |**Impacto** |
-|- Todos os [emojis](#l7) que representam figuras humanas que o [usuário](#l19) mandar terão a cor de pele na tonalidade selecionada|
+|- Todos os [emojis](#l7-v2) que representam figuras humanas que o [usuário](#l19) mandar terão a cor de pele na tonalidade selecionada|
 |- O [usuário](#l19) pode tocar no botão novamente para trocar a cor|
-|- Uma cor escolhida vai ser utilizada para os [emojis](#l7) utilizados em qualquer [conversa](#l1) dentro do aplicativo.|
-
+|- Uma cor escolhida vai ser utilizada para os [emojis](#l7-v2) utilizados em qualquer [conversa](#l1) dentro do aplicativo.|
+|- Outros [usuários](#l19) no channel verão os [emojis](#l7-v2) mandados por este  [usuários](#l19) na [tonalidade de pele](#l37-v2) escolhida por ele.|
 
 
 ### L39
