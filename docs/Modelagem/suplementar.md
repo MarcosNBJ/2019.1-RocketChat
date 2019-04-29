@@ -112,7 +112,12 @@ Dentro do channel, deverá existir uma interface de edição de texto com ferram
 A interface deverá estar disponível na maior pluralidade possível de idiomas.
 
 
-### Restrição de Design Um
+### Restrição de Design Quatro
+Possíveis ações a serem realizadas detro do canal devem estar claras para o usuário de como podem ser realizadas
+
+### Restrição de Design Cinco
+O aplicativo deve deixar claro ao usuário em qual região da plataforma o mesmo está situado, como por exemplo, em qual channel o usuário se encontra
+
 
 ## Requisitos de Suporte ao usuário
 Aqui são listados todos os requisitos referentes a ajuda e suporte aos usuários da aplicação.
