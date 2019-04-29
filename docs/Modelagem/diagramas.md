@@ -140,6 +140,22 @@ Especificação de casos de uso: [ECU]()
 
 ![DCU-1](../img/Modelagem/uc_sair_app_v1.png)
 
+## DCU16 - V1
+### **Criar chat**
+Diagrama inspirado pelo cenário **[Criar chat](cenarios.md#c3-v2)**
+
+Especificação de casos de uso: [ECU10](especificacao.md#ec10)
+
+![DCU-16](../img/Modelagem/criar-channel-v1.png)
+
+## DCU17 - V1
+### **Conectar com um servidor**
+Diagrama inspirado pelo cenário **[Conectar com um servidor](cenarios.md#c4-v2)**
+
+Especificação de casos de uso: [ECU11](especificacao.md#ec11)
+
+![DCU-17](../img/Modelagem/conectar-servidor-v1.png)
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -149,4 +165,5 @@ Especificação de casos de uso: [ECU]()
 | 28/04/2019 | 1.2 | Adição dos diagramas DCU4 - V1, DCU5 - V1, DCU6 - V1 e DCU7 - V1 | WeillerFernandes |
 | 28/04/2019 | 1.3 | Adição dos diagramas DCU8 - V1, DCU9 - V1, DCU10 - V1 e DCU11 - V1 | João Lucas |
 | 28/04/2019 | 1.4 | Adição dos diagramas DCU12 - DCU15 | André Lucas |
-| 28/04/2019 | 1.5 | Adição do diagrama DCU3 - V1 | Lucas Maciel |
+| 28/04/2019 | 1.5 | Adição dos diagramas DCU16 e DCU17 | Heron Rodrigues |
+| 28/04/2019 | 1.6 | Adição do diagrama DCU3 - V1 | Lucas Maciel |
