@@ -135,10 +135,15 @@ Aqui são definidos todos os tipos de interface presentes na aplicação.
 A plataforma deverá possuir uma interface gráfica, pela qual os usuários sejam capazes de interagir com todas as funcionalidades para eles disponíveis no sistema.
 
 ### Interfaces de Hardware
-Os dispositivos de hardware nos quais a aplicação pode ser instalada são: Computadores Desktop, Notebooks e dispositivos mobile como smartphones e tablets. 
+Os dispositivos de hardware nos quais a aplicação pode ser instalada são: Computadores Desktop, Notebooks e dispositivos mobile como smartphones e tablets.
 
 ### Interfaces de Software
 As definições de linguagens, frameworks e paradigmas para a criação e evolução do software devem ser as quais ofereçam a longo prazo uma fácil manutenção e confiabilidade.
+
+
+
+## Observações Legais, de Copyright e Outras
+A aplicação é licenciada sob a MIT License. É permitido o uso, copía, modificação, entre outros, totalmente gratuito garantido pela [licença do software](https://github.com/RocketChat/Rocket.Chat.Hubot/blob/master/LICENSE).
 
 
 ## Versionamento
@@ -152,3 +157,4 @@ As definições de linguagens, frameworks e paradigmas para a criação e evolu�
 | 29/04/2019 | André Lucas | Adição dos requisitos de conectividade e tratamento de falhas | 1.4 |
 | 29/04/2019 | 1.5 | Adição dos requisitos de suporte ao usuário | Marcos Nery|
 | 29/04/2019 | 1.6 | Adição da listagem de Interfaces | Marcos Nery|
+| 29/04/2019 | 1.7 | Adição das observações legais e copyright | Heron Rodrigues|
