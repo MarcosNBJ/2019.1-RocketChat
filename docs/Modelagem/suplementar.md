@@ -10,8 +10,6 @@ O escopo é definido por uma plataforma de chat, focada em uso profissional e ch
 ### Definições, Acrônimos e Abreviações
  Listados nos [Léxicos](lexicos.md).
 
-### Visão Geral
-   TÓPICOS ABORDADOS DAQUI PRA FRENTE
 
 ## Funcionalidades
 
