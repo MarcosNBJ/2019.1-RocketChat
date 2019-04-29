@@ -148,6 +148,14 @@ Os dispositivos de hardware nos quais a aplicação pode ser instalada são: Com
 ### Interfaces de Software
 As definições de linguagens, frameworks e paradigmas para a criação e evolução do software devem ser as quais ofereçam a longo prazo uma fácil manutenção e confiabilidade.
 
+## Requisitos de Licenciamento
+Será expecificado os aspectos referentes às permissões e restrições ao usuário, definidas na [politica de privacidade](https://rocket.chat/privacy) e [termos de serviço](https://rocket.chat/terms), estes, que não serão aplicados quando usuário estiver usando a instalação on-premises do Rocket.chat.
+
+### Requisitos de Licenciamento Um
+Ao se cadastrar na aplicação, o usuário disponibiliza seu endereço de e-mail, primeiro e ultimo nome, alem de cookies e dados de uso, como o endereço de IP, informações do navegador, na versão web e ID do dispositivo, endereço de IP, sistema operacional, na versão mobile, entre outras informações. Será enviado noticias e notificações para o usuário, o mesmo sendo opcional.
+
+### Requisitos de Licenciamento Dois
+Rocket.Chat é compativel à General Data Protection Regulation (GDPR), é um regulamento do direito europeu sobre privacidade e proteção de dados pessoais, aplicável a todos os indivíduos na União Europeia e Espaço Económico Europeu.
 
 
 ## Observações Legais, de Copyright e Outras
