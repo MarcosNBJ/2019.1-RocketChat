@@ -35,11 +35,12 @@
 | - usuário deve estar logado no aplicativo |
 | - usuário deve ser integrante em uma room no aplicativo |
 | **Fluxo Principal** |
-| 1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona uma mensagem de seu interesse <br> 3 - Abre o menu de opções da mensagem <br> 4 - Seleciona a opção de "fixar mensagem" |
+| 1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona uma mensagem de seu interesse <br> 3 - Abre o menu de opções da mensagem <br> 4 - Seleciona a opção de "fixar mensagem" **[FE2]**|
 | **Fluxos Alternativos** |
 | - |
 | **Fluxos de Exceção**|
 | __FE1__ - Erro de conexão |
+| __FE2__ - Mensagem foi apagada |
 | **Pós Condições**|
 | - As mensagens fixadas ficarão disponíveis em “mensagens fixadas” localizada no menu principal da [room](lexicos.md#l51) |
 | **Cenário** |
@@ -288,6 +289,28 @@
 | **Cenário** |
 | - [Conectar com um servidor](cenarios.md#c4-v2) |
 
+## EC12
+
+|**Visualizar Mensagem Fixada**|
+|--|
+| **Descrição**|
+| - Encontrar Mensagens que foram fixadas |
+| - Acesso rápido a mensagens do interesse do [usuário](lexicos.md#l19) |
+| **Atores** |
+| - Usuário Membro em uma Room |
+| **Pré Condições** |
+| - Usuário deve estar logado no aplicativo |
+| - Usuário deve ser integrante em uma room no aplicativo |
+| **Fluxo Principal** |
+| 1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona o Menu de Opções da Room <br> 3 - Seleciona opção de "Mensagens Fixadas" ou "Pinned Messages" para visualizar as mensagens **[FE1]** |
+| **Fluxos Alternativos** |
+| - |
+| **Fluxos de Exceção**|
+| __FE1__ - Mensagem fixada foi deletada |
+| **Pós Condições**|
+| - Usuário estará conectado com um servidor |
+| **Cenário** |
+| - [Conectar com um servidor](cenarios.md#c4-v2) |
 
 ## Versionamento
 
@@ -301,3 +324,4 @@
 | 28/04/2019 | 1.5 | Editando EC4, EC5, EC6 e EC7 | Gabriel Davi |
 | 28/04/2019 | 1.6 | Adição EC8 e EC9 | João Lucas |
 | 28/04/2019 | 1.7 | Adição EC10 e EC11 | Heron Rodrigues |
+| 228/04/2019 | 1.8 | Adição EC12 | Lucas Maciel |

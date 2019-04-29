@@ -36,6 +36,14 @@ Especificação de casos de uso: [ECU]()
 
 ![DCU-1](../img/Modelagem/mandarMSG_v2.png)
 
+## DCU3 - V1
+### **Fixar Mensagem**
+Diagrama inspirado pelos cenários **[Fixar Mensagem](cenarios.md#c11)** e **[Visualizar Mensagens Fixadas](cenarios.md#c25)**
+
+[Especificação de casos de uso: ECU - 1](especificacao.md#ec1) e  [Especificação de casos de uso: ECU - 12](especificacao.md#ec12)  
+
+![DCU3](../img/Modelagem/fixar_mensagem_v1.png)
+
 ## DCU4 - V1
 ### **Alterar status**
 Diagrama inspirado pelo cenário **[Alterar Status](cenarios.md#c10)**
@@ -141,3 +149,4 @@ Especificação de casos de uso: [ECU]()
 | 28/04/2019 | 1.2 | Adição dos diagramas DCU4 - V1, DCU5 - V1, DCU6 - V1 e DCU7 - V1 | WeillerFernandes |
 | 28/04/2019 | 1.3 | Adição dos diagramas DCU8 - V1, DCU9 - V1, DCU10 - V1 e DCU11 - V1 | João Lucas |
 | 28/04/2019 | 1.4 | Adição dos diagramas DCU12 - DCU15 | André Lucas |
+| 28/04/2019 | 1.5 | Adição do diagrama DCU3 - V1 | Lucas Maciel |
