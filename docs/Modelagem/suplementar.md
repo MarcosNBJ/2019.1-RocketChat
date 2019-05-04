@@ -19,144 +19,144 @@ O escopo é definido por uma plataforma de chat, focada em uso profissional e ch
 
 Aqui são listados critérios de qualidade quanto a interação do usuário com a aplicação.
 
-### Requisito de Usabilidade Um
+### ES01 - Fluxo de naveçaão
 A plataforma deve oferecer um fluxo intuitivo de navegação pela plataforma
 
-### Requisito de Usabilidade Dois
+### ES02 - Instruções de uso
 A aplicação deve possuir instruções aos novos usuário para ajudá-lo no uso do aplicativo.
 
-### Requisito de Usabilidade Três
+### ES03 - Notificações
 O sistema deve dar avisos ao usuário quando alguma ação importante ocorrer na plataforma, como uma nova mensagem
 
-### Requisito de Usabilidade Quatro
+### ES04 - Visibilidade de status do sistema
 O sistema deve fornecer feedbacks ao usuário, de forma que ele entenda o antes, durante e depois das suas ações no sistema.
 
-### Requisito de usabilidade Cinco
+### ES05 - Ícones e cores
 O sistema deve possuir ícones e cores que condizem com alguma ação que será realizada no aplicativo
 
-### Requisito de usabilidade Seis
+### ES06 - Resolução de erros
 O sistema deve fornecer avisos quando houver algum erro no ato de uma ação.
 
 ## Desempenho
 
 Este tópico descreve as restrições de comportamento geral do sistema.
 
-### Requisito de Desempenho Um
+### ES07 - Velocidade de resposta
 A aplicação deve ser capaz de responder com rapidez a uma ação de um usuário.
 
-### Requisito de Desempenho Dois
+### ES08 - Servidores
 O sistema deve possuir servidores eficientes para o suporte e tratamento do fluxo de dados criado pelos diversos usuários sem gerar sobrecarga, considerando também o suporte a escalabilidade de usuários ao longo do ciclo de existência do aplicativo.
 
 ## Portabilidade
 Aqui são listados os requisitos da aplicação quanto a sua portabilidade, em diferentes plataformas.
 
-### Requisito de Portabilidade Um
+### ES09 - Android
 A aplicação deve estar disponível e ser suportada em dispositivos móveis com sistema operacional Android 5.0 ou superior, incluindo tablets e smartphones
 
-### Requisito de Portabilidade Dois
+### ES10 - IOS
 A aplicação deve estar disponível e ser suportada em dispositivos móveis com sistema operacional IOS 11.0 ou superior, incluindo dispositivos como Iphone e Ipad.
 
-### Requisito de Portabilidade Três
+### ES11 - Windows
 A aplicação deve estar disponível e ser suportada em computadores ou notebooks com sistema operacional Windows 7 ou superior.
 
-### Requisito de Portabilidade Quatro
+### ES12 - Linux
 A aplicação deve estar disponível e ser suportada em computadores ou notebooks com sistema operacional Linux, com processadores de 32 ou 64 bits, incluindo diversas distribuições: CentOs, Baseadas no Debian através dos pacotes .deb ou gerenciadores de pacote (apt ou snap), RedHat ou outras distribuições que suportam pacotes .rpm.
 
-### Requisito de Portabilidade Cinco
+### ES13 - MacOS
 A aplicação deve estar disponível e ser suportada em computadores ou notebooks com sistema operacional MacOs X 10.10.0 ou superior, com processadores de 64 bits.
 
 ## Conectividade
 Descreve a integração da aplicação com diferentes plataformas de sistema e aplicações de terceiros.
 
-### Requisito de Conectividade Um
+### ES14 - Redes sociais
 A aplicação deve permitir a integração com redes sociais, para maior facilidade do usuário em se cadastrar.
 
-### Requisito de Conectividade Dois
+### ES15 - Padrão de interface entre plataformas
 A aplicação deve manter um padrão de interface em todas as plataformas se adequando a qualquer dispositivo, para que o usuário possa ter uma fácil integração em todos os meios.
 
-### Requisito de Conectividade Três
+### ES16 - Comunicação com usuários
 A aplicação deve manter a comunicação com o usuário por meio de notificações e por meio de e-mails previamente cadastrados.
 
 ## Tratamento de Falhas
 Este tópico descrece como a aplicação deve identificar e tratar erros.
 
-### Requisito de Tratamento de Falhas Um
+### ES17 - Monitoramento
 A aplicação deve manter monitoramento e inspeção constantes de problemas afim de executar a correção de bugs.
-### Requisito de Tratamento de Falhas Dois
+### ES18 - Atualização
 A aplicação pede ao usuário que certifique-se de que está executando a última versão. É muito provável que a simples atualização resolva seu problema.
-### Requisito de Tratamento de Falhas Três
+### ES19 - Feedback
 A aplicação relata ao usuário que ocorreu uma falha no sistema e solicita um feedback para tentar resolve-lá. Com essas informações o suporte pode corrigir o problema mais rapidamente.
 
 ## Segurança
 Aqui são tratados os requerimentos da aplicação quanto a sua segurança e a segurança dos dados que nela trafegam.
 
-### Requisito de Segurança Um
+### ES20 - Autenticação
 A aplicação deve fornecer um sistema de autenticação segura, por meio de e-mail ou nome de usuário, acrescido da senha do usuário.
 
-### Requisito de Segurança Dois
+### ES21 - Criptografia
 A aplicação deve oferecer a opção de Criptografar as mensagens dos grupos privados e mensagens diretas na aplicação, através de uma chave E2E única para cada usuário no servidor principal compartilhado da Rocket.Chat
 
-### Requisito de Segurança Três
+### ES22 - Servidores particulares
 O sistema de possuir a opção do usuário adicionar servidores particulares para a prevenção e segurança dos seus dados.
 
 
 ## Restrições de Design
 
-### Restrição de Design um
+### ES23 - Listagem de channels
 Na página principal do usuário, deverão estar acessíveis os chennels principais que o usuário acessa, um menu com as configurações do aplicativo e opções de suporte, bem como ferramentas de pesquisa para que o usuário procure rapidamente por usuários ou channels.
 
-### Restrição de Design Dois
+### ES24 - Interface de edição de texto
 Dentro do channel, deverá existir uma interface de edição de texto com ferramentas para formatar e escrever o texto. Bem como menus visíveis com todas as funcionalidades relacionadas aquele channel em específico.
 
-### Restrição de Design Três
+### ES25 - Pluralidade de idiomas
 A interface deverá estar disponível na maior pluralidade possível de idiomas.
 
 
 ## Requisitos de Suporte ao usuário
 Aqui são listados todos os requisitos referentes a ajuda e suporte aos usuários da aplicação.
 
-### Requisito de Suporte ao Usuário Um
+### ES26 - Documentação
 A plataforma deve possuir uma documentação bem organizada, no formato de uma Wikia. Que explique todas as funcionalidades e restrições aplicáveis.
 
-### Requisito de Suporte ao Usuário Dois
+### ES27 - Ajuda
 Dentro do menu da aplicação deve haver um botão de ajuda. Que leva para uma página com problemas frequentes dos usuário e suas respectivas resoluções, bem como um link para a documentação e para entrar em contato com o suporte caso a ajuda ali não seja suficiente.
 
-### Requisito de Suporte ao Usuário Três
+### ES28 - Suporte online
 A equipe de suporte ao usuário deve ser eficiente, de forma que o usuário que entre em contato para receber ajuda com algo deve receber sua resposta idealmente no prazo máximo de 24 horas.
 
-### Requisito de Suporte ao Usuário Quatro
+### ES29 - Forum de discussão
 Deve haver um fórum dedicado a discussão de problemas e submissão de feedbacks acerca da aplicação. Pelo qual tanto os usuário quanto a equipe de desenvolvimento podem se manifestar.
 
-### Requisito de Suporte ao Usuário Cinco
+### ES30 - Como contribuir
 Por ser uma aplicação Open Source, na documentação deve haver uma secção explicando claramente os passos de como alguém pode contribuir com o projeto.
 
-### Requisito de Suporte ao Usuário Seis
+### ES31 - Organização do repositório.
 O repositório da aplicação do Github deve ser bem organizado, de modo que os interessados consigam facilmente submeter problemas, resoluções e feedbacks através das issues.
 
 
 ## Interfaces
 Aqui são definidos todos os tipos de interface presentes na aplicação.
 
-### Interfaces do Usuário
+### ES32 - Interfaces do Usuário
 A plataforma deverá possuir uma interface gráfica, pela qual os usuários sejam capazes de interagir com todas as funcionalidades para eles disponíveis no sistema.
 
-### Interfaces de Hardware
+### ES33 - Interfaces de Hardware
 Os dispositivos de hardware nos quais a aplicação pode ser instalada são: Computadores Desktop, Notebooks e dispositivos mobile como smartphones e tablets.
 
-### Interfaces de Software
+### ES34 - Interfaces de Software
 As definições de linguagens, frameworks e paradigmas para a criação e evolução do software devem ser as quais ofereçam a longo prazo uma fácil manutenção e confiabilidade.
 
 ## Requisitos de Licenciamento
 Será expecificado os aspectos referentes às permissões e restrições ao usuário, definidas na [politica de privacidade](https://rocket.chat/privacy) e [termos de serviço](https://rocket.chat/terms), estes, que não serão aplicados quando usuário estiver usando a instalação on-premises do Rocket.chat.
 
-### Requisitos de Licenciamento Um
+### ES35 - Cadastro
 Ao se cadastrar na aplicação, o usuário disponibiliza seu endereço de e-mail, primeiro e ultimo nome, alem de cookies e dados de uso, como o endereço de IP, informações do navegador, na versão web e ID do dispositivo, endereço de IP, sistema operacional, na versão mobile, entre outras informações. Será enviado noticias e notificações para o usuário, o mesmo sendo opcional.
 
-### Requisitos de Licenciamento Dois
+### ES36 - GDPR
 Rocket.Chat é compativel à General Data Protection Regulation (GDPR), é um regulamento do direito europeu sobre privacidade e proteção de dados pessoais, aplicável a todos os indivíduos na União Europeia e Espaço Económico Europeu.
 
 
-## Observações Legais, de Copyright e Outras
+## ES37 - Observações Legais, de Copyright e Outras
 A aplicação é licenciada sob a MIT License. É permitido o uso, copía, modificação, entre outros, totalmente gratuito garantido pela [licença do software](https://github.com/RocketChat/Rocket.Chat.Hubot/blob/master/LICENSE).
 
 ## Referências
@@ -180,3 +180,4 @@ A aplicação é licenciada sob a MIT License. É permitido o uso, copía, modif
 | 29/04/2019 | 1.7 | Adição das observações legais e copyright | Heron Rodrigues|
 | 29/04/2019 | 1.8 | Adição dos requisitos de licenciamento | Heron Rodrigues|
 | 29/04/2019 | 1.9 | Adição das referências | Marcos Nery|
+| 03/04/2019 | 2.0 | Refatoração dos títulos dos tópicos | Marcos Nery |
