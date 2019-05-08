@@ -109,11 +109,53 @@ _Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.
 
 _Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
 
-## T03 - Channel
+## T03 - Visão geral do aplicativo
 
-### EP05 - Criar channel
+### EP05 - Configurações do aplicativo 
 
 #### US09
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US14 | Usuário |Acessar as preferências do aplicativo| quero modificar as preferências do aplicativo que melhor se adequem as minhas necessidades|  | 8 | Must |Funcional| 
+
+* Deve estar disponibilizada no menu de personalização a função de alterar o comportamento das notificações, se são para todas as mensagens ou somente menções
+* Deve haver uma opção para configurar os temas utilizados
+* Deve haver um menu de seleção de idioma
+* Deve haver uma opção de personalização de perfil, que direciona o usuário a tela dedicada alterar suas informações pessoais 
+
+
+_Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [AP8](../Elicitação/analdiscurso#requisitos-elicitados)_
+
+
+#### US10
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US14 | Usuário |Alterar Idioma| preciso alterar para um idioma que eu tenha mais familiaridade ou apenas para padronizar com minha equipe|  |  8| Must |Funcional| 
+
+* O usuário deverá ser capaz de alterar o idioma no qual a aplicação vigora, alterando os textos de todos os botões e menus existentes
+* Inicialmente deverão haver os idiomas Inglês, Portugugês-Brasil e Espanhol. 
+* A funcionalidade deve dar suporte para que outros idiomas sejam adicionados posteriormente
+
+_Originada em: [INT4.5](../Elicitação/Introspeccao#introspeccao-04), [StoryBoarding 6](../Elicitação/Storyboard.md#4-requisitos-obtidos)_
+
+#### US11
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US14 | Usuário |Configurar Exibição| gostaria de alterar opções que melhor se adaptem as minhas necessidades e ao meu dispositivo|  | 3 | Could |Funcional|
+
+* A funcionalidade deve oferecer ao usuário a opção de alterar o modo de exibição do aplicativo
+* Dois modos de exibição devem por padrão existir, o normal e o simplificado. No simplificado, a tela é focada em um channel e a barra lateral fica escondida
+
+_Originada em: [AD9]((../Elicitação/analdiscurso#requisitos-elicitados))_
+
+## T04 - Channel
+
+### EP08 - Criar channel
+
+#### US18
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -129,13 +171,13 @@ _Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.
 
 _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)_
 
-#### US10
+#### US19
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US10 | Usuário | Criar channel privado | para que seja acessado apenas por convite e visivel somente por seus membros | É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação | 5 | Must |Funcional|
 
-- Por padrão, somente adminstradores e moderadores podem convidar novos membros
+- Por padrão, somente administradores e moderadores podem convidar novos membros
 - Somente membros podem ter acesso à esse channel
 - Usuário pode criar número ilimitado de channels privados
 - Deve ser disponibilizado para o usuário, a opção de criar channel privado
@@ -148,7 +190,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)_
 
-#### US11
+#### US20
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -158,11 +200,29 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)_
 
-#### US12
+#### US21
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US11 | Usuário | Criar Discussão | necessito tratar de assuntos rápidos, porém mais específicos entre um pequeno grupo de usuários em um channel |  | 3 | Could | Funcional|
+
+- Por padrão, somente administradores e moderadores podem convidar novos membros
+- Somente membros podem ter acesso à esse channel
+- Nome do channel deve ser obrigatório
+- Qualquer tipo de caractere deve ser aceito para o nome do channel
+- Nome do channel deve conter no mínimo um caractere
+- Não é necessário que convide membros durante a criação do channel
+
+### EP09 - Configurações do Channel
+
+#### US22
+
+
+#### US23
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US12 | Usuário | criar um canal onde apenas eu posso enviar mensagens | assim posso usa-lo como uma lista de transmissão e não canal de discussão | canal apenas de leitura | 5 | Should |
+| US12 | Usuário | Definir modo de Read Only Channel | assim posso usa-lo como uma lista de transmissão onde apenas os administradores podem enviar mensagem | canal apenas de leitura | 5 | Should |
 
 - No momento em que é criado um canal deve existir a opção only-read channel
 - Apenas o usuário o qual criou o canal deve poder enviar mensagens
@@ -170,14 +230,13 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 - O nome do canal deve possuir ao menos um caractere
 - Não é necessário que convide membros durante a criação do channel
 
+### EP10 - Mensagens
 
-### EP06 - Mensagens
-
-#### US13
+#### US27
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US13 | Usuário | Enviar uma mensagem de texto | para poder me comunicar de forma escrita com os membros de um channel|  | 5 | Must |Funcional|
+| US13 | Usuário | Enviar uma mensagem de texto | preciso me comunicar de forma escrita com os membros de um channel |  | 5 | Must |Funcional|
 
 * O usuário deverá ser capaz de enviar uma mensagem de texto para qualquer channel que ele faça parte
 * A mensagem enviada deverá ser recebida por todos os membros que fazem parte daquele channel
@@ -186,7 +245,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 _Originada em: [INT4.1](../Elicitação/Introspeccao.md#introspeccao-04),
 [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos)_
 
-#### US14
+#### US28
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -198,7 +257,7 @@ _Originada em: [INT4.1](../Elicitação/Introspeccao.md#introspeccao-04),
 _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
 [Q6](../Elicitação/questionario.md#requisitos-elicitados)_
 
-#### US15
+#### US29
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -207,7 +266,7 @@ _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
 * O usuário poderá enviar emojis ou gifs, que estarão divididos por categorias
 * O emoji enviado deverá ser recebido por todos os membros que fazem parte daquele channel
 
-#### US16
+#### US31
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -218,7 +277,7 @@ _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
 _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01),
 [Q6](../Elicitação/questionario.md#requisitos-elicitados)_
 
-#### US17
+#### US34
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -226,7 +285,7 @@ _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01),
 
 * O usuário deve poder editar a mensagem a qualquer momento após tê-la enviado
 
-#### US18
+#### US38
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -237,7 +296,7 @@ _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01),
 
 _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
-#### US19
+#### US39
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -246,7 +305,7 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 * O usuário deverá poder adicionar uma reação para uma mensagem enviada em um channel da qual faz parte
 * Se vários usuários adicionarem reações a uma mesma mensagem, todas as reações deverão ser exibidas
 
-#### US20
+#### US40
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -255,7 +314,7 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 * O usuário deverá poder responder uma mensagem que foi enviada em um channel
 * Uma mensagem de resposta deve exibir junto a ela a mensagem que está sendo respondida
 
-#### US21
+#### US41
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -263,13 +322,7 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 * O usuário deve poder reportar qualquer mensagem que tenha sido enviada no channel caso deseje
 
-## EP07 - Ações do Channel
-
-### US41
-
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US41 | Usário | Reportar uma mensagem de um channel | necessito indicar que aquela mensagem foi ofensiva de alguma forma | | 5 | Should | funcional |
+## EP11 - Ações do Channel
 
 ### US42
 
@@ -295,11 +348,11 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US45 | Usuário | Utilizar tradução instantânea | preciso me comunicar com membros da equipe que possuem um idioma que não domino totalmente | | 13 | Should | Funcional |
 
-## T04 - Servidor
+## T05 - Servidor
 
-### EP08 - Conectar com um servidor
+### EP16 - Conectar com um servidor
 
-#### US22
+#### US65
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -310,48 +363,47 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 *Originada em: [ENT1.7](../Elicitação/Entrevista.md#requisitos),[INT1.4](../Elicitação/Introspeccao.md#introspeccao-01),  [INT3.2](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 4](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AD13](../Elicitação/analdiscurso.md#requisitos-elicitados), [AP2](../Elicitação/analprot.md#requisitos-elicitados), [C4](cenarios.md#c4-v2)*
 
-### EP08 - Segurança 
+### EP17 - Segurança 
 
-#### US23
+#### US66
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US23 | Usúario | estar em uma conexão segura | preciso transmitir mensagens confidenciais com minha equipe | independente do usuário possuir um servidor particular ou não |  | Must | Não-funcional |
 
-#### US4 
+#### US67
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US24 | Usuário administrador do servidor | Definir opção para criptografar meus channels por chave E2E | preciso transitir mensagens confidenciais com minha equipe | independente do usuário possuir um servidor particular ou não | | Must | Não-funcional | 
 
-### EP09 - Suporte a grandes Equipes
+### EP18 - Suporte a grandes Equipes
 
-#### US25
+#### US68
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US25 | Usuário administrador do servidor | Adicionar vários channels e usuários ao servidor dedicado | preciso que todas as equipes envolvidas no(s) projeto(s) tenham acesso aos channels que representam suas equipes | O servidor deve suportar o aumento de usuários | | Must | não-funcional | 
 
-### EP10 - Diretório
+### EP19 - Diretório
 
-#### US26
+#### US69
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US26 | Usuário | Verificar todos os Channels do servidor | desejo saber a relação de Channels criados no servidor | Opções disponíveis apenas no Desktop | | Would | Funcional |
 
-#### US27
+#### US70
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US27 | Usuário | Verificas todos os usuários do servidor | desejo saber a relação de todos os usuários cadastrados no servidor | desejo saber a relação de todos os usuários cadastrados no servidor | Opções disponíveis apenas no Desktop | | | Would | Funcional | 
 
 
-## T05 - Arquitetura do Software
 
-### EP11 - Escalar Servidor
+### EP20 - Arquitetura do Software
 
-#### TS1
+### US71
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -362,9 +414,7 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 *Originada em: [ENT1.9](../Elicitação/Entrevista.md#requisitos)*
 
-### EP12 - Instanciar servidor on-premise
-
-#### US23
+#### US72
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -374,71 +424,19 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 *Originada em: [ENT1.7](../Elicitação/Entrevista.md#requisitos)*
 
-## T06 - Visão geral do aplicativo
-
-### EP13 - Configurações do aplicativo 
-
-#### US24
-
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US14 | Usuário |Acessar as preferências do aplicativo| quero modificar as preferências do aplicativo que melhor se adequem as minhas necessidades|  | 8 | Must |Funcional| 
-
-* Deve estar disponibilizada no menu de personalização a função de alterar o comportamento das notificações, se são para todas as mensagens ou somente menções
-* Deve haver uma opção para configurar os temas utilizados
-* Deve haver um menu de seleção de idioma
-* Deve haver uma opção de personalização de perfil, que direciona o usuário a tela dedicada alterar suas informações pessoais 
-
-
-_Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [AP8](../Elicitação/analdiscurso#requisitos-elicitados)_
-
-
-#### US25
-
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US14 | Usuário |Alterar Idioma| preciso alterar para um idioma que eu tenha mais familiaridade ou apenas para padronizar com minha equipe|  |  8| Must |Funcional| 
-
-* O usuário deverá ser capaz de alterar o idioma no qual a aplicação vigora, alterando os textos de todos os botões e menus existentes
-* Inicialmente deverão haver os idiomas Inglês, Portugugês-Brasil e Espanhol. 
-* A funcionalidade deve dar suporte para que outros idiomas sejam adicionados posteriormente
-
-_Originada em: [INT4.5](../Elicitação/Introspeccao#introspeccao-04), [StoryBoarding 6](../Elicitação/Storyboard.md#4-requisitos-obtidos)_
-
-#### US26
-
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US14 | Usuário |Configurar Exibição| gostaria de alterar opções que melhor se adaptem as minhas necessidades e ao meu dispositivo|  | 3 | Could |Funcional|
-
-* A funcionalidade deve oferecer ao usuário a opção de alterar o modo de exibição do aplicativo
-* Dois modos de exibição devem por padrão existir, o normal e o simplificado. No simplificado, a tela é focada em um channel e a barra lateral fica escondida
-
-_Originada em: [AD9]((../Elicitação/analdiscurso#requisitos-elicitados))_
-
-
-
-
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 07/05/2019 | 1.0 | Abertura do documento | Marcos Nery |
 | 07/05/2019 | 1.1 | Inclusão dos épicos EP01 e EP02 | Marcos Nery |
-| 07/05/2019 | 1.2 | Inclusão do épico EP03 | Heron Rodrigues |
-| 07/05/2019 | 1.3 | Inclusão do tema T03 | Weiller Fernandes |
-| 08/05/2019 | 1.4 | Inclusão do tema T04 | Heron Rodrigues |
-| 07/05/2019 | 1.2 | Inclusão do épico EP05 | Heron Rodrigues |
-| 07/05/2019 | 1.3 | Inclusão do tema EP06 | Weiller Fernandes |
-| 08/05/2019 | 1.4 | Inclusão do tema T04 | Heron Rodrigues |
+| 07/05/2019 | 1.2 | Inclusão do épico EP08 | Heron Rodrigues |
+| 07/05/2019 | 1.3 | Inclusão do tema EP10 | Weiller Fernandes |
+| 08/05/2019 | 1.4 | Inclusão do tema T05 | Heron Rodrigues |
 | 08/05/2019 | 1.5 | Inclusão do tema T03, com EP03 e 04 | Marcos Nery |
 | 08/05/2019 | 1.6 | Melhor formatação das tabelas | Marcos Nery |
-| 08/05/2019 | 1.7 | Inclusão dos pontos da US13 a US20 | Weiller Fernandes |
-| 08/05/2019 | 1.8 | Inclusão da restreabilidade nas US13, US14, US16 e US18 | Weiller Fernandes |
-| 08/05/2019 | 1.9 | Inclusão de tema T05, US12, TS1 e US23 | João Lucas |
+| 08/05/2019 | 1.7 | Inclusão dos pontos da US27 a US41 | Weiller Fernandes |
 | 08/05/2019 | 2.0 | Inclusão dos épicos EP8, EP9, EP10 | João Lucas |
-<<<<<<< HEAD
-| 08/05/2019 | 2.1 | Inclusão das US41, US42, US43, US44, US45 | João Lucas |
-=======
-| 08/05/2019 | 2.1 | Inclusão do tema T06, com EP13 | Marcos Nery |
->>>>>>> dc3259bffa8de674e2f6aa676be13a8454b6958a
+| 08/05/2019 | 2.1 | Inclusão do épico EP11 | João Lucas |
+| 08/05/2019 | 2.2 | Inclusão do tema T06, com EP13 | Marcos Nery |
+| 08/05/2019 | 2.3 | Reorganização dos identificadores dos Ts, EPs e USs | Lucas Maciel |
