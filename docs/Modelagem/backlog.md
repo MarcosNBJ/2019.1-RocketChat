@@ -255,9 +255,41 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 * O usuário deve poder reportar qualquer mensagem que tenha sido enviada no channel caso deseje
 
+## EP07 - Ações do Channel
+
+### US41
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US41 | Usário | Reportar uma mensagem de um channel | necessito indicar que aquela mensagem foi ofensiva de alguma forma | | 5 | Should | funcional |
+
+### US42
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US42 | Usuário | Favoritar o channel | preciso conseguir agrupar os Channels que eu mais interajo, em um espaço para que eu consiga acessá-lo com mais facilidade | | 3 | Could | Funcional |
+
+### US43
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US43 | Usuário | Mencionar Usuários | preciso enviar uma mensagem direcionada para o usuário, ou apenas chamar a sua atenção | | 5 | Should | Funcional |
+
+### US44
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US44 | Usuário | Alterar Preferências de notificações | desejo recebimento de notificações de acordo com minhas preferências de utilização do Channel | | 5 | Should | Funcional |
+
+### US45
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US45 | Usuário | Utilizar tradução instantânea | preciso me comunicar com membros da equipe que possuem um idioma que não domino totalmente | | 13 | Should | Funcional |
+
 ## T04 - Servidor
 
-### EP07 - Conectar com um servidor
+### EP08 - Conectar com um servidor
 
 #### US22
 
@@ -355,3 +387,4 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 | 08/05/2019 | 1.8 | Inclusão da restreabilidade nas US13, US14, US16 e US18 | Weiller Fernandes |
 | 08/05/2019 | 1.9 | Inclusão de tema T06, US12, TS1 e US23 | João Lucas |
 | 08/05/2019 | 2.0 | Inclusão dos épicos EP8, EP9, EP10 | João Lucas |
+| 08/05/2019 | 2.1 | Inclusão das US41, US42, US43, US44, US45 | João Lucas |
