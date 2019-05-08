@@ -3,8 +3,10 @@
 1. [T01 - Entrar no aplicativo](#t01-entrar-no-aplicativo)
     1. [EP01 - Fazer Login](#ep01-fazer-login)
     2. [EP02 - Fazer Cadastro](#ep02-fazer-cadastro)
-2. [T02 - Channel](#t01-channel)
+2. [T02 - Channel](#t02-channel)
     1. [EP03 - Criar channel](#ep03-criar-channel)
+4. [T04 - Servidor](#)
+    1. [Conectar com um servidor](#ep)
 
 
 ## T01 - Entrar no aplicativo
@@ -22,7 +24,7 @@
 * Se forem excedidas três tentativas sem sucesso de login com um nome de usuário, as tentativas devem ser bloqueadas temporariamente e o dono da conta deverá receber um email
 * Quando o usuário errar os dados de entrada, ele deverá ser avisado se errou o nome ou a senha
 
-_Originada em: [AP1](../Elicita%C3%A7%C3%A3o/analprot.md#requisitos-elicitados)_
+_Originada em: [AP1](../Elicitação/analprot.md#requisitos-elicitados)_
 
 
 #### US02
@@ -33,7 +35,7 @@ _Originada em: [AP1](../Elicita%C3%A7%C3%A3o/analprot.md#requisitos-elicitados)_
 
 * O usuário deverá ser capaz de fazer login no aplicativo utilizando uma conta que ele possui em uma dessas redes sociais: GitHub, Facebook, Twitter e Google
 
-_Originada em: [INT1.3](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), [AP1](../Elicita%C3%A7%C3%A3o/analprot.md#requisitos-elicitados)_
+_Originada em: [INT1.3](../Elicitação/Introspeccao.md#introspeccao-02), [AP1](../Elicitação/analprot.md#requisitos-elicitados)_
 
 ### EP02 - Fazer Cadastro
 
@@ -50,7 +52,7 @@ _Originada em: [INT1.3](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02)
 * Deverá aparecer uma mensagem clara de erro caso o usuário insira errado alguma das informações.
 * Opcionalmente, o usuário deverá conseguir colocar uma foto para aparecer no seu perfil.
 
-_Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), [C1](cenarios.md#c1-v2)_
+_Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cenarios.md#c1-v2)_
 
 
 #### US04
@@ -63,7 +65,7 @@ _Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), 
 * O dono do servidor deverá também conseguir mudar os critérios de aceitação de cada campo
 * O dono do servidor deverá ser capaz de modificar essas definições a qualquer momento que desejar
 
-_Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), [C1](cenarios.md#c1-v2)_
+_Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cenarios.md#c1-v2)_
 
 ## T02 - Channel
 
@@ -87,7 +89,7 @@ _Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), 
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
-| US05 | Usuário | Criar channel privado | para que seja acessado apenas por convite e visivel somente por seus membros | É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação | 5 | Must |
+| US06 | Usuário | Criar channel privado | para que seja acessado apenas por convite e visivel somente por seus membros | É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação | 5 | Must |
 
 - Por padrão, somente adminstradores e moderadores podem convidar novos membros
 - Somente membros podem ter acesso à esse channel
@@ -104,7 +106,7 @@ _Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), 
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
-| US05 | Usuário | Enviar mensagem direta | gostaria de enviar mensagens privadas para determinado usuário|  | 5 | Must |
+| US07 | Usuário | Enviar mensagem direta | gostaria de enviar mensagens privadas para determinado usuário|  | 5 | Must |
 
 - Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial
 
@@ -193,6 +195,21 @@ _Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), 
 
 * O usuário deve poder reportar qualquer mensagem que tenha sido enviada no channel caso deseje
 
+## T03 - Servidor
+
+### EP - Conectar com um servidor
+
+#### US
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US | Usuário | Conectar com um servidor da aplicação | para que eu possa acessar o servidor em que meu time/empresa esteja utilizando para se comunicar | Deve conter o nome do servidor e provedor | 3 | Must |
+
+* O endereço de servidor deve ser validado, conter o nome do servidor e provedor
+* Deve ser aplicado um protocolo de conexão
+
+*Originada em: [ENT1.7](../Elicitação/Entrevista.md#requisitos),[INT1.4](../Elicitação/Introspeccao.md#introspeccao-01),  [INT3.2](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 4](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AD13](../Elicitação/analdiscurso.md#requisitos-elicitados), [AP2](../Elicitação/analprot.md#requisitos-elicitados), [C4](cenarios.md#c4-v2)*
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -201,3 +218,4 @@ _Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), 
 | 07/05/2019 | 1.1 | Inclusão dos épicos EP01 e EP02 | Marcos Nery |
 | 07/05/2019 | 1.2 | Inclusão do épico EP03 | Heron Rodrigues |
 | 07/05/2019 | 1.3 | Inclusão do tema T03 | Weiller Fernandes |
+| 08/05/2019 | 1.4 | Inclusão do tema T04 | heron Rodrigues |
