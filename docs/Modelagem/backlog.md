@@ -1,15 +1,5 @@
 # Product Backlog
 
-1. [T01 - Entrar no aplicativo](#t01-entrar-no-aplicativo)
-    1. [EP01 - Fazer Login](#ep01-fazer-login)
-    2. [EP02 - Fazer Cadastro](#ep02-fazer-cadastro)
-2. [T02 - Channel](#t02-channel)
-    1. [EP03 - Criar channel](#ep03-criar-channel)
-    2. [EP04 - Mensagens](#ep03-mensagens)
-4. [T03 - Servidor](#t03-servidor)
-    1. [EP05 - Conectar com um servidor](#ep05-conectar-com-um-servidor)
-
-
 ## T01 - Entrar no aplicativo
 
 ### EP01 - Fazer Login
@@ -68,11 +58,54 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 
 _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cenarios.md#c1-v2)_
 
-## T02 - Channel
+## T02 - Ajuda ao usuario
 
-### EP03 - Criar channel
+### EP03 - Atendimento online
 
 #### US05
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+|US05|Usuário|Falar com algum integrande da equipe de suporte do Rocket.chat|gostaria de tirar uma dúvida ou obter ajuda com algum problema no aplicativo|Live chat com integrantes da equipe de suporte do Rocket.chat deverá ser disponibilizado no aplicativo|8|Would|
+
+* Deverá ser criado um grupo de funcionarios do Rocket.chat dedicado a prover suporte aos usuários via chat
+* Esse atendimento deverá estar disponível de 8 as 18h nos dias úteis
+* Deverá haver, na aplicação, um botão pelo qual o usuário pode ser levado ao chat e direcionado a um atendente
+* Os funcionarios responsáveis por prover o atendimento deverão ser previamente capacitados para prover um bom atendimento, dessa forma, devendo saber todo o necessário acerca da aplicação
+
+_Originada em: [ENT 1.3](../Elicitação/Entrevista#requisitos)_
+
+#### US06
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+|US06|Usuário|Enviar um email para a equpe de suporte do Rocket.chat e te-lo respondido|gostaria de tirar uma dúvida ou obter ajuda com algum problema no aplicativo|Deve haver um botão que encaminha o usuário para uma opção que o permite enviar um email|5|Could|
+
+_Originada em: [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
+
+### EP04 - Documentacao
+
+#### US07
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+|US07|Usuário ou interessado|Ter a minha disposição documentos que expliquem mais sobre como utilizar a aplicação | preciso entender todas as capacidades da aplicação | Deve ser redigida uma documentação completa do aplicativo | 5 | Must |
+
+_Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
+
+#### US08
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+|US08|Usuário ou interessado|Ter acesso a tutoriais ou ajuda dentro do aplicativo |preciso entender como funciona a aplicação|Deve haver um botão de ajuda, que fornece ao usuário tutoriais e descrições de como utilizar funcionalidades|3|Should|
+
+_Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
+
+## T03 - Channel
+
+### EP05 - Criar channel
+
+#### US09
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
@@ -86,9 +119,9 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 - Channel deve ser disponibilizado para qualquer usuário ter acesso, ao ser procurado na barra de pesquisa, na página inicial
 - Não é necessário que convide membros durante a criação do channel
 
-*Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)*
+_Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)_
 
-#### US06
+#### US10
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
@@ -105,9 +138,9 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 - Nome do channel deve conter no mínimo um caractere
 - Não é necessário que convide membros durante a criação do channel
 
-*Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)*
+_Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)_
 
-#### US07
+#### US11
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
@@ -115,97 +148,96 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 
 - Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial*Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)*
 
-
-### EP04 - Mensagens
-
-#### US08
-
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
-|----|----------|--------|--------|------------|--------|------------|
-| US08 | Usuário | Enviar uma mensagem de texto | para poder me comunicar de forma escrita com os membros de um channel|  |  | Must |
-
-* O usuário deverá ser capaz de enviar uma mensagem de texto para qualquer channel que ele faça parte
-* A mensagem enviada deverá ser recebida por todos os membros que fazem parte daquele channel
-* Não deve haver limite de caracteres para uma mensagem
-
-#### US09
-
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
-|----|----------|--------|--------|------------|--------|------------|
-| US09 | Usuário | Enviar um arquivo | para poder enviar qualquer documento ou arquivo que esteja armazenado no meu dispositivo para os demais membros do channel| Este arquivo pode ser uma foto, vídeo, documento, áudio, etc |  | Must |
-
-* Ao selecionar essa opção o usuário deverá buscar no armazenamento do seu dispositivo o arquivo que deseja enviar
-* O arquivo enviado deverá ser recebido por todos os membros que fazem parte daquele channel
-
-#### US10
-
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
-|----|----------|--------|--------|------------|--------|------------|
-| US10 | Usuário | Enviar um emoji| para poder demonstrar minha reação ou sentimento em um channel|  |  | Could |
-
-* O usuário poderá enviar emojis ou gifs, que estarão divididos por categorias
-* O emoji enviado deverá ser recebido por todos os membros que fazem parte daquele channel
-
-#### US11
-
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
-|----|----------|--------|--------|------------|--------|------------|
-| US11 | Usuário | Enviar mensagem de áudio| para mandar mensagem de voz ao invés de escreve um texto |  |  | Could |
-
-* O usuário poderá enviar mensagem de áudio com tempo ilimitado
+### EP06 - Mensagens
 
 #### US12
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
-| US12 | Usuário | Editar uma mensagem que foi enviada em um channel| para poder corrigir erros ou fazer quaisquer alterações na mesma|  |  | Should |
+| US12 | Usuário | Enviar uma mensagem de texto | para poder me comunicar de forma escrita com os membros de um channel|  |  | Must |
 
-* O usuário deve poder editar a mensagem a qualquer momento após tê-la enviado
+* O usuário deverá ser capaz de enviar uma mensagem de texto para qualquer channel que ele faça parte
+* A mensagem enviada deverá ser recebida por todos os membros que fazem parte daquele channel
+* Não deve haver limite de caracteres para uma mensagem
 
 #### US13
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
-| US | Usuário | Remover uma mensagem de um channel| para que ela não seja mais exibida dentro daquele channel e os demais membros não possam mais lê-la| É necessárioque tenha um aviso de que a mensagem foi removida |  | Should |
+| US13 | Usuário | Enviar um arquivo | para poder enviar qualquer documento ou arquivo que esteja armazenado no meu dispositivo para os demais membros do channel| Este arquivo pode ser uma foto, vídeo, documento, áudio, etc |  | Must |
 
-* O usuário deve poder remover uma mensagem a qualquer momento após tê-la enviado
-* No lugar da mensagem removida deverá ser exibido um aviso escrito "mensagem removida"
+* Ao selecionar essa opção o usuário deverá buscar no armazenamento do seu dispositivo o arquivo que deseja enviar
+* O arquivo enviado deverá ser recebido por todos os membros que fazem parte daquele channel
 
 #### US14
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
-| US14 | Usuário | Adicionar uma reação(emoji) em uma determinada mensagem dentro de um channel| para expressar o sentimento ou sensação que tive ao ler aquela mensagem| A reação deverá ficar junto á mensagem que foi "reagida" |  | Would |
+| US14 | Usuário | Enviar um emoji| para poder demonstrar minha reação ou sentimento em um channel|  |  | Could |
 
-* O usuário deverá poder adicionar uma reação para uma mensagem enviada em um channel da qual faz parte
-* Se vários usuários adicionarem reações a uma mesma mensagem, todas as reações deverão ser exibidas
+* O usuário poderá enviar emojis ou gifs, que estarão divididos por categorias
+* O emoji enviado deverá ser recebido por todos os membros que fazem parte daquele channel
 
 #### US15
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
-| US15 | Usuário | Responder uma mensagem de um channel| para que o usuário que a enviou saiba que aquela resposta foi direcionada a sua mensagem|  |  | Should |
+| US15 | Usuário | Enviar mensagem de áudio| para mandar mensagem de voz ao invés de escreve um texto |  |  | Could |
 
-* O usuário deverá poder responder uma mensagem que foi enviada em um channel
-* Uma mensagem de resposta deve exibir junto a ela a mensagem que está sendo respondida
+* O usuário poderá enviar mensagem de áudio com tempo ilimitado
 
 #### US16
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
-| US16 | Usuário | Reportar uma mensagem de um channel| para indicar que aquela mensagem foi ofensiva de alguma forma |  |  | Could |
+| US16 | Usuário | Editar uma mensagem que foi enviada em um channel| para poder corrigir erros ou fazer quaisquer alterações na mesma|  |  | Should |
 
-* O usuário deve poder reportar qualquer mensagem que tenha sido enviada no channel caso deseje
+* O usuário deve poder editar a mensagem a qualquer momento após tê-la enviado
 
-## T03 - Servidor
-
-### EP - Conectar com um servidor
-
-#### US
+#### US17
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
-| US | Usuário | Conectar com um servidor da aplicação | para que eu possa acessar o servidor em que meu time/empresa esteja utilizando para se comunicar | Deve conter o nome do servidor e provedor | 3 | Must |
+| US17 | Usuário | Remover uma mensagem de um channel| para que ela não seja mais exibida dentro daquele channel e os demais membros não possam mais lê-la| É necessárioque tenha um aviso de que a mensagem foi removida |  | Should |
+
+* O usuário deve poder remover uma mensagem a qualquer momento após tê-la enviado
+* No lugar da mensagem removida deverá ser exibido um aviso escrito "mensagem removida"
+
+#### US18
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US18 | Usuário | Adicionar uma reação(emoji) em uma determinada mensagem dentro de um channel| para expressar o sentimento ou sensação que tive ao ler aquela mensagem| A reação deverá ficar junto á mensagem que foi "reagida" |  | Would |
+
+* O usuário deverá poder adicionar uma reação para uma mensagem enviada em um channel da qual faz parte
+* Se vários usuários adicionarem reações a uma mesma mensagem, todas as reações deverão ser exibidas
+
+#### US19
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US19 | Usuário | Responder uma mensagem de um channel| para que o usuário que a enviou saiba que aquela resposta foi direcionada a sua mensagem|  |  | Should |
+
+* O usuário deverá poder responder uma mensagem que foi enviada em um channel
+* Uma mensagem de resposta deve exibir junto a ela a mensagem que está sendo respondida
+
+#### US20
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US20 | Usuário | Reportar uma mensagem de um channel| para indicar que aquela mensagem foi ofensiva de alguma forma |  |  | Could |
+
+* O usuário deve poder reportar qualquer mensagem que tenha sido enviada no channel caso deseje
+
+## T04 - Servidor
+
+### EP07 - Conectar com um servidor
+
+#### US21
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US21 | Usuário | Conectar com um servidor da aplicação | para que eu possa acessar o servidor em que meu time/empresa esteja utilizando para se comunicar | Deve conter o nome do servidor e provedor | 3 | Must |
 
 * O endereço de servidor deve ser validado, conter o nome do servidor e provedor
 * Deve ser aplicado um protocolo de conexão
@@ -221,3 +253,7 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 | 07/05/2019 | 1.2 | Inclusão do épico EP03 | Heron Rodrigues |
 | 07/05/2019 | 1.3 | Inclusão do tema T03 | Weiller Fernandes |
 | 08/05/2019 | 1.4 | Inclusão do tema T04 | Heron Rodrigues |
+| 07/05/2019 | 1.2 | Inclusão do épico EP05 | Heron Rodrigues |
+| 07/05/2019 | 1.3 | Inclusão do tema EP06 | Weiller Fernandes |
+| 08/05/2019 | 1.4 | Inclusão do tema T04 | Heron Rodrigues |
+| 08/05/2019 | 1.5 | Inclusão do tema T03, com EP03 e 04 | Marcos Nery |
