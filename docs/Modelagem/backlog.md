@@ -151,7 +151,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 #### US12
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
-|----|----------|--------|--------|------------|--------|------------|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US12 | Usuário | criar um canal onde apenas eu posso enviar mensagens | assim posso usa-lo como uma lista de transmissão e não canal de discussão | canal apenas de leitura | 5 | Should |
 
 - No momento em que é criado um canal deve existir a opção only-read channel
@@ -257,6 +257,43 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 *Originada em: [ENT1.7](../Elicitação/Entrevista.md#requisitos),[INT1.4](../Elicitação/Introspeccao.md#introspeccao-01),  [INT3.2](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 4](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AD13](../Elicitação/analdiscurso.md#requisitos-elicitados), [AP2](../Elicitação/analprot.md#requisitos-elicitados), [C4](cenarios.md#c4-v2)*
 
+### EP08 - Segurança 
+
+#### US23
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US23 | Usúario | estar em uma conexão segura | preciso transmitir mensagens confidenciais com minha equipe | independente do usuário possuir um servidor particular ou não |  | Must | Não-funcional |
+
+#### US4 
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US24 | Usuário administrador do servidor | Definir opção para criptografar meus channels por chave E2E | preciso transitir mensagens confidenciais com minha equipe | independente do usuário possuir um servidor particular ou não | | Must | Não-funcional | 
+
+### EP09 - Suporte a grandes Equipes
+
+#### US25
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US25 | Usuário administrador do servidor | Adicionar vários channels e usuários ao servidor dedicado | preciso que todas as equipes envolvidas no(s) projeto(s) tenham acesso aos channels que representam suas equipes | O servidor deve suportar o aumento de usuários | | Must | não-funcional | 
+
+### EP10 - Diretório
+
+#### US26
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US26 | Usuário | Verificar todos os Channels do servidor | desejo saber a relação de Channels criados no servidor | Opções disponíveis apenas no Desktop | | Would | Funcional |
+
+#### US27
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US27 | Usuário | Verificas todos os usuários do servidor | desejo saber a relação de todos os usuários cadastrados no servidor | desejo saber a relação de todos os usuários cadastrados no servidor | Opções disponíveis apenas no Desktop | | | Would | Funcional | 
+
+
 ## T06 - Arquitetura do Software
 
 ### EP - Escalar Servidor
@@ -264,7 +301,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 #### TS1
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
-|----|----------|--------|--------|------------|--------|------------|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | TS1 | Arquiteto do projeto | que o software possua uma arquitetura escalável para que ele possa atender mais pessoas de forma mais estável | assim mantenho o servidor funcionando de forma adequada para todos os usuários | | 13 | Should |
 
 * A arquitetura deve permitir que o servidor além de ser escalável possoa funcionar sob uma infraestrutura on-premise
@@ -277,12 +314,14 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 #### US23
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
-|----|----------|--------|--------|------------|--------|------------|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US23 | Usuário | fazer minha própria instancia do software com infraestrutura on-premise | assim tenho mais controle dos dados os quais são enviados no servidor o qual uso |  | 13 | Must |
 
 * O serviço deve ser suportado por servidor Linux
 
 *Originada em: [ENT1.7](../Elicitação/Entrevista.md#requisitos)*
+
+## T05 - 
 
 
 ## Versionamento
@@ -301,3 +340,4 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 | 08/05/2019 | 1.6 | Melhor formatação das tabelas | Marcos Nery |
 | 08/05/2019 | 1.7 | Adicionando pontos da US13 a US20 | Weiller Fernandes |
 | 08/05/2019 | 1.8 | Inclusão de tema T06, US12, TS1 e US23 | Joao Lucas |
+| 08/05/2019 | 1.9 | Inclusão dos epicos EP8, EP9 e EP10 | João Lucas | 
