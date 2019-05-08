@@ -154,7 +154,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US12 | Usuário | Enviar uma mensagem de texto | para poder me comunicar de forma escrita com os membros de um channel|  |  | Must |Funcional|
+| US12 | Usuário | Enviar uma mensagem de texto | para poder me comunicar de forma escrita com os membros de um channel|  | 5 | Must |Funcional|
 
 * O usuário deverá ser capaz de enviar uma mensagem de texto para qualquer channel que ele faça parte
 * A mensagem enviada deverá ser recebida por todos os membros que fazem parte daquele channel
@@ -164,7 +164,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US13 | Usuário | Enviar um arquivo | para poder enviar qualquer documento ou arquivo que esteja armazenado no meu dispositivo para os demais membros do channel| Este arquivo pode ser uma foto, vídeo, documento, áudio, etc |  | Must |Funcional|
+| US13 | Usuário | Enviar um arquivo | para poder enviar qualquer documento ou arquivo que esteja armazenado no meu dispositivo para os demais membros do channel| Este arquivo pode ser uma foto, vídeo, documento, áudio, etc | 5 | Must |Funcional|
 
 * Ao selecionar essa opção o usuário deverá buscar no armazenamento do seu dispositivo o arquivo que deseja enviar
 * O arquivo enviado deverá ser recebido por todos os membros que fazem parte daquele channel
@@ -173,7 +173,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US14 | Usuário | Enviar um emoji| para poder demonstrar minha reação ou sentimento em um channel|  |  | Could |Funcional|
+| US14 | Usuário | Enviar um emoji| para poder demonstrar minha reação ou sentimento em um channel|  | 3 | Could |Funcional|
 
 * O usuário poderá enviar emojis ou gifs, que estarão divididos por categorias
 * O emoji enviado deverá ser recebido por todos os membros que fazem parte daquele channel
@@ -182,7 +182,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US15 | Usuário | Enviar mensagem de áudio| para mandar mensagem de voz ao invés de escreve um texto |  |  | Could |Funcional|
+| US15 | Usuário | Enviar mensagem de áudio| para mandar mensagem de voz ao invés de escreve um texto |  | 5 | Could |Funcional|
 
 * O usuário poderá enviar mensagem de áudio com tempo ilimitado
 
@@ -190,7 +190,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US16 | Usuário | Editar uma mensagem que foi enviada em um channel| para poder corrigir erros ou fazer quaisquer alterações na mesma|  |  | Should |Funcional|
+| US16 | Usuário | Editar uma mensagem que foi enviada em um channel| para poder corrigir erros ou fazer quaisquer alterações na mesma|  | 5 | Should |Funcional|
 
 * O usuário deve poder editar a mensagem a qualquer momento após tê-la enviado
 
@@ -198,7 +198,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US17 | Usuário | Remover uma mensagem de um channel| para que ela não seja mais exibida dentro daquele channel e os demais membros não possam mais lê-la| É necessárioque tenha um aviso de que a mensagem foi removida |  | Should |Funcional|
+| US17 | Usuário | Remover uma mensagem de um channel| para que ela não seja mais exibida dentro daquele channel e os demais membros não possam mais lê-la| É necessário que tenha um aviso de que a mensagem foi removida | 3 | Should |Funcional|
 
 * O usuário deve poder remover uma mensagem a qualquer momento após tê-la enviado
 * No lugar da mensagem removida deverá ser exibido um aviso escrito "mensagem removida"
@@ -207,7 +207,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US18 | Usuário | Adicionar uma reação(emoji) em uma determinada mensagem dentro de um channel| para expressar o sentimento ou sensação que tive ao ler aquela mensagem| A reação deverá ficar junto á mensagem que foi "reagida" |  | Would |Funcional|
+| US18 | Usuário | Adicionar uma reação(emoji) em uma determinada mensagem dentro de um channel| para expressar o sentimento ou sensação que tive ao ler aquela mensagem| A reação deverá ficar junto á mensagem que foi "reagida" | 2 | Would |Funcional|
 
 * O usuário deverá poder adicionar uma reação para uma mensagem enviada em um channel da qual faz parte
 * Se vários usuários adicionarem reações a uma mesma mensagem, todas as reações deverão ser exibidas
@@ -216,7 +216,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US19 | Usuário | Responder uma mensagem de um channel| para que o usuário que a enviou saiba que aquela resposta foi direcionada a sua mensagem|  |  | Should |Funcional|
+| US19 | Usuário | Responder uma mensagem de um channel| para que o usuário que a enviou saiba que aquela resposta foi direcionada a sua mensagem|  | 5 | Should |Funcional|
 
 * O usuário deverá poder responder uma mensagem que foi enviada em um channel
 * Uma mensagem de resposta deve exibir junto a ela a mensagem que está sendo respondida
@@ -225,7 +225,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US20 | Usuário | Reportar uma mensagem de um channel| para indicar que aquela mensagem foi ofensiva de alguma forma |  |  | Could |Funcional|
+| US20 | Usuário | Reportar uma mensagem de um channel| para indicar que aquela mensagem foi ofensiva de alguma forma |  | 5 | Could |Funcional|
 
 * O usuário deve poder reportar qualquer mensagem que tenha sido enviada no channel caso deseje
 
@@ -258,3 +258,4 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 | 08/05/2019 | 1.4 | Inclusão do tema T04 | Heron Rodrigues |
 | 08/05/2019 | 1.5 | Inclusão do tema T03, com EP03 e 04 | Marcos Nery |
 | 08/05/2019 | 1.6 | Melhor formatação das tabelas | Marcos Nery |
+| 08/05/2019 | 1.7 | Adicionando pontos da US12 a US20 | Weiller Fernandes |
