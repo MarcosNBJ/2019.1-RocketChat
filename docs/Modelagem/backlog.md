@@ -1,13 +1,5 @@
 # Product Backlog
 
-## Introdução
-
-Este documento visa apresentar o backlog construído para o produto, bem como o detalhamento das histórias de usuário nele contidas. Além disso, pode ser visto também o que seria o planejamento das primeiras sprints.
-
-## Metodologia
-
-O backlog foi construído através dos requisitos que foram elicitados no modulo de elicitação e nos extras que surgiram ao longo da modelagem. Já o planejamento das sprints, foi feito levando em consideração a priorização feita por MoSCoW e a pontuação atribuída para cada história.
-
 ## T01 - Entrar no aplicativo
 
 ### EP01 - Fazer Login
@@ -243,7 +235,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 * Não deve haver limite de caracteres para uma mensagem
 
 _Originada em: [INT4.1](../Elicitação/Introspeccao.md#introspeccao-04),
-[Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos)_
+[Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [C12](cenarios.md#c12-v2)__
 
 #### US28
 
@@ -251,11 +243,12 @@ _Originada em: [INT4.1](../Elicitação/Introspeccao.md#introspeccao-04),
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US14 | Usuário | Enviar um arquivo | para poder enviar qualquer documento ou arquivo que esteja armazenado no meu dispositivo para os demais membros do channel| Este arquivo pode ser uma foto, vídeo, documento, áudio, etc | 5 | Must |Funcional|
 
-* Ao selecionar essa opção o usuário deverá buscar no armazenamento do seu dispositivo o arquivo que deseja enviar
+* Essa opção deve possibilitar ao usuário buscar no armazenamento do seu dispositivo o arquivo que deseja enviar
+* Essa opção deve possibilitar ao usuário buscar no Google Drive um arquivo que deseja enviar
 * O arquivo enviado deverá ser recebido por todos os membros que fazem parte daquele channel
 
 _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
-[Q6](../Elicitação/questionario.md#requisitos-elicitados)_
+[Q6](../Elicitação/questionario.md#requisitos-elicitados), [C9](cenarios.md#c9-v2)_
 
 #### US29
 
@@ -263,7 +256,7 @@ _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US15 | Usuário | Enviar um emoji| para poder demonstrar minha reação ou sentimento em um channel|  | 3 | Could |Funcional|
 
-* O usuário poderá enviar emojis ou gifs, que estarão divididos por categorias
+* O usuário deve poder enviar emojis ou gifs, que estarão divididos por categorias
 * O emoji enviado deverá ser recebido por todos os membros que fazem parte daquele channel
 
 #### US31
@@ -273,6 +266,7 @@ _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
 | US16 | Usuário | Enviar mensagem de áudio| para mandar mensagem de voz ao invés de escreve um texto |  | 5 | Could |Funcional|
 
 * O usuário poderá enviar mensagem de áudio com tempo ilimitado
+* A mensagem de áudio deverá ser recebida por todos os membros que fazem parte daquele channel
 
 _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01),
 [Q6](../Elicitação/questionario.md#requisitos-elicitados)_
@@ -281,9 +275,12 @@ _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01),
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US17 | Usuário | Editar uma mensagem que foi enviada em um channel| para poder corrigir erros ou fazer quaisquer alterações na mesma|  | 5 | Should |Funcional|
+| US17 | Usuário | Editar uma mensagem que foi enviada em um channel| para poder corrigir erros ou fazer quaisquer alterações na mesma| Deve haver um aviso que a mensagem foi editada | 5 | Should |Funcional|
 
 * O usuário deve poder editar a mensagem a qualquer momento após tê-la enviado
+* Um aviso com a mensagem "editado" deve ser exibido junto á mensagem que foi editada
+
+_Originada em: [C5](cenarios.md#c5)_
 
 #### US38
 
@@ -313,6 +310,8 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 * O usuário deverá poder responder uma mensagem que foi enviada em um channel
 * Uma mensagem de resposta deve exibir junto a ela a mensagem que está sendo respondida
+
+_Originada em: [C7](cenarios.md#c7-v2)_
 
 #### US41
 
@@ -351,6 +350,7 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 ## T05 - Servidor
 
 ### EP16 - Conectar com um servidor
+
 
 #### US65
 
@@ -400,13 +400,10 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 | US27 | Usuário | Verificas todos os usuários do servidor | desejo saber a relação de todos os usuários cadastrados no servidor | desejo saber a relação de todos os usuários cadastrados no servidor | Opções disponíveis apenas no Desktop | | | Would | Funcional | 
 
 
-
-### EP20 - Arquitetura do Software
-
 ### US71
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|----|----------|--------|--------|------------|--------|------------|
 | TS1 | Arquiteto do projeto | que o software possua uma arquitetura escalável para que ele possa atender mais pessoas de forma mais estável | assim mantenho o servidor funcionando de forma adequada para todos os usuários | | 13 | Should |
 
 * A arquitetura deve permitir que o servidor além de ser escalável possoa funcionar sob uma infraestrutura on-premise
@@ -417,7 +414,7 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 #### US72
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|----|----------|--------|--------|------------|--------|------------|
 | US23 | Usuário | fazer minha própria instancia do software com infraestrutura on-premise | assim tenho mais controle dos dados os quais são enviados no servidor o qual uso |  | 13 | Must |
 
 * O serviço deve ser suportado por servidor Linux
