@@ -1,5 +1,13 @@
 # Product Backlog
 
+## Introdução
+
+Este documento visa apresentar o backlog construído para o produto, bem como o detalhamento das histórias de usuário nele contidas. Além disso, pode ser visto também o que seria o planejamento das primeiras sprints.
+
+## Metodologia
+
+O backlog foi construído através dos requisitos que foram elicitados no modulo de elicitação e nos extras que surgiram ao longo da modelagem. Já o planejamento das sprints, foi feito levando em consideração a priorização feita por MoSCoW e a pontuação atribuída para cada história.
+
 ## T01 - Entrar no aplicativo
 
 ### EP01 - Fazer Login
