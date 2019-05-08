@@ -5,8 +5,8 @@
     2. [EP02 - Fazer Cadastro](#ep02-fazer-cadastro)
 2. [T02 - Channel](#t02-channel)
     1. [EP03 - Criar channel](#ep03-criar-channel)
-4. [T04 - Servidor](#)
-    1. [Conectar com um servidor](#ep)
+4. [T04 - Servidor](#t04-servidor)
+    1. [Conectar com um servidor](#ep-conectar-com-um-servidor)
 
 
 ## T01 - Entrar no aplicativo
@@ -85,6 +85,8 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 - Channel deve ser disponibilizado para qualquer usuário ter acesso, ao ser procurado na barra de pesquisa, na página inicial
 - Não é necessário que convide membros durante a criação do channel
 
+*Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)*
+
 #### US06
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
@@ -102,13 +104,16 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 - Nome do channel deve conter no mínimo um caractere
 - Não é necessário que convide membros durante a criação do channel
 
+*Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)*
+
 #### US07
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
 | US07 | Usuário | Enviar mensagem direta | gostaria de enviar mensagens privadas para determinado usuário|  | 5 | Must |
 
-- Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial
+- Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial*Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)*
+
 
 ## T03 - Mensagem Enviada
 
