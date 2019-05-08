@@ -1,13 +1,5 @@
 # Product Backlog
 
-1. [T01 - Entrar no aplicativo](#t01-entrar-no-aplicativo)
-    1. [EP01 - Fazer Login](#ep01-fazer-login)
-    2. [EP02 - Fazer Cadastro](#ep02-fazer-cadastro)
-2. [T02 - Channel](#t02-channel)
-    1. [EP03 - Criar channel](#ep03-criar-channel)
-4. [T04 - Servidor](#)
-    1. [Conectar com um servidor](#ep)
-
 
 ## T01 - Entrar no aplicativo
 
@@ -67,11 +59,57 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 
 _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cenarios.md#c1-v2)_
 
-## T02 - Channel
+## T02 - Ajuda ao usuario
 
-### EP03 - Criar channel
+### EP03 - Atendimento online 
 
 #### US05
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+|US05|Usuário|Falar com algum integrande da equipe de suporte do Rocket.chat|gostaria de tirar uma dúvida ou obter ajuda com algum problema no aplicativo|Live chat com integrantes da equipe de suporte do Rocket.chat deverá ser disponibilizado no aplicativo|8|Would|
+
+* Deverá ser criado um grupo de funcionarios do Rocket.chat dedicado a prover suporte aos usuários via chat 
+* Esse atendimento deverá estar disponível de 8 as 18h nos dias úteis
+* Deverá haver, na aplicação, um botão pelo qual o usuário pode ser levado ao chat e direcionado a um atendente
+* Os funcionarios responsáveis por prover o atendimento deverão ser previamente capacitados para prover um bom atendimento, dessa forma, devendo saber todo o necessário acerca da aplicação
+
+_Originada em: [ENT 1.3](../Elicitação/Entrevista#requisitos)_
+
+#### US06
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+|US06|Usuário|Enviar um email para a equpe de suporte do Rocket.chat e te-lo respondido|gostaria de tirar uma dúvida ou obter ajuda com algum problema no aplicativo|Deve haver um botão que encaminha o usuário para uma opção que o permite enviar um email|5|Could|
+
+_Originada em: [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
+
+### EP04 - Documentacao 
+
+#### US07
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+|US07|Usuário ou interessado|Ter a minha disposição documentos que expliquem mais sobre como utilizar a aplicação
+|preciso entender todas as capacidades da aplicação
+|Deve ser redigida uma documentação completa do aplicativo
+|5|Must|
+
+_Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
+
+#### US08
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+|US08|Usuário ou interessado|Ter acesso a tutoriais ou ajuda dentro do aplicativo |preciso entender como funciona a aplicação|Deve haver um botão de ajuda, que fornece ao usuário tutoriais e descrições de como utilizar funcionalidades|3|Should|
+
+_Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
+
+## T03 - Channel
+
+### EP05 - Criar channel
+
+#### US09
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
@@ -85,7 +123,7 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 - Channel deve ser disponibilizado para qualquer usuário ter acesso, ao ser procurado na barra de pesquisa, na página inicial
 - Não é necessário que convide membros durante a criação do channel
 
-#### US06
+#### US10
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
@@ -102,7 +140,7 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 - Nome do channel deve conter no mínimo um caractere
 - Não é necessário que convide membros durante a criação do channel
 
-#### US07
+#### US11
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
 |----|----------|--------|--------|------------|--------|------------|
@@ -110,7 +148,7 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 
 - Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial
 
-## T03 - Mensagem Enviada
+## T04 - Mensagem Enviada
 
 ### EP - Enviar Mensagem
 
@@ -216,6 +254,7 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 |  :------: | :------: | :------: | :------: |
 | 07/05/2019 | 1.0 | Abertura do documento | Marcos Nery |
 | 07/05/2019 | 1.1 | Inclusão dos épicos EP01 e EP02 | Marcos Nery |
-| 07/05/2019 | 1.2 | Inclusão do épico EP03 | Heron Rodrigues |
-| 07/05/2019 | 1.3 | Inclusão do tema T03 | Weiller Fernandes |
-| 08/05/2019 | 1.4 | Inclusão do tema T04 | heron Rodrigues |
+| 07/05/2019 | 1.2 | Inclusão do épico EP05 | Heron Rodrigues |
+| 07/05/2019 | 1.3 | Inclusão do tema T04 | Weiller Fernandes |
+| 08/05/2019 | 1.4 | Inclusão do tema T05 | heron Rodrigues |
+| 08/05/2019 | 1.5 | Inclusão do tema T03, com EP03 e 04 | Marcos Nery |
