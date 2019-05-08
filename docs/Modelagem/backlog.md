@@ -62,3 +62,13 @@ _Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), 
 * O dono do servidor deverá ser capaz de modificar essas definições a qualquer momento que desejar
 
 _Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), [C1](cenarios.md#c1-v2)_
+
+
+## Versionamento
+
+| Data | Versão | Modificação | Autor |
+|  :------: | :------: | :------: | :------: |
+| 07/05/2019 | 1.0 | Abertura do documento | Marcos Nery |
+| 07/05/2019 | 1.1 | Inclusão dos épicos EP01 e EP02 | Marcos Nery |
+
+
