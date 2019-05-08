@@ -146,7 +146,9 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US11 | Usuário | Enviar mensagem direta | gostaria de enviar mensagens privadas para determinado usuário|  | 5 | Must |Funcional|
 
-- Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial*Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)*
+- Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial
+
+_Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)_
 
 #### US12
 
@@ -155,7 +157,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 | US12 | Usuário | criar um canal onde apenas eu posso enviar mensagens | assim posso usa-lo como uma lista de transmissão e não canal de discussão | canal apenas de leitura | 5 | Should |
 
 - No momento em que é criado um canal deve existir a opção only-read channel
-- Apenas o usuário o qual criou o canal deve poder enviar mensagens 
+- Apenas o usuário o qual criou o canal deve poder enviar mensagens
 - Apenas administradores devem poder convidar pessoas para o canal
 - O nome do canal deve possuir ao menos um caractere
 - Não é necessário que convide membros durante a criação do channel
@@ -173,6 +175,9 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 * A mensagem enviada deverá ser recebida por todos os membros que fazem parte daquele channel
 * Não deve haver limite de caracteres para uma mensagem
 
+_Originada em: [INT4.1](../Elicitação/Introspeccao.md#introspeccao-04),
+[Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos)_
+
 #### US14
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
@@ -181,6 +186,9 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 * Ao selecionar essa opção o usuário deverá buscar no armazenamento do seu dispositivo o arquivo que deseja enviar
 * O arquivo enviado deverá ser recebido por todos os membros que fazem parte daquele channel
+
+_Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
+[Q6](../Elicitação/questionario.md#requisitos-elicitados)_
 
 #### US15
 
@@ -199,6 +207,9 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 * O usuário poderá enviar mensagem de áudio com tempo ilimitado
 
+_Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01),
+[Q6](../Elicitação/questionario.md#requisitos-elicitados)_
+
 #### US17
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
@@ -215,6 +226,8 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 * O usuário deve poder remover uma mensagem a qualquer momento após tê-la enviado
 * No lugar da mensagem removida deverá ser exibido um aviso escrito "mensagem removida"
+
+_Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 #### US19
 
@@ -338,6 +351,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 | 08/05/2019 | 1.4 | Inclusão do tema T04 | Heron Rodrigues |
 | 08/05/2019 | 1.5 | Inclusão do tema T03, com EP03 e 04 | Marcos Nery |
 | 08/05/2019 | 1.6 | Melhor formatação das tabelas | Marcos Nery |
-| 08/05/2019 | 1.7 | Adicionando pontos da US13 a US20 | Weiller Fernandes |
-| 08/05/2019 | 1.8 | Inclusão de tema T06, US12, TS1 e US23 | Joao Lucas |
-| 08/05/2019 | 1.9 | Inclusão dos epicos EP8, EP9 e EP10 | João Lucas | 
+| 08/05/2019 | 1.7 | Inclusão dos pontos da US13 a US20 | Weiller Fernandes |
+| 08/05/2019 | 1.8 | Inclusão da restreabilidade nas US13, US14, US16 e US18 | Weiller Fernandes |
+| 08/05/2019 | 1.9 | Inclusão de tema T06, US12, TS1 e US23 | João Lucas |
+| 08/05/2019 | 2.0 | Inclusão dos épicos EP8, EP9, EP10 | João Lucas |
