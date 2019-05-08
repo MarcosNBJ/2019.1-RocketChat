@@ -339,9 +339,9 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 | US27 | Usuário | Verificas todos os usuários do servidor | desejo saber a relação de todos os usuários cadastrados no servidor | desejo saber a relação de todos os usuários cadastrados no servidor | Opções disponíveis apenas no Desktop | | | Would | Funcional | 
 
 
-## T06 - Arquitetura do Software
+## T05 - Arquitetura do Software
 
-### EP - Escalar Servidor
+### EP11 - Escalar Servidor
 
 #### TS1
 
@@ -354,7 +354,7 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 *Originada em: [ENT1.9](../Elicitação/Entrevista.md#requisitos)*
 
-### EP - Instanciar servidor on-premise
+### EP12 - Instanciar servidor on-premise
 
 #### US23
 
@@ -366,7 +366,49 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 *Originada em: [ENT1.7](../Elicitação/Entrevista.md#requisitos)*
 
-## T05 - 
+## T06 - Visão geral do aplicativo
+
+### EP13 - Configurações do aplicativo 
+
+#### US24
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US14 | Usuário |Acessar as preferências do aplicativo| quero modificar as preferências do aplicativo que melhor se adequem as minhas necessidades|  | 8 | Must |Funcional| 
+
+* Deve estar disponibilizada no menu de personalização a função de alterar o comportamento das notificações, se são para todas as mensagens ou somente menções
+* Deve haver uma opção para configurar os temas utilizados
+* Deve haver um menu de seleção de idioma
+* Deve haver uma opção de personalização de perfil, que direciona o usuário a tela dedicada alterar suas informações pessoais 
+
+
+_Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [AP8](../Elicitação/analdiscurso#requisitos-elicitados)_
+
+
+#### US25
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US14 | Usuário |Alterar Idioma| preciso alterar para um idioma que eu tenha mais familiaridade ou apenas para padronizar com minha equipe|  |  8| Must |Funcional| 
+
+* O usuário deverá ser capaz de alterar o idioma no qual a aplicação vigora, alterando os textos de todos os botões e menus existentes
+* Inicialmente deverão haver os idiomas Inglês, Portugugês-Brasil e Espanhol. 
+* A funcionalidade deve dar suporte para que outros idiomas sejam adicionados posteriormente
+
+_Originada em: [INT4.5](../Elicitação/Introspeccao#introspeccao-04), [StoryBoarding 6](../Elicitação/Storyboard.md#4-requisitos-obtidos)_
+
+#### US26
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US14 | Usuário |Configurar Exibição| gostaria de alterar opções que melhor se adaptem as minhas necessidades e ao meu dispositivo|  | 3 | Could |Funcional|
+
+* A funcionalidade deve oferecer ao usuário a opção de alterar o modo de exibição do aplicativo
+* Dois modos de exibição devem por padrão existir, o normal e o simplificado. No simplificado, a tela é focada em um channel e a barra lateral fica escondida
+
+_Originada em: [AD9]((../Elicitação/analdiscurso#requisitos-elicitados))_
+
+
 
 
 ## Versionamento
@@ -385,6 +427,10 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 | 08/05/2019 | 1.6 | Melhor formatação das tabelas | Marcos Nery |
 | 08/05/2019 | 1.7 | Inclusão dos pontos da US13 a US20 | Weiller Fernandes |
 | 08/05/2019 | 1.8 | Inclusão da restreabilidade nas US13, US14, US16 e US18 | Weiller Fernandes |
-| 08/05/2019 | 1.9 | Inclusão de tema T06, US12, TS1 e US23 | João Lucas |
+| 08/05/2019 | 1.9 | Inclusão de tema T05, US12, TS1 e US23 | João Lucas |
 | 08/05/2019 | 2.0 | Inclusão dos épicos EP8, EP9, EP10 | João Lucas |
+<<<<<<< HEAD
 | 08/05/2019 | 2.1 | Inclusão das US41, US42, US43, US44, US45 | João Lucas |
+=======
+| 08/05/2019 | 2.1 | Inclusão do tema T06, com EP13 | Marcos Nery |
+>>>>>>> dc3259bffa8de674e2f6aa676be13a8454b6958a
