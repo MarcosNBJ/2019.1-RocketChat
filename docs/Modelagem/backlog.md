@@ -109,7 +109,7 @@ _Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US05 | Usuário | Criar channel publico | para que todos possam procurar e ter acesso à esse channel | É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação | 5 | Must |Funcional|
+| US09 | Usuário | Criar channel publico | para que todos possam procurar e ter acesso à esse channel | É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação | 5 | Must |Funcional|
 
 - Deve ser disponibilizado para o usuário, a opção de criar channel publico
 - Usuário pode criar número ilimitado de channels publicos
@@ -125,7 +125,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US06 | Usuário | Criar channel privado | para que seja acessado apenas por convite e visivel somente por seus membros | É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação | 5 | Must |Funcional|
+| US10 | Usuário | Criar channel privado | para que seja acessado apenas por convite e visivel somente por seus membros | É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação | 5 | Must |Funcional|
 
 - Por padrão, somente adminstradores e moderadores podem convidar novos membros
 - Somente membros podem ter acesso à esse channel
@@ -144,19 +144,32 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US07 | Usuário | Enviar mensagem direta | gostaria de enviar mensagens privadas para determinado usuário|  | 5 | Must |Funcional|
+| US11 | Usuário | Enviar mensagem direta | gostaria de enviar mensagens privadas para determinado usuário|  | 5 | Must |Funcional|
 
 - Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial
 
 _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)_
 
+#### US12
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US12 | Usuário | criar um canal onde apenas eu posso enviar mensagens | assim posso usa-lo como uma lista de transmissão e não canal de discussão | canal apenas de leitura | 5 | Should |
+
+- No momento em que é criado um canal deve existir a opção only-read channel
+- Apenas o usuário o qual criou o canal deve poder enviar mensagens
+- Apenas administradores devem poder convidar pessoas para o canal
+- O nome do canal deve possuir ao menos um caractere
+- Não é necessário que convide membros durante a criação do channel
+
+
 ### EP06 - Mensagens
 
-#### US12
+#### US13
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US12 | Usuário | Enviar uma mensagem de texto | para poder me comunicar de forma escrita com os membros de um channel|  | 5 | Must |Funcional|
+| US13 | Usuário | Enviar uma mensagem de texto | para poder me comunicar de forma escrita com os membros de um channel|  | 5 | Must |Funcional|
 
 * O usuário deverá ser capaz de enviar uma mensagem de texto para qualquer channel que ele faça parte
 * A mensagem enviada deverá ser recebida por todos os membros que fazem parte daquele channel
@@ -165,11 +178,11 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 _Originada em: [INT4.1](../Elicitação/Introspeccao.md#introspeccao-04),
 [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos)_
 
-#### US13
+#### US14
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US13 | Usuário | Enviar um arquivo | para poder enviar qualquer documento ou arquivo que esteja armazenado no meu dispositivo para os demais membros do channel| Este arquivo pode ser uma foto, vídeo, documento, áudio, etc | 5 | Must |Funcional|
+| US14 | Usuário | Enviar um arquivo | para poder enviar qualquer documento ou arquivo que esteja armazenado no meu dispositivo para os demais membros do channel| Este arquivo pode ser uma foto, vídeo, documento, áudio, etc | 5 | Must |Funcional|
 
 * Ao selecionar essa opção o usuário deverá buscar no armazenamento do seu dispositivo o arquivo que deseja enviar
 * O arquivo enviado deverá ser recebido por todos os membros que fazem parte daquele channel
@@ -177,55 +190,55 @@ _Originada em: [INT4.1](../Elicitação/Introspeccao.md#introspeccao-04),
 _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
 [Q6](../Elicitação/questionario.md#requisitos-elicitados)_
 
-#### US14
-
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US14 | Usuário | Enviar um emoji| para poder demonstrar minha reação ou sentimento em um channel|  | 3 | Could |Funcional|
-
-* O usuário poderá enviar emojis ou gifs, que estarão divididos por categorias
-* O emoji enviado deverá ser recebido por todos os membros que fazem parte daquele channel
-
 #### US15
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US15 | Usuário | Enviar mensagem de áudio| para mandar mensagem de voz ao invés de escreve um texto |  | 5 | Could |Funcional|
+| US15 | Usuário | Enviar um emoji| para poder demonstrar minha reação ou sentimento em um channel|  | 3 | Could |Funcional|
+
+* O usuário poderá enviar emojis ou gifs, que estarão divididos por categorias
+* O emoji enviado deverá ser recebido por todos os membros que fazem parte daquele channel
+
+#### US16
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US16 | Usuário | Enviar mensagem de áudio| para mandar mensagem de voz ao invés de escreve um texto |  | 5 | Could |Funcional|
 
 * O usuário poderá enviar mensagem de áudio com tempo ilimitado
 
 _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01),
 [Q6](../Elicitação/questionario.md#requisitos-elicitados)_
 
-#### US16
-
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US16 | Usuário | Editar uma mensagem que foi enviada em um channel| para poder corrigir erros ou fazer quaisquer alterações na mesma|  | 5 | Should |Funcional|
-
-* O usuário deve poder editar a mensagem a qualquer momento após tê-la enviado
-
 #### US17
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US17 | Usuário | Remover uma mensagem de um channel| para que ela não seja mais exibida dentro daquele channel e os demais membros não possam mais lê-la| É necessário que tenha um aviso de que a mensagem foi removida | 3 | Should |Funcional|
+| US17 | Usuário | Editar uma mensagem que foi enviada em um channel| para poder corrigir erros ou fazer quaisquer alterações na mesma|  | 5 | Should |Funcional|
+
+* O usuário deve poder editar a mensagem a qualquer momento após tê-la enviado
+
+#### US18
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US18 | Usuário | Remover uma mensagem de um channel| para que ela não seja mais exibida dentro daquele channel e os demais membros não possam mais lê-la| É necessário que tenha um aviso de que a mensagem foi removida | 3 | Should |Funcional|
 
 * O usuário deve poder remover uma mensagem a qualquer momento após tê-la enviado
 * No lugar da mensagem removida deverá ser exibido um aviso escrito "mensagem removida"
 
 _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
-#### US18
+#### US19
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US18 | Usuário | Adicionar uma reação(emoji) em uma determinada mensagem dentro de um channel| para expressar o sentimento ou sensação que tive ao ler aquela mensagem| A reação deverá ficar junto á mensagem que foi "reagida" | 2 | Would |Funcional|
+| US19 | Usuário | Adicionar uma reação(emoji) em uma determinada mensagem dentro de um channel| para expressar o sentimento ou sensação que tive ao ler aquela mensagem| A reação deverá ficar junto á mensagem que foi "reagida" | 2 | Would |Funcional|
 
 * O usuário deverá poder adicionar uma reação para uma mensagem enviada em um channel da qual faz parte
 * Se vários usuários adicionarem reações a uma mesma mensagem, todas as reações deverão ser exibidas
 
-#### US19
+#### US20
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
@@ -234,11 +247,11 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 * O usuário deverá poder responder uma mensagem que foi enviada em um channel
 * Uma mensagem de resposta deve exibir junto a ela a mensagem que está sendo respondida
 
-#### US20
+#### US21
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US20 | Usuário | Reportar uma mensagem de um channel| para indicar que aquela mensagem foi ofensiva de alguma forma |  | 5 | Could |Funcional|
+| US21 | Usuário | Reportar uma mensagem de um channel| para indicar que aquela mensagem foi ofensiva de alguma forma |  | 5 | Could |Funcional|
 
 * O usuário deve poder reportar qualquer mensagem que tenha sido enviada no channel caso deseje
 
@@ -246,16 +259,44 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 ### EP07 - Conectar com um servidor
 
-#### US21
+#### US22
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US21 | Usuário | Conectar com um servidor da aplicação | para que eu possa acessar o servidor em que meu time/empresa esteja utilizando para se comunicar | Deve conter o nome do servidor e provedor | 3 | Must |Funcional|
+| US22 | Usuário | Conectar com um servidor da aplicação | para que eu possa acessar o servidor em que meu time/empresa esteja utilizando para se comunicar | Deve conter o nome do servidor e provedor | 3 | Must |Funcional|
 
 * O endereço de servidor deve ser validado, conter o nome do servidor e provedor
 * Deve ser aplicado um protocolo de conexão
 
 *Originada em: [ENT1.7](../Elicitação/Entrevista.md#requisitos),[INT1.4](../Elicitação/Introspeccao.md#introspeccao-01),  [INT3.2](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 4](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AD13](../Elicitação/analdiscurso.md#requisitos-elicitados), [AP2](../Elicitação/analprot.md#requisitos-elicitados), [C4](cenarios.md#c4-v2)*
+
+## T06 - Arquitetura do Software
+
+### EP - Escalar Servidor
+
+#### TS1
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| TS1 | Arquiteto do projeto | que o software possua uma arquitetura escalável para que ele possa atender mais pessoas de forma mais estável | assim mantenho o servidor funcionando de forma adequada para todos os usuários | | 13 | Should |
+
+* A arquitetura deve permitir que o servidor além de ser escalável possoa funcionar sob uma infraestrutura on-premise
+* A aquitetura deve permitir instâncias individuais do software
+
+*Originada em: [ENT1.9](../Elicitação/Entrevista.md#requisitos)*
+
+### EP - Instanciar servidor on-premise
+
+#### US23
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US23 | Usuário | fazer minha própria instancia do software com infraestrutura on-premise | assim tenho mais controle dos dados os quais são enviados no servidor o qual uso |  | 13 | Must |
+
+* O serviço deve ser suportado por servidor Linux
+
+*Originada em: [ENT1.7](../Elicitação/Entrevista.md#requisitos)*
+
 
 ## Versionamento
 
@@ -271,5 +312,6 @@ _Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 | 08/05/2019 | 1.4 | Inclusão do tema T04 | Heron Rodrigues |
 | 08/05/2019 | 1.5 | Inclusão do tema T03, com EP03 e 04 | Marcos Nery |
 | 08/05/2019 | 1.6 | Melhor formatação das tabelas | Marcos Nery |
-| 08/05/2019 | 1.7 | Inclusão dos pontos da US12 a US20 | Weiller Fernandes |
-| 08/05/2019 | 1.8 | Inclusão da restreabilidade nas US12, US13, US15 e US17 | Weiller Fernandes |
+| 08/05/2019 | 1.7 | Inclusão dos pontos da US13 a US20 | Weiller Fernandes |
+| 08/05/2019 | 1.8 | Inclusão da restreabilidade nas US13, US14, US16 e US18 | Weiller Fernandes |
+| 08/05/2019 | 1.9 | Inclusão de tema T06, US12, TS1 e US23 | Joao Lucas |
