@@ -34,7 +34,7 @@ A utilização dessa técnica buscou apresentar como o Rocket.chat pode se encai
 
 ## Introspecção 02
 
-![INT4](../img/Elicitacao/introspeccao_04.png)
+![INT2](../img/Elicitacao/introspeccao_02.png)
 
 **Requisitos elicitados:**
 

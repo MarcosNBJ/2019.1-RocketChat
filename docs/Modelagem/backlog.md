@@ -146,7 +146,9 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US07 | Usuário | Enviar mensagem direta | gostaria de enviar mensagens privadas para determinado usuário|  | 5 | Must |Funcional|
 
-- Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial*Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)*
+- Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial
+
+_Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)_
 
 ### EP06 - Mensagens
 
@@ -160,6 +162,9 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 * A mensagem enviada deverá ser recebida por todos os membros que fazem parte daquele channel
 * Não deve haver limite de caracteres para uma mensagem
 
+_Originada em: [INT4.1](../Elicitação/Introspeccao.md#introspeccao-04),
+[Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos)_
+
 #### US13
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
@@ -168,6 +173,9 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 * Ao selecionar essa opção o usuário deverá buscar no armazenamento do seu dispositivo o arquivo que deseja enviar
 * O arquivo enviado deverá ser recebido por todos os membros que fazem parte daquele channel
+
+_Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
+[Q6](../Elicitação/questionario.md#requisitos-elicitados)_
 
 #### US14
 
@@ -186,6 +194,9 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 * O usuário poderá enviar mensagem de áudio com tempo ilimitado
 
+_Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01),
+[Q6](../Elicitação/questionario.md#requisitos-elicitados)_
+
 #### US16
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
@@ -202,6 +213,8 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 * O usuário deve poder remover uma mensagem a qualquer momento após tê-la enviado
 * No lugar da mensagem removida deverá ser exibido um aviso escrito "mensagem removida"
+
+_Originada em: [Q8](../Elicitação/questionario.md#requisitos-elicitados)_
 
 #### US18
 
@@ -258,4 +271,5 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 | 08/05/2019 | 1.4 | Inclusão do tema T04 | Heron Rodrigues |
 | 08/05/2019 | 1.5 | Inclusão do tema T03, com EP03 e 04 | Marcos Nery |
 | 08/05/2019 | 1.6 | Melhor formatação das tabelas | Marcos Nery |
-| 08/05/2019 | 1.7 | Adicionando pontos da US12 a US20 | Weiller Fernandes |
+| 08/05/2019 | 1.7 | Inclusão dos pontos da US12 a US20 | Weiller Fernandes |
+| 08/05/2019 | 1.8 | Inclusão da restreabilidade nas US12, US13, US15 e US17 | Weiller Fernandes |
