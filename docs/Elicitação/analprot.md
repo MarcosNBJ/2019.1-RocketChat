@@ -11,7 +11,7 @@ Para a execução do método, foram escolhidos dois usuários vonluntários que 
 
 |Atividade|Comentário|Requisitos fomentados|
 |:--:|:--:|:--:|
-|Login| Legal não ter que criar conta e poder fazer login com as contas de outros lugares, eu farei com o Facebook|AP1|
+|Login| Legal não ter que criar conta e poder fazer login com as contas de outros lugares, eu farei com o Facebook|AP1, AP10|
 |Entrar no servidor| Agora estou entrando no servidor público do Rocket.chat, o que é uma opção legal de se ter, já que eu não faço parte de nenhum outro servidor instânciado |AP2|
 |Primeiro contato com a tela principal do aplicativo|A interface é intuitíva o suficiente, mas seria bom ter um pequeno tutorial para ensinar onde faço cada coisa, já que o aplicativo parece ter muitas funcionalidades|AP3, AP6|
 |Criar channel e adicionar usuário 2 para uma conversa|Para criar um channel de conversas o processo é bem fácil, a tela de criação pede o mínimo de informações necessárias para possibilitar a criação e a adição dos primeiros usuários|AP4|
@@ -36,6 +36,7 @@ Para a execução do método, foram escolhidos dois usuários vonluntários que 
 ## Requisitos elicitados
 
 Abaixo seguem os requisitos elicitados pelo método, com seus respectivos códigos pelos quais pode ser visto qual comentário os gerou. A técnica de priorização utilizada foi a MoSCoW, que separa as prioridades em níveis que vão de Would para Must, passando pelos níveis intermediários Could e Should, nessa ordem de prioridade. E para definir a prioridade de cada requisito foram levados em consideração os seguintes critérios: 
+
 	* Se ambos os usuários falaram sobre ou apenas 
 	* O quão necessário seria tal requisito para cada usuário, e se a falta dele causaria grandes impedimentos no uso do aplicativo ou não, o que também foi coletado com os dois usuários durante a análise.
 
@@ -51,6 +52,7 @@ Abaixo seguem os requisitos elicitados pelo método, com seus respectivos códig
 |AP7| A aplicação deve oferecer o usuário a opção de personalizar suas informações pessoas, como foto, email e tag | Should |
 |AP8| As configurações do aplicativo devem permitir uma extensiva personalização do comportamento do aplicativo, e com um fluxo fácil de ser seguido | Should |
 |AP09| As interfaces de chat devem lembrar o visto em outros aplicativos populares de comunicação, para que o usuário consiga, ao enxergar os padrões, saber como fazer cada coisa |Could|
+|AP10|O usuário deverá ser capaz de criar uma conta no aplicativo|Must|
 
 
 ## Versionamento
@@ -58,3 +60,5 @@ Abaixo seguem os requisitos elicitados pelo método, com seus respectivos códig
 | Data | Versão | Modificação | Autor |
 |  :------: | :------: | :------: | :------: |
 | 14/04/2019 | 1.0 | Adição da análise de protocolo | Marcos Nery |
+| 02/05/2019 | 1.1 | Adição do requisito AP10, por necessidades levantadas nos cenários | Marcos Nery |
+
