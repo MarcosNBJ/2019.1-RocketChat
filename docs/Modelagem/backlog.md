@@ -45,6 +45,8 @@ _Originada em: [INT1.3](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02)
 * As seguintes informações do usuário deverão ser requisitadas para cadastrar a conta: email, usuário, tag e senha.
 * A tag deve ser única, cada usuário tendo a sua. E assim como o nome de usuário estar restrito a letras e números.
 * A senha deverá conter um número mínimo de 6 caractéres, incluíndo letras maíusculas, minúsculas, números e caracteres especiais.
+* Deverá aparecer uma mensagem clara de erro caso o usuário insira errado alguma das informações.
+* Opcionalmente, o usuário deverá conseguir colocar uma foto para aparecer no seu perfil.
 
 _Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), [C1](cenarios.md#c1-v2)_
 
