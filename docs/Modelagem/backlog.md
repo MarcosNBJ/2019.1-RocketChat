@@ -108,6 +108,90 @@ _Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), 
 
 - Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial
 
+## T03 - Mensagem Enviada
+
+### EP - Enviar Mensagem
+
+#### US
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US | Usuário | Enviar uma mensagem de texto | para poder me comunicar de forma escrita com os membros de um channel|  |  | Must |
+
+* O usuário deverá ser capaz de enviar uma mensagem de texto para qualquer channel que ele faça parte
+* A mensagem enviada deverá ser recebida por todos os membros que fazem parte daquele channel
+* Não deve haver limite de caracteres para uma mensagem
+
+#### US
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US | Usuário | Enviar um arquivo | para poder enviar qualquer documento ou arquivo que esteja armazenado no meu dispositivo para os demais membros do channel| Este arquivo pode ser uma foto, vídeo, documento, áudio, etc |  | Must |
+
+* Ao selecionar essa opção o usuário deverá buscar no armazenamento do seu dispositivo o arquivo que deseja enviar
+* O arquivo enviado deverá ser recebido por todos os membros que fazem parte daquele channel
+
+#### US
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US | Usuário | Enviar um emoji| para poder demonstrar minha reação ou sentimento em um channel|  |  | Could |
+
+* O usuário poderá enviar emojis ou gifs, que estarão divididos por categorias
+* O emoji enviado deverá ser recebido por todos os membros que fazem parte daquele channel
+
+### EP - Editar Mensagem
+
+#### US
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US | Usuário | Editar uma mensagem que foi enviada em um channel| para poder corrigir erros ou fazer quaisquer alterações na mesma|  |  | Should |
+
+* O usuário deve poder editar a mensagem a qualquer momento após tê-la enviado
+
+### EP - Remover Mensagem
+
+#### US
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US | Usuário | Remover uma mensagem de um channel| para que ela não seja mais exibida dentro daquele channel e os demais membros não possam mais lê-la| É necessárioque tenha um aviso de que a mensagem foi removida |  | Should |
+
+* O usuário deve poder remover uma mensagem a qualquer momento após tê-la enviado
+* No lugar da mensagem removida deverá ser exibido um aviso escrito "mensagem removida"
+
+### EP - Adicionar Reação
+
+#### US
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US | Usuário | Adicionar uma reação(emoji) em uma determinada mensagem dentro de um channel| para expressar o sentimento ou sensação que tive ao ler aquela mensagem| A reação deverá ficar junto á mensagem que foi "reagida" |  | Would |
+
+* O usuário deverá poder adicionar uma reação para uma mensagem enviada em um channel da qual faz parte
+* Se vários usuários adicionarem reações a uma mesma mensagem, todas as reações deverão ser exibidas
+
+### EP - Responder Mensagem
+
+#### US
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US | Usuário | Responder uma mensagem de um channel| para que o usuário que a enviou saiba que aquela resposta foi direcionada a sua mensagem|  |  | Should |
+
+* O usuário deverá poder responder uma mensagem que foi enviada em um channel
+* Uma mensagem de resposta deve exibir junto a ela a mensagem que está sendo respondida
+
+### EP - Reportar Mensagem
+
+#### US
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+|----|----------|--------|--------|------------|--------|------------|
+| US | Usuário | Reportar uma mensagem de um channel| para indicar que aquela mensagem foi ofensiva de alguma forma |  |  | Could |
+
+* O usuário deve poder reportar qualquer mensagem que tenha sido enviada no channel caso deseje
 
 ## Versionamento
 
@@ -116,3 +200,4 @@ _Originada em: [AP10](../Elicita%C3%A7%C3%A3o/Introspeccao.md#introspeccao-02), 
 | 07/05/2019 | 1.0 | Abertura do documento | Marcos Nery |
 | 07/05/2019 | 1.1 | Inclusão dos épicos EP01 e EP02 | Marcos Nery |
 | 07/05/2019 | 1.2 | Inclusão do épico EP03 | Heron Rodrigues |
+| 07/05/2019 | 1.3 | Inclusão do tema T03 | Weiller Fernandes |
