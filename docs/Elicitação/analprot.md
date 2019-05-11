@@ -49,7 +49,7 @@ Abaixo seguem os requisitos elicitados pelo método, com seus respectivos códig
 |AP4| A criação de channels deve ser rápida e fácil, de forma que é perguntado ao usuário apenas o mínimo necessário de início| Should |
 |AP5| Os usuários devem ser diferenciados por forma de tags, de tal forma que para adicionar alguém a um channel não é necessário adicionar seu número ou qualquer outra informação de contato | Must |
 |AP6| A interface principal deve ser atrativa e intuitíva, deixando claro onde clicar para realizr cada ação possível | Must |
-|AP7| A aplicação deve oferecer o usuário a opção de personalizar suas informações pessoas, como foto, email e tag | Should |
+|AP7| A aplicação deve oferecer o usuário a opção de personalizar suas informações pessoais, como foto, email e tag | Should |
 |AP8| As configurações do aplicativo devem permitir uma extensiva personalização do comportamento do aplicativo, e com um fluxo fácil de ser seguido | Should |
 |AP09| As interfaces de chat devem lembrar o visto em outros aplicativos populares de comunicação, para que o usuário consiga, ao enxergar os padrões, saber como fazer cada coisa |Could|
 |AP10|O usuário deverá ser capaz de criar uma conta no aplicativo|Must|

@@ -296,7 +296,6 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 |[DCU](diagramas.md#dcu17-v1)|
 
-
 ## EC12
 
 |**Visualizar Mensagem Fixada**|

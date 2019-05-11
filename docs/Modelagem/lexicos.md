@@ -532,7 +532,6 @@ Aqui estão listados os léxicos, que são termos específicos do contexto do do
 |**Sinônimos**|
 | - Robô |
 
-
 ### L27
 
 |**Discussão**|
