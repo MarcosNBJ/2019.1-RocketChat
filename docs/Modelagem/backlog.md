@@ -143,6 +143,68 @@ _Originada em: [INT4.5](../Elicitação/Introspeccao#introspeccao-04), [StoryBoa
 
 _Originada em: [AD9]((../Elicitação/analdiscurso#requisitos-elicitados))_
 
+### EP06 - Configurações da Conta
+
+### US12
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US12 | Usuário | Alterar Senha | preciso melhorar a segurança da minha conta |  | 3 | Must | funcional |
+
+* Para alterar a senha o usuário deverá informar a senha atual
+* A senha deve possuir no minimo 8 caracteres
+
+### US13
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US13 | Usuário | Adicionar autenticação de 2 Fatores | gostaria de proteger a minha conta com mais eficiência | na autênticação de 2 fatores, sempre na realização do login é preciso verificar o token enviado para o e-mail do usuário | 8 | Must | não funcional |
+
+* Para ativar a autenticação é necessário o usuário confirmar sua conta de e-mail
+* Cada a funcionalidade estiver ativa, é necessário que a cada vez que o usuário fizer um login em um novo dispositivo que não está logado, o aplicativo deve pedir para o usuário confirmar o token enviado para seu e-mail
+
+### US14
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US14 | Usuário | Acessar informações da Conta | gostaria de visualizar e alterar o nome, e-mail, avatar, ocupações, linguagens entre outras opções | Na versão de desktop essa funcionalidade é mais completa | 2 | Must | funcional |
+
+* O usuário deverá ser capaz de visualizar as informações de sua conta, como, nome, e-mail, avatar,, ocupações, idiomas.
+* O usuário também deve ser capaz de alterar essas informações, exceto o nome de usuário
+* Nessa tela específica o usuário somente poderá visualizar as informações de seu usuário
+
+### US15
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US15 | Usuário | Verificar e alterar status do perfil | desejo indicar qual meu estado atual no uso do aplicativo | Opções de usuário, como: online, ausente, ocupado, invisivel | 3 | Must | funcional |
+
+* Usuário deve ser capaz de visualizar seu status atual (online, ausente, ocupado, invisivel)
+* usuário também deve conseguir alterar o seu status atual
+* Quando o usuário estiver deslogado, seu status deverá ser alterado para offline, mesmo sem que o usuário altere
+
+
+### EP07 - Channels
+
+### US16
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US16 | Usuário | Procurar Channels | preciso encontrar um channel com a facilidade de procurar por texto |  | 2 | Could | funcional |
+
+* Usuário deverar se capaz de procurar, através de texto, por qualquer channel público vísivel no servidor
+* Nessa pesquisa deverá ser mostrado todos os channels pessoais do usuário, como private groups, channels públicos, direct messages pessoais, discussões
+* Nessa mesma ferramenta de pesquisa, também serão mostrados outros direct messages vazios, se usuário não tiver conversado com o usuário
+
+### US17
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |Tipo |
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+| US17 | Usuário | Ordenar Channels | desejo visualizar e separar meus channels por categorias | Categorias dos Channels: Channel, Grupo privado, Direct Messages e Discussão | 2 | Could | funcional |
+
+* O usuário deverá visualizar os channel separados por categoria (versão Desktop)
+* Usuário deverá conseguir alterar a categoria de um channel quando ele favorita o mesmo
+
 ## T04 - Channel
 
 ### EP08 - Criar channel
@@ -153,13 +215,13 @@ _Originada em: [AD9]((../Elicitação/analdiscurso#requisitos-elicitados))_
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US09 | Usuário | Criar channel publico | para que todos possam procurar e ter acesso à esse channel | É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação | 5 | Must |Funcional|
 
-- Deve ser disponibilizado para o usuário, a opção de criar channel publico
-- Usuário pode criar número ilimitado de channels publicos
-- Nome do channel deve ser obrigatório
-- Qualquer tipo de caractere deve ser aceito para o nome do channel
-- Nome do channel deve conter no mínimo um caractere
-- Channel deve ser disponibilizado para qualquer usuário ter acesso, ao ser procurado na barra de pesquisa, na página inicial
-- Não é necessário que convide membros durante a criação do channel
+* Deve ser disponibilizado para o usuário, a opção de criar channel publico
+* Usuário pode criar número ilimitado de channels publicos
+* Nome do channel deve ser obrigatório
+* Qualquer tipo de caractere deve ser aceito para o nome do channel
+* Nome do channel deve conter no mínimo um caractere
+* Channel deve ser disponibilizado para qualquer usuário ter acesso, ao ser procurado na barra de pesquisa, na página inicial
+* Não é necessário que convide membros durante a criação do channel
 
 _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)_
 
@@ -169,16 +231,16 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US10 | Usuário | Criar channel privado | para que seja acessado apenas por convite e visivel somente por seus membros | É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação | 5 | Must |Funcional|
 
-- Por padrão, somente administradores e moderadores podem convidar novos membros
-- Somente membros podem ter acesso à esse channel
-- Usuário pode criar número ilimitado de channels privados
-- Deve ser disponibilizado para o usuário, a opção de criar channel privado
-- Nome do channel deve ser obrigatório
-- Membros só podem ser adicionados, se forem convidados
-- Qualquer tipo de caractere deve ser aceito para o nome do channel
-- Administrador determina quem pode convidar membros
-- Nome do channel deve conter no mínimo um caractere
-- Não é necessário que convide membros durante a criação do channel
+* Por padrão, somente administradores e moderadores podem convidar novos membros
+* Somente membros podem ter acesso à esse channel
+* Usuário pode criar número ilimitado de channels privados
+* Deve ser disponibilizado para o usuário, a opção de criar channel privado
+* Nome do channel deve ser obrigatório
+* Membros só podem ser adicionados, se forem convidados
+* Qualquer tipo de caractere deve ser aceito para o nome do channel
+* Administrador determina quem pode convidar membros
+* Nome do channel deve conter no mínimo um caractere
+* Não é necessário que convide membros durante a criação do channel
 
 _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.5](../Elicitação/Introspeccao.md#introspeccao-02), [INT3.1](../Elicitação/Introspeccao.md#introspeccao-03), [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [AP4](../Elicitação/analprot.md#requisitos-elicitados), [Q16](../Elicitação/questionario.md#requisitos-elicitados), [C3](cenarios.md#c3-v2)_
 
@@ -212,9 +274,9 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 #### US23
 
-| ID | Eu, como | desejo | porque | comentário | pontos | prioridade |
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-| US12 | Usuário | Definir modo de Read Only Channel | assim posso usa-lo como uma lista de transmissão onde apenas os administradores podem enviar mensagem | canal apenas de leitura | 5 | Should |
+| US12 | Usuário | Definir modo de Read Only Channel | assim posso usa-lo como uma lista de transmissão onde apenas os administradores podem enviar mensagem | canal apenas de leitura | 5 | Should | funcional |
 
 - No momento em que é criado um canal deve existir a opção only-read channel
 - Apenas o usuário o qual criou o canal deve poder enviar mensagens
@@ -232,7 +294,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 
 * O usuário deverá ser capaz de enviar uma mensagem de texto para qualquer channel que ele faça parte
 * A mensagem enviada deverá ser recebida por todos os membros que fazem parte daquele channel
-* Não deve haver limite de caracteres para uma mensagem
+* Quando usuário digitar uma mensagem muito grande será perguntado se ele deseja enviar a mensagem pelo meio padrão ou se ele deseja encapsular a mensagem em um arquivo e enviá-lo ao channel
 
 _Originada em: [INT4.1](../Elicitação/Introspeccao.md#introspeccao-04),
 [Storyboard 1](../Elicitação/Storyboard.md#4-requisitos-obtidos), [C12](cenarios.md#c12-v2)__
