@@ -141,7 +141,7 @@ _Originada em: [AD9]((../Elicitação/analdiscurso#requisitos-elicitados))_
 
 ### EP06 - Configurações da Conta
 
-### US12
+#### US12
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -152,7 +152,7 @@ _Originada em: [AD9]((../Elicitação/analdiscurso#requisitos-elicitados))_
 
 _Originada em: [L21]((lexicos#l21)), [L45]((lexicos#l45))_
 
-### US13
+#### US13
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -161,7 +161,7 @@ _Originada em: [L21]((lexicos#l21)), [L45]((lexicos#l45))_
 * Para ativar a autenticação é necessário o usuário confirmar sua conta de e-mail
 * Cada a funcionalidade estiver ativa, é necessário que a cada vez que o usuário fizer um login em um novo dispositivo que não está logado, o aplicativo deve pedir para o usuário confirmar o token enviado para seu e-mail
 
-### US14
+#### US14
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -173,7 +173,7 @@ _Originada em: [L21]((lexicos#l21)), [L45]((lexicos#l45))_
 
 _Originada em: [AP7]((../Elicitação/analprot#requisitos-elicitados))_
 
-### US15
+#### US15
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -187,7 +187,7 @@ _Originada em: [L22](lexicos#l22), [C10](cenarios#c10)_
 
 ### EP07 - Channels
 
-### US16
+#### US16
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -199,7 +199,7 @@ _Originada em: [L22](lexicos#l22), [C10](cenarios#c10)_
 
 _Originada em:_
 
-### US17
+#### US17
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -304,7 +304,7 @@ _Originada em: [L72](lexicos#l72), [C26](cenarios#c26), [DCU8](diagramas#dcu8), 
 
 _Originada em: [L69](lexicos#l69), [C22](cenarios#c22), [DCU9](diagramas#dcu9-v1), [EC3](especificacao#ec3)_
 
-### US24
+#### US24
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -316,7 +316,7 @@ _Originada em: [L69](lexicos#l69), [C22](cenarios#c22), [DCU9](diagramas#dcu9-v1
 
 _Originada em:_
 
-### US25
+#### US25
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -327,7 +327,7 @@ _Originada em:_
 
 _Originada em:_
 
-### US26
+#### US26
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -377,7 +377,7 @@ _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
 
 _Originada em: [L7](lexicos#l7)_
 
-### US30
+#### US30
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -389,7 +389,7 @@ _Originada em: [L7](lexicos#l7)_
 
 _Originada em: [L43](lexicos#l43), [C8](cenarios#c8), [EC17](especificacao#ec17)_
 
-### US31
+#### US31
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -401,7 +401,7 @@ _Originada em: [L43](lexicos#l43), [C8](cenarios#c8), [EC17](especificacao#ec17)
 _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01),
 [Q6](../Elicitação/questionario.md#requisitos-elicitados)_
 
-### US32
+#### US32
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -414,7 +414,7 @@ _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01),
 
 _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01)_
 
-### US33
+#### US33
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -428,7 +428,7 @@ _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspeccao-01)_
 
 _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspecção-02)_
 
-### US34
+#### US34
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -439,7 +439,7 @@ _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspecção-02)_
 
 _Originada em: [C5](cenarios.md#c5)_
 
-### US35
+#### US35
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -449,7 +449,7 @@ _Originada em: [C5](cenarios.md#c5)_
 
 _Originada em: [L54](lexicos#l54)_
 
-### US36
+#### US36
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -461,7 +461,7 @@ _Originada em: [L54](lexicos#l54)_
 
 _Originada em: [L13](lexicos#l13)_
 
-### US37
+#### US37
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -473,7 +473,7 @@ _Originada em: [L13](lexicos#l13)_
 
 _Originada em:_
 
-### US38
+#### US38
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -516,9 +516,9 @@ _Originada em: [C7](cenarios.md#c7-v2)_
 
 _Originada em:_
 
-## EP11 - Ações do Channel
+### EP11 - Ações do Channel
 
-### US42
+#### US42
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -526,7 +526,7 @@ _Originada em:_
 
 _Originada em: [Q15](../Elicitação/questionario#requisitos-elicitados)_
 
-### US43
+#### US43
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -534,7 +534,7 @@ _Originada em: [Q15](../Elicitação/questionario#requisitos-elicitados)_
 
 _Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [INT1.6](../Elicitação/Introspeccao#introspecção-01), [L4](lexicos#l4)_
 
-### US44
+#### US44
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
@@ -542,13 +542,135 @@ _Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [INT1.
 
 _Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [L28](lexicos#l28), [C19](cenarios#c19), [DCU14-v1](diagramas#dcu14-v1), [EC24](especificacao#ec24)_
 
-### US45
+#### US45
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US45 | Usuário | Utilizar tradução instantânea | preciso me comunicar com membros da equipe que possuem um idioma que não domino totalmente | | 13 | Should | Funcional |
 
 _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoard 3](../Elicitação/StoryBoard#4-requisitos-obtidos), [L31](lexicos#l31)_
+
+#### US46
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US46 | Usuário | Iniciar Video Chat | preciso realizar uma reunião com membros que não podem se encontrar fisicamente |  | 8 | Should | Funcional |
+
+#### US47
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US47 | Usuário | Visualizar informações do Channel | gostaria de ver a descrição do Channel, Deixar, ou Esconder o Channel | Também possui informações de anúncios e tópicos | 3 | Should | funcional |
+
+#### US48
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US48 | Usuário | Procurar Mensagens | preciso encontrar mensagens a partir de texto | por exemplo, um trecho da mensagem que eu me lembro | 2 | Could | funcional |
+
+#### US49
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US49 | Usuário | Favoritar Mensagem | gostaria de conseguir encontrá-la com mais facilidade mais tarde | | 3 | Should | funcional |
+
+#### US50
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US50 | Administrador/Proprietário do Channel | Fixar Mensagem | gostaria de destacar mensagens importantes para todos os membros do channel visualizarem | | 3 | Should | funcional |
+
+#### US51
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US51 | Usuário | Visualizar lista de arquivos enviados | preciso encontrar com mais facilidade um arquivo que foi compartilhado no Channel | Útil para ganhar tempo, sem preciso encontrar a mensagem em que o arquivo foi enviado | 5 | Could | funcional |
+
+#### US52
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US52 | Usuário | Utilizar atalhos no teclado | gostaria de aumentar a eficiência e produtividade para usuários mais experientes | Funcionalidade disponível apenas no Desktop | 3 | Would | funcional |
+
+### EP12 - Video Chat
+
+#### US53
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US53 | Administrador da Video Chat | Convidar Membros da equipe | preciso convidar usuários membros no channel para a video conferência | | 8 | Must | funcional |
+
+#### US54
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US54 | Administrador da Video Chat | Compartilhar link | gostaria de compartilhar video chat com qualquer pessoa que tenha um dispositivo com acesso a internet e um navegador | | 3 | Could | funcional |
+
+#### US55
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US55 | Administrador da Video Chat | Compartilhar para YouTube | gostaria de realizar uma transmissão da video conferência na plataforma do YouTube | | 3 | Could | funcional |
+
+#### US56
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US56 | Usuário | Assistir a video aula através de texto | não sou capaz de acompanhar a reunião através da audição | pode ser requirido por não entendimento da pronúncia do idioma utlizado por outros membros, por deficiência na audição, ou até mesmo por não possuir um dispositivo disponível com audio | 5 | 13 | Could | funcional |
+
+#### US57
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US57 | Usuário | Compartilhar tela do computador | preciso realizar uma apresentação com slides ou mostrar um trabalho que estou realizando | | 8 | Could | funcional |
+
+### EP13 - Gerenciar Usuários
+
+#### US58
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US58 | Usuário | Visualizar Lista de Membros | preciso saber a quantidade de mebros em um Channel ou procurar por um usuário | | 3 | Should | funcional |
+
+#### US59
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US59 | Usuário | Visualizar informações de um Usuário | gostaria de iniciar uma conversa com o usuário ou bloquear as notificações enviadas por ele. Também gostaria de saber se o usuário está online | | 3 | Should | funcional |
+
+#### US60
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+ US60 | Administrador/Proprietário do Channel | Adicionar usuários | preciso formar a minha equipe dentro de um channel | | 3 | Must | funcional |
+
+#### US61
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US61 | Administrador/Proprietário do Channel | Remover usuários | necessito retirar do channel um usuário que não faz mais parte da equipe | |3 | Should | funcional |
+
+### EP14 - Integrações
+
+#### US62
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US62 | Administrador/Proprietário do Channel | Adicionar Bots | gostaria de ajuda na realização de tarefas repetitivas | geralmente para mostrarem as regras do Channel, mensagens de rotina em outro serviço que o grupo utilize (como github por exemplo), responderem perguntas programadas ou até mesmo remover um usuário que propaga spam | 8 | Should | funcional |
+
+### EP15 - Deixar Channel
+
+#### US63
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US63 | Usuário | Esconder um channel | necessito que possa continuar como membro, porém não receber notificações e não ser exibido em minha lista de channels | | 2 | Should | funcional |
+
+#### US64
+
+| ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
+|----|----------|--------|--------|------------|--------|------------|------|
+| US64 | Usuário | Deixar um Channel | não faço mais parte da equipe | | 2 | Must | funcional |
 
 ## T05 - Servidor
 
@@ -571,7 +693,7 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
-| US66 | Usuário | estar em uma conexão segura | preciso transmitir mensagens confidenciais com minha equipe | independente do usuário possuir um servidor particular ou não |  | Must | Não Funcional |
+| US66 | Usuário | estar em uma conexão segura | preciso transmitir mensagens confidenciais com minha equipe | independente do usuário possuir um servidor particular ou não | 8 | Must | Não Funcional |
 
 _Originada em: [INT1.7](../Elicitação/Introspeccao#introspecção-01)_
 
@@ -607,11 +729,11 @@ _Originada em:_
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
-| US70 | Usuário | Verificas todos os usuários do servidor | desejo saber a relação de todos os usuários cadastrados no servidor | desejo saber a relação de todos os usuários cadastrados no servidor | Opções disponíveis apenas no Desktop | | | Would | Funcional |
+| US70 | Usuário | Verificas todos os usuários do servidor | desejo saber a relação de todos os usuários cadastrados no servidor | | 3 | Would | Funcional |
 
 _Originada em:_
 
-### US71
+#### US71
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
