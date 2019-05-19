@@ -71,7 +71,7 @@ _Originada em: [AP10](../Elicitação/Introspeccao.md#introspeccao-02), [C1](cen
 * Deverá haver, na aplicação, um botão pelo qual o usuário pode ser levado ao chat e direcionado a um atendente
 * Os funcionarios responsáveis por prover o atendimento deverão ser previamente capacitados para prover um bom atendimento, dessa forma, devendo saber todo o necessário acerca da aplicação
 
-_Originada em: [ENT 1.3](../Elicitação/Entrevista#requisitos)_
+_Originada em: [ENT 1.3](../Elicitação.md/Entrevista#requisitos)_
 
 #### US06
 
@@ -79,7 +79,7 @@ _Originada em: [ENT 1.3](../Elicitação/Entrevista#requisitos)_
 |----|----------|--------|--------|------------|--------|------------|------|
 |US06|Usuário|Enviar um email para a equpe de suporte do Rocket.chat e te-lo respondido|gostaria de tirar uma dúvida ou obter ajuda com algum problema no aplicativo|Deve haver um botão que encaminha o usuário para uma opção que o permite enviar um email|5|Could|Funcional|
 
-_Originada em: [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
+_Originada em: [INT3.10](../Elicitação/Introspeccao.md#introspeccao-03)_
 
 ### EP04 - Documentacao
 
@@ -89,7 +89,7 @@ _Originada em: [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
 |----|----------|--------|--------|------------|--------|------------|------|
 |US07|Usuário ou interessado|Ter a minha disposição documentos que expliquem mais sobre como utilizar a aplicação | preciso entender todas as capacidades da aplicação | Deve ser redigida uma documentação completa do aplicativo | 5 | Must | Não Funcional|
 
-_Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
+_Originada em: [AD4](../Elicitação/analdiscurso.md#requisitos-elicitados), [INT3.10](../Elicitação/Introspeccao.md#introspeccao-03)_
 
 #### US08
 
@@ -97,7 +97,7 @@ _Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.
 |----|----------|--------|--------|------------|--------|------------|------|
 |US08|Usuário ou interessado|Ter acesso a tutoriais ou ajuda dentro do aplicativo |preciso entender como funciona a aplicação|Deve haver um botão de ajuda, que fornece ao usuário tutoriais e descrições de como utilizar funcionalidades|3|Should| Funcional|
 
-_Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.10](../Elicitação/Introspeccao#introspeccao-03)_
+_Originada em: [AD4](../Elicitação/analdiscurso.md#requisitos-elicitados), [INT3.10](../Elicitação/Introspeccao.md#introspeccao-03)_
 
 ## T03 - Visão geral do aplicativo
 
@@ -114,7 +114,7 @@ _Originada em: [AD4](../Elicitação/analdiscurso#requisitos-elicitados), [INT3.
 * Deve haver um menu de seleção de idioma
 * Deve haver uma opção de personalização de perfil, que direciona o usuário a tela dedicada alterar suas informações pessoais
 
-_Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [AP8](../Elicitação/analdiscurso#requisitos-elicitados)_
+_Originada em: [AD5](../Elicitação/analdiscurso.md#requisitos-elicitados), [AP8](../Elicitação/analdiscurso.md#requisitos-elicitados)_
 
 #### US10
 
@@ -126,7 +126,7 @@ _Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [AP8](
 * Inicialmente deverão haver os idiomas Inglês, Portugugês-Brasil e Espanhol.
 * A funcionalidade deve dar suporte para que outros idiomas sejam adicionados posteriormente
 
-_Originada em: [INT4.5](../Elicitação/Introspeccao#introspeccao-04), [StoryBoarding 6](../Elicitação/Storyboard.md#4-requisitos-obtidos)_
+_Originada em: [INT4.5](../Elicitação/Introspeccao.md#introspeccao-04), [StoryBoarding 6](../Elicitação/Storyboard.md#4-requisitos-obtidos)_
 
 #### US11
 
@@ -137,7 +137,7 @@ _Originada em: [INT4.5](../Elicitação/Introspeccao#introspeccao-04), [StoryBoa
 * A funcionalidade deve oferecer ao usuário a opção de alterar o modo de exibição do aplicativo
 * Dois modos de exibição devem por padrão existir, o normal e o simplificado. No simplificado, a tela é focada em um channel e a barra lateral fica escondida
 
-_Originada em: [AD9]((../Elicitação/analdiscurso#requisitos-elicitados))_
+_Originada em: [AD9]((../Elicitação/analdiscurso.md#requisitos-elicitados))_
 
 ### EP06 - Configurações da Conta
 
@@ -150,7 +150,7 @@ _Originada em: [AD9]((../Elicitação/analdiscurso#requisitos-elicitados))_
 * Para alterar a senha o usuário deverá informar a senha atual
 * A senha deve possuir no minimo 8 caracteres
 
-_Originada em: [L21]((lexicos#l21)), [L45]((lexicos#l45))_
+_Originada em: [L21]((lexicos.md#l21)), [L45]((lexicos.md#l45))_
 
 #### US13
 
@@ -171,7 +171,7 @@ _Originada em: [L21]((lexicos#l21)), [L45]((lexicos#l45))_
 * O usuário também deve ser capaz de alterar essas informações, exceto o nome de usuário
 * Nessa tela específica o usuário somente poderá visualizar as informações de seu usuário
 
-_Originada em: [AP7]((../Elicitação/analprot#requisitos-elicitados))_
+_Originada em: [AP7]((../Elicitação/analprot.md#requisitos-elicitados))_
 
 #### US15
 
@@ -183,7 +183,7 @@ _Originada em: [AP7]((../Elicitação/analprot#requisitos-elicitados))_
 * usuário também deve conseguir alterar o seu status atual
 * Quando o usuário estiver deslogado, seu status deverá ser alterado para offline, mesmo sem que o usuário altere
 
-_Originada em: [L22](lexicos#l22), [C10](cenarios#c10)_
+_Originada em: [L22](lexicos.md#l22), [C10](cenarios.md#c10)_
 
 ### EP07 - Channels
 
@@ -210,7 +210,7 @@ _Originada em:_
 * Usuário poderar alterar a qualquer momento o modo de ordenação dentro das categorias, seja alfabética, ou pela última ativadde.
 * Usuário deve conseguir adicionar categorias adicionais, como visualizar o grupo de favoritos ou de channels com mensagens não lidas(unread)
 
-_Originada em: [L39](lexicos#l39)_
+_Originada em: [L39](lexicos.md#l39)_
 
 ## T04 - Channel
 
@@ -274,7 +274,7 @@ _Originada em: [INT1.1](../Elicitação/Introspeccao.md#introspeccao-01), [INT2.
 * Nome do channel deve conter no mínimo um caractere
 * Não é necessário que convide membros durante a criação do channel
 
-_Originada em: [L27](lexicos#l27), [C3](cenarios#c3)_
+_Originada em: [L27](lexicos.md#l27), [C3](cenarios.md#c3)_
 
 ### EP09 - Configurações do Channel
 
@@ -288,7 +288,7 @@ _Originada em: [L27](lexicos#l27), [C3](cenarios#c3)_
 * Somente usuários administradores ou o Proprietário deverão conseguir alterar a privacidade
 * Qualquer tipo de channel (private group, channel público, discussões) pode ter a privacidade alterada, exceto direct messages
 
-_Originada em: [L72](lexicos#l72), [C26](cenarios#c26), [DCU8](diagramas#dcu8), [EC2](especificacao#ec2)_
+_Originada em: [L72](lexicos.md#l72), [C26](cenarios.md#c26), [DCU8](diagramas.md#dcu8), [EC2](especificacao.md#ec2)_
 
 #### US23
 
@@ -302,7 +302,7 @@ _Originada em: [L72](lexicos#l72), [C26](cenarios#c26), [DCU8](diagramas#dcu8), 
 * O nome do canal deve possuir ao menos um caractere
 * Não é necessário que convide membros durante a criação do channel
 
-_Originada em: [L69](lexicos#l69), [C22](cenarios#c22), [DCU9](diagramas#dcu9-v1), [EC3](especificacao#ec3)_
+_Originada em: [L69](lexicos.md#l69), [C22](cenarios.md#c22), [DCU9](diagramas.md#dcu9-v1), [EC3](especificacao#ec3)_
 
 #### US24
 
@@ -336,7 +336,7 @@ _Originada em:_
 * Somente usuários administradores ou o Proprietário deverão conseguir adicionar o tópico de um Channel
 * O tópico deve possuir um limite de caracteres inseridos
 
-_Originada em: [L33](lexicos#l33)_
+_Originada em: [L33](lexicos.md#l33)_
 
 ### EP10 - Mensagens
 
@@ -375,7 +375,7 @@ _Originada em: [INT2.1](../Elicitação/Introspeccao.md#introspeccao-02),
 * O usuário deve poder enviar emojis ou gifs, que estarão divididos por categorias
 * O emoji enviado deverá ser recebido por todos os membros que fazem parte daquele channel
 
-_Originada em: [L7](lexicos#l7)_
+_Originada em: [L7](lexicos.md#l7)_
 
 #### US30
 
@@ -387,7 +387,7 @@ _Originada em: [L7](lexicos#l7)_
 * O desenho deverá ser enviado como qualquer mensagem no chat
 * Os outros usuários devem conseguir visualizar o desenho no próprio aplicativo
 
-_Originada em: [L43](lexicos#l43), [C8](cenarios#c8), [EC17](especificacao#ec17)_
+_Originada em: [L43](lexicos.md#l43), [C8](cenarios.md#c8), [EC17](especificacao.md#ec17)_
 
 #### US31
 
@@ -447,7 +447,7 @@ _Originada em: [C5](cenarios.md#c5)_
 
 * Os usuários de um channel devem conseguir copiar o texto de mensagens para a área de compartilhamento do dispositivo
 
-_Originada em: [L54](lexicos#l54)_
+_Originada em: [L54](lexicos.md#l54)_
 
 #### US36
 
@@ -459,7 +459,7 @@ _Originada em: [L54](lexicos#l54)_
 * O link poderáser acessado através de um navegador
 * Apenas usuários cadastrados no Rocket.Chat e que tenham acesso ao Channel conseguem acessar o link
 
-_Originada em: [L13](lexicos#l13)_
+_Originada em: [L13](lexicos.md#l13)_
 
 #### US37
 
@@ -524,7 +524,7 @@ _Originada em:_
 |----|----------|--------|--------|------------|--------|------------|------|
 | US42 | Usuário | Favoritar o channel | preciso conseguir agrupar os Channels que eu mais interajo, em um espaço para que eu consiga acessá-lo com mais facilidade | | 3 | Could | Funcional |
 
-_Originada em: [Q15](../Elicitação/questionario#requisitos-elicitados)_
+_Originada em: [Q15](../Elicitação/questionario.md#requisitos-elicitados)_
 
 #### US43
 
@@ -532,7 +532,7 @@ _Originada em: [Q15](../Elicitação/questionario#requisitos-elicitados)_
 |----|----------|--------|--------|------------|--------|------------|------|
 | US43 | Usuário | Mencionar Usuários | preciso enviar uma mensagem direcionada para o usuário, ou apenas chamar a sua atenção | | 5 | Should | Funcional |
 
-_Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [INT1.6](../Elicitação/Introspeccao#introspecção-01), [L4](lexicos#l4)_
+_Originada em: [AD5](../Elicitação/analdiscurso.md#requisitos-elicitados), [INT1.6](../Elicitação/Introspeccao.md#introspecção-01), [L4](lexicos#l4)_
 
 #### US44
 
@@ -540,7 +540,7 @@ _Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [INT1.
 |----|----------|--------|--------|------------|--------|------------|------|
 | US44 | Usuário | Alterar Preferências de notificações | desejo recebimento de notificações de acordo com minhas preferências de utilização do Channel | | 5 | Should | Funcional |
 
-_Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [L28](lexicos#l28), [C19](cenarios#c19), [DCU14-v1](diagramas#dcu14-v1), [EC24](especificacao#ec24)_
+_Originada em: [AD5](../Elicitação/analdiscurso.md#requisitos-elicitados), [L28](lexicos.md#l28), [C19](cenarios.md#c19), [DCU14-v1](diagramas.md#dcu14-v1), [EC24](especificacao.md#ec24)_
 
 #### US45
 
@@ -548,7 +548,7 @@ _Originada em: [AD5](../Elicitação/analdiscurso#requisitos-elicitados), [L28](
 |----|----------|--------|--------|------------|--------|------------|------|
 | US45 | Usuário | Utilizar tradução instantânea | preciso me comunicar com membros da equipe que possuem um idioma que não domino totalmente | | 13 | Should | Funcional |
 
-_Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoard 3](../Elicitação/StoryBoard#4-requisitos-obtidos), [L31](lexicos#l31)_
+_Originada em: [INT4.4](../Elicitação/Introspeccao.md#introspecção-04), [StoryBoard 3](../Elicitação/StoryBoard.md#4-requisitos-obtidos), [L31](lexicos.md#l31)_
 
 #### US46
 
@@ -556,11 +556,15 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 |----|----------|--------|--------|------------|--------|------------|------|
 | US46 | Usuário | Iniciar Video Chat | preciso realizar uma reunião com membros que não podem se encontrar fisicamente |  | 8 | Should | Funcional |
 
+_Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspecção-01), [INT3.5](../Elicitação/Introspeccao.md#introspecção-03), [StoryBoard 2](../Elicitação/StoryBoard.md#4-requisitos-obtidos), [C2](cenarios.md#c2-v1), [L25](lexicos.md#l25), [DCU1](diagramas.md#dcu1-v1), [EC20](especificacao.md#ec20)_
+
 #### US47
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US47 | Usuário | Visualizar informações do Channel | gostaria de ver a descrição do Channel, Deixar, ou Esconder o Channel | Também possui informações de anúncios e tópicos | 3 | Should | funcional |
+
+_Originada em:_
 
 #### US48
 
@@ -568,11 +572,15 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 |----|----------|--------|--------|------------|--------|------------|------|
 | US48 | Usuário | Procurar Mensagens | preciso encontrar mensagens a partir de texto | por exemplo, um trecho da mensagem que eu me lembro | 2 | Could | funcional |
 
+_Originada em: [L11](lexicos.md#l11), [C17](cenarios.md#c17), [DCU12](diagramas.md#dcu12-v1), [EC13](especificacao.md#ec13)_
+
 #### US49
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US49 | Usuário | Favoritar Mensagem | gostaria de conseguir encontrá-la com mais facilidade mais tarde | | 3 | Should | funcional |
+
+_Originada em: [L71](lexicos.md#l71), [C13](cenarios.md#c13), [DCU6](diagramas.md#dcu6-v1), [EC6](especificacao.md#ec6)_
 
 #### US50
 
@@ -580,17 +588,23 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 |----|----------|--------|--------|------------|--------|------------|------|
 | US50 | Administrador/Proprietário do Channel | Fixar Mensagem | gostaria de destacar mensagens importantes para todos os membros do channel visualizarem | | 3 | Should | funcional |
 
+_Originada em: [L3](lexicos.md#l3), [L16](lexicos.md#l16), [C11](cenarios.md#c11), [C25](cenarios.md#c25), [DCU3](diagramas.md#dcu3), [EC6](especificacao.md#ec6), [EC12](especificacao.md#ec12)_
+
 #### US51
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US51 | Usuário | Visualizar lista de arquivos enviados | preciso encontrar com mais facilidade um arquivo que foi compartilhado no Channel | Útil para ganhar tempo, sem preciso encontrar a mensagem em que o arquivo foi enviado | 5 | Could | funcional |
 
+_Originada em:_
+
 #### US52
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US52 | Usuário | Utilizar atalhos no teclado | gostaria de aumentar a eficiência e produtividade para usuários mais experientes | Funcionalidade disponível apenas no Desktop | 3 | Would | funcional |
+
+_Originada em:_
 
 ### EP12 - Video Chat
 
@@ -600,11 +614,15 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 |----|----------|--------|--------|------------|--------|------------|------|
 | US53 | Administrador da Video Chat | Convidar Membros da equipe | preciso convidar usuários membros no channel para a video conferência | | 8 | Must | funcional |
 
+_Originada em: [AP5](../Elicitação/analpro.md#requisitos-elicitados), [L59](lexicos.md#l59)_
+
 #### US54
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US54 | Administrador da Video Chat | Compartilhar link | gostaria de compartilhar video chat com qualquer pessoa que tenha um dispositivo com acesso a internet e um navegador | | 3 | Could | funcional |
+
+_Originada em: [L13](lexicos.md#l13)_
 
 #### US55
 
@@ -612,17 +630,23 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 |----|----------|--------|--------|------------|--------|------------|------|
 | US55 | Administrador da Video Chat | Compartilhar para YouTube | gostaria de realizar uma transmissão da video conferência na plataforma do YouTube | | 3 | Could | funcional |
 
+_Originada em:_
+
 #### US56
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US56 | Usuário | Assistir a video aula através de texto | não sou capaz de acompanhar a reunião através da audição | pode ser requirido por não entendimento da pronúncia do idioma utlizado por outros membros, por deficiência na audição, ou até mesmo por não possuir um dispositivo disponível com audio | 5 | 13 | Could | funcional |
 
+_Originada em:_
+
 #### US57
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US57 | Usuário | Compartilhar tela do computador | preciso realizar uma apresentação com slides ou mostrar um trabalho que estou realizando | | 8 | Could | funcional |
+
+_Originada em: [AD3](../Elicitação/analdiscurso.md#requisitos-elicitados), [INT3.5](../Elicitação/Instrospeccao.md#introspecção-03), [Q11](../Elicitação/questionario.md#requisitos-elicitados), [Storyboard 2](../Elicitação/storyboard.md#requisitos-obtidos)_
 
 ### EP13 - Gerenciar Usuários
 
@@ -632,11 +656,15 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 |----|----------|--------|--------|------------|--------|------------|------|
 | US58 | Usuário | Visualizar Lista de Membros | preciso saber a quantidade de mebros em um Channel ou procurar por um usuário | | 3 | Should | funcional |
 
+_Originada em:_
+
 #### US59
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US59 | Usuário | Visualizar informações de um Usuário | gostaria de iniciar uma conversa com o usuário ou bloquear as notificações enviadas por ele. Também gostaria de saber se o usuário está online | | 3 | Should | funcional |
+
+_Originada em: [AP7](../Elicitação/analprot.md#requisitos-elicitados), [L8](lexicos.md#l8)_
 
 #### US60
 
@@ -644,11 +672,15 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 |----|----------|--------|--------|------------|--------|------------|------|
  US60 | Administrador/Proprietário do Channel | Adicionar usuários | preciso formar a minha equipe dentro de um channel | | 3 | Must | funcional |
 
+ _Originada em: [AP5](../Elicitação/analpro.md#requisitos-elicitados), [L59](lexicos.md#l59)_
+
 #### US61
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US61 | Administrador/Proprietário do Channel | Remover usuários | necessito retirar do channel um usuário que não faz mais parte da equipe | |3 | Should | funcional |
+
+_Originada em:_
 
 ### EP14 - Integrações
 
@@ -658,6 +690,8 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 |----|----------|--------|--------|------------|--------|------------|------|
 | US62 | Administrador/Proprietário do Channel | Adicionar Bots | gostaria de ajuda na realização de tarefas repetitivas | geralmente para mostrarem as regras do Channel, mensagens de rotina em outro serviço que o grupo utilize (como github por exemplo), responderem perguntas programadas ou até mesmo remover um usuário que propaga spam | 8 | Should | funcional |
 
+_Originada em: [AD7](../Elicitação/analdiscurso.md/requisitos-elicitados), [ENT1.1](../Elicitação/Entrevista.md#requisitos), [INT3.9](../Elicitação/Introspeccao.md#introspecção-03), [Q2](../Elicitação/questionario.md#requisitos-elicitados), [L26](lexicos.md#l26), [C24](cenarios.md#c24)_
+
 ### EP15 - Deixar Channel
 
 #### US63
@@ -666,11 +700,15 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 |----|----------|--------|--------|------------|--------|------------|------|
 | US63 | Usuário | Esconder um channel | necessito que possa continuar como membro, porém não receber notificações e não ser exibido em minha lista de channels | | 2 | Should | funcional |
 
+_Originada em: [L49](lexicos.md#l49), [C16](cenarios.md#c16-v1), [DCU23](diagramas.md#dcu23-v1), [EC23](especificacao.md#ec23)_
+
 #### US64
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US64 | Usuário | Deixar um Channel | não faço mais parte da equipe | | 2 | Must | funcional |
+
+_Originada em: [L48](lexicos.md#l48), [DCU22](diagramas.md#dcu22-v1), [EC22](especificacao.md#ec22)_
 
 ## T05 - Servidor
 
@@ -695,7 +733,7 @@ _Originada em: [I4.4](../Elicitação/Introspeccao#introspecção-04), [StoryBoa
 |----|----------|--------|--------|------------|--------|------------|------|
 | US66 | Usuário | estar em uma conexão segura | preciso transmitir mensagens confidenciais com minha equipe | independente do usuário possuir um servidor particular ou não | 8 | Must | Não Funcional |
 
-_Originada em: [INT1.7](../Elicitação/Introspeccao#introspecção-01)_
+_Originada em: [INT1.7](../Elicitação/Introspeccao.md#introspecção-01)_
 
 #### US67
 
@@ -713,7 +751,7 @@ _Originada em:_
 |----|----------|--------|--------|------------|--------|------------|------|
 | US68 | Usuário administrador do servidor | Adicionar vários channels e usuários ao servidor dedicado | preciso que todas as equipes envolvidas no(s) projeto(s) tenham acesso aos channels que representam suas equipes | O servidor deve suportar o aumento de usuários | | Must | Não Funcional |
 
-_Originada em: [INT3.2](../Elicitação/Introspeccao#introspecção-03)_
+_Originada em: [INT3.2](../Elicitação/Introspeccao.md#introspecção-03)_
 
 ### EP19 - Diretório
 
