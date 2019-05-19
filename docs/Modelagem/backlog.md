@@ -524,6 +524,9 @@ _Originada em:_
 |----|----------|--------|--------|------------|--------|------------|------|
 | US42 | Usuário | Favoritar o channel | preciso conseguir agrupar os Channels que eu mais interajo, em um espaço para que eu consiga acessá-lo com mais facilidade | | 3 | Could | Funcional |
 
+* Somente os Channels que o usuário é membro favoritou devem aparecer na listagem dessa categoria
+* Quando o usuário Favoritar um Channel deve aparecer um botão para remover o Channel como Favorito
+
 _Originada em: [Q15](../Elicitação/questionario.md#requisitos-elicitados)_
 
 #### US43
@@ -531,6 +534,9 @@ _Originada em: [Q15](../Elicitação/questionario.md#requisitos-elicitados)_
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US43 | Usuário | Mencionar Usuários | preciso enviar uma mensagem direcionada para o usuário, ou apenas chamar a sua atenção | | 5 | Should | Funcional |
+
+* Apenas usuários do channels devem aparecer como opção quando o usuário estiver tentando escrever o nome de usuário ao qual quer mencionar
+* Quando um usuário for mencionado ele receberá uma notificação
 
 _Originada em: [AD5](../Elicitação/analdiscurso.md#requisitos-elicitados), [INT1.6](../Elicitação/Introspeccao.md#introspecção-01), [L4](lexicos#l4)_
 
@@ -540,13 +546,24 @@ _Originada em: [AD5](../Elicitação/analdiscurso.md#requisitos-elicitados), [IN
 |----|----------|--------|--------|------------|--------|------------|------|
 | US44 | Usuário | Alterar Preferências de notificações | desejo recebimento de notificações de acordo com minhas preferências de utilização do Channel | | 5 | Should | Funcional |
 
-_Originada em: [AD5](../Elicitação/analdiscurso.md#requisitos-elicitados), [L28](lexicos.md#l28), [C19](cenarios.md#c19), [DCU14-v1](diagramas.md#dcu14-v1), [EC24](especificacao.md#ec24)_
+* Apenas usuários membros de um channel podem alterar as notificações
+* Devem ter opções separadas de notificaçõs para cada tipo de dispositivo (Desktop, Mobile)
+* Deve ser possível alterar notificações de áudio
+* Deve ser possível alterar notificações de E-mails
+* Deve ser possível desativar ou ativar as notificações quando o usuário for mencionado dentro do channel
+
+_Originada em: [AD5](../Elicitação/analdiscurso.md#requisitos-elicitados), [L28](lexicos.md#l28), [C19](cenarios.md#c19), [DCU14](diagramas.md#dcu14-v1), [EC24](especificacao.md#ec24)_
 
 #### US45
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US45 | Usuário | Utilizar tradução instantânea | preciso me comunicar com membros da equipe que possuem um idioma que não domino totalmente | | 13 | Should | Funcional |
+
+* A tradução deve estar disponível a qualquer momento quando em uma videoconfrerência
+* Tradução também deve estar disponível no chat principal do Channel para as mensagens de texto
+* Deve ser possível alterar os idiomas de preferência
+* Deve ser possível ativar ou desativar a funcionalidade
 
 _Originada em: [INT4.4](../Elicitação/Introspeccao.md#introspecção-04), [StoryBoard 3](../Elicitação/StoryBoard.md#4-requisitos-obtidos), [L31](lexicos.md#l31)_
 
@@ -556,6 +573,11 @@ _Originada em: [INT4.4](../Elicitação/Introspeccao.md#introspecção-04), [Sto
 |----|----------|--------|--------|------------|--------|------------|------|
 | US46 | Usuário | Iniciar Video Chat | preciso realizar uma reunião com membros que não podem se encontrar fisicamente |  | 8 | Should | Funcional |
 
+* A funcionalidade deve estar disponível a qualquer momento quando o usuário for membro em uma equipe
+* Quando inicada deve aparecer uma mensagem no chat do Channel indicando que um video chat foi iniciado
+* Deve ser possível compartilhar o link do Channel que pode ser acessado a partir de qualquer dispositivo suportado pelo aplicativo
+* Deve ser possível transmitir o video chat para o YouTube
+
 _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspecção-01), [INT3.5](../Elicitação/Introspeccao.md#introspecção-03), [StoryBoard 2](../Elicitação/StoryBoard.md#4-requisitos-obtidos), [C2](cenarios.md#c2-v1), [L25](lexicos.md#l25), [DCU1](diagramas.md#dcu1-v1), [EC20](especificacao.md#ec20)_
 
 #### US47
@@ -563,6 +585,10 @@ _Originada em: [INT1.5](../Elicitação/Introspeccao.md#introspecção-01), [INT
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US47 | Usuário | Visualizar informações do Channel | gostaria de ver a descrição do Channel, Deixar, ou Esconder o Channel | Também possui informações de anúncios e tópicos | 3 | Should | funcional |
+
+* Deve ser possível a visualização da tela por qualquer membro do Channel
+* Apenas usuários administradores podem alterar as informações
+* Deve aparecer três titulos principais e seu conteúdo (Descrição, Tópico e Anúncios)
 
 _Originada em:_
 
@@ -572,6 +598,12 @@ _Originada em:_
 |----|----------|--------|--------|------------|--------|------------|------|
 | US48 | Usuário | Procurar Mensagens | preciso encontrar mensagens a partir de texto | por exemplo, um trecho da mensagem que eu me lembro | 2 | Could | funcional |
 
+* Para procurar uma mensagem o usuário deve ser membro do channel ao qual a mensagem pertence
+* A busca poderá ser realizada através de texto
+* A busca poderá ser realizada através da listagem cronológica de publicação no chat do channel
+* A busca poderá ser realizada através da listagem de mensagens favoritadas
+* A busca poderá ser realizada através da listagem de mensagens fixadas pelo administrador do Channel
+
 _Originada em: [L11](lexicos.md#l11), [C17](cenarios.md#c17), [DCU12](diagramas.md#dcu12-v1), [EC13](especificacao.md#ec13)_
 
 #### US49
@@ -579,6 +611,10 @@ _Originada em: [L11](lexicos.md#l11), [C17](cenarios.md#c17), [DCU12](diagramas.
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US49 | Usuário | Favoritar Mensagem | gostaria de conseguir encontrá-la com mais facilidade mais tarde | | 3 | Should | funcional |
+
+* Apenas usuários membros em um Channel podem favoritar uma mensagem pertencente ao Channel
+* Quando favoritada a mensagem deve ser listar nas opções pessoais do channel individuais para cada usuários para uma busca rápida da mensagem
+* Quando uma mensagem for favoritada deverá a ver um botão para desfavoritar mensagem
 
 _Originada em: [L71](lexicos.md#l71), [C13](cenarios.md#c13), [DCU6](diagramas.md#dcu6-v1), [EC6](especificacao.md#ec6)_
 
@@ -588,6 +624,10 @@ _Originada em: [L71](lexicos.md#l71), [C13](cenarios.md#c13), [DCU6](diagramas.m
 |----|----------|--------|--------|------------|--------|------------|------|
 | US50 | Administrador/Proprietário do Channel | Fixar Mensagem | gostaria de destacar mensagens importantes para todos os membros do channel visualizarem | | 3 | Should | funcional |
 
+* Apenas usuários administradores em um Channel podem fixar uma mensagem pertencente ao Channel
+* Quando favoritada a mensagem deve ser listar nas opções pessoais do channel compartilhdas por todos para uma busca rápida da mensagem
+* Quando uma mensagem for fixada deverá a ver um botão para desafixar mensagem
+
 _Originada em: [L3](lexicos.md#l3), [L16](lexicos.md#l16), [C11](cenarios.md#c11), [C25](cenarios.md#c25), [DCU3](diagramas.md#dcu3), [EC6](especificacao.md#ec6), [EC12](especificacao.md#ec12)_
 
 #### US51
@@ -596,6 +636,11 @@ _Originada em: [L3](lexicos.md#l3), [L16](lexicos.md#l16), [C11](cenarios.md#c11
 |----|----------|--------|--------|------------|--------|------------|------|
 | US51 | Usuário | Visualizar lista de arquivos enviados | preciso encontrar com mais facilidade um arquivo que foi compartilhado no Channel | Útil para ganhar tempo, sem preciso encontrar a mensagem em que o arquivo foi enviado | 5 | Could | funcional |
 
+* Um arquivo irá aparecer nessa listagem imediatamente quando for anexado a uma mensagem
+* A lista de arquivos em um channel será única e compartilhada por todos do Channel
+* O arquivo deverá desaparecer da lista se a sua mensagem correspondente for apagada
+* Quando clicado na representação de um arquivo o usuário deverá imediatamente ser redirecionado para a localização original da mensagem correspondente
+
 _Originada em:_
 
 #### US52
@@ -603,6 +648,11 @@ _Originada em:_
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US52 | Usuário | Utilizar atalhos no teclado | gostaria de aumentar a eficiência e produtividade para usuários mais experientes | Funcionalidade disponível apenas no Desktop | 3 | Would | funcional |
+
+* Qualquer usuário do aplicativo poderá utilizar essa funcionalidade
+* Funcionalidade apenas disponível para desktop
+* A funcionalidade deverá estar disponível a qualquer momento
+* Deverá haver no menu de ajuda uma lista com os atalhos suportados pelo aplicativo
 
 _Originada em:_
 
@@ -614,13 +664,21 @@ _Originada em:_
 |----|----------|--------|--------|------------|--------|------------|------|
 | US53 | Administrador da Video Chat | Convidar Membros da equipe | preciso convidar usuários membros no channel para a video conferência | | 8 | Must | funcional |
 
-_Originada em: [AP5](../Elicitação/analpro.md#requisitos-elicitados), [L59](lexicos.md#l59)_
+* Apenas o usuário que iniciou a Video Chat poderá convidar novos membros
+* Ao Usuário convidado deverá ser enviado uma notificação
+* Usuário deverá ter a opção de aceitar ou recusar convite para a Video Chat
+
+_Originada em: [L59](lexicos.md#l59)_
 
 #### US54
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US54 | Administrador da Video Chat | Compartilhar link | gostaria de compartilhar video chat com qualquer pessoa que tenha um dispositivo com acesso a internet e um navegador | | 3 | Could | funcional |
+
+* Qualquer usuário poderá compartilhar o link da Video Chat
+* Apenas usuários membros do Channel ao qual a mensagem pertence poderão acessar o link gerado
+* O link deverá ser possível o acesso através de qualquer dispositivo suportado, inclusive através do navegador
 
 _Originada em: [L13](lexicos.md#l13)_
 
@@ -630,6 +688,9 @@ _Originada em: [L13](lexicos.md#l13)_
 |----|----------|--------|--------|------------|--------|------------|------|
 | US55 | Administrador da Video Chat | Compartilhar para YouTube | gostaria de realizar uma transmissão da video conferência na plataforma do YouTube | | 3 | Could | funcional |
 
+* Apenas o usuário que iniciou a Video Chat poderá realizar esta ação
+* Deverá haver a opção para transmitir de maneira ao vivo a Video Chat para um Canal do Youtube
+
 _Originada em:_
 
 #### US56
@@ -638,6 +699,10 @@ _Originada em:_
 |----|----------|--------|--------|------------|--------|------------|------|
 | US56 | Usuário | Assistir a video aula através de texto | não sou capaz de acompanhar a reunião através da audição | pode ser requirido por não entendimento da pronúncia do idioma utlizado por outros membros, por deficiência na audição, ou até mesmo por não possuir um dispositivo disponível com audio | 5 | 13 | Could | funcional |
 
+* Qualquer usuário presente na video chat poderá utilizar essa funcionalidade
+* Deverá ter uma opção para ativar ou desativar a funcionalidade
+* Deverá ter opções para alterar idioma de tradução
+
 _Originada em:_
 
 #### US57
@@ -645,6 +710,11 @@ _Originada em:_
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US57 | Usuário | Compartilhar tela do computador | preciso realizar uma apresentação com slides ou mostrar um trabalho que estou realizando | | 8 | Could | funcional |
+
+* Opção deverá estar disponível para todos usuários presentes na video chat
+* O usuário poderá restringir o compartilhamento para uma tela específica
+* O usuário poderá compartilhar a tela atual que o mesmo está visualizando no momento
+* A qualquer momento deverá haver uma opção para ativar ou desativar a funcionalidade
 
 _Originada em: [AD3](../Elicitação/analdiscurso.md#requisitos-elicitados), [INT3.5](../Elicitação/Instrospeccao.md#introspecção-03), [Q11](../Elicitação/questionario.md#requisitos-elicitados), [Storyboard 2](../Elicitação/storyboard.md#requisitos-obtidos)_
 
@@ -656,6 +726,10 @@ _Originada em: [AD3](../Elicitação/analdiscurso.md#requisitos-elicitados), [IN
 |----|----------|--------|--------|------------|--------|------------|------|
 | US58 | Usuário | Visualizar Lista de Membros | preciso saber a quantidade de mebros em um Channel ou procurar por um usuário | | 3 | Should | funcional |
 
+* Qualquer usuário membro no Channel poderá visualizar a lista de integrantes
+* Usuário poderá realizar a busca pelo nome de usuário de um mbro
+* Usuário poderá filtrar a lista de membros de acordo com os membros "online" ou todos
+
 _Originada em:_
 
 #### US59
@@ -663,6 +737,10 @@ _Originada em:_
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US59 | Usuário | Visualizar informações de um Usuário | gostaria de iniciar uma conversa com o usuário ou bloquear as notificações enviadas por ele. Também gostaria de saber se o usuário está online | | 3 | Should | funcional |
+
+* Qualquer usuário poderá visualizar as informações básicas de outro usuário
+* Apenas o usuário dono da conta poderá visualizar as informações pessoais
+* Apenas o usuário dono da conta poderá alterar as informações pessoais
 
 _Originada em: [AP7](../Elicitação/analprot.md#requisitos-elicitados), [L8](lexicos.md#l8)_
 
@@ -672,6 +750,8 @@ _Originada em: [AP7](../Elicitação/analprot.md#requisitos-elicitados), [L8](le
 |----|----------|--------|--------|------------|--------|------------|------|
  US60 | Administrador/Proprietário do Channel | Adicionar usuários | preciso formar a minha equipe dentro de um channel | | 3 | Must | funcional |
 
+* Apenas os usuários administradores poderão adicionar ou aceitar usuários no Channel
+
  _Originada em: [AP5](../Elicitação/analpro.md#requisitos-elicitados), [L59](lexicos.md#l59)_
 
 #### US61
@@ -679,6 +759,10 @@ _Originada em: [AP7](../Elicitação/analprot.md#requisitos-elicitados), [L8](le
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US61 | Administrador/Proprietário do Channel | Remover usuários | necessito retirar do channel um usuário que não faz mais parte da equipe | |3 | Should | funcional |
+
+* Apenas os usuários administradores poderão remover um usuário membro em um grupo
+* Para um usuário ser removido ele deverá estar na lista de mebros
+* Após removido o usuário deverá ser retirado da lista
 
 _Originada em:_
 
@@ -690,6 +774,13 @@ _Originada em:_
 |----|----------|--------|--------|------------|--------|------------|------|
 | US62 | Administrador/Proprietário do Channel | Adicionar Bots | gostaria de ajuda na realização de tarefas repetitivas | geralmente para mostrarem as regras do Channel, mensagens de rotina em outro serviço que o grupo utilize (como github por exemplo), responderem perguntas programadas ou até mesmo remover um usuário que propaga spam | 8 | Should | funcional |
 
+* Para adicionar bots o usuário deverá ser administrador em Channel
+8 O bot deverá ser integrado ao Channel como um usuário
+* O bot integrado ao channel poderá interagir com os outros usuários
+* Para adicionar bots o usuário deverá possuir conhecimentos prévios para configurar ou programar o bot
+* As permissões do bot devem ser configurados pelo seu "dono" (exemplo: alguns bots podem ter poder até para remover outros usuários se os mesmos infrigirem alguma regra do Channel)
+* A inserção de bots se aplica apenas para Channels e Grupos privados
+
 _Originada em: [AD7](../Elicitação/analdiscurso.md/requisitos-elicitados), [ENT1.1](../Elicitação/Entrevista.md#requisitos), [INT3.9](../Elicitação/Introspeccao.md#introspecção-03), [Q2](../Elicitação/questionario.md#requisitos-elicitados), [L26](lexicos.md#l26), [C24](cenarios.md#c24)_
 
 ### EP15 - Deixar Channel
@@ -700,6 +791,10 @@ _Originada em: [AD7](../Elicitação/analdiscurso.md/requisitos-elicitados), [EN
 |----|----------|--------|--------|------------|--------|------------|------|
 | US63 | Usuário | Esconder um channel | necessito que possa continuar como membro, porém não receber notificações e não ser exibido em minha lista de channels | | 2 | Should | funcional |
 
+* Qualquer usuário membro em um grupo poderá realizar a ação de ocultar um channel da listagem de channels
+* Channels não podem ser removidas do aplicativo
+* Quando um usuário for o único membro em um Channel, essa será a única opção possível, não podendo deixar ou remover o Channel
+
 _Originada em: [L49](lexicos.md#l49), [C16](cenarios.md#c16-v1), [DCU23](diagramas.md#dcu23-v1), [EC23](especificacao.md#ec23)_
 
 #### US64
@@ -707,6 +802,10 @@ _Originada em: [L49](lexicos.md#l49), [C16](cenarios.md#c16-v1), [DCU23](diagram
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
 | US64 | Usuário | Deixar um Channel | não faço mais parte da equipe | | 2 | Must | funcional |
+
+* Opção disponível para qualquer usuário desde que seja membro do Channel
+* Se o usuário for o proprietário do Channel, ele deverá nomear outro usuário como membro antes de poder deixar o Channel
+* Quando usuário deixar o Channel, deverá ser removido da lista de membros
 
 _Originada em: [L48](lexicos.md#l48), [DCU22](diagramas.md#dcu22-v1), [EC22](especificacao.md#ec22)_
 
@@ -809,4 +908,5 @@ _Originada em:_
 | 08/05/2019 | 2.2 | Inclusão do tema T06, com EP13 | Marcos Nery |
 | 08/05/2019 | 2.3 | Reorganização dos identificadores dos Ts, EPs e USs | Lucas Maciel |
 | 11/05/2019 | 2.4 | Adicionado Us no tema de Visão do aplicativo | Lucas Maciel |
-| 11/05/2019 | 2.5 | Inclusão de USs nos épicos Configurações e Mensagens | Lucas Maciel |
+| 11/05/2019 | 2.5 | Inclusão das USs nos épicos Configurações e Mensagens | Lucas Maciel |
+| 18/05/2019 | 2.6 | Inclusão das USs 46-64 | Lucas Maciel |

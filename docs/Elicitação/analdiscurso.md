@@ -58,7 +58,7 @@ _Abaixo pode ser visto um resumo dos pontos princiapais levantados por cada orad
 
 <br>
 
-### Requisitos Elicitados 
+### Requisitos Elicitados
 
 Abaixo podem ser vistos de forma tabular os requisitos elicitados pelo moderador da discussão com a aplicação da técnica da análise de discurso. Foi utilizada a técnica MoSCoW de priorização, pela qual os requisitos recebem atribuições de prioridade que variam de Must, a mais alta, até Would, a mais baixa, passandor por Should e Could, que nessa ordem representam prioriádes intermediárias. 
 
