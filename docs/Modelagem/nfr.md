@@ -18,7 +18,13 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 01
 
-![NFR02](../img/Modelagem/nfr_suporte_v1.jpg)
+![NFR03](../img/Modelagem/nfr_suporte_v1.jpg)
+
+## NFR4 - Usabilidade
+
+### Versão 01
+
+![NFR04](../img/Modelagem/nfr_usabilidade_v1.png)
 
 ## Versionamento
 
@@ -28,3 +34,4 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 | 25/05/2019 | 1.1 | Adição do NFR1 - Versão 01 | Heron Rodrigues |
 | 26/05/2019 | 1.2 | Adição do NFR2 - Versão 01 | Lucas Maciel |
 | 26/05/2019 | 1.3 | Adição do NFR3 - Versão 01 | Heron Rodrigues |
+| 26/05/2019 | 1.4 | Adição do NFR4 - Versão 01 | André Lucas |
