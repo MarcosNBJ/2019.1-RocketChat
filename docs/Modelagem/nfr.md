@@ -2,9 +2,6 @@
 
 O NFR é um framework orientado a metas, que busca representar requisitos não funcionais de um sistema de software. Utilizando o modelo Softgoal Interdependency Graph (SIG). Desse modelo é abstraído um diagrama formado por softgoals (requisitos de qualidade), operacionalização, argumentação, impactos e legenda.
 
-## Escopo do documento:
-* [Portabilidade](#nfr1-portabilidade)
-
 ## NFR1 - Portabilidade
 #### Versão 01
 
