@@ -2,13 +2,13 @@
 
 ## Strategic Dependency Models
 
-### IS01 - Chat
+### ISD01 - Chat
 
 #### Versão 01
 
-![IS01](../img/Modelagem/istar_dependence_chat_v1.png)
+![IS01](../img/Modelagem/isd_chat_v1.png)
 
-### IS02 - Geral
+### ISD02 - Geral
 
 #### Versão 01
 
@@ -16,22 +16,27 @@
 
 ## Strategic Rationale Models
 
-### SR01 - Criar channel
+### ISR01 - Criar channel
 
 #### Versão 01
 
 ![SR01](../img/Modelagem/i_sr_channel.jpg)
 
-### SR02 - Realizar cadastro
+### ISR02 - Realizar cadastro
 
 #### Versão 01
 
 ![SR02](../img/Modelagem/i_sr_cadastro.jpg)
+
+### ISR03 - Envio de Mensagens
+
+![SR03](../img/Modelagem/isr_envio_mensagens.png)
 
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
 |  --- | ------ | ----------- | ----- |
 | 26/05/2019 | 1.0 | Abertura do documento | Lucas Maciel |
-| 26/05/2019 | 1.1 | Adição do IS01 - V1 | Lucas Maciel |
-| 26/05/2019 | 1.2 | Adição dos IS02 - V1, SR01 - V1, SR02 - V1 | Heron Rodrigues |
+| 26/05/2019 | 1.1 | Adição do ISD01 - V1 | Lucas Maciel |
+| 26/05/2019 | 1.2 | Adição dos ISD02 - V1, ISR01 - V1, ISR02 - V1 | Heron Rodrigues |
+| 27/05/2019 | 1.3 | Adição do ISR03 - V1 | Lucas Maciel |
