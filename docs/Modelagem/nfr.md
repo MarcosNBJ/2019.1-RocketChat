@@ -36,7 +36,15 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 01
 
-![NFR05](../img/Modelagem/nfr_personabilidade_v1.png)
+![NFR05](../img/Modelagem/nfr_personabilidade_limpo_v1.png)
+
+![NFR05](../img/Modelagem/nfr_personabilidade_analise_v1.png)
+
+### Versão 02
+
+![NFR05](../img/Modelagem/nfr_personabilidade_limpo_v2.png)
+
+![NFR05](../img/Modelagem/nfr_personabilidade_analise_v2.png)
 
 ## NFR6 - Segurança
 
@@ -56,3 +64,4 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 | 26/05/2019 | 1.5 | Adição do NFR5 - Versão 01 | Weiller Fernandes |
 | 27/05/2019 | 1.6 | Adição do NFR6 - V1        | Lucas Maciel |
 | 28/05/2019 | 1.7 | Adição do NFR1 - Versão 02 | Heron Rodrigues |
+| 28/05/2019 | 1.8 | Adição do NFR5 - Versão 02 | Weiller Fernandes |
