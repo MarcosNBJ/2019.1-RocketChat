@@ -8,6 +8,12 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ![NFR01](../img/Modelagem/nfr_portabilidade_v1.jpg)
 
+### Versão 02
+
+![NFR01](../img/Modelagem/nfr_portabilidade_limpo_v2.jpg)
+
+![NFR01](../img/Modelagem/nfr_portabilidade_analise_v2.jpg)
+
 ## NFR2 - Performance do Chat
 
 ### Versão 01
@@ -49,3 +55,4 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 | 26/05/2019 | 1.4 | Adição do NFR4 - Versão 01 | André Lucas |
 | 26/05/2019 | 1.5 | Adição do NFR5 - Versão 01 | Weiller Fernandes |
 | 27/05/2019 | 1.6 | Adição do NFR6 - V1        | Lucas Maciel |
+| 28/05/2019 | 1.7 | Adição do NFR1 - Versão 02 | Heron Rodrigues |
