@@ -17,7 +17,7 @@
 
 ### ISD03 - Sistema de Contas
 
-*Versão 01
+* Versão 01
 ![ISD03](../img/Modelagem/isd_accounts_system_v1.png)
 
 ## Strategic Rationale Models
@@ -25,12 +25,15 @@
 ### ISR01 - Criar channel
 
 * Versão 01
-![ISR01](../img/Modelagem/i_sr_channel.jpg)
+![ISR01](../img/Modelagem/i_sr_channel_v1.jpg)
+
+* Versão 02
+![ISR01_V2](../img/Modelagem/i_sr_channel_v2.jpg)
 
 ### ISR02 - Realizar cadastro
 
 * Versão 01
-![ISR02](../img/Modelagem/i_sr_cadastro.jpg)
+![ISR02](../img/Modelagem/i_sr_cadastro_v1.jpg)
 
 ### ISR03 - Envio de Mensagens
 
@@ -56,3 +59,4 @@
 | 27/05/2019 | 1.3 | Adição do ISR03 - V1 | Lucas Maciel |
 | 27/05/2019 | 1.4 | Adição do ISR04 - V1 | Lucas Maciel |
 | 27/05/2019 | 1.5 | Atualização do ISR04 - V2 e ISD01 - V2 e adição ISD03 - V1 | Lucas MAciel |
+| 29/05/2019 | 1.6 | Adição do ISR01 - V2 | Heron Rodrigues |
