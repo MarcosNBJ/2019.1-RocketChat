@@ -29,6 +29,12 @@
 
 ![ISD04](../img/Modelagem/ISD04.png)
 
+#### ISD05 - Contribuição da comunidade
+
+#### Versão 01
+
+![ISD05](../img/Modelagem/contribuicaosd.png)
+
 ## Strategic Rationale Models
 
 #### ISR01 - Criar channel
@@ -64,6 +70,12 @@
 
 ![ISR05](../img/Modelagem/ISR05.png)
 
+#### ISR06 - Contribuição da comunidade
+
+#### Versão 01
+
+![ISR06](../img/Modelagem/contribuicaosr.png)
+
 
 ## Versionamento
 
@@ -79,3 +91,5 @@
 | 29/05/2019 | 1.7 | Adição do ISD02 - V2 | Heron Rodrigues |
 | 29/05/2019 | 1.8 | Adição de ISD04 - V1 | João Lucas |
 | 29/05/2019 | 1.9 | Adição de ISR05 - V1 | João Lucas |
+| 29/05/2019 | 1.9 | Adição de ISD05 - V1 | Marcos Nery |
+| 29/05/2019 | 2.0 | Adição de ISR06 - V1 | Marcos Nery |
