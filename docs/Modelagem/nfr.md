@@ -62,7 +62,7 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 01
 
-![REl01](../img/Modelagem/nfr_relacionamento_v1.jpg)
+![REl01](../img/Modelagem/nfr_rel01_v1.jpg)
 
 ## Versionamento
 
