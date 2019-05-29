@@ -16,7 +16,7 @@
 ![ISD02](../img/Modelagem/i_sd_geral_v1.jpg)
 
 #### Versão 02
-![ISD02_V2](../img/Modelagem/i_sd_geralv2.jpg)
+![ISD02_V2](../img/Modelagem/i_sd_geral_v2.jpg)
 
 #### ISD03 - Sistema de Contas
 
