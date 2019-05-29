@@ -38,6 +38,8 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ![NFR04](../img/Modelagem/nfr_usabilidade_v1.png)
 
+![NFR04](../img/Modelagem/nfr_usabilidade_analise_v1.png)
+
 ## NFR5 - Personabilidade
 
 ### Versão 01
@@ -58,7 +60,7 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ![NFR06](../img/Modelagem/nfr_seguranca_v1.png)
 
-## NFR07 - Manutenabilidade 
+## NFR07 - Manutenabilidade
 
 ### Versão 01
 
@@ -69,7 +71,7 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 ![NFR07](../img/Modelagem/manutenabilidade_analise.png)
 
 
-## NFR08 - Contribuição da comunidade 
+## NFR08 - Contribuição da comunidade
 
 ### Versão 01
 
