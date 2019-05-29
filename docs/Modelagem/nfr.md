@@ -20,6 +20,10 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ![NFR02](../img/Modelagem/nfr_performance_chat_v1.png)
 
+### Versão 02
+![NFR02](../img/Modelagem/nfr_performance_chat_v2.png)
+![NFR02](../img/Modelagem/nfr_performance_chat_analise_v2.png)
+
 ## NFR3 - Suporte
 
 ### Versão 01
@@ -84,10 +88,11 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 | 26/05/2019 | 1.3 | Adição do NFR3 - Versão 01 | Heron Rodrigues |
 | 26/05/2019 | 1.4 | Adição do NFR4 - Versão 01 | André Lucas |
 | 26/05/2019 | 1.5 | Adição do NFR5 - Versão 01 | Weiller Fernandes |
-| 27/05/2019 | 1.6 | Adição do NFR6 - V1        | Lucas Maciel |
+| 27/05/2019 | 1.6 | Adição do NFR6 - Versão 01 | Lucas Maciel |
 | 28/05/2019 | 1.7 | Adição do NFR1 - Versão 02 | Heron Rodrigues |
 | 28/05/2019 | 1.8 | Adição do NFR5 - Versão 02 | Weiller Fernandes |
 | 29/05/2019 | 1.9 | Adição do NFR3 - Versão 02 | Heron Rodrigues |
 | 29/05/2019 | 2.0 | Adição do Relacionamento 01 | Heron Rodrigues |
 | 29/05/2019 | 2.1 | Adição do NFR7 - Versão 01 | João Lucas |
 | 29/05/2019 | 2.2 | Adição do NFR7 - Versão 02 | João Lucas |
+| 29/05/2019 | 2.3 | Adição do NFR2 - Versão 02 | Lucas Maciel |
