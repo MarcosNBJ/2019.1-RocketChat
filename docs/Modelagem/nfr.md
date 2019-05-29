@@ -20,6 +20,12 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ![NFR02](../img/Modelagem/nfr_performance_chat_v1.png)
 
+### Versão 02
+
+![NFR02](../img/Modelagem/nfr_performance_chat_v2.png)
+
+![NFR02](../img/Modelagem/nfr_performance_chat_analise_v2.png)
+
 ## NFR3 - Suporte
 
 ### Versão 01
@@ -37,6 +43,8 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 ### Versão 01
 
 ![NFR04](../img/Modelagem/nfr_usabilidade_v1.png)
+
+![NFR04](../img/Modelagem/nfr_usabilidade_analise_v1.png)
 
 ## NFR5 - Personabilidade
 
@@ -58,7 +66,7 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ![NFR06](../img/Modelagem/nfr_seguranca_v1.png)
 
-## NFR07 - Manutenabilidade 
+## NFR07 - Manutenabilidade
 
 ### Versão 01
 
@@ -68,11 +76,32 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ![NFR07](../img/Modelagem/manutenabilidade_analise.png)
 
+
+## NFR08 - Contribuição da comunidade
+
+### Versão 01
+
+![NFR07](../img/Modelagem/nfr_contrib.png)
+
+### Análise
+
+![NFR07](../img/Modelagem/nfr_contrib_anali.png)
+
 ## Relacionamento 01
 
 ### Versão 01
 
 ![REl01](../img/Modelagem/nfr_rel01_v1.jpg)
+
+## NFR09 - Conectividade
+
+### Versão 01
+
+![NFR09](../img/Modelagem/conectividade.png)
+
+### Análise
+
+![NFR09](../img/Modelagem/conectividade2.png)
 
 ## Versionamento
 
@@ -82,12 +111,17 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 | 25/05/2019 | 1.1 | Adição do NFR1 - Versão 01 | Heron Rodrigues |
 | 26/05/2019 | 1.2 | Adição do NFR2 - Versão 01 | Lucas Maciel |
 | 26/05/2019 | 1.3 | Adição do NFR3 - Versão 01 | Heron Rodrigues |
-| 26/05/2019 | 1.4 | Adição do NFR4 - Versão 01 | André Lucas |
+| 26/05/2019 | 1.4 | Adição do NFR4 - Análise - Versão 01 | André Lucas |
 | 26/05/2019 | 1.5 | Adição do NFR5 - Versão 01 | Weiller Fernandes |
-| 27/05/2019 | 1.6 | Adição do NFR6 - V1        | Lucas Maciel |
+| 27/05/2019 | 1.6 | Adição do NFR6 - Versão 01 | Lucas Maciel |
 | 28/05/2019 | 1.7 | Adição do NFR1 - Versão 02 | Heron Rodrigues |
 | 28/05/2019 | 1.8 | Adição do NFR5 - Versão 02 | Weiller Fernandes |
 | 29/05/2019 | 1.9 | Adição do NFR3 - Versão 02 | Heron Rodrigues |
 | 29/05/2019 | 2.0 | Adição do Relacionamento 01 | Heron Rodrigues |
 | 29/05/2019 | 2.1 | Adição do NFR7 - Versão 01 | João Lucas |
 | 29/05/2019 | 2.2 | Adição do NFR7 - Versão 02 | João Lucas |
+| 29/05/2019 | 2.3 | Adição do NFR8 - Versão 01 | Marcos Nery |
+| 29/05/2019 | 2.4 | Adição do NFR8 - Análise | Marcos Nery |
+| 29/05/2019 | 2.5 | Adição do NFR2 - Versão 02 | Lucas Maciel |
+| 29/05/2019 | 2.6 | Adição do NFR04 - Versão 01 | André Lucas |
+| 29/05/2019 | 2.7 | Adição do NFR09 - Versão 01 | Gabriel Davi |
