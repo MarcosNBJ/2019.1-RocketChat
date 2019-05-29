@@ -23,6 +23,12 @@
 #### Versão 01
 ![ISD03](../img/Modelagem/isd_accounts_system_v1.png)
 
+#### ISD04 - Ações sobre o channel
+
+#### Versão 01
+
+![ISD04](../img/Modelagem/ISD04.png)
+
 ## Strategic Rationale Models
 
 #### ISR01 - Criar channel
@@ -52,6 +58,13 @@
 
 ![ISR04_V2](../img/Modelagem/isr_message_actions_v2.png)
 
+#### ISR05 - Ações sobre o Channel
+
+#### Versão 01
+
+![ISR05](../img/Modelagem/ISR05.png)
+
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -64,3 +77,5 @@
 | 27/05/2019 | 1.5 | Atualização do ISR04 - V2 e ISD01 - V2 e adição ISD03 - V1 | Lucas MAciel |
 | 29/05/2019 | 1.6 | Adição do ISR01 - V2 | Heron Rodrigues |
 | 29/05/2019 | 1.7 | Adição do ISD02 - V2 | Heron Rodrigues |
+| 29/05/2019 | 1.8 | Adição de ISD04 - V1 | João Lucas |
+| 29/05/2019 | 1.9 | Adição de ISR05 - V1 | João Lucas |
