@@ -35,6 +35,12 @@
 
 ![ISD05](../img/Modelagem/contribuicaosd.png)
 
+#### ISD06 - Videochamada
+
+#### Versão 01
+
+![ISD06](../img/Modelagem/isd_videochamada_v1.png)
+
 ## Strategic Rationale Models
 
 #### ISR01 - Criar channel
@@ -76,6 +82,12 @@
 
 ![ISR06](../img/Modelagem/contribuicaosr.png)
 
+#### ISR07 - Videochamada
+
+#### Versão 01
+
+![ISR07](../img/Modelagem/isr_videochamada_v1.png)
+
 
 ## Versionamento
 
@@ -93,3 +105,4 @@
 | 29/05/2019 | 1.9 | Adição de ISR05 - V1 | João Lucas |
 | 29/05/2019 | 1.9 | Adição de ISD05 - V1 | Marcos Nery |
 | 29/05/2019 | 2.0 | Adição de ISR06 - V1 | Marcos Nery |
+| 29/05/2019 | 2.1 | Adição de ISD06 - V1 e ISR07 - V1 | Weiller Fernandes |
