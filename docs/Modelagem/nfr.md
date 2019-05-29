@@ -62,7 +62,7 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ![NFR06](../img/Modelagem/nfr_seguranca_v1.png)
 
-## NFR07 - Manutenabilidade 
+## NFR07 - Manutenabilidade
 
 ### Versão 01
 
@@ -71,6 +71,17 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 ### Versão 02
 
 ![NFR07](../img/Modelagem/manutenabilidade_analise.png)
+
+
+## NFR08 - Contribuição da comunidade 
+
+### Versão 01
+
+![NFR07](../img/Modelagem/nfr_contrib.png)
+
+### Análise
+
+![NFR07](../img/Modelagem/nfr_contrib_anali.png)
 
 ## Relacionamento 01
 
@@ -95,4 +106,6 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 | 29/05/2019 | 2.0 | Adição do Relacionamento 01 | Heron Rodrigues |
 | 29/05/2019 | 2.1 | Adição do NFR7 - Versão 01 | João Lucas |
 | 29/05/2019 | 2.2 | Adição do NFR7 - Versão 02 | João Lucas |
-| 29/05/2019 | 2.3 | Adição do NFR2 - Versão 02 | Lucas Maciel |
+| 29/05/2019 | 2.3 | Adição do NFR8 - Versão 01 | Marcos Nery |
+| 29/05/2019 | 2.4 | Adição do NFR8 - Análise | Marcos Nery |
+| 29/05/2019 | 2.5 | Adição do NFR2 - Versão 02 | Lucas Maciel |
