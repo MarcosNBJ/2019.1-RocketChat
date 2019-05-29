@@ -58,6 +58,12 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ![NFR06](../img/Modelagem/nfr_seguranca_v1.png)
 
+## Relacionamento 01
+
+### Versão 01
+
+![REl01](../img/Modelagem/nfr_relacionamento_v1.jpg)
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -71,4 +77,5 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 | 27/05/2019 | 1.6 | Adição do NFR6 - V1        | Lucas Maciel |
 | 28/05/2019 | 1.7 | Adição do NFR1 - Versão 02 | Heron Rodrigues |
 | 28/05/2019 | 1.8 | Adição do NFR5 - Versão 02 | Weiller Fernandes |
-| 28/05/2019 | 1.9 | Adição do NFR3 - Versão 02 | Heron Rodrigues |
+| 29/05/2019 | 1.9 | Adição do NFR3 - Versão 02 | Heron Rodrigues |
+| 29/05/2019 | 2.0 | Adição do Relacionamento 01 | Heron Rodrigues |
