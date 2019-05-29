@@ -93,6 +93,16 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ![REl01](../img/Modelagem/nfr_rel01_v1.jpg)
 
+## NFR09 - Conectividade
+
+### Versão 01
+
+![NFR09](../img/Modelagem/conectividade.png)
+
+### Análise
+
+![NFR09](../img/Modelagem/conectividade2.png)
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
@@ -114,3 +124,4 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 | 29/05/2019 | 2.4 | Adição do NFR8 - Análise | Marcos Nery |
 | 29/05/2019 | 2.5 | Adição do NFR2 - Versão 02 | Lucas Maciel |
 | 29/05/2019 | 2.6 | Adição do NFR04 - Versão 01 | André Lucas |
+| 29/05/2019 | 2.7 | Adição do NFR09 - Versão 01 | Gabriel Davi |
