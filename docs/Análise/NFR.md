@@ -137,7 +137,7 @@ _Inspeção do [NFR-02](../Modelagem/nfr.md#nfr2-performance-do-chat)_
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Sim||
 |3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
-|5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Sim|Construir mais maturidade nos softgoals antes de operacionalizar|
+|5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Sim||
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Sim||
 |7| A simbologia está corretamente implementada ?|Sim||
 |8|Os relacionamentos, por meio de ANDs e ORs, estão corretamente representados ?|Sim||
@@ -163,7 +163,7 @@ _Inspeção do [NFR-02](../Modelagem/nfr.md#nfr2-performance-do-chat)_
 
 #### INFR-03
  
-_Inspeção do [NFR-03](../Modelagem/nfr.md##nfr3-suporte)_
+_Inspeção do [NFR-03](../Modelagem/nfr.md#nfr3-suporte)_
 
 |Nº|Critério|Check|Observação/Melhoria| 
 |:--:|:--:|:--:|:--:|
@@ -177,8 +177,8 @@ _Inspeção do [NFR-03](../Modelagem/nfr.md##nfr3-suporte)_
 |7| A simbologia está corretamente implementada ?|Sim||
 |8|Os relacionamentos, por meio de ANDs e ORs, estão corretamente representados ?|Sim||
 |9|Existe propagação de impacto para  toda operacionalização ?|Sim||
-|10|Existe propagação de impacto entre branches diferentes do NFR onde cabivel ? |Não||
-|11|Existe variabilidade de caminhos possíveis para atingir o softgoal ?|Não||
+|10|Existe propagação de impacto entre branches diferentes do NFR onde cabivel ? |Não|Onde cabivel, representar os impactos que uma operacionalização ou softgoal de uma determinada branch podem ter em outros softgoals|
+|11|Existe variabilidade de caminhos possíveis para atingir o softgoal ?|Não|Modelar mais possibilidades|
 ||**Artefato de análise**|||
 |12|A simbologia das labels está corretamente representada ?|Sim||
 |13|O resultado da propagação dos impactos está correto ?|Sim||
@@ -196,6 +196,78 @@ _Inspeção do [NFR-03](../Modelagem/nfr.md##nfr3-suporte)_
 ||**Conclusão**||
 ||Existem melhorias a serem feitas porém o artefato foi aprovado, pois a quantidade de defeitos foi inferior a tolerância máxima||
 
+#### INFR-04
+ 
+_Inspeção do [NFR-04](../Modelagem/nfr.md#nfr4-usabilidade)_
+
+|Nº|Critério|Check|Observação/Melhoria| 
+|:--:|:--:|:--:|:--:|
+||**Artefato modelo**|||
+|1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
+|2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Não|Verbalizar as operacionalizações|
+|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
+|5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Não|Construir mais maturidade nos softgoals antes de operacionalizar|
+|6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Sim||
+|7| A simbologia está corretamente implementada ?|Sim||
+|8|Os relacionamentos, por meio de ANDs e ORs, estão corretamente representados ?|Sim||
+|9|Existe propagação de impacto para  toda operacionalização ?|Sim||
+|10|Existe propagação de impacto entre branches diferentes do NFR onde cabivel ? |Sim||
+|11|Existe variabilidade de caminhos possíveis para atingir o softgoal ?|Não|Modelar mais possibilidades|
+||**Artefato de análise**|||
+|12|A simbologia das labels está corretamente representada ?|Sim||
+|13|O resultado da propagação dos impactos está correto ?|Sim||
+|14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
+|15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
+
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alta|0|0|
+|Médio|3|6|
+|Baixo|1|1|
+|**Total**|4|7|
+||**Conclusão**||
+||Existem melhorias a serem feitas porém o artefato foi aprovado, pois a quantidade de defeitos foi inferior a tolerância máxima||
+
+
+#### INFR-05
+ 
+_Inspeção do [NFR-05](../Modelagem/nfr.md#nfr5-personabilidade)_
+
+|Nº|Critério|Check|Observação/Melhoria| 
+|:--:|:--:|:--:|:--:|
+||**Artefato modelo**|||
+|1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
+|2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Sim||
+|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
+|5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Não|Construir mais maturidade nos softgoals antes de operacionalizar|
+|6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Não||
+|7| A simbologia está corretamente implementada ?|Sim||
+|8|Os relacionamentos, por meio de ANDs e ORs, estão corretamente representados ?|Sim||
+|9|Existe propagação de impacto para  toda operacionalização ?|Sim||
+|10|Existe propagação de impacto entre branches diferentes do NFR onde cabivel ? |Sim||
+|11|Existe variabilidade de caminhos possíveis para atingir o softgoal ?|Sim||
+||**Artefato de análise**|||
+|12|A simbologia das labels está corretamente representada ?|Sim||
+|13|O resultado da propagação dos impactos está correto ?|Sim||
+|14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
+|15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
+
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alta|0|0|
+|Médio|1|2|
+|Baixo|2|2|
+|**Total**|3|4|
+||**Conclusão**||
+||Artefato aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida||
+
+
 
 ## Referências
 
@@ -211,3 +283,4 @@ _Inspeção do [NFR-03](../Modelagem/nfr.md##nfr3-suporte)_
 | 05/05/2019 | 1.1 | Inclusão da introdução e metodologia utilizada | Marcos Nery |
 | 05/05/2019 | 1.2 | Inclusão da inspeção INFR-01 | Marcos Nery |
 | 05/05/2019 | 1.3 | Inclusão da inspeção INFR-02 e INFR-03| Marcos Nery |
+| 05/05/2019 | 1.4 | Inclusão da inspeção INFR-04 e INFR-05| Marcos Nery |
