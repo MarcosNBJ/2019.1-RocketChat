@@ -1,5 +1,8 @@
 # Product Backlog
 
+Aqui buscamos construir um backlog completo para o produto com base nos requisitos anteriormente elicitados. Além de, com o backlog construido e todas as histórias de usuário devidamente descritas com críterios de aceitação, simular o que seria desenvolvido em cada Sprint. Sendo que o backlog ficou dividido nos seguinte níveis de granularidade: Tema, Épico, histórias de usuário.
+
+
 ## T01 - Entrar no aplicativo
 
 ### EP01 - Fazer Login
