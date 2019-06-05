@@ -413,6 +413,14 @@ _Inspeção do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade)_
 ||Existe uma substancial quantidade de melhorias que podem ser realizadas. No entanto, o artefato foi aprovado, pois a quantidade de defeitos foi inferior a tolerância máxima||
 
 
+## Resultados
+
+* Modelos analisados: 9
+* Modelos reprovados: 1
+* Média de pontuação dos defeitos: 5.7, ou cerca de 17%. De forma geral abaixo da tolerância máxima, que foi admitida como sendo de 30%. 
+
+Dessa forma, a conclusão da análise é que a maioria dos NFRs atingiu o padrão mínimo de qualidade, embora todos eles possam melhorar em alguns pontos e alguns precisem de refatoração.   
+
 
 
 ## Referências
@@ -433,3 +441,4 @@ _Inspeção do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade)_
 | 05/05/2019 | 1.5 | Inclusão da inspeção INFR-06 e atualização dos demais| Marcos Nery |
 | 05/05/2019 | 1.6 | Inclusão da inspeção INFR-07 | Marcos Nery |
 | 05/05/2019 | 1.7 | Inclusão da inspeção INFR-08 e INFR-09 | Marcos Nery |
+| 05/05/2019 | 1.8 | Adição dos resultados | Marcos Nery |
