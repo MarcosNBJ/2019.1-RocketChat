@@ -38,7 +38,7 @@ Além disso, para cada critério foi adotado também um nível de importância, 
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Baixo|
 
 ### Critério avaliativo
-Para avaliar se um artefato deve ser aprovado ou reprovado está sendo seguida a metodologia proposta em []. Que sugere uma tolerância entre 30% e 40% para defeitos no artefato, sendo que essa porcentagem é feita em cima de uma pontuação obtida pelo artefato, que é calculada de acordo com os critérios por ele atendidos e não atendidos, levando em conta os diferentes pesos. No nosso caso, o range de pontuação é definido da seguinte forma:
+Para avaliar se um artefato deve ser aprovado ou reprovado está sendo seguida a metodologia proposta em [1](#referencias). Que sugere uma tolerância entre 30% e 40% para defeitos no artefato, sendo que essa porcentagem é feita em cima de uma pontuação obtida pelo artefato, que é calculada de acordo com os critérios por ele atendidos e não atendidos, levando em conta os diferentes pesos. No nosso caso, o range de pontuação é definido da seguinte forma:
 
 |Importância do critério|Peso atribuido|Quantidade|Pontuação máxima total|
 |:--:|:--:|:--:|:--:|
@@ -111,7 +111,7 @@ _Inspeção do [NFR-01](../Modelagem/nfr.md#nfr1-portabilidade)_
 ||**Artefato de análise**|||
 |12|A simbologia das labels está corretamente representada ?|Sim||
 |13|O resultado da propagação dos impactos está correto ?|Sim||
-|14|Existe a variabilidade de caminhos tomados ?|Não||
+|14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
 
 
