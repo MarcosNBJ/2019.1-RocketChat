@@ -66,13 +66,19 @@ Para o registro de inspeção deve seguir a seguinte tabelas:
 O critério de aceitação se refere a um percentual máximo de defeitos que o artefato inspecionado pode ter. Se esse resultado ultrapassar o critério de aceitação, será reprovado. Acredita-se que um percentual razoável esteja entre 30% a 40%. Neste trabalho é proposto um percentual de 35%, o que significa que os casos de usos inspecionados deveram ter no máximo 35% de defeitos para serem aprovados.
 A metodologia e as métricas utilizadas para melhor inspeção dos casos de usos, assim como as tabelas e diagramas, foram inspirados a partir do estudo proposto em [(1)](#referencias).
 
-|Impacto |Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
-|:--:|:--:|:--:|:--:||:--:|:--:|:--:|:--:|
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |Alta|3|5|15||||Aprovado ou Reprovado
 |Média|2|6|12|||
 |Baixa|1|4|4|||
 |**Total:**||15|31|||
 |Critério de aceitação:|35%|
+
+### Inspeção
+
+A seguir podem ser vistas as inspeções individuais de cada caso de uso previamente construído.
+
+
 
 ## Referências
 
