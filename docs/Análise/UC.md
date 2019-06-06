@@ -82,7 +82,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
-|[ECU 01 - Fixar Mensagem](../Modelagem/especificacao.md#ec1)|05/06/2019|André Lucas|
+|[EC1 - Fixar Mensagem](../Modelagem/especificacao.md#ec1)|05/06/2019|André Lucas|
 
 |Nº|Impacto|N/A|Sim|Não|Observação|
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -114,7 +114,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
-|[ECU 01 - Mudar privacidade do Channel](../Modelagem/especificacao.md#ec2)|06/06/2019|André Lucas|
+|[EC2 - Mudar privacidade do Channel](../Modelagem/especificacao.md#ec2)|06/06/2019|André Lucas|
 
 |Nº|Impacto|N/A|Sim|Não|Observação|
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -142,6 +142,70 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**||15|31|5|12|
 |Critério de aceitação:|30%|
 
+#### IUC-03
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|:--:|:--:|:--:|
+|[EC3 - Criar only-read channel](../Modelagem/especificacao.md#ec3)|06/06/2019|André Lucas|
+
+|Nº|Impacto|N/A|Sim|Não|Observação|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| 1  | Alto ||x|||
+| 2  | Alto |||x|O fluxo alternativo não está especificado|
+| 3  | Baixo ||x|||
+| 4  | Médio |||x|Não apresenta a resposta do sistema ao usuário|
+| 5  | Baixo ||x|||
+| 6  | Baixo |x||||
+| 7  | Médio ||x|||
+| 8  | Médio ||x|||
+| 9  | Baixo |||x|Utiliza o termo "clica" e o termo "botão"|
+| 10 | Médio ||x|||
+| 11 | Médio ||x|||
+| 12 | Alto |||x|O fluxo principal pode ser reescrito, retirando os termos incorretos|
+| 13 | Alto |||x|Não há fluxo alternativo|
+| 14 | Alto ||x|||
+| 15 | Médio ||x||||
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|Alta|3|5|15|3|9|38.70%|Reprovado|
+|Média|2|6|12|1|2|
+|Baixa|1|4|4|1|1|
+|**Total:**||15|31|5|12|
+|Critério de aceitação:|30%|
+
+#### IUC-04
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|:--:|:--:|:--:|
+|[EC4 - Alterar Status](../Modelagem/especificacao.md#ec4)|06/06/2019|André Lucas|
+
+|Nº|Impacto|N/A|Sim|Não|Observação|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| 1  | Alto ||x|||
+| 2  | Alto ||x|||
+| 3  | Baixo ||x|||
+| 4  | Médio |||x|Não apresenta a resposta do sistema ao usuário|
+| 5  | Baixo ||x|||
+| 6  | Baixo |x||||
+| 7  | Médio ||x|||
+| 8  | Médio ||x|||
+| 9  | Baixo |||x|Utiliza o termo "clica"|
+| 10 | Médio ||x|||
+| 11 | Médio ||x|||
+| 12 | Alto ||x|||
+| 13 | Alto ||x|||
+| 14 | Alto ||x|||
+| 15 | Médio ||x||||
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|Alta|3|5|15|0|0|9.67%|Aprovado|
+|Média|2|6|12|1|2|
+|Baixa|1|4|4|1|1|
+|**Total:**||15|31|2|3|
+|Critério de aceitação:|30%|
+
 ## Referências
 
 [1] - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf. Acesso em: 05 jun. 2019.
@@ -155,3 +219,4 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 05/06/2019 | 1.0 | Abertura do documento | André Lucas |
 | 05/06/2019 | 1.1 | Inclusão da metodologia, checklist e medição utilizadas | André Lucas |
 | 06/06/2019 | 1.2 | Adição do IUC01 e IUC02 | André Lucas |
+| 06/06/2019 | 1.3 | Adição do IUC03 e IUC04 | André Lucas |
