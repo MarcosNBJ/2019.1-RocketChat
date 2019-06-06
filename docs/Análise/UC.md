@@ -82,12 +82,12 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
-|[ECU 01 - Fixar Mensagem](../Modelagem/especificacao.md#ec20)|05/06/2019|André Lucas|
+|[ECU 01 - Fixar Mensagem](../Modelagem/especificacao.md#ec1)|05/06/2019|André Lucas|
 
 |Nº|Impacto|N/A|Sim|Não|Observação|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 | 1  | Alto ||x|||
-| 2  | Alto ||x|||
+| 2  | Alto |||x|O fluxo alternativo não está especificado|
 | 3  | Baixo ||x|||
 | 4  | Médio |||x|Não apresenta a resposta do sistema|
 | 5  | Baixo ||x|||
@@ -104,10 +104,42 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Alta|3|5|15|1|3|19.35%|Aprovado|
+|Alta|3|5|15|2|6|29.03%|Aprovado|
 |Média|2|6|12|1|2|
 |Baixa|1|4|4|1|1|
-|**Total:**||15|31|3|6|
+|**Total:**||15|31|3|9|
+|Critério de aceitação:|30%|
+
+#### IUC-02
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|:--:|:--:|:--:|
+|[ECU 01 - Mudar privacidade do Channel](../Modelagem/especificacao.md#ec2)|06/06/2019|André Lucas|
+
+|Nº|Impacto|N/A|Sim|Não|Observação|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+| 1  | Alto ||x|||
+| 2  | Alto |||x|O fluxo alternativo não está especificado|
+| 3  | Baixo ||x|||
+| 4  | Médio |||x|Não apresenta a resposta do sistema em nenhum momento|
+| 5  | Baixo ||x|||
+| 6  | Baixo |x||||
+| 7  | Médio ||x|||
+| 8  | Médio ||x|||
+| 9  | Baixo |||x|O termo "clica" é utilizado várias vezes|
+| 10 | Médio ||x|||
+| 11 | Médio ||x|||
+| 12 | Alto |||x|Algumas frases do fluxo devem ser reformuladas|
+| 13 | Alto |||x|Não há fluxo alternativo|
+| 14 | Alto ||x|||
+| 15 | Médio ||x||||
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|Alta|3|5|15|3|9|38.70%|Reprovado|
+|Média|2|6|12|1|2|
+|Baixa|1|4|4|1|1|
+|**Total:**||15|31|5|12|
 |Critério de aceitação:|30%|
 
 ## Referências
@@ -122,3 +154,4 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |  --- | ------ | ----------- | ----- |
 | 05/06/2019 | 1.0 | Abertura do documento | André Lucas |
 | 05/06/2019 | 1.1 | Inclusão da metodologia, checklist e medição utilizadas | André Lucas |
+| 06/06/2019 | 1.2 | Adição do IUC01 e IUC02 | André Lucas |
