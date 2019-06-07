@@ -240,7 +240,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 5 | 15 | 1 |  3  | 23.53% | Aprovado |
+|Alta      | 3 | 5 | 18 | 1 |  3  | 23.53% | Aprovado |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 4 | 4  | 1 |  1  |
 |**Total:**|   | 15| 34 | 4 |  8  |
@@ -273,7 +273,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 5 | 15 | 0 |  0  | 14.71% | Aprovado |
+|Alta      | 3 | 5 | 18 | 0 |  0  | 14.71% | Aprovado |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 4 | 4  | 1 |  1  |
 |**Total:**|   | 15| 34 | 3 |  5  |
@@ -306,7 +306,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 5 | 15 | 0 |  0  | 14.71% | Aprovado |
+|Alta      | 3 | 5 | 18 | 0 |  0  | 14.71% | Aprovado |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 4 | 4  | 1 |  1  |
 |**Total:**|   | 15| 34 | 3 |  5  |
