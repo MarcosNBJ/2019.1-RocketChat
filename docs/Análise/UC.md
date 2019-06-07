@@ -18,21 +18,22 @@ A fim de registrar os defeitos com os checklists para que sirvam como base para 
 
 |Nº|Critério|Impacto|
 |:--:|:--:|:--:|
-| 1 | A descrição de caso de uso é a de um caso de uso representado no diagrama? | Alto |
-| 2 | A descrição de caso de uso contém nome do caso de uso, nome do ator, fluxo básico e alternativo? | Alto |
-| 3 | As frases utilizam o tempo presente? | Baixo |
-| 4 | As frases representam um diálogo entre ator e sistema, evidenciando a ação do ator e a resposta do sistema? | Médio |
+| 1  | A descrição de caso de uso é a de um caso de uso representado no diagrama? | Alto |
+| 2  | A descrição de caso de uso contém nome do caso de uso, nome do ator, fluxo básico e alternativo? | Alto |
+| 3  | As frases utilizam o tempo presente? | Baixo |
+| 4  | As frases representam um diálogo entre ator e sistema, evidenciando a ação do ator e a resposta do sistema? | Médio |
 | 5  | As frases se utilizam de subtítulos para comunicar as idéias chaves dos fluxos de forma mais clara? | Baixo |
 | 6  | As frases são construídas em voz ativa? (ex.: “Sistema valida a quantia informada” em vez de “A quantia informada deve ser validada pelo sistema”). | Baixo |
 | 7  | São evitados termos sem quantificação precisa, como “muito”, “pouco”, “adequado”, “claro”, “fácil” “longo”, “curto”, “rápido” “etc”? | Médio |
-| 8  | Uma vez utilizado um termo, ele é mantido para referenciar-se ao mesmo elemento? | Médio |
-| 9  | São evitados termos que indicam a prematura especificação de interface, tais como “clicar” “botão” etc? | Baixo |
-| 10 | As funcionalidades se restringem ao quê o sistema deve fazer e não em como, evitando a definição explícita de código na especificação? | Médio |
-| 11 | A descrição evita requisitos de negócio sem ação direta ao sistema? | Médio |
-| 12 | O fluxo básico está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação? | Alto |
-| 13 | O fluxo alternativo está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação? | Alto |
-| 14 | As frases são numeradas para que possibilitem a rastreabilidade? | Alto |
-| 15 | Os fluxos de exceção são corretamente descritos?  | Médio |
+| 8  | Os termos passíveis de mais de uma interpretação constam em glossário, com clara definição? | Alto |
+| 9  | Uma vez utilizado um termo, ele é mantido para referenciar-se ao mesmo elemento? | Médio |
+| 10 | São evitados termos que indicam a prematura especificação de interface, tais como “clicar” “botão” etc?| Baixo |
+| 11 | As funcionalidades se restringem ao quê o sistema deve fazer e não em como, evitando a definição explícita de código na especificação? | Médio |
+| 12 | A descrição evita requisitos de negócio sem ação direta ao sistema? | Médio |
+| 13 | O fluxo básico está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação? | Alto |
+| 14 | O fluxo alternativo está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação? | Alto |
+| 15 | As frases são numeradas para que possibilitem a rastreabilidade? | Alto |
+| 16 | Os fluxos de exceção são corretamente descritos?  | Médio |
 
 ### Registro de inspeção de Caso de Uso
 
@@ -43,35 +44,36 @@ Para o registro de inspeção deve seguir a seguinte tabelas:
 |:--:|:--:|:--:|
 |||||
 
-|Nº|Impacto|N/A|Sim|Não|Observação|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| 1  | Alto |||||
-| 2  | Alto |||||
-| 3  | Baixo |||||
-| 4  | Médio |||||
-| 5  | Baixo |||||
-| 6  | Baixo |||||
-| 7  | Médio |||||
-| 8  | Médio |||||
-| 9  | Baixo |||||
-| 10 | Médio |||||
-| 11 | Médio |||||
-| 12 | Alto |||||
-| 13 | Alto |||||
-| 14 | Alto |||||
-| 15 | Médio ||||||
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   |   |   |          |
+| 2  | Alto  |   |   |   |          |
+| 3  | Baixo |   |   |   |          |
+| 4  | Médio |   |   |   |          |
+| 5  | Baixo |   |   |   |          |
+| 6  | Baixo |   |   |   |          |
+| 7  | Médio |   |   |   |          |
+| 8  | Alto  |   |   |   |          |
+| 9  | Médio |   |   |   |          |
+| 10 | Baixo |   |   |   |          |
+| 11 | Médio |   |   |   |          |
+| 12 | Médio |   |   |   |          |
+| 13 | Alto  |   |   |   |          |
+| 14 | Alto  |   |   |   |          |
+| 15 | Alto  |   |   |   |          |
+| 16 | Médio |   |   |   |          |
 
 ### Medição da inspeção
 
 O critério de aceitação se refere a um percentual máximo de defeitos que o artefato inspecionado pode ter. Se esse resultado ultrapassar o critério de aceitação, será reprovado. Acredita-se que um percentual razoável esteja entre 30% a 40%. Neste trabalho é proposto um percentual de 30%, o que significa que os casos de usos inspecionados deveram ter no máximo 30% de defeitos para serem aprovados.
 A metodologia e as métricas utilizadas para melhor inspeção dos casos de usos, assim como as tabelas e diagramas, foram inspirados a partir do estudo proposto em [(1)](#referencias).
 
-|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Alta|3|5|15||||Aprovado ou Reprovado
-|Média|2|6|12|||
-|Baixa|1|4|4|||
-|**Total:**||15|31|||
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 |   |    |        |Aprovado ou Reprovado |
+|Média     | 2 | 6  | 12 |   |    |        |   |  
+|Baixa     | 1 | 4  | 4  |   |    |        |   |
+|**Total:**|   | 16 | 34 |   |    |        |   |
 |Critério de aceitação:|30%|
 
 ### Inspeção
@@ -87,27 +89,28 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Nº|Impacto|N/A|Sim|Não|Observação|
 |:--:|:--:|:--:|:--:|:--:|:--:|
 | 1  | Alto ||x|||
-| 2  | Alto |||x|O fluxo alternativo não está especificado|
+| 2  | Alto |x||||
 | 3  | Baixo ||x|||
 | 4  | Médio |||x|Não apresenta a resposta do sistema|
 | 5  | Baixo ||x|||
 | 6  | Baixo ||x|||
 | 7  | Médio ||x|||
-| 8  | Médio ||x|||
-| 9  | Baixo |||x|São utilizadas expressões que especifica a interface|
-| 10 | Médio ||x|||
+| 8  | Alto ||x|||
+| 9  | Médio ||x|||
+| 10 | Baixo |||x|São utilizadas expressões que especifica a interface|
 | 11 | Médio ||x|||
-| 12 | Alto ||x|||
-| 13 | Alto |||x|Não há fluxo alternativo|
-| 14 | Alto ||x|||
-| 15 | Médio ||x||||
+| 12 | Médio ||x|||
+| 13 | Alto ||x|||
+| 14 | Alto |x||||
+| 15 | Alto ||x|||
+| 16 | Médio |||x| Fluxos de exceções incompletos, não descrevem as ações do sistema |
 
-|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Alta|3|5|15|2|6|29.03%|Aprovado|
-|Média|2|6|12|1|2|
-|Baixa|1|4|4|1|1|
-|**Total:**||15|31|3|9|
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|---|--------|---|
+|Alta      | 3 | 6  | 18 | 0 | 0 | 14.71% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4 |        |   |  
+|Baixa     | 1 | 4  | 4  | 1 | 1 |        |   |
+|**Total:**|   | 16 | 34 | 3 | 5 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-02
@@ -125,21 +128,22 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 5  | Baixo ||x|||
 | 6  | Baixo |x||||
 | 7  | Médio ||x|||
-| 8  | Médio ||x|||
-| 9  | Baixo |||x|O termo "clica" é utilizado várias vezes|
-| 10 | Médio ||x|||
+| 8  | Alto ||x|||
+| 9  | Médio ||x|||
+| 10  | Baixo |||x|O termo "clica" é utilizado várias vezes|
 | 11 | Médio ||x|||
-| 12 | Alto |||x|Algumas frases do fluxo devem ser reformuladas|
-| 13 | Alto |||x|Não há fluxo alternativo|
-| 14 | Alto ||x|||
-| 15 | Médio ||x||||
+| 12 | Médio ||x|||
+| 13 | Alto |||x|Algumas frases do fluxo devem ser reformuladas|
+| 14 | Alto |||x|Não há fluxo alternativo|
+| 15 | Alto ||x|||
+| 16 | Médio ||x|||
 
-|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Alta|3|5|15|3|9|38.70%|Reprovado|
-|Média|2|6|12|1|2|
-|Baixa|1|4|4|1|1|
-|**Total:**||15|31|5|12|
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 3 | 9  | 35.29% | Reprovado |
+|Média     | 2 | 6  | 12 | 1 | 2  |        |   |  
+|Baixa     | 1 | 4  | 4  | 1 | 1  |        |   |
+|**Total:**|   | 16 | 34 | 5 | 12 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-03
@@ -157,21 +161,22 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 5  | Baixo ||x|||
 | 6  | Baixo |x||||
 | 7  | Médio ||x|||
-| 8  | Médio ||x|||
-| 9  | Baixo |||x|Utiliza o termo "clica" e o termo "botão"|
-| 10 | Médio ||x|||
+| 8  | Alto ||x|||
+| 9  | Médio ||x|||
+| 10  | Baixo |||x|Utiliza o termo "clica" e o termo "botão"|
 | 11 | Médio ||x|||
-| 12 | Alto |||x|O fluxo principal pode ser reescrito, retirando os termos incorretos|
-| 13 | Alto |||x|Não há fluxo alternativo|
-| 14 | Alto ||x|||
-| 15 | Médio ||x||||
+| 12 | Médio ||x|||
+| 13 | Alto |||x|O fluxo principal pode ser reescrito, retirando os termos incorretos|
+| 14 | Alto |||x|Não há fluxo alternativo|
+| 15 | Alto ||x|||
+| 16 | Médio ||x|||
 
-|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Alta|3|5|15|3|9|38.70%|Reprovado|
-|Média|2|6|12|1|2|
-|Baixa|1|4|4|1|1|
-|**Total:**||15|31|5|12|
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 3 | 9  | 35.29% | Reprovado |
+|Média     | 2 | 6  | 12 | 1 | 2  |        |   |  
+|Baixa     | 1 | 4  | 4  | 1 | 1  |        |   |
+|**Total:**|   | 16 | 34 | 3 | 12 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-04
@@ -180,31 +185,132 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |:--:|:--:|:--:|
 |[EC4 - Alterar Status](../Modelagem/especificacao.md#ec4)|06/06/2019|André Lucas|
 
-|Nº|Impacto|N/A|Sim|Não|Observação|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| 1  | Alto ||x|||
-| 2  | Alto ||x|||
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   |   |   |          |
+| 2  | Alto  ||x|||
 | 3  | Baixo ||x|||
 | 4  | Médio |||x|Não apresenta a resposta do sistema ao usuário|
 | 5  | Baixo ||x|||
 | 6  | Baixo |x||||
 | 7  | Médio ||x|||
-| 8  | Médio ||x|||
-| 9  | Baixo |||x|Utiliza o termo "clica"|
-| 10 | Médio ||x|||
+| 8  | Alto ||x|||
+| 9  | Médio ||x|||
+| 10  | Baixo |||x|Utiliza o termo "clica"|
 | 11 | Médio ||x|||
-| 12 | Alto ||x|||
-| 13 | Alto ||x|||
-| 14 | Alto ||x|||
-| 15 | Médio ||x||||
+| 12 | Médio ||x|||
+| 13 | Alto  ||x|||
+| 14 | Alto  ||x|||
+| 15 | Alto  ||x|||
+| 16 | Médio ||x||||
 
-|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitavivo|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|Alta|3|5|15|0|0|9.67%|Aprovado|
-|Média|2|6|12|1|2|
-|Baixa|1|4|4|1|1|
-|**Total:**||15|31|2|3|
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|---|--------|---|
+|Alta      | 3 | 6  | 18 | 0 | 0 | 8.82%  | Aprovado |
+|Média     | 2 | 6  | 12 | 1 | 2 |        |   |  
+|Baixa     | 1 | 4  | 4  | 1 | 1 |        |   |
+|**Total:**|   | 16 | 34 | 2 | 3 |        |   |
 |Critério de aceitação:|30%|
+
+
+#### IUC-05
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC5 - Deletar Conta](../Modelagem/especificacao.md#ec5)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   | A especificação de uso está se referindo á um tema no diagrama e não a um caso de uso |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   | x |   |          |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado o termo "clica" algumas vezes|
+| 11 | Médio |   | x |   |          |
+| 12 | Médio | x |   |   |          |
+| 13 | Alto  |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   | x |   |          |
+| 16 | Médio |   |   | x | Fluxos de exceções incompletos, deve ser descrito as ações do sistema após a exceção e não as ações do usuário |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|----------|
+|Alta      | 3 | 5 | 15 | 1 |  3  | 23.53% | Aprovado |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 4 | 4  | 1 |  1  |
+|**Total:**|   | 15| 34 | 4 |  8  |
+| Critério de aceitação: | 30%    |
+
+#### IUC-06
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC6 - Mensagens Favoritadas](../Modelagem/especificacao.md#ec6)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   | x |   |          |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado o termo "clica" algumas vezes|
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Alto  |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   | x |   |          |
+| 16 | Médio |   |   | x | Fluxo de exceção incompleto, exceção 2 não é uma exceção do sistema |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|----------|
+|Alta      | 3 | 5 | 15 | 0 |  0  | 14.71% | Aprovado |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 4 | 4  | 1 |  1  |
+|**Total:**|   | 15| 34 | 3 |  5  |
+| Critério de aceitação: | 30%    |
+
+#### IUC-07
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC7 - Visualizar membros de chat em grupo](../Modelagem/especificacao.md#ec7)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  | x |   |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   | x |   |          |
+| 9  | Médio |   | x |   |          |
+| 10  | Baixo |   |   | x | Utilizado o termo "clica" algumas vezes|
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Alto  |   | x |   |          |
+| 14 | Alto  | x |   |   | Os fluxos alternativos contém ações que não se aplicam ao caso de uso |
+| 15 | Alto  |   | x |   |          |
+| 16 | Médio |   |   | x | Fluxos de exceções incompletos, não descrevem as ações do sistema |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|----------|
+|Alta      | 3 | 5 | 15 | 0 |  0  | 14.71% | Aprovado |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 4 | 4  | 1 |  1  |
+|**Total:**|   | 15| 34 | 3 |  5  |
+| Critério de aceitação: | 30%    |
 
 ## Referências
 
@@ -220,3 +326,4 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 05/06/2019 | 1.1 | Inclusão da metodologia, checklist e medição utilizadas | André Lucas |
 | 06/06/2019 | 1.2 | Adição do IUC01 e IUC02 | André Lucas |
 | 06/06/2019 | 1.3 | Adição do IUC03 e IUC04 | André Lucas |
+| 07/06/2019 | 1.4 | Adição das IUC05 - IUC07 | Lucas Maciel |
