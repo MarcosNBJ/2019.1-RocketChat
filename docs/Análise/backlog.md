@@ -1,4 +1,4 @@
-# Inspeção product backlog
+# Inspeção do Product Backlog
 
 ## Introdução
 
