@@ -133,7 +133,7 @@ Especificação de casos de uso: [EC - 13](especificacao.md#ec13)
 
 ![DCU-1](../img/Modelagem/uc_pesquisar_mensagem_v1.png)
 
-## DCU13 - V1.2
+## DCU13 - V1
 ### **Realização de login**
 Diagrama inspirado pelo cenário **[Fazer login](cenarios.md#18)**
 
