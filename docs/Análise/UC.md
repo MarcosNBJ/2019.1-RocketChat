@@ -450,10 +450,147 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 5 | 18 | 2 |  6  | 25.71% | Reprovado |
+|Alta      | 3 | 5 | 18 | 1 |  3  | 22.86% | Aprovado  |
 |Média     | 2 | 6 | 12 | 1 |  2  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 15| 35 | 5 |  9  |
+|**Total:**|   | 15| 35 | 3 |  8  |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 12
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC12 - Visualizar Mensagem Fixada](../Modelagem/especificacao.md#ec12)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Room e Pinned Messages não possuem os links para os léxicos que explicam os termos |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   | x |   |          |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  | x |   |   | Não há fluxo alternativo para esse caso de uso |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxos de Exceção incompletos |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 5 | 18 | 1 |  6  | 28.57% | Aprovado  |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 0 |  0  |
+|**Total:**|   | 15| 35 | 3 |  10  |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 13
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC13 - Pesquisa de mensagem](../Modelagem/especificacao.md#ec13)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   | No diagrama não há um caso de uso especefico de "Pesquisa de mensagem" |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   |   | x | Algumas frases não estão em voz ativa, como "O usuário não especifica bem o termo..." no fluxo alternativo |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Alguns termos precisam de glossário, que seja nos léxicos ou na própria especificação |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface, como o termo "clica" |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   | x |   |          |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   | x |   |          |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 5 | 18 | 1 |  3  | 20.00% | Aprovado  |
+|Média     | 2 | 6 | 12 | 1 |  2  |
+|Baixa     | 1 | 5 | 5  | 2 |  2  |
+|**Total:**|   | 15| 35 | 4 |  7  |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 14
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC14 - Realização de login](../Modelagem/especificacao.md#ec14)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   | x |   |          |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  | x |   |   |          |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface, como o termo "clica" |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   | x |   |          |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   | x |   |          |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 5 | 18 | 0 |  0  | 2.86%  | Aprovado  |
+|Média     | 2 | 6 | 12 | 0 |  0  |
+|Baixa     | 1 | 5 | 5  | 1 |  1  |
+|**Total:**|   | 15| 35 | 1 |  1  |
+| Critério de aceitação: | 30%    |
+
+
+#### IUC - 15
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC15 - Enviar mensagem](../Modelagem/especificacao.md#ec15)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | As frases não especificam o ator que usa o sistema e não há resposta do sistema |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Termos, como "Channel" devem estar no glossário ou ter um link para o léxico |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   | x |   |          |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   |   | x | Fluxos alternativos incompletos, não possuem as ações possiveis |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxos de exceções não mostra as ações que o sistema executa para orientar o usuário |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 5 | 18 | 2 |  6  | 28.57% | Aprovado  |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 0 |  0  |
+|**Total:**|   | 15| 35 | 4 |  10  |
 | Critério de aceitação: | 30%    |
 
 ## Referências
@@ -471,3 +608,4 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 06/06/2019 | 1.2 | Adição do IUC01 e IUC02 | André Lucas |
 | 06/06/2019 | 1.3 | Adição do IUC03 e IUC04 | André Lucas |
 | 07/06/2019 | 1.4 | Adição das IUC05 - IUC11 | Lucas Maciel |
+| 08/06/2019 | 1.5 | Adição das IUC12 - IUC15 | Lucas Maciel |
