@@ -7,8 +7,7 @@ Neste documento, iremos demonstrar a verificação para os os artefatos do model
 ## Metodologia
 
 Para executar a inspeção de cada artefato, foi desenvolvido uma tabela, contendo critérios e importância. <br>
-Os critérios foram baseados no modelo ACE e em parâmetros definidos pela equipe. A importância de cada critério foi determinada levando em consideração pontos para que o artefato esteja em conformidade com o modelo proposto, sendo alta as condições para que o artefato esteja correto, e baixa, que não necessáriamente a condição precise ser atendida mas que agregaria positivamente ao artefato. <br>
-Com isso, é atribuido uma nota de 1 a 5 para cada critério, sendo 1, critério não foi satisfeito e 5, critério totalmente satisfeito. Além disso, são sugeridas melhorias para os critérios que tiverem falhado em ser atendidos.
+Os critérios foram baseados no modelo ACE e em parâmetros definidos pela equipe. A importância de cada critério foi determinada levando em consideração pontos para que o artefato esteja em conformidade com o modelo proposto, sendo alta as condições para que o artefato esteja correto, e baixa, que não necessáriamente a condição precise ser atendida mas que agregaria positivamente ao artefato.
 
 ## Critérios
 
@@ -17,7 +16,7 @@ Ao final do documento, foi disponibilizado um [material de apoio](#material-de-a
 |Nº|Critério|Material correspondente|Importância
 |:--:|:--:|:--:|:--:|
 |1|O diagrama foi representado na forma de um grafo?|[Exemplo](#4-exemplo)|Alta|
-|2|Cada vértice foi classificado de forma correta?|[Classificação](#1-classificacao-de-cada-vertice)|Alta|
+|2|As labels de cada vértice está correta?| [Labels](#1-labels)|Alta|
 |3|Cada vértice foi formalmente descrito?|[Descrição](#2-descricao-formal)|Baixo|
 |4|A propagação (setas) dos vértices foram executadas de forma correta?|[Propagação](#3-propagacao)|Alta|
 |5|Todos os conflitos, gerados na discussão, foram resolvidos?||Médio|
@@ -28,6 +27,9 @@ Ao final do documento, foi disponibilizado um [material de apoio](#material-de-a
 
 ## Registro de inspeção
 
+Para cada inspeção, será registrado o nome com o hiperlink para cada artefato, data e quem inspecionou o diagrama. É atribuido uma nota de 0 a 5 para cada critério, sendo 0, critério não foi satisfeito e 5, critério totalmente satisfeito. Além disso, são sugeridas melhorias para os critérios que tiverem falhado em ser atendidos.<br>
+O artefato sera considerado válido, se atender o critério nº 5, os conflitos gerados na discussão forem resolvidos, houve uma preferência.
+
 #### IARG-0X
 
 |Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
@@ -37,7 +39,7 @@ Ao final do documento, foi disponibilizado um [material de apoio](#material-de-a
 |Nº|Critério|Material correspondente|Nota|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|:--:|
 |1|O diagrama foi representado na forma de um grafo?|[Exemplo](#4-exemplo)|||
-|2|Cada vértice foi classificado de forma correta?|[Classificação](#1-classificacao-de-cada-vertice)|||
+|2|As labels de cada vértice está correta?| [Labels](#1-labels)|||
 |3|Cada vértice foi formalmente descrito?|[Descrição](#2-descricao-formal)|||
 |4|A propagação (setas) dos vértices foram executadas de forma correta?|[Propagação](#3-propagacao)|||
 |5|Todos os conflitos, gerados na discussão, foram resolvidos?||||
@@ -47,13 +49,13 @@ Ao final do documento, foi disponibilizado um [material de apoio](#material-de-a
 
 ## Material de apoio para a avaliação
 
-### __1 -Classificação de cada vértice:__
+### __1 - Labels:__
 * __i__ - informações, proposições.
 * __I__ - inferências.
 * __C__ - conflito.
 * __P__ - preferência.
 
-### __2 -Descrição formal:__
+### __2 - Descrição formal:__
 * Ex. Conflito: C1(i(p2), i(p1))
 * Ex. Inferência: It(i(p1), i(p2))
 * Ex. Preferência:  P1(i(p1), i(p2))
@@ -62,7 +64,7 @@ Ao final do documento, foi disponibilizado um [material de apoio](#material-de-a
 
 A partir da proposição de p1, podemos inferir a proposição de p2. A proposição de p3 gera conflito com a proposição de p2. Acaba gerando uma preferência por p2 em relação à p3 e essa preferência conflita com C1 e com p3. Pela preferência escolhida, podemos inferir p4.
 
-![](../img/Analise/ex_argumentação.jpg)
+![](../img/Analise/ex_argumentação.jpeg)
 
 ### __4 - Exemplo__
 
