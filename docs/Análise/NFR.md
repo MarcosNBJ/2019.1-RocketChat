@@ -22,7 +22,7 @@ Além disso, para cada critério foi adotado também um nível de importância, 
 ||**Artefato modelo**||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Alto|
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Médio|
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Alto|
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Alto|
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Alto|
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Médio|
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Baixo|
@@ -64,7 +64,7 @@ _Inspeção do [NFRX](../Modelagem/nfr.md#)_
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|||
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|||
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|||
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|||
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|||
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|||
@@ -99,7 +99,7 @@ _Inspeção do [NFR-01](../Modelagem/nfr.md#nfr1-portabilidade)_
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Não|Verbalizar as operacionalizações|
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Não|Construir mais maturidade nos softgoals antes de operacionalizar|
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Não||
@@ -135,7 +135,7 @@ _Inspeção do [NFR-02](../Modelagem/nfr.md#nfr2-performance-do-chat)_
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Sim||
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Sim||
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Sim||
@@ -170,7 +170,7 @@ _Inspeção do [NFR-03](../Modelagem/nfr.md#nfr3-suporte)_
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Não|Verbalizar as operacionalizações|
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Não|Construir mais maturidade nos softgoals antes de operacionalizar|
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Sim||
@@ -205,7 +205,7 @@ _Inspeção do [NFR-04](../Modelagem/nfr.md#nfr4-usabilidade)_
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Não|Verbalizar as operacionalizações|
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Não|Construir mais maturidade nos softgoals antes de operacionalizar|
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Sim||
@@ -241,7 +241,7 @@ _Inspeção do [NFR-05](../Modelagem/nfr.md#nfr5-personabilidade)_
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Sim||
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Não|Construir mais maturidade nos softgoals antes de operacionalizar|
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Não||
@@ -277,7 +277,7 @@ _Inspeção do [NFR-06](../Modelagem/nfr.md#nfr6-seguranca)_
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Sim||
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Sim||
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Sim||
@@ -313,7 +313,7 @@ _Inspeção do [NFR-07](../Modelagem/nfr.md#nfr07-manutenabilidade)_
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Não|Verbalizar as operacionalizações|
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Não|Alguns softgoals tem mais cara de operacionalização. Refinar os softgoals para dar a ideia de critério de qualidade|
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Não|Alguns softgoals tem mais cara de operacionalização. Refinar os softgoals para dar a ideia de critério de qualidade|
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Sim||
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Não||
@@ -350,7 +350,7 @@ _Inspeção do [NFR-08](../Modelagem/nfr.md#nfr08-contribuicao-da-comunidade)_
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Sim||
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Não|Construir mais maturidade nos softgoals antes de operacionalizar|
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Sim||
@@ -386,7 +386,7 @@ _Inspeção do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade)_
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Não|Verbalizar as operacionalizações|
-|3|Os softgoal constituem critérios de qualidade / Requisitos Não Funcionais ?|Não|Alguns softgoals tem mais cara de operacionalização. Refinar os softgoals para dar a ideia de critério de qualidade|
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Não|Alguns softgoals tem mais cara de operacionalização. Refinar os softgoals para dar a ideia de critério de qualidade|
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Não|Construir mais maturidade nos softgoals antes de operacionalizar|
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Não||
