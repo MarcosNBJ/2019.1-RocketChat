@@ -12,7 +12,7 @@ Para que a inspeção fosse realizada de forma a se obter um resultado positivo,
 
 |Nº|Critério|Impacto|
 |:--:|:--:|:--:|
-||**Strategic Dependency Models**||
+||**Strategic Dependency Model**||
 | 1 | Todas as dependências estão direcionadas corretamente? | Médio |
 | 2 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? | Alto |
 | 3 | Os Softgoals representam requisitos não-funcionais? | Alto |
@@ -24,7 +24,7 @@ Para que a inspeção fosse realizada de forma a se obter um resultado positivo,
 
 |Nº|Critério|Impacto|
 |:--:|:--:|:--:|
-||**Strategic Rationale Models**||
+||**Strategic Rationale Model**||
 | 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? | Baixo |
 | 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? | Médio |
 | 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? | Médio |
@@ -43,7 +43,7 @@ O critério de aceitação implica na atribuição de um peso para cada tipo de 
 
 |Impacto do critério|Peso atribuído|Quantidade de critérios|Pontuação máxima total|
 |:--:|:--:|:--:|:--:|
-||**Strategic Dependency Models**|||
+||**Strategic Dependency Model**|||
 |Alta | 3 | 3 | 9 |
 |Média| 2 | 4 | 8 |
 |Baixa| 1 | 1 | 1 |
@@ -51,7 +51,7 @@ O critério de aceitação implica na atribuição de um peso para cada tipo de 
 
 |Impacto do critério|Peso atribuído|Quantidade de critérios|Pontuação máxima total|
 |:--:|:--:|:--:|:--:|
-||**Strategic Rationale Models**|||
+||**Strategic Rationale Model**|||
 |Alta | 3 | 3 | 9 |
 |Média| 2 | 6 | 12|
 |Baixa| 1 | 2 | 2 |
@@ -61,11 +61,66 @@ Utilizando como base a tolerância máxima de 30%, temos como resultado que os m
 
 ### Inspeção
 
-A seguir podem ser vistas as inspeções individuais de cada Strategic Dependency Model previamente construído.
+A seguir podem ser vistas as inspeções individuais de cada Strategic Dependency Model(SD) e de cada Strategic Rationale Model(SR) previamente construído.
+
+#### IISD-0X
+
+_Inspeção do [ISD0X](../Modelagem/istar.md#)_
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Dependency Model**|||
+| 1 | Todas as dependências estão direcionadas corretamente? |||
+| 2 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |||
+| 3 | Os Softgoals representam requisitos não-funcionais? |||
+| 4 | Os atores estão representados com a abstração correta?  |||
+| 5 | Os atores descritos são realmente os necessários e suficientes para o modelo proposto? |||
+| 6 | As metas são objetivos que se deseja alcançar? |||
+| 7 | As metas estão descritas em voz passiva? |||
+| 8 | Todos os recursos são substantivos? ||||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|||
+|Médio|||
+|Baixo|||
+|**Total**|||
+||**Conclusão**||
+|||||
+
+#### IISR-0X
+
+_Inspeção do [ISR0X](../Modelagem/istar.md#)_
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Rationale Model**|||
+| 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? |||
+| 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? |||
+| 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? |||
+| 4 | As ligações 'and' e 'or' estão corretas? |||
+| 5 | Os impactos estão representados com sentido e intensidade corretas? |||
+| 6 | Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos) |||
+| 7 | Todos os recursos são substantivos? |||
+| 8 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |||
+| 9 | Os Softgoals representam requisitos não-funcionais? |||
+| 10 | As metas são objetivos que se deseja alcançar? |||
+| 11 | As metas estão descritas em voz passiva? ||||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|||
+|Médio|||
+|Baixo|||
+|**Total**|||
+||**Conclusão**||
+|||||
 
 ## Referências
 
-1 - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf. Acessado em: 05, jun, 2019.
+1 - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf. Acessado em: 07, jun, 2019.
 
 ## Versionamento
 
@@ -73,3 +128,4 @@ A seguir podem ser vistas as inspeções individuais de cada Strategic Dependenc
 |------|--------|-------------|-------|
 | 07/05/2019 | 1.0 | Abertura do documento | Weiller Fernandes |
 | 07/05/2019 | 1.1 | Inclusão da Metodologia, Critérios e Critério de aceitação | Weiller Fernandes |
+| 08/05/2019 | 1.2 | Adição das inspeções-modelo IISD-0X e IISR-0X | Weiller Fernandes |
