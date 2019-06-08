@@ -240,10 +240,10 @@ _Inspeção do [ISD06](../Modelagem/istar.md#isd06-Videochamada)_
 ||**Resultados**||
 |:--:|:--:|:--:|
 |**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
-|Alto|||
-|Médio|||
-|Baixo|||
-|**Total**|||
+|Alto|0|0|
+|Médio|1|2|
+|Baixo|1|1|
+|**Total**|2|3|
 ||**Conclusão**||
 |||||
 
