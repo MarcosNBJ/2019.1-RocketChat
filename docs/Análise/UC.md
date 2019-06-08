@@ -91,7 +91,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Nº  |Impacto|N/A|Sim|Não|Observação|
 |:--:|:-----:|:-:|:-:|:-:|:--------:|
 | 1  | Alto  |   | x |   |          |
-| 2  | Alto  | x |   |   |          |
+| 2  | Alto  |   |   | x |          |
 | 3  | Baixo |   | x |   |          |
 | 4  | Médio |   |   | x | Não apresenta a resposta do sistema |
 | 5  | Baixo |   | x |   |          |
@@ -104,13 +104,13 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 12 | Médio |   | x |   |          |
 | 13 | Baixo |   | x |   |          |
 | 14 | Alto  |   | x |   |          |
-| 15 | Alto  | x |   |   |          |
+| 15 | Alto  |   |   | x | Não há fluxo alternativo |
 | 16 | Alto  |   | x |   |          |
 | 17 | Médio |   |   | x | Fluxos de exceções incompletos, não descrevem as ações do sistema |
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|---|--------|---|
-|Alta      | 3 | 6  | 18 | 0 | 0 | 14.29% | Aprovado |
+|Alta      | 3 | 6  | 18 | 1 | 3 | 22.86% | Aprovado |
 |Média     | 2 | 6  | 12 | 2 | 4 |        |   |  
 |Baixa     | 1 | 5  | 5  | 1 | 1 |        |   |
 |**Total:**|   | 17 | 35 | 3 | 5 |        |   |
@@ -295,7 +295,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Nº  |Impacto|N/A|Sim|Não|Observação|
 |----|-------|---|---|---|----------|
 | 1  | Alto  |   | x |   |          |
-| 2  | Alto  | x |   |   |          |
+| 2  | Alto  |   | x |   |          |
 | 3  | Baixo |   | x |   |          |
 | 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
 | 5  | Baixo |   | x |   |          |
@@ -303,21 +303,157 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 7  | Médio |   | x |   |          |
 | 8  | Alto  |   | x |   |          |
 | 9  | Médio |   | x |   |          |
-| 10  | Baixo |   |   | x | Utilizado o termo "clica" algumas vezes|
+| 10 | Baixo |   |   | x | Utilizado o termo "clica" algumas vezes|
 | 11 | Médio |   | x |   |          |
 | 12 | Médio |   | x |   |          |
 | 13 | Baixo |   | x |   |          |
 | 14 | Alto  |   | x |   |          |
-| 15 | Alto  | x |   |   | Os fluxos alternativos contém ações que não se aplicam ao caso de uso |
+| 15 | Alto  |   |   | x | Os fluxos alternativos contém ações que não se aplicam ao caso de uso |
 | 16 | Alto  |   | x |   |          |
 | 17 | Médio |   |   | x | Fluxos de exceções incompletos, não descrevem as ações do sistema |
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 5 | 18 | 0 |  0  | 14.29% | Aprovado |
+|Alta      | 3 | 5 | 18 | 1 |  3  | 22.86% | Aprovado |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 15| 35 | 3 |  5  |
+|**Total:**|   | 15| 35 | 3 |  8  |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 08
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC8 - Definir membro do channel como proprietário](../Modelagem/especificacao.md#ec8)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   |   | x | O caso de uso está com o nome de "Tornar Proprietário do Channel" no diagrama |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Está faltando alguns links para os léxicos correspondentes |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   |   | x | Os fluxos alternativos estão incompletos |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxos de exceções incompletos, não descrevem as ações do sistema |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 5 | 18 | 3 |  9  | 40.00% | Reprovado |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 1 |  1  |
+|**Total:**|   | 15| 35 | 6 |  14 |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 09
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC9 - Escolher tom de pele padrão](../Modelagem/especificacao.md#ec9)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Está faltando alguns links para os léxicos dos termos que precisam de interpretação |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   |   | x | Os fluxos alternativos estão incompletos |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxos de exceções incompletos |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 5 | 18 | 2 |  6  | 31.43% | Reprovado |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 1 |  1  |
+|**Total:**|   | 15| 35 | 5 |  11 |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 10
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC10 - Criar channel](../Modelagem/especificacao.md#ec10)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Está faltando alguns links para os léxicos dos termos que precisam de interpretação |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   |   | x | Os fluxos alternativos estão incompletos, sem etapas com ações |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   | x |   | Talvez pudesse ter um complemento nas exceções |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 5 | 18 | 2 |  6  | 25.71% | Aprovado  |
+|Média     | 2 | 6 | 12 | 1 |  2  |
+|Baixa     | 1 | 5 | 5  | 1 |  1  |
+|**Total:**|   | 15| 35 | 5 |  11 |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 11
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC11 - Conectar com um servidor](../Modelagem/especificacao.md#ec11)|07/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  | x |   |   |          |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface, como o termo "clica" |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   |   | x | Os fluxos alternativos estão incompletos, sem etapas com ações   |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   | x |   | Talvez pudesse ter um complemento nas exceções |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 5 | 18 | 2 |  6  | 25.71% | Reprovado |
+|Média     | 2 | 6 | 12 | 1 |  2  |
+|Baixa     | 1 | 5 | 5  | 1 |  1  |
+|**Total:**|   | 15| 35 | 5 |  9  |
 | Critério de aceitação: | 30%    |
 
 ## Referências
@@ -334,4 +470,4 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 05/06/2019 | 1.1 | Inclusão da metodologia, checklist e medição utilizadas | André Lucas |
 | 06/06/2019 | 1.2 | Adição do IUC01 e IUC02 | André Lucas |
 | 06/06/2019 | 1.3 | Adição do IUC03 e IUC04 | André Lucas |
-| 07/06/2019 | 1.4 | Adição das IUC05 - IUC07 | Lucas Maciel |
+| 07/06/2019 | 1.4 | Adição das IUC05 - IUC11 | Lucas Maciel |
