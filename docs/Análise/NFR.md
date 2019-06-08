@@ -36,6 +36,11 @@ Além disso, para cada critério foi adotado também um nível de importância, 
 |13|O resultado da propagação dos impactos está correto ?|Alto|
 |14|Existe a variabilidade de caminhos tomados ?|Baixo|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Baixo|
+||**Pré-rastreabilidade**||
+|16|Existe o rastro  ?|Alto|
+|17|A simbologia das labels está corretamente representada ?|Alto|
+|18|A simbologia das labels está corretamente representada ?|Alto|
+
 
 ### Critério avaliativo
 Para avaliar se um artefato deve ser aprovado ou reprovado está sendo seguida a metodologia proposta em [1](#referencias). Que sugere uma tolerância entre 30% e 40% para defeitos no artefato, sendo que essa porcentagem é feita em cima de uma pontuação obtida pelo artefato, que é calculada de acordo com os critérios por ele atendidos e não atendidos, levando em conta os diferentes pesos. No nosso caso, o range de pontuação é definido da seguinte forma:
