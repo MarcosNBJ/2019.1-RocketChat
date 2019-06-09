@@ -276,6 +276,209 @@ _Inspeção do [ISR0X](../Modelagem/istar.md#)_
 ||**Conclusão**||
 |||||
 
+#### IISR-01
+
+_Inspeção do [ISR01](../Modelagem/istar.md#isr01-criar-channel)_
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Rationale Model**|||
+| 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? |Sim||
+| 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? |Sim||
+| 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? |Sim||
+| 4 | As ligações 'and' e 'or' estão corretas? |Sim||
+| 5 | Os impactos estão representados com sentido e intensidade corretas? |Sim||
+| 6 | Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos) |Não|Verificar se é possível criar outros tipos de relacionamentos de impacto. Sugestão: Definir um nome intuitivo pode ajudar na interação entre os membros.|
+| 7 | Todos os recursos são substantivos? |Sim||
+| 8 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |Sim||
+| 9 | Os Softgoals representam requisitos não-funcionais? |Sim|Usar adjetivos qualitativos. Ex: Bom entendimento.|
+| 10 | As metas são objetivos que se deseja alcançar? |Sim||
+| 11 | As metas estão descritas em voz passiva? |Sim|||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|0|0|
+|Baixo|1|1|
+|**Total**|1|1|
+||**Conclusão**||
+|||||
+
+#### IISR-02
+
+_Inspeção do [ISR02](../Modelagem/istar.md#isr02-realizar-cadastro)_
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Rationale Model**|||
+| 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? |Sim||
+| 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? |Sim||
+| 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? |Sim||
+| 4 | As ligações 'and' e 'or' estão corretas? |Sim||
+| 5 | Os impactos estão representados com sentido e intensidade corretas? |Sim|Verificar se é possível adicionar mais impactos.|
+| 6 | Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos) |Não|Verificar se é possível adicionar mais impactos.|
+| 7 | Todos os recursos são substantivos? |Sim||
+| 8 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |Sim||
+| 9 | Os Softgoals representam requisitos não-funcionais? |Sim||
+| 10 | As metas são objetivos que se deseja alcançar? |Sim||
+| 11 | As metas estão descritas em voz passiva? |Sim|||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|0|0|
+|Baixo|1|1|
+|**Total**|1|1|
+||**Conclusão**||
+|||||
+
+#### IISR-03
+
+_Inspeção do [ISR03](../Modelagem/istar.md#isr03-envio-de-mensagens)_
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Rationale Model**|||
+| 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? |Sim||
+| 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? |Sim||
+| 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? |Sim||
+| 4 | As ligações 'and' e 'or' estão corretas? |Sim||
+| 5 | Os impactos estão representados com sentido e intensidade corretas? |Sim||
+| 6 | Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos) |Não||
+| 7 | Todos os recursos são substantivos? |-|Este modelo não possui recursos, verificar se é possível adicionar recursos.|
+| 8 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |Sim||
+| 9 | Os Softgoals representam requisitos não-funcionais? |Não|Revisar softgoal 'Mensagens direcionadas'|
+| 10 | As metas são objetivos que se deseja alcançar? |Não|Verificar se mensagem de texto, video e áudio são realmente hardgoals|
+| 11 | As metas estão descritas em voz passiva? |Não|Verificar se mensagem de texto, video e áudio são realmente hardgoals||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|2|6|
+|Médio|1|2|
+|Baixo|1|1|
+|**Total**|4|9|
+||**Conclusão**||
+|||||
+
+#### IISR-04
+
+_Inspeção do [ISR04](../Modelagem/istar.md#isr04-acoes-sobre-as-mensagens)_
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Rationale Model**|||
+| 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? |Sim||
+| 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? |Sim||
+| 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? |Sim||
+| 4 | As ligações 'and' e 'or' estão corretas? |Sim||
+| 5 | Os impactos estão representados com sentido e intensidade corretas? |Sim||
+| 6 | Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos) |Sim||
+| 7 | Todos os recursos são substantivos? |Sim||
+| 8 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |Sim|Verificar se a tarefa 'responder' pode ser substituída por 'responder mensagem'.|
+| 9 | Os Softgoals representam requisitos não-funcionais? |Sim|Usar adjetivos qualitativos. Ex: Boa variedade de opções.|
+| 10 | As metas são objetivos que se deseja alcançar? |Sim||
+| 11 | As metas estão descritas em voz passiva? |Não|Revisar os hardgoals.||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|1|2|
+|Baixo|0|0|
+|**Total**|1|2|
+||**Conclusão**||
+|||||
+
+#### IISR-05
+
+_Inspeção do [ISR05](../Modelagem/istar.md#isr05-acoes-sobre-o-channel)_
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Rationale Model**|||
+| 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? |Sim||
+| 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? |Sim||
+| 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? |Sim||
+| 4 | As ligações 'and' e 'or' estão corretas? |Sim||
+| 5 | Os impactos estão representados com sentido e intensidade corretas? |-|Este modelo não possui impactos. Verificar se é possível adicionar impactos.|
+| 6 | Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos) |-|Este modelo não possui impactos. Verificar se é possível adicionar impactos.|
+| 7 | Todos os recursos são substantivos? |Sim||
+| 8 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |Sim||
+| 9 | Os Softgoals representam requisitos não-funcionais? |Sim||
+| 10 | As metas são objetivos que se deseja alcançar? |Sim||
+| 11 | As metas estão descritas em voz passiva? |Não|Verificar a meta 'exibir conversas'.||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|1|2|
+|Baixo|0|0|
+|**Total**|1|2|
+||**Conclusão**||
+|||||
+
+#### IISR-06
+
+_Inspeção do [ISR06](../Modelagem/istar.md#isr06-contribuicao-da-comunidade)_
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Rationale Model**|||
+| 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? |Sim||
+| 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? |Sim||
+| 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? |Não|As ligações com os elementos externos não foram representadas, adicionar essas ligações e suas dependências.|
+| 4 | As ligações 'and' e 'or' estão corretas? |Sim||
+| 5 | Os impactos estão representados com sentido e intensidade corretas? |Não|Verificar o sentido dos impactos.|
+| 6 | Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos) |Sim||
+| 7 | Todos os recursos são substantivos? |Sim||
+| 8 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |Não|Usar verbos no infinitivo para descrever as tasks.|
+| 9 | Os Softgoals representam requisitos não-funcionais? |Sim||
+| 10 | As metas são objetivos que se deseja alcançar? |Sim||
+| 11 | As metas estão descritas em voz passiva? |Sim|||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|1|3|
+|Médio|2|4|
+|Baixo|0|0|
+|**Total**|3|7|
+||**Conclusão**||
+|||||
+
+#### IISR-07
+
+_Inspeção do [ISR07](../Modelagem/istar.md#isr07-videochamada)_
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Rationale Model**|||
+| 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? |Sim||
+| 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? |Sim||
+| 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? |Sim||
+| 4 | As ligações 'and' e 'or' estão corretas? |Não|Ligações 'and' e 'or' não estão sendo representadas, revisar todas as ligações e corrigir as erradas.|
+| 5 | Os impactos estão representados com sentido e intensidade corretas? |Sim|Verificar se algum impacto deve se tornar uma ligação 'and' ou 'or'. |
+| 6 | Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos) |Não|Verificar se é possível propagar impactos entre diferentes ramos.|
+| 7 | Todos os recursos são substantivos? |Sim||
+| 8 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |Sim||
+| 9 | Os Softgoals representam requisitos não-funcionais? |Sim||
+| 10 | As metas são objetivos que se deseja alcançar? |-|Este modelo não possui hardgoals|
+| 11 | As metas estão descritas em voz passiva? |-|Este modelo não possui hardgoals.||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|1|2|
+|Baixo|1|1|
+|**Total**|2|3|
+||**Conclusão**||
+|||||
+
 ## Referências
 
 1 - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf. Acessado em: 07, jun, 2019.
@@ -288,3 +491,4 @@ _Inspeção do [ISR0X](../Modelagem/istar.md#)_
 | 07/05/2019 | 1.1 | Inclusão da Metodologia, Critérios e Critério de aceitação | Weiller Fernandes |
 | 08/05/2019 | 1.2 | Adição das inspeções-modelo IISD-0X e IISR-0X | Weiller Fernandes |
 | 08/05/2019 | 1.3 | Adição das inspeções IISD-01 até IISD-06 | Weiller Fernandes |
+| 09/05/2019 | 1.4 | Adição das inspeções IISR-01 até IISR-07 | Weiller Fernandes |
