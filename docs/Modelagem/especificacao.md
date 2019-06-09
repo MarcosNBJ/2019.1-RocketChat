@@ -615,7 +615,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 |[Cadastrar um novo usuário](cenarios.md#c1-v2) |
 |**Diagrama**|
-|[DCU](diagramas.md#21)|
+|[DCU](diagramas.md#dcu21)|
 
 ## EC22
 
