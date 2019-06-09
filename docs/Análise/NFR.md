@@ -26,7 +26,7 @@ Além disso, para cada critério foi adotado também um nível de importância, 
 |4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Alto|
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Médio|
 |6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Baixo|
-|7| A simbologia está corretamente implementada ?|Alto|
+|7|A simbologia está corretamente implementada ?|Alto|
 |8|Os relacionamentos, por meio de ANDs e ORs, estão corretamente representados ?|Alto|
 |9|Existe propagação de impacto para  toda operacionalização ?|Alto|
 |10|Existe propagação de impacto entre branches diferentes do NFR ? |Baixo|
@@ -37,9 +37,8 @@ Além disso, para cada critério foi adotado também um nível de importância, 
 |14|Existe a variabilidade de caminhos tomados ?|Baixo|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Baixo|
 ||**Pré-rastreabilidade**||
-|16|Existe o rastro  ?|Alto|
-|17|A simbologia das labels está corretamente representada ?|Alto|
-|18|A simbologia das labels está corretamente representada ?|Alto|
+|16|Existe rastro no artefato ?|Alto|
+|17|O artefato possuí versionamento ?|Alto|
 
 
 ### Critério avaliativo
@@ -118,6 +117,9 @@ _Inspeção do [NFR-01](../Modelagem/nfr.md#nfr1-portabilidade)_
 |13|O resultado da propagação dos impactos está correto ?|Sim||
 |14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Não|Adicionar rastro para mostrar o que justifica o colocado no NFR|
+|17|O artefato possuí versionamento ?|Sim||
 
 
 ||**Resultados**||
@@ -154,7 +156,9 @@ _Inspeção do [NFR-02](../Modelagem/nfr.md#nfr2-performance-do-chat)_
 |13|O resultado da propagação dos impactos está correto ?|Sim||
 |14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
-
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Não|Adicionar rastro para mostrar o que justifica o colocado no NFR|
+|17|O artefato possuí versionamento ?|Sim||
 
 ||**Resultados**||
 |:--:|:--:|:--:|
@@ -189,7 +193,9 @@ _Inspeção do [NFR-03](../Modelagem/nfr.md#nfr3-suporte)_
 |13|O resultado da propagação dos impactos está correto ?|Sim||
 |14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
-
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Não|Adicionar rastro para mostrar o que justifica o colocado no NFR|
+|17|O artefato possuí versionamento ?|Sim||
 
 ||**Resultados**||
 |:--:|:--:|:--:|
@@ -224,7 +230,9 @@ _Inspeção do [NFR-04](../Modelagem/nfr.md#nfr4-usabilidade)_
 |13|O resultado da propagação dos impactos está correto ?|Sim||
 |14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
-
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Não|Adicionar rastro para mostrar o que justifica o colocado no NFR|
+|17|O artefato possuí versionamento ?|Sim||
 
 ||**Resultados**||
 |:--:|:--:|:--:|
@@ -260,7 +268,9 @@ _Inspeção do [NFR-05](../Modelagem/nfr.md#nfr5-personabilidade)_
 |13|O resultado da propagação dos impactos está correto ?|Sim||
 |14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
-
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Não|Adicionar rastro para mostrar o que justifica o colocado no NFR|
+|17|O artefato possuí versionamento ?|Sim||
 
 ||**Resultados**||
 |:--:|:--:|:--:|
@@ -296,7 +306,9 @@ _Inspeção do [NFR-06](../Modelagem/nfr.md#nfr6-seguranca)_
 |13|O resultado da propagação dos impactos está correto ?|Sim||
 |14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
-
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Não|Adicionar rastro para mostrar o que justifica o colocado no NFR|
+|17|O artefato possuí versionamento ?|Sim||
 
 ||**Resultados**||
 |:--:|:--:|:--:|
@@ -332,7 +344,9 @@ _Inspeção do [NFR-07](../Modelagem/nfr.md#nfr07-manutenabilidade)_
 |13|O resultado da propagação dos impactos está correto ?|Não|Algumas labels resultantes de propagação de impacto estão faltando|
 |14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Não| Levar a análise para todos os níveis incluindo o último, para demonstrar se o softgoal tema do NFR foi cumprido ou não.|
-
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Não|Adicionar rastro para mostrar o que justifica o colocado no NFR|
+|17|O artefato possuí versionamento ?|Sim||
 
 ||**Resultados**||
 |:--:|:--:|:--:|
@@ -369,7 +383,9 @@ _Inspeção do [NFR-08](../Modelagem/nfr.md#nfr08-contribuicao-da-comunidade)_
 |13|O resultado da propagação dos impactos está correto ?|Sim||
 |14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
-
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Sim||
+|17|O artefato possuí versionamento ?|Sim||
 
 ||**Resultados**||
 |:--:|:--:|:--:|
@@ -405,7 +421,9 @@ _Inspeção do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade)_
 |13|O resultado da propagação dos impactos está correto ?|Sim||
 |14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
 |15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Não| Levar a análise para todos os níveis incluindo o último, para demonstrar se o softgoal tema do NFR foi cumprido ou não.|
-
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Não|Adicionar rastro para mostrar o que justifica o colocado no NFR|
+|17|O artefato possuí versionamento ?|Sim||
 
 ||**Resultados**||
 |:--:|:--:|:--:|
