@@ -7,7 +7,8 @@ Neste documento, iremos demonstrar a verificação para os os artefatos do model
 ## Metodologia
 
 Para executar a inspeção de cada artefato, foi desenvolvido uma tabela, contendo critérios e importância. <br>
-Os critérios foram baseados no modelo ACE e em parâmetros definidos pela equipe. A importância de cada critério foi determinada levando em consideração pontos para que o artefato esteja em conformidade com o modelo proposto, sendo alta as condições para que o artefato esteja correto, e baixa, que não necessáriamente a condição precise ser atendida mas que agregaria positivamente ao artefato.
+Os critérios foram baseados no modelo ACE e em parâmetros definidos pela equipe. A importância de cada critério foi determinada levando em consideração pontos para que o artefato esteja em conformidade com o modelo proposto, sendo alta as condições para que o artefato esteja correto, e baixa, que não necessáriamente a condição precise ser atendida mas que agregaria positivamente ao artefato.<br>
+Além disso, tera alguns critérios para avaliação do documento como um todo.
 
 ## Critérios
 
@@ -15,6 +16,7 @@ Ao final do documento, foi disponibilizado um [material de apoio](#material-de-a
 
 |Nº|Critério|Material correspondente|Importância
 |:--:|:--:|:--:|:--:|
+||**Artefato**|||
 |1|O diagrama foi representado na forma de um grafo?|[Exemplo](#4-exemplo)|Alta|
 |2|As labels de cada vértice está correta?| [Labels](#1-labels)|Alta|
 |3|Cada vértice foi formalmente descrito?|[Descrição](#2-descricao-formal)|Baixo|
@@ -23,7 +25,9 @@ Ao final do documento, foi disponibilizado um [material de apoio](#material-de-a
 |6|Vértices de proposições, ligados somente por I, C, P?||Alta|
 |7|Todas as inferências do diagrama foram descritas no artefato?|[Exemplo](#4-exemplo)|Alta|
 |8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|[Exemplo](#4-exemplo)|Baixo|
-
+||**Documento**|||
+|9|O documento possui tabela de versionamento, registrando as modificações e seus respectivos autores?||Alta|
+|10|Cada artefato possui versionamento individual?||Alta|
 
 ## Registro de inspeção
 
@@ -46,6 +50,17 @@ O artefato sera considerado válido, se atender o critério nº 5, os conflitos 
 |6|Vértices de proposições, ligados somente por I, C, P?||||
 |7|Todas as inferências do diagrama foram descritas no artefato?|[Exemplo](#4-exemplo)|||
 |8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|[Exemplo](#4-exemplo)|||
+
+## Inspeção do documento
+
+|Data da inspeção|Responsável pela inspeção|
+|:--:|:--:|
+|08/06/2019|Heron Rodrigues|
+
+|Nº|Critério|Check|Observação/Melhoria|
+|:--:|:--:|:--:|:--:|
+|9|O documento possui tabela de versionamento, registrando as modificações e seus respectivos autores?| Sim ||
+|10|Cada artefato possui versionamento individual?| Sim ||
 
 ## Material de apoio para a avaliação
 
@@ -82,3 +97,4 @@ A partir da proposição de p1, podemos inferir a proposição de p2. A proposi�
 | Data | Versão | Modificação | Autor |
 |  --- | ------ | ----------- | ----- |
 | 07/06/2019 | 1.0 | Abertura do documento | Heron Rodrigues |
+| 08/06/2019 | 1.1 | Adição da inspeção do documento | Heron Rodrigues |
