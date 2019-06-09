@@ -246,10 +246,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 5 | 18 | 1 |  3  | 22.86% | Aprovado |
+|Alta      | 3 | 6 | 18 | 1 |  3  | 22.86% | Aprovado |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 15| 35 | 4 |  8  |
+|**Total:**|   | 17| 35 | 4 |  8  |
 | Critério de aceitação: | 30%    |
 
 #### IUC-06
@@ -280,10 +280,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 5 | 18 | 0 |  0  | 14.29% | Aprovado |
+|Alta      | 3 | 6 | 18 | 0 |  0  | 14.29% | Aprovado |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 15| 35 | 3 |  5  |
+|**Total:**|   | 17| 35 | 3 |  5  |
 | Critério de aceitação: | 30%    |
 
 #### IUC-07
@@ -314,10 +314,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 5 | 18 | 1 |  3  | 22.86% | Aprovado |
+|Alta      | 3 | 6 | 18 | 1 |  3  | 22.86% | Aprovado |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 15| 35 | 3 |  8  |
+|**Total:**|   | 17| 35 | 3 |  8  |
 | Critério de aceitação: | 30%    |
 
 #### IUC - 08
@@ -348,10 +348,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 5 | 18 | 3 |  9  | 40.00% | Reprovado |
+|Alta      | 3 | 6 | 18 | 3 |  9  | 40.00% | Reprovado |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 15| 35 | 6 |  14 |
+|**Total:**|   | 17| 35 | 6 |  14 |
 | Critério de aceitação: | 30%    |
 
 #### IUC - 09
@@ -382,10 +382,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 5 | 18 | 2 |  6  | 31.43% | Reprovado |
+|Alta      | 3 | 6 | 18 | 2 |  6  | 31.43% | Reprovado |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 15| 35 | 5 |  11 |
+|**Total:**|   | 17| 35 | 5 |  11 |
 | Critério de aceitação: | 30%    |
 
 #### IUC - 10
@@ -416,10 +416,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 5 | 18 | 2 |  6  | 25.71% | Aprovado  |
+|Alta      | 3 | 6 | 18 | 2 |  6  | 25.71% | Aprovado  |
 |Média     | 2 | 6 | 12 | 1 |  2  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 15| 35 | 5 |  11 |
+|**Total:**|   | 17| 35 | 5 |  11 |
 | Critério de aceitação: | 30%    |
 
 #### IUC - 11
@@ -450,10 +450,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 5 | 18 | 1 |  3  | 22.86% | Aprovado  |
+|Alta      | 3 | 6 | 18 | 1 |  3  | 22.86% | Aprovado  |
 |Média     | 2 | 6 | 12 | 1 |  2  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 15| 35 | 3 |  8  |
+|**Total:**|   | 17| 35 | 3 |  8  |
 | Critério de aceitação: | 30%    |
 
 #### IUC - 12
@@ -484,10 +484,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 5 | 18 | 1 |  6  | 28.57% | Aprovado  |
+|Alta      | 3 | 6 | 18 | 1 |  6  | 28.57% | Aprovado  |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 5 | 5  | 0 |  0  |
-|**Total:**|   | 15| 35 | 3 |  10  |
+|**Total:**|   | 17| 35 | 3 |  10  |
 | Critério de aceitação: | 30%    |
 
 #### IUC - 13
@@ -518,10 +518,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 5 | 18 | 1 |  3  | 20.00% | Aprovado  |
+|Alta      | 3 | 6 | 18 | 1 |  3  | 20.00% | Aprovado  |
 |Média     | 2 | 6 | 12 | 1 |  2  |
 |Baixa     | 1 | 5 | 5  | 2 |  2  |
-|**Total:**|   | 15| 35 | 4 |  7  |
+|**Total:**|   | 17| 35 | 4 |  7  |
 | Critério de aceitação: | 30%    |
 
 #### IUC - 14
@@ -552,10 +552,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 5 | 18 | 0 |  0  | 2.86%  | Aprovado  |
+|Alta      | 3 | 6 | 18 | 0 |  0  | 2.86%  | Aprovado  |
 |Média     | 2 | 6 | 12 | 0 |  0  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 15| 35 | 1 |  1  |
+|**Total:**|   | 17| 35 | 1 |  1  |
 | Critério de aceitação: | 30%    |
 
 
@@ -587,10 +587,180 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 5 | 18 | 2 |  6  | 28.57% | Aprovado  |
+|Alta      | 3 | 6 | 18 | 2 |  6  | 28.57% | Aprovado  |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 5 | 5  | 0 |  0  |
-|**Total:**|   | 15| 35 | 4 |  10  |
+|**Total:**|   | 17| 35 | 4 |  10  |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 16
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC16 - Anexar arquivo](../Modelagem/especificacao.md#ec16)|08/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | As frases não especificam o ator que usa o sistema e não há resposta do sistema |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Termos, como "Channel" devem estar no glossário ou ter um link para o léxico |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   | x |   |          |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxos de exceções não mostram as ações que o sistema executa para orientar o usuário |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 1 |  3  | 22.86% | Aprovado  |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 1 |  1  |
+|**Total:**|   | 17| 35 | 4 |  8  |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 17
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC17 - Anexar desenho](../Modelagem/especificacao.md#ec17)|08/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | As frases não especificam o ator que usa o sistema e não há resposta do sistema |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Termos, como "Channel" e "Desenhar" devem estar no glossário ou ter um link para o léxico em questão |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   |   | x | Fluxo alternativo está incompleto, também não constam as ações tomadas pelo ator |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 2 |  6  | 31.43% | Reprovado |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 1 |  1  |
+|**Total:**|   | 17| 35 | 5 |  11 |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 18
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC18 - Responder mensagem](../Modelagem/especificacao.md#ec18)|08/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   |   | x | O nome utilizado no caso de uso do diagrama é diferente, "Selecionar responder na mensagem desejada", o que dificulta a rastreabilidade |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | As frases não especificam o ator que usa o sistema e não há resposta do sistema |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Termos, como "Channel", "Edição" devem estar no glossário ou ter um link para o léxico em questão |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   |   | x | Fluxo alternativo está incompleto |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 3 |  9  | 40.00% | Reprovado |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 1 |  1  |
+|**Total:**|   | 17| 35 | 6 |  14 |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 19
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC19 - Editar Mensagem](../Modelagem/especificacao.md#ec19)|08/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | As frases não especificam o ator que usa o sistema e não há resposta do sistema |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Termos, como "Channel", "Logar" devem estar no glossário ou ter um link para o léxico em questão |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   |   | x | Fluxo alternativo está incompleto |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 2 |  6  | 40.00% | Reprovado |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 1 |  1  |
+|**Total:**|   | 17| 35 | 5 |  14 |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 20
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC20 - Realizar video Chat](../Modelagem/especificacao.md#ec20)|08/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   |   | x | Não consta o caso de uso no diagrama linkado "Realização de Video chat" |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não há resposta do sistema em nenhum momento além da pós condição |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   |   | x | Em alguns momentos não é utilizada a voz ativa, fazendo o uso de ações duvidosas do ator, como "usuário pode fazer algo" |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Termos, como "Grupo", "Desliza tela", "Sala" devem estar no glossário ou ter um link para o léxico em questão |
+| 9  | Médio |   |   | x | Alternância entre o termo "grupo", "canal" e "sala", que pode confundir quem ler a documentação |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface, como "clicam no canal", "clicam na ferramenta" |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   | x |   |          |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 2 |  6  | 40.00% | Reprovado |
+|Média     | 2 | 6 | 12 | 3 |  6  |
+|Baixa     | 1 | 5 | 5  | 2 |  2  |
+|**Total:**|   | 17| 35 | 7 |  14 |
 | Critério de aceitação: | 30%    |
 
 ## Referências
@@ -609,3 +779,4 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 06/06/2019 | 1.3 | Adição do IUC03 e IUC04 | André Lucas |
 | 07/06/2019 | 1.4 | Adição das IUC05 - IUC11 | Lucas Maciel |
 | 08/06/2019 | 1.5 | Adição das IUC12 - IUC15 | Lucas Maciel |
+| 08/06/2019 | 1.5 | Adição das IUC16 - IUC20 | Lucas Maciel |

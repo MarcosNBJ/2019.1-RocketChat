@@ -453,7 +453,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | **[Anexar um arquivo](cenarios.md#c9)** |
 |**Diagrama**|
-|[DCU18](diagramas.md#18-v1)|
+|[DCU18](diagramas.md#dcu18-v1)|
 
 
 ## EC17
