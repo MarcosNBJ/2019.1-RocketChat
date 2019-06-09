@@ -104,16 +104,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 12 | Médio |   | x |   |          |
 | 13 | Baixo |   | x |   |          |
 | 14 | Alto  |   | x |   |          |
-| 15 | Alto  |   |   | x | Não há fluxo alternativo |
+| 15 | Alto  | x |   |   | Caso de uso não necessariamente necessita de fluxo alternativo |
 | 16 | Alto  |   | x |   |          |
 | 17 | Médio |   |   | x | Fluxos de exceções incompletos, não descrevem as ações do sistema |
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|---|--------|---|
-|Alta      | 3 | 6  | 18 | 1 | 3 | 22.86% | Aprovado |
+|Alta      | 3 | 6  | 18 | 2 | 6 | 31.43% | Reprovado |
 |Média     | 2 | 6  | 12 | 2 | 4 |        |   |  
 |Baixa     | 1 | 5  | 5  | 1 | 1 |        |   |
-|**Total:**|   | 17 | 35 | 3 | 5 |        |   |
+|**Total:**|   | 17 | 35 | 5 | 11|        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-02
@@ -740,7 +740,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 1  | Alto  |   |   | x | Não consta o caso de uso no diagrama linkado "Realização de Video chat" |
 | 2  | Alto  |   | x |   |          |
 | 3  | Baixo |   | x |   |          |
-| 4  | Médio |   |   | x | Não há resposta do sistema em nenhum momento além da pós condição |
+| 4  | Médio |   |   | x | Não há resposta do sistema em nenhum momento dos fluxos |
 | 5  | Baixo |   | x |   |          |
 | 6  | Baixo |   |   | x | Em alguns momentos não é utilizada a voz ativa, fazendo o uso de ações duvidosas do ator, como "usuário pode fazer algo" |
 | 7  | Médio |   | x |   |          |
@@ -763,6 +763,176 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 35 | 7 |  14 |
 | Critério de aceitação: | 30%    |
 
+#### IUC - 21
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC21 - Cadastrar novo usuário](../Modelagem/especificacao.md#ec21)|08/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   |   | x | O caso de uso no diagrama "Cadastrar novo usuário" está com outro nome, "cadastro por formulário" |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não há resposta do sistema em nenhum momento dos fluxos |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   |   | x | Em alguns momentos não é utilizada a voz ativa, fazendo o uso de ações duvidosas do ator, como "usuário pode fazer algo" |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Termos, como "Formulário" devem estar no glossário ou ter um link para o léxico em questão |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   | x |   |          |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 2 |  6  | 34.29% | Reprovado |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 2 |  2  |
+|**Total:**|   | 17| 35 | 6 |  12 |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 22
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC22 - Deixar Grupo](../Modelagem/especificacao.md#ec22)|08/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   |   | x | Não consta o caso de uso no diagrama "Sair de um channel" |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | As frases não especificam o ator que usa o sistema e não há resposta do sistema |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   |   | x | Em alguns momentos não é utilizada a voz ativa, fazendo o uso de ações duvidosas do ator, como "usuário pode fazer algo" |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Alguns termos precisam estar no glossário ou linkados dos léxicos |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface, como "Usuário clica em" |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  | x |   |   |          |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 2 |  6  | 34.29% | Reprovado |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 2 |  2  |
+|**Total:**|   | 17| 35 | 6 |  12 |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 23
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC22 - Esconder Grupo](../Modelagem/especificacao.md#ec23)|08/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   | O caso de uso consta no diagrama, porém estar com uma frase, "Escolher entre as opções marcadas a de "Esconder grupo"" |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | As frases no fluxo principal não especificam o ator que usa o sistema e não há resposta do sistema |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   |   | x | Em alguns momentos não é utilizada a voz ativa, fazendo o uso de ações duvidosas do ator, como "usuário pode fazer algo" |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Alguns termos precisam estar no glossário ou linkados dos léxicos |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utilizado termos que indicam a interface, como "Clicar nos três pontos..." |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  | x |   |   |          |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 1 |  3  | 25.71% | Aprovado  |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 2 |  2  |
+|**Total:**|   | 17| 35 | 5 |  9 |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 24
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC24 - Receber Notificação](../Modelagem/especificacao.md#ec24)|08/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   |   | x | Não há resposta do sistema |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Alguns termos, como "Video Chat", "grupo",  precisam estar no glossário ou linkados dos léxicos |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   | x |   |          |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   | x |   |          |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 1 |  3  | 20.00% | Aprovado  |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 0 |  0  |
+|**Total:**|   | 17| 35 | 3 |  7  |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 25
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC25 - Sair do aplicativo](../Modelagem/especificacao.md#ec25)|08/06/2019|Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   |   | x | Caso de uso não consta especificamente no diagrama, o mais próximo seria, "Selecionar a opção sair" |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   | x |   | Finalmente outra especificação que possui resposta do sistema |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   | x |   |          |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Alguns termos, como "chats", "página inicial",  precisam estar no glossário ou linkados dos léxicos |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   | x |   |          |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  | x |   |   | Possuem alguns fluxos alternativos que não necessariamente fazem parte do caso de uso |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   | x |   | Finalmente outra especificação com exceção correta. Poderia ter outras exceções para complementar |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 1 |  3  | 20.00% | Aprovado  |
+|Média     | 2 | 6 | 12 | 2 |  4  |
+|Baixa     | 1 | 5 | 5  | 0 |  0  |
+|**Total:**|   | 17| 35 | 3 |  7  |
+| Critério de aceitação: | 30%    |
+
 ## Referências
 
 [1] - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf. Acesso em: 05 jun. 2019.
@@ -780,3 +950,4 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 07/06/2019 | 1.4 | Adição das IUC05 - IUC11 | Lucas Maciel |
 | 08/06/2019 | 1.5 | Adição das IUC12 - IUC15 | Lucas Maciel |
 | 08/06/2019 | 1.5 | Adição das IUC16 - IUC20 | Lucas Maciel |
+| 08/06/2019 | 1.6 | Adição das IUC21 - IUC25 | Lucas Maciel |

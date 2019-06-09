@@ -25,9 +25,10 @@ Ao final do documento, foi disponibilizado um [material de apoio](#material-de-a
 |6|Vértices de proposições, ligados somente por I, C, P?||Alta|
 |7|Todas as inferências do diagrama foram descritas no artefato?|[Exemplo](#4-exemplo)|Alta|
 |8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|[Exemplo](#4-exemplo)|Baixo|
+|9|O artefato possui um nivel maturidade (pelo menos 2 conflitos e 6 proposições)?|[Exemplo](#4-exemplo)|Alta|
 ||**Documento**|||
-|9|O documento possui tabela de versionamento, registrando as modificações e seus respectivos autores?||Alta|
-|10|Cada artefato possui versionamento individual?||Alta|
+|10|O documento possui tabela de versionamento, registrando as modificações e seus respectivos autores?||Alta|
+|11|Cada artefato possui versionamento individual?||Alta|
 
 ## Registro de inspeção
 
@@ -50,6 +51,28 @@ O artefato sera considerado válido, se atender o critério nº 5, os conflitos 
 |6|Vértices de proposições, ligados somente por I, C, P?||||
 |7|Todas as inferências do diagrama foram descritas no artefato?|[Exemplo](#4-exemplo)|||
 |8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|[Exemplo](#4-exemplo)|||
+|9|O artefato possui um nivel maturidade (pelo menos 2 conflitos e 6 proposições)?|[Exemplo](#4-exemplo)|||
+
+## Inspeção
+
+#### IARG-01
+
+|Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
+|:--:|:--:|:--:|
+|[AR1 - Escolha do app](../Pré-Rastreabilidade/Argumentacao.md/#ar1-escolha-do-app)|08/06/2019|Heron Rodrigues|
+
+|Nº|Critério|Material correspondente|Nota|Observação/Melhoria|
+|:--:|:--:|:--:|:--:|:--:|
+|1|O diagrama foi representado na forma de um grafo?|[Exemplo](#4-exemplo)|5||
+|2|As labels de cada vértice está correta?| [Labels](#1-labels)|5||
+|3|Cada vértice foi formalmente descrito?|[Descrição](#2-descricao-formal)|5||
+|4|A propagação (setas) dos vértices foram executadas de forma correta?|[Propagação](#3-propagacao)|5||
+|5|Todos os conflitos, gerados na discussão, foram resolvidos?||5||
+|6|Vértices de proposições, ligados somente por I, C, P?||5||
+|7|Todas as inferências do diagrama foram descritas no artefato?|[Exemplo](#4-exemplo)|5||
+|8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|[Exemplo](#4-exemplo)|5||
+|9|O artefato possui um nivel bom de discussão (no mínimo 2 conflitos e 6 proposições)?|[Exemplo](#4-exemplo)|5|Na segunda versão do artefato, já possui um nivel maior de maturidade do diagrama mas, ainda, só atende ao critério mínimo proposto|
+
 
 ## Inspeção do documento
 
@@ -59,8 +82,8 @@ O artefato sera considerado válido, se atender o critério nº 5, os conflitos 
 
 |Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
-|9|O documento possui tabela de versionamento, registrando as modificações e seus respectivos autores?| Sim ||
-|10|Cada artefato possui versionamento individual?| Sim ||
+|10|O documento possui tabela de versionamento, registrando as modificações e seus respectivos autores?| Sim ||
+|11|Cada artefato possui versionamento individual?| Sim ||
 
 ## Material de apoio para a avaliação
 
@@ -98,3 +121,4 @@ A partir da proposição de p1, podemos inferir a proposição de p2. A proposi�
 |  --- | ------ | ----------- | ----- |
 | 07/06/2019 | 1.0 | Abertura do documento | Heron Rodrigues |
 | 08/06/2019 | 1.1 | Adição da inspeção do documento | Heron Rodrigues |
+| 08/06/2019 | 1.2 | Adição da inspeção IARG-01 | Heron Rodrigues |
