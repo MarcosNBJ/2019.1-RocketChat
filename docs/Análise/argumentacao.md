@@ -131,7 +131,7 @@ O artefato sera considerado válido, se atender duas condições:<br>
 |Alta|5|23|
 |Médio|3|14|
 |Baixo|2|10|
-|**Total**|10|2.88|
+|**Total**|10|2.80|
 ||**Conclusão**||
 ||Atende os critérios mínimos propostos porem isso deve-se ao fato da argumentação ser pequena com poucas proposições. Portanto devem ser feitas melhorias, principalmente no aspecto das proposições  ||
 
@@ -223,7 +223,7 @@ O artefato sera considerado válido, se atender duas condições:<br>
 |Alta|5|23|
 |Médio|3|7|
 |Baixo|2|7|
-|**Total**||2.19|
+|**Total**||2.10|
 ||**Conclusão**||
 ||O artefato necessita ser revisado, pois obteve uma média de X. Não possui descrição de como os conflitos foram resolvidos, além de possuir erros de notação e poucas proprosições ||
 
