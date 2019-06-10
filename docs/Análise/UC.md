@@ -126,7 +126,7 @@ Para o registro de inspeção deve seguir a seguinte tabelas:
 O critério de aceitação se refere a um percentual máximo de defeitos que o artefato inspecionado pode ter. Se esse resultado ultrapassar o critério de aceitação, será reprovado. Acredita-se que um percentual razoável esteja entre 30% a 40%. Neste trabalho é proposto um percentual de 30%, o que significa que os casos de usos inspecionados deveram ter no máximo 30% de defeitos para serem aprovados.
 A metodologia e as métricas utilizadas para melhor inspeção dos casos de usos, assim como as tabelas e diagramas, foram inspirados a partir do estudo proposto em [(1)](#referencias).
 
-#### MIUC 
+#### MIUC
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
@@ -649,6 +649,43 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 8  | Alto  |   |   | x | Alguns termos especificos não contém a definição, nem o link para o endereço que contenha |
 | 9  | Médio |   | x |   |          |
 | 10 | Baixo |   |   | x | Utiliza-se o termo "clica", que indica a interface |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   | x |   |          |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   | x |   |          |
+|    | **Pré-rastreabilidade**  |   |   |   |          |
+| 18 | Alto  |   | x |   |          |
+| 19 | Alto  | x |   |   |          |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 8 | 24 | 1 |  3  | 14.28% | Aprovado  |
+|Média     | 2 | 6 | 12 | 0 |  0  |
+|Baixa     | 1 | 5 | 5  | 2 |  2  |
+|**Total:**|   | 17| 41 | 3 |  5  |
+| Critério de aceitação: | 30%    |
+
+#### IUC-13 - v3
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC13 - Pesquisa de mensagem](../Modelagem/especificacao.md#ec13)|10/06/2019|André Lucas e Lucas Maciel|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   | No diagrama não há um caso especifico de "Pesquisa de mensagem" |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   | x |   | No item 5 do fluxo evidencia o retorno do sistema: "Mensagens relacionadas ao que foi pesquisado são retornadas para o usuário" |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   |   | x | Algumas frases não estão em voz ativa, como "O usuário não especifica bem o termo..." no fluxo alternativo. No item 5 poderia ser reescrito: "Sistema retorna mensagens relacionadas ao que foi pesquisado." |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Alguns termos especificos não contém a definição, que seja nos léxicos ou na própria especificação |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utiliza-se termos que indicam a interface, como o termo "clica" |
 | 11 | Médio |   | x |   |          |
 | 12 | Médio |   | x |   |          |
 | 13 | Baixo |   | x |   |          |
