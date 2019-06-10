@@ -67,7 +67,7 @@ Neste checklist foi adicionado o item 13 para tornar mais completa a ánalise e 
 As colunas 3, 4, 5 são registros de não-conformidades referem-se ao registro da aplicação de cada questão, onde N/A (não se aplica) indica que a questão não se aplica ao produto inspecionado, S (sim) indica que o produto inspecionado atende à questão e N (não) indica que o produto não atende à questão e que representa um defeito.
 Para o registro de inspeção deve seguir a seguinte tabelas:
 
-#### RIUC - v1
+#### RIUC
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
@@ -126,7 +126,7 @@ Para o registro de inspeção deve seguir a seguinte tabelas:
 O critério de aceitação se refere a um percentual máximo de defeitos que o artefato inspecionado pode ter. Se esse resultado ultrapassar o critério de aceitação, será reprovado. Acredita-se que um percentual razoável esteja entre 30% a 40%. Neste trabalho é proposto um percentual de 30%, o que significa que os casos de usos inspecionados deveram ter no máximo 30% de defeitos para serem aprovados.
 A metodologia e as métricas utilizadas para melhor inspeção dos casos de usos, assim como as tabelas e diagramas, foram inspirados a partir do estudo proposto em [(1)](#referencias).
 
-#### MIUC - v1
+#### MIUC 
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
@@ -409,7 +409,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 3 |  5  |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 08
+#### IUC-08
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -446,7 +446,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 6 |  14 |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 09
+#### IUC-09
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -483,7 +483,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 5 |  11 |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 10
+#### IUC-10
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -520,7 +520,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 5 |  11 |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 11
+#### IUC-11
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -557,7 +557,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 3 |  8  |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 12
+#### IUC-12
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -594,7 +594,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 3 |  7  |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 13
+#### IUC-13
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -631,7 +631,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 4 |  7  |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 13 - v2
+#### IUC-13 - v2
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -668,7 +668,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 3 |  5  |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 14
+#### IUC-14
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -706,7 +706,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | Critério de aceitação: | 30%    |
 
 
-#### IUC - 15
+#### IUC-15
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -743,7 +743,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 4 |  10  |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 16
+#### IUC-16
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -780,7 +780,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 4 |  8  |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 17
+#### IUC-17
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -817,7 +817,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 5 |  11 |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 18
+#### IUC-18
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -854,7 +854,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 6 |  14 |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 19
+#### IUC-19
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -891,7 +891,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 5 |  14 |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 20
+#### IUC-20
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -928,7 +928,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 7 |  14 |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 21
+#### IUC-21
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -965,7 +965,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 6 |  12 |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 22
+#### IUC-22
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -1002,7 +1002,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 6 |  12 |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 23
+#### IUC-23
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -1039,7 +1039,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 5 |  9 |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 24
+#### IUC-24
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -1076,7 +1076,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17| 41 | 3 |  7  |
 | Critério de aceitação: | 30%    |
 
-#### IUC - 25
+#### IUC-25
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
