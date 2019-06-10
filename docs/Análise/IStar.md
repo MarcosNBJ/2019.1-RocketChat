@@ -50,6 +50,8 @@ O critério de aceitação implica na atribuição de um peso para cada tipo de 
 |Baixa| 1 | 1 | 1 |
 |**Total:**||9| 18|
 
+Modelo SD será considerado reprovado se  ultrapassar **5,4 pontos** em defeitos.
+
 **Strategic Rationale Model**
 
 |Impacto do critério|Peso atribuído|Quantidade de critérios|Pontuação máxima total|
@@ -58,6 +60,8 @@ O critério de aceitação implica na atribuição de um peso para cada tipo de 
 |Média| 2 | 6 | 12|
 |Baixa| 1 | 2 | 2 |
 |**Total:**||9| 23|
+
+Modelo SR será considerado reprovado se  ultrapassar **6,9 pontos** em defeitos.
 
 Utilizando como base a tolerância máxima de 30%, temos como resultado que os modelos devem ter uma pontuação de no mínimo 12,6 pontos para o SD e de no mínimo 16,1 para o SR para serem aprovados, com qualquer pontuação menor do que está, o modelo é considerado reprovado e deve ser revisado. Isso não impede, é claro, de que modelos considerados aprovados também possam ser revisados, pois podem existir pequenos erros facilmente reparáveis.
 
@@ -115,7 +119,7 @@ _Inspeção do [ISD01](../Modelagem/istar.md#isd01-chat)_
 |Baixo|1|1|
 |**Total**|2|3|
 ||**Conclusão**||
-|||||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
 #### IISD-02
 
@@ -141,7 +145,7 @@ _Inspeção do [ISD02](../Modelagem/istar.md#isd02-geral)_
 |Baixo|1|1|
 |**Total**|1|1|
 ||**Conclusão**||
-|||||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
 #### IISD-03
 
@@ -167,7 +171,7 @@ _Inspeção do [ISD03](../Modelagem/istar.md#isd03-sistema-de-contas)_
 |Baixo|0|0|
 |**Total**|1|2|
 ||**Conclusão**||
-|||||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
 #### IISD-04
 
@@ -193,7 +197,7 @@ _Inspeção do [ISD04](../Modelagem/istar.md#isd04-acoes-sobre-o-channel)_
 |Baixo|0|0|
 |**Total**|2|5|
 ||**Conclusão**||
-|||||
+||Várias melhorias são necessárias e devem ser aplicadas a este modelo, no entanto, o modelo foi aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida.|||
 
 #### IISD-05
 
@@ -219,7 +223,7 @@ _Inspeção do [ISD05](../Modelagem/istar.md#isd05-contribuicao-da-comunidade)_
 |Baixo|0|0|
 |**Total**|1|3|
 ||**Conclusão**||
-|||||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
 #### IISD-06
 
@@ -245,7 +249,7 @@ _Inspeção do [ISD06](../Modelagem/istar.md#isd06-Videochamada)_
 |Baixo|1|1|
 |**Total**|2|3|
 ||**Conclusão**||
-|||||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
 #### IISR-0X
 
@@ -303,7 +307,7 @@ _Inspeção do [ISR01](../Modelagem/istar.md#isr01-criar-channel)_
 |Baixo|1|1|
 |**Total**|1|1|
 ||**Conclusão**||
-|||||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
 #### IISR-02
 
@@ -332,7 +336,7 @@ _Inspeção do [ISR02](../Modelagem/istar.md#isr02-realizar-cadastro)_
 |Baixo|1|1|
 |**Total**|1|1|
 ||**Conclusão**||
-|||||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
 #### IISR-03
 
@@ -361,7 +365,7 @@ _Inspeção do [ISR03](../Modelagem/istar.md#isr03-envio-de-mensagens)_
 |Baixo|1|1|
 |**Total**|4|9|
 ||**Conclusão**||
-|||||
+||Modelo reprovado, pois a pontuação dos defeitos está além da tolerância estabelecida. Várias melhorias são necessárias e devem ser aplicadas a este modelo.|||
 
 #### IISR-04
 
@@ -390,7 +394,7 @@ _Inspeção do [ISR04](../Modelagem/istar.md#isr04-acoes-sobre-as-mensagens)_
 |Baixo|0|0|
 |**Total**|1|2|
 ||**Conclusão**||
-|||||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
 #### IISR-05
 
@@ -419,7 +423,7 @@ _Inspeção do [ISR05](../Modelagem/istar.md#isr05-acoes-sobre-o-channel)_
 |Baixo|0|0|
 |**Total**|1|2|
 ||**Conclusão**||
-|||||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
 #### IISR-06
 
@@ -448,7 +452,7 @@ _Inspeção do [ISR06](../Modelagem/istar.md#isr06-contribuicao-da-comunidade)_
 |Baixo|0|0|
 |**Total**|3|7|
 ||**Conclusão**||
-|||||
+||Modelo reprovado, pois a pontuação dos defeitos está além da tolerância estabelecida. Várias melhorias são necessárias e devem ser aplicadas a este modelo.|||
 
 #### IISR-07
 
@@ -477,7 +481,7 @@ _Inspeção do [ISR07](../Modelagem/istar.md#isr07-videochamada)_
 |Baixo|1|1|
 |**Total**|2|3|
 ||**Conclusão**||
-|||||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
 ## Referências
 
@@ -492,3 +496,4 @@ _Inspeção do [ISR07](../Modelagem/istar.md#isr07-videochamada)_
 | 08/05/2019 | 1.2 | Adição das inspeções-modelo IISD-0X e IISR-0X | Weiller Fernandes |
 | 08/05/2019 | 1.3 | Adição das inspeções IISD-01 até IISD-06 | Weiller Fernandes |
 | 09/05/2019 | 1.4 | Adição das inspeções IISR-01 até IISR-07 | Weiller Fernandes |
+| 10/05/2019 | 1.5 | Adição das conclusões das inspeções IISD-01 a IISD-06 e IISR-01 a IISR-07 | Weiller Fernandes |
