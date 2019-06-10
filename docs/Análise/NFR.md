@@ -44,7 +44,8 @@ Esses critérios apresentam três níveis de cumprimento: Não cumprimento, cump
 
 Nessa versão, foi adicionada uma tabela extra para a checklist, que contem critérios acerca da rastreabilidade do artefato, para que dessa forma fosse também possível avalia-lo na qualidade de artefat de requisitos.
 
-||**Pré-rastreabilidade**||
+|Nº|**Pré-rastreabilidade**||
+|:--:|:--:|:--:|
 |16|Existe rastro no artefato ?|Alto|
 |17|O artefato possuí versionamento ?|Alto|
 
