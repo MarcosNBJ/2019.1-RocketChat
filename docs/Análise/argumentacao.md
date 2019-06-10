@@ -34,13 +34,14 @@ Ao final do documento, foi disponibilizado um [material de apoio](#material-de-a
 ## Registro de inspeção
 
 Para cada inspeção, será registrado o nome com o hiperlink para cada artefato, data e quem inspecionou o diagrama. É atribuido uma nota de 0 a 5 para cada critério, sendo 0, critério não foi satisfeito e 5, critério totalmente satisfeito. Além disso, são sugeridas melhorias para os critérios que tiverem falhado em ser atendidos.<br>
-O artefato sera considerado válido, se atender duas condições:
-  * 1º - Satisfaça o critério nº 5, os conflitos gerados na discussão forem resolvidos, haver uma preferência. Caso contrário, o artefato já será considerado inválido.
+O artefato sera considerado válido, se atender duas condições:<br>
+  * 1º - Satisfaça o critério nº 5, os conflitos gerados na discussão forem resolvidos, haver uma preferência. Caso contrário, o artefato já será considerado inválido.<br>
   * 2º - Se atender a primeira condição, baseado nos diagrams desenvolvidos, deve possuir no mínimo 2.5 pontos aplicando a seguinte fórmula:<br>
+ 
         Pontuação total/Qnt de critérios*Peso/10
-
+        
 |Importância|Peso|
-|::|::|
+|:--:|:--:|
 |Alto|3|
 |Médio|2|
 |Baixo|2|
@@ -92,16 +93,16 @@ O artefato sera considerado válido, se atender duas condições:
 |6|Vértices de proposições, ligados somente por I, C, P?|Alto||5||
 |7|Todas as inferências do diagrama foram descritas no artefato?|Médio|[Exemplo](#4-exemplo)|5||
 |8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|Baixo|[Exemplo](#4-exemplo)|5||
-|9|O artefato possui um nivel bom de discussão (no mínimo 2 conflitos e 6 proposições)?|Médio|[Exemplo](#4-exemplo)|5|Na segunda versão do artefato, já possui um nivel maior de maturidade do diagrama mas, ainda, só atende ao critério mínimo proposto|
+|9|O artefato possui um nivel bom de discussão (no mínimo 2 conflitos e 6 proposições)?|Médio|[Exemplo](#4-exemplo)|3|Na segunda versão do artefato, já possui um nivel maior de maturidade do diagrama mas, ainda, só atende ao critério mínimo proposto|
 |10|As preferências foram descritas, mostrando como o conflito foi resolvido?|Médio|[Exemplo](#4-exemplo)|5||
 
 ||**Resultados**||
 |:--:|:--:|:--:|
 |**Importância**|**Qnt de critérios**|**Pontuação total**|
-|Alta|5|25|
+|Alta|5|23|
 |Médio|3|15|
 |Baixo|2|10|
-|**Total**|10|50|
+|**Total**||2.88|
 ||**Conclusão**||
 ||O artefato atende aos critérios mínimos propostos. Porém, ainda podem ser feitas algumas melhorias, principalmente em relação ao desenvolvimento da discussão||
 
@@ -165,7 +166,6 @@ O artefato sera considerado válido, se atender duas condições:
 ||O artefato atende aos critérios propostos possui um bom desenvolvimento de sua discussão, exceto pelo descrição das preferências, ||
 
 
-
 ## Inspeção do documento
 
 |Data da inspeção|Responsável pela inspeção|
@@ -177,11 +177,21 @@ O artefato sera considerado válido, se atender duas condições:
 |11|O documento possui tabela de versionamento, registrando as modificações e seus respectivos autores?| Sim ||
 |12|Cada artefato possui versionamento individual?| Sim ||
 
+
+## Resultados
+
+* Modelos analisados: 3
+* Modelos reprovados: 1
+* Média de pontuação: 2.57
+
+Uma visão geral é que a maioria dos artefatos atenderam aos critérios mínimos propostos, porém é nítido a grande margem de melhora dos mesmos, principalmente em relação ao desenvolvimento de suas discussões. O documento possui uma introdução, descrevendo bem a metodologia aplicada, uma tabela de versionamento com registro de quem alterou o documento e que alterações foram essas, além de versão individual para cada artefato.
+
+
 ## Material de apoio para a avaliação
 
 ### __1 - Labels:__
 * __i__ - informações, proposições.
-* __I__ - inferências.
+* __It__ - inferências.
 * __C__ - conflito.
 * __P__ - preferência.
 

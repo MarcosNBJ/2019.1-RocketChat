@@ -98,6 +98,7 @@ _Inspeção do [ISD0X](../Modelagem/istar.md#)_
 #### IISD-01
 
 _Inspeção do [ISD01](../Modelagem/istar.md#isd01-chat)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -124,6 +125,7 @@ _Inspeção do [ISD01](../Modelagem/istar.md#isd01-chat)_
 #### IISD-02
 
 _Inspeção do [ISD02](../Modelagem/istar.md#isd02-geral)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -150,6 +152,7 @@ _Inspeção do [ISD02](../Modelagem/istar.md#isd02-geral)_
 #### IISD-03
 
 _Inspeção do [ISD03](../Modelagem/istar.md#isd03-sistema-de-contas)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -176,6 +179,7 @@ _Inspeção do [ISD03](../Modelagem/istar.md#isd03-sistema-de-contas)_
 #### IISD-04
 
 _Inspeção do [ISD04](../Modelagem/istar.md#isd04-acoes-sobre-o-channel)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -202,6 +206,7 @@ _Inspeção do [ISD04](../Modelagem/istar.md#isd04-acoes-sobre-o-channel)_
 #### IISD-05
 
 _Inspeção do [ISD05](../Modelagem/istar.md#isd05-contribuicao-da-comunidade)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -228,6 +233,7 @@ _Inspeção do [ISD05](../Modelagem/istar.md#isd05-contribuicao-da-comunidade)_
 #### IISD-06
 
 _Inspeção do [ISD06](../Modelagem/istar.md#isd06-Videochamada)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -283,6 +289,7 @@ _Inspeção do [ISR0X](../Modelagem/istar.md#)_
 #### IISR-01
 
 _Inspeção do [ISR01](../Modelagem/istar.md#isr01-criar-channel)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -312,6 +319,7 @@ _Inspeção do [ISR01](../Modelagem/istar.md#isr01-criar-channel)_
 #### IISR-02
 
 _Inspeção do [ISR02](../Modelagem/istar.md#isr02-realizar-cadastro)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -341,6 +349,7 @@ _Inspeção do [ISR02](../Modelagem/istar.md#isr02-realizar-cadastro)_
 #### IISR-03
 
 _Inspeção do [ISR03](../Modelagem/istar.md#isr03-envio-de-mensagens)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -370,6 +379,7 @@ _Inspeção do [ISR03](../Modelagem/istar.md#isr03-envio-de-mensagens)_
 #### IISR-04
 
 _Inspeção do [ISR04](../Modelagem/istar.md#isr04-acoes-sobre-as-mensagens)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -399,6 +409,7 @@ _Inspeção do [ISR04](../Modelagem/istar.md#isr04-acoes-sobre-as-mensagens)_
 #### IISR-05
 
 _Inspeção do [ISR05](../Modelagem/istar.md#isr05-acoes-sobre-o-channel)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -428,6 +439,7 @@ _Inspeção do [ISR05](../Modelagem/istar.md#isr05-acoes-sobre-o-channel)_
 #### IISR-06
 
 _Inspeção do [ISR06](../Modelagem/istar.md#isr06-contribuicao-da-comunidade)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -457,6 +469,7 @@ _Inspeção do [ISR06](../Modelagem/istar.md#isr06-contribuicao-da-comunidade)_
 #### IISR-07
 
 _Inspeção do [ISR07](../Modelagem/istar.md#isr07-videochamada)_
+Inspetor: Weiller Fernandes
 
 |Nº|Critério|Check|Observação/Melhoria Sugerida|
 |:--:|:--:|:--:|:--:|
@@ -483,6 +496,24 @@ _Inspeção do [ISR07](../Modelagem/istar.md#isr07-videochamada)_
 ||**Conclusão**||
 ||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.|||
 
+## Resultado Geral
+
+**Inspeções SD**
+Resultados para as inspeções dos Strategic Dependency Models(SD):
+Inspetor: Weiller Fernandes
+
+* Modelos analisados: 6
+* Modelos reprovados: 0
+
+**Inspeções SR**
+Resultados para as inspeções dos Strategic Rationale Models(SR):
+Inspetor: Weiller Fernandes
+
+* Modelos analisados: 7
+* Modelos reprovados: 2
+
+Através destes resultados conclui-se que, de modo geral, os modelos IStar apresentam boa qualidade, principalmente os modelos SD, que foram todos aprovados. Mas vale ressaltar que todos eles podem ser melhorados, visto que todos apresentam algum tipo de erro levantado pela lista de critérios.
+
 ## Referências
 
 1 - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf. Acessado em: 07, jun, 2019.
@@ -497,3 +528,4 @@ _Inspeção do [ISR07](../Modelagem/istar.md#isr07-videochamada)_
 | 08/05/2019 | 1.3 | Adição das inspeções IISD-01 até IISD-06 | Weiller Fernandes |
 | 09/05/2019 | 1.4 | Adição das inspeções IISR-01 até IISR-07 | Weiller Fernandes |
 | 10/05/2019 | 1.5 | Adição das conclusões das inspeções IISD-01 a IISD-06 e IISR-01 a IISR-07 | Weiller Fernandes |
+| 10/05/2019 | 1.6 | Adição do resultado geral das inspeções | Weiller Fernandes |
