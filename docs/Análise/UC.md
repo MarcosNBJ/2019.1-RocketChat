@@ -110,10 +110,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|---|--------|---|
-|Alta      | 3 | 6  | 18 | 2 | 6 | 31.43% | Reprovado |
+|Alta      | 3 | 6  | 18 | 1 | 3 | 22.86% | Reprovado |
 |Média     | 2 | 6  | 12 | 2 | 4 |        |   |  
 |Baixa     | 1 | 5  | 5  | 1 | 1 |        |   |
-|**Total:**|   | 17 | 35 | 5 | 11|        |   |
+|**Total:**|   | 17 | 35 | 4 | 8 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-02
@@ -308,16 +308,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 12 | Médio |   | x |   |          |
 | 13 | Baixo |   | x |   |          |
 | 14 | Alto  |   | x |   |          |
-| 15 | Alto  |   |   | x | Os fluxos alternativos contém ações que não se aplicam ao caso de uso |
+| 15 | Alto  |   |   |   |          |
 | 16 | Alto  |   | x |   |          |
 | 17 | Médio |   |   | x | Fluxos de exceções incompletos, não descrevem as ações do sistema |
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 6 | 18 | 1 |  3  | 22.86% | Aprovado |
+|Alta      | 3 | 6 | 18 | 0 |  0  | 14.29% | Aprovado |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 35 | 3 |  8  |
+|**Total:**|   | 17| 35 | 3 |  5  |
 | Critério de aceitação: | 30%    |
 
 #### IUC - 08
@@ -484,10 +484,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 6 | 18 | 1 |  6  | 28.57% | Aprovado  |
+|Alta      | 3 | 6 | 18 | 1 |  3  | 20.00% | Aprovado  |
 |Média     | 2 | 6 | 12 | 2 |  4  |
 |Baixa     | 1 | 5 | 5  | 0 |  0  |
-|**Total:**|   | 17| 35 | 3 |  10  |
+|**Total:**|   | 17| 35 | 3 |  7  |
 | Critério de aceitação: | 30%    |
 
 #### IUC - 13
@@ -921,16 +921,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 12 | Médio |   | x |   |          |
 | 13 | Baixo |   | x |   |          |
 | 14 | Alto  |   | x |   |          |
-| 15 | Alto  | x |   |   | Possuem alguns fluxos alternativos que não necessariamente fazem parte do caso de uso |
+| 15 | Alto  |   |   | x | Fluxo alternativo não faz parte do caso de uso |
 | 16 | Alto  |   | x |   |          |
 | 17 | Médio |   | x |   | Finalmente outra especificação com exceção correta. Poderia ter outras exceções para complementar |
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 6 | 18 | 1 |  3  | 20.00% | Aprovado  |
-|Média     | 2 | 6 | 12 | 2 |  4  |
+|Alta      | 3 | 6 | 18 | 3 |  9  | 25.71% | Aprovado  |
+|Média     | 2 | 6 | 12 | 0 |  0  |
 |Baixa     | 1 | 5 | 5  | 0 |  0  |
-|**Total:**|   | 17| 35 | 3 |  7  |
+|**Total:**|   | 17| 35 | 3 |  9  |
 | Critério de aceitação: | 30%    |
 
 ## Referências
