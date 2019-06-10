@@ -77,7 +77,7 @@ O artefato sera considerado válido, se atender duas condições:<br>
 
 ## Inspeção
 
-#### IARG-01
+#### IARG-01 - Heron
 
 |Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
@@ -102,11 +102,42 @@ O artefato sera considerado válido, se atender duas condições:<br>
 |Alta|5|23|
 |Médio|3|15|
 |Baixo|2|10|
-|**Total**||2.88|
+|**Total**|10|2.88|
 ||**Conclusão**||
 ||O artefato atende aos critérios mínimos propostos. Porém, ainda podem ser feitas algumas melhorias, principalmente em relação ao desenvolvimento da discussão||
 
-#### IARG-02
+#### IARG-01 - João Lucas
+
+|Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
+|:--:|:--:|:--:|
+|[AR1 - Escolha do app](../Pré-Rastreabilidade/Argumentacao.md/#ar1-escolha-do-app)|10/06/2019|João Lucas|
+
+|Nº|Critério|Importância|Material correspondente|Nota|Observação/Melhoria|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|1|O diagrama foi representado na forma de um grafo?|Alto|[Exemplo](#4-exemplo)|5||
+|2|As labels de cada vértice está correta?|Alto| [Labels](#1-labels)|5||
+|3|Cada vértice foi formalmente e corretamente descrito?|Baixo|[Descrição](#2-descricao-formal)|5||
+|4|A propagação (setas) dos vértices foram executadas de forma correta?|Alto|[Propagação](#3-propagacao)|5||
+|5|Todos os conflitos, gerados na discussão, foram resolvidos?|Alto||5||
+|6|Vértices de proposições, ligados somente por I, C, P?|Alto||5||
+|7|Todas as inferências do diagrama foram descritas no artefato?|Médio|[Exemplo](#4-exemplo)|5||
+|8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|Baixo|[Exemplo](#4-exemplo)|5||
+|9|O artefato possui um nivel bom de discussão (no mínimo 2 conflitos e 6 proposições)?|Médio|[Exemplo](#4-exemplo)|2|O artefato não atende todos os critérios mínimos. Possui uma quantidade muito pequena de proposições para um tema tão importante como a escolha do aplicativo|
+|10|As preferências foram descritas, mostrando como o conflito foi resolvido?|Médio|[Exemplo](#4-exemplo)|5||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Qnt de critérios**|**Pontuação total**|
+|Alta|5|23|
+|Médio|3|14|
+|Baixo|2|10|
+|**Total**|10|2.88|
+||**Conclusão**||
+||Atende os critérios mínimos propostos porem isso deve-se ao fato da argumentação ser pequena com poucas proposições. Portanto devem ser feitas melhorias, principalmente no aspecto das proposições  ||
+
+
+
+#### IARG-02 - Heron
 
 |Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
@@ -136,7 +167,37 @@ O artefato sera considerado válido, se atender duas condições:<br>
 ||**Conclusão**||
 ||O artefato possui resolução de seus conflitos porém, obteve pontuação 2.19, considerado inválido. Necessita ser revisado, principalmente por está confuso as proposições com o que foi disposto no grafo e também poderia ter um maior desenvolvimento da discussão||
 
-#### IARG-03
+#### IARG-02 - João Lucas
+
+|Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
+|:--:|:--:|:--:|
+|[AR5 - Diferencial do aplicativo](../Pré-Rastreabilidade/Argumentacao.md/#ar5-diferencial-do-aplicativo)|10/06/2019|João Lucas|
+
+|Nº|Critério|Importância|Material correspondente|Nota|Observação/Melhoria|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|1|O diagrama foi representado na forma de um grafo?|Alto|[Exemplo](#4-exemplo)|5||
+|2|As labels de cada vértice está correta?|Alto| [Labels](#1-labels)|5||
+|3|Cada vértice foi formalmente e corretamente descrito?|Baixo|[Descrição](#2-descricao-formal)|2| Existem inferências que estão incorretas (i(p4) não infere i(p3) )|
+|4|A propagação (setas) dos vértices foram executadas de forma correta?|Alto|[Propagação](#3-propagacao)|2| Há inferência, inferindo uma proposição e |
+|5|Todos os conflitos, gerados na discussão, foram resolvidos?|Alto||5||
+|6|Vértices de proposições, ligados somente por I, C, P?|Alto||5||
+|7|Todas as inferências do diagrama foram descritas no artefato?|Médio|[Exemplo](#4-exemplo)|5||
+|8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|Baixo|[Exemplo](#4-exemplo)|5||
+|9|O artefato possui um nivel maturidade (pelo menos 2 conflitos e 6 proposições)?|Médio|[Exemplo](#4-exemplo)|1| O artefato não atende os critérios mínimos de aceitação|
+|10|As preferências foram descritas, mostrando como o conflito foi resolvido?|Médio|[Exemplo](#4-exemplo)|0|Não existe nenhuma descrição de como os conflitos foram resolvidos|
+
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Qnt de critérios**|**Pontuação total**|
+|Alta|5|23|
+|Médio|3|7|
+|Baixo|2|7|
+|**Total**||2.19|
+||**Conclusão**||
+||O artefato necessita ser revisado, pois obteve uma média de X. Não possui descrição de como os conflitos foram resolvidos, além de possuir erros de notação e poucas proprosições ||
+
+#### IARG-03 - Heron
 
 |Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
@@ -165,26 +226,65 @@ O artefato sera considerado válido, se atender duas condições:<br>
 ||**Conclusão**||
 ||O artefato atende aos critérios propostos possui um bom desenvolvimento de sua discussão, exceto pelo descrição das preferências, ||
 
+#### IARG-03 - João Lucas
+
+|Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
+|:--:|:--:|:--:|
+|[AR7 - Escolha dos métodos de elicitação](../Pré-Rastreabilidade/Argumentacao.md/#ar7-escolha-dos-metodos-de-elicitacao)|09/06/2019|Heron Rodrigues|
+
+|Nº|Critério|Importância|Material correspondente|Nota|Observação/Melhoria|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|1|O diagrama foi representado na forma de um grafo?|Alto|[Exemplo](#4-exemplo)|5||
+|2|As labels de cada vértice está correta?|Alto| [Labels](#1-labels)|5||
+|3|Cada vértice foi formalmente e corretamente descrito?|Baixo|[Descrição](#2-descricao-formal)|5||
+|4|A propagação (setas) dos vértices foram executadas de forma correta?|Alto|[Propagação](#3-propagacao)|5||
+|5|Todos os conflitos, gerados na discussão, foram resolvidos?|Alto||5||
+|6|Vértices de proposições, ligados somente por I, C, P?|Alto||5||
+|7|Todas as inferências do diagrama foram descritas no artefato?|Médio|[Exemplo](#4-exemplo)|5||
+|8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|Baixo|[Exemplo](#4-exemplo)|5||
+|9|O artefato possui um nivel bom de discussão (no mínimo 2 conflitos e 6 proposições)?|Médio|[Exemplo](#4-exemplo)|5||
+|10|As preferências foram descritas, mostrando como o conflito foi resolvido? |Médio|[Exemplo](#4-exemplo)|0|Não existe nenhuma descrição de como os conflitos foram resolvidos|
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Qnt de critérios**|**Pontuação total**|
+|Alta|5|25|
+|Médio|3|10|
+|Baixo|2|10|
+|**Total**||2.66|
+||**Conclusão**||
+||O artefato atende aos critérios mínimos, com bom desenvolvimento da discussão, porem é necessário adicionar a descrição da resolução dos conflitos ||
+
+
+## Heron Rodrigues
+### Resultados
+
+* Modelos analisados: 3 
+* Modelos reprovados: 1
+* Média de pontuação: 2.57 
+
+Uma visão geral é que a maioria dos artefatos atenderam aos critérios mínimos propostos, porém é nítido a grande margem de melhora dos mesmos, principalmente em relação ao desenvolvimento de suas discussões. O documento possui uma introdução, descrevendo bem a metodologia aplicada, uma tabela de versionamento com registro de quem alterou o documento e que alterações foram essas, além de versão individual para cada artefato.
+
+## João Lucas
+### Resultados
+
+* Modelos analisados: 3 
+* Modelos reprovados: 1
+* Média de pontuação: 2.57 
+
+No geral os artefatos atendem pelo menos minimamente o que se espera deles, porem em todos exsite pontos de melhore. Em especial o artefato sobre o diferencial do aplicativo possui muitos erros e pendências o que justifica sua reprovação e porntanto a sua necessidade de revisão e refatoramento.
 
 ## Inspeção do documento
 
 |Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|
 |08/06/2019|Heron Rodrigues|
+|10/06/2019|João Lucas|
 
 |Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 |11|O documento possui tabela de versionamento, registrando as modificações e seus respectivos autores?| Sim ||
 |12|Cada artefato possui versionamento individual?| Sim ||
-
-
-## Resultados
-
-* Modelos analisados: 3
-* Modelos reprovados: 1
-* Média de pontuação: 2.57
-
-Uma visão geral é que a maioria dos artefatos atenderam aos critérios mínimos propostos, porém é nítido a grande margem de melhora dos mesmos, principalmente em relação ao desenvolvimento de suas discussões. O documento possui uma introdução, descrevendo bem a metodologia aplicada, uma tabela de versionamento com registro de quem alterou o documento e que alterações foram essas, além de versão individual para cada artefato.
 
 
 ## Material de apoio para a avaliação
