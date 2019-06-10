@@ -34,9 +34,9 @@ Ao final do documento, foi disponibilizado um [material de apoio](#material-de-a
 ## Registro de inspeção
 
 Para cada inspeção, será registrado o nome com o hiperlink para cada artefato, data e quem inspecionou o diagrama. É atribuido uma nota de 0 a 5 para cada critério, sendo 0, critério não foi satisfeito e 5, critério totalmente satisfeito. Além disso, são sugeridas melhorias para os critérios que tiverem falhado em ser atendidos.<br>
-O artefato sera considerado válido, se atender duas condições:
+O artefato sera considerado válido, se atender duas condições:<br>
   * 1º - Satisfaça o critério nº 5, os conflitos gerados na discussão forem resolvidos, haver uma preferência. Caso contrário, o artefato já será considerado inválido.
-  * 2º - Se atender a primeira condição, baseado nos diagrams desenvolvidos, deve possuir no mínimo 2.5 pontos aplicando a seguinte fórmula:<br>
+  * 2º - Se atender a primeira condição, baseado nos diagrams desenvolvidos, deve possuir no mínimo 2.5 pontos aplicando a seguinte fórmula:
         Pontuação total/Qnt de critérios*Peso/10
 
 |Importância|Peso|
