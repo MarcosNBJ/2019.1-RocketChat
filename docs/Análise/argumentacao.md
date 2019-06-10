@@ -191,7 +191,7 @@ Uma visão geral é que a maioria dos artefatos atenderam aos critérios mínimo
 
 ### __1 - Labels:__
 * __i__ - informações, proposições.
-* __I__ - inferências.
+* __It__ - inferências.
 * __C__ - conflito.
 * __P__ - preferência.
 
