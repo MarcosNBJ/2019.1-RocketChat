@@ -500,6 +500,7 @@ Inspetor: Weiller Fernandes
 
 **Inspeções SD**
 Resultados para as inspeções dos Strategic Dependency Models(SD):
+
 Inspetor: Weiller Fernandes
 
 * Modelos analisados: 6
@@ -507,6 +508,7 @@ Inspetor: Weiller Fernandes
 
 **Inspeções SR**
 Resultados para as inspeções dos Strategic Rationale Models(SR):
+
 Inspetor: Weiller Fernandes
 
 * Modelos analisados: 7
