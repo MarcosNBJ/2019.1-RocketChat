@@ -506,13 +506,13 @@ _Inspeção do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade) por Marcos Nery
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Não|Verbalizar as operacionalizações|
 |3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Não|Alguns softgoals tem mais cara de operacionalização. Refinar os softgoals para dar a ideia de critério de qualidade|
-|4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
+|4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim|Alguns podem ser melhorados no entanto, como "Comunica-se com o usuário"|
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Não|Construir mais maturidade nos softgoals antes de operacionalizar|
-|6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Não||
+|6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Não|Utilizar claims para explicar melhor os relacionamentos|
 |7| A simbologia está corretamente implementada ?|Sim||
 |8|Os relacionamentos, por meio de ANDs e ORs, estão corretamente representados ?|Sim||
 |9|Existe propagação de impacto para  toda operacionalização ?|Sim||
-|10|Existe propagação de impacto entre branches diferentes do NFR onde cabivel ? |Sim||
+|10|Existe propagação de impacto entre branches diferentes do NFR onde cabivel ? |Sim|Critério atendido mas pode ser melhorado, a depender de um melhor desenvolvimento no nível dos softgoals|
 |11|Existe variabilidade de caminhos possíveis para atingir o softgoal ?|Sim||
 ||**Artefato de análise**|||
 |12|A simbologia das labels está corretamente representada ?|Sim||
@@ -603,13 +603,13 @@ _Inspeção do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade) por Marcos Nery
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
 |2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Não|Verbalizar as operacionalizações|
 |3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Não|Muitos softgoals tem mais cara de operacionalização|
-|4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
+|4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim|Alguns podem ser melhorados no entanto, como "Comunica-se com o usuário"|
 |5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Não|Como os softgoals tem mais cara de operacionalização, não há maturidade suficiente nessa parte.|
-|6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Não||
+|6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Não|Utilizar claims para explicar melhor os relacionamentos|
 |7| A simbologia está corretamente implementada ?|Sim||
 |8|Os relacionamentos, por meio de ANDs e ORs, estão corretamente representados ?|Sim||
 |9|Existe propagação de impacto para  toda operacionalização ?|Sim||
-|10|Existe propagação de impacto entre branches diferentes do NFR onde cabivel ? |Sim||
+|10|Existe propagação de impacto entre branches diferentes do NFR onde cabivel ? |Sim|Critério atendido mas pode ser melhorado, a depender de um melhor desenvolvimento no nível dos softgoals|
 |11|Existe variabilidade de caminhos possíveis para atingir o softgoal ?|Sim||
 ||**Artefato de análise**|||
 |12|A simbologia das labels está corretamente representada ?|Sim||
