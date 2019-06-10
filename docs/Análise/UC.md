@@ -73,7 +73,7 @@ A metodologia e as métricas utilizadas para melhor inspeção dos casos de usos
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
 |Alta      | 3 | 6  | 18 |   |    |        |Aprovado ou Reprovado |
-|Média     | 2 | 6  | 12 |   |    |        |   |  
+|Média     | 2 | 6  | 12 |   |    |        |   |
 |Baixa     | 1 | 5  | 5  |   |    |        |   |
 |**Total:**|   | 17 | 35 |   |    |        |   |
 |Critério de aceitação:|30%|
@@ -110,8 +110,8 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|---|--------|---|
-|Alta      | 3 | 6  | 18 | 1 | 3 | 22.86% | Reprovado |
-|Média     | 2 | 6  | 12 | 2 | 4 |        |   |  
+|Alta      | 3 | 6  | 18 | 1 | 3 | 22.86% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4 |        |   |
 |Baixa     | 1 | 5  | 5  | 1 | 1 |        |   |
 |**Total:**|   | 17 | 35 | 4 | 8 |        |   |
 |Critério de aceitação:|30%|
@@ -145,7 +145,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
 |Alta      | 3 | 6  | 18 | 3 | 9  | 34.29% | Reprovado |
-|Média     | 2 | 6  | 12 | 1 | 2  |        |   |  
+|Média     | 2 | 6  | 12 | 1 | 2  |        |   |
 |Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
 |**Total:**|   | 17 | 35 | 5 | 12 |        |   |
 |Critério de aceitação:|30%|
@@ -179,7 +179,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
 |Alta      | 3 | 6  | 18 | 3 | 9  | 34.29% | Reprovado |
-|Média     | 2 | 6  | 12 | 1 | 2  |        |   |  
+|Média     | 2 | 6  | 12 | 1 | 2  |        |   |
 |Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
 |**Total:**|   | 17 | 35 | 3 | 12 |        |   |
 |Critério de aceitação:|30%|
@@ -213,7 +213,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|---|--------|---|
 |Alta      | 3 | 6  | 18 | 0 | 0 | 8.57%  | Aprovado |
-|Média     | 2 | 6  | 12 | 1 | 2 |        |   |  
+|Média     | 2 | 6  | 12 | 1 | 2 |        |   |
 |Baixa     | 1 | 5  | 5  | 1 | 1 |        |   |
 |**Total:**|   | 17 | 35 | 2 | 3 |        |   |
 |Critério de aceitação:|30%|
@@ -498,7 +498,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Nº  |Impacto|N/A|Sim|Não|Observação|
 |----|-------|---|---|---|----------|
-| 1  | Alto  |   | x |   | No diagrama não há um caso de uso especefico de "Pesquisa de mensagem" |
+| 1  | Alto  |   | x |   | No diagrama não há um caso de uso especifico de "Pesquisa de mensagem" |
 | 2  | Alto  |   | x |   |          |
 | 3  | Baixo |   | x |   |          |
 | 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
@@ -522,6 +522,40 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6 | 12 | 1 |  2  |
 |Baixa     | 1 | 5 | 5  | 2 |  2  |
 |**Total:**|   | 17| 35 | 4 |  7  |
+| Critério de aceitação: | 30%    |
+
+#### IUC - 13 - v2
+
+|Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
+|-------------------|----------------|-------------------------|
+|[EC13 - Pesquisa de mensagem](../Modelagem/especificacao.md#ec13)|10/06/2019|André Lucas|
+
+|Nº  |Impacto|N/A|Sim|Não|Observação|
+|----|-------|---|---|---|----------|
+| 1  | Alto  |   | x |   |          |
+| 2  | Alto  |   | x |   |          |
+| 3  | Baixo |   | x |   |          |
+| 4  | Médio |   | x |   | No item 5 do fluxo evidencia o retorno do sistema: "Mensagens relacionadas ao que foi pesquisado são retornadas para o usuário" |
+| 5  | Baixo |   | x |   |          |
+| 6  | Baixo |   |   | x | No item 5 poderia ser reescrito: "Sistema retorna mensagens relacionadas ao que foi pesquisado." |
+| 7  | Médio |   | x |   |          |
+| 8  | Alto  |   |   | x | Alguns termos especificos não contém a definição, nem o link para o endereço que contenha |
+| 9  | Médio |   | x |   |          |
+| 10 | Baixo |   |   | x | Utiliza-se o termo "clica", que indica a interface |
+| 11 | Médio |   | x |   |          |
+| 12 | Médio |   | x |   |          |
+| 13 | Baixo |   | x |   |          |
+| 14 | Alto  |   | x |   |          |
+| 15 | Alto  |   | x |   |          |
+| 16 | Alto  |   | x |   |          |
+| 17 | Médio |   | x |   |          |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|---|----|---|-----|--------|-----------|
+|Alta      | 3 | 6 | 18 | 1 |  3  | 14.28% | Aprovado  |
+|Média     | 2 | 6 | 12 | 0 |  0  |
+|Baixa     | 1 | 5 | 5  | 2 |  2  |
+|**Total:**|   | 17| 35 | 3 |  5  |
 | Critério de aceitação: | 30%    |
 
 #### IUC - 14
@@ -945,9 +979,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |  --- | ------ | ----------- | ----- |
 | 05/06/2019 | 1.0 | Abertura do documento | André Lucas |
 | 05/06/2019 | 1.1 | Inclusão da metodologia, checklist e medição utilizadas | André Lucas |
-| 06/06/2019 | 1.2 | Adição do IUC01 e IUC02 | André Lucas |
-| 06/06/2019 | 1.3 | Adição do IUC03 e IUC04 | André Lucas |
+| 06/06/2019 | 1.2 | Adição das IUC01 e IUC02 | André Lucas |
+| 06/06/2019 | 1.3 | Adição das IUC03 e IUC04 | André Lucas |
 | 07/06/2019 | 1.4 | Adição das IUC05 - IUC11 | Lucas Maciel |
 | 08/06/2019 | 1.5 | Adição das IUC12 - IUC15 | Lucas Maciel |
 | 08/06/2019 | 1.5 | Adição das IUC16 - IUC20 | Lucas Maciel |
 | 08/06/2019 | 1.6 | Adição das IUC21 - IUC25 | Lucas Maciel |
+| 10/06/2019 | 1.7 | Adição da ICU13 - v2 | André Lucas |
