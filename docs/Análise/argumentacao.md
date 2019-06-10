@@ -71,7 +71,7 @@ O artefato sera considerado válido, se atender duas condições:<br>
 |Alta|5|25|
 |Médio|3|15|
 |Baixo|2|10|
-|**Total**|10|50|
+|**Total**||3|
 ||**Conclusão**||
 ||||
 
@@ -140,7 +140,7 @@ O artefato sera considerado válido, se atender duas condições:<br>
 
 |Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
-|[AR1 - Escolha do app](../Pré-Rastreabilidade/Argumentacao.md/#ar1-escolha-do-app)|08/06/2019|Heron e Jõao|
+|[AR1 - Escolha do app](../Pré-Rastreabilidade/Argumentacao.md/#ar1-escolha-do-app)|08/06/2019|Heron e João|
 
 |Nº|Critério|Importância|Material correspondente|Nota|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -231,7 +231,7 @@ O artefato sera considerado válido, se atender duas condições:<br>
 
 |Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
-|[AR5 - Diferencial do aplicativo](../Pré-Rastreabilidade/Argumentacao.md/#ar5-diferencial-do-aplicativo)|09/06/2019|Heron e Jõao|
+|[AR5 - Diferencial do aplicativo](../Pré-Rastreabilidade/Argumentacao.md/#ar5-diferencial-do-aplicativo)|09/06/2019|Heron e João|
 
 |Nº|Critério|Importância|Material correspondente|Nota|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|:--:|:--:|
