@@ -136,6 +136,36 @@ O artefato sera considerado válido, se atender duas condições:<br>
 ||Atende os critérios mínimos propostos porem isso deve-se ao fato da argumentação ser pequena com poucas proposições. Portanto devem ser feitas melhorias, principalmente no aspecto das proposições  ||
 
 
+#### IARG-01 - Final
+
+|Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
+|:--:|:--:|:--:|
+|[AR1 - Escolha do app](../Pré-Rastreabilidade/Argumentacao.md/#ar1-escolha-do-app)|08/06/2019|Heron e Jõao|
+
+|Nº|Critério|Importância|Material correspondente|Nota|Observação/Melhoria|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|1|O diagrama foi representado na forma de um grafo?|Alto|[Exemplo](#4-exemplo)|5||
+|2|As labels de cada vértice está correta?|Alto| [Labels](#1-labels)|5||
+|3|Cada vértice foi formalmente e corretamente descrito?|Baixo|[Descrição](#2-descricao-formal)|5||
+|4|A propagação (setas) dos vértices foram executadas de forma correta?|Alto|[Propagação](#3-propagacao)|5||
+|5|Todos os conflitos, gerados na discussão, foram resolvidos?|Alto||5||
+|6|Vértices de proposições, ligados somente por I, C, P?|Alto||5||
+|7|Todas as inferências do diagrama foram descritas no artefato?|Médio|[Exemplo](#4-exemplo)|5||
+|8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|Baixo|[Exemplo](#4-exemplo)|5||
+|9|O artefato possui um nivel bom de discussão (no mínimo 2 conflitos e 6 proposições)?|Médio|[Exemplo](#4-exemplo)|3|Na segunda versão do artefato, já possui um nivel maior de maturidade do diagrama mas, ainda, só atende ao critério mínimo proposto|
+|10|As preferências foram descritas, mostrando como o conflito foi resolvido?|Médio|[Exemplo](#4-exemplo)|5||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Qnt de critérios**|**Pontuação total**|
+|Alta|5|23|
+|Médio|3|15|
+|Baixo|2|10|
+|**Total**|10|2.88|
+||**Conclusão**||
+||O artefato atende aos critérios mínimos propostos. Porém, ainda podem ser feitas algumas melhorias, principalmente em relação ao desenvolvimento da discussão||
+
+
 
 #### IARG-02 - Heron
 
@@ -197,6 +227,36 @@ O artefato sera considerado válido, se atender duas condições:<br>
 ||**Conclusão**||
 ||O artefato necessita ser revisado, pois obteve uma média de X. Não possui descrição de como os conflitos foram resolvidos, além de possuir erros de notação e poucas proprosições ||
 
+#### IARG-02 - Final
+
+|Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
+|:--:|:--:|:--:|
+|[AR5 - Diferencial do aplicativo](../Pré-Rastreabilidade/Argumentacao.md/#ar5-diferencial-do-aplicativo)|09/06/2019|Heron e Jõao|
+
+|Nº|Critério|Importância|Material correspondente|Nota|Observação/Melhoria|
+|:--:|:--:|:--:|:--:|:--:|:--:|
+|1|O diagrama foi representado na forma de um grafo?|Alto|[Exemplo](#4-exemplo)|5||
+|2|As labels de cada vértice está correta?|Alto| [Labels](#1-labels)|5||
+|3|Cada vértice foi formalmente e corretamente descrito?|Baixo|[Descrição](#2-descricao-formal)|2|Se guiando pela descrição das proposições, percebe-se que algumas inferências estão incorretas. Por exemplo, i(p4) não infere i(p3)|
+|4|A propagação (setas) dos vértices foram executadas de forma correta?|Alto|[Propagação](#3-propagacao)|3|C2, gerado por P1, esta conflitando com i(p2), que foi a proposição preferida por P1 em relação à i(p1). Há também uma inferência, inferindo uma proposição|
+|5|Todos os conflitos, gerados na discussão, foram resolvidos?|Alto||5||
+|6|Vértices de proposições, ligados somente por I, C, P?|Alto||5||
+|7|Todas as inferências do diagrama foram descritas no artefato?|Médio|[Exemplo](#4-exemplo)|5||
+|8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|Baixo|[Exemplo](#4-exemplo)|5||
+|9|O artefato possui um nivel maturidade (pelo menos 2 conflitos e 6 proposições)?|Médio|[Exemplo](#4-exemplo)|2|Poderia ter um maior desenvolvimento da discussão, possui apenas um conflito e cinco proposições|
+|10|As preferências foram descritas, mostrando como o conflito foi resolvido?|Médio|[Exemplo](#4-exemplo)|0|Poderia ter sido descrito como o conflito gerado foi resolvido, por meio de votação, consenso..|
+
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Qnt de critérios**|**Pontuação total**|
+|Alta|5|23|
+|Médio|3|7|
+|Baixo|2|7|
+|**Total**||2.19|
+||**Conclusão**||
+||O artefato possui resolução de seus conflitos porém, obteve pontuação 2.19, considerado inválido. Necessita ser revisado, principalmente por está confuso as proposições com o que foi disposto no grafo e também poderia ter um maior desenvolvimento da discussão||
+
 #### IARG-03 - Heron
 
 |Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
@@ -256,7 +316,6 @@ O artefato sera considerado válido, se atender duas condições:<br>
 ||O artefato atende aos critérios mínimos, com bom desenvolvimento da discussão, porem é necessário adicionar a descrição da resolução dos conflitos ||
 
 
-## Heron Rodrigues
 ### Resultados
 
 * Modelos analisados: 3 
@@ -265,14 +324,6 @@ O artefato sera considerado válido, se atender duas condições:<br>
 
 Uma visão geral é que a maioria dos artefatos atenderam aos critérios mínimos propostos, porém é nítido a grande margem de melhora dos mesmos, principalmente em relação ao desenvolvimento de suas discussões. O documento possui uma introdução, descrevendo bem a metodologia aplicada, uma tabela de versionamento com registro de quem alterou o documento e que alterações foram essas, além de versão individual para cada artefato.
 
-## João Lucas
-### Resultados
-
-* Modelos analisados: 3 
-* Modelos reprovados: 1
-* Média de pontuação: 2.57 
-
-No geral os artefatos atendem pelo menos minimamente o que se espera deles, porem em todos exsite pontos de melhore. Em especial o artefato sobre o diferencial do aplicativo possui muitos erros e pendências o que justifica sua reprovação e porntanto a sua necessidade de revisão e refatoramento.
 
 ## Inspeção do documento
 
@@ -326,3 +377,5 @@ A partir da proposição de p1, podemos inferir a proposição de p2. A proposi�
 | 08/06/2019 | 1.2 | Adição da inspeção IARG-01 | Heron Rodrigues |
 | 09/06/2019 | 1.3 | Adição da inspeção IARG-02 | Heron Rodrigues |
 | 09/06/2019 | 1.4 | Adição da inspeção IARG-03 | Heron Rodrigues |
+| 09/06/2019 | 1.5 | Adição da inspeção IARG-01 ao 03 | João Lucas|
+| 09/06/2019 | 1.6 | Adição da inspeção final dos IARG-01 E IARG-02 |Heron e João|
