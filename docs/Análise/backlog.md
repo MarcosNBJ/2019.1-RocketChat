@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Documento que busca analisar os modelos de product backlog levantados anteriormente no tópico de modelagem, afim de identificar possíveis erros e falhas presentes nos mesmos.
+Documento que busca analisar os modelos de product backlog levantados anteriormente no tópico de modelagem, mais especificamente as User Stories propostas, afim de identificar possíveis erros e falhas presentes nas mesmas e apontar as soluções e correções a serem feitas.
 
 ## Metodologia
 
@@ -33,11 +33,169 @@ O critério de aceitação implica na atribuição de um peso para cada tipo de 
 |Baixa| 1 | 1 | 1 |
 |**Total:**||9| 20|
 
+Modelo US será considerado reprovado se ultrapassar **6 pontos** em defeitos.
+
 Utilizando como base a tolerância máxima de 30%, temos como resultado que os modelos devem ter uma pontuação de no mínimo 14 pontos para serem aprovados, com qualquer pontuação menor do que está, o modelo é considerado reprovado e deve ser revisado.
 
 ### Inspeção
 
 A seguir podem ser vistas as inspeções individuais de cada User Storie previamente construída.
+
+#### IUS-0X
+
+_Inspeção do [US0X](../Modelagem/backlog.md#)_
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+| 1 | A granularidade do backlog está dentro do esperado? (Tema, épico, feature, US...) |||
+| 2 | O formato da US está correto e padronizado? (Eu, como, desejo, porque...) |||
+| 3 | A User Storie tem um ID único para identificação? |||
+| 4 | A User Storie tem um nome para que se possa saber de maneira fácil sobre o que se trata aquela US? |||
+| 5 | A User Storie possui critérios de aceitação? |||
+| 6 | Os critérios de aceitação são claros e diretos de forma que seja de fácil compreensão o que deve ser feito? |||
+| 7 | A User Storie possui rastreabilidade para o modelo de elicitação que a originou? |||
+| 8 | Os termos usados no product backlog são os mesmos usados pelos desenvolvedores dentro do app e na documentação do Rocket.Chat? |||
+| 9 | A priorização da US é feita utilizando-se uma técnica de fácil entendimento? (Alta, média e baixa ou MoSCoW) |||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|||
+|Médio|||
+|Baixo|||
+|**Total**|||
+||**Conclusão**||
+|||||
+
+#### IUS-01
+
+_Inspeção do [US01](../Modelagem/backlog.md#us01)_ Inspetor: Weiller Fernandes
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+| 1 | A granularidade do backlog está dentro do esperado? (Tema, épico, feature, US...) |Sim||
+| 2 | O formato da US está correto e padronizado? (Eu, como, desejo, porque...) |Sim||
+| 3 | A User Storie tem um ID único para identificação? |Sim||
+| 4 | A User Storie tem um nome para que se possa saber de maneira fácil sobre o que se trata aquela US? |Não|Apenas o tema e o épico possuem nomes, para uma melhor identificação da US, o recomendado seria ela ter um nome também.|
+| 5 | A User Storie possui critérios de aceitação? |Sim||
+| 6 | Os critérios de aceitação são claros e diretos de forma que seja de fácil compreensão o que deve ser feito? |Sim||
+| 7 | A User Storie possui rastreabilidade para o modelo de elicitação que a originou? |Sim||
+| 8 | Os termos usados no product backlog são os mesmos usados pelos desenvolvedores dentro do app e na documentação do Rocket.Chat? |Sim||
+| 9 | A priorização da US é feita utilizando-se uma técnica de fácil entendimento? (Alta, média e baixa ou MoSCoW) |Sim||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|1|2|
+|Baixo|0|0|
+|**Total**|1|2|
+||**Conclusão**||
+||Modelo aprovado, poucas mudanças são necessárias, a principal é a adição de um nome para a US.|||
+
+#### IUS-02
+
+_Inspeção do [US02](../Modelagem/backlog.md#us02)_ Inspetor: Weiller Fernandes
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+| 1 | A granularidade do backlog está dentro do esperado? (Tema, épico, feature, US...) |Sim||
+| 2 | O formato da US está correto e padronizado? (Eu, como, desejo, porque...) |Sim||
+| 3 | A User Storie tem um ID único para identificação? |Sim||
+| 4 | A User Storie tem um nome para que se possa saber de maneira fácil sobre o que se trata aquela US? |Não|Apenas o tema e o épico possuem nomes, para uma melhor identificação da US, o recomendado seria ela ter um nome também.|
+| 5 | A User Storie possui critérios de aceitação? |Sim||
+| 6 | Os critérios de aceitação são claros e diretos de forma que seja de fácil compreensão o que deve ser feito? |Sim||
+| 7 | A User Storie possui rastreabilidade para o modelo de elicitação que a originou? |Sim||
+| 8 | Os termos usados no product backlog são os mesmos usados pelos desenvolvedores dentro do app e na documentação do Rocket.Chat? |Sim||
+| 9 | A priorização da US é feita utilizando-se uma técnica de fácil entendimento? (Alta, média e baixa ou MoSCoW) |Sim||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|1|2|
+|Baixo|0|0|
+|**Total**|1|2|
+||**Conclusão**||
+||Modelo aprovado, poucas mudanças são necessárias, a principal é a adição de um nome para a US.|||
+
+#### IUS-03
+
+_Inspeção do [US03](../Modelagem/backlog.md#us03)_ Inspetor: Weiller Fernandes
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+| 1 | A granularidade do backlog está dentro do esperado? (Tema, épico, feature, US...) |Sim||
+| 2 | O formato da US está correto e padronizado? (Eu, como, desejo, porque...) |Sim||
+| 3 | A User Storie tem um ID único para identificação? |Sim||
+| 4 | A User Storie tem um nome para que se possa saber de maneira fácil sobre o que se trata aquela US? |Não|Apenas o tema e o épico possuem nomes, para uma melhor identificação da US, o recomendado seria ela ter um nome também.|
+| 5 | A User Storie possui critérios de aceitação? |Sim||
+| 6 | Os critérios de aceitação são claros e diretos de forma que seja de fácil compreensão o que deve ser feito? |Sim||
+| 7 | A User Storie possui rastreabilidade para o modelo de elicitação que a originou? |Sim||
+| 8 | Os termos usados no product backlog são os mesmos usados pelos desenvolvedores dentro do app e na documentação do Rocket.Chat? |Sim||
+| 9 | A priorização da US é feita utilizando-se uma técnica de fácil entendimento? (Alta, média e baixa ou MoSCoW) |Sim||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|1|2|
+|Baixo|0|0|
+|**Total**|1|2|
+||**Conclusão**||
+||Modelo aprovado, poucas mudanças são necessárias, a principal é a adição de um nome para a US.|||
+
+#### IUS-04
+
+_Inspeção do [US04](../Modelagem/backlog.md#us04)_ Inspetor: Weiller Fernandes
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+| 1 | A granularidade do backlog está dentro do esperado? (Tema, épico, feature, US...) |Sim||
+| 2 | O formato da US está correto e padronizado? (Eu, como, desejo, porque...) |Sim||
+| 3 | A User Storie tem um ID único para identificação? |Sim||
+| 4 | A User Storie tem um nome para que se possa saber de maneira fácil sobre o que se trata aquela US? |Não|Apenas o tema e o épico possuem nomes, para uma melhor identificação da US, o recomendado seria ela ter um nome também.|
+| 5 | A User Storie possui critérios de aceitação? |Sim||
+| 6 | Os critérios de aceitação são claros e diretos de forma que seja de fácil compreensão o que deve ser feito? |Sim||
+| 7 | A User Storie possui rastreabilidade para o modelo de elicitação que a originou? |Sim||
+| 8 | Os termos usados no product backlog são os mesmos usados pelos desenvolvedores dentro do app e na documentação do Rocket.Chat? |Sim||
+| 9 | A priorização da US é feita utilizando-se uma técnica de fácil entendimento? (Alta, média e baixa ou MoSCoW) |Sim||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|1|2|
+|Baixo|0|0|
+|**Total**|1|2|
+||**Conclusão**||
+||Modelo aprovado, poucas mudanças são necessárias, a principal é a adição de um nome para a US.|||
+
+#### IUS-05
+
+_Inspeção do [US05](../Modelagem/backlog.md#us05)_ Inspetor: Weiller Fernandes
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+| 1 | A granularidade do backlog está dentro do esperado? (Tema, épico, feature, US...) |Sim||
+| 2 | O formato da US está correto e padronizado? (Eu, como, desejo, porque...) |Sim||
+| 3 | A User Storie tem um ID único para identificação? |Sim||
+| 4 | A User Storie tem um nome para que se possa saber de maneira fácil sobre o que se trata aquela US? |Não|Apenas o tema e o épico possuem nomes, para uma melhor identificação da US, o recomendado seria ela ter um nome também.|
+| 5 | A User Storie possui critérios de aceitação? |Sim||
+| 6 | Os critérios de aceitação são claros e diretos de forma que seja de fácil compreensão o que deve ser feito? |Sim||
+| 7 | A User Storie possui rastreabilidade para o modelo de elicitação que a originou? |Sim||
+| 8 | Os termos usados no product backlog são os mesmos usados pelos desenvolvedores dentro do app e na documentação do Rocket.Chat? |Sim||
+| 9 | A priorização da US é feita utilizando-se uma técnica de fácil entendimento? (Alta, média e baixa ou MoSCoW) |Sim||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|1|2|
+|Baixo|0|0|
+|**Total**|1|2|
+||**Conclusão**||
+||Modelo aprovado, poucas mudanças são necessárias, a principal é a adição de um nome para a US.|||
 
 ## Referências
 
@@ -49,3 +207,4 @@ A seguir podem ser vistas as inspeções individuais de cada User Storie previam
 |------|--------|-------------|-------|
 | 05/05/2019 | 1.0 | Abertura do documento | Weiller Fernandes |
 | 05/05/2019 | 1.1 | Inclusão da Metodologia, Critérios e Critério de aceitação | Weiller Fernandes |
+| 10/05/2019 | 1.2 | Adição das inspeções IUS-01 até IUS-05 | Weiller Fernandes |
