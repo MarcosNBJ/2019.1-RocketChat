@@ -694,11 +694,11 @@ Como pode ser visto, o principal problema encontrado é a váriabilidade de cami
 | 05/05/2019 | 1.6 | Inclusão da inspeção INFR-07 | Marcos Nery |
 | 05/05/2019 | 1.7 | Inclusão da inspeção INFR-08 e INFR-09 | Marcos Nery |
 | 05/05/2019 | 1.8 | Adição dos resultados | Marcos Nery |
-| 05/05/2019 | 1.9 | Adição da pré-rastreabilidade | Marcos Nery |
-| 05/05/2019 | 2.0 | Adição do versionamento da checklist | Marcos Nery |
-| 05/05/2019 | 2.1 | Adição do check de pré-rastreabilidade para cada inspeção | Marcos Nery |
-| 05/05/2019 | 2.2 | Adição do veredito do inspetor para cacda inspeção | Marcos Nery |
-| 05/05/2019 | 2.3 | Adição da fase de preparação | Marcos Nery |
-| 05/05/2019 | 2.4 | Adição da segunda análise do NFR09 | André Lucas |
-| 05/05/2019 | 2.5 | Adição do consenço para a INFR09 | André Lucas e Marcos Nery|
-| 05/05/2019 | 2.6 | Refatoração dos resultados | Marcos Nery|
+| 08/05/2019 | 1.9 | Adição da pré-rastreabilidade | Marcos Nery |
+| 08/05/2019 | 2.0 | Adição do versionamento da checklist | Marcos Nery |
+| 08/05/2019 | 2.1 | Adição do check de pré-rastreabilidade para cada inspeção | Marcos Nery |
+| 08/05/2019 | 2.2 | Adição do veredito do inspetor para cacda inspeção | Marcos Nery |
+| 09/05/2019 | 2.3 | Adição da fase de preparação | Marcos Nery |
+| 09/05/2019 | 2.4 | Adição da segunda análise do NFR09 | André Lucas |
+| 09/05/2019 | 2.5 | Adição do consenço para a INFR09 | André Lucas e Marcos Nery|
+| 09/05/2019 | 2.6 | Refatoração dos resultados | Marcos Nery|
