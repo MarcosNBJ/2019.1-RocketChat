@@ -316,7 +316,7 @@ O artefato sera considerado válido, se atender duas condições:<br>
 ||O artefato atende aos critérios mínimos, com bom desenvolvimento da discussão, porem é necessário adicionar a descrição da resolução dos conflitos ||
 
 
-### Resultados
+## Resultados
 
 * Modelos analisados: 3 
 * Modelos reprovados: 1
