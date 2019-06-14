@@ -40,11 +40,13 @@ Rich Picture - Geral v2.1
 O escopo definido como Channel ilustra toda a interação dos usuários dentro das salas de conversa da plataforma, bem como seus benefícios e particularidades.
 
 Rich Picture - Channel v1.0
-
-![RP-Channel-V1](../img/PreRastreabilidade/channel-v1.jpg)
+![RP-Channel-V1](../img/PreRastreabilidade/RichPicture_Channel_v1.0.jpg)
 
 Rich Picture - Channel V1.1
-![RP-Channel-V2](../img/PreRastreabilidade/RichPicture_Channel.png)
+![RP-Channel-V2](../img/PreRastreabilidade/RichPicture_Channel_v1.1.png)
+
+Rich Picture - Channel V2.0
+![RP-Channel-V2](../img/PreRastreabilidade/RichPicture_Channel_v2.0.png)
 
 ## RP4 - Menus de configuração e perfil do usuário
 
