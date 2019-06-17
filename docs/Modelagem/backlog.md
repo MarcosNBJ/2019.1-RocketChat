@@ -2,6 +2,9 @@
 
 Aqui buscamos construir um backlog completo para o produto com base nos requisitos anteriormente elicitados. Além de, com o backlog construido e todas as histórias de usuário devidamente descritas com críterios de aceitação, simular o que seria desenvolvido em cada Sprint. Sendo que o backlog ficou dividido nos seguinte níveis de granularidade: Tema, Épico, histórias de usuário.
 
+## Tabela de backlog e planejamento das sprints
+Como a tabela que constroí o backlog e o divide em sprints é muito grande, para melhor visualização, a mesma foi colocada em um arquivo excel no drive, que pode ser visualizado a partir deste [link](https://docs.google.com/spreadsheets/d/1_gxL7uqWzSuB0wnm_buf4MWh9d_7JhUOwTsVjyAAZp0/edit?usp=sharing).
+
 
 ## T01 - Entrar no aplicativo
 
@@ -913,3 +916,4 @@ _Originada em:_
 | 11/05/2019 | 2.4 | Adicionado Us no tema de Visão do aplicativo | Lucas Maciel |
 | 11/05/2019 | 2.5 | Inclusão das USs nos épicos Configurações e Mensagens | Lucas Maciel |
 | 18/05/2019 | 2.6 | Inclusão das USs 46-64 | Lucas Maciel |
+| 17/06/2019 | 2.7 | Adição da tablea de backlog no drive | Marcos Nery |
