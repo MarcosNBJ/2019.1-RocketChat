@@ -162,7 +162,7 @@ _Originada em: [L21]((lexicos.md#l21)), [L45]((lexicos.md#l45))_
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
-| US13 | Usuário | Adicionar autenticação de 2 Fatores | gostaria de proteger a minha conta com mais eficiência | na autênticação de 2 fatores, sempre na realização do login é preciso verificar o token enviado para o e-mail do usuário | 8 | Must | Não Funcional |
+| US13 | Usuário | Adicionar autenticação de 2 Fatores | gostaria de proteger a minha conta com mais eficiência | na autênticação de 2 fatores, sempre na realização do login é preciso verificar o token enviado para o e-mail do usuário | 8 | Must | Funcional |
 
 * Para ativar a autenticação é necessário o usuário confirmar sua conta de e-mail
 * Cada a funcionalidade estiver ativa, é necessário que a cada vez que o usuário fizer um login em um novo dispositivo que não está logado, o aplicativo deve pedir para o usuário confirmar o token enviado para seu e-mail
@@ -844,7 +844,7 @@ _Originada em: [INT1.7](../Elicitação/Introspeccao.md#introspecção-01)_
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
-| US67 | Usuário administrador do servidor | Definir opção para criptografar meus channels por chave E2E | preciso transitir mensagens confidenciais com minha equipe | independente do usuário possuir um servidor particular ou não | | Must | Não Funcional |
+| US67 | Usuário administrador do servidor | Definir opção para criptografar meus channels por chave E2E | preciso transitir mensagens confidenciais com minha equipe | independente do usuário possuir um servidor particular ou não | | Must | Funcional |
 
 _Originada em:_
 
@@ -854,7 +854,7 @@ _Originada em:_
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
-| US68 | Usuário administrador do servidor | Adicionar vários channels e usuários ao servidor dedicado | preciso que todas as equipes envolvidas no(s) projeto(s) tenham acesso aos channels que representam suas equipes | O servidor deve suportar o aumento de usuários | | Must | Não Funcional |
+| US68 | Usuário administrador do servidor | Adicionar vários channels e usuários ao servidor dedicado | preciso que todas as equipes envolvidas no(s) projeto(s) tenham acesso aos channels que representam suas equipes | O servidor deve suportar o aumento de usuários | | Must | Funcional |
 
 _Originada em: [INT3.2](../Elicitação/Introspeccao.md#introspecção-03)_
 
@@ -891,7 +891,7 @@ _Originada em:_
 
 | ID | Eu, como | desejo | porque | comentário | pontos | prioridade | Tipo |
 |----|----------|--------|--------|------------|--------|------------|------|
-| US72 | Usuário | fazer minha própria instancia do software com infraestrutura on-premise | assim tenho mais controle dos dados os quais são enviados no servidor o qual uso |  | 13 | Must | Não funcional |
+| US72 | Usuário | fazer minha própria instancia do software com infraestrutura on-premise | assim tenho mais controle dos dados os quais são enviados no servidor o qual uso |  | 13 | Must | Não Funcional |
 
 * O serviço deve ser suportado por servidor Linux
 
