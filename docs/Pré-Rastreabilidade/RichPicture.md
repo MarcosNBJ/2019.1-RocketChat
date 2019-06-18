@@ -71,6 +71,10 @@ Rich Picture - Como contribuir v1.0
 
 ![RP-Contrib-V1](../img/PreRastreabilidade/Contrib-v1.jpg)
 
+Rich Picture - Como contribuir v2.0
+
+![RP-Contrib-V2](../img/PreRastreabilidade/rp_contribuir_v2.png)
+
 
 ## Versionamento
 
@@ -84,3 +88,4 @@ Rich Picture - Como contribuir v1.0
 |  0.6 | 05/04/2019 | Adição da versão 2.1 da [RP2](#rp2-geral)  | João Lucas |
 |  0.7 | 05/04/2019 | Adição da [RP5](#rp5-contrib)  | Heron Sousa |
 |  0.8 | 06/04/2019 | Adição da nova versão da [RP1](#rp1-externo)  | André Lucas |
+|  0.9 | 15/05/2019 | Adição da [RP5 V2](#rp5-contrib)  | Heron Sousa |
