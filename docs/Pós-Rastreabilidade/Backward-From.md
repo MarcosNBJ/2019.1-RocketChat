@@ -4,8 +4,8 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 
 ## Requisitos Funcionais
-  
-                                                                                                                                                                                                                                                                                                                                                          
+
+
 |Código|Descrição                                                                                                                                            |Elicitação                                                                                                                                                                                                                                                                                                                                                     |Modelagem                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |Elo          |
 |------|-----------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------|
 |RF1   |Tradução instântanea para mensagens em línguas diferentes da padrão                                                                                  |[AD1](../Elicitação/analdiscurso#requisitos-elicitados), [INT4.4](../Elicitação/Introspeccao#introspeccao-04), [Storyboard3](../Elicitação/Storyboard#4-requisitos-obtidos)                                                                                                                                                                                    |[L31](../Modelagem/lexicos#31), [US45](../Modelagem/backlog#us45), [ISR05](../Modelagem/istar#isr05-acoes-sobre-o-channel)                                                                                                                                                                                                                                                                                                                                                |[EF1](#ef1)  |
@@ -1122,6 +1122,110 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 * Representação: [ECU10](../Modelagem/especificacao.md/#ec10) representa [C3](../Modelagem/cenarios.md/#c3-v2)
 * Representação: [ISR01](../Modelagem/istar.md/#versao-02_2) representa [DCU16](../Modelagem/diagramas.md/#dcu16-v1)  
 
+### EF6
+
+**Elementos rastreáveis:**
+
+* [INT4.1](../Elicitação/Introspeccao#introspeccao-04)
+* [SB1](../Elicitação/Storyboard.md#4-requisitos-obtidos)
+* [EP10](../Modelagem/backlog.md/#ep10-Mensagens)
+* [C12](../Modelagem/cenarios.md/#c12-v2)
+* [DCU2](../Modelagem/diagramas.md/#dcu2-v2)
+* [ECU15](../Modelagem/especificacao.md/#ec15)
+* [ISR03](../Modelagem/istar.md/#isr03-envio-de-mensagens)
+* [L41](../Modelagem/lexicos.md/#l41)
+* [US20](../Modelagem/backlog#us20)
+
+**Elo:**
+
+* Satisfação: [DCU2](../Modelagem/diagramas.md/#dcu2-v2) e [ISR03](../Modelagem/istar.md/#isr03-envio-de-mensagens) satisfazem [US20](../Modelagem/backlog#us20) e [INT4.1](../Elicitação/Introspeccao#introspeccao-04)
+* Alocação: [US20](../Modelagem/backlog#us20) está alocado em [EP10](../Modelagem/backlog.md/#ep10-Mensagens)
+* Representação: [ECU15](../Modelagem/especificacao.md/#ec15) representa o [C12](../Modelagem/cenarios.md/#c12-v2)
+
+### EF7
+
+**Elementos rastreáveis:**
+
+* [INT2.2](../Elicitação/Introspeccao#introspeccao-02)
+* [AD11](../Elicitação/analdiscursi#requisitos-elicitados)
+* [EP11](../Modelagem/backlog.md/#ep11-acoes-do-channel),
+* [L11](../Modelagem/lexicos.md/#l11)
+* [US48](../Modelagem/backlog#us48)
+
+**Elo:**
+
+
+
+### EF8
+
+**Elementos rastreáveis:**
+
+* [INT4.8](../Elicitação/Introspeccao#introspeccao-04)
+* [INT1.4](../Elicitação/Introspeccao#introspeccao-01)
+* [Storyboard 4](../Elicitação/Storyboard#4-requisitos-obtidos)
+* [EP16](../Modelagem/backlog.md/#ep16-conectar-com-um-servidor)
+* [C4](../Modelagem/cenarios.md/#c4-v2)
+* [DCU17](../Modelagem/diagramas.md/#dcu17-v2)
+* [EC11](../Modelagem/especificacao.md/#ec11)
+* [L14](../Modelagem/lexicos.md/#l14)
+* [US65](../Modelagem/backlog#us65)
+
+**Elo:**
+
+### EF9
+
+**Elementos rastreáveis:**
+
+* [INT3.9](../Elicitação/Introspeccao.md#introspeccao-03)
+* [ENT1.1](../Elicitação/entrevista.md#requisitos)
+* [AD7](../Elicitação/analdiscurso.md#requisitos-elicitados)
+* [Q2](../Elicitação/questionario.md#requisitos-elicitados)
+* [EP14](../Modelagem/backlog.md/#ep14-integraçoes),
+* [C4](../Modelagem/cenarios.md/#c4-v2),
+* [DCU17](../Modelagem/diagramas.md/#dcu17-v2),
+* [EC11](../Modelagem/especificacao.md/#ec11),
+* [L26](../Modelagem/lexicos.md/#ec14),
+* [US62](../Modelagem/backlog#us62)
+
+**Elo:**
+
+### EF10
+
+**Elementos rastreáveis:**
+
+* [AP8](../Elicitação/analprot.md#requisitos-elicitados)
+* [EP05](../Modelagem/backlog.md/#ep05-configurações-do-aplicativo)
+* [NFR5](Modelagem/nfr.md#nf5-personabilidade)
+* [US09](../Modelagem/backlog#us09)
+
+**Elo:**
+
+### EF11
+
+**Elementos rastreáveis:**
+
+* [INT4.5](../Elicitação/Introspeccao#introspeccao-04)
+* [Storyboard3](../Elicitação/Storyboard#4-requisitos-obtidos)
+
+**Elo:**
+
+### EF12
+
+**Elementos rastreáveis:**
+
+**Elo:**
+
+### EF13
+
+**Elementos rastreáveis:**
+
+* [US12](../Modelagem/backlog.md#us12)
+* [L21](../Modelagem/lexicos.md#l21)
+* [L41](../Modelagem/lexicos.md#l41)
+* [L45](../Modelagem/lexicos.md#l45)
+* [L46](../Modelagem/lexicos.md#l46)
+
+**Elo:**
 
 ### EF14
 
@@ -1135,6 +1239,30 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 **Elo:**
 
 * Representação: [US43](../Modelagem/backlog.md#us43) representa [L4](../Modelagem/lexicos.md#l4)
+
+### EF15
+
+**Elementos rastreáveis:**
+
+* [US13](../Modelagem/backlog.md#us13)
+
+**Elo:**
+
+### EF16
+
+**Elementos rastreáveis:**
+
+* [US09](../Modelagem/backlog.md#us09)
+* [US14](../Modelagem/backlog.md#us14)
+* [L08](../Modelagem/lexicos.md#l08)
+* [ISD02](../Modelagem/istar#isr02-geral)
+
+**Elo:**
+
+* Recurso: [ISD02](../Modelagem/istar#isr02-geral) depende de um recurso provido pelo [L08](../Modelagem/lexicos.md#l08), no caso, o perfil a ser editado
+* Recurso: [US14](../Modelagem/backlog.md#us14) depende de um recurso provido pelo [L08](../Modelagem/lexicos.md#l08), no caso, o perfil a ser acessado
+* Agregação: [ISD02](../Modelagem/istar#isr02-geral) é composto por [US14](../Modelagem/backlog.md#us14)
+
 
 ### EF17
 
@@ -1153,6 +1281,36 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 * Representação: [US33](../Modelagem/backlog.md#us33) representa [C9](../Modelagem/cenarios.md/#c9-v2)
 * Representação: [DCU18](../Modelagem/diagramas.md/#dcu18-v1) representa [L5](../Modelagem/lexicos.md#l5)
 * Recurso: [DCU2](../Modelagem/diagramas.md/#dcu2-v3) depende de um recurso provido pelo [C9](../Modelagem/cenarios.md/#c9-v2), no caso, o arquivo a ser enviado
+
+### EF18
+
+**Elementos rastreáveis:**
+
+* [US15](../Modelagem/backlog.md#us15)
+* [C10](../Modelagem/cenarios.md/#c10)
+
+**Elo:**
+
+* Representação: [US15](../Modelagem/backlog.md#us15) representa [C10](../Modelagem/cenarios.md/#c10)
+
+### EF19
+
+**Elementos rastreáveis:**
+
+* [US16](../Modelagem/backlog.md#us16)
+
+**Elo:**
+
+### EF20
+
+**Elementos rastreáveis:**
+
+* [US17](../Modelagem/backlog.md#us17)
+* [L39](../Modelagem/lexicos.md#l39)
+
+**Elo:**
+
+* Representação: [US17](../Modelagem/backlog.md#us17) representa [L39](../Modelagem/lexicos.md#l39)
 
 ### EF21
 
