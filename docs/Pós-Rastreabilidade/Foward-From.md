@@ -206,17 +206,35 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ![](../img/PosRastreabilidade/)
 
+
 ### rnf1
 
-|Mobile|Web navegador|Desktop|
-|--|--|--|
-|![](../img/PosRastreabilidade/rnf1_03.gif)|![](../img/PosRastreabilidade/rnf1_01.gif)|![](../img/PosRastreabilidade/rnf1_02.gif)|
+Mobile
 
+![](../img/PosRastreabilidade/rnf1_03.gif)
+
+Web navegador
+
+![](../img/PosRastreabilidade/rnf1_01.gif)
+
+Desktop
+
+![](../img/PosRastreabilidade/rnf1_02.gif)
+
+### rnf2
+
+Suporte
+
+![](../img/PosRastreabilidade/rnf2_03.png)
+
+![](../img/PosRastreabilidade/rnf2_02.gif)
+
+![](../img/PosRastreabilidade/rnf2_01.gif)
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
 |------|--------|-------------|-------|
 | 16/06/2019 | 1.0 | Abertura do documento | Marcos Nery |
 | 17/06/2019 | 1.1 | Inclusão das tabelas inicias de requisitos | Marcos Nery |
-| 18/06/2019 | 1.2 | Inclusão dos elos | Marcos Nery |
-| 19/06/2019 | 1.3 | Inclusão dos GIFS | André Lucas |
+| 19/06/2019 | 1.2 | Inclusão dos GIFS | André Lucas |
+| 19/06/2019 | 1.2 | Inclusão das funcinalidades | Heron Rodrigues |
