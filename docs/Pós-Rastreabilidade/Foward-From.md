@@ -231,8 +231,6 @@ Desktop
 
 Suporte
 
-![](../img/PosRastreabilidade/rnf2_03.png)
-
 ![](../img/PosRastreabilidade/rnf2_02.gif)
 
 ![](../img/PosRastreabilidade/rnf2_01.gif)
