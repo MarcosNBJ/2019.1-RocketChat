@@ -17,9 +17,9 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 |RF8   |O app deve oferecer a possibilidade do usuário instalar seu próprio servidor local. |[US65](../Modelagem/backlog#us65) | [EP16](../Modelagem/backlog#ep16-conectar-com-um-servidor)  |[Servidor](#rf8_gif) |
 |RF9   |A plataforma deve permitir a integração de Bots|[US62](../Modelagem/backlog#us62) | [EP14](../Modelagem/backlog#ep14-integrações) | [Bots](#rf9_gif) |
 |RF10  |A plataforma deve permitir a alteração nas configurações do app |[US09](../Modelagem/backlog#us09)| [EP05](../Modelagem/backlog#ep05-configurações-do-aplicativo)|[Configurações do app](#rf10_gif)<br> [View](https://github.com/RocketChat/Rocket.Chat.ReacótNative/blob/develop/app/views/SettingsView/index.js)<br> [Action](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/markdown.js)<br> [Util](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/deviceInfo.js)<br> [Util](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/info.js)|
-|RF11  |Possibilidade de alteração do idioma no aplicativo                                                                                           |[US09](../Modelagem/backlog.md#us09), [US10](../Modelagem/backlog.md#us10)                                      | [EP05](../Modelagem/backlog#ep05-configurações-do-aplicativo)|[Alterar idioma](#rf11_gif) [View](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/LanguageView/index.js)<br> [Util](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/info.js)                            
+|RF11  |Possibilidade de alteração do idioma no aplicativo                                                                                           |[US09](../Modelagem/backlog.md#us09), [US10](../Modelagem/backlog.md#us10)                                      | [EP05](../Modelagem/backlog#ep05-configurações-do-aplicativo)|[Alterar idioma](#rf11_gif) [View](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/LanguageView/index.js)<br> [Util](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/info.js)
 |RF12  ||| |[](#rf12_gif)|
-|RF13  |Alteração de senha |[US12](../Modelagem/backlog.md#us12) | [EP05](../Modelagem/backlog#ep05-configurações-do-aplicativo)|![Alterar senha](#rf13_gif)<br> [Código - Método "newPassword"](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/ProfileView/index.js)         
+|RF13  |Alteração de senha |[US12](../Modelagem/backlog.md#us12) | [EP05](../Modelagem/backlog#ep05-configurações-do-aplicativo)|![Alterar senha](#rf13_gif)<br> [Código - Método "newPassword"](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/ProfileView/index.js)
 |RF14  |Possibilidade de mencionar, um ou todos, os membros do grupo |[US43](../Modelagem/backlog.md#us43)| [EP11](../Modelagem/backlog#ep11-acoes-do-channel) | [Mencionar](#rf14_gif) |
 |RF15  |Sistema deve ser capaz de Adicionar autenticação de 2 Fatores  |[US13](../Modelagem/backlog.md#us13) | [EP06](../Modelagem/backlog#ep06-configurações-da-conta)|[Autenticação 2 Fatores](#rf15_gif)|
 |RF16  |Sistema deve mostrar e permitir a edição das configurações da conta |[US09](../Modelagem/backlog.md#us09) <br> [US14](../Modelagem/backlog.md#us14) | [EP05](../Modelagem/backlog#ep05-configurações-do-aplicativo)<br> [EP06](../Modelagem/backlog#ep06-configurações-da-conta)|![Editar conta](#rf16_gif) <br> [View](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/ProfileView/index.js) <br> [Util](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/info.js) |
@@ -88,7 +88,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf8_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF8.gif)
 
 ### rf9_gif
 
@@ -96,7 +96,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf10_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF10.gif)
 
 ### rf11_gif
 
@@ -112,7 +112,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf14_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF14.gif)
 
 ### rf15_gif
 
@@ -120,7 +120,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf16_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF16.gif)
 
 ### rf17_gif
 
@@ -128,7 +128,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf18_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF18.gif)
 
 ### rf19_gif
 
@@ -136,7 +136,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf20_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF20.gif)
 
 ### rf21_gif
 
@@ -144,7 +144,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf22_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF22.gif)
 
 ### rf23_gif
 
@@ -152,7 +152,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf24_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF24.gif)
 
 ### rf25_gif
 
@@ -160,7 +160,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf26_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF26.gif)
 
 ### rf27_gif
 
@@ -168,7 +168,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf28_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF28.gif)
 
 ### rf29_gif
 
@@ -176,7 +176,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf30_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF30.gif)
 
 ### rf31_gif
 
@@ -184,7 +184,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf32_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF32.gif)
 
 ### rf33_gif
 
@@ -192,7 +192,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf34_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF34.gif)
 
 ### rf35_gif
 
@@ -200,7 +200,7 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ### rf36_gif
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF36.gif)
 
 ### rf37_gif
 
@@ -219,3 +219,4 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 | 16/06/2019 | 1.0 | Abertura do documento | Marcos Nery |
 | 17/06/2019 | 1.1 | Inclusão das tabelas inicias de requisitos | Marcos Nery |
 | 18/06/2019 | 1.2 | Inclusão dos elos | Marcos Nery |
+| 19/06/2019 | 1.3 | Inclusão dos GIFS | André Lucas |
