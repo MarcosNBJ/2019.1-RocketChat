@@ -1406,6 +1406,75 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 **Elo:**
 
+### EF28
+
+**Elementos rastreáveis:**
+
+* [US34](../Modelagem/backlog.md#us34)
+* [C5](../Modelagem/cenarios.md#c5)
+* [E19](../Modelagem/especificacao.md#ec19)
+* [DCU19](../Modelagem/diagramas.md#dcu19-v1)
+
+**Elo:**
+
+### EF29
+
+**Elementos rastreáveis:**
+
+* [US35](../Modelagem/backlog.md#us35)
+* [L54](../Modelagem/lexicos.md#l54)
+
+**Elo:**
+
+### EF30
+
+**Elementos rastreáveis:**
+
+* [US36](../Modelagem/backlog.md#us36)
+* [L13](../Modelagem/lexicos.md#l13)
+* [L54](../Modelagem/lexicos.md#l54)
+
+**Elo:**
+
+### EF31
+
+**Elementos rastreáveis:**
+
+* [US38](../Modelagem/backlog.md#us38)
+* [L58](../Modelagem/lexicos.md#l58)
+
+**Elo:**
+
+### EF32
+
+**Elementos rastreáveis:**
+* [US39](../Modelagem/backlog.md#us39)
+* [L9](../Modelagem/lexicos#l9)
+* [L10](../Modelagem/lexicos#l10)
+
+**Elo:**
+
+### EF33
+
+**Elementos rastreáveis:**
+
+* [US40](../Modelagem/backlog.md#us40)
+* [C7](cenarios.md#c7-v2)
+* [DCU20](../Modelagem/diagramas.md#dcu20-v1)
+* [EC18](../Modelagem/especificacao.md/#ec18)
+* [ISD01](../Modelagem/istar#isd01-chat)
+* [ISR03](../Modelagem/istar#isr03-envio-de-mensagens)
+
+**Elo:**
+
+### EF34
+
+**Elementos rastreáveis:**
+
+* [US41](../Modelagem/backlog.md#us41)
+
+**Elo:**
+
 ### EF35
 
 **Elementos rastreáveis:**
