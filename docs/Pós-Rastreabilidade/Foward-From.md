@@ -10,9 +10,11 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 |RF2   |O aplicativo deve ser capaz de realizar videoconferências em grupo                                                                           | [US46](../Modelagem/backlog#us46)                                                                              | [EP11](../Modelagem/backlog#ep11-acoes-do-channel)                                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |RF3   |A aplicação deve oferecer ao usuário a possibilidade de entrar no app através de username e senha, previamente cadatrados no aplicativo      |[US01](../Modelagem/backlog.md#us01) [US02](../Modelagem/backlog.md#us02)                                       |[EP01](Modelagem/backlog.md/#ep01-fazer-login)                                                                           |[Login](#rf3_gif)  [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/LoginView.js)  [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/login.js)                                                                                                                                                                                                                              |
 |RF4   |O app deve permitir o cadastro na aplicação por contas de serviços de terceiros ou a partir de dados do usuário, como email, username e senha|[US03](../Modelagem/backlog.md#us03) [US04](../Modelagem/backlog.md#us04)                                       |[EP02](../Modelagem/backlog.md/#ep02-fazer-cadastro)                                                                     |[Cadastro](#rf4_gif)  [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RegisterView.js) [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/isValidEmail.js)                                                                                                                                                                                                                    |
-|RF5   |O usuário deve ter a disposição, a criação de canais, subgrupos de discussão e grupos, privados/publicos, ilimitados.                        |[US18](../Modelagem/backlog#us18), [US19](../Modelagem/backlog#us19), [US21](../Modelagem/backlog.md#us21)      |[EP08](../Modelagem/backlog.md/#ep08-criar-channel)                                                                      |[Criar channel](#rf5_gif) (Código)[https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/CreateChannelView.js] (Código)[https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/createChannel.js]                                                                                                                                                                                                        |
+|RF5   |O usuário deve ter a disposição, a criação de canais, subgrupos de discussão e grupos, privados/publicos, ilimitados.                        |[US18](../Modelagem/backlog#us18), [US19](../Modelagem/backlog#us19), [US21](../Modelagem/backlog.md#us21)      |[EP08](../Modelagem/backlog.md/#ep08-criar-channel)                                                                      |[Criar channel](#rf5_gif)
+[Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/CreateChannelView.js)
+[Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/createChannel.js)                                                                                                                                                                                                        |
 |RF6   |O usuário deve ser capaz de, dentro da plataforma, enviar mensagens dentro de grupos de conversa ou dentro de chats privados                 |[US20](../Modelagem/backlog#us20)                                                                               |[EP08](../Modelagem/backlog.md/#ep08-criar-channel)                                                                      |[Enviar mensagem](#rf6_gif) [Código - Método "sendMessage"](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js)                                                                                                                                                                                                                                                                                            |
-|RF7   |O usuário deve ser capaz de realizar uma busca de uma mensagem dentro de um determinado chat                                                 |[US48](../Modelagem/backlog#us48)                                                                               | [EP11](../Modelagem/backlog#ep11-acoes-do-channel)                                                                      |![Procurar mensagem]() [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/SearchMessagesView/index.js)                                                                                                                                                                                                                                                                                                       |
+|RF7   |O usuário deve ser capaz de realizar uma busca de uma mensagem dentro de um determinado chat                                                 |[US48](../Modelagem/backlog#us48)                                                                               | [EP11](../Modelagem/backlog#ep11-acoes-do-channel)                                                                      |[Procurar mensagem](#rf7_gif) [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/SearchMessagesView/index.js)                                                                                                                                                                                                                                                                                                       |
 |RF8   |O app deve oferecer a possibilidade do usuário instalar seu próprio servidor local.                                                          |[US65](../Modelagem/backlog#us65)                                                                               | [EP16](../Modelagem/backlog#ep16-conectar-com-um-servidor)                                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |RF9   |A plataforma deve permitir a integração de Bots                                                                                              |[US62](../Modelagem/backlog#us62)                                                                               | [EP14](../Modelagem/backlog#ep14-integrações)                                                                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |RF10  |A plataforma deve permitir a alteração nas configurações do app                                                                              |[US09](../Modelagem/backlog#us09)                                                                               | [EP05](../Modelagem/backlog#ep05-configurações-do-aplicativo)                                                           |![Configurações do app]() [Código](https://github.com/RocketChat/Rocket.Chat.ReacótNative/blob/develop/app/views/SettingsView/index.js) [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/markdown.js) [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/deviceInfo.js) [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/info.js)|
@@ -57,6 +59,14 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 ## Gifs
 
+### rf1_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf2_gif
+
+![](../img/PosRastreabilidade/)
+
 ### rf3_gif
 
 ![Login](../img/PosRastreabilidade/rf3.gif)
@@ -72,6 +82,130 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 ### rf6_gif
 
 ![Enviar Mensagem](../img/PosRastreabilidade/rf6.gif)
+
+### rf7_gif
+
+![Pesquisar Mensagem](../img/PosRastreabilidade/pesquisar_mensagem.gif)
+
+### rf8_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf9_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf10_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf11_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf12_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf13_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf14_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf15_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf16_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf17_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf18_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf19_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf20_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf21_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf22_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf23_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf24_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf25_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf26_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf27_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf28_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf29_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf30_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf31_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf32_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf33_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf34_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf35_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf36_gif
+
+![](../img/PosRastreabilidade/)
+
+### rf37_gif
+
+![](../img/PosRastreabilidade/)
 
 ## Versionamento
 
