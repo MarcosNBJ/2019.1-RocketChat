@@ -1325,6 +1325,87 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 * Representação: [US42](../Modelagem/backlog.md#us42) representa [L35](../Modelagem/lexicos.md#l35)
 * Recurso: [US42](../Modelagem/backlog.md#us42) depende de um recurso provido pelo [L34](../Modelagem/lexicos.md#l34), no caso, o channel favoritado
 
+### EF22
+
+**Elementos rastreáveis:**
+
+* [US22](../Modelagem/backlog.md#us22)
+* [C26](../Modelagem/cenarios.md/#c26)
+* [DCU8](../Modelagem/diagramas.md/#dcu8-v1)
+* [EC2](../Modelagem/especificacao.md/#ec2)
+* [L72](../Modelagem/lexicos.md#l72)
+
+**Elo:**
+
+* Representação: [C26](../Modelagem/cenarios.md/#c26) representa [US22](../Modelagem/backlog.md#us22)
+* Representação: [EC2](../Modelagem/especificacao.md/#ec2) representa [C26](../Modelagem/cenarios.md/#c26)
+* Representação:  [DCU8](../Modelagem/diagramas.md/#dcu8-v1)representa [L72](../Modelagem/lexicos.md#l72)
+* Recurso: [US22](../Modelagem/backlog.md#us22) depende de um recurso provido pelo [L72](../Modelagem/lexicos.md#l72), no caso, a privacidade do channel a ser alterada
+* Recurso: [C26](../Modelagem/cenarios.md/#c26) depende de um recurso provido pelo [L72](../Modelagem/lexicos.md#l72), no caso, a privacidade do channel a ser alterada
+
+### EF23
+
+**Elementos rastreáveis:**
+
+* [US23](../Modelagem/backlog.md#us23)
+* [C22](../Modelagem/cenarios.md/#c22)
+* [DCU9 ](../Modelagem/diagramas.md/#dcu9-v1)
+* [EC3](../Modelagem/especificacao.md/#ec3)
+* [L69](../Modelagem/lexicos.md#l69)
+
+**Elo:**
+
+* Representação: [US23](../Modelagem/backlog.md#us23) representa [C22](../Modelagem/cenarios.md/#c22)
+* Representação:  [DCU9 ](../Modelagem/diagramas.md/#dcu9-v1) representa [C22](../Modelagem/cenarios.md/#c22)
+* Recurso: [C22](../Modelagem/cenarios.md/#c22) depende de um recurso provido pelo [L69](../Modelagem/lexicos.md#l69), no caso, o Read-only channel
+* Recurso:  [US23](../Modelagem/backlog.md#us23) depende de um recurso provido pelo [L69](../Modelagem/lexicos.md#l69), no caso, o Read-only channel
+
+### EF24
+
+**Elementos rastreáveis:**
+
+* [US24](../Modelagem/backlog.md#us24)
+
+**Elo:**
+
+### EF25
+
+**Elementos rastreáveis:**
+
+* [US25](../Modelagem/backlog.md#us25)
+* [US26](../Modelagem/backlog.md#us26)
+* [US47](../Modelagem/backlog.md#us47)
+* [L33](../Modelagem/lexicos.md#l33)
+
+**Elo:**
+
+* Recurso: [US26](../Modelagem/backlog.md#us26) depende de um recurso provido pelo [L33](../Modelagem/lexicos.md#l33), no caso, o tópico a ser adicionado
+* Recurso: [US47](../Modelagem/backlog.md#us47) depende de um recurso provido pelo [L33](../Modelagem/lexicos.md#l33), no caso, o tópico a ser visualizado
+
+### EF26
+
+**Elementos rastreáveis:**
+
+* [US30](../Modelagem/backlog.md#us30)
+* [C8](../Modelagem/cenarios.md/#c8)
+* [DCU18](../Modelagem/diagramas.md/#dcu18-v1)
+* [EC17](../Modelagem/especificacao.md/#ec17)
+* [L43](../Modelagem/lexicos.md#l43)
+
+**Elo:**
+
+* Representação: [US30](../Modelagem/backlog.md#us30) representa [C8](../Modelagem/cenarios.md/#c8)
+* Representação: [EC17](../Modelagem/especificacao.md/#ec17) representa [C8](../Modelagem/cenarios.md/#c8)
+* Agregação: [DCU18](../Modelagem/diagramas.md/#dcu18-v1) é composto por [EC17](../Modelagem/especificacao.md/#ec17)
+
+### EF27
+
+**Elementos rastreáveis:**
+
+* [US31](../Modelagem/backlog.md#us31)
+
+**Elo:**
+
 ### EF35
 
 **Elementos rastreáveis:**
@@ -1363,3 +1444,4 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 | 16/06/2019 | 1.0 | Abertura do documento | Marcos Nery |
 | 17/06/2019 | 1.1 | Inclusão das tabelas inicias de requisitos | Marcos Nery |
 | 18/06/2019 | 1.2 | Inclusão dos elos | Marcos Nery |
+| 19/06/2019 | 1.3 | Inclusão dos elos | Weiller Fernandes |
