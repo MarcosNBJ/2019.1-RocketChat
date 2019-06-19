@@ -230,6 +230,7 @@ Suporte
 ![](../img/PosRastreabilidade/rnf2_02.gif)
 
 ![](../img/PosRastreabilidade/rnf2_01.gif)
+
 ## Versionamento
 
 | Data | Versão | Modificação | Autor |
