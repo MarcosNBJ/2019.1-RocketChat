@@ -1,4 +1,4 @@
-# Backward-From
+# Foward-From
 
 Neste documento busca-se construir a matriz de pós-rastreabilidade através da ótica Foward-From. Foram feitas duas tabelas, a primeira para requisitos funcionais e a segunda para os não funcionais. 
 
