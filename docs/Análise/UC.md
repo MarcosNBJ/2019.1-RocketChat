@@ -38,30 +38,11 @@ A fim de registrar os defeitos com os checklists para que sirvam como base para 
 
 ### Checklist - v2
 
-Neste checklist foi adicionado o item 13 para tornar mais completa a ánalise e uma tabela extra que contém critérios acerca da rastreabilidade do artefato, para que dessa forma fosse também possível avalia-lo na qualidade de artefato de requisitos.
+Neste checklist foi adicionado items extras que contém critérios acerca da rastreabilidade do artefato, para que dessa forma fosse também possível avalia-lo na qualidade de artefato de requisitos.
 
 |Nº|Critério|Impacto|
-|:--:|:--:|:--:|
-| 1  | A descrição de caso de uso é a de um caso de uso representado no diagrama? | Alto |
-| 2  | A descrição de caso de uso contém nome do caso de uso, nome do ator, fluxo básico e alternativo? | Alto |
-| 3  | As frases utilizam o tempo presente? | Baixo |
-| 4  | As frases representam um diálogo entre ator e sistema, evidenciando a ação do ator e a resposta do sistema? | Médio |
-| 5  | As frases se utilizam de subtítulos para comunicar as idéias chaves dos fluxos de forma mais clara? | Baixo |
-| 6  | As frases são construídas em voz ativa? (ex.: “Sistema valida a quantia informada” em vez de “A quantia informada deve ser validada pelo sistema”). | Baixo |
-| 7  | São evitados termos sem quantificação precisa, como “muito”, “pouco”, “adequado”, “claro”, “fácil” “longo”, “curto”, “rápido” “etc”? | Médio |
-| 8  | Os termos passíveis de mais de uma interpretação constam em glossário, com clara definição? | Alto |
-| 9  | Uma vez utilizado um termo, ele é mantido para referenciar-se ao mesmo elemento? | Médio |
-| 10 | São evitados termos que indicam a prematura especificação de interface, tais como “clicar” “botão” etc?| Baixo |
-| 11 | As funcionalidades se restringem ao quê o sistema deve fazer e não em como, evitando a definição explícita de código na especificação? | Médio |
-| 12 | A descrição evita requisitos de negócio sem ação direta ao sistema? | Médio |
-| 13 | Há presença de breve descrição de caso de uso, que especifique de forma clara o seu propósito? | Baixo |
-| 14 | O fluxo básico está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação? | Alto |
-| 15 | O fluxo alternativo está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação? | Alto |
-| 16 | As frases são numeradas para que possibilitem a rastreabilidade? | Alto |
-| 17 | Os fluxos de exceção são corretamente descritos?  | Médio |
 |    | **Pré-rastreabilidade** |    |
 | 18 | Existe rastro no artefato? | Alto |
-| 19 | O artefato possuí versionamento? | Alto |
 
 ### Registro de inspeção de Caso de Uso
 
@@ -121,7 +102,6 @@ Para o registro de inspeção deve seguir a seguinte tabelas:
 | 17 | Médio |   |   |   |          |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   |   |   |          |
-| 19 | Alto  |   |   |   |          |
 
 ### Medição da inspeção
 
@@ -142,10 +122,10 @@ A metodologia e as métricas utilizadas para melhor inspeção dos casos de usos
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
+|Alta      | 3 | 7  | 21 |   |    |        | Aprovado ou Reprovado |
 |Média     | 2 | 6  | 12 |   |    |        |   |
 |Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 19 | 41 |   |    |        |   |
+|**Total:**|   | 18 | 38 |   |    |        |   |
 |Critério de aceitação:|30%|
 
 ### Inspeção
@@ -179,7 +159,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxos de exceções incompletos, não descrevem as ações do sistema |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultado V01__
 
@@ -194,11 +173,11 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 * __Resultado V02__
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|----|----|---|---|--------|---|
-|Alta      | 3 | 8  | 24 | 1 | 3 | 22.86% | Aprovado |
-|Média     | 2 | 6  | 12 | 2 | 4 |        |   |
-|Baixa     | 1 | 5  | 5  | 1 | 1 |        |   |
-|**Total:**|   | 19 | 41 | 4 | 8 |        |   |
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 7  | 21 | 1 | 3  | 21.05% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 18 | 38 | 4 | 8  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-02
@@ -228,7 +207,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   | x |   |          |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resulados V01__
 
@@ -244,10 +222,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
-|Média     | 2 | 6  | 12 |   |    |        |   |
-|Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 19 | 41 |   |    |        |   |
+|Alta      | 3 | 7  | 21 | 3 | 9  | 31.58% | Reprovado |
+|Média     | 2 | 6  | 12 | 1 | 2  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 18 | 38 | 5 | 12 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-03
@@ -277,7 +255,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   | x |   |          |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -293,10 +270,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
-|Média     | 2 | 6  | 12 |   |    |        |   |
-|Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 19 | 41 |   |    |        |   |
+|Alta      | 3 | 7  | 21 | 3 | 9  | 31.58% | Reprovado |
+|Média     | 2 | 6  | 12 | 1 | 2  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 18 | 38 | 3 | 12 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-04
@@ -326,7 +303,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   | x |   |          |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -342,10 +318,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
-|Média     | 2 | 6  | 12 |   |    |        |   |
-|Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 19 | 41 |   |    |        |   |
+|Alta      | 3 | 7  | 21 | 0 | 0  | 7.89%  | Aprovado |
+|Média     | 2 | 6  | 12 | 1 | 2  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 18 | 38 | 2 | 3  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-05
@@ -375,7 +351,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxos de exceções incompletos, deve ser descrito as ações do sistema após a exceção e não as ações do usuário |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -391,10 +366,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
-|Média     | 2 | 6  | 12 |   |    |        |   |
-|Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 19 | 41 |   |    |        |   |
+|Alta      | 3 | 7  | 21 | 0 | 0  | 13.16% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 18 | 38 | 4 | 5  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-06
@@ -424,7 +399,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxo de exceção incompleto, exceção 2 não é uma exceção do sistema |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -440,10 +414,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
-|Média     | 2 | 6  | 12 |   |    |        |   |
-|Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 19 | 41 |   |    |        |   |
+|Alta      | 3 | 7  | 21 | 0 | 0  | 13.16% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 18 | 38 | 3 | 5  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-07
@@ -473,13 +447,12 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxos de exceções incompletos, não descrevem as ações do sistema |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 6  | 18 | 0 | 0  | 14.29% |Aprovado |
+|Alta      | 3 | 6  | 18 | 0 | 0  | 14.29% | Aprovado |
 |Média     | 2 | 6  | 12 | 2 | 4  |        |   |
 |Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
 |**Total:**|   | 17 | 35 | 3 | 5  |        |   |
@@ -489,10 +462,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
-|Média     | 2 | 6  | 12 |   |    |        |   |
-|Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 19 | 41 |   |    |        |   |
+|Alta      | 3 | 7  | 21 | 0 | 0  | 13.16% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 18 | 38 | 3 | 5  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-08
@@ -522,7 +495,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxos de exceções incompletos, não descrevem as ações do sistema |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -538,10 +510,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
-|Média     | 2 | 6  | 12 |   |    |        |   |
-|Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 19 | 41 |   |    |        |   |
+|Alta      | 3 | 7  | 21 | 3 | 9  | 36.68% | Reprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 18 | 38 | 6 | 14 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-09
@@ -571,7 +543,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxos de exceções incompletos |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -587,10 +558,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
-|Média     | 2 | 6  | 12 |   |    |        |   |
-|Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 19 | 41 |   |    |        |   |
+|Alta      | 3 | 7  | 21 | 2 | 6  | 28.94% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 18 | 38 | 5 | 11 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-10
@@ -620,7 +591,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   | x |   | Talvez pudesse ter um complemento nas exceções |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -636,10 +606,10 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
-|Média     | 2 | 6  | 12 |   |    |        |   |
-|Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 19 | 41 |   |    |        |   |
+|Alta      | 3 | 7  | 21 | 2 | 6  | 23.69% | Aprovado |
+|Média     | 2 | 6  | 12 | 1 | 2  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 18 | 38 | 4 | 9  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-11
@@ -669,7 +639,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   | x |   | Talvez pudesse ter um complemento nas exceções |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -679,6 +648,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 1 |  2  |        |   |
 |Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
 |**Total:**|   | 17 | 35 | 3 |  8  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 1 |  3  | 21.05% | Aprovado |
+|Média     | 2 | 6  | 12 | 1 |  2  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
+|**Total:**|   | 18 | 38 | 3 |  8  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-12
@@ -708,17 +687,8 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxos de Exceção incompletos |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
-
-|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 1 |  3  | 20.00% | Aprovado  |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 0 |  0  |
-|**Total:**|   | 17| 41 | 3 |  7  |
-| Critério de aceitação: | 30%    |
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|-----|--------|---|
@@ -726,6 +696,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
 |**Total:**|   | 17 | 35 | 3 |  7  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 1 |  3  | 18.42% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
+|**Total:**|   | 18 | 38 | 3 |  7  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-13
@@ -753,9 +733,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 15 | Alto  |   | x |   |          |
 | 16 | Alto  |   | x |   |          |
 | 17 | Médio |   | x |   |          |
-|    | **Pré-rastreabilidade**  |   |   |   |          |
-| 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -792,9 +769,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 15 | Alto  |   | x |   |          |
 | 16 | Alto  |   | x |   |          |
 | 17 | Médio |   | x |   |          |
-|    | **Pré-rastreabilidade**  |   |   |   |          |
-| 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -833,7 +807,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   | x |   |          |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -843,6 +816,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 0 | 0  |        |   |
 |Baixa     | 1 | 5  | 5  | 2 | 2  |        |   |
 |**Total:**|   | 17 | 35 | 4 | 8  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 7  | 21 | 2 | 6  | 21.05% | Aprovado |
+|Média     | 2 | 6  | 12 | 0 | 0  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 | 2  |        |   |
+|**Total:**|   | 18 | 38 | 4 | 8  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-14
@@ -872,7 +855,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   | x |   |          |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -882,6 +864,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 0 |  0 |        |   |
 |Baixa     | 1 | 5  | 5  | 1 |  1 |        |   |
 |**Total:**|   | 17 | 35 | 1 |  1 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 7  | 21 | 0 |  0 | 2.63%  | Aprovado |
+|Média     | 2 | 6  | 12 | 0 |  0 |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1 |        |   |
+|**Total:**|   | 18 | 38 | 1 |  1 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-15
@@ -911,7 +903,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxos de exceções não mostra as ações que o sistema executa para orientar o usuário |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -921,6 +912,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
 |**Total:**|   | 17 | 35 | 4 |  10 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 2 |  6  | 26.31% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
+|**Total:**|   | 18 | 38 | 4 |  10 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-16
@@ -950,7 +951,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxos de exceções não mostram as ações que o sistema executa para orientar o usuário |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -960,6 +960,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
 |**Total:**|   | 17 | 35 | 4 |  8  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 1 |  3  | 21.05% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
+|**Total:**|   | 18 | 38 | 4 |  8  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-17
@@ -989,7 +999,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |  |   |          |
 
 * __Resultados V01__
 
@@ -999,6 +1008,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
 |**Total:**|   | 17 | 35 | 5 |  11 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 2 |  6  | 28.95% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
+|**Total:**|   | 18 | 38 | 5 |  11 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-18
@@ -1028,7 +1047,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -1038,6 +1056,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
 |**Total:**|   | 17 | 35 | 6 |  14 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 3 |  9  | 36.84% | Reprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
+|**Total:**|   | 18 | 38 | 6 |  14 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-19
@@ -1067,7 +1095,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -1077,6 +1104,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
 |**Total:**|   | 17 | 35 | 5 |  14 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 2 |  6  | 36.84% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
+|**Total:**|   | 18 | 38 | 5 |  14 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-20
@@ -1106,7 +1143,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -1116,6 +1152,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 3 |  6  |        |   |
 |Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
 |**Total:**|   | 17 | 35 | 7 |  14 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 2 |  6  | 36.84% | Aprovado |
+|Média     | 2 | 6  | 12 | 3 |  6  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
+|**Total:**|   | 18 | 38 | 7 |  14 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-21
@@ -1145,7 +1191,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -1155,6 +1200,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
 |**Total:**|   | 17 | 35 | 6 |  12 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 2 |  6  | 31.58  | Reprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
+|**Total:**|   | 18 | 38 | 6 |  12 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-22
@@ -1184,7 +1239,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -1194,6 +1248,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
 |**Total:**|   | 17 | 35 | 6 |  12 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 2 |  6  | 31.58% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
+|**Total:**|   | 18 | 38 | 6 |  12 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-23
@@ -1223,7 +1287,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -1233,6 +1296,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
 |**Total:**|   | 17 | 35 | 5 |  9  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 1 |  3  | 23.68% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
+|**Total:**|   | 18 | 38 | 5 |  9  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-24
@@ -1262,7 +1335,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   |   | x | Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados V01__
 
@@ -1272,6 +1344,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
 |**Total:**|   | 17 | 35 | 3 |  7  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 1 |  3  | 18.42% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
+|**Total:**|   | 18 | 38 | 3 |  7  |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-25
@@ -1301,7 +1383,6 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 17 | Médio |   | x |   | Finalmente outra especificação com exceção correta. Poderia ter outras exceções para complementar |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
-| 19 | Alto  | x |   |   |          |
 
 * __Resultados v01__
 
@@ -1311,6 +1392,16 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Média     | 2 | 6  | 12 | 0 |  0  |        |   |
 |Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
 |**Total:**|   | 17 | 35 | 3 |  9  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 7  | 21 | 3 |  9  | 23.68% | Aprovado |
+|Média     | 2 | 6  | 12 | 0 |  0  |        |   |
+|Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
+|**Total:**|   | 18 | 38 | 3 |  9  |        |   |
 |Critério de aceitação:|30%|
 
 ## Referências
