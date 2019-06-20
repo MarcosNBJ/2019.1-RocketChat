@@ -160,7 +160,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
 
-* __Resultado V01__
+* __Resultados V01__
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
@@ -170,7 +170,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 17 | 35 | 4 | 8  |        |   |
 |Critério de aceitação:|30%|
 
-* __Resultado V02__
+* __Resultados V02__
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
@@ -284,7 +284,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Nº  |Impacto|N/A|Sim|Não|Observação|
 |----|-------|---|---|---|----------|
-| 1  | Alto  |   |   |   |          |
+| 1  | Alto  |   | x |   |          |
 | 2  | Alto  |   | x |   |          |
 | 3  | Baixo |   | x |   |          |
 | 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
@@ -442,7 +442,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 12 | Médio |   | x |   |          |
 | 13 | Baixo |   | x |   |          |
 | 14 | Alto  |   | x |   |          |
-| 15 | Alto  |   |   |   |          |
+| 15 | Alto  |   | x |   |          |
 | 16 | Alto  |   | x |   |          |
 | 17 | Médio |   |   | x | Fluxos de exceções incompletos, não descrevem as ações do sistema |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
@@ -1206,7 +1206,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|-----|--------|---|
-|Alta      | 3 | 7  | 21 | 2 |  6  | 31.58  | Reprovado |
+|Alta      | 3 | 7  | 21 | 2 |  6  | 31.58%  | Reprovado |
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
 |**Total:**|   | 18 | 38 | 6 |  12 |        |   |
@@ -1254,7 +1254,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|-----|--------|---|
-|Alta      | 3 | 7  | 21 | 2 |  6  | 31.58% | Aprovado |
+|Alta      | 3 | 7  | 21 | 2 |  6  | 31.58% | Reprovado |
 |Média     | 2 | 6  | 12 | 2 |  4  |        |   |
 |Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
 |**Total:**|   | 18 | 38 | 6 |  12 |        |   |
@@ -1380,7 +1380,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 14 | Alto  |   | x |   |          |
 | 15 | Alto  |   |   | x | Fluxo alternativo não faz parte do caso de uso |
 | 16 | Alto  |   | x |   |          |
-| 17 | Médio |   | x |   | Finalmente outra especificação com exceção correta. Poderia ter outras exceções para complementar |
+| 17 | Médio |   | x |   |          |
 |    | **Pré-rastreabilidade**  |   |   |   |          |
 | 18 | Alto  |   | x |   |          |
 
@@ -1404,6 +1404,49 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |**Total:**|   | 18 | 38 | 3 |  9  |        |   |
 |Critério de aceitação:|30%|
 
+## Resultados
+
+### RV1
+
+Resultados com a primeira versão da checklist
+
+* Modelos analisados: 25
+* Modelos reprovados: 9
+* Média de pontuação dos defeitos: 4.2, ou cerca de 26,4%. De forma geral abaixo da tolerância máxima, que foi admitida como sendo de 30%.
+
+### RV2
+
+Resultados com a segunda versão da checklist
+
+* Modelos analisados: 25
+* Modelos reprovados: 5
+* Média de pontuação dos defeitos: 4.2, ou cerca de 24,03%. De forma geral abaixo da tolerância máxima, que foi admitida como sendo de 30%.
+
+A maioria das especificações foram aprovadas tanto na primeira checklist, quanto depois com a adição do importante critério de rastreabilidade que fez com que a nota de todas as especificações aumentassem, pois esse é um padrão seguido em todos os artefatos produzidos pela equipe.
+
+A seguir, segue uma tabela para analisar a contagem de erros para cada questão. Percebe-se que os principais erros são referentes a uma fala nas especificações dos casos de uso que evocavam a prematura especificação de interface (que não deve ser tratada neste artefato). Outro erro bem recorrente está na falta de frases que representam um diálogo entre ator e sistema, além de fluxos alternativos auxentes ou incompletos, principalmente nos fluxos de exceção.
+
+|Nº  |Impacto| Quantidade de erros |
+|----|-------|----|
+| 1  | Alto  | 6  |
+| 2  | Alto  | 3  |
+| 3  | Baixo | 0  |
+| 4  | Médio | 21 |
+| 5  | Baixo | 0  |
+| 6  | Baixo | 5  |
+| 7  | Médio | 0  |
+| 8  | Alto  | 16 |
+| 9  | Médio | 1  |
+| 10 | Baixo | 21 |
+| 11 | Médio | 0  |
+| 12 | Médio | 0  |
+| 13 | Baixo | 0  |
+| 14 | Alto  | 2  |
+| 15 | Alto  | 11 |
+| 16 | Alto  | 0  |
+| 17 | Médio | 17 |
+| 18 | Alto  | 0  |
+
 ## Referências
 
 [1] - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf. Acesso em: 05 jun. 2019.
@@ -1424,3 +1467,4 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 08/06/2019 | 1.6 | Adição das IUC21 - IUC25 | Lucas Maciel |
 | 10/06/2019 | 1.7 | Adição da ICU13 - v2 | André Lucas |
 | 10/06/2019 | 1.8 | Adição de rastreabilidade e atualização de checklists | André Lucas |
+| 20/06/2019 | 1.9 | Adição dos resultados gerais da Análise V02 | Lucas Maciel |
