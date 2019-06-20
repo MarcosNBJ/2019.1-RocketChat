@@ -30,10 +30,11 @@ A fim de registrar os defeitos com os checklists para que sirvam como base para 
 | 10 | São evitados termos que indicam a prematura especificação de interface, tais como “clicar” “botão” etc?| Baixo |
 | 11 | As funcionalidades se restringem ao quê o sistema deve fazer e não em como, evitando a definição explícita de código na especificação? | Médio |
 | 12 | A descrição evita requisitos de negócio sem ação direta ao sistema? | Médio |
-| 13 | O fluxo básico está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação? | Alto |
-| 14 | O fluxo alternativo está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação? | Alto |
-| 15 | As frases são numeradas para que possibilitem a rastreabilidade? | Alto |
-| 16 | Os fluxos de exceção são corretamente descritos?  | Médio |
+| 13 | Há presença de breve descrição de caso de uso, que especifique de forma clara o seu propósito? | Baixo |
+| 14 | O fluxo básico está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação? | Alto |
+| 15 | O fluxo alternativo está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação? | Alto |
+| 16 | As frases são numeradas para que possibilitem a rastreabilidade? | Alto |
+| 17 | Os fluxos de exceção são corretamente descritos?  | Médio |
 
 ### Checklist - v2
 
@@ -87,10 +88,11 @@ Para o registro de inspeção deve seguir a seguinte tabelas:
 | 10 | Baixo |   |   |   |          |
 | 11 | Médio |   |   |   |          |
 | 12 | Médio |   |   |   |          |
-| 13 | Alto  |   |   |   |          |
+| 13 | Baixo |   |   |   |          |
 | 14 | Alto  |   |   |   |          |
 | 15 | Alto  |   |   |   |          |
-| 16 | Médio |   |   |   |          |
+| 16 | Alto  |   |   |   |          |
+| 17 | Médio |   |   |   |          |
 
 #### RIUC - v2
 
@@ -132,8 +134,8 @@ A metodologia e as métricas utilizadas para melhor inspeção dos casos de usos
 |----------|---|----|----|---|----|--------|---|
 |Alta      | 3 | 6  | 18 |   |    |        |Aprovado ou Reprovado |
 |Média     | 2 | 6  | 12 |   |    |        |   |
-|Baixa     | 1 | 4  | 4  |   |    |        |   |
-|**Total:**|   | 16 | 34 |   |    |        |   |
+|Baixa     | 1 | 5  | 5  |   |    |        |   |
+|**Total:**|   | 17 | 35 |   |    |        |   |
 |Critério de aceitação:|30%|
 
 #### MIUC - v2
@@ -143,7 +145,7 @@ A metodologia e as métricas utilizadas para melhor inspeção dos casos de usos
 |Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
 |Média     | 2 | 6  | 12 |   |    |        |   |
 |Baixa     | 1 | 5  | 5  |   |    |        |   |
-|**Total:**|   | 17 | 41 |   |    |        |   |
+|**Total:**|   | 19 | 41 |   |    |        |   |
 |Critério de aceitação:|30%|
 
 ### Inspeção
@@ -179,12 +181,24 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultado V01__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 1 | 3  | 22.86% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 17 | 35 | 4 | 8  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultado V02__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|---|--------|---|
 |Alta      | 3 | 8  | 24 | 1 | 3 | 22.86% | Aprovado |
 |Média     | 2 | 6  | 12 | 2 | 4 |        |   |
 |Baixa     | 1 | 5  | 5  | 1 | 1 |        |   |
-|**Total:**|   | 17 | 41 | 4 | 8 |        |   |
+|**Total:**|   | 19 | 41 | 4 | 8 |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-02
@@ -216,12 +230,24 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resulados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 | 3 | 9  | 34.29% | Reprovado |
+|Alta      | 3 | 6  | 18 | 3 | 9  | 34.29% | Reprovado |
 |Média     | 2 | 6  | 12 | 1 | 2  |        |   |
 |Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
-|**Total:**|   | 17 | 41 | 5 | 12 |        |   |
+|**Total:**|   | 17 | 35 | 5 | 12 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
+|Média     | 2 | 6  | 12 |   |    |        |   |
+|Baixa     | 1 | 5  | 5  |   |    |        |   |
+|**Total:**|   | 19 | 41 |   |    |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-03
@@ -253,12 +279,24 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|----|----|---|----|--------|---|
-|Alta      | 3 | 8  | 24 | 3 | 9  | 34.29% | Reprovado |
+|Alta      | 3 | 6  | 18 | 3 | 9  | 34.29% | Reprovado |
 |Média     | 2 | 6  | 12 | 1 | 2  |        |   |
 |Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
-|**Total:**|   | 17 | 41 | 3 | 12 |        |   |
+|**Total:**|   | 17 | 35 | 3 | 12 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
+|Média     | 2 | 6  | 12 |   |    |        |   |
+|Baixa     | 1 | 5  | 5  |   |    |        |   |
+|**Total:**|   | 19 | 41 |   |    |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-04
@@ -290,12 +328,24 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|----|----|---|---|--------|---|
-|Alta      | 3 | 8  | 24 | 0 | 0 | 8.57%  | Aprovado |
-|Média     | 2 | 6  | 12 | 1 | 2 |        |   |
-|Baixa     | 1 | 5  | 5  | 1 | 1 |        |   |
-|**Total:**|   | 17 | 41 | 2 | 3 |        |   |
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 0 | 0  | 8.57%  | Aprovado |
+|Média     | 2 | 6  | 12 | 1 | 2  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 17 | 35 | 2 | 3  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados v02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
+|Média     | 2 | 6  | 12 |   |    |        |   |
+|Baixa     | 1 | 5  | 5  |   |    |        |   |
+|**Total:**|   | 19 | 41 |   |    |        |   |
 |Critério de aceitação:|30%|
 
 #### IUC-05
@@ -306,7 +356,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Nº  |Impacto|N/A|Sim|Não|Observação|
 |----|-------|---|---|---|----------|
-| 1  | Alto  |   | x |   | A especificação de uso está se referindo á um tema no diagrama e não a um caso de uso |
+| 1  | Alto  |   | x |   |          |
 | 2  | Alto  |   | x |   |          |
 | 3  | Baixo |   | x |   |          |
 | 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
@@ -327,13 +377,25 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 8 | 24 | 1 |  3  | 22.86% | Aprovado |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 4 |  8  |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 0 | 0  | 14.29% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 17 | 35 | 4 | 5  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
+|Média     | 2 | 6  | 12 |   |    |        |   |
+|Baixa     | 1 | 5  | 5  |   |    |        |   |
+|**Total:**|   | 19 | 41 |   |    |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-06
 
@@ -364,13 +426,25 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 8 | 24 | 0 |  0  | 14.29% | Aprovado |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 3 |  5  |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 0 | 0  | 14.29% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 17 | 35 | 3 | 5  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
+|Média     | 2 | 6  | 12 |   |    |        |   |
+|Baixa     | 1 | 5  | 5  |   |    |        |   |
+|**Total:**|   | 19 | 41 |   |    |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-07
 
@@ -401,13 +475,25 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|----------|
-|Alta      | 3 | 8 | 24 | 0 |  0  | 14.29% | Aprovado |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 3 |  5  |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 0 | 0  | 14.29% |Aprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 17 | 35 | 3 | 5  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
+|Média     | 2 | 6  | 12 |   |    |        |   |
+|Baixa     | 1 | 5  | 5  |   |    |        |   |
+|**Total:**|   | 19 | 41 |   |    |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-08
 
@@ -438,13 +524,25 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 3 |  9  | 40.00% | Reprovado |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 6 |  14 |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 3 | 9  | 40.00% | Reprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 17 | 35 | 6 | 14 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
+|Média     | 2 | 6  | 12 |   |    |        |   |
+|Baixa     | 1 | 5  | 5  |   |    |        |   |
+|**Total:**|   | 19 | 41 |   |    |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-09
 
@@ -475,13 +573,25 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 2 |  6  | 31.43% | Reprovado |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 5 |  11 |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 2 | 6  | 31.43% | Reprovado |
+|Média     | 2 | 6  | 12 | 2 | 4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 17 | 35 | 5 | 11 |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
+|Média     | 2 | 6  | 12 |   |    |        |   |
+|Baixa     | 1 | 5  | 5  |   |    |        |   |
+|**Total:**|   | 19 | 41 |   |    |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-10
 
@@ -512,13 +622,25 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 2 |  6  | 25.71% | Aprovado  |
-|Média     | 2 | 6 | 12 | 1 |  2  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 5 |  11 |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 2 | 6  | 25.71% | Aprovado |
+|Média     | 2 | 6  | 12 | 1 | 2  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 | 1  |        |   |
+|**Total:**|   | 17 | 35 | 4 | 9  |        |   |
+|Critério de aceitação:|30%|
+
+* __Resultados V02__
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 8  | 24 |   |    |        |Aprovado ou Reprovado |
+|Média     | 2 | 6  | 12 |   |    |        |   |
+|Baixa     | 1 | 5  | 5  |   |    |        |   |
+|**Total:**|   | 19 | 41 |   |    |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-11
 
@@ -549,13 +671,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 1 |  3  | 22.86% | Aprovado  |
-|Média     | 2 | 6 | 12 | 1 |  2  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 3 |  8  |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 1 |  3  | 22.86% | Aprovado |
+|Média     | 2 | 6  | 12 | 1 |  2  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
+|**Total:**|   | 17 | 35 | 3 |  8  |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-12
 
@@ -586,6 +710,8 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
 |----------|---|---|----|---|-----|--------|-----------|
 |Alta      | 3 | 8 | 24 | 1 |  3  | 20.00% | Aprovado  |
@@ -593,6 +719,14 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 |Baixa     | 1 | 5 | 5  | 0 |  0  |
 |**Total:**|   | 17| 41 | 3 |  7  |
 | Critério de aceitação: | 30%    |
+
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 1 |  3  | 20.00% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
+|**Total:**|   | 17 | 35 | 3 |  7  |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-13
 
@@ -602,7 +736,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Nº  |Impacto|N/A|Sim|Não|Observação|
 |----|-------|---|---|---|----------|
-| 1  | Alto  |   | x |   | No diagrama não há um caso de uso especifico de "Pesquisa de mensagem" |
+| 1  | Alto  |   |   | x | No diagrama não há um caso de uso especifico de "Pesquisa de mensagem" |
 | 2  | Alto  |   | x |   |          |
 | 3  | Baixo |   | x |   |          |
 | 4  | Médio |   |   | x | Não apresenta a resposta do sistema ao usuário |
@@ -623,15 +757,17 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
-|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 1 |  3  | 20.00% | Aprovado  |
-|Média     | 2 | 6 | 12 | 1 |  2  |
-|Baixa     | 1 | 5 | 5  | 2 |  2  |
-|**Total:**|   | 17| 41 | 4 |  7  |
-| Critério de aceitação: | 30%    |
+* __Resultados V01__
 
-#### IUC-13 - v2
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 1 |  6  | 28.57% | Aprovado |
+|Média     | 2 | 6  | 12 | 1 |  2  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
+|**Total:**|   | 17 | 35 | 4 |  7  |        |   |
+|Critério de aceitação:|30%|
+
+#### IUC-13 - Reavaliação
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -660,15 +796,17 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
-|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 1 |  3  | 14.28% | Aprovado  |
-|Média     | 2 | 6 | 12 | 0 |  0  |
-|Baixa     | 1 | 5 | 5  | 2 |  2  |
-|**Total:**|   | 17| 41 | 3 |  5  |
-| Critério de aceitação: | 30%    |
+* __Resultados V01__
 
-#### IUC-13 - v3
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 1 |  3  | 14.28% | Aprovado |
+|Média     | 2 | 6  | 12 | 0 |  0  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
+|**Total:**|   | 17 | 35 | 3 |  5  |        |   |
+|Critério de aceitação:|30%|
+
+#### IUC-13 - v2
 
 |Nome do Caso de Uso|Data da inspeção|Responsável pela inspeção|
 |-------------------|----------------|-------------------------|
@@ -676,7 +814,7 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 
 |Nº  |Impacto|N/A|Sim|Não|Observação|
 |----|-------|---|---|---|----------|
-| 1  | Alto  |   | x |   | No diagrama não há um caso especifico de "Pesquisa de mensagem" |
+| 1  | Alto  |   |   | x | No diagrama não há um caso especifico de "Pesquisa de mensagem" |
 | 2  | Alto  |   | x |   |          |
 | 3  | Baixo |   | x |   |          |
 | 4  | Médio |   | x |   | No item 5 do fluxo evidencia o retorno do sistema: "Mensagens relacionadas ao que foi pesquisado são retornadas para o usuário" |
@@ -697,13 +835,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 1 |  3  | 14.28% | Aprovado  |
-|Média     | 2 | 6 | 12 | 0 |  0  |
-|Baixa     | 1 | 5 | 5  | 2 |  2  |
-|**Total:**|   | 17| 41 | 3 |  5  |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 2 | 6  | 22.86% | Aprovado |
+|Média     | 2 | 6  | 12 | 0 | 0  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 | 2  |        |   |
+|**Total:**|   | 17 | 35 | 4 | 8  |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-14
 
@@ -734,14 +874,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
-|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 0 |  0  | 2.86%  | Aprovado  |
-|Média     | 2 | 6 | 12 | 0 |  0  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 1 |  1  |
-| Critério de aceitação: | 30%    |
+* __Resultados V01__
 
+|Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
+|----------|---|----|----|---|----|--------|---|
+|Alta      | 3 | 6  | 18 | 0 |  0 | 2.86%  | Aprovado |
+|Média     | 2 | 6  | 12 | 0 |  0 |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1 |        |   |
+|**Total:**|   | 17 | 35 | 1 |  1 |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-15
 
@@ -772,13 +913,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 2 |  6  | 28.57% | Aprovado  |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 0 |  0  |
-|**Total:**|   | 17| 41 | 4 |  10  |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 2 |  6  | 28.57% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
+|**Total:**|   | 17 | 35 | 4 |  10 |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-16
 
@@ -809,13 +952,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 1 |  3  | 22.86% | Aprovado  |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 4 |  8  |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 1 |  3  | 22.86% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
+|**Total:**|   | 17 | 35 | 4 |  8  |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-17
 
@@ -846,13 +991,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |  |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 2 |  6  | 31.43% | Reprovado |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 5 |  11 |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 2 |  6  | 31.43% | Reprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
+|**Total:**|   | 17 | 35 | 5 |  11 |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-18
 
@@ -883,13 +1030,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 3 |  9  | 40.00% | Reprovado |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 6 |  14 |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 3 |  9  | 40.00% | Reprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
+|**Total:**|   | 17 | 35 | 6 |  14 |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-19
 
@@ -920,13 +1069,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 2 |  6  | 40.00% | Reprovado |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 1 |  1  |
-|**Total:**|   | 17| 41 | 5 |  14 |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 2 |  6  | 40.00% | Reprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 1 |  1  |        |   |
+|**Total:**|   | 17 | 35 | 5 |  14 |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-20
 
@@ -957,13 +1108,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 2 |  6  | 40.00% | Reprovado |
-|Média     | 2 | 6 | 12 | 3 |  6  |
-|Baixa     | 1 | 5 | 5  | 2 |  2  |
-|**Total:**|   | 17| 41 | 7 |  14 |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 2 |  6  | 40.00% | Reprovado |
+|Média     | 2 | 6  | 12 | 3 |  6  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
+|**Total:**|   | 17 | 35 | 7 |  14 |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-21
 
@@ -994,13 +1147,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 2 |  6  | 34.29% | Reprovado |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 2 |  2  |
-|**Total:**|   | 17| 41 | 6 |  12 |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 2 |  6  | 34.29% | Reprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
+|**Total:**|   | 17 | 35 | 6 |  12 |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-22
 
@@ -1031,13 +1186,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 2 |  6  | 34.29% | Reprovado |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 2 |  2  |
-|**Total:**|   | 17| 41 | 6 |  12 |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 2 |  6  | 34.29% | Reprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
+|**Total:**|   | 17 | 35 | 6 |  12 |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-23
 
@@ -1068,13 +1225,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 1 |  3  | 25.71% | Aprovado  |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 2 |  2  |
-|**Total:**|   | 17| 41 | 5 |  9 |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 1 |  3  | 25.71  | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 2 |  2  |        |   |
+|**Total:**|   | 17 | 35 | 5 |  9  |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-24
 
@@ -1105,13 +1264,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados V01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 1 |  3  | 20.00% | Aprovado  |
-|Média     | 2 | 6 | 12 | 2 |  4  |
-|Baixa     | 1 | 5 | 5  | 0 |  0  |
-|**Total:**|   | 17| 41 | 3 |  7  |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 1 |  3  | 20.00% | Aprovado |
+|Média     | 2 | 6  | 12 | 2 |  4  |        |   |
+|Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
+|**Total:**|   | 17 | 35 | 3 |  7  |        |   |
+|Critério de aceitação:|30%|
 
 #### IUC-25
 
@@ -1142,13 +1303,15 @@ A seguir podem ser vistas as inspeções individuais de cada caso de uso previam
 | 18 | Alto  |   | x |   |          |
 | 19 | Alto  | x |   |   |          |
 
+* __Resultados v01__
+
 |Impacto|Peso|Questões Aplicadas|Peso das questões aplicadas|Não-conformidades encontradas|Peso das não-conformidades encontradas| Resultado quantitativo|Descrição do resultado quantitativo|
-|----------|---|---|----|---|-----|--------|-----------|
-|Alta      | 3 | 8 | 24 | 3 |  9  | 25.71% | Aprovado  |
-|Média     | 2 | 6 | 12 | 0 |  0  |
-|Baixa     | 1 | 5 | 5  | 0 |  0  |
-|**Total:**|   | 17| 41 | 3 |  9  |
-| Critério de aceitação: | 30%    |
+|----------|---|----|----|---|-----|--------|---|
+|Alta      | 3 | 6  | 18 | 3 |  9  | 25.71% | Aprovado |
+|Média     | 2 | 6  | 12 | 0 |  0  |        |   |
+|Baixa     | 1 | 5  | 5  | 0 |  0  |        |   |
+|**Total:**|   | 17 | 35 | 3 |  9  |        |   |
+|Critério de aceitação:|30%|
 
 ## Referências
 
