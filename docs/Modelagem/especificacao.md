@@ -2,7 +2,6 @@
 
 Aqui estão listadas as especificações de casos de uso, que, sendo baseadas cada uma em seu respectivo diagrama de caso de uso, buscam ilustrar de forma verbal e mais detalhada o expresso pelo diagrama.
 
-
 ## EC1
 
 |**Fixar Mensagem**|
@@ -28,10 +27,9 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 |[DCU](diagramas.md#dcu3)|
 
-
 ## EC2
 
-|**Mudar privacidade do Channel**|
+|**UC13 - Alterar privacidade do Channel**|
 |--|
 |**Descrição**|
 | - Funcionalidade com objetivo de mudar a [privacidade do channel](lexicos.md#l72), fazendo com que o mesmo quando for privado possa se tornar público, permitindo a entrada de qualquer usuário ou quando for público se tornar privado, impedindo a entrada de usuários sem convites |
@@ -53,12 +51,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Mudar privacidade do Channel](cenarios.md#c26) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu8-v1)|
-
+| [DCU8](diagramas.md#dcu8-v1) |
+| [DCU02-V2](diagramas_v2.md#dcu02) |
 
 ## EC3
 
-|**Criar only-read channel**|
+|**UC08 - Criar only-read channel**|
 |--|
 |**Descrição**|
 | - Funcionalidade com objetivo de criar um [only-read channel](lexicos.md#69), que é um canal o qual os usuários que não sejam o usuário criador do channel não podem enviar mensagem, apenas ler |
@@ -77,8 +75,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Criar only read Channel](cenarios.md#c21) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu9-v1)|
-
+| [DCU09](diagramas.md#dcu9-v1) |
+| [DCU02-V2](diagramas_v2.md#dcu02) |
 
 ## EC4
 
@@ -159,11 +157,9 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 |[DCU](diagramas.md#dcu6-v1)|
 
-
-
 ## EC7
 
-|**Visualizar membros de chat em grupo**|
+|**UC12 - Visualizar membros do Channel**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa visualizar os membros participantes de determinado chat em grupo bem como visualizar seus status, fotos de perfil e nomes de usuário |
@@ -186,12 +182,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Visualizar Membros de Chat em Grupo](cenarios.md#c14) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu7-v1)|
-
+| [DCU7](diagramas.md#dcu7-v1) |
+| [DCU02-V2](diagramas_v2.md#dcu2) |
 
 ## EC8
 
-|**Definir membro do [channel](lexicos.md#l1) como proprietário**|
+|**UC14 - Definir membro como proprietário**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo definir um usuário do channel como dono do mesmo, com a finalidade de aumentar suas permissões sobre o [channel](lexicos.md#l1) e assim poder administra-lo |
@@ -214,10 +210,10 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Cenário**|
 | [Definir membro de channel como proprietário](cenarios.md#c23) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu10-v1)|
+| [DCU10](diagramas.md#dcu10-v1) |
+| [DCU02-V2](diagramas_v2.md#dcu02) |
 
-
-##EC9
+## EC9
 
 |**Escolher tom de pele padrão**|
 |--|
@@ -242,10 +238,9 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 |[DCU](diagramas.md#dcu11-v1)|
 
-
 ## EC10
 
-|**Criar channel**|
+|**UC06 - Criar channel**|
 |--|
 | **Descrição**|
 |- Funcionalidade que permite o usuário criar um novo [channel](lexicos.md#l1) |
@@ -267,8 +262,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Criar channel](cenarios.md#c3-v2)|
 |**Diagrama**|
-|[DCU](diagramas.md#dcu16-v1)|
-
+| [DCU16](diagramas.md#dcu16-v1) |
+| [DCU02-V2](diagramas_v2.md#dcu02) |
 
 ## EC11
 
@@ -320,7 +315,6 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | - [Conectar com um servidor](cenarios.md#c4-v2) |
 |**Diagrama**|
 |[DCU](diagramas.md#dcu3)|
-
 
 ## EC13
 
@@ -378,7 +372,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Fazer login](cenarios.md#c17) |
 |**Diagrama**|
-|- [DCU13](diagramas.md#dcu13-v1)|
+| [DCU13](diagramas.md#dcu13-v1) |
 | [DCU01-V2](diagramas_v2.md#dcu01) |
 
 ## EC15
@@ -412,7 +406,6 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **[Enviar mensagem](cenarios.md#c12)** |
 |**Diagrama**|
 |[DCU2-V3](diagramas.md#dcu2-v3)|
-
 
 ## EC16
 
@@ -453,7 +446,6 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 |[DCU18](diagramas.md#dcu18-v1)|
 
-
 ## EC17
 
 |**Anexar desenho**|
@@ -483,7 +475,6 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **[Anexar um desenho](cenarios.md#c8)**|
 |**Diagrama**|
 |[DCU18](diagramas.md#dcu18-v1)|
-
 
 ## EC18
 
@@ -515,7 +506,6 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **[Responder uma mensagem](cenarios.md#c7)** |
 |**Diagrama**|
 |[DCU20](diagramas.md#dcu20-v1)|
-
 
 ## EC19
 
@@ -613,11 +603,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 |[Cadastrar um novo usuário](cenarios.md#c1-v2) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu21)|
+| [DCU21](diagramas.md#dcu21) |
+| [DCU01-V2](diagramas_v2.md#dcu01) |
 
 ## EC22
 
-|**Deixar Grupo**|
+|**UC15 - Sair do Channel**|
 |--|
 | **Descrição**|
 |- O usuário sai de um grupo, passando a não receber mais notificações do mesmo |
@@ -643,11 +634,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | [Sair de um channel](cenarios.md#c15-v1)|
 |**Diagrama**|
-|[DCU](diagramas.md#dcu22-v1)|
+| [DCU22](diagramas.md#dcu22-v1) |
+| [DCU02-V2](diagramas_v2.md#dcu02) |
 
 ## EC23
 
-|**Esconder Grupo**|
+|**UC16 - Esconder Channel**|
 |--|
 | **Descrição**|
 |- O usuário esconde um grupo, passando a não receber mais notificações do mesmo |
@@ -673,7 +665,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | [Sair de um channel](cenarios.md#c16-v1)|
 |**Diagrama**|
-|[DCU](diagramas.md#dcu23-v1)|
+| [DCU23](diagramas.md#dcu23-v1) |
+| [DCU02-V2](diagramas.md#dcu02) |
 
 ## EC24
 
@@ -738,7 +731,6 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 | [DCU15](diagramas.md#dcu15-v1) |
 | [DCU01-V2](diagramas_v2.md#dcu01) |
-
 
 ## Versionamento
 

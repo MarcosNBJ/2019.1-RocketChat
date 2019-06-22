@@ -30,9 +30,39 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ## DCU02
 
+### __Controle dos Channels__
+
+![DCU02](../img/Modelagem/dcu2_channels.png)
+
+* __Diagrama baseado nos diagramas anterirores:__
+
+    * [DCU7-V1](diagramas.md#dcu7-v1):
+        * Diagrama inspirado pelo cenário **[Visualizar Membros de Chat em Grupo](cenarios.md#c14)**
+        * [Especificação de casos de uso: EC7](especificacao.md#ec7)
+    * [DCU8-V1](diagramas.md#dcu8-v1):
+        * Diagrama inspirado pelo cenário **[Mudar privacidade do Channel](cenarios.md#c26)**
+        * [Especificação de casos de uso: EC2](especificacao.md#ec2)
+    * [DCU9-V1](diagramas.md#dcu9-v1):
+        * Diagrama inspirado pelo cenário **[Criar only-read Channel](cenarios.md#c22)**
+        * [Especificação de casos de uso: EC3](especificacao.md#ec3)
+    * [DCU10](diagramas.md#dcu10-v1):
+        * Diagrama inspirado pelo cenário **[Definir membro de channel como proprietário](cenarios.md#23)**
+        * [Especificação de casos de uso: EC8](especificacao.md#ec8)
+    * [DCU16-V1](diagramas.md#dcu16-v1):
+        * Diagrama inspirado pelo cenário **[Criar chat](cenarios.md#c3-v2)**
+        * Especificação de casos de uso: [EC10](especificacao.md#ec10)
+    * [DCU22-V1](diagramas.md#dcu22-v1):
+        * Diagrama inspirado pelo cenário **[Sair de um channel](cenarios.md#c15-v1)**
+        * Especificação de casos de uso: [EC22](especificacao.md#ec22)
+    * [DCU23-V1](diagramas.md#dcu23-v1):
+        * Diagrama inspirado pelo cenário **[Esconder um channel](cenarios.md#c16-v1)**
+        * Especificação de casos de uso: [EC23](especificacao.md#ec23)
+
+## DCU03
+
 ### __Mensagens__
 
-![DCU02](../img/Modelagem/dcu2_mensagens.png)
+![DCU03](../img/Modelagem/dcu2_mensagens.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
@@ -64,11 +94,11 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
         * Diagrama inspirado pelo cenário **[Responder uma mensagem](cenarios.md#c7)**
         * Especificação de casos de uso: [EC18](especificacao.md#ec18)
 
-## DCU03
+## DCU04
 
 ### __VideoChat__
 
-![DCU03](../img/Modelagem/dcu2_videochat.png)
+![DCU04](../img/Modelagem/dcu2_videochat.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
@@ -78,49 +108,17 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
     * [DCU14-V1](diagramas.md#dcu14-v1):
         * Diagrama inspirado pelo cenário **[Receber notificações](cenarios.md#c19)**
 
-## DCU04
+## DCU05
 
 ### __Configurações__
 
-![DCU04](../img/Modelagem/dcu2_configuracoes.png)
+![DCU05](../img/Modelagem/dcu2_configuracoes.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
     * [DCU4-V1](diagramas.md#dcu4-v1):
         * Diagrama inspirado pelo cenário **[Alterar Status](cenarios.md#c10)**
         * [Especificação de casos de uso: EC4](especificacao.md#ec4)
-
-## DCU05
-
-### __Controle dos Channels__
-
-![DCU05](../img/Modelagem/dcu2_channels.png)
-
-* __Diagrama baseado nos diagramas anterirores:__
-
-    * [DCU7-V1](diagramas.md#dcu7-v1):
-        * Diagrama inspirado pelo cenário **[Visualizar Membros de Chat em Grupo](cenarios.md#c14)**
-        * [Especificação de casos de uso: EC7](especificacao.md#ec7)
-    * [DCU8-V1](diagramas.md#dcu8-v1):
-        * Diagrama inspirado pelo cenário **[Mudar privacidade do Channel](cenarios.md#c26)**
-        * [Especificação de casos de uso: EC2](especificacao.md#ec2)
-    * [DCU9-V1](diagramas.md#dcu9-v1):
-        * Diagrama inspirado pelo cenário **[Criar only-read Channel](cenarios.md#c22)**
-        * [Especificação de casos de uso: EC3](especificacao.md#ec3)
-    * [DCU10](diagramas.md#dcu10-v1):
-        * Diagrama inspirado pelo cenário **[Definir membro de channel como proprietário](cenarios.md#23)**
-        * [Especificação de casos de uso: EC8](especificacao.md#ec8)
-    * [DCU14-V1](diagramas.md#dcu14-v1):
-        * Diagrama inspirado pelo cenário **[Receber notificações](cenarios.md#c19)**
-    * [DCU16-V1](diagramas.md#dcu16-v1):
-        * Diagrama inspirado pelo cenário **[Criar chat](cenarios.md#c3-v2)**
-        * Especificação de casos de uso: [EC10](especificacao.md#ec10)
-    * [DCU22-V1](diagramas.md#dcu22-v1):
-        * Diagrama inspirado pelo cenário **[Sair de um channel](cenarios.md#c15-v1)**
-        * Especificação de casos de uso: [EC22](especificacao.md#ec22)
-    * [DCU23-V1](diagramas.md#dcu23-v1):
-        * Diagrama inspirado pelo cenário **[Esconder um channel](cenarios.md#c16-v1)**
-        * Especificação de casos de uso: [EC23](especificacao.md#ec23)
 
 ## DCU06
 
@@ -140,4 +138,4 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 |------------|--------|-----------------------|--------------|
 | 21/06/2019 | 1.0    | Abertura do documento | Lucas Maciel |
 | 21/06/2019 | 1.1    | Padronização da rastreabilidade dos diagramas | Lucas Maciel |
-| 21/06/2019 | 1.2    | Adição do Diagrama DCU01 | Lucas Maciel |
+| 21/06/2019 | 1.2    | Adição do Diagrama DCU01, DCU02 | Lucas Maciel |
