@@ -11,7 +11,7 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ### __Gerenciamento de Contas__
 
-![DCU01](../img/Modelagem/dcu_videochat.png)
+![DCU01](../img/Modelagem/dcu2_contas.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
@@ -20,22 +20,23 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
         * [Especificação de casos de uso: EC5](especificacao.md#ec5)
     * [DCU13-V1](diagramas.md#dcu13-v1):
         * Diagrama inspirado pelo cenário **[Fazer login](cenarios.md#18)**
-        * Especificação de casos de uso: [EC14](especificacao.md#ec14)
+        * [Especificação de casos de uso: EC14](especificacao.md#ec14)
     * [DCU15-V1](diagramas.md#dcu15-v1):
         * Diagrama inspirado pelo cenário **[Sair do Rocket.chat](cenarios.md#c20)**
+        * [Especificação de casos de uso: EC25](especificacao.md#ec25)
     * [DCU21-V1](diagramas.md#dcu21-v1):
         * Diagrama inspirado pelo cenário **[Cadastrar novo usuário](cenarios.md#c1-v1)**
-        * Especificação de casos de uso: [EC21](especificacao.md#ec21)
+        * [Especificação de casos de uso: EC21](especificacao.md#ec21)
 
 ## DCU02
 
 ### __Mensagens__
 
-![DCU02](../img/Modelagem/dcu_mensagem.png)
+![DCU02](../img/Modelagem/dcu2_mensagens.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
-    * [DCU2-V2](diagramas.md#dcu2-v2):
+    * [DCU2-V3](diagramas.md#dcu2-v3):
         * Diagrama inspirado pelo cenário **[Enviar mensagem](cenarios.md#c12)**
         * Especificação de casos de uso: [EC15](especificacao.md#ec15)
     * [DCU3](diagramas.md#dcu3):
@@ -52,6 +53,7 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
         * Especificação de casos de uso: [EC13](especificacao.md#ec13)
     * [DCU14-V1](diagramas.md#dcu14-v1):
         * Diagrama inspirado pelo cenário **[Receber notificações](cenarios.md#c19)**
+        * [Especificação de casos de uso: EC24](especificacao.md#ec24)
     * [DCU18-V1](diagramas.md#dcu18-v1):
         * Diagrama inspirado pelos cenários  **[Anexar um arquivo](cenarios.md#c9)** e **[Anexar um desenho](cenarios.md#c8)**
         * Especificações de casos de uso: [EC16](especificacao.md#ec16) e [ECU17](especificacao.md#ec17)
@@ -66,7 +68,7 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ### __VideoChat__
 
-![DCU03](../img/Modelagem/dcu_videochat.png)
+![DCU03](../img/Modelagem/dcu2_videochat.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
@@ -80,7 +82,7 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ### __Configurações__
 
-![DCU04](../img/Modelagem/dcu_configuracoes.png)
+![DCU04](../img/Modelagem/dcu2_configuracoes.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
@@ -92,7 +94,7 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ### __Controle dos Channels__
 
-![DCU05](../img/Modelagem/dcu_videochat.png)
+![DCU05](../img/Modelagem/dcu2_channels.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
@@ -124,7 +126,7 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ### __Servidores__
 
-![DCU06](../img/Modelagem/dcu_servidores.png)
+![DCU06](../img/Modelagem/dcu2_servidores.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
@@ -138,3 +140,4 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 |------------|--------|-----------------------|--------------|
 | 21/06/2019 | 1.0    | Abertura do documento | Lucas Maciel |
 | 21/06/2019 | 1.1    | Padronização da rastreabilidade dos diagramas | Lucas Maciel |
+| 21/06/2019 | 1.2    | Adição do Diagrama DCU01 | Lucas Maciel |

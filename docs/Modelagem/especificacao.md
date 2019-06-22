@@ -106,10 +106,9 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 |[DCU](diagramas.md#dcu4-v1)|
 
-
 ## EC5
 
-|**Deletar Conta**|
+|**UC04 - Deletar Conta**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa excluir sua conta do Rocket.Chat |
@@ -130,8 +129,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Deletar Conta](cenarios.md#c6) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu5-v1)|
-
+| [DCU5](diagramas.md#dcu5-v1) |
+| [DCU01-V2](diagramas_v2.md#dcu01) |
 
 ## EC6
 
@@ -350,10 +349,9 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 |- [DCU12](diagramas.md#dcu12-v1)|
 
-
 ## EC14
 
-|**Realização de login**|
+|**UC02 - Fazer login**|
 |--|
 | **Descrição**|
 | - Fazer login no [Rocket.chat](lexicos.md#l65) para ter acesso a todas as funcionalidades disponíveis para [usuário](lexicos.md#l19) [logado](lexicos.md#l62)  |
@@ -381,7 +379,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | - [Fazer login](cenarios.md#c17) |
 |**Diagrama**|
 |- [DCU13](diagramas.md#dcu13-v1)|
-
+| [DCU01-V2](diagramas_v2.md#dcu01) |
 
 ## EC15
 
@@ -586,7 +584,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC21
 
-|**Cadastrar novo usuário**|
+|**UC01 - Cadastrar novo Usuário**|
 |--|
 | **Descrição**|
 |-Um usuário irá criar sua conta na plataforma|
@@ -677,7 +675,6 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Diagrama**|
 |[DCU](diagramas.md#dcu23-v1)|
 
-
 ## EC24
 
 |**Receber Notificação**|
@@ -714,7 +711,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC25
 
-|**Sair do aplicativo**|
+|**UC03 - Deslogar da Conta**|
 |--|
 | **Descrição**|
 | - Usuário que esteja logado sair de sua conta do [Rocket.chat](lexicos.md#l65)|
@@ -739,7 +736,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | [Sair do Rocket.chat](cenarios.md#c20) |
 |**Diagrama**|
-|[DCU15](diagramas.md#dcu15-v1)|
+| [DCU15](diagramas.md#dcu15-v1) |
+| [DCU01-V2](diagramas_v2.md#dcu01) |
 
 
 ## Versionamento
@@ -761,3 +759,4 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | 29/04/2019 | 2.2 | Adição EC24 | Lucas Maciel |
 | 29/04/2019 | 2.3 | Adição de links | Weiller Fernandes |
 | 29/04/2019 | 2.4 | Adição EC25 | André Lucas |
+| 21/06/2019 | 2.5 | (Refatoração) Adição dos ids de casos de uso relacionados | Lucas Maciel |

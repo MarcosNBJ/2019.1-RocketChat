@@ -145,7 +145,7 @@ Especificação de casos de uso: [EC - 14](especificacao.md#ec14)
 ### **Recebendo notificações**
 Diagrama inspirado pelo cenário **[Receber notificações](cenarios.md#c19)**
 
-Especificação de casos de uso: [ECU]()
+Especificação de casos de uso: [Especificação de casos de uso: EC24](especificacao.md#ec24)
 
 ![DCU-1](../img/Modelagem/uc_receber_notificacao_v1.png)
 
@@ -153,7 +153,7 @@ Especificação de casos de uso: [ECU]()
 ### **Sair do aplicativo**
 Diagrama inspirado pelo cenário **[Sair do Rocket.chat](cenarios.md#c20)**
 
-Especificação de casos de uso: [ECU]()
+Especificação de casos de uso: [Especificação de casos de uso: EC5](especificacao.md#ec5)
 
 ![DCU-1](../img/Modelagem/uc_sair_app_v1.png)
 
