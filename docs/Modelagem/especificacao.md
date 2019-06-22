@@ -76,7 +76,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Criar only read Channel](cenarios.md#c21) |
 |**Diagrama**|
-| [DCU09](diagramas.md#dcu9-v1) |
+| [DCU9](diagramas.md#dcu9-v1) |
 | [DCU02-V2](diagramas_v2.md#dcu02) |
 
 ## EC4
@@ -103,7 +103,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Alterar Status](cenarios.md#c10) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu4-v1)|
+|[DCU4](diagramas.md#dcu4-v1)|
 
 ## EC5
 
@@ -291,7 +291,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Conectar com um servidor](cenarios.md#c4-v2) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu17-v1)|
+|[DCU17](diagramas.md#dcu17-v1)|
 
 ## EC12
 
@@ -580,7 +580,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 |[Realizar video chat](cenarios.md#c2-v2) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu1-v2)|
+|[DCU1](diagramas.md#dcu1-v2)|
 
 ## EC21
 
