@@ -13,6 +13,8 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ![DCU01](../img/Modelagem/dcu2_contas.png)
 
+* __Id dos casos de Uso gerados:__ UC01 - UC05
+
 * __Diagrama baseado nos diagramas anterirores:__
 
     * [DCU5-V1](diagramas.md#dcu5-v1):
@@ -33,6 +35,8 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 ### __Controle dos Channels__
 
 ![DCU02](../img/Modelagem/dcu2_channels.png)
+
+* __Id dos casos de Uso gerados:__ UC06 - UC16
 
 * __Diagrama baseado nos diagramas anterirores:__
 
@@ -64,6 +68,8 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ![DCU03](../img/Modelagem/dcu2_mensagens.png)
 
+* __Id dos casos de Uso gerados:__ UC17 - UC36
+
 * __Diagrama baseado nos diagramas anterirores:__
 
     * [DCU2-V3](diagramas.md#dcu2-v3):
@@ -71,7 +77,7 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
         * Especificação de casos de uso: [EC15](especificacao.md#ec15)
     * [DCU3](diagramas.md#dcu3):
         * Diagrama inspirado pelos cenários **[Fixar Mensagem](cenarios.md#c11)** e **[Visualizar Mensagens     Fixadas](cenarios.md#c25)**
-        * [Especificação de casos de uso: EC1](especificacao.md#ec1) e  [Especificação de casos de uso: ECU - 12](especificacao.md#ec12)
+        * [Especificação de casos de uso: EC1](especificacao.md#ec1) e  [Especificação de casos de uso: EC12](especificacao.md#ec12)
     * [DCU6-V1](diagramas.md#dcu6-v1):
         * Diagrama inspirado pelo cenário **[Favoritar mensagem](cenarios.md#c13)**
         * [Especificação de casos de uso: EC6](especificacao.md#ec6)
@@ -81,12 +87,9 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
     * [DCU12-V1](diagramas.md#dcu12-v1):
         * Diagrama inspirado pelo cenário **[Pesquisar mensagem](cenarios.md#c17)**
         * Especificação de casos de uso: [EC13](especificacao.md#ec13)
-    * [DCU14-V1](diagramas.md#dcu14-v1):
-        * Diagrama inspirado pelo cenário **[Receber notificações](cenarios.md#c19)**
-        * [Especificação de casos de uso: EC24](especificacao.md#ec24)
     * [DCU18-V1](diagramas.md#dcu18-v1):
         * Diagrama inspirado pelos cenários  **[Anexar um arquivo](cenarios.md#c9)** e **[Anexar um desenho](cenarios.md#c8)**
-        * Especificações de casos de uso: [EC16](especificacao.md#ec16) e [ECU17](especificacao.md#ec17)
+        * Especificações de casos de uso: [EC16](especificacao.md#ec16) e [EC17](especificacao.md#ec17)
     * [DCU19-V1](diagramas.md#dcu19-v1):
         * Diagrama inspirado pelo cenário **[Editar uma Mensagem](cenarios.md#c5)**
         * Especificação de casos de uso: [EC19](especificacao.md#ec19)
@@ -138,4 +141,4 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 |------------|--------|-----------------------|--------------|
 | 21/06/2019 | 1.0    | Abertura do documento | Lucas Maciel |
 | 21/06/2019 | 1.1    | Padronização da rastreabilidade dos diagramas | Lucas Maciel |
-| 21/06/2019 | 1.2    | Adição do Diagrama DCU01, DCU02 | Lucas Maciel |
+| 21/06/2019 | 1.2    | Adição do Diagrama DCU01 - DCU3 | Lucas Maciel |

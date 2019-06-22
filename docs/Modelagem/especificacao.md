@@ -4,7 +4,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC1
 
-|**Fixar Mensagem**|
+|**UC27 - Fixar Mensagem**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo fazer com que o usuário consiga encontrar mensagens com mais facilidade, possui uma similaridade com a funcionalidade de favoritar mensagem |
@@ -25,7 +25,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Fixar Mensagem](cenarios.md#c11) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu3)|
+| [DCU3](diagramas.md#dcu3) |
+| [DCU03-V2](diagramas_v2.md#dcu03) |
 
 ## EC2
 
@@ -132,7 +133,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC6
 
-|**Mensagens Favoritadas**|
+|**UC29 - Favoritar Mensagem**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa favoritar mensagens de um determinado channel e visualizar as mensagens favoritadas |
@@ -155,7 +156,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Favoritar Mensagem](cenarios.md#c13) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu6-v1)|
+| [DCU6](diagramas.md#dcu6-v1) |
+| [DCU03-V2](diagramas_v2.md#dcu03) |
 
 ## EC7
 
@@ -183,7 +185,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | - [Visualizar Membros de Chat em Grupo](cenarios.md#c14) |
 |**Diagrama**|
 | [DCU7](diagramas.md#dcu7-v1) |
-| [DCU02-V2](diagramas_v2.md#dcu2) |
+| [DCU02-V2](diagramas_v2.md#dcu02) |
 
 ## EC8
 
@@ -215,7 +217,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC9
 
-|**Escolher tom de pele padrão**|
+|**UC26 - Alterar tom de pele padrão**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo definir o tom de pele padrão dos emojis para assim poder transmitir com mais representatividade os sentimentos expressados pelos mesmos |
@@ -236,7 +238,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |**Cenário**|
 | [Escolher tom de pele padrão](cenarios.md#c21) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu11-v1)|
+| [DCU11](diagramas.md#dcu11-v1) |
+| [DCU03-V2](diagramas_v2.md#dcu03) |
 
 ## EC10
 
@@ -292,7 +295,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC12
 
-|**Visualizar Mensagem Fixada**|
+|**UC30 - Visualizar Mensagem Fixadas**|
 |--|
 | **Descrição**|
 | - Encontrar Mensagens que foram fixadas |
@@ -314,11 +317,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Conectar com um servidor](cenarios.md#c4-v2) |
 |**Diagrama**|
-|[DCU](diagramas.md#dcu3)|
+| [DCU3](diagramas.md#dcu3) |
+| [DCU03-V2](diagramas_v2.md#dcu03) |
 
 ## EC13
 
-|**Pesquisa de mensagem**|
+|**UC34 - Pesquisa de mensagem**|
 |--|
 | **Descrição**|
 | - Funcionalidade que permite utilizar uma mensagem como base de pesquisa para encontrar mensagens desejadas.|
@@ -341,7 +345,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Pesquisar mensagem](cenarios.md#c17) |
 |**Diagrama**|
-|- [DCU12](diagramas.md#dcu12-v1)|
+| [DCU12](diagramas.md#dcu12-v1) |
+| [DCU03-V2](diagramas_v2.md#dcu03) |
 
 ## EC14
 
@@ -377,7 +382,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC15
 
-|**Enviar mensagem**|
+|**UC17 - Enviar mensagem**|
 |--|
 | **Descrição**|
 | Descrição Enviar uma mensagem em uma conversa para um usuário ou grupo de usuários. |
@@ -405,11 +410,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | **[Enviar mensagem](cenarios.md#c12)** |
 |**Diagrama**|
-|[DCU2-V3](diagramas.md#dcu2-v3)|
+| [DCU2](diagramas.md#dcu2-v3) |
+| [DCU03-V2](diagramas_v2.md#dcu03) |
 
 ## EC16
 
-|**Anexar arquivo**|
+|**UC19 - Anexar arquivo**|
 |--|
 | **Descrição**|
 |Anexar um arquivo de mídia, como uma foto ou vídeo, a mensagem. |
@@ -444,11 +450,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | **[Anexar um arquivo](cenarios.md#c9)** |
 |**Diagrama**|
-|[DCU18](diagramas.md#dcu18-v1)|
+| [DCU18](diagramas.md#dcu18-v1) |
+| [DCU03-V2](diagramas_v2.md#dcu03) |
 
 ## EC17
 
-|**Anexar desenho**|
+|**UC22 - Criar desenho**|
 |--|
 | **Descrição**|
 |Anexar um desenho digital, feito na plataforma, a mensagem|
@@ -474,11 +481,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | **[Anexar um desenho](cenarios.md#c8)**|
 |**Diagrama**|
-|[DCU18](diagramas.md#dcu18-v1)|
+| [DCU18](diagramas.md#dcu18-v1) |
+| [DCU03-V2](diagramas_v2.md#dcu03) |
 
 ## EC18
 
-|**Responder mensagem**|
+|**UC36 - Responder mensagem**|
 |--|
 | **Descrição**|
 | Enviar uma mensagem que responde especificamente a uma outra mensagem, de forma explícita|
@@ -505,11 +513,12 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | **[Responder uma mensagem](cenarios.md#c7)** |
 |**Diagrama**|
-|[DCU20](diagramas.md#dcu20-v1)|
+| [DCU20](diagramas.md#dcu20-v1) |
+| [DCU03-V2](diagramas_v2.md#dcu03) |
 
 ## EC19
 
-|**Editar Mensagem**|
+|**UC35 - Editar Mensagem**|
 |--|
 | **Descrição**|
 | Usuário editar o conteúdo textual de uma mensagem para exprimir uma ideia diferente da anterior|
@@ -537,7 +546,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | **[Editar uma Mensagem](cenarios.md#c5)** |
 |**Diagrama**|
-|[DCU19](diagramas.md#dcu19-v1)|
+| [DCU19](diagramas.md#dcu19-v1) |
+| [DCU03-V2](diagramas_v2.md#dcu03) |
 
 ## EC20
 
