@@ -6,11 +6,10 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas tabelas, a primeira tabela com os requisitos funcionais e a segunda para os requisitos não-funcionais. Como vários membros da equipe iriam trabalhar no documento ao mesmo tempo, foram criadas duas tabelas no drive, para evitar a repetição de requisitos na tabela, que posteriormente seriam convertidas para formato markdown e colocadas na wikia. Link para as tabelas no drive: [funcionais](https://docs.google.com/spreadsheets/d/17uv-YxoEdDHEgwkEWWxdQUYqHkHEk-N381ivfJEQQyI/edit#gid=0) e [não-funcionais](https://docs.google.com/spreadsheets/d/1HN24HaJRe7yE16k5k425cvma3hwgEx9qS4XVkG3EEkM/edit#gid=0).
 
-
 ## Requisitos Funcionais
 
 |Código|Descrição|Tema|Épico|US|Funcionalidade|Código|
-|---|---|---|----|----|---|
+|------|---------|----|-----|--|--------------|------|
 |RF1 |Tradução instântanea para mensagens em línguas diferentes da padrão|[T04](../Modelagem/backlog.md#t04-channel)|[EP11](../Modelagem/backlog.md#ep11-acoes-do-channel)| [US45](../Modelagem/backlog.md#us45)|[Tradução](#rf1_gif)||
 |RF2 |O aplicativo deve ser capaz de realizar videoconferências em  grupo|[T04](../Modelagem/backlog.md#t04-channel) | [EP11](../Modelagem/backlog.md#ep11-acoes-do-channel)|[US46](../Modelagem/backlog.md#us46)|[Videoconferência em grupo](#rf2_gif)||
 |RF3   |A aplicação deve oferecer ao usuário a possibilidade de entrar no app através de username e senha, previamente cadatrados no aplicativo      |[T01](../Modelagem/backlog.md#t01-entrar-no-aplicativo)|[EP01](Modelagem/backlog.md/#ep01-fazer-login)                                                                           |[US01](../Modelagem/backlog.md#us01)<br> [US02](../Modelagem/backlog.md#us02) |                                      [Login](#RF3_gif)<br>| [View](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/LoginView.js) <br> [Action](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/login.js)|
