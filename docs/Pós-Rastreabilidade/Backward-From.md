@@ -482,6 +482,8 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 
 **Elo:**
 
+* Representação: [US38](../Modelagem/backlog.md#us38) representa [L58](../Modelagem/lexicos.md#l58)
+
 ### EF32
 
 **Elementos rastreáveis:**
@@ -490,6 +492,8 @@ Neste documento busca-se construir a matriz de pós-rastreabilidade através da 
 * [L10](../Modelagem/lexicos#l10)
 
 **Elo:**
+
+* Representação: [US39](../Modelagem/backlog.md#us39) representa [L9](../Modelagem/lexicos#l9)
 
 ### EF33
 
