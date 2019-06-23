@@ -4,7 +4,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC1
 
-|**UC27 - Fixar Mensagem**|
+|**UC56 - Fixar Mensagem**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo fazer com que o usuário consiga encontrar mensagens com mais facilidade, possui uma similaridade com a funcionalidade de favoritar mensagem |
@@ -30,7 +30,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC2
 
-|**UC13 - Alterar privacidade do Channel**|
+|**UC39 - Alterar privacidade do Channel**|
 |--|
 |**Descrição**|
 | - Funcionalidade com objetivo de mudar a [privacidade do channel](lexicos.md#l72), fazendo com que o mesmo quando for privado possa se tornar público, permitindo a entrada de qualquer usuário ou quando for público se tornar privado, impedindo a entrada de usuários sem convites |
@@ -57,7 +57,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC3
 
-|**UC08 - Criar only-read channel**|
+|**UC29 - Criar only-read channel**|
 |--|
 |**Descrição**|
 | - Funcionalidade com objetivo de criar um [only-read channel](lexicos.md#69), que é um canal o qual os usuários que não sejam o usuário criador do channel não podem enviar mensagem, apenas ler |
@@ -107,7 +107,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC5
 
-|**UC04 - Deletar Conta**|
+|**UC23 - Deletar Conta**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa excluir sua conta do Rocket.Chat |
@@ -133,7 +133,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC6
 
-|**UC29 - Favoritar Mensagem**|
+|**UC58 - Favoritar Mensagem**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa favoritar mensagens de um determinado channel e visualizar as mensagens favoritadas |
@@ -161,7 +161,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC7
 
-|**UC12 - Visualizar membros do Channel**|
+|**UC34 - Visualizar membros do Channel**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo permitir com que o [usuário](lexicos.md#l19) possa visualizar os membros participantes de determinado chat em grupo bem como visualizar seus status, fotos de perfil e nomes de usuário |
@@ -189,7 +189,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC8
 
-|**UC14 - Definir membro como proprietário**|
+|**UC37 - Definir membro como proprietário**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo definir um usuário do channel como dono do mesmo, com a finalidade de aumentar suas permissões sobre o [channel](lexicos.md#l1) e assim poder administra-lo |
@@ -217,7 +217,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC9
 
-|**UC26 - Alterar tom de pele padrão**|
+|**UC53 - Alterar tom de pele padrão**|
 |--|
 | **Descrição**|
 | - Funcionalidade que tem como objetivo definir o tom de pele padrão dos emojis para assim poder transmitir com mais representatividade os sentimentos expressados pelos mesmos |
@@ -243,7 +243,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC10
 
-|**UC06 - Criar channel**|
+|**UC27 - Criar channel**|
 |--|
 | **Descrição**|
 |- Funcionalidade que permite o usuário criar um novo [channel](lexicos.md#l1) |
@@ -295,7 +295,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC12
 
-|**UC30 - Visualizar Mensagem Fixadas**|
+|**UC68 - Visualizar Mensagem Fixadas**|
 |--|
 | **Descrição**|
 | - Encontrar Mensagens que foram fixadas |
@@ -322,7 +322,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC13
 
-|**UC34 - Pesquisa de mensagem**|
+|**UC62 - Pesquisa de mensagem**|
 |--|
 | **Descrição**|
 | - Funcionalidade que permite utilizar uma mensagem como base de pesquisa para encontrar mensagens desejadas.|
@@ -350,7 +350,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC14
 
-|**UC02 - Fazer login**|
+|**UC11 - Fazer login**|
 |--|
 | **Descrição**|
 | - Fazer login no [Rocket.chat](lexicos.md#l65) para ter acesso a todas as funcionalidades disponíveis para [usuário](lexicos.md#l19) [logado](lexicos.md#l62)  |
@@ -382,7 +382,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC15
 
-|**UC17 - Enviar mensagem**|
+|**UC44 - Enviar mensagem**|
 |--|
 | **Descrição**|
 | Descrição Enviar uma mensagem em uma conversa para um usuário ou grupo de usuários. |
@@ -415,7 +415,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC16
 
-|**UC19 - Anexar arquivo**|
+|**UC46 - Anexar arquivo**|
 |--|
 | **Descrição**|
 |Anexar um arquivo de mídia, como uma foto ou vídeo, a mensagem. |
@@ -455,7 +455,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC17
 
-|**UC22 - Criar desenho**|
+|**UC49 - Criar desenho**|
 |--|
 | **Descrição**|
 |Anexar um desenho digital, feito na plataforma, a mensagem|
@@ -486,7 +486,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC18
 
-|**UC36 - Responder mensagem**|
+|**UC59 - Responder mensagem**|
 |--|
 | **Descrição**|
 | Enviar uma mensagem que responde especificamente a uma outra mensagem, de forma explícita|
@@ -518,7 +518,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC19
 
-|**UC35 - Editar Mensagem**|
+|**UC64 - Editar Mensagem**|
 |--|
 | **Descrição**|
 | Usuário editar o conteúdo textual de uma mensagem para exprimir uma ideia diferente da anterior|
@@ -618,7 +618,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC22
 
-|**UC15 - Sair do Channel**|
+|**UC40 - Sair do Channel**|
 |--|
 | **Descrição**|
 |- O usuário sai de um grupo, passando a não receber mais notificações do mesmo |
@@ -649,7 +649,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC23
 
-|**UC16 - Esconder Channel**|
+|**UC42 - Esconder Channel**|
 |--|
 | **Descrição**|
 |- O usuário esconde um grupo, passando a não receber mais notificações do mesmo |
@@ -714,7 +714,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC25
 
-|**UC03 - Deslogar da Conta**|
+|**UC11 - Deslogar da Conta**|
 |--|
 | **Descrição**|
 | - Usuário que esteja logado sair de sua conta do [Rocket.chat](lexicos.md#l65)|
