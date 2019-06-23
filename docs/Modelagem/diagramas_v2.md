@@ -13,7 +13,7 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ![DCU01](../img/Modelagem/dcu2_contas.png)
 
-* __Id dos casos de Uso gerados:__ UC01 - UC05
+* __Id dos casos de Uso gerados:__ UC01 - UC24
 
 * __Diagrama baseado nos diagramas anterirores:__
 
