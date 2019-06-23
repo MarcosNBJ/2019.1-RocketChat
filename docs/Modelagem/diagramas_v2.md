@@ -103,6 +103,8 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ![DCU04](../img/Modelagem/dcu2_videoChat.png)
 
+* __Id dos casos de Uso gerados:__ UC73 - UC82
+
 * __Diagrama baseado nos diagramas anterirores:__
 
     * [DCU1-V2](diagramas.md#dcu1-v2):
@@ -142,3 +144,4 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 | 21/06/2019 | 1.0    | Abertura do documento | Lucas Maciel |
 | 21/06/2019 | 1.1    | Padronização da rastreabilidade dos diagramas | Lucas Maciel |
 | 21/06/2019 | 1.2    | Adição do Diagrama DCU01 - DCU3 | Lucas Maciel |
+| 21/06/2019 | 1.3    | Adição do Diagrama DCU04 | Gabriel Davi |
