@@ -101,7 +101,7 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ### __VideoChat__
 
-![DCU04](../img/Modelagem/dcu2_videochat.png)
+![DCU04](../img/Modelagem/dcu2_videoChat.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
