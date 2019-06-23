@@ -6,11 +6,17 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 01
 
+#### Análise
+
 ![NFR01](../img/Modelagem/nfr_portabilidade_v1.jpg)
 
 ### Versão 02
 
+#### SIG
+
 ![NFR01](../img/Modelagem/nfr_portabilidade_limpo_v2.jpg)
+
+#### Análise
 
 ![NFR01](../img/Modelagem/nfr_portabilidade_analise_v2.jpg)
 
@@ -18,11 +24,17 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 01
 
+#### Análise
+
 ![NFR02](../img/Modelagem/nfr_performance_chat_v1.png)
 
 ### Versão 02
 
+#### SIG
+
 ![NFR02](../img/Modelagem/nfr_performance_chat_v2.png)
+
+#### Análise
 
 ![NFR02](../img/Modelagem/nfr_performance_chat_analise_v2.png)
 
@@ -30,11 +42,17 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 01
 
+#### Análise
+
 ![NFR03](../img/Modelagem/nfr_suporte_v1.jpg)
 
 ### Versão 02
 
+#### SIG
+
 ![NFR03](../img/Modelagem/nfr_suporte_limpo_v2.jpg)
+
+#### Análise
 
 ![NFR03](../img/Modelagem/nfr_suporte_analise_v2.jpg)
 
@@ -42,7 +60,11 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 01
 
+#### SIG
+
 ![NFR04](../img/Modelagem/nfr_usabilidade_v1.png)
+
+#### Análise
 
 ![NFR04](../img/Modelagem/nfr_usabilidade_analise_v1.png)
 
@@ -50,13 +72,21 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 01
 
+#### SIG
+
 ![NFR05](../img/Modelagem/nfr_personabilidade_limpo_v1.png)
+
+#### Análise
 
 ![NFR05](../img/Modelagem/nfr_personabilidade_analise_v1.png)
 
 ### Versão 02
 
+#### SIG
+
 ![NFR05](../img/Modelagem/nfr_personabilidade_limpo_v2.png)
+
+#### Análise
 
 ![NFR05](../img/Modelagem/nfr_personabilidade_analise_v2.png)
 
@@ -64,26 +94,43 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 01
 
+#### Análise
+
 ![NFR06](../img/Modelagem/nfr_seguranca_v1.png)
 
 ## NFR07 - Manutenabilidade
 
 ### Versão 01
 
+#### SIG
+
 ![NFR07](../img/Modelagem/manutenabilidade_esquema.png)
 
-### Versão 02
+#### Análise
 
 ![NFR07](../img/Modelagem/manutenabilidade_analise.png)
 
+### Versão 02
+
+Versão refatorada após o artefato ter sido reprovado de acordo com a análise [INFR-07](../Análise/NFR.md#infr-07)
+
+#### SIG
+
+![NFR07](../img/Modelagem/nfr_manutenabilidade_limpo_v2.png)
+
+#### Análise
+
+![NFR07](../img/Modelagem/nfr_manutenabilidade_analise_v2.png)
 
 ## NFR08 - Contribuição da comunidade
 
 ### Versão 01
 
+#### SIG
+
 ![NFR07](../img/Modelagem/nfr_contrib.png)
 
-### Análise
+#### Análise
 
 ![NFR07](../img/Modelagem/nfr_contrib_anali.png)
 
@@ -91,17 +138,33 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 01
 
+#### Análise
+
 ![REl01](../img/Modelagem/nfr_rel01v1.jpg)
 
 ## NFR09 - Conectividade
 
 ### Versão 01
 
+#### SIG
+
 ![NFR09](../img/Modelagem/conectividade.png)
 
-### Análise
+#### Análise
 
 ![NFR09](../img/Modelagem/conectividade2.png)
+
+### Versão 02
+
+Versão refatorada após o artefato ter sido reprovado de acordo com a análise [INFR-09](../Análise/NFR.md#infr-09)
+
+#### SIG
+
+![NFR09](../img/Modelagem/nfr_conectividade_limpo_v2.png)
+
+#### Análise
+
+![NFR09](../img/Modelagem/nfr_conectividade_analise_v2.png)
 
 ## Versionamento
 
@@ -125,3 +188,5 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 | 29/05/2019 | 2.5 | Adição do NFR2 - Versão 02 | Lucas Maciel |
 | 29/05/2019 | 2.6 | Adição do NFR04 - Versão 01 | André Lucas |
 | 29/05/2019 | 2.7 | Adição do NFR09 - Versão 01 | Gabriel Davi |
+| 22/06/2019 | 2.8 | Padronizando títulos | Weiller Fernandes |
+| 23/06/2019 | 2.9 | Adição do NFR7 - V2 e NFR9 - V2 | Weiller Fernandes |
