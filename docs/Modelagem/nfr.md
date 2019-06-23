@@ -112,7 +112,7 @@ O NFR é um framework orientado a metas, que busca representar requisitos não f
 
 ### Versão 02
 
-Versão refatorada após o artefato ter sido reprovado de acordo com a análise [INFR-07](../Análise/NFR.md#infr07)
+Versão refatorada após o artefato ter sido reprovado de acordo com a análise [INFR-07](../Análise/NFR.md#infr-07)
 
 #### SIG
 

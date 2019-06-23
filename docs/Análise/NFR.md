@@ -10,7 +10,7 @@ Aqui buscamos realizar a verificação dos artefatos da modelagem por NFR. Em bu
 Para inspecionar cada artefato foi construída uma checklist, que busca verificar se o artefato atende a alguns critérios de qualidade considerados importantes para a produção do mesmo com um bom grau de confiabilidade. Com isso, é avaliado para cada artefato quantos critérios o mesmo atende e quantos não, ao fim aprovando ou reprovando o mesmo a depender desse resultado, sendo que alguns critérios tem peso diferente de outros, como será melhor explicado em um tópico seguinte. Além disso, são sugeridas melhorias para os critérios que tiverem falhado em ser atendidos.
 
 ### Critérios
-Os critérios foram divididos em dois grupos: 
+Os critérios foram divididos em dois grupos:
 
 * Do artefato modelo: referentes ao NFR puro, sem a análise da propagação dos impactos por algum caminho específico.
 * Do artefato de análise: referentes ao artefato com análise da propagação dos impactos e cumprimento dos softgoals com algum caminho definido.
@@ -68,7 +68,7 @@ E a tolerância máxima escolhida foi de 30%. Sendo assim, os artefatos que pont
 
 #### CA-V2
 
-Na segunda versão do método avaliativo, além da pontuação, existe também um veredito final dado pelo inspetor. Este segue a seguinte escala: 
+Na segunda versão do método avaliativo, além da pontuação, existe também um veredito final dado pelo inspetor. Este segue a seguinte escala:
 
 _Péssimo < Muito ruim < Ruim < Regular < Bom < Muito bom < Ótimo_
 
@@ -79,7 +79,7 @@ Essa parte da avaliação permite uma nota mais subjetiva que poderá ser dada a
 Aqui estão definidos alguns esclarescimentos acordados acerca do objetivo de alguns critérios específicos da checklist, cujo valor é mais subjetivo.
 
 |ID do critério|Definição|
-|:--:|:--:| 
+|:--:|:--:|
 |4|O critério é satisfeito caso para todo nome atribuido a um softgoal/operacionalização seja possível entender perfeitamente o que ele significa.|
 |5|Normalmente considera-se 3 níveis como um bom exemplo de maturidade, porém, varia de caso para caso. O critério é satisfeito caso as operacionalizações se iniciem apenas após os softgoals serem explorados extensivamente, quebrando-se em outros softgoals menores.|
 
@@ -89,10 +89,10 @@ Aqui estão definidos alguns esclarescimentos acordados acerca do objetivo de al
 A seguir podem ser vistas as inspeções individuais de cada NFR previamente construído.
 
 #### INFR-01
- 
+
 _Inspeção do [NFR-01](../Modelagem/nfr.md#nfr1-portabilidade) por Marcos Nery_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -141,10 +141,10 @@ _Inspeção do [NFR-01](../Modelagem/nfr.md#nfr1-portabilidade) por Marcos Nery_
 
 
 #### INFR-02
- 
+
 _Inspeção do [NFR-02](../Modelagem/nfr.md#nfr2-performance-do-chat) por Marcos Nery_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -192,10 +192,10 @@ _Inspeção do [NFR-02](../Modelagem/nfr.md#nfr2-performance-do-chat) por Marcos
 ||Muito Bom||
 
 #### INFR-03
- 
+
 _Inspeção do [NFR-03](../Modelagem/nfr.md#nfr3-suporte) por Marcos Nery_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -243,10 +243,10 @@ _Inspeção do [NFR-03](../Modelagem/nfr.md#nfr3-suporte) por Marcos Nery_
 ||Regular||
 
 #### INFR-04
- 
+
 _Inspeção do [NFR-04](../Modelagem/nfr.md#nfr4-usabilidade) por Marcos Nery_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -292,10 +292,10 @@ _Inspeção do [NFR-04](../Modelagem/nfr.md#nfr4-usabilidade) por Marcos Nery_
 ||Regular||
 
 #### INFR-05
- 
+
 _Inspeção do [NFR-05](../Modelagem/nfr.md#nfr5-personabilidade) por Marcos Nery_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -343,10 +343,10 @@ _Inspeção do [NFR-05](../Modelagem/nfr.md#nfr5-personabilidade) por Marcos Ner
 ||Bom||
 
 #### INFR-06
- 
+
 _Inspeção do [NFR-06](../Modelagem/nfr.md#nfr6-seguranca) por Marcos Nery_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -394,10 +394,10 @@ _Inspeção do [NFR-06](../Modelagem/nfr.md#nfr6-seguranca) por Marcos Nery_
 ||Muito Bom||
 
 #### INFR-07
- 
+
 _Inspeção do [NFR-07](../Modelagem/nfr.md#nfr07-manutenabilidade) por Marcos Nery_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -444,12 +444,50 @@ _Inspeção do [NFR-07](../Modelagem/nfr.md#nfr07-manutenabilidade) por Marcos N
 ||**Veredito do inspetor**||
 ||Ruim||
 
+#### INFR-07 V2
+
+_Inspeção da versão 02 do [NFR-07](../Modelagem/nfr.md#nfr07-manutenabilidade) refatorado após ter sido reprovado pela análise anterior, por Weiller Fernandes_
+
+|Nº|Critério|Check|Observação/Melhoria|
+|:--:|:--:|:--:|:--:|
+||**Artefato modelo**|||
+|1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
+|2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Sim||
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
+|5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Sim||
+|6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Não||
+|7| A simbologia está corretamente implementada ?|Sim||
+|8|Os relacionamentos, por meio de ANDs e ORs, estão corretamente representados ?|Sim||
+|9|Existe propagação de impacto para  toda operacionalização ?|Sim||
+|10|Existe propagação de impacto entre branches diferentes do NFR onde cabivel ? |Não||
+|11|Existe variabilidade de caminhos possíveis para atingir o softgoal ?|Sim||
+||**Artefato de análise**|||
+|12|A simbologia das labels está corretamente representada ?|Sim||
+|13|O resultado da propagação dos impactos está correto ?|Sim||
+|14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
+|15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Não|Adicionar rastro para mostrar o que justifica o colocado no NFR|
+|17|O artefato possuí versionamento ?|Sim||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alta|1|3|
+|Médio|0|0|
+|Baixo|3|3|
+|**Total**|4|6|
+||**Conclusão**||
+||Artefato aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias||
+||**Veredito do inspetor**||
+||Bom||
 
 #### INFR-08
- 
+
 _Inspeção do [NFR-08](../Modelagem/nfr.md#nfr08-contribuicao-da-comunidade) por Marcos Nery_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -497,10 +535,10 @@ _Inspeção do [NFR-08](../Modelagem/nfr.md#nfr08-contribuicao-da-comunidade) po
 ||Bom||
 
 #### INFR-09
- 
+
 _Inspeção do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade) por Marcos Nery_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -554,7 +592,7 @@ Para este artefato, houve uma discordância entre duas pessoas que realizaram a 
 
 _Inspeção do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade) por André Lucas_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -597,7 +635,7 @@ Como para este artefato houveram duas inspeções com resultados diferentes, foi
 
 _Inspeção do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade) por Marcos Nery e André Lucas_
 
-|Nº|Critério|Check|Observação/Melhoria| 
+|Nº|Critério|Check|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|
 ||**Artefato modelo**|||
 |1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
@@ -632,6 +670,45 @@ _Inspeção do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade) por Marcos Nery
 ||**Veredito do inspetor**||
 ||Ruim||
 
+#### INFR-09 V4
+
+_Inspeção da versão 02 do [NFR-09](../Modelagem/nfr.md#nfr09-conectividade) refatorado após ter sido reprovado pela análise anterior, por Weiller Fernandes_
+
+|Nº|Critério|Check|Observação/Melhoria|
+|:--:|:--:|:--:|:--:|
+||**Artefato modelo**|||
+|1|O foco do modelo é avaliar a satisfação de uma meta flexível ?|Sim||
+|2|As operacionalizações estão representadas majoritariamente por meio de verbos ?|Sim||
+|3|Todos os softgoals constituem critérios de qualidade / Requisitos Não Funcionais ?|Sim||
+|4|Estão claros os conceitos ou tarefas representados pelos nomes escolhidos para cada softgoal ou operacionalização ?|Sim||
+|5|Antes do inicio das  operacionalizações, existe maturidade suficiente nos softgoals (normalmente com no mínimo 3 níveis) ?|Sim||
+|6|Estão sendo utilizados claims para melhorar a clareza do modelo ?|Sim||
+|7| A simbologia está corretamente implementada ?|Sim||
+|8|Os relacionamentos, por meio de ANDs e ORs, estão corretamente representados ?|Sim||
+|9|Existe propagação de impacto para  toda operacionalização ?|Sim||
+|10|Existe propagação de impacto entre branches diferentes do NFR onde cabivel ? |Não||
+|11|Existe variabilidade de caminhos possíveis para atingir o softgoal ?|Sim||
+||**Artefato de análise**|||
+|12|A simbologia das labels está corretamente representada ?|Sim||
+|13|O resultado da propagação dos impactos está correto ?|Sim||
+|14|Existe a variabilidade de caminhos tomados ?|Não|Modelar análises que seguem alternativas diferentes de caminhos a seguir|
+|15| A análise vai até o último nível para demonstrar se o softgoal é de fato atendido ?|Sim||
+||**Pré-rastreabilidade**||
+|16|Existe rastro no artefato ?|Não|Adicionar rastro para mostrar o que justifica o colocado no NFR|
+|17|O artefato possuí versionamento ?|Sim||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alta|1|3|
+|Médio|0|0|
+|Baixo|2|2|
+|**Total**|3|5|
+||**Conclusão**||
+||Artefato aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias||
+||**Veredito do inspetor**||
+||Bom||
+
 
 ## Resultados
 
@@ -641,14 +718,14 @@ Resultados com a primeira versão da checklist
 
 * Modelos analisados: 9
 * Modelos reprovados: 1
-* Média de pontuação dos defeitos: 5.7, ou cerca de 17%. De forma geral abaixo da tolerância máxima, que foi admitida como sendo de 30%. 
+* Média de pontuação dos defeitos: 5.7, ou cerca de 17%. De forma geral abaixo da tolerância máxima, que foi admitida como sendo de 30%.
 
 ### RV2
 Resultados com a segunda versão da checklist. Com a adição dos critérios de rastreio e versionamento, é possível ver que a porcentagem de defeitos aumentou, o que revela um problema significativo nos artefatos análisados que anteriormente não estava sendo observado.
- 
+
 * Modelos analisados: 9
 * Modelos reprovados: 2
-* Média de pontuação dos defeitos: 8.4, ou cerca de 21%. De forma geral abaixo da tolerância máxima, que foi admitida como sendo de 30%. 
+* Média de pontuação dos defeitos: 8.4, ou cerca de 21%. De forma geral abaixo da tolerância máxima, que foi admitida como sendo de 30%.
 
 Dessa forma, a conclusão da análise é que a maioria dos NFRs atingiu o padrão mínimo de qualidade, embora todos eles possam melhorar em alguns pontos e alguns precisem de refatoração. Além disso, abaixo pode ser vista uma lista que conta quantas vezes cada erro foi cometido. Para que seja possível concluír os principais pontos a se melhorar.
 
@@ -672,7 +749,9 @@ Dessa forma, a conclusão da análise é que a maioria dos NFRs atingiu o padrã
 |16|8|
 |17|0|  
 
-Como pode ser visto, o principal problema encontrado é a váriabilidade de caminhos análisados no artefato de análise do NFR. Logo após, vem um problema de maior importância, que é a falta de rastro no artefato, algo que precisa ser melhorado em quase todos os NFR análisados. Por fim, um outro erro cuja recorrência foi significativa, foi o erro referente a falta de maturidade na hora de começar as operacionalizações. 
+Como pode ser visto, o principal problema encontrado é a váriabilidade de caminhos análisados no artefato de análise do NFR. Logo após, vem um problema de maior importância, que é a falta de rastro no artefato, algo que precisa ser melhorado em quase todos os NFR análisados. Por fim, um outro erro cuja recorrência foi significativa, foi o erro referente a falta de maturidade na hora de começar as operacionalizações.
+
+* Observação: Após as primeiras análises terem sido feitas, e 2 modelos terem sido reprovados, foi feito um trabalho de refatoração com estes modelos, que consequentemente tiveram novas versões e novas análises. Nestas novas análises os modelos foram considerados aprovados.
 
 
 ## Referências
@@ -702,3 +781,4 @@ Como pode ser visto, o principal problema encontrado é a váriabilidade de cami
 | 09/05/2019 | 2.4 | Adição da segunda análise do NFR09 | André Lucas |
 | 09/05/2019 | 2.5 | Adição do consenço para a INFR09 | André Lucas e Marcos Nery|
 | 09/05/2019 | 2.6 | Refatoração dos resultados | Marcos Nery|
+| 23/06/2019 | 2.7 | Adição das inspeções INFR-07 V2 e INFR-09 V4 | Weiller Fernandes |
