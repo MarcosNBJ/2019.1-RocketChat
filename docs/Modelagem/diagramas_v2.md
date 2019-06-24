@@ -112,6 +112,7 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
         * Especificação de casos de uso: [EC20](especificacao.md#ec20)
     * [DCU14-V1](diagramas.md#dcu14-v1):
         * Diagrama inspirado pelo cenário **[Receber notificações](cenarios.md#c19)**
+        * Especificação de casos de uso: [EC24](especificacao.md#ec24)
 
 ## DCU05
 

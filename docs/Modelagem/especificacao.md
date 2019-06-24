@@ -103,7 +103,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Alterar Status](cenarios.md#c10) |
 |**Diagrama**|
-|[DCU4](diagramas.md#dcu4-v1)|
+| [DCU4](diagramas.md#dcu4-v1) |
+| [DC05-V2](diagramas_v2.md#dcu05) |
 
 ## EC5
 
@@ -270,7 +271,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC11
 
-|**Conectar com um servidor**|
+|**UC93 - Conectar com um servidor**|
 |--|
 | **Descrição**|
 | - Funcionalidade que permiti o usuário iniciar conexão com uma instância do [Rocket.chat](lexicos.md#l65)  |
@@ -291,7 +292,8 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | **Cenário** |
 | - [Conectar com um servidor](cenarios.md#c4-v2) |
 |**Diagrama**|
-|[DCU17](diagramas.md#dcu17-v1)|
+| [DCU17](diagramas.md#dcu17-v1) |
+| [DCU06-V2](diagramas_v2.md#dcu06) |
 
 ## EC12
 
@@ -551,7 +553,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC20
 
-|**Realizar video Chat**|
+|**UC80 - Realizar video Chat**|
 |--|
 | **Descrição**|
 | Comunicação a distância e online entre um grupo de usuários do Rocket.chat|
@@ -581,6 +583,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 |[Realizar video chat](cenarios.md#c2-v2) |
 |**Diagrama**|
 |[DCU1](diagramas.md#dcu1-v2)|
+| [DCU04-V2](diagramas_v2.md#dcu04) |
 
 ## EC21
 
@@ -680,7 +683,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 
 ## EC24
 
-|**Receber Notificação**|
+|**UC79 - Receber Notificação**|
 |--|
 | **Descrição**|
 | - Funcionalidade(Caso de Uso) com objetivo do usuário receber notificações diversas de mensagens, como de "mensagens diretas" ou o usuário deve ser marcado ou mencionado em qualquer outra room (channel, private groups ou discussões); receber notificações de convite para um Video-Chat(WebConferência) ou notificações de Convite para o usuário se tornar membro em uma room |
@@ -711,6 +714,7 @@ Aqui estão listadas as especificações de casos de uso, que, sendo baseadas ca
 | [Receber Notificação](cenarios.md#c19) |
 |**Diagrama**|
 | [DCU14](diagramas.md#dcu14-v1) |
+| [DCU04-V2](diagramas_v2.md#dcu04) |
 
 ## EC25
 
