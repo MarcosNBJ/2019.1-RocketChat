@@ -838,7 +838,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Levantado pela técnica**|
 | - |
 
-### C15 - V1
+### C15
 
 |**Sair de um [channel](lexicos.md#l1)  **|
 |--|
@@ -875,7 +875,7 @@ Cenários é uma técnica de modelagem que consiste em explicar diversos fluxos 
 |**Levantado pela técnica**|
 |-|
 
-### C16 - V1
+### C16
 
 |**Esconder sala**|
 |--|

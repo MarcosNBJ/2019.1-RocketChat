@@ -15,36 +15,49 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 | RF3    | A aplicação deve oferecer ao usuário a possibilidade de entrar no app através de username e senha, previamente cadatrados no aplicativo |[AP1](../Elicitação/analprot#requisitos-elicitados)<br> [INT1.3](../Elicitação/Introspeccao#introspeccao-01) <br> | [C1](../Modelagem/cenarios#c1-v2)<br> [DCU13 - V1](../Modelagem/diagramas#dcu13-v1)<br> [EC21](../Modelagem/especificacao#ec21)<br> [US02](../Modelagem/backlog.md#us02)<br> [ISR02](../Modelagem/istar#isr02-realizar-cadastro) |[EF3](#ef3)  |
 | RF4    | O app deve permitir o cadastro na aplicação por contas de serviços de terceiros ou a partir de dados do usuário, como email, username e senha|[AP10](../Elicitação/analprot.md#requisitos-elicitados) | [EP02](../Modelagem/backlog.md/#ep02-fazer-cadastro)<br> [C1](../Modelagem/cenarios.md/#c1-v2)<br> [DCU21](../Modelagem/diagramas.md/#cadastrar-novo-usuario)<br> [ECU21](../Modelagem/especificacao.md/#ec21)<br> [ISR02](../Modelagem/istar.md/#isr02-realizar-cadastro) |[EF4](#ef4)  |
 | RF5    | O usuário deve ter a disposição, a criação de canais, subgrupos de discussão e grupos, privados/publicos, ilimitados.                                |[INT1.1](../Elicitação/Introspeccao#introspeccao-01)<br> [INT3.1](../Elicitação/Introspeccao#introspeccao-03)<br> [INT4.2](../Elicitação/Introspeccao#introspeccao-04)<br> [SB2](../Elicitação/Storyboard#4-requisitos-obtidos)<br> [AP4](../Elicitação/analprot.md#requisitos-elicitados) | [EP08](../Modelagem/backlog.md/#ep08-criar-channel)<br>[C3](../Modelagem/cenarios.md/#c3-v2)<br> [C22](../Modelagem/cenarios.md/#c22)<br> [DCU16](../Modelagem/diagramas.md/#dcu16-v1)<br>  [DCU09](../Modelagem/diagramas.md/#dcu9-v1) <br> [ECU03](../Modelagem/especificacao.md/#ec3) <br> [ECU10](../Modelagem/especificacao.md/#ec10)<br> [ISR01](../Modelagem/istar.md/#versao-02_2)<br> [US18](../Modelagem/backlog.md#us18)<br> [US19](../Modelagem/backlog.md#us19)<br> [US21](../Modelagem/backlog.md#us21)|[EF5](#ef5) |
-| RF6   |O usuário deve ser capaz de, dentro da plataforma, enviar mensagens dentro de grupos de conversa ou dentro de chats privados | [INT4.1](../Elicitação/Introspeccao#introspeccao-04)<br>[SB1](../Elicitação/Storyboard.md#4-requisitos-obtidos) | [EP10](../Modelagem/backlog.md/#ep10-Mensagens)<br> [C12](../Modelagem/cenarios.md/#c12-v2)<br> [DCU2](../Modelagem/diagramas.md/#dcu2-v2)<br> [ECU15](../Modelagem/especificacao.md/#ec15)<br> [ISR03](../Modelagem/istar.md/#isr03-envio-de-mensagens)<br> [L41](../Modelagem/lexicos.md/#l41)<br> [US20](../Modelagem/backlog.md#us20) | [EF6](#ef6)  |
-| RF7   | O usuário deve ser capaz de realizar uma busca de uma mensagem dentro de um determinado chat | [INT2.2](../Elicitação/Introspeccao#introspeccao-02)<br>[AD11](../Elicitação/analdiscursi#requisitos-elicitados) | [EP11](../Modelagem/backlog.md/#ep11-acoes-do-channel)<br> [L11](../Modelagem/lexicos.md/#l11) <br> [US48](../Modelagem/backlog.md#us48) | [EF7](#ef7) |
-| RF8   | O app deve oferecer a possibilidade do usuário instalar seu próprio servidor local. | [INT4.8](../Elicitação/Introspeccao#introspeccao-04)<br> [INT1.4](../Elicitação/Introspeccao#introspeccao-01) <br>[Storyboard 4](../Elicitação/Storyboard#4-requisitos-obtidos) | [EP16](../Modelagem/backlog.md/#ep16-conectar-com-um-servidor)<br> [C4](../Modelagem/cenarios.md/#c4-v2)<br> [DCU17](../Modelagem/diagramas.md/#dcu17-v2)<br> [EC11](../Modelagem/especificacao.md/#ec11)<br> [L14](../Modelagem/lexicos.md/#l14)<br> [US65](../Modelagem/backlog.md#us65) | [EF8](#ef8)  |
-| RF9   | A plataforma deve permitir a integração de Bots | [INT3.9](../Elicitação/Introspeccao.md#introspeccao-03)<br> [ENT1.1](../Elicitação/entrevista.md#requisitos)<br> [AD7](../Elicitação/analdiscurso.md#requisitos-elicitados)<br>[Q2](../Elicitação/questionario.md#requisitos-elicitados) | [EP14](../Modelagem/backlog.md/#ep14-integraçoes)<br> [C4](../Modelagem/cenarios.md/#c4-v2)<br> [DCU17](../Modelagem/diagramas.md/#dcu17-v2)<br> [EC11](../Modelagem/especificacao.md/#ec11)<br> [L26](../Modelagem/lexicos.md/#ec14)<br> [US62](../Modelagem/backlog.md#us62) | [EF9](#ef9) |
-| RF10  |A plataforma deve permitir a configuração de preferências dentro do app | [AP8](../Elicitação/analprot.md#requisitos-elicitados) | [EP05](../Modelagem/backlog.md/#ep05-configurações-do-aplicativo)<br> [NFR5](Modelagem/nfr.md#nf5-personabilidade)<br> [US09](../Modelagem/backlog.md#us09) | [EF10](#ef10)|
-|RF11  |Possibilidade de alteração do idioma no aplicativo | [INT4.5](../Elicitação/Introspeccao#introspeccao-04)<br> [Storyboard3](../Elicitação/Storyboard#4-requisitos-obtidos) | [US09](../Modelagem/backlog.md#us09)<br> [US10](../Modelagem/backlog.md#us10) | [EF11](#ef11)|
-| RF12  | | | | [EF12](#ef12) |
-|RF13  | Alteração de senha | | [US12](../Modelagem/backlog.md#us12)<br> [L21](../Modelagem/lexicos.md#l21)<br> [L41](../Modelagem/lexicos.md#l41)<br> [L45](../Modelagem/lexicos.md#l45)<br> [L46](../Modelagem/lexicos.md#l46) | [EF13](#ef13)|
-| RF14  | Possibilidade de mencionar, um ou todos, os membros do grupo | [INT1.6](../Elicitação/Introspeccao#introspeccao-01)<br> [INT2.4](../Elicitação/Introspeccao#introspeccao-02)<br> [ENT1.5](../Elicitação/entrevista.md#requisitos) | [US43](../Modelagem/backlog.md#us43)<br> [ISD04](../Modelagem/istar#isd04-acoes-sobre-o-channel)<br> [ISR05](../Modelagem/istar#isr05-acoes-sobre-o-channel)<br> [L4](../Modelagem/lexicos.md#l4) | [EF14](#ef14)|
-| RF15  |Sistema deve ser capaz de Adicionar autenticação de 2 Fatores | | [US13](../Modelagem/backlog.md#us13) | [EF15](#ef15) |
-| RF16  |Sistema deve mostrar e permitir a edição das configurações da conta | [AP7](../Elicitação/analprot.md#requisitos-elicitados) | [US09](../Modelagem/backlog.md#us09)<br> [US14](../Modelagem/backlog.md#us14)<br> [L08](../Modelagem/lexicos.md#l08)<br> [ISD02](../Modelagem/istar#isr02-geral) | [EF16](#ef16)|
-| RF17  | O sistema deve permitir o envio de arquivos e documentos em um chat | [INT2.1](../Elicitação/Introspeccao#introspeccao-02)<br> [Q6](../Elicitação/questionario#requisitos-elicitados) | [US28](../Modelagem/backlog.md#us28)<br>[US33](../Modelagem/backlog.md#us33)<br>[C9](../Modelagem/cenarios.md/#c9-v2)<br>[DCU2](../Modelagem/diagramas.md/#dcu2-v3)<br>[DCU18](../Modelagem/diagramas.md/#dcu18-v1)<br>[EC16](../Modelagem/especificacao.md/#ec16)<br>[L5](../Modelagem/lexicos.md#l5) | [EF17](#ef17)|
-| RF18  | Permitir a alteração do status do usuário | | [US15](../Modelagem/backlog.md#us15)<br> [C10](../Modelagem/cenarios.md/#c10) | [EF18](#ef18) |
-| RF19  | App deve possuir ferramenta para busca de Channels | [AD11](../Elicitação/analdiscurso.md#requisitos-elicitados) | [US16](../Modelagem/backlog.md#us16) | [EF19](#ef19)|
-| RF20  |App deve possuir opções para listar Channels em categorias | [Q16](../Elicitação/questionario#requisitos-elicitados) | [US17](../Modelagem/backlog.md#us17)<br> [L39](../Modelagem/lexicos.md#l39) | [EF20](#ef20)|
-| RF21  |Possibilidade de favoritar um grupo | [Q15](../Elicitação/questionario#requisitos-elicitados) | [US42](../Modelagem/backlog.md#us42)<br>[L34](../Modelagem/lexicos.md#l34)<br>[L35](../Modelagem/lexicos.md#l35) | [EF21](#ef21) |
-| RF22  |Permitir a alteração de privacidade do Channel | | [US22](../Modelagem/backlog.md#us22)<br> [C26](../Modelagem/cenarios.md/#c26)<br> [DCU8](../Modelagem/diagramas.md/#dcu8-v1)<br> [EC2](../Modelagem/especificacao.md/#ec2)<br> [L72](../Modelagem/lexicos.md#l72) | [EF22](#ef22) | | RF23  |Definir Channel como Read Only | | [US23](../Modelagem/backlog.md#us23)<br> [C22](../Modelagem/cenarios.md/#c22)<br> [DCU9 ](../Modelagem/diagramas.md/#dcu9-v1)<br> [EC3](../Modelagem/especificacao.md/#ec3)<br> [L69](../Modelagem/lexicos.md#l69) | [EF23](#e23) |
-| RF24  | Definir Channel para BroadCast | | [US24](../Modelagem/backlog.md#us24) | [EF24](#e24) |
-| RF25  |Permitir que o usuário possa adicionar ou visualizar as informações do Channel através de uma descrição, tópico do Channel | | [US25](../Modelagem/backlog.md#us25)<br> [US26](../Modelagem/backlog.md#us26)<br> [US47](../Modelagem/backlog.md#us47)<br> [L33](../Modelagem/lexicos.md#l33) | [EF25](#e25)   |
-| RF26  |App deve permitir o envio de desenhos, como mensagens | | [US30](../Modelagem/backlog.md#us30)<br> [C8](../Modelagem/cenarios.md/#c22)<br> [DCU18](../Modelagem/diagramas.md/#dcu18-v1)<br> [EC17](../Modelagem/especificacao.md/#ec17)<br> [L43](../Modelagem/lexicos.md#l43) | [EF26](#e26) |
-| RF27  |O sistema deve permitir o envio de arquivos de midia, como vídeo e áudio | [INT1.5](../Elicitação/Introspeccao#introspeccao-01)<br> [Q6](../Elicitação/questionario#requisitos-elicitados) | [US31](../Modelagem/backlog.md#us31) | [EF27](#e27) |
-| RF28  |O usuário deve poder editar suas mensagens enviadas | | [US34](../Modelagem/backlog.md#us34)<br> [C5](../Modelagem/cenarios.md#c5)<br> [E19](../Modelagem/especificacao.md#ec19)<br> [DCU19](../Modelagem/diagramas.md#dcu19-v1) | [EF28](#e28) |
-| RF29  |O usuário deve poder copiar uma mensagem |  | [US35](../Modelagem/backlog.md#us35)<br> [L54](../Modelagem/lexicos.md#l54) | [EF29](#e29) |
-| RF30  |O sistema deve oferecer uma maneira para o usuário possa compartilhar mensagens |  | [US36](../Modelagem/backlog.md#us36)<br> [L13](../Modelagem/lexicos.md#l13)<br> [L54](../Modelagem/lexicos.md#l54) |  [EF30](#e30) |
-| RF31  |O usuário deve ter a possibilidade excluir uma mensagem a qualquer momento | [Q8](../Elicitação/questionario.md#requisitos-elicitados) | [US38](../Modelagem/backlog.md#us38)<br> [L58](../Modelagem/lexicos.md#l58) | [EF31](#e31) |
-| RF32  |Usuário deve poder adicionar reações a mensagens |  | [US39](../Modelagem/backlog.md#us39)<br> [L9](../Modelagem/lexicos#l9)<br> [L10](../Modelagem/lexicos#l10) | [EF32](#e32) |
-|RF33  |Usuário deve ser capaz de responder mensagens enviadas dentro de Channels que ele participa | [StoryBoarding1](../Elicitação/StoryBoarding.md#4-requisitos-obtidos) | [US40](../Modelagem/backlog.md#us40)<br> [C7](cenarios.md#c7-v2)<br> [DCU20](../Modelagem/diagramas.md#dcu20-v1)<br> [EC18](../Modelagem/especificacao.md/#ec18)<br> [ISD01](../Modelagem/istar#isd01-chat)<br> [ISR03](../Modelagem/istar#isr03-envio-de-mensagens) | [EF33](#e33) |
-| RF34  |Usuário deve ter a possibilidade de reportar alguma mensagem em um Channel que não respeite as diretrizes do app | | [US41](../Modelagem/backlog.md#us41) | [EF34](#ef34) |
-| RF35  |O sistema deve ser capaz de exibir notificações para mensagens não lidas e  para menções em chats e possibilitar ao usuário a configuração das mesmas|[ENT1.4](../Elicitação/entrevista.md#requisitos)<br>[AD5](../Elicitação/analdiscurso#requisitos-elicitados)<br>[Q6](../Elicitação/questionario#requisitos-elicitados) | [US44](../Modelagem/backlog.md#us44)<br>[C19](cenarios.md#c19)<br>[DCU14](../Modelagem/diagramas.md#dcu14-v1)<br>[EC24](../Modelagem/especificacao.md/#ec24)<br>[L28](../Modelagem/lexicos#l28)<br>[ES03](../Modelagem/suplementar.md#es03-notificacoes) | [EF35](#ef35) |
-| RF36  | A aplicação deve fornecer suporte aos seus usuários via chat e e-mail. | [ENT1.3](../Elicitação/entrevista.md#requisitos)<br> [INT3.10](../Elicitação/Introspeccao#introspeccao-03) | [US05](../Modelagem/backlog.md#us05)<br> [US06](../Modelagem/backlog.md#us06)<br> [NFR-03](../Modelagem/nfr.md#nfr3-suporte) | [EF36](#ef36) |
+| RF6    | O usuário deve ser capaz de, dentro da plataforma, enviar mensagens dentro de grupos de conversa ou dentro de chats privados | [INT4.1](../Elicitação/Introspeccao#introspeccao-04)<br>[SB1](../Elicitação/Storyboard.md#4-requisitos-obtidos) | [EP10](../Modelagem/backlog.md/#ep10-Mensagens)<br> [C12](../Modelagem/cenarios.md/#c12-v2)<br> [DCU2](../Modelagem/diagramas.md/#dcu2-v2)<br> [ECU15](../Modelagem/especificacao.md/#ec15)<br> [ISR03](../Modelagem/istar.md/#isr03-envio-de-mensagens)<br> [L41](../Modelagem/lexicos.md/#l41)<br> [US20](../Modelagem/backlog.md#us20) | [EF6](#ef6)  |
+| RF7    | O usuário deve ser capaz de realizar uma busca de uma mensagem dentro de um determinado chat | [INT2.2](../Elicitação/Introspeccao#introspeccao-02)<br>[AD11](../Elicitação/analdiscursi#requisitos-elicitados) | [EP11](../Modelagem/backlog.md/#ep11-acoes-do-channel)<br> [L11](../Modelagem/lexicos.md/#l11) <br> [US48](../Modelagem/backlog.md#us48) | [EF7](#ef7) |
+| RF8    | O app deve oferecer a possibilidade do usuário instalar seu próprio servidor local. | [INT4.8](../Elicitação/Introspeccao#introspeccao-04)<br> [INT1.4](../Elicitação/Introspeccao#introspeccao-01) <br>[Storyboard 4](../Elicitação/Storyboard#4-requisitos-obtidos) | [EP16](../Modelagem/backlog.md/#ep16-conectar-com-um-servidor)<br> [C4](../Modelagem/cenarios.md/#c4-v2)<br> [DCU17](../Modelagem/diagramas.md/#dcu17-v2)<br> [EC11](../Modelagem/especificacao.md/#ec11)<br> [L14](../Modelagem/lexicos.md/#l14)<br> [US65](../Modelagem/backlog.md#us65) | [EF8](#ef8)  |
+| RF9    | A plataforma deve permitir a integração de Bots | [INT3.9](../Elicitação/Introspeccao.md#introspeccao-03)<br> [ENT1.1](../Elicitação/entrevista.md#requisitos)<br> [AD7](../Elicitação/analdiscurso.md#requisitos-elicitados)<br>[Q2](../Elicitação/questionario.md#requisitos-elicitados) | [EP14](../Modelagem/backlog.md/#ep14-integraçoes)<br> [C4](../Modelagem/cenarios.md/#c4-v2)<br> [DCU17](../Modelagem/diagramas.md/#dcu17-v2)<br> [EC11](../Modelagem/especificacao.md/#ec11)<br> [L26](../Modelagem/lexicos.md/#ec14)<br> [US62](../Modelagem/backlog.md#us62) | [EF9](#ef9) |
+| RF10   | A plataforma deve permitir a configuração de preferências dentro do app | [AP8](../Elicitação/analprot.md#requisitos-elicitados) | [EP05](../Modelagem/backlog.md/#ep05-configurações-do-aplicativo)<br> [NFR5](Modelagem/nfr.md#nf5-personabilidade)<br> [US09](../Modelagem/backlog.md#us09) | [EF10](#ef10)|
+| RF11   | Possibilidade de alteração do idioma no aplicativo | [INT4.5](../Elicitação/Introspeccao#introspeccao-04)<br> [Storyboard3](../Elicitação/Storyboard#4-requisitos-obtidos) | [US09](../Modelagem/backlog.md#us09)<br> [US10](../Modelagem/backlog.md#us10) | [EF11](#ef11)|
+| RF12   | Sistema deve permitir que o usuário visualize as lista de arquivos enviados no channel | [INT2.3](../Elicitação/Introspeccao#introspeccao-02) | [US51](../Modelagem/backlog.md#us51) | [EF12](#ef12) |
+| RF13   | Alteração de senha | [US42](../Modelagem/backlog.md#us42)<br> [L34](../Modelagem/lexicos.md#l34) | [US12](../Modelagem/backlog.md#us12)<br> [L21](../Modelagem/lexicos.md#l21)<br> [L41](../Modelagem/lexicos.md#l41)<br> [L45](../Modelagem/lexicos.md#l45)<br> [L46](../Modelagem/lexicos.md#l46) | [EF13](#ef13)|
+| RF14   | Possibilidade de mencionar, um ou todos, os membros do grupo | [INT1.6](../Elicitação/Introspeccao#introspeccao-01)<br> [INT2.4](../Elicitação/Introspeccao#introspeccao-02)<br> [ENT1.5](../Elicitação/entrevista.md#requisitos) | [US43](../Modelagem/backlog.md#us43)<br> [ISD04](../Modelagem/istar#isd04-acoes-sobre-o-channel)<br> [ISR05](../Modelagem/istar#isr05-acoes-sobre-o-channel)<br> [L4](../Modelagem/lexicos.md#l4) | [EF14](#ef14)|
+| RF15   | Sistema deve ser capaz de Adicionar autenticação de 2 Fatores | | [US13](../Modelagem/backlog.md#us13) | [EF15](#ef15) |
+| RF16   | Sistema deve mostrar e permitir a edição das configurações da conta | [AP7](../Elicitação/analprot.md#requisitos-elicitados) | [US09](../Modelagem/backlog.md#us09)<br> [US14](../Modelagem/backlog.md#us14)<br> [L08](../Modelagem/lexicos.md#l08)<br> [ISD02](../Modelagem/istar#isr02-geral) | [EF16](#ef16)|
+| RF17   | O sistema deve permitir o envio de arquivos e documentos em um chat | [INT2.1](../Elicitação/Introspeccao#introspeccao-02)<br> [Q6](../Elicitação/questionario#requisitos-elicitados) | [US28](../Modelagem/backlog.md#us28)<br>[US33](../Modelagem/backlog.md#us33)<br>[C9](../Modelagem/cenarios.md/#c9-v2)<br>[DCU2](../Modelagem/diagramas.md/#dcu2-v3)<br>[DCU18](../Modelagem/diagramas.md/#dcu18-v1)<br>[EC16](../Modelagem/especificacao.md/#ec16)<br>[L5](../Modelagem/lexicos.md#l5) | [EF17](#ef17)|
+| RF18   | Permitir a alteração do status do usuário | | [US15](../Modelagem/backlog.md#us15)<br> [C10](../Modelagem/cenarios.md/#c10) | [EF18](#ef18) |
+| RF19   | App deve possuir ferramenta para busca de Channels | [AD11](../Elicitação/analdiscurso.md#requisitos-elicitados) | [US16](../Modelagem/backlog.md#us16) | [EF19](#ef19)|
+| RF20  | App deve possuir opções para listar Channels em categorias | [Q16](../Elicitação/questionario#requisitos-elicitados) | [US17](../Modelagem/backlog.md#us17)<br> [L39](../Modelagem/lexicos.md#l39) | [EF20](#ef20)|
+| RF21   | Possibilidade de favoritar um grupo | [Q15](../Elicitação/questionario#requisitos-elicitados) | [US42](../Modelagem/backlog.md#us42)<br>[L34](../Modelagem/lexicos.md#l34)<br>[L35](../Modelagem/lexicos.md#l35) | [EF21](#ef21) |
+| RF22   | Permitir a alteração de privacidade do Channel | | [US22](../Modelagem/backlog.md#us22)<br> [C26](../Modelagem/cenarios.md/#c26)<br> [DCU8](../Modelagem/diagramas.md/#dcu8-v1)<br> [EC2](../Modelagem/especificacao.md/#ec2)<br> [L72](../Modelagem/lexicos.md#l72) | [EF22](#ef22) | | RF23  |Definir Channel como Read Only | | [US23](../Modelagem/backlog.md#us23)<br> [C22](../Modelagem/cenarios.md/#c22)<br> [DCU9 ](../Modelagem/diagramas.md/#dcu9-v1)<br> [EC3](../Modelagem/especificacao.md/#ec3)<br> [L69](../Modelagem/lexicos.md#l69) | [EF23](#e23) |
+| RF24   | Definir Channel para BroadCast | | [US24](../Modelagem/backlog.md#us24) | [EF24](#e24) |
+| RF25   | Permitir que o usuário possa adicionar ou visualizar as informações do Channel através de uma descrição, tópico do Channel | | [US25](../Modelagem/backlog.md#us25)<br> [US26](../Modelagem/backlog.md#us26)<br> [US47](../Modelagem/backlog.md#us47)<br> [L33](../Modelagem/lexicos.md#l33) | [EF25](#e25)   |
+| RF26   | App deve permitir o envio de desenhos, como mensagens | | [US30](../Modelagem/backlog.md#us30)<br> [C8](../Modelagem/cenarios.md/#c22)<br> [DCU18](../Modelagem/diagramas.md/#dcu18-v1)<br> [EC17](../Modelagem/especificacao.md/#ec17)<br> [L43](../Modelagem/lexicos.md#l43) | [EF26](#e26) |
+| RF27   | O sistema deve permitir o envio de arquivos de midia, como vídeo e áudio | [INT1.5](../Elicitação/Introspeccao#introspeccao-01)<br> [Q6](../Elicitação/questionario#requisitos-elicitados) | [US31](../Modelagem/backlog.md#us31) | [EF27](#e27) |
+| RF28    | O usuário deve poder editar suas mensagens enviadas | | [US34](../Modelagem/backlog.md#us34)<br> [C5](../Modelagem/cenarios.md#c5)<br> [E19](../Modelagem/especificacao.md#ec19)<br> [DCU19](../Modelagem/diagramas.md#dcu19-v1) | [EF28](#e28) |
+| RF29   | O usuário deve poder copiar uma mensagem |  | [US35](../Modelagem/backlog.md#us35)<br> [L54](../Modelagem/lexicos.md#l54) | [EF29](#e29) |
+| RF30   | O sistema deve oferecer uma maneira para o usuário possa compartilhar mensagens |  | [US36](../Modelagem/backlog.md#us36)<br> [L13](../Modelagem/lexicos.md#l13)<br> [L54](../Modelagem/lexicos.md#l54) |  [EF30](#e30) |
+| RF31   | O usuário deve ter a possibilidade excluir uma mensagem a qualquer momento | [Q8](../Elicitação/questionario.md#requisitos-elicitados) | [US38](../Modelagem/backlog.md#us38)<br> [L58](../Modelagem/lexicos.md#l58) | [EF31](#e31) |
+| RF32   | Usuário deve poder adicionar reações a mensagens |  | [US39](../Modelagem/backlog.md#us39)<br> [L9](../Modelagem/lexicos#l9)<br> [L10](../Modelagem/lexicos#l10) | [EF32](#e32) |
+| RF33   | Usuário deve ser capaz de responder mensagens enviadas dentro de Channels que ele participa | [StoryBoarding1](../Elicitação/StoryBoarding.md#4-requisitos-obtidos) | [US40](../Modelagem/backlog.md#us40)<br> [C7](cenarios.md#c7-v2)<br> [DCU20](../Modelagem/diagramas.md#dcu20-v1)<br> [EC18](../Modelagem/especificacao.md/#ec18)<br> [ISD01](../Modelagem/istar#isd01-chat)<br> [ISR03](../Modelagem/istar#isr03-envio-de-mensagens) | [EF33](#e33) |
+| RF34   | Usuário deve ter a possibilidade de reportar alguma mensagem em um Channel que não respeite as diretrizes do app | | [US41](../Modelagem/backlog.md#us41) | [EF34](#ef34) |
+| RF35   | O sistema deve ser capaz de exibir notificações para mensagens não lidas e  para menções em chats e possibilitar ao usuário a configuração das mesmas| [ENT1.4](../Elicitação/entrevista.md#requisitos)<br>[AD5](../Elicitação/analdiscurso#requisitos-elicitados)<br>[Q6](../Elicitação/questionario#requisitos-elicitados) | [US44](../Modelagem/backlog.md#us44)<br>[C19](cenarios.md#c19)<br>[DCU14](../Modelagem/diagramas.md#dcu14-v1)<br>[EC24](../Modelagem/especificacao.md/#ec24)<br>[L28](../Modelagem/lexicos#l28)<br>[ES03](../Modelagem/suplementar.md#es03-notificacoes) | [EF35](#ef35) |
+| RF36   | A aplicação deve fornecer suporte aos seus usuários via chat e e-mail. | [ENT1.3](../Elicitação/entrevista.md#requisitos)<br> [INT3.10](../Elicitação/Introspeccao#introspeccao-03) | [US05](../Modelagem/backlog.md#us05)<br> [US06](../Modelagem/backlog.md#us06)<br> [NFR-03](../Modelagem/nfr.md#nfr3-suporte) | [EF36](#ef36) |
+| R37    | O app deve oferecer a possibilidade do usuário procurar mensagens por texto |  | [US48](../Modelagem/backlog.md#us48)<br> [C17](../Modelagem/cenarios.md/#c17)<br> [DCU12](../Modelagem/diagramas.md#dcu12-v1)<br> [EC13](../Modelagem/especificacao.md/#ec13) | [EF37](#ef37) |
+| R38    | O Sistema deve permitir que o usuário favorite uma mensagem  |  | [US49](../Modelagem/backlog.md#us49)<br> [C13](cenarios.md#c13)<br> [DCU6](../Modelagem/diagramas.md#dcu16-v1)<br> [EC6](../Modelagem/especificacao.md/#ec6)<br> [ID01](../modelagem/istar.md#isd01)<br> [ISR03](../modelagem/istar.md#isr03)<br> [L71](../Modelagem/lexicos.md/#l71) | [EF38](#ef38) |
+| R39    | O Sistema deve permitir que o usuário possa fixar uma mensagem no Channel |  | [US50](../Modelagem/backlog.md#us50)<br> [C11](../Modelagem/cenarios.md/#c11)<br> [C25](../Modelagem/cenarios.md/#c25)<br> [DCU3](../Modelagem/diagramas.md#dcu13-v1)<br> [EC1](especificacao.md#ec1)<br> [EC12](especificacao.md#ec12)<br> [ID01](../modelagem/istar.md#isd01)<br> [ISR03](../modelagem/istar.md#isr03)<br> [L3](../Modelagem/lexicos#l3)<br> [L16](../Modelagem/lexicos#l16) | [EF39](#ef39) |
+| R40    | O Usuário deve conseguir convidar membros do Channel para o Video Chat | [AP5](../Elicitação/analprot#requisitos-elicitados) | [US53](../Modelagem/backlog.md#us53)<br> [L59](../Modelagem/lexicos#l59) | [EF40](#ef40) |
+| R41    | O Sistema deve permitir que o usuário possa compartilhar a tela de seu dispositivo | [AD3](../Elicitação/analdiscurso.md#requisitos-elicitados)<br> [INT3.5](../Elicitação/Introspeccao#introspeccao-03)<br> [Q11](../Elicitação/questionario.md#requisitos-elicitados)<br> [StoryBoard3,5](../Elicitação/Storyboard.md#4-requisitos-obtidos)<br> | [US57](../Modelagem/backlog.md#us57)<br> [L25](../Modelagem/lexicos#l25)<br> [EC20](especificacao.md#ec20)<br> [DCU1](../Modelagem/diagramas#dcu1-v1) | [EF41](#ef41) |
+| R42    | A aplicação deve permitir que o usuário possa visualizar a lista de membros do Channel  |  | [US58](../Modelagem/backlog.md#us58)<br> [DCU7](../Modelagem/diagramas.md#dcu7-v1)<br> [EC7](especificacao.md#ec7)<br> [L12](../Modelagem/lexicos#l12) | [EF42](#ef42) |
+| R43    | A Aplicação deve permitir que o usuário possa visualizar informações básicas de outro usuário |  | [US59](../Modelagem/backlog.md#us59)<br> [DCU7](../Modelagem/diagramas.md#dcu7-v1)<br> [EC7](especificacao.md#ec7)<br> [L12](../Modelagem/lexicos#l12) | [EF43](#ef43) |
+| R44    | A Aplicação deve permitir que os usuários administradores do Channel possam adicionar novos usuários | [AP5](../Elicitação/analprot#requisitos-elicitados) | [US60](../Modelagem/backlog.md#us60)<br> [L59](../Modelagem/lexicos#l59) | [EF44](#ef44) |
+| R45    | A Aplicaçaõ deve permitir que os usuários administradores do Channel possam remover usuários |  | [US61](../Modelagem/backlog.md#us61)<br> [L12](../Modelagem/lexicos#l12) | [EF45](#ef45) |
+| R46    | A Aplicação deve permitir que os usuários possam esconder um Channel |  | [US63](../Modelagem/backlog.md#us63)<br> [C16](../Modelagem/cenarios.md/#c16)<br> [DCU23](../Modelagem/diagramas.md#dcu23-v1)<br> [ECU23](especificacao.md#ec23)<br> [L49](../Modelagem/lexicos#l49)<br> [ISD02](../modelagem/istar.md#isd02) | [EF46](#ef46) |
+| R47    | A Aplicação deve permitir que os usuários possam deixar um Channel |  | [US64](../Modelagem/backlog.md#us64)<br> [US63](../Modelagem/backlog.md#us63)<br> [C15](../Modelagem/cenarios.md/#c15)<br> [C16](../Modelagem/cenarios.md/#c16)<br> [DCU22](../Modelagem/diagramas.md#dcu22-v1)<br> [DCU23](../Modelagem/diagramas.md#dcu23-v1)<br> [EC22](especificacao.md#ec22)<br> [EC23](especificacao.md#ec23)<br> [L48](../Modelagem/lexicos#l48)<br> [L49](../Modelagem/lexicos#l49)<br> [ISD02](../modelagem/istar.md#isd02) | [EF47](#ef47) |
+| R48    | O Sistema deve permitir que um usuário possa visualizar todos os Channels visiveis do Servidor |  |[US69](../Modelagem/backlog.md#us69)  | [EF48](#ef48) |
+| R49    | O Sistema deve permitir que um usuário possa visualizar a lista com todos os usuários do Servidor |  | [US70](../Modelagem/backlog.md#us70) | [EF49](#ef49) |
 
 ## Requisitos Não Funcionais
 
@@ -76,7 +89,6 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 **Elo:**
 
-
 ### EF2
 
 **Elementos rastreáveis:**
@@ -90,7 +102,7 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [DCU1-V2](../Modelagem/diagramas#dcu1-v2)
 * [EC20](../Modelagem/especificacao#ec20)
 * [US46](../Modelagem/backlog.md#us46)
-*  [ISD01](../Modelagem/istar#isd01-chat)
+* [ISD01](../Modelagem/istar#isd01-chat)
 
 **Elo:**
 
@@ -185,8 +197,6 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 **Elo:**
 
-
-
 ### EF8
 
 **Elementos rastreáveis:**
@@ -243,6 +253,9 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 ### EF12
 
 **Elementos rastreáveis:**
+
+* [INT2.3](../Elicitação/Introspeccao#introspeccao-02)
+* [US51](../Modelagem/backlog.md#us51)
 
 **Elo:**
 
@@ -547,6 +560,161 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 **Elo:**
 
+#### EF37
+
+**Elementos rastreáveis:**
+
+* [US48](../Modelagem/backlog.md#us48)
+* [C17](../Modelagem/cenarios.md/#c17)
+* [DCU12](../Modelagem/diagramas.md#dcu12-v1)
+* [EC13](../Modelagem/especificacao.md/#ec13)
+
+**Elo:**
+
+#### EF38
+
+**Elementos rastreáveis:**
+
+* [US49](../Modelagem/backlog.md#us49)
+* [C13](cenarios.md#c13)
+* [DCU6](../Modelagem/diagramas.md#dcu16-v1)
+* [EC6](../Modelagem/especificacao.md/#ec6)
+* [ID01](../modelagem/istar.md#isd01)
+* [ISR03](../modelagem/istar.md#isr03)
+* [L71](../Modelagem/lexicos.md/#l71)
+
+**Elo:**
+
+#### EF39
+
+**Elementos rastreáveis:**
+
+* [US50](../Modelagem/backlog.md#us50)
+* [C11](../Modelagem/cenarios.md/#c11)
+* [C25](../Modelagem/cenarios.md/#c25)
+* [DCU3](../Modelagem/diagramas.md#dcu13-v1)
+* [EC1](especificacao.md#ec1)
+* [EC12](especificacao.md#ec12)
+* [ID01](../modelagem/istar.md#isd01)
+* [ISR03](../modelagem/istar.md#isr03)
+* [L3](../Modelagem/lexicos#l3)
+* [L16](../Modelagem/lexicos#l16)
+
+**Elo:**
+
+#### EF40
+
+**Elementos rastreáveis:**
+
+* [AP5](../Elicitação/analprot#requisitos-elicitados)
+* [US53](../Modelagem/backlog.md#us53)
+* [L59](../Modelagem/lexicos#l59)
+
+**Elo:**
+
+#### EF41
+
+**Elementos rastreáveis:**
+
+* [AD3](../Elicitação/analdiscurso.md#requisitos-elicitados)
+* [INT3.5](../Elicitação/Introspeccao#introspeccao-03)
+* [Q11](../Elicitação/questionario.md#requisitos-elicitados)
+* [StoryBoard3,5](../Elicitação/Storyboard.md#4-requisitos-obtidos)
+* [US57](../Modelagem/backlog.md#us57)
+* [L25](../Modelagem/lexicos#l25)
+* [EC20](especificacao.md#ec20)
+* [DCU1](../Modelagem/diagramas#dcu1-v1)
+
+**Elo:**
+
+#### EF42
+
+**Elementos rastreáveis:**
+
+* [US58](../Modelagem/backlog.md#us58)
+* [DCU7](../Modelagem/diagramas.md#dcu7-v1)
+* [EC7](especificacao.md#ec7)
+* [L12](../Modelagem/lexicos#l12)
+
+**Elo:**
+
+#### EF43
+
+**Elementos rastreáveis:**
+
+* [US59](../Modelagem/backlog.md#us59)
+* [DCU7](../Modelagem/diagramas.md#dcu7-v1)
+* [EC7](especificacao.md#ec7)
+* [L12](../Modelagem/lexicos#l12)
+
+**Elo:**
+
+#### EF44
+
+**Elementos rastreáveis:**
+
+* [AP5](../Elicitação/analprot#requisitos-elicitados)
+* [US60](../Modelagem/backlog.md#us60)
+* [L59](../Modelagem/lexicos#l59)
+
+**Elo:**
+
+#### EF45
+
+**Elementos rastreáveis:**
+
+* [US61](../Modelagem/backlog.md#us61)
+* [L12](../Modelagem/lexicos#l12)
+
+**Elo:**
+
+#### EF46
+
+**Elementos rastreáveis:**
+
+* [US63](../Modelagem/backlog.md#us63)
+* [C16](../Modelagem/cenarios.md/#c16)
+* [DCU23](../Modelagem/diagramas.md#dcu23-v1)
+* [ECU23](especificacao.md#ec23)
+* [L49](../Modelagem/lexicos#l49)
+* [ISD02](../modelagem/istar.md#isd02)
+
+**Elo:**
+
+#### EF47
+
+**Elementos rastreáveis:**
+
+* [US64](../Modelagem/backlog.md#us64)
+* [US63](../Modelagem/backlog.md#us63)
+* [C15](../Modelagem/cenarios.md/#c15)
+* [C16](../Modelagem/cenarios.md/#c16)
+* [DCU22](../Modelagem/diagramas.md#dcu22-v1)
+* [DCU23](../Modelagem/diagramas.md#dcu23-v1)
+* [EC22](especificacao.md#ec22)
+* [EC23](especificacao.md#ec23)
+* [L48](../Modelagem/lexicos#l48)
+* [L49](../Modelagem/lexicos#l49)
+* [ISD02](../modelagem/istar.md#isd02)
+
+**Elo:**
+
+#### EF48
+
+**Elementos rastreáveis:**
+
+* [US69](../Modelagem/backlog.md#us69)
+
+**Elo:**
+
+#### EF49
+
+**Elementos rastreáveis:**
+
+* [US70](../Modelagem/backlog.md#us70)
+
+**Elo:**
+
 
 ## Versionamento
 
@@ -556,3 +724,4 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 | 17/06/2019 | 1.1 | Inclusão das tabelas inicias de requisitos | Marcos Nery |
 | 18/06/2019 | 1.2 | Inclusão dos elos | Marcos Nery |
 | 19/06/2019 | 1.3 | Inclusão dos elos | Weiller Fernandes |
+| 24/06/2019 | 1.4 | Inclusão dos Requisitos RF37-RF49 | Lucas Maciel |
