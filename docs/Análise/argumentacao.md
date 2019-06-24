@@ -7,8 +7,8 @@ Neste documento, iremos demonstrar a verificação para os os artefatos do model
 ## Metodologia
 
 Para executar a inspeção de cada artefato, foi desenvolvido uma tabela, contendo critérios e importância. <br>
-Os critérios foram baseados no modelo ACE e em parâmetros definidos pela equipe. A importância de cada critério foi determinada levando em consideração pontos para que o artefato esteja em conformidade com o modelo proposto, sendo alto, as condições para que o artefato esteja correto, e baixo, que não necessáriamente a condição precise ser atendida mas que agregaria positivamente ao artefato.<br>
-Além disso, tera alguns critérios para avaliação do documento como um todo.
+Os critérios foram baseados no modelo ACE e em parâmetros definidos pela equipe. A importância de cada critério foi determinada levando em consideração pontos para que o artefato esteja em conformidade com o modelo proposto, sendo alto, as condições para que o artefato esteja correto, e baixo, que não necessáriamente a condição precise ser atendida mas que agregaria positivamente ao artefato.Além disso, tera alguns critérios para avaliação do documento como um todo. <br>
+Para as inspeções que tiveram mais de um inspetor, a discussão que gerou o consenso para as mesmas, se encontra neste [link](https://drive.google.com/drive/folders/0BxcCXA2OQFXMN05fM2xiOXd6cUE)
 
 ## Critérios
 
@@ -37,9 +37,9 @@ Para cada inspeção, será registrado o nome com o hiperlink para cada artefato
 O artefato sera considerado válido, se atender duas condições:<br>
   * 1º - Satisfaça o critério nº 5, os conflitos gerados na discussão forem resolvidos, haver uma preferência. Caso contrário, o artefato já será considerado inválido.<br>
   * 2º - Se atender a primeira condição, baseado nos diagrams desenvolvidos, deve possuir no mínimo 2.5 pontos aplicando a seguinte fórmula:<br>
- 
+
         Pontuação total/Qnt de critérios*Peso/10
-        
+
 |Importância|Peso|
 |:--:|:--:|
 |Alto|3|
@@ -140,7 +140,7 @@ O artefato sera considerado válido, se atender duas condições:<br>
 
 |Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
-|[AR1 - Escolha do app](../Pré-Rastreabilidade/Argumentacao.md/#ar1-escolha-do-app)|08/06/2019|Heron e João|
+|[AR1 - Escolha do app](../Pré-Rastreabilidade/Argumentacao.md/#ar1-escolha-do-app)|11/06/2019|Heron e João|
 
 |Nº|Critério|Importância|Material correspondente|Nota|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -231,7 +231,7 @@ O artefato sera considerado válido, se atender duas condições:<br>
 
 |Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
 |:--:|:--:|:--:|
-|[AR5 - Diferencial do aplicativo](../Pré-Rastreabilidade/Argumentacao.md/#ar5-diferencial-do-aplicativo)|09/06/2019|Heron e João|
+|[AR5 - Diferencial do aplicativo](../Pré-Rastreabilidade/Argumentacao.md/#ar5-diferencial-do-aplicativo)|11/06/2019|Heron e João|
 
 |Nº|Critério|Importância|Material correspondente|Nota|Observação/Melhoria|
 |:--:|:--:|:--:|:--:|:--:|:--:|
@@ -286,41 +286,12 @@ O artefato sera considerado válido, se atender duas condições:<br>
 ||**Conclusão**||
 ||O artefato atende aos critérios propostos possui um bom desenvolvimento de sua discussão, exceto pelo descrição das preferências, ||
 
-#### IARG-03 - João Lucas
-
-|Diagrama de argumentação|Data da inspeção|Responsável pela inspeção|
-|:--:|:--:|:--:|
-|[AR7 - Escolha dos métodos de elicitação](../Pré-Rastreabilidade/Argumentacao.md/#ar7-escolha-dos-metodos-de-elicitacao)|09/06/2019|Heron Rodrigues|
-
-|Nº|Critério|Importância|Material correspondente|Nota|Observação/Melhoria|
-|:--:|:--:|:--:|:--:|:--:|:--:|
-|1|O diagrama foi representado na forma de um grafo?|Alto|[Exemplo](#4-exemplo)|5||
-|2|As labels de cada vértice está correta?|Alto| [Labels](#1-labels)|5||
-|3|Cada vértice foi formalmente e corretamente descrito?|Baixo|[Descrição](#2-descricao-formal)|5||
-|4|A propagação (setas) dos vértices foram executadas de forma correta?|Alto|[Propagação](#3-propagacao)|5||
-|5|Todos os conflitos, gerados na discussão, foram resolvidos?|Alto||5||
-|6|Vértices de proposições, ligados somente por I, C, P?|Alto||5||
-|7|Todas as inferências do diagrama foram descritas no artefato?|Médio|[Exemplo](#4-exemplo)|5||
-|8|Os vértices foram destacados com cores, representando cada classificação, possibilitando uma melhor visualização?|Baixo|[Exemplo](#4-exemplo)|5||
-|9|O artefato possui um nivel bom de discussão (no mínimo 2 conflitos e 6 proposições)?|Médio|[Exemplo](#4-exemplo)|5||
-|10|As preferências foram descritas, mostrando como o conflito foi resolvido? |Médio|[Exemplo](#4-exemplo)|0|Não existe nenhuma descrição de como os conflitos foram resolvidos|
-
-||**Resultados**||
-|:--:|:--:|:--:|
-|**Importância**|**Qnt de critérios**|**Pontuação total**|
-|Alta|5|25|
-|Médio|3|10|
-|Baixo|2|10|
-|**Total**||2.66|
-||**Conclusão**||
-||O artefato atende aos critérios mínimos, com bom desenvolvimento da discussão, porem é necessário adicionar a descrição da resolução dos conflitos ||
-
 
 ## Resultados
 
-* Modelos analisados: 3 
+* Modelos analisados: 3
 * Modelos reprovados: 1
-* Média de pontuação: 2.57 
+* Média de pontuação: 2.57
 
 Uma visão geral é que a maioria dos artefatos atenderam aos critérios mínimos propostos, porém é nítido a grande margem de melhora dos mesmos, principalmente em relação ao desenvolvimento de suas discussões. O documento possui uma introdução, descrevendo bem a metodologia aplicada, uma tabela de versionamento com registro de quem alterou o documento e que alterações foram essas, além de versão individual para cada artefato.
 
@@ -377,5 +348,5 @@ A partir da proposição de p1, podemos inferir a proposição de p2. A proposi�
 | 08/06/2019 | 1.2 | Adição da inspeção IARG-01 | Heron Rodrigues |
 | 09/06/2019 | 1.3 | Adição da inspeção IARG-02 | Heron Rodrigues |
 | 09/06/2019 | 1.4 | Adição da inspeção IARG-03 | Heron Rodrigues |
-| 09/06/2019 | 1.5 | Adição da inspeção IARG-01 ao 03 | João Lucas|
+| 09/06/2019 | 1.5 | Adição da inspeção IARG-01 e 02 | João Lucas|
 | 09/06/2019 | 1.6 | Adição da inspeção final dos IARG-01 E IARG-02 |Heron e João|
