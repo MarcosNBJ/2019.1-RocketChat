@@ -227,59 +227,59 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 ### RF37_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF37.gif)
 
 ### RF38_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF38.gif)
 
 ### RF39_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF39.gif)
 
 ### RF40_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF40.gif)
 
 ### RF41_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF41.gif)
 
 ### RF42_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF42.gif)
 
 ### RF43_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF43.gif)
 
 ### RF44_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF44.gif)
 
 ### RF45_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF45.gif)
 
 ### RF46_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF46.gif)
 
 ### RF47_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF47.gif)
 
 ### RF48_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF48.gif)
 
 ### RF49_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF49.gif)
 
 ### RF50_GIF
 
-![](../img/PosRastreabilidade/)
+![](../img/PosRastreabilidade/RF50.gif)
 
 
 ### RNF1
