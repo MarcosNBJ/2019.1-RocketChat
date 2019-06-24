@@ -376,6 +376,36 @@ Inspetor: Weiller Fernandes
 ||**Conclusão**||
 ||Modelo reprovado, pois a pontuação dos defeitos está além da tolerância estabelecida. Várias melhorias são necessárias e devem ser aplicadas a este modelo.|||
 
+#### IISR-03 V2
+
+_Inspeção da versão 02 do [ISR03](../Modelagem/istar.md#isr03-envio-de-mensagens) refatorado após ter sido reprovado pela análise anterior_
+Inspetor: Weiller Fernandes
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Rationale Model**|||
+| 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? |Sim||
+| 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? |Sim||
+| 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? |Sim||
+| 4 | As ligações 'and' e 'or' estão corretas? |Sim||
+| 5 | Os impactos estão representados com sentido e intensidade corretas? |Sim||
+| 6 | Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos) |Sim||
+| 7 | Todos os recursos são substantivos? |Sim||
+| 8 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |Sim||
+| 9 | Os Softgoals representam requisitos não-funcionais? |Sim||
+| 10 | As metas são objetivos que se deseja alcançar? |Sim||
+| 11 | As metas estão descritas em voz passiva? |Sim|||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|0|0|
+|Baixo|0|0|
+|**Total**|0|0|
+||**Conclusão**||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida.|||
+
 #### IISR-04
 
 _Inspeção do [ISR04](../Modelagem/istar.md#isr04-acoes-sobre-as-mensagens)_
@@ -466,6 +496,36 @@ Inspetor: Weiller Fernandes
 ||**Conclusão**||
 ||Modelo reprovado, pois a pontuação dos defeitos está além da tolerância estabelecida. Várias melhorias são necessárias e devem ser aplicadas a este modelo.|||
 
+#### IISR-06 V2
+
+_Inspeção da versão 02 do [ISR06](../Modelagem/istar.md#isr06-contribuicao-da-comunidade) refatorado após ter sido reprovado pela análise anterior_
+Inspetor: Weiller Fernandes
+
+|Nº|Critério|Check|Observação/Melhoria Sugerida|
+|:--:|:--:|:--:|:--:|
+||**Strategic Rationale Model**|||
+| 1 | A boundary representa a fronteira de um ator, limitando o escopo de sua atuação? |Sim||
+| 2 | Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence? |Sim||
+| 3 | As ligações com elementos de fora da fronteira são feitas através de dependências? |Sim||
+| 4 | As ligações 'and' e 'or' estão corretas? |Sim||
+| 5 | Os impactos estão representados com sentido e intensidade corretas? |Sim||
+| 6 | Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos) |Não||
+| 7 | Todos os recursos são substantivos? |Sim||
+| 8 | Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo? |Sim||
+| 9 | Os Softgoals representam requisitos não-funcionais? |Sim||
+| 10 | As metas são objetivos que se deseja alcançar? |Sim||
+| 11 | As metas estão descritas em voz passiva? |Sim|||
+
+||**Resultados**||
+|:--:|:--:|:--:|
+|**Importância**|**Critérios não atendidos**|**Pontuação total dos defeitos**|
+|Alto|0|0|
+|Médio|0|0|
+|Baixo|1|1|
+|**Total**|1|1|
+||**Conclusão**||
+||Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida.|||
+
 #### IISR-07
 
 _Inspeção do [ISR07](../Modelagem/istar.md#isr07-videochamada)_
@@ -516,6 +576,8 @@ Inspetor: Weiller Fernandes
 
 Através destes resultados conclui-se que, de modo geral, os modelos IStar apresentam boa qualidade, principalmente os modelos SD, que foram todos aprovados. Mas vale ressaltar que todos eles podem ser melhorados, visto que todos apresentam algum tipo de erro levantado pela lista de critérios.
 
+* Observação: Após as primeiras análises terem sido feitas, e 2 modelos de ISR terem sido reprovados, foi feito um trabalho de refatoração com estes modelos, que consequentemente tiveram novas versões e novas análises. Nestas novas análises os modelos foram considerados aprovados.
+
 ## Referências
 
 1 - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf. Acessado em: 07, jun, 2019.
@@ -531,3 +593,4 @@ Através destes resultados conclui-se que, de modo geral, os modelos IStar apres
 | 09/05/2019 | 1.4 | Adição das inspeções IISR-01 até IISR-07 | Weiller Fernandes |
 | 10/05/2019 | 1.5 | Adição das conclusões das inspeções IISD-01 a IISD-06 e IISR-01 a IISR-07 | Weiller Fernandes |
 | 10/05/2019 | 1.6 | Adição do resultado geral das inspeções | Weiller Fernandes |
+| 24/06/2019 | 1.7 | Adição das inspeções IISR-03 V2 e IISR-06 V2 | Weiller Fernandes |

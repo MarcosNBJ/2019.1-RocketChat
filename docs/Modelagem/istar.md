@@ -61,6 +61,12 @@
 #### Versão 01
 ![ISR03](../img/Modelagem/isr_send_message_v1.png)
 
+#### Versão 02
+
+Versão refatorada após o artefato ter sido reprovado de acordo com a análise [IISR-03](../Análise/IStar.md#iisr-03)
+
+![ISR03](../img/Modelagem/isr_send_message_v2.png)
+
 #### ISR04 - Ações sobre as Mensagens
 
 #### Versão 01
@@ -81,6 +87,12 @@
 #### Versão 01
 
 ![ISR06](../img/Modelagem/contribuicaosr.png)
+
+#### Versão 02
+
+Versão refatorada após o artefato ter sido reprovado de acordo com a análise [IISR-06](../Análise/IStar.md#iisr-06)
+
+![ISR06](../img/Modelagem/contribuicaosr_v2.png)
 
 #### ISR07 - Videochamada
 
@@ -106,3 +118,4 @@
 | 29/05/2019 | 1.9 | Adição de ISD05 - V1 | Marcos Nery |
 | 29/05/2019 | 2.0 | Adição de ISR06 - V1 | Marcos Nery |
 | 29/05/2019 | 2.1 | Adição de ISD06 - V1 e ISR07 - V1 | Weiller Fernandes |
+| 24/06/2019 | 2.2 | Adição de ISR03 - V2 e ISR06 - V2 | Weiller Fernandes |
