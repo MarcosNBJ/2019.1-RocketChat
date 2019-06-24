@@ -16,7 +16,7 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 |RF4   |O app deve permitir o cadastro na aplicação por contas de serviços de terceiros ou a partir de dados do usuário, como email, username e senha|[T01](../Modelagem/backlog.md#t01-entrar-no-aplicativo)|[EP02](../Modelagem/backlog.md/#ep02-fazer-cadastro)                                                                     |[US03](../Modelagem/backlog.md#us03)<br> [US04](../Modelagem/backlog.md#us04)                                       |[Cadastro](#rf4_gif) <br>| [View](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RegisterView.js)<br> [Utils](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/isValidEmail.js)|
 |RF5   |O usuário deve ter a disposição, a criação de canais, subgrupos de discussão e grupos, privados/publicos, ilimitados.| [T04](../Modelagem/backlog.md#t04-channel)                       |[EP08](../Modelagem/backlog.md/#ep08-criar-channel)                                                                      |[US18](../Modelagem/backlog.md#us18) <br> [US19](../Modelagem/backlog.md#us19) <br> [US21](../Modelagem/backlog.md#us21)      |[Criar channel](#rf5_gif) <br>| [View](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/CreateChannelView.js)<br> [Action](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/createChannel.js) |
 |RF6   |O usuário deve ser capaz de, dentro da plataforma, enviar mensagens dentro de grupos de conversa ou dentro de chats privados |[T04](../Modelagem/backlog.md#t04-channel)                |[EP08](../Modelagem/backlog.md/#ep08-criar-channel)                                                                      |[US20](../Modelagem/backlog.md#us20)                                                                               |[Enviar mensagem](#rf6_gif)<br>| [Código - Método "sendMessage"](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js)           |
-|RF7   |O usuário deve ser capaz de realizar uma busca de uma mensagem dentro de um determinado chat                                                 |[T04](../Modelagem/backlog.md#t04-channel)|[EP11](../Modelagem/backlog.md#ep11-acoes-do-channel)                                                                      |[US48](../Modelagem/backlog.md#us48)                                                                               | [Procurar mensagem](#RF7_gif)<br>| [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/SearchMessagesView/index.js) |
+|RF7   |O usuário deve ser capaz de realizar uma busca de uma mensagem dentro de um determinado chat                                                 |[T04](../Modelagem/backlog.md#t04-channel)|[EP11](../Modelagem/backlog.md#ep11-acoes-do-channel)                                                                      |[US48](../Modelagem/backlog.md#us48)                                                                               | [Procurar mensagem](#RF7_gif)<br>| [Código - SearchMessages](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/SearchMessagesView/index.js) |
 |RF8   |O app deve oferecer a possibilidade do usuário instalar seu próprio servidor local. |[T05](../Modelagem/backlog.md#t05-servidor)|[EP16](../Modelagem/backlog.md#ep16-conectar-com-um-servidor)  |[US65](../Modelagem/backlog.md#us65) | [Servidor](#rf8_gif) ||
 |RF9   |A plataforma deve permitir a integração de Bots|[T04](../Modelagem/backlog.md#t04-channel)|[EP14](../Modelagem/backlog.md#ep14-integrações) |[US62](../Modelagem/backlog.md#us62) |  [Bots](#rf9_gif) ||
 |RF10  |A plataforma deve permitir a alteração nas configurações do app |[T03](../Modelagem/backlog.md#t03--visao-geral-do-aplicativo)|[EP05](../Modelagem/backlog.md#ep05-configurações-do-aplicativo)|[US09](../Modelagem/backlog.md#us09)| [Configurações do app](#rf10_gif)<br>| [View](https://github.com/RocketChat/Rocket.Chat.ReacótNative/blob/develop/app/views/SettingsView/index.js)<br> [Action](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/markdown.js)<br> [Util](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/deviceInfo.js)<br> [Util](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/info.js)|
@@ -282,7 +282,7 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 ![](../img/PosRastreabilidade/)
 
 
-### rnf1
+### RNF1
 
 Mobile
 
@@ -296,7 +296,7 @@ Desktop
 
 ![](../img/PosRastreabilidade/rnf1_02.gif)
 
-### rnf2
+### RNF2
 
 Suporte
 
@@ -304,7 +304,7 @@ Suporte
 
 ![](../img/PosRastreabilidade/rnf2_01.gif)
 
-### rnf4
+### RNF4
 
 ![](../img/PosRastreabilidade/rnf04.gif)
 
