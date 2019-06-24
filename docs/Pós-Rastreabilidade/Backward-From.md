@@ -21,7 +21,7 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 | RF9    | A plataforma deve permitir a integração de Bots | [INT3.9](../Elicitação/Introspeccao.md#introspeccao-03)<br> [ENT1.1](../Elicitação/entrevista.md#requisitos)<br> [AD7](../Elicitação/analdiscurso.md#requisitos-elicitados)<br>[Q2](../Elicitação/questionario.md#requisitos-elicitados) | [EP14](../Modelagem/backlog.md/#ep14-integraçoes)<br> [C4](../Modelagem/cenarios.md/#c4-v2)<br> [DCU17](../Modelagem/diagramas.md/#dcu17-v2)<br> [EC11](../Modelagem/especificacao.md/#ec11)<br> [L26](../Modelagem/lexicos.md/#ec14)<br> [US62](../Modelagem/backlog.md#us62) | [EF9](#ef9) |
 | RF10   | A plataforma deve permitir a configuração de preferências dentro do app | [AP8](../Elicitação/analprot.md#requisitos-elicitados) | [EP05](../Modelagem/backlog.md/#ep05-configurações-do-aplicativo)<br> [NFR5](Modelagem/nfr.md#nf5-personabilidade)<br> [US09](../Modelagem/backlog.md#us09) | [EF10](#ef10)|
 | RF11   | Possibilidade de alteração do idioma no aplicativo | [INT4.5](../Elicitação/Introspeccao#introspeccao-04)<br> [Storyboard3](../Elicitação/Storyboard#4-requisitos-obtidos) | [US09](../Modelagem/backlog.md#us09)<br> [US10](../Modelagem/backlog.md#us10) | [EF11](#ef11)|
-| RF12   | Sistema deve permitir que o usuário visualize as lista de arquivos enviados no channel | [INT2.3](../Elicitação/Introspeccao#introspeccao-02) | [US51](../Modelagem/backlog.md#us51) | [EF12](#ef12) |
+|RF12  |Permitir usuario iniciar conexão com uma instância do Rocket.chat| [INT3.2](../Elicitação/Introspeccao#introspeccao-04) <br> [AP2](../Elicitação/analprot.md#requisitos-elicitados)  |[EP16](../Modelagem/backlog.md#ep16-conectar-com-um-servidor) <br> [US65](../Modelagem/backlog.md#us10)<br> [C4](../Modelagem/cenarios.md/#c4-v2)<br> [DCU17](../Modelagem/diagramas.md/#dcu17-v1)<br> [EC11](../Modelagem/especificacao.md/#ec11)|[EF12](#ef12) |
 | RF13   | Alteração de senha | [US42](../Modelagem/backlog.md#us42)<br> [L34](../Modelagem/lexicos.md#l34) | [US12](../Modelagem/backlog.md#us12)<br> [L21](../Modelagem/lexicos.md#l21)<br> [L41](../Modelagem/lexicos.md#l41)<br> [L45](../Modelagem/lexicos.md#l45)<br> [L46](../Modelagem/lexicos.md#l46) | [EF13](#ef13)|
 | RF14   | Possibilidade de mencionar, um ou todos, os membros do grupo | [INT1.6](../Elicitação/Introspeccao#introspeccao-01)<br> [INT2.4](../Elicitação/Introspeccao#introspeccao-02)<br> [ENT1.5](../Elicitação/entrevista.md#requisitos) | [US43](../Modelagem/backlog.md#us43)<br> [ISD04](../Modelagem/istar#isd04-acoes-sobre-o-channel)<br> [ISR05](../Modelagem/istar#isr05-acoes-sobre-o-channel)<br> [L4](../Modelagem/lexicos.md#l4) | [EF14](#ef14)|
 | RF15   | Sistema deve ser capaz de Adicionar autenticação de 2 Fatores | | [US13](../Modelagem/backlog.md#us13) | [EF15](#ef15) |
@@ -31,7 +31,8 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 | RF19   | App deve possuir ferramenta para busca de Channels | [AD11](../Elicitação/analdiscurso.md#requisitos-elicitados) | [US16](../Modelagem/backlog.md#us16) | [EF19](#ef19)|
 | RF20  | App deve possuir opções para listar Channels em categorias | [Q16](../Elicitação/questionario#requisitos-elicitados) | [US17](../Modelagem/backlog.md#us17)<br> [L39](../Modelagem/lexicos.md#l39) | [EF20](#ef20)|
 | RF21   | Possibilidade de favoritar um grupo | [Q15](../Elicitação/questionario#requisitos-elicitados) | [US42](../Modelagem/backlog.md#us42)<br>[L34](../Modelagem/lexicos.md#l34)<br>[L35](../Modelagem/lexicos.md#l35) | [EF21](#ef21) |
-| RF22   | Permitir a alteração de privacidade do Channel | | [US22](../Modelagem/backlog.md#us22)<br> [C26](../Modelagem/cenarios.md/#c26)<br> [DCU8](../Modelagem/diagramas.md/#dcu8-v1)<br> [EC2](../Modelagem/especificacao.md/#ec2)<br> [L72](../Modelagem/lexicos.md#l72) | [EF22](#ef22) | | RF23  |Definir Channel como Read Only | | [US23](../Modelagem/backlog.md#us23)<br> [C22](../Modelagem/cenarios.md/#c22)<br> [DCU9 ](../Modelagem/diagramas.md/#dcu9-v1)<br> [EC3](../Modelagem/especificacao.md/#ec3)<br> [L69](../Modelagem/lexicos.md#l69) | [EF23](#e23) |
+| RF22   | Permitir a alteração de privacidade do Channel | | [US22](../Modelagem/backlog.md#us22)<br> [C26](../Modelagem/cenarios.md/#c26)<br> [DCU8](../Modelagem/diagramas.md/#dcu8-v1)<br> [EC2](../Modelagem/especificacao.md/#ec2)<br> [L72](../Modelagem/lexicos.md#l72) | [EF22](#ef22) |
+| RF23  |Definir Channel como Read Only | | [US23](../Modelagem/backlog.md#us23)<br> [C22](../Modelagem/cenarios.md/#c22)<br> [DCU9 ](../Modelagem/diagramas.md/#dcu9-v1)<br> [EC3](../Modelagem/especificacao.md/#ec3)<br> [L69](../Modelagem/lexicos.md#l69) | [EF23](#e23) |
 | RF24   | Definir Channel para BroadCast | | [US24](../Modelagem/backlog.md#us24) | [EF24](#e24) |
 | RF25   | Permitir que o usuário possa adicionar ou visualizar as informações do Channel através de uma descrição, tópico do Channel | | [US25](../Modelagem/backlog.md#us25)<br> [US26](../Modelagem/backlog.md#us26)<br> [US47](../Modelagem/backlog.md#us47)<br> [L33](../Modelagem/lexicos.md#l33) | [EF25](#e25)   |
 | RF26   | App deve permitir o envio de desenhos, como mensagens | | [US30](../Modelagem/backlog.md#us30)<br> [C8](../Modelagem/cenarios.md/#c22)<br> [DCU18](../Modelagem/diagramas.md/#dcu18-v1)<br> [EC17](../Modelagem/especificacao.md/#ec17)<br> [L43](../Modelagem/lexicos.md#l43) | [EF26](#e26) |
@@ -58,6 +59,8 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 | R47    | A Aplicação deve permitir que os usuários possam deixar um Channel |  | [US64](../Modelagem/backlog.md#us64)<br> [US63](../Modelagem/backlog.md#us63)<br> [C15](../Modelagem/cenarios.md/#c15)<br> [C16](../Modelagem/cenarios.md/#c16)<br> [DCU22](../Modelagem/diagramas.md#dcu22-v1)<br> [DCU23](../Modelagem/diagramas.md#dcu23-v1)<br> [EC22](especificacao.md#ec22)<br> [EC23](especificacao.md#ec23)<br> [L48](../Modelagem/lexicos#l48)<br> [L49](../Modelagem/lexicos#l49)<br> [ISD02](../modelagem/istar.md#isd02) | [EF47](#ef47) |
 | R48    | O Sistema deve permitir que um usuário possa visualizar todos os Channels visiveis do Servidor |  |[US69](../Modelagem/backlog.md#us69)  | [EF48](#ef48) |
 | R49    | O Sistema deve permitir que um usuário possa visualizar a lista com todos os usuários do Servidor |  | [US70](../Modelagem/backlog.md#us70) | [EF49](#ef49) |
+| RF50   | Sistema deve permitir que o usuário visualize as lista de arquivos enviados no channel | [INT2.3](../Elicitação/Introspeccao#introspeccao-02) | [US51](../Modelagem/backlog.md#us51) | [EF12](#ef12) |
+
 
 ## Requisitos Não Funcionais
 
@@ -254,10 +257,16 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 **Elementos rastreáveis:**
 
-* [INT2.3](../Elicitação/Introspeccao#introspeccao-02)
-* [US51](../Modelagem/backlog.md#us51)
+* [EP16](../Modelagem/backlog.md#ep16-conectar-com-um-servidor)  
+* [US65](../Modelagem/backlog.md#us10)
+* [C4](../Modelagem/cenarios.md/#c4-v2)
+* [DCU17](../Modelagem/diagramas.md/#dcu17-v1)
+* [EC11](../Modelagem/especificacao.md/#ec11)
 
 **Elo:**
+
+* Alocação: [C4](../Modelagem/cenarios.md/#c4-v2) está alocado em  [US65](../Modelagem/backlog.md#us10)
+* Representação: [EC11](../Modelagem/especificacao.md/#ec11) representa [C4](../Modelagem/cenarios.md/#c4-v2)
 
 ### EF13
 
