@@ -1,11 +1,11 @@
-# Diagramas de Caso de Uso - Versão 02
+# Diagramas de Caso de Uso 2.0
 
 ## Introdução
 
 Os diagramas de caso de uso são representações esquematizadas possíveis ações que podem ser realizadas pelo usuário dentro da plataforma. Os seguintes casos de uso tiveram como base os [cenários](cenarios.md) levantados pelo grupo. Vale ressaltar que, para fins de melhor descrição de cada caso modelado, os diagramas levantados pela equipe possuem uma [especificação de caso de uso](especificacao.md).
-**Esse documento é uma evolução do documento [Diagrama de casos de Uso](diagramas.md)**
-Diferentemente do documento anterior, foi decidido entre os integrantes do grupo que fosse agrupado os casos anteriores em grupos dividios por temas, ou ambientes em que o Usuário interage dentro do aplicativo Rocket.Chat.
-Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de Contas, Mensagens, VideoChat, Configurações, Controle dos Channels/Rooms(Nome a qual são chamados os grupos dentro do aplicativo) e Servidores.
+**Esse documento é uma evolução do documento [Diagrama de casos de Uso](diagramas.md)**.
+Diferentemente do documento anterior, foi decidido entre os integrantes do grupo que fosse agrupado os casos de uso anteriores por temas, ou ambientes em que o usuário interage dentro do aplicativo Rocket.Chat.
+Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de Contas, Mensagens, VideoChat, Configurações gerais, Controle dos Channels/Rooms(Nome a qual são chamados os grupos dentro do aplicativo) e Servidores.
 
 ## DCU01
 
@@ -115,9 +115,9 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ## DCU05
 
-### __Configurações__
+### __Configurações Gerais__
 
-![DCU05](../img/Modelagem/dcu2_configuracoes.png)
+![DCU05](../img/Modelagem/dcu2_config.png)
 
 * __Diagrama baseado nos diagramas anterirores:__
 
@@ -145,3 +145,4 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 | 21/06/2019 | 1.1    | Padronização da rastreabilidade dos diagramas | Lucas Maciel |
 | 21/06/2019 | 1.2    | Adição do Diagrama DCU01 - DCU3 | Lucas Maciel |
 | 21/06/2019 | 1.3    | Adição do Diagrama DCU04 | Gabriel Davi |
+| 22/06/2019 | 1.4 | Adição do Diagrama DCU05 | André Lucas |
