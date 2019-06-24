@@ -733,4 +733,4 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 | 17/06/2019 | 1.1 | Inclusão das tabelas inicias de requisitos | Marcos Nery |
 | 18/06/2019 | 1.2 | Inclusão dos elos | Marcos Nery |
 | 19/06/2019 | 1.3 | Inclusão dos elos | Weiller Fernandes |
-| 24/06/2019 | 1.4 | Inclusão dos Requisitos RF37-RF49 | Lucas Maciel |
+| 24/06/2019 | 1.4 | Inclusão dos Requisitos RF37-RF50 | Lucas Maciel |
