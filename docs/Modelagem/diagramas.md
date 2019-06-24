@@ -212,7 +212,7 @@ Especificação de casos de uso: [ECU21](especificacao.md#ec21)
 ### **Sair de um channel**
 Diagrama inspirado pelo cenário **[Sair de um channel](cenarios.md#c15-v1)**
 
-Especificação de casos de uso: [ECU22](especificacao.md#ec22)
+Especificação de casos de uso: [EC22](especificacao.md#ec22)
 
 ![DCU-21](../img/Modelagem/deixarGrupo.png)
 

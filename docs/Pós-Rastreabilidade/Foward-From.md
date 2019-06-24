@@ -44,9 +44,22 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 |RF32  |Usuário deve poder adicionar reações a mensagens |[T04](../Modelagem/backlog.md#t04-channel)|[EP10](../Modelagem/backlog.md#ep10-mensagens) |[US39](../Modelagem/backlog.md#us39) | [Adicionar reação a mensagens](#rf32_gif) <br> |[Código - Método "onReactionPress"](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js) <br> [Código](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/containers/ReactionsModal.js) |
 |RF33  |Usuário deve ser capaz de responder mensagens enviadas dentro de Channels que ele participa |[T04](../Modelagem/backlog.md#t04-channel)|[EP10](../Modelagem/backlog.md#ep10-mensagens) |[US40](../Modelagem/backlog.md#us40) | [Responder Mensagem](#rf33_gif) |[Código - Método "replying"](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js)|
 |RF34  |Usuário deve ter a possibilidade de reportar alguma mensagem em um Channel que não respeite as diretrizes do app |[T04](../Modelagem/backlog.md#t04-channel)|[EP10](../Modelagem/backlog.md#ep10-mensagens) |[US41](../Modelagem/backlog.md#us41) | [Reportar Mensagem](#rf34_gif)|[Código - Método "reporting"](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js)|
-|RF35  | | | | [](#rf35_gif)||
+| RF35   | O sistema deve ser capaz de exibir notificações para mensagens não lidas e  para menções em chats e possibilitar ao usuário a configuração das mesmas| [T04](../Modelagem/backlog.md#t04-channel) | [EP11](../Modelagem/backlog.md#ep11-acoes-do-channel) | [US44](../Modelagem/backlog.md#us44) | [Notificações](#rf35_gif) | |
 |RF36  |A aplicação deve fornecer suporte aos seus usuários via chat e e-mail.|[T02](../Modelagem/backlog.md#t02-ajuda-ao-usuario)|[EP03](../Modelagem/backlog.md/#ep02-atendimento-online)|[US05](../Modelagem/backlog.md#us05) <br>  [US06](../Modelagem/backlog.md#us06) |[Suporte](#rf36_gif) |[Código - Método "sendEmail"](https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/SettingsView/index.js)|
-|RF37  | | | | ||
+| R37    | O app deve oferecer a possibilidade do usuário procurar mensagens por texto |  [T04](../Modelagem/backlog.md#t04-channel) | [EP11](../Modelagem/backlog.md#ep11-acoes-do-channel) | [US48](../Modelagem/backlog.md#us48) | [Procurar mensagens](#rf37_gif) | |
+| R38    | O Sistema deve permitir que o usuário favorite uma mensagem  | [T04](../Modelagem/backlog.md#t04-channel) | [EP11](../Modelagem/backlog.md#ep11-acoes-do-channel)| [US49](../Modelagem/backlog.md#us49) | [Favoritar mensagem](#rf38_gif) | |
+| R39    | O Sistema deve permitir que o usuário possa fixar uma mensagem no Channel | [T04](../Modelagem/backlog.md#t04-channel) | [EP11](../Modelagem/backlog.md#ep11-acoes-do-channel) | [US50](../Modelagem/backlog.md#us50) | [Fixar mensagem](#rf39_gif) ||
+| R40    | O Usuário deve conseguir convidar membros do Channel para o Video Chat |  [T04](../Modelagem/backlog.md#t04-channel) | [EP12](../Modelagem/backlog.md#ep12-video-chat) | [US53](../Modelagem/backlog.md#us53) | [Convidar membros para video chat](#rf40_gif) | |
+| R41    | O Sistema deve permitir que o usuário possa compartilhar a tela de seu dispositivo |[T04](../Modelagem/backlog.md#t04-channel) | [EP12](../Modelagem/backlog.md#ep12-video-chat)| [US57](../Modelagem/backlog.md#us57) | [Compartilhar tela](#rf41_gif) | |
+| R42    | A aplicação deve permitir que o usuário possa visualizar a lista de membros do Channel  |[T04](../Modelagem/backlog.md#t04-channel) | [EP13](../Modelagem/backlog.md#ep13-gerenciar-usuarios)| [US58](../Modelagem/backlog.md#us58) | [Visualizar membros](#rf42_gif) | |
+| R43    | A Aplicação deve permitir que o usuário possa visualizar informações básicas de outro usuário |[T04](../Modelagem/backlog.md#t04-channel) | [EP13](../Modelagem/backlog.md#ep13-gerenciar-usuarios)| [US59](../Modelagem/backlog.md#us59) | [Visualizar informações de usuários](#rf43_gif) | |
+| R44    | A Aplicação deve permitir que os usuários administradores do Channel possam adicionar novos usuários |[T04](../Modelagem/backlog.md#t04-channel) | [EP13](../Modelagem/backlog.md#ep13-gerenciar-usuarios)| [US60](../Modelagem/backlog.md#us60) | [Adicionar membros](#rf44_gif) | |
+| R45    | A Aplicaçaõ deve permitir que os usuários administradores do Channel possam remover usuários |[T04](../Modelagem/backlog.md#t04-channel) | [EP13](../Modelagem/backlog.md#ep13-gerenciar-usuarios)| [US61](../Modelagem/backlog.md#us61) | [Remover membros](#rf45_gif) | |
+| R46    | A Aplicação deve permitir que os usuários possam esconder um Channel |[T04](../Modelagem/backlog.md#t04-channel) | [EP15](../Modelagem/backlog.md#ep15-deixar-channel)| [US63](../Modelagem/backlog.md#us63) | [Esconder channel](#rf46_gif) | |
+| R47    | A Aplicação deve permitir que os usuários possam deixar um Channel |[T04](../Modelagem/backlog.md#t04-channel) | [EP15](../Modelagem/backlog.md#ep15-deixar-channel)| [US64](../Modelagem/backlog.md#us64)<br> [US63](../Modelagem/backlog.md#us63) | [Deixar channel](#rf47_gif) | |
+| R48    | O Sistema deve permitir que um usuário possa visualizar todos os Channels visiveis do Servidor |[T04](../Modelagem/backlog.md#t04-channel) | [EP15](../Modelagem/backlog.md#ep19-diretorio) |[US69](../Modelagem/backlog.md#us69)  | [Visualizar channels](#rf48_gif) | |
+| R49    | O Sistema deve permitir que um usuário possa visualizar a lista com todos os usuários do Servidor |[T04](../Modelagem/backlog.md#t04-channel) | [EP15](../Modelagem/backlog.md#ep19-diretorio)| [US70](../Modelagem/backlog.md#us70) | [Visualizar usuários de um servidor](#rf49_gif) | |
+| RF50   | Sistema deve permitir que o usuário visualize as lista de arquivos enviados no channel |[T04](../Modelagem/backlog.md#t04-channel)|[EP10](../Modelagem/backlog.md#ep10-mensagens)| [US51](../Modelagem/backlog.md#us51) | [Visualizar arquivos enviados](#rf50_gif) | |
 
 
 ## Requisitos Não-Funcionais
@@ -216,6 +229,59 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 ![](../img/PosRastreabilidade/)
 
+### RF38_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF39_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF40_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF41_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF42_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF43_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF44_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF45_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF46_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF47_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF48_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF49_GIF
+
+![](../img/PosRastreabilidade/)
+
+### RF50_GIF
+
+![](../img/PosRastreabilidade/)
+
+
 ### rnf1
 
 Mobile
@@ -250,3 +316,4 @@ Suporte
 | 17/06/2019 | 1.1 | Inclusão das tabelas inicias de requisitos | Marcos Nery |
 | 18/06/2019 | 1.2 | Inclusão dos elos | Marcos Nery |
 | 19/06/2019 | 1.3 | Inclusão dos GIFS | André Lucas |
+| 24/06/2019 | 1.4 | Inclusão dos Requisitos RF37-RF50 | Heron Rodrigues |

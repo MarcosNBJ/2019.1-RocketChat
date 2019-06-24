@@ -1,6 +1,6 @@
 # Análise de Discurso
 
-Técnica que consiste na análise de construções ideológicas presentes em uma conversa grupal. Por este método, cada membro do grupo de discussão pode exprimir suas ideias e argumentos de forma direta, sem interrupções, uma pessoa por vez, de tal forma que se torna possível fazer uma análise mais profunda dos requisitos que podem ser gerados a partir de cada ponto de vista individual. Este método pode ser aplicado de três princiapais formas: 
+Técnica que consiste na análise de construções ideológicas presentes em uma conversa grupal. Por este método, cada membro do grupo de discussão pode exprimir suas ideias e argumentos de forma direta, sem interrupções, uma pessoa por vez, de tal forma que se torna possível fazer uma análise mais profunda dos requisitos que podem ser gerados a partir de cada ponto de vista individual. Este método pode ser aplicado de três princiapais formas:
 
 * Análise de Conversação: é um pouco menos estruturado, sem turnos pré-estabelecidos, permite que a análise funcione sob o cenário de interações sociais que fluem mais naturalmente.
 
