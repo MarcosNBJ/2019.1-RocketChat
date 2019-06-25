@@ -2,6 +2,15 @@
 
 Neste documento são listadas algumas métricas resultantes de uma análise final da wiki do repositório.
 
+## Metodologia Geral
+
+### Resumo geral do padrão de metogologia ao longo do semestre
+
+Para estabelecer como seriam feitas as entregas para cada módulo, o grupo considerou os membros que estariam com mais disponibilidade e a dificuldade para a produção de cada artefato dejesado, além do conhecimento adquirido nas aulas e a experiência adquirida através dos trabalhos de grupos em semestres anteriores. Dessa forma, em cada módulo o grupo se subdividiu em pequenos grupos ou duplas, em alguns poucos casos individualmente, e então produziu aquilo que era suposto na dada entrega. Por fim, eram feitas anotações acerca dos defeitos que os professores apontavam na entrega, que eram posteriormente utilizadas para atualizar os documentos dessa entrega.  
+
+![exemplo](../img/Metricas/anotacoes.png)
+
+
 
 ## Gráficos
 
@@ -50,4 +59,5 @@ Uma falha do grupo que pode ser observada pelo gráfico dos commits no repositó
 | 23/06/2019 | 1.0 | Abertura do documento | Marcos Nery |
 | 24/06/2019 | 1.1 | Inclusão dos gráficos | Marcos Nery |
 | 24/06/2019 | 1.2 | Inclusão do gráfico dos commits | Marcos Nery |
+| 24/06/2019 | 1.3 | Inclusão das metodologias | Marcos Nery |
 
