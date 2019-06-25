@@ -92,6 +92,9 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 **Elo:**
 
+* Alocação:  [AD1](../Modelagem/especificacao.md/#ec20) está alocado em [US45](../Modelagem/backlog.md/#us46)
+* Representação: [ISR05](../Modelagem//istar#isd01-chat) representa [DCU2](../Modelagem/diagramas_v2#dcu2)
+
 ### EF2
 
 **Elementos rastreáveis:**
@@ -200,6 +203,8 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 **Elo:**
 
+* Alocação: [US48](../Modelagem/backlog.md#us48) está alocado em [EP11](../Modelagem/backlog.md/#ep11-acoes-do-channel)
+
 ### EF8
 
 **Elementos rastreáveis:**
@@ -215,6 +220,11 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [US65](../Modelagem/backlog.md#us65)
 
 **Elo:**
+* Agregação: [DCU17](../Modelagem/diagramas.md/#dcu17-v2) é composto por [EC11](../Modelagem/especificacao.md/#ec11)
+* Alocação: [C3](../Modelagem/cenarios.md/#c3-v2) está alocado em [EP08](../Modelagem/backlog.md/#ep08-criar-channel)
+* Representação: [ECU03](../Modelagem/especificacao.md/#ec3) representa [C22](../Modelagem/cenarios.md/#c22)
+* Representação: [ECU10](../Modelagem/especificacao.md/#ec10) representa [C3](../Modelagem/cenarios.md/#c3-v2)
+* Representação: [ISR01](../Modelagem/istar.md/#versao-02_2) representa [DCU16](../Modelagem/diagramas.md/#dcu16-v1)
 
 ### EF9
 
@@ -232,6 +242,9 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [US62](../Modelagem/backlog.md#us62)
 
 **Elo:**
+* Agregação: [DCU17](../Modelagem/diagramas.md/#dcu17-v2) é composto por [EC11](../Modelagem/especificacao.md/#ec11)
+* Alocação: [C4](../Modelagem/cenarios.md/#c4-v2) está alocado em [EP14](../Modelagem/backlog.md/#ep14-integraçoes)
+* Representação: [EC11](../Modelagem/especificacao.md/#ec11) representa [C4](../Modelagem/cenarios.md/#c4-v2)
 
 ### EF10
 
@@ -243,6 +256,7 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [US09](../Modelagem/backlog.md#us09)
 
 **Elo:**
+* Alocação: [US09](../Modelagem/backlog.md#us09) está alocado em [EP05](../Modelagem/backlog.md/#ep05-configurações-do-aplicativo)
 
 ### EF11
 
@@ -252,7 +266,7 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [Storyboard3](../Elicitação/Storyboard#4-requisitos-obtidos)
 
 **Elo:**
-
+Representação: [INT4.5](../Elicitação/Introspeccao#introspeccao-04) representa [Storyboard3](../Elicitação/Storyboard#4-requisitos-obtidos)
 ### EF12
 
 **Elementos rastreáveis:**
@@ -568,6 +582,9 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [NFR-03](../Modelagem/nfr.md#nfr3-suporte)
 
 **Elo:**
+* Representação: [INT3.10](../Elicitação/Introspeccao#introspeccao-03) representa [ENT1.3](../Modelagem/nfr.md#nfr3-suporte)
+* Agregação: [US05](../Modelagem/backlog.md#us05) é composto por [US06](../Modelagem/backlog.md#us06)
+
 
 #### EF37
 
@@ -617,6 +634,15 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 **Elo:**
 
+* Representação: [DCU3](../Modelagem/diagramas.md#dcu13-v1) representa [C11](../Modelagem/cenarios.md/#c11)
+* Representação: [US50](../Modelagem/backlog.md#us50) representa [L3](../Modelagem/lexicos#l3)
+* Representação: [DCU3](../Modelagem/diagramas.md#dcu13-v1) representa [C25](../Modelagem/cenarios.md/#c25)
+* Recurso: [C25](../Modelagem/cenarios.md/#c25) depende de um recurso provido pelo [L16](../Modelagem/lexicos#l16)
+* Agregação: [ISR03](../modelagem/istar.md#isr03) é composto por [US50](../Modelagem/backlog.md#us50)
+
+
+
+
 #### EF40
 
 **Elementos rastreáveis:**
@@ -626,6 +652,8 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [L59](../Modelagem/lexicos#l59)
 
 **Elo:**
+
+* Representação: [US53](../Modelagem/backlog.md#us53) representa [L59](../Modelagem/lexicos#l59)
 
 #### EF41
 
@@ -642,6 +670,12 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 **Elo:**
 
+* Representação: [DCU1](../Modelagem/diagramas#dcu1-v1) representa [EC20](especificacao.md#ec20)
+* Representação: [Q11](../Elicitação/questionario.md#requisitos-elicitados) representa [L25](../Modelagem/lexicos#l25)
+* Representação: [DCU3](../Modelagem/diagramas.md#dcu13-v1) representa [C25](../Modelagem/cenarios.md/#c25)
+* Recurso: [C25](../Modelagem/cenarios.md/#c25) depende de um recurso provido pelo [L16](../Modelagem/lexicos#l16)
+* Agregação: [US57](../Modelagem/backlog.md#us57) é composto por [L25](../Modelagem/lexicos#l25)
+
 #### EF42
 
 **Elementos rastreáveis:**
@@ -653,6 +687,9 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 **Elo:**
 
+* Representação: [DCU7](../Modelagem/diagramas.md#dcu7-v1) representa [EC7](especificacao.md#ec7)
+* Agregação: [US58](../Modelagem/backlog.md#us58) é composto por [L12](../Modelagem/lexicos#l12)
+
 #### EF43
 
 **Elementos rastreáveis:**
@@ -663,7 +700,8 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [L12](../Modelagem/lexicos#l12)
 
 **Elo:**
-
+* Representação: [US59](../Modelagem/backlog.md#us59) representa [DCU7](../Modelagem/diagramas.md#dcu7-v1)
+* Agregação: [EC7](especificacao.md#ec7) é composto por [L12](../Modelagem/lexicos#l12)
 #### EF44
 
 **Elementos rastreáveis:**
@@ -673,6 +711,7 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [L59](../Modelagem/lexicos#l59)
 
 **Elo:**
+* Representação: [US60](../Modelagem/backlog.md#us60) representa [AP5](../Elicitação/analprot#requisitos-elicitados)
 
 #### EF45
 
@@ -682,7 +721,7 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [L12](../Modelagem/lexicos#l12)
 
 **Elo:**
-
+* Agregação: [US61](../Modelagem/backlog.md#us61) é composto por [L12](../Modelagem/lexicos#l12)
 #### EF46
 
 **Elementos rastreáveis:**
@@ -695,7 +734,10 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [ISD02](../modelagem/istar.md#isd02)
 
 **Elo:**
-
+* Representação: [DCU23](../Modelagem/diagramas.md#dcu23-v1) representa [ECU23](especificacao.md#ec23)
+* Representação: [US63](../Modelagem/backlog.md#us63) representa [C16](../Modelagem/cenarios.md/#c16)
+* Representação: [DCU23](../Modelagem/diagramas.md#dcu23-v1) representa [C16](../Modelagem/cenarios.md/#c16)
+* Agregação: [US63](../Modelagem/backlog.md#us63) é composto por [L49](../Modelagem/lexicos#l49) e [ISD02](../modelagem/istar.md#isd02)
 #### EF47
 
 **Elementos rastreáveis:**
