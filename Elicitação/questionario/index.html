@@ -1,0 +1,1694 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Questionario - RocketChat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#questionario" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="RocketChat" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RocketChat
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Questionario
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="RocketChat" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    RocketChat
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Argumentacao/" title="Argumentacao" class="md-nav__link">
+      Argumentacao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Estratégia/" title="Estratégia" class="md-nav__link">
+      Estratégia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Storyboard/" title="Storyboard" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../analdiscurso/" title="Análise de Discurso" class="md-nav__link">
+      Análise de Discurso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../analprot/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Questionario
+      </label>
+    
+    <a href="./" title="Questionario" class="md-nav__link md-nav__link--active">
+      Questionario
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados" title="Resultados" class="md-nav__link">
+    Resultados
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-perfil-do-publico" title="1. Perfil do público" class="md-nav__link">
+    1. Perfil do público
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pessoas-que-nunca-usaram-a-aplicacao" title="2. Pessoas que nunca usaram a aplicação" class="md-nav__link">
+    2. Pessoas que nunca usaram a aplicação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-pessoas-que-ja-utilizaram-ou-utilizam-a-aplicacao" title="3. Pessoas que já utilizaram ou utilizam a aplicação" class="md-nav__link">
+    3. Pessoas que já utilizaram ou utilizam a aplicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao" title="Conclusão" class="md-nav__link">
+    Conclusão
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-elicitados" title="Requisitos Elicitados" class="md-nav__link">
+    Requisitos Elicitados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas/" title="Diagramas de Caso de Uso" class="md-nav__link">
+      Diagramas de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-nav__link">
+      Diagramas de Caso de Uso 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/especificacao/" title="Especificação de Caso de Uso" class="md-nav__link">
+      Especificação de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/istar/" title="IStar" class="md-nav__link">
+      IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/nfr/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/suplementar/" title="Documento de Especificação Suplementar" class="md-nav__link">
+      Documento de Especificação Suplementar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/DC/" title="Inspeção de Diagramas de caso de Uso" class="md-nav__link">
+      Inspeção de Diagramas de caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/IStar/" title="Inspeção do IStar" class="md-nav__link">
+      Inspeção do IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/NFR/" title="Inspeção NFR" class="md-nav__link">
+      Inspeção NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/UC/" title="Inspeção de Casos de Uso" class="md-nav__link">
+      Inspeção de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/argumentacao/" title="Inspeção de Argumentação" class="md-nav__link">
+      Inspeção de Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/backlog/" title="Inspeção do Product Backlog" class="md-nav__link">
+      Inspeção do Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Backward-From/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Foward-From/" title="Foward-From" class="md-nav__link">
+      Foward-From
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Final
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Final
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-nav__link">
+      Metricas finais da Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados" title="Resultados" class="md-nav__link">
+    Resultados
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-perfil-do-publico" title="1. Perfil do público" class="md-nav__link">
+    1. Perfil do público
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-pessoas-que-nunca-usaram-a-aplicacao" title="2. Pessoas que nunca usaram a aplicação" class="md-nav__link">
+    2. Pessoas que nunca usaram a aplicação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-pessoas-que-ja-utilizaram-ou-utilizam-a-aplicacao" title="3. Pessoas que já utilizaram ou utilizam a aplicação" class="md-nav__link">
+    3. Pessoas que já utilizaram ou utilizam a aplicação
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conclusao" title="Conclusão" class="md-nav__link">
+    Conclusão
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-elicitados" title="Requisitos Elicitados" class="md-nav__link">
+    Requisitos Elicitados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/marcosnbj/2019.1-RocketChat/edit/master/docs/Elicitação/questionario.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="questionario">Questionário</h1>
+<p>Técnica de elicitação de requisitos na qual, focada em lídar com um grande número de pessoas, pelo qual seguimento diversas heurísticas recomendadas, elabora-se um grupo de perguntas que são respondidadas pelo público. Com as respostas, diversos insumos váliosos para a elicitação de requisitos podem ser levatandos, caso as perguntas tenham sido elaboradas corretamente.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>O questionário aqui utilizado procurou primeiro traçar o perfil de quem estava respondendo, e após isso separar o público em quem já usou e quem nunca usou o Rocket.chat. Para quem já haviam utilizado, foram feitas perguntas que procuravam análisar o nível de satisfação do usuário com ele, quais foram os principais diferenciais e pontos negativos, se o usuário ainda usa, em qual dispositivo e pra qual finalidade, e quais os principais concorrentes favorecidos. Já para quem nunca havia usado, as perguntas foram feitas de modo a concluír quais outros aplicativos de comunicação o usuário utiliza, tanto para fins pessoais quanto para fins acadêmicos, e quais são seus principais diferencias, pontos negativos, e funcionalidades que poderiam ter, bem como qual é o nível de satisfação no uso deles e em qual positivo é utilizado. No total, foram computadas 37 respostas.</p>
+<h2 id="resultados">Resultados</h2>
+<h4 id="1-perfil-do-publico">1. Perfil do público</h4>
+<p>Perguntas relacionadas a análisar o perfil das pessoas que responderam o questionário e dividi-las entre usuários e não-usuários do Rocket.chat</p>
+<p><img alt="idade" src="../../img/Elicitacao/Questionario/idade.PNG" />
+<img alt="grau" src="../../img/Elicitacao/Questionario/escolaridade.PNG" />
+<img alt="usuario" src="../../img/Elicitacao/Questionario/usuario.PNG" /></p>
+<h4 id="2-pessoas-que-nunca-usaram-a-aplicacao">2. Pessoas que nunca usaram a aplicação</h4>
+<p>Perguntas feitas ao público que nunca usou o Rocket.Chat</p>
+<p><img alt="" src="../../img/Elicitacao/Questionario/tipo1/ouviu.PNG" />
+<img alt="" src="../../img/Elicitacao/Questionario/tipo1/usoPessoal.PNG" />
+<img alt="" src="../../img/Elicitacao/Questionario/tipo1/dispositivo.PNG" />
+<em>Fomentando os requisitos: Q1</em> 
+<img alt="" src="../../img/Elicitacao/Questionario/tipo1/satisfacao.PNG" /></p>
+<table>
+<thead>
+<tr>
+<th>Princpais pontos positivos levantados</th>
+<th>Quantidade de usuários que apontaram</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Popularidade</td>
+<td>26</td>
+</tr>
+<tr>
+<td>Os bots adicionam muitas outras possibilidades de funcionalidade</td>
+<td>24</td>
+</tr>
+<tr>
+<td>Possibilidade de enviar documentos, fotos, vídeos, aúdios</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Possibilidade de apagar mensagens</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Possibilidade de realizar backup de mensagens</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Práticidade de uso da interface</td>
+<td>20</td>
+</tr>
+<tr>
+<td><em>Fomentando os requisitos: Q2 , Q5, Q6, Q7, Q8</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Principais pontos negativos levantados</th>
+<th>Quantidade de usuários que apontaram</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pouca customização visual</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Chamada em grupo ruim</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Chamada de voz ruim</td>
+<td>12</td>
+</tr>
+<tr>
+<td>Consome muito espaço</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Versão Desktop ligada a versão mobile</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Grupos pouco organizados</td>
+<td>6</td>
+</tr>
+<tr>
+<td><em>Fomentando os requisitos: Q3 , Q4, Q10, Q13, Q16, Q17</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="" src="../../img/Elicitacao/Questionario/tipo1/profissa.PNG" />
+<img alt="" src="../../img/Elicitacao/Questionario/tipo1/dispositivoProfissa.PNG" />
+<img alt="" src="../../img/Elicitacao/Questionario/tipo1/satisfacaoProfissa.PNG" /></p>
+<table>
+<thead>
+<tr>
+<th>Principais pontos positivos levantados</th>
+<th>Quantidade de usuários que apontaram</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Boas funcionalidades para conversas em grupo, como separação em channels</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Muitas possibilidades de personalização</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Não falha em notificar o usuário das mensagens que chegam</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Integração com bots adiciona muitas funcionalidades</td>
+<td>25</td>
+</tr>
+<tr>
+<td><em>Fomentando os requisitos: Q16 , Q3, Q9, Q2</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Principais pontos negativos levantados</th>
+<th>Quantidade de usuários que apontaram</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Falta de populariade entre usuários causais</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Interface pouco intuitiva</td>
+<td>17</td>
+</tr>
+<tr>
+<td><em>Fomentando os requisitos: Q5</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="" src="../../img/Elicitacao/Questionario/tipo1/falta.PNG" />
+<em>Fomentando os requisitos: Q12, Q13, Q14, Q11, Q19</em></p>
+<h4 id="3-pessoas-que-ja-utilizaram-ou-utilizam-a-aplicacao">3. Pessoas que já utilizaram ou utilizam a aplicação</h4>
+<p>Perguntas feitas ao público que se classifica como usuário ou ex-usuário do Rocket.chat</p>
+<p><img alt="" src="../../img/Elicitacao/Questionario/tipo2/aindaUsa.PNG" />
+<img alt="" src="../../img/Elicitacao/Questionario/tipo2/finalidade.PNG" />
+<img alt="" src="../../img/Elicitacao/Questionario/tipo2/dispositivo.PNG" />
+<em>Fomentando os requisitos: Q18</em> </p>
+<p><img alt="" src="../img/Elicitacao/Questionario/tipo2/satisfacaco.PNG" /></p>
+<table>
+<thead>
+<tr>
+<th>Principais diferenciais do Rocket.chat</th>
+<th>Quantidade de usuários que apontaram</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Software Livre</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Poder subir sua própria instância</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Open Source</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Possibilidade de separar os grupos em channels</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Funcionalidade de vídeoconferência</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Compartilhamento de tela</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Integração com bots</td>
+<td>9</td>
+</tr>
+<tr>
+<td><em>Fomentando os requisitos: Q19 , Q16, Q12, Q11, Q2, Q21</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Principais pontos negativos do Rocket.chat</th>
+<th>Quantidade de usuários que apontaram</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Interface pouco intuitiva</td>
+<td>8</td>
+</tr>
+<tr>
+<td>Falta de notificações para quando o usuário não é mencionado</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Muitas funcionalidades são pagas</td>
+<td>4</td>
+</tr>
+<tr>
+<td><em>Fomentando os requisitos: Q9 , Q3, Q20</em></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><img alt="" src="../../img/Elicitacao/Questionario/tipo2/outros.PNG" />
+<img alt="" src="../../img/Elicitacao/Questionario/tipo2/contribuiu.PNG" /></p>
+<h2 id="conclusao">Conclusão</h2>
+<p>É possível análisar pelo questionário que a maior parte das pessoas não é usuária do Rocket.chat, porém, embora parcialmente satisfeitas com os aplicativos que usam, gostariam de ter neles algumas funcionalidades que o Rocket.chat possuí. Já as pessoas que se classificam como usuários da aplicação, gostam muito de alguns diferenciais, mas sentem falta de algumas outras coisas. O questionário poderia ter cido ainda mais conclusivo se fosse respondido por um número maior de pessoas.</p>
+<h3 id="requisitos-elicitados">Requisitos Elicitados</h3>
+<p>Abaixo podem ser vistos de forma tabular os requisitos elicitados com base nos resultados das perguntas feitas e às estatísticas deles gerados . Foi utilizada a técnica MoSCoW de priorização, pela qual os requisitos recebem atribuições de prioridade que variam de Must, a mais alta, até Would, a mais baixa, passandor por Should e Could, que nessa ordem representam prioriádes intermediárias. Para estabelecer as prioridades, foi levado em consideração o número de pessoas que levantou cada ponto, e também dando pesos diferentes pra pontos que priorizam uso pessoal e uso profissional/acadêmico, já que o aplicativo é mais voltado para o segundo caso.</p>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Descrição</th>
+<th>Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Q1</td>
+<td>Bom suporte para dispositivo mobile</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>Q2</td>
+<td>Integração com Bots</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>Customização visual</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>Q4</td>
+<td>Chamada de voz e vídeo</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>Q5</td>
+<td>Interface de fácil uso</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>Q6</td>
+<td>Possibilidade de enviar documentos, fotos, vídeos, aúdios</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>Q7</td>
+<td>Backup de mensagens</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>Q8</td>
+<td>Possibilidade de apagar as mensagens</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>Q9</td>
+<td>Notificações consistentes</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>Q10</td>
+<td>Não ocupar tanto espaço de armazenamento</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>Q11</td>
+<td>Compartilhamento de tela</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>Q12</td>
+<td>Vídeoconferência</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>Q13</td>
+<td>Chamada de voz em grupo</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>Q14</td>
+<td>Transcrição de áudio para texto</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>Q15</td>
+<td>Poder favoritar um contato ou grupo</td>
+<td>Wold</td>
+</tr>
+<tr>
+<td>Q16</td>
+<td>Possibilidade de separar os grupos em channels</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>Q17</td>
+<td>Possibilitar acesso a versão desktop sem precisar do celular</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>Q18</td>
+<td>Bom suporte para dispositivo Desktop</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>Q19</td>
+<td>Poder subir sua própria instância</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>Q20</td>
+<td>Maior quantidade de funcionalidades gratuítas</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>Q21</td>
+<td>Ser Open Source</td>
+<td>Could</td>
+</tr>
+</tbody>
+</table>
+<p>Por fim, também de forma tabular, seguem os requisitos anteriormente listados, agora priorizados pelo método Fisrt Things First !</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Funcionalidades (FTF)</td>
+<td>Benefício  Relativo</td>
+<td>Penalidade  Relativa</td>
+<td>Valor  Total</td>
+<td>Valor  %</td>
+<td>Custo Relativo</td>
+<td>Custo %</td>
+<td>Risco Relativo</td>
+<td>Risco %</td>
+<td>Prioridade</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Q1</td>
+<td>8</td>
+<td>9</td>
+<td>25</td>
+<td>6,702412869</td>
+<td>6</td>
+<td>6,382978723</td>
+<td>6</td>
+<td>6,896551724</td>
+<td>0,6817454284</td>
+</tr>
+<tr>
+<td>Q2</td>
+<td>8</td>
+<td>9</td>
+<td>25</td>
+<td>6,702412869</td>
+<td>6</td>
+<td>6,382978723</td>
+<td>6</td>
+<td>6,896551724</td>
+<td>0,6817454284</td>
+</tr>
+<tr>
+<td>Q3</td>
+<td>6</td>
+<td>7</td>
+<td>19</td>
+<td>5,09383378</td>
+<td>4</td>
+<td>4,255319149</td>
+<td>3</td>
+<td>3,448275862</td>
+<td>0,8518890113</td>
+</tr>
+<tr>
+<td>Q4</td>
+<td>6</td>
+<td>7</td>
+<td>19</td>
+<td>5,09383378</td>
+<td>5</td>
+<td>5,319148936</td>
+<td>5</td>
+<td>5,747126437</td>
+<td>0,6217518307</td>
+</tr>
+<tr>
+<td>Q5</td>
+<td>7</td>
+<td>9</td>
+<td>23</td>
+<td>6,166219839</td>
+<td>4</td>
+<td>4,255319149</td>
+<td>4</td>
+<td>4,597701149</td>
+<td>0,9408086911</td>
+</tr>
+<tr>
+<td>Q6</td>
+<td>8</td>
+<td>9</td>
+<td>25</td>
+<td>6,702412869</td>
+<td>5</td>
+<td>5,319148936</td>
+<td>4</td>
+<td>4,597701149</td>
+<td>0,8798127197</td>
+</tr>
+<tr>
+<td>Q7</td>
+<td>4</td>
+<td>3</td>
+<td>11</td>
+<td>2,949061662</td>
+<td>3</td>
+<td>3,191489362</td>
+<td>3</td>
+<td>3,448275862</td>
+<td>0,599935977</td>
+</tr>
+<tr>
+<td>Q8</td>
+<td>4</td>
+<td>3</td>
+<td>11</td>
+<td>2,949061662</td>
+<td>2</td>
+<td>2,127659574</td>
+<td>2</td>
+<td>2,298850575</td>
+<td>0,8999039654</td>
+</tr>
+<tr>
+<td>Q9</td>
+<td>5</td>
+<td>5</td>
+<td>15</td>
+<td>4,021447721</td>
+<td>5</td>
+<td>5,319148936</td>
+<td>2</td>
+<td>2,298850575</td>
+<td>0,621689971</td>
+</tr>
+<tr>
+<td>Q10</td>
+<td>4</td>
+<td>6</td>
+<td>14</td>
+<td>3,753351206</td>
+<td>5</td>
+<td>5,319148936</td>
+<td>4</td>
+<td>4,597701149</td>
+<td>0,4926951231</td>
+</tr>
+<tr>
+<td>Q11</td>
+<td>6</td>
+<td>7</td>
+<td>19</td>
+<td>5,09383378</td>
+<td>4</td>
+<td>4,255319149</td>
+<td>5</td>
+<td>5,747126437</td>
+<td>0,7145346939</td>
+</tr>
+<tr>
+<td>Q12</td>
+<td>7</td>
+<td>8</td>
+<td>22</td>
+<td>5,898123324</td>
+<td>5</td>
+<td>5,319148936</td>
+<td>5</td>
+<td>5,747126437</td>
+<td>0,7199231723</td>
+</tr>
+<tr>
+<td>Q13</td>
+<td>7</td>
+<td>8</td>
+<td>22</td>
+<td>5,898123324</td>
+<td>5</td>
+<td>5,319148936</td>
+<td>6</td>
+<td>6,896551724</td>
+<td>0,6727315557</td>
+</tr>
+<tr>
+<td>Q14</td>
+<td>5</td>
+<td>4</td>
+<td>14</td>
+<td>3,753351206</td>
+<td>4</td>
+<td>4,255319149</td>
+<td>8</td>
+<td>9,195402299</td>
+<td>0,4239627924</td>
+</tr>
+<tr>
+<td>Q15</td>
+<td>4</td>
+<td>3</td>
+<td>11</td>
+<td>2,949061662</td>
+<td>2</td>
+<td>2,127659574</td>
+<td>4</td>
+<td>4,597701149</td>
+<td>0,6662272451</td>
+</tr>
+<tr>
+<td>Q16</td>
+<td>7</td>
+<td>9</td>
+<td>23</td>
+<td>6,166219839</td>
+<td>4</td>
+<td>4,255319149</td>
+<td>4</td>
+<td>4,597701149</td>
+<td>0,9408086911</td>
+</tr>
+<tr>
+<td>Q17</td>
+<td>5</td>
+<td>5</td>
+<td>15</td>
+<td>4,021447721</td>
+<td>5</td>
+<td>5,319148936</td>
+<td>3</td>
+<td>3,448275862</td>
+<td>0,5709617962</td>
+</tr>
+<tr>
+<td>Q18</td>
+<td>6</td>
+<td>7</td>
+<td>19</td>
+<td>5,09383378</td>
+<td>5</td>
+<td>5,319148936</td>
+<td>4</td>
+<td>4,597701149</td>
+<td>0,668657667</td>
+</tr>
+<tr>
+<td>Q19</td>
+<td>5</td>
+<td>6</td>
+<td>16</td>
+<td>4,289544236</td>
+<td>6</td>
+<td>6,382978723</td>
+<td>5</td>
+<td>5,747126437</td>
+<td>0,4634067736</td>
+</tr>
+<tr>
+<td>Q20</td>
+<td>4</td>
+<td>3</td>
+<td>11</td>
+<td>2,949061662</td>
+<td>6</td>
+<td>6,382978723</td>
+<td>2</td>
+<td>2,298850575</td>
+<td>0,3915166603</td>
+</tr>
+<tr>
+<td>Q21</td>
+<td>6</td>
+<td>2</td>
+<td>14</td>
+<td>3,753351206</td>
+<td>3</td>
+<td>3,191489362</td>
+<td>2</td>
+<td>2,298850575</td>
+<td>0,8646452441</td>
+</tr>
+<tr>
+<td>TOTAL</td>
+<td>122</td>
+<td>129</td>
+<td>373</td>
+<td>100</td>
+<td>94</td>
+<td>100</td>
+<td>87</td>
+<td>100</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Modificação</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">06/04/2019</td>
+<td align="center">1.0</td>
+<td align="center">Adição da análise do questionário</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">06/04/2019</td>
+<td align="center">1.1</td>
+<td align="center">Adição da priorização por MoSCoW</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">09/04/2019</td>
+<td align="center">1.2</td>
+<td align="center">Adição da priorização por FTF</td>
+<td align="center">Marcos Nery</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../analprot/" title="Análise de protocolo" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Análise de protocolo
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../Modelagem/backlog/" title="Product Backlog" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Product Backlog
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

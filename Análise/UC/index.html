@@ -1,0 +1,10849 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Inspeção de Casos de Uso - RocketChat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#inspecao-de-casos-de-uso" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="RocketChat" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RocketChat
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Inspeção de Casos de Uso
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="RocketChat" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    RocketChat
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Argumentacao/" title="Argumentacao" class="md-nav__link">
+      Argumentacao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Estratégia/" title="Estratégia" class="md-nav__link">
+      Estratégia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Storyboard/" title="Storyboard" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analdiscurso/" title="Análise de Discurso" class="md-nav__link">
+      Análise de Discurso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analprot/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas/" title="Diagramas de Caso de Uso" class="md-nav__link">
+      Diagramas de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-nav__link">
+      Diagramas de Caso de Uso 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/especificacao/" title="Especificação de Caso de Uso" class="md-nav__link">
+      Especificação de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/istar/" title="IStar" class="md-nav__link">
+      IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/nfr/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/suplementar/" title="Documento de Especificação Suplementar" class="md-nav__link">
+      Documento de Especificação Suplementar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../DC/" title="Inspeção de Diagramas de caso de Uso" class="md-nav__link">
+      Inspeção de Diagramas de caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../IStar/" title="Inspeção do IStar" class="md-nav__link">
+      Inspeção do IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NFR/" title="Inspeção NFR" class="md-nav__link">
+      Inspeção NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Inspeção de Casos de Uso
+      </label>
+    
+    <a href="./" title="Inspeção de Casos de Uso" class="md-nav__link md-nav__link--active">
+      Inspeção de Casos de Uso
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="Introdução" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" title="Objetivo" class="md-nav__link">
+    Objetivo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#checklist" title="Checklist" class="md-nav__link">
+    Checklist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checklist-v2" title="Checklist - v2" class="md-nav__link">
+    Checklist - v2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registro-de-inspecao-de-caso-de-uso" title="Registro de inspeção de Caso de Uso" class="md-nav__link">
+    Registro de inspeção de Caso de Uso
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#riuc" title="RIUC" class="md-nav__link">
+    RIUC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riuc-v2" title="RIUC - v2" class="md-nav__link">
+    RIUC - v2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medicao-da-inspecao" title="Medição da inspeção" class="md-nav__link">
+    Medição da inspeção
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#miuc" title="MIUC" class="md-nav__link">
+    MIUC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#miuc-v2" title="MIUC - v2" class="md-nav__link">
+    MIUC - v2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inspecao" title="Inspeção" class="md-nav__link">
+    Inspeção
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iuc-01" title="IUC-01" class="md-nav__link">
+    IUC-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-02" title="IUC-02" class="md-nav__link">
+    IUC-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-03" title="IUC-03" class="md-nav__link">
+    IUC-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-04" title="IUC-04" class="md-nav__link">
+    IUC-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-05" title="IUC-05" class="md-nav__link">
+    IUC-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-06" title="IUC-06" class="md-nav__link">
+    IUC-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-07" title="IUC-07" class="md-nav__link">
+    IUC-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-08" title="IUC-08" class="md-nav__link">
+    IUC-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-09" title="IUC-09" class="md-nav__link">
+    IUC-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-10" title="IUC-10" class="md-nav__link">
+    IUC-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-11" title="IUC-11" class="md-nav__link">
+    IUC-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-12" title="IUC-12" class="md-nav__link">
+    IUC-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-13" title="IUC-13" class="md-nav__link">
+    IUC-13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-13-reavaliacao" title="IUC-13 - Reavaliação" class="md-nav__link">
+    IUC-13 - Reavaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-13-v2" title="IUC-13 - v2" class="md-nav__link">
+    IUC-13 - v2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-14" title="IUC-14" class="md-nav__link">
+    IUC-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-15" title="IUC-15" class="md-nav__link">
+    IUC-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-16" title="IUC-16" class="md-nav__link">
+    IUC-16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-17" title="IUC-17" class="md-nav__link">
+    IUC-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-18" title="IUC-18" class="md-nav__link">
+    IUC-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-19" title="IUC-19" class="md-nav__link">
+    IUC-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-20" title="IUC-20" class="md-nav__link">
+    IUC-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-21" title="IUC-21" class="md-nav__link">
+    IUC-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-22" title="IUC-22" class="md-nav__link">
+    IUC-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-23" title="IUC-23" class="md-nav__link">
+    IUC-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-24" title="IUC-24" class="md-nav__link">
+    IUC-24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-25" title="IUC-25" class="md-nav__link">
+    IUC-25
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados" title="Resultados" class="md-nav__link">
+    Resultados
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rv1" title="RV1" class="md-nav__link">
+    RV1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rv2" title="RV2" class="md-nav__link">
+    RV2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" title="Referências" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../argumentacao/" title="Inspeção de Argumentação" class="md-nav__link">
+      Inspeção de Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlog/" title="Inspeção do Product Backlog" class="md-nav__link">
+      Inspeção do Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Backward-From/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Foward-From/" title="Foward-From" class="md-nav__link">
+      Foward-From
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Final
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Final
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-nav__link">
+      Metricas finais da Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="Introdução" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#objetivo" title="Objetivo" class="md-nav__link">
+    Objetivo
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#checklist" title="Checklist" class="md-nav__link">
+    Checklist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#checklist-v2" title="Checklist - v2" class="md-nav__link">
+    Checklist - v2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#registro-de-inspecao-de-caso-de-uso" title="Registro de inspeção de Caso de Uso" class="md-nav__link">
+    Registro de inspeção de Caso de Uso
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#riuc" title="RIUC" class="md-nav__link">
+    RIUC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#riuc-v2" title="RIUC - v2" class="md-nav__link">
+    RIUC - v2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#medicao-da-inspecao" title="Medição da inspeção" class="md-nav__link">
+    Medição da inspeção
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#miuc" title="MIUC" class="md-nav__link">
+    MIUC
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#miuc-v2" title="MIUC - v2" class="md-nav__link">
+    MIUC - v2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inspecao" title="Inspeção" class="md-nav__link">
+    Inspeção
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iuc-01" title="IUC-01" class="md-nav__link">
+    IUC-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-02" title="IUC-02" class="md-nav__link">
+    IUC-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-03" title="IUC-03" class="md-nav__link">
+    IUC-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-04" title="IUC-04" class="md-nav__link">
+    IUC-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-05" title="IUC-05" class="md-nav__link">
+    IUC-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-06" title="IUC-06" class="md-nav__link">
+    IUC-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-07" title="IUC-07" class="md-nav__link">
+    IUC-07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-08" title="IUC-08" class="md-nav__link">
+    IUC-08
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-09" title="IUC-09" class="md-nav__link">
+    IUC-09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-10" title="IUC-10" class="md-nav__link">
+    IUC-10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-11" title="IUC-11" class="md-nav__link">
+    IUC-11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-12" title="IUC-12" class="md-nav__link">
+    IUC-12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-13" title="IUC-13" class="md-nav__link">
+    IUC-13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-13-reavaliacao" title="IUC-13 - Reavaliação" class="md-nav__link">
+    IUC-13 - Reavaliação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-13-v2" title="IUC-13 - v2" class="md-nav__link">
+    IUC-13 - v2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-14" title="IUC-14" class="md-nav__link">
+    IUC-14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-15" title="IUC-15" class="md-nav__link">
+    IUC-15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-16" title="IUC-16" class="md-nav__link">
+    IUC-16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-17" title="IUC-17" class="md-nav__link">
+    IUC-17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-18" title="IUC-18" class="md-nav__link">
+    IUC-18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-19" title="IUC-19" class="md-nav__link">
+    IUC-19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-20" title="IUC-20" class="md-nav__link">
+    IUC-20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-21" title="IUC-21" class="md-nav__link">
+    IUC-21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-22" title="IUC-22" class="md-nav__link">
+    IUC-22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-23" title="IUC-23" class="md-nav__link">
+    IUC-23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-24" title="IUC-24" class="md-nav__link">
+    IUC-24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iuc-25" title="IUC-25" class="md-nav__link">
+    IUC-25
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultados" title="Resultados" class="md-nav__link">
+    Resultados
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rv1" title="RV1" class="md-nav__link">
+    RV1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rv2" title="RV2" class="md-nav__link">
+    RV2
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" title="Referências" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/marcosnbj/2019.1-RocketChat/edit/master/docs/Análise/UC.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="inspecao-de-casos-de-uso">Inspeção de Casos de Uso</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Este documento tem como finalidade apresentar a inspeção de alguns casos de uso, que é uma das técnicas utilizadas no módulo anterior de Modelagem de requisitos.</p>
+<h2 id="objetivo">Objetivo</h2>
+<p>O objetivo é observar vários aspectos do documento e realizar a análise da qualidade. A partir dos dados da análise descobrir as falhas existentes, facilitando assim a melhoria.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Para a inspeção dos casos de uso foi estabelecido um checklist, com questões e critérios a serem avaliados, que busca localizar defeitos no modelo. É sugerida uma classificação para cada artefato, categorizados em alto, médio e baixo, confome a avaliação.
+Critérios de alto impacto, são defeitos que afetam a compreensão, a falta de coerência e a falta de definição. Critérios de impacto médio, são defeitos que afetam a qualidade do caso de uso de forma considerável, abaixo do impacto alto. Critérios de baixo impacto são defeitos que se corrigidos aumentariam a qualidade do caso de uso, mas que não impedem a compreensão.
+A fim de registrar os defeitos com os checklists para que sirvam como base para a medição da inspeção, os seguintes artefatos são propostos:</p>
+<h3 id="checklist">Checklist</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">A descrição de caso de uso é a de um caso de uso representado no diagrama?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">A descrição de caso de uso contém nome do caso de uso, nome do ator, fluxo básico e alternativo?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As frases utilizam o tempo presente?</td>
+<td align="center">Baixo</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As frases representam um diálogo entre ator e sistema, evidenciando a ação do ator e a resposta do sistema?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">As frases se utilizam de subtítulos para comunicar as idéias chaves dos fluxos de forma mais clara?</td>
+<td align="center">Baixo</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">As frases são construídas em voz ativa? (ex.: “Sistema valida a quantia informada” em vez de “A quantia informada deve ser validada pelo sistema”).</td>
+<td align="center">Baixo</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">São evitados termos sem quantificação precisa, como “muito”, “pouco”, “adequado”, “claro”, “fácil” “longo”, “curto”, “rápido” “etc”?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Os termos passíveis de mais de uma interpretação constam em glossário, com clara definição?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Uma vez utilizado um termo, ele é mantido para referenciar-se ao mesmo elemento?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">São evitados termos que indicam a prematura especificação de interface, tais como “clicar” “botão” etc?</td>
+<td align="center">Baixo</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As funcionalidades se restringem ao quê o sistema deve fazer e não em como, evitando a definição explícita de código na especificação?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">A descrição evita requisitos de negócio sem ação direta ao sistema?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">Há presença de breve descrição de caso de uso, que especifique de forma clara o seu propósito?</td>
+<td align="center">Baixo</td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">O fluxo básico está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">O fluxo alternativo está aparentemente completo, isto é, há inexistência de evidências claras de incompleteza na especificação?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">As frases são numeradas para que possibilitem a rastreabilidade?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">Os fluxos de exceção são corretamente descritos?</td>
+<td align="center">Médio</td>
+</tr>
+</tbody>
+</table>
+<h3 id="checklist-v2">Checklist - v2</h3>
+<p>Neste checklist foi adicionado items extras que contém critérios acerca da rastreabilidade do artefato, para que dessa forma fosse também possível avalia-lo na qualidade de artefato de requisitos.</p>
+<p>|Nº|Critério|Impacto|
+|    | <strong>Pré-rastreabilidade</strong> |    |
+| 18 | Existe rastro no artefato? | Alto |</p>
+<h3 id="registro-de-inspecao-de-caso-de-uso">Registro de inspeção de Caso de Uso</h3>
+<p>As colunas 3, 4, 5 são registros de não-conformidades referem-se ao registro da aplicação de cada questão, onde N/A (não se aplica) indica que a questão não se aplica ao produto inspecionado, S (sim) indica que o produto inspecionado atende à questão e N (não) indica que o produto não atende à questão e que representa um defeito.
+Para o registro de inspeção deve seguir a seguinte tabelas:</p>
+<h4 id="riuc">RIUC</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Nome do Caso de Uso</th>
+<th align="center">Data da inspeção</th>
+<th align="center">Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="riuc-v2">RIUC - v2</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Nome do Caso de Uso</th>
+<th align="center">Data da inspeção</th>
+<th align="center">Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="medicao-da-inspecao">Medição da inspeção</h3>
+<p>O critério de aceitação se refere a um percentual máximo de defeitos que o artefato inspecionado pode ter. Se esse resultado ultrapassar o critério de aceitação, será reprovado. Acredita-se que um percentual razoável esteja entre 30% a 40%. Neste trabalho é proposto um percentual de 30%, o que significa que os casos de usos inspecionados deveram ter no máximo 30% de defeitos para serem aprovados.
+A metodologia e as métricas utilizadas para melhor inspeção dos casos de usos, assim como as tabelas e diagramas, foram inspirados a partir do estudo proposto em <a href="#referencias">(1)</a>.</p>
+<h4 id="miuc">MIUC</h4>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Aprovado ou Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="miuc-v2">MIUC - v2</h4>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td></td>
+<td></td>
+<td></td>
+<td>Aprovado ou Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="inspecao">Inspeção</h3>
+<p>A seguir podem ser vistas as inspeções individuais de cada caso de uso previamente construído.</p>
+<h4 id="iuc-01">IUC-01</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Nome do Caso de Uso</th>
+<th align="center">Data da inspeção</th>
+<th align="center">Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../../Modelagem/especificacao/#ec1">EC1 - Fixar Mensagem</a></td>
+<td align="center">05/06/2019</td>
+<td align="center">André Lucas</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Impacto</th>
+<th align="center">N/A</th>
+<th align="center">Sim</th>
+<th align="center">Não</th>
+<th align="center">Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">Não apresenta a resposta do sistema</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">São utilizadas expressões que especifica a interface</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">Alto</td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">Caso de uso não necessariamente necessita de fluxo alternativo</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">Fluxos de exceções incompletos, não descrevem as ações do sistema</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Pré-rastreabilidade</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>1</td>
+<td>3</td>
+<td>22.86%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>4</td>
+<td>8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>1</td>
+<td>3</td>
+<td>21.05%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>4</td>
+<td>8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-02">IUC-02</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Nome do Caso de Uso</th>
+<th align="center">Data da inspeção</th>
+<th align="center">Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../../Modelagem/especificacao/#ec2">EC2 - Mudar privacidade do Channel</a></td>
+<td align="center">06/06/2019</td>
+<td align="center">André Lucas</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Impacto</th>
+<th align="center">N/A</th>
+<th align="center">Sim</th>
+<th align="center">Não</th>
+<th align="center">Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">O fluxo alternativo não está especificado</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">Não apresenta a resposta do sistema em nenhum momento</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Baixo</td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">O termo "clica" é utilizado várias vezes</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">Algumas frases do fluxo devem ser reformuladas</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">Não há fluxo alternativo</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Pré-rastreabilidade</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resulados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>3</td>
+<td>9</td>
+<td>34.29%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>5</td>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>3</td>
+<td>9</td>
+<td>31.58%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>5</td>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-03">IUC-03</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Nome do Caso de Uso</th>
+<th align="center">Data da inspeção</th>
+<th align="center">Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../../Modelagem/especificacao/#ec3">EC3 - Criar only-read channel</a></td>
+<td align="center">06/06/2019</td>
+<td align="center">André Lucas</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Impacto</th>
+<th align="center">N/A</th>
+<th align="center">Sim</th>
+<th align="center">Não</th>
+<th align="center">Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">1</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">O fluxo alternativo não está especificado</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Baixo</td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">Utiliza o termo "clica" e o termo "botão"</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">12</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">13</td>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">14</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">O fluxo principal pode ser reescrito, retirando os termos incorretos</td>
+</tr>
+<tr>
+<td align="center">15</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center">Não há fluxo alternativo</td>
+</tr>
+<tr>
+<td align="center">16</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">17</td>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Pré-rastreabilidade</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">18</td>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center">x</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>3</td>
+<td>9</td>
+<td>34.29%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>3</td>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>3</td>
+<td>9</td>
+<td>31.58%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>3</td>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-04">IUC-04</h4>
+<table>
+<thead>
+<tr>
+<th align="center">Nome do Caso de Uso</th>
+<th align="center">Data da inspeção</th>
+<th align="center">Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><a href="../../Modelagem/especificacao/#ec4">EC4 - Alterar Status</a></td>
+<td align="center">06/06/2019</td>
+<td align="center">André Lucas</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td>x</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utiliza o termo "clica"</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+<td>8.57%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>2</td>
+<td>3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados v02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>0</td>
+<td>0</td>
+<td>7.89%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>2</td>
+<td>3</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-05">IUC-05</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec5">EC5 - Deletar Conta</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado o termo "clica" algumas vezes</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td>x</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxos de exceções incompletos, deve ser descrito as ações do sistema após a exceção e não as ações do usuário</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+<td>14.29%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>4</td>
+<td>5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>0</td>
+<td>0</td>
+<td>13.16%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>4</td>
+<td>5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-06">IUC-06</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec6">EC6 - Mensagens Favoritadas</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado o termo "clica" algumas vezes</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo de exceção incompleto, exceção 2 não é uma exceção do sistema</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+<td>14.29%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>0</td>
+<td>0</td>
+<td>13.16%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-07">IUC-07</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec7">EC7 - Visualizar membros de chat em grupo</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado o termo "clica" algumas vezes</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxos de exceções incompletos, não descrevem as ações do sistema</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+<td>14.29%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>0</td>
+<td>0</td>
+<td>13.16%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-08">IUC-08</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec8">EC8 - Definir membro do channel como proprietário</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>O caso de uso está com o nome de "Tornar Proprietário do Channel" no diagrama</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Está faltando alguns links para os léxicos correspondentes</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Os fluxos alternativos estão incompletos</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxos de exceções incompletos, não descrevem as ações do sistema</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>3</td>
+<td>9</td>
+<td>40.00%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>6</td>
+<td>14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>3</td>
+<td>9</td>
+<td>36.68%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>6</td>
+<td>14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-09">IUC-09</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec9">EC9 - Escolher tom de pele padrão</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Está faltando alguns links para os léxicos dos termos que precisam de interpretação</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Os fluxos alternativos estão incompletos</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxos de exceções incompletos</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>2</td>
+<td>6</td>
+<td>31.43%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>5</td>
+<td>11</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>2</td>
+<td>6</td>
+<td>28.94%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>5</td>
+<td>11</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-10">IUC-10</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec10">EC10 - Criar channel</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Está faltando alguns links para os léxicos dos termos que precisam de interpretação</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Os fluxos alternativos estão incompletos, sem etapas com ações</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td>Talvez pudesse ter um complemento nas exceções</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>2</td>
+<td>6</td>
+<td>25.71%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>4</td>
+<td>9</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>2</td>
+<td>6</td>
+<td>23.69%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>4</td>
+<td>9</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-11">IUC-11</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec11">EC11 - Conectar com um servidor</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td>x</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface, como o termo "clica"</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Os fluxos alternativos estão incompletos, sem etapas com ações</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td>Talvez pudesse ter um complemento nas exceções</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>1</td>
+<td>3</td>
+<td>22.86%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>3</td>
+<td>8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>1</td>
+<td>3</td>
+<td>21.05%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>3</td>
+<td>8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-12">IUC-12</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec12">EC12 - Visualizar Mensagem Fixada</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Room e Pinned Messages não possuem os links para os léxicos que explicam os termos</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td>x</td>
+<td></td>
+<td></td>
+<td>Não há fluxo alternativo para esse caso de uso</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxos de Exceção incompletos</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>1</td>
+<td>3</td>
+<td>20.00%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>3</td>
+<td>7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>1</td>
+<td>3</td>
+<td>18.42%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>3</td>
+<td>7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-13">IUC-13</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec13">EC13 - Pesquisa de mensagem</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>No diagrama não há um caso de uso especifico de "Pesquisa de mensagem"</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não apresenta a resposta do sistema ao usuário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Algumas frases não estão em voz ativa, como "O usuário não especifica bem o termo..." no fluxo alternativo</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Alguns termos precisam de glossário, que seja nos léxicos ou na própria especificação</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface, como o termo "clica"</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>1</td>
+<td>6</td>
+<td>28.57%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>1</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>4</td>
+<td>7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-13-reavaliacao">IUC-13 - Reavaliação</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec13">EC13 - Pesquisa de mensagem</a></td>
+<td>10/06/2019</td>
+<td>André Lucas</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td>No item 5 do fluxo evidencia o retorno do sistema: "Mensagens relacionadas ao que foi pesquisado são retornadas para o usuário"</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>No item 5 poderia ser reescrito: "Sistema retorna mensagens relacionadas ao que foi pesquisado."</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Alguns termos especificos não contém a definição, nem o link para o endereço que contenha</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utiliza-se o termo "clica", que indica a interface</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>1</td>
+<td>3</td>
+<td>14.28%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>3</td>
+<td>5</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-13-v2">IUC-13 - v2</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec13">EC13 - Pesquisa de mensagem</a></td>
+<td>10/06/2019</td>
+<td>André Lucas e Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>No diagrama não há um caso especifico de "Pesquisa de mensagem"</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td>No item 5 do fluxo evidencia o retorno do sistema: "Mensagens relacionadas ao que foi pesquisado são retornadas para o usuário"</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Algumas frases não estão em voz ativa, como "O usuário não especifica bem o termo..." no fluxo alternativo. No item 5 poderia ser reescrito: "Sistema retorna mensagens relacionadas ao que foi pesquisado."</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Alguns termos especificos não contém a definição, que seja nos léxicos ou na própria especificação</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utiliza-se termos que indicam a interface, como o termo "clica"</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>2</td>
+<td>6</td>
+<td>22.86%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>4</td>
+<td>8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>2</td>
+<td>6</td>
+<td>21.05%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>4</td>
+<td>8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-14">IUC-14</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec14">EC14 - Realização de login</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td>x</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface, como o termo "clica"</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+<td>2.86%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>0</td>
+<td>0</td>
+<td>2.63%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-15">IUC-15</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec15">EC15 - Enviar mensagem</a></td>
+<td>07/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>As frases não especificam o ator que usa o sistema e não há resposta do sistema</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Termos, como "Channel" devem estar no glossário ou ter um link para o léxico</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxos alternativos incompletos, não possuem as ações possiveis</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxos de exceções não mostra as ações que o sistema executa para orientar o usuário</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>2</td>
+<td>6</td>
+<td>28.57%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>4</td>
+<td>10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>2</td>
+<td>6</td>
+<td>26.31%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>4</td>
+<td>10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-16">IUC-16</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec16">EC16 - Anexar arquivo</a></td>
+<td>08/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>As frases não especificam o ator que usa o sistema e não há resposta do sistema</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Termos, como "Channel" devem estar no glossário ou ter um link para o léxico</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxos de exceções não mostram as ações que o sistema executa para orientar o usuário</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>1</td>
+<td>3</td>
+<td>22.86%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>4</td>
+<td>8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>1</td>
+<td>3</td>
+<td>21.05%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>4</td>
+<td>8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-17">IUC-17</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec17">EC17 - Anexar desenho</a></td>
+<td>08/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>As frases não especificam o ator que usa o sistema e não há resposta do sistema</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Termos, como "Channel" e "Desenhar" devem estar no glossário ou ter um link para o léxico em questão</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo alternativo está incompleto, também não constam as ações tomadas pelo ator</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>2</td>
+<td>6</td>
+<td>31.43%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>5</td>
+<td>11</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>2</td>
+<td>6</td>
+<td>28.95%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>5</td>
+<td>11</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-18">IUC-18</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec18">EC18 - Responder mensagem</a></td>
+<td>08/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>O nome utilizado no caso de uso do diagrama é diferente, "Selecionar responder na mensagem desejada", o que dificulta a rastreabilidade</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>As frases não especificam o ator que usa o sistema e não há resposta do sistema</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Termos, como "Channel", "Edição" devem estar no glossário ou ter um link para o léxico em questão</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo alternativo está incompleto</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>3</td>
+<td>9</td>
+<td>40.00%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>6</td>
+<td>14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>3</td>
+<td>9</td>
+<td>36.84%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>6</td>
+<td>14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-19">IUC-19</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec19">EC19 - Editar Mensagem</a></td>
+<td>08/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>As frases não especificam o ator que usa o sistema e não há resposta do sistema</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Termos, como "Channel", "Logar" devem estar no glossário ou ter um link para o léxico em questão</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo alternativo está incompleto</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>2</td>
+<td>6</td>
+<td>40.00%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>5</td>
+<td>14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>2</td>
+<td>6</td>
+<td>36.84%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>1</td>
+<td>1</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>5</td>
+<td>14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-20">IUC-20</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec20">EC20 - Realizar video Chat</a></td>
+<td>08/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não consta o caso de uso no diagrama linkado "Realização de Video chat"</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não há resposta do sistema em nenhum momento dos fluxos</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Em alguns momentos não é utilizada a voz ativa, fazendo o uso de ações duvidosas do ator, como "usuário pode fazer algo"</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Termos, como "Grupo", "Desliza tela", "Sala" devem estar no glossário ou ter um link para o léxico em questão</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Alternância entre o termo "grupo", "canal" e "sala", que pode confundir quem ler a documentação</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface, como "clicam no canal", "clicam na ferramenta"</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>2</td>
+<td>6</td>
+<td>40.00%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>3</td>
+<td>6</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>7</td>
+<td>14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>2</td>
+<td>6</td>
+<td>36.84%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>3</td>
+<td>6</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>7</td>
+<td>14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-21">IUC-21</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec21">EC21 - Cadastrar novo usuário</a></td>
+<td>08/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>O caso de uso no diagrama "Cadastrar novo usuário" está com outro nome, "cadastro por formulário"</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não há resposta do sistema em nenhum momento dos fluxos</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Em alguns momentos não é utilizada a voz ativa, fazendo o uso de ações duvidosas do ator, como "usuário pode fazer algo"</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Termos, como "Formulário" devem estar no glossário ou ter um link para o léxico em questão</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>2</td>
+<td>6</td>
+<td>34.29%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>6</td>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>2</td>
+<td>6</td>
+<td>31.58%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>6</td>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-22">IUC-22</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec22">EC22 - Deixar Grupo</a></td>
+<td>08/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não consta o caso de uso no diagrama "Sair de um channel"</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>As frases não especificam o ator que usa o sistema e não há resposta do sistema</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Em alguns momentos não é utilizada a voz ativa, fazendo o uso de ações duvidosas do ator, como "usuário pode fazer algo"</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Alguns termos precisam estar no glossário ou linkados dos léxicos</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface, como "Usuário clica em"</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td>x</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>2</td>
+<td>6</td>
+<td>34.29%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>6</td>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>2</td>
+<td>6</td>
+<td>31.58%</td>
+<td>Reprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>6</td>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-23">IUC-23</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec23">EC22 - Esconder Grupo</a></td>
+<td>08/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td>O caso de uso consta no diagrama, porém estar com uma frase, "Escolher entre as opções marcadas a de "Esconder grupo""</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>As frases no fluxo principal não especificam o ator que usa o sistema e não há resposta do sistema</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Em alguns momentos não é utilizada a voz ativa, fazendo o uso de ações duvidosas do ator, como "usuário pode fazer algo"</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Alguns termos precisam estar no glossário ou linkados dos léxicos</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Utilizado termos que indicam a interface, como "Clicar nos três pontos..."</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td>x</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>1</td>
+<td>3</td>
+<td>25.71</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>5</td>
+<td>9</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>1</td>
+<td>3</td>
+<td>23.68%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>2</td>
+<td>2</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>5</td>
+<td>9</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-24">IUC-24</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec24">EC24 - Receber Notificação</a></td>
+<td>08/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Não há resposta do sistema</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Alguns termos, como "Video Chat", "grupo",  precisam estar no glossário ou linkados dos léxicos</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo de exceção não especifica como o sistema deve proceder internamente e as medidas tomadas para orientar o usuário sobre a exceção</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>1</td>
+<td>3</td>
+<td>20.00%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>3</td>
+<td>7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>1</td>
+<td>3</td>
+<td>18.42%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>2</td>
+<td>4</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>3</td>
+<td>7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iuc-25">IUC-25</h4>
+<table>
+<thead>
+<tr>
+<th>Nome do Caso de Uso</th>
+<th>Data da inspeção</th>
+<th>Responsável pela inspeção</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="../../Modelagem/especificacao/#ec25">EC25 - Sair do aplicativo</a></td>
+<td>08/06/2019</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>N/A</th>
+<th>Sim</th>
+<th>Não</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Caso de uso não consta especificamente no diagrama, o mais próximo seria, "Selecionar a opção sair"</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td>Finalmente outra especificação que possui resposta do sistema</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Alguns termos, como "chats", "página inicial",  precisam estar no glossário ou linkados dos léxicos</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td></td>
+<td></td>
+<td>x</td>
+<td>Fluxo alternativo não faz parte do caso de uso</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Pré-rastreabilidade</strong></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td></td>
+<td>x</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados v01</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>6</td>
+<td>18</td>
+<td>3</td>
+<td>9</td>
+<td>25.71%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>17</td>
+<td>35</td>
+<td>3</td>
+<td>9</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>Resultados V02</strong></li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Impacto</th>
+<th>Peso</th>
+<th>Questões Aplicadas</th>
+<th>Peso das questões aplicadas</th>
+<th>Não-conformidades encontradas</th>
+<th>Peso das não-conformidades encontradas</th>
+<th>Resultado quantitativo</th>
+<th>Descrição do resultado quantitativo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alta</td>
+<td>3</td>
+<td>7</td>
+<td>21</td>
+<td>3</td>
+<td>9</td>
+<td>23.68%</td>
+<td>Aprovado</td>
+</tr>
+<tr>
+<td>Média</td>
+<td>2</td>
+<td>6</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Baixa</td>
+<td>1</td>
+<td>5</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Total:</strong></td>
+<td></td>
+<td>18</td>
+<td>38</td>
+<td>3</td>
+<td>9</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Critério de aceitação:</td>
+<td>30%</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultados">Resultados</h2>
+<h3 id="rv1">RV1</h3>
+<p>Resultados com a primeira versão da checklist</p>
+<ul>
+<li>Modelos analisados: 25</li>
+<li>Modelos reprovados: 9</li>
+<li>Média de pontuação dos defeitos: 4.2, ou cerca de 26,4%. De forma geral abaixo da tolerância máxima, que foi admitida como sendo de 30%.</li>
+</ul>
+<h3 id="rv2">RV2</h3>
+<p>Resultados com a segunda versão da checklist</p>
+<ul>
+<li>Modelos analisados: 25</li>
+<li>Modelos reprovados: 5</li>
+<li>Média de pontuação dos defeitos: 4.2, ou cerca de 24,03%. De forma geral abaixo da tolerância máxima, que foi admitida como sendo de 30%.</li>
+</ul>
+<p>A maioria das especificações foram aprovadas tanto na primeira checklist, quanto depois com a adição do importante critério de rastreabilidade que fez com que a nota de todas as especificações aumentassem, pois esse é um padrão seguido em todos os artefatos produzidos pela equipe.</p>
+<p>A seguir, segue uma tabela para analisar a contagem de erros para cada questão. Percebe-se que os principais erros são referentes a uma fala nas especificações dos casos de uso que evocavam a prematura especificação de interface (que não deve ser tratada neste artefato). Outro erro bem recorrente está na falta de frases que representam um diálogo entre ator e sistema, além de fluxos alternativos auxentes ou incompletos, principalmente nos fluxos de exceção.</p>
+<table>
+<thead>
+<tr>
+<th>Nº</th>
+<th>Impacto</th>
+<th>Quantidade de erros</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Alto</td>
+<td>6</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Alto</td>
+<td>3</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Baixo</td>
+<td>0</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Médio</td>
+<td>21</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Baixo</td>
+<td>0</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Baixo</td>
+<td>5</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Médio</td>
+<td>0</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alto</td>
+<td>16</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Médio</td>
+<td>1</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Baixo</td>
+<td>21</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Médio</td>
+<td>0</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Médio</td>
+<td>0</td>
+</tr>
+<tr>
+<td>13</td>
+<td>Baixo</td>
+<td>0</td>
+</tr>
+<tr>
+<td>14</td>
+<td>Alto</td>
+<td>2</td>
+</tr>
+<tr>
+<td>15</td>
+<td>Alto</td>
+<td>11</td>
+</tr>
+<tr>
+<td>16</td>
+<td>Alto</td>
+<td>0</td>
+</tr>
+<tr>
+<td>17</td>
+<td>Médio</td>
+<td>17</td>
+</tr>
+<tr>
+<td>18</td>
+<td>Alto</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="referencias">Referências</h2>
+<p>[1] - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf. Acesso em: 05 jun. 2019.</p>
+<p>[2] - IBM. Use-case. Disponível em: https://www.ibm.com/developerworks/rational/library/content/RationalEdge/may02/m_chapter4_jr.pdf. Acesso em: 05 jun. 2019.</p>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Modificação</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>05/06/2019</td>
+<td>1.0</td>
+<td>Abertura do documento</td>
+<td>André Lucas</td>
+</tr>
+<tr>
+<td>05/06/2019</td>
+<td>1.1</td>
+<td>Inclusão da metodologia, checklist e medição utilizadas</td>
+<td>André Lucas</td>
+</tr>
+<tr>
+<td>06/06/2019</td>
+<td>1.2</td>
+<td>Adição das IUC01 e IUC02</td>
+<td>André Lucas</td>
+</tr>
+<tr>
+<td>06/06/2019</td>
+<td>1.3</td>
+<td>Adição das IUC03 e IUC04</td>
+<td>André Lucas</td>
+</tr>
+<tr>
+<td>07/06/2019</td>
+<td>1.4</td>
+<td>Adição das IUC05 - IUC11</td>
+<td>Lucas Maciel</td>
+</tr>
+<tr>
+<td>08/06/2019</td>
+<td>1.5</td>
+<td>Adição das IUC12 - IUC15</td>
+<td>Lucas Maciel</td>
+</tr>
+<tr>
+<td>08/06/2019</td>
+<td>1.5</td>
+<td>Adição das IUC16 - IUC20</td>
+<td>Lucas Maciel</td>
+</tr>
+<tr>
+<td>08/06/2019</td>
+<td>1.6</td>
+<td>Adição das IUC21 - IUC25</td>
+<td>Lucas Maciel</td>
+</tr>
+<tr>
+<td>10/06/2019</td>
+<td>1.7</td>
+<td>Adição da ICU13 - v2</td>
+<td>André Lucas</td>
+</tr>
+<tr>
+<td>10/06/2019</td>
+<td>1.8</td>
+<td>Adição de rastreabilidade e atualização de checklists</td>
+<td>André Lucas</td>
+</tr>
+<tr>
+<td>20/06/2019</td>
+<td>1.9</td>
+<td>Adição dos resultados gerais da Análise V02</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../NFR/" title="Inspeção NFR" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Inspeção NFR
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../argumentacao/" title="Inspeção de Argumentação" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Inspeção de Argumentação
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

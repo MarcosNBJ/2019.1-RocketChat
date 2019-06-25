@@ -1,0 +1,3676 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Inspeção do IStar - RocketChat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#inspecao-do-istar" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="RocketChat" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RocketChat
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Inspeção do IStar
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="RocketChat" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    RocketChat
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Argumentacao/" title="Argumentacao" class="md-nav__link">
+      Argumentacao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Estratégia/" title="Estratégia" class="md-nav__link">
+      Estratégia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Storyboard/" title="Storyboard" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analdiscurso/" title="Análise de Discurso" class="md-nav__link">
+      Análise de Discurso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analprot/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas/" title="Diagramas de Caso de Uso" class="md-nav__link">
+      Diagramas de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-nav__link">
+      Diagramas de Caso de Uso 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/especificacao/" title="Especificação de Caso de Uso" class="md-nav__link">
+      Especificação de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/istar/" title="IStar" class="md-nav__link">
+      IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/nfr/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/suplementar/" title="Documento de Especificação Suplementar" class="md-nav__link">
+      Documento de Especificação Suplementar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5" checked>
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../DC/" title="Inspeção de Diagramas de caso de Uso" class="md-nav__link">
+      Inspeção de Diagramas de caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Inspeção do IStar
+      </label>
+    
+    <a href="./" title="Inspeção do IStar" class="md-nav__link md-nav__link--active">
+      Inspeção do IStar
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="Introdução" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios" title="Critérios" class="md-nav__link">
+    Critérios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterio-de-aceitacao" title="Critério de aceitação" class="md-nav__link">
+    Critério de aceitação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inspecao" title="Inspeção" class="md-nav__link">
+    Inspeção
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iisd-0x" title="IISD-0X" class="md-nav__link">
+    IISD-0X
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-01" title="IISD-01" class="md-nav__link">
+    IISD-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-02" title="IISD-02" class="md-nav__link">
+    IISD-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-03" title="IISD-03" class="md-nav__link">
+    IISD-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-04" title="IISD-04" class="md-nav__link">
+    IISD-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-05" title="IISD-05" class="md-nav__link">
+    IISD-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-06" title="IISD-06" class="md-nav__link">
+    IISD-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-0x" title="IISR-0X" class="md-nav__link">
+    IISR-0X
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-01" title="IISR-01" class="md-nav__link">
+    IISR-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-02" title="IISR-02" class="md-nav__link">
+    IISR-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-03" title="IISR-03" class="md-nav__link">
+    IISR-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-03-v2" title="IISR-03 V2" class="md-nav__link">
+    IISR-03 V2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-04" title="IISR-04" class="md-nav__link">
+    IISR-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-05" title="IISR-05" class="md-nav__link">
+    IISR-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-06" title="IISR-06" class="md-nav__link">
+    IISR-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-06-v2" title="IISR-06 V2" class="md-nav__link">
+    IISR-06 V2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-07" title="IISR-07" class="md-nav__link">
+    IISR-07
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultado-geral" title="Resultado Geral" class="md-nav__link">
+    Resultado Geral
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" title="Referências" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NFR/" title="Inspeção NFR" class="md-nav__link">
+      Inspeção NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../UC/" title="Inspeção de Casos de Uso" class="md-nav__link">
+      Inspeção de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../argumentacao/" title="Inspeção de Argumentação" class="md-nav__link">
+      Inspeção de Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlog/" title="Inspeção do Product Backlog" class="md-nav__link">
+      Inspeção do Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Backward-From/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Foward-From/" title="Foward-From" class="md-nav__link">
+      Foward-From
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Final
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Final
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-nav__link">
+      Metricas finais da Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="Introdução" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios" title="Critérios" class="md-nav__link">
+    Critérios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criterio-de-aceitacao" title="Critério de aceitação" class="md-nav__link">
+    Critério de aceitação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#inspecao" title="Inspeção" class="md-nav__link">
+    Inspeção
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#iisd-0x" title="IISD-0X" class="md-nav__link">
+    IISD-0X
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-01" title="IISD-01" class="md-nav__link">
+    IISD-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-02" title="IISD-02" class="md-nav__link">
+    IISD-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-03" title="IISD-03" class="md-nav__link">
+    IISD-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-04" title="IISD-04" class="md-nav__link">
+    IISD-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-05" title="IISD-05" class="md-nav__link">
+    IISD-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisd-06" title="IISD-06" class="md-nav__link">
+    IISD-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-0x" title="IISR-0X" class="md-nav__link">
+    IISR-0X
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-01" title="IISR-01" class="md-nav__link">
+    IISR-01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-02" title="IISR-02" class="md-nav__link">
+    IISR-02
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-03" title="IISR-03" class="md-nav__link">
+    IISR-03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-03-v2" title="IISR-03 V2" class="md-nav__link">
+    IISR-03 V2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-04" title="IISR-04" class="md-nav__link">
+    IISR-04
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-05" title="IISR-05" class="md-nav__link">
+    IISR-05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-06" title="IISR-06" class="md-nav__link">
+    IISR-06
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-06-v2" title="IISR-06 V2" class="md-nav__link">
+    IISR-06 V2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#iisr-07" title="IISR-07" class="md-nav__link">
+    IISR-07
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resultado-geral" title="Resultado Geral" class="md-nav__link">
+    Resultado Geral
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" title="Referências" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/marcosnbj/2019.1-RocketChat/edit/master/docs/Análise/IStar.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="inspecao-do-istar">Inspeção do IStar</h1>
+<h2 id="introducao">Introdução</h2>
+<p>Documento que busca analisar os modelos de IStar levantados anteriormente no tópico de modelagem, tanto a parte de Strategic Dependency Models quanto a parte de Strategic Rationale Models serão alvos desta inspeção, afim de identificar possíveis erros e falhas presentes nos mesmos, bem como apontar soluções e correções para esses erros.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Para que a inspeção fosse realizada de forma a se obter um resultado positivo, primeiro foram estabelecidas duas checklists, uma para o Strategic Dependency Models(SD) e outra para o Strategic Rationale Models(SR), contendo critérios considerados importantes para que se possa obter um IStar de qualidade. Para cada um destes critérios foi atribuído um peso, podendo ser de alto, médio ou baixo impacto. Sendo o de alto impacto o critério considerado crítico para o bom entendimento do modelo, bem como os aspectos fundamentais para que o modelo possa ser considerado "correto". Já os critérios de baixo impacto são aqueles que se ausentes, não tornam o modelo necessariamente ruim ou incorreto, mas sua presença contribui para a qualidade do mesmo.</p>
+<h3 id="criterios">Critérios</h3>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Dependency Model</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">Todas as dependências estão direcionadas corretamente?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Os atores estão representados com a abstração correta?</td>
+<td align="center">Baixo</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os atores descritos são realmente os necessários e suficientes para o modelo proposto?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Médio</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Impacto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center">Baixo</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center">Baixo</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Médio</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Alto</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Médio</td>
+</tr>
+</tbody>
+</table>
+<h3 id="criterio-de-aceitacao">Critério de aceitação</h3>
+<p>O critério de aceitação implica na atribuição de um peso para cada tipo de impacto que um critério pode ter, o que possibilita calcular a pontuação máxima total, que é a quantidade de pontos máxima que um modelo pode alcançar caso tenha cumprido com todos os critérios listados anteriormente. Neste caso, a tolerância usada será de 30%, ou seja, para ser considerado aprovado, o modelo deverá obter no mínimo 70% da pontuação total possível. Para formulação desse critério de aceitação foi usado como base a metodologia presente em <a href="#referencias">(1)</a>.</p>
+<p><strong>Strategic Dependency Model</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Impacto do critério</th>
+<th align="center">Peso atribuído</th>
+<th align="center">Quantidade de critérios</th>
+<th align="center">Pontuação máxima total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Alta</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td align="center">Média</td>
+<td align="center">2</td>
+<td align="center">4</td>
+<td align="center">8</td>
+</tr>
+<tr>
+<td align="center">Baixa</td>
+<td align="center">1</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"><strong>Total:</strong></td>
+<td align="center"></td>
+<td align="center">9</td>
+<td align="center">18</td>
+</tr>
+</tbody>
+</table>
+<p>Modelo SD será considerado reprovado se  ultrapassar <strong>5,4 pontos</strong> em defeitos.</p>
+<p><strong>Strategic Rationale Model</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Impacto do critério</th>
+<th align="center">Peso atribuído</th>
+<th align="center">Quantidade de critérios</th>
+<th align="center">Pontuação máxima total</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Alta</td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td align="center">Média</td>
+<td align="center">2</td>
+<td align="center">6</td>
+<td align="center">12</td>
+</tr>
+<tr>
+<td align="center">Baixa</td>
+<td align="center">1</td>
+<td align="center">2</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center"><strong>Total:</strong></td>
+<td align="center"></td>
+<td align="center">9</td>
+<td align="center">23</td>
+</tr>
+</tbody>
+</table>
+<p>Modelo SR será considerado reprovado se  ultrapassar <strong>6,9 pontos</strong> em defeitos.</p>
+<p>Utilizando como base a tolerância máxima de 30%, temos como resultado que os modelos devem ter uma pontuação de no mínimo 12,6 pontos para o SD e de no mínimo 16,1 para o SR para serem aprovados, com qualquer pontuação menor do que está, o modelo é considerado reprovado e deve ser revisado. Isso não impede, é claro, de que modelos considerados aprovados também possam ser revisados, pois podem existir pequenos erros facilmente reparáveis.</p>
+<h3 id="inspecao">Inspeção</h3>
+<p>A seguir podem ser vistas as inspeções individuais de cada Strategic Dependency Model(SD) e de cada Strategic Rationale Model(SR) previamente construído. Todas as inspeções são feitas tomando como base a versão mais atual de cada modelo.</p>
+<h4 id="iisd-0x">IISD-0X</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/">ISD0X</a></em></p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Dependency Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">Todas as dependências estão direcionadas corretamente?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Os atores estão representados com a abstração correta?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os atores descritos são realmente os necessários e suficientes para o modelo proposto?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisd-01">IISD-01</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isd01-chat">ISD01</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Dependency Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">Todas as dependências estão direcionadas corretamente?</td>
+<td align="center">Não</td>
+<td align="center">Corrigir o sentido de algumas dependências</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Os atores estão representados com a abstração correta?</td>
+<td align="center">Não</td>
+<td align="center">Sistema de controle de chat pode ser descrito como agente</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os atores descritos são realmente os necessários e suficientes para o modelo proposto?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">2</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisd-02">IISD-02</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isd02-geral">ISD02</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Dependency Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">Todas as dependências estão direcionadas corretamente?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui softgoals</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Os atores estão representados com a abstração correta?</td>
+<td align="center">Não</td>
+<td align="center">O Rocket.Chat pode ser representado como um agente</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os atores descritos são realmente os necessários e suficientes para o modelo proposto?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui metas</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui metas</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui recursos</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisd-03">IISD-03</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isd03-sistema-de-contas">ISD03</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Dependency Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">Todas as dependências estão direcionadas corretamente?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui tarefas</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Os atores estão representados com a abstração correta?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os atores descritos são realmente os necessários e suficientes para o modelo proposto?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Não</td>
+<td align="center">Revisar escrita das metas</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisd-04">IISD-04</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isd04-acoes-sobre-o-channel">ISD04</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Dependency Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">Todas as dependências estão direcionadas corretamente?</td>
+<td align="center">Não</td>
+<td align="center">Algumas dependências estão invertidas</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui tarefas</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Não</td>
+<td align="center">Revisar se o softgoal descrito realmente é um softgoal</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Os atores estão representados com a abstração correta?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os atores descritos são realmente os necessários e suficientes para o modelo proposto?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center">Corrigir recurso duplicado</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">1</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">2</td>
+<td align="center">5</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Várias melhorias são necessárias e devem ser aplicadas a este modelo, no entanto, o modelo foi aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisd-05">IISD-05</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isd05-contribuicao-da-comunidade">ISD05</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Dependency Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">Todas as dependências estão direcionadas corretamente?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Não</td>
+<td align="center">Revisar a escrita das tarefas</td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Os atores estão representados com a abstração correta?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os atores descritos são realmente os necessários e suficientes para o modelo proposto?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">1</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">1</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisd-06">IISD-06</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isd06-Videochamada">ISD06</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Dependency Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">Todas as dependências estão direcionadas corretamente?</td>
+<td align="center">Não</td>
+<td align="center">Revisar ordem das dependências</td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">Os atores estão representados com a abstração correta?</td>
+<td align="center">Não</td>
+<td align="center">O Rocket.Chat pode ser representado como um agente do sistema</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os atores descritos são realmente os necessários e suficientes para o modelo proposto?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">2</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisr-0x">IISR-0X</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/">ISR0X</a></em></p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisr-01">IISR-01</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isr01-criar-channel">ISR01</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center">Não</td>
+<td align="center">Verificar se é possível criar outros tipos de relacionamentos de impacto. Sugestão: Definir um nome intuitivo pode ajudar na interação entre os membros.</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center">Usar adjetivos qualitativos. Ex: Bom entendimento.</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisr-02">IISR-02</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isr02-realizar-cadastro">ISR02</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center">Sim</td>
+<td align="center">Verificar se é possível adicionar mais impactos.</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center">Não</td>
+<td align="center">Verificar se é possível adicionar mais impactos.</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisr-03">IISR-03</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isr03-envio-de-mensagens">ISR03</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center">Não</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui recursos, verificar se é possível adicionar recursos.</td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Não</td>
+<td align="center">Revisar softgoal 'Mensagens direcionadas'</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Não</td>
+<td align="center">Verificar se mensagem de texto, video e áudio são realmente hardgoals</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Não</td>
+<td align="center">Verificar se mensagem de texto, video e áudio são realmente hardgoals</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">2</td>
+<td align="center">6</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">4</td>
+<td align="center">9</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo reprovado, pois a pontuação dos defeitos está além da tolerância estabelecida. Várias melhorias são necessárias e devem ser aplicadas a este modelo.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisr-03-v2">IISR-03 V2</h4>
+<p><em>Inspeção da versão 02 do <a href="../../Modelagem/istar/#isr03-envio-de-mensagens">ISR03</a> refatorado após ter sido reprovado pela análise anterior</em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisr-04">IISR-04</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isr04-acoes-sobre-as-mensagens">ISR04</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center">Verificar se a tarefa 'responder' pode ser substituída por 'responder mensagem'.</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center">Usar adjetivos qualitativos. Ex: Boa variedade de opções.</td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Não</td>
+<td align="center">Revisar os hardgoals.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisr-05">IISR-05</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isr05-acoes-sobre-o-channel">ISR05</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui impactos. Verificar se é possível adicionar impactos.</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui impactos. Verificar se é possível adicionar impactos.</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Não</td>
+<td align="center">Verificar a meta 'exibir conversas'.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisr-06">IISR-06</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isr06-contribuicao-da-comunidade">ISR06</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center">Não</td>
+<td align="center">As ligações com os elementos externos não foram representadas, adicionar essas ligações e suas dependências.</td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center">Não</td>
+<td align="center">Verificar o sentido dos impactos.</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Não</td>
+<td align="center">Usar verbos no infinitivo para descrever as tasks.</td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">1</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">2</td>
+<td align="center">4</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">3</td>
+<td align="center">7</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo reprovado, pois a pontuação dos defeitos está além da tolerância estabelecida. Várias melhorias são necessárias e devem ser aplicadas a este modelo.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisr-06-v2">IISR-06 V2</h4>
+<p><em>Inspeção da versão 02 do <a href="../../Modelagem/istar/#isr06-contribuicao-da-comunidade">ISR06</a> refatorado após ter sido reprovado pela análise anterior</em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center">Não</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h4 id="iisr-07">IISR-07</h4>
+<p><em>Inspeção do <a href="../../Modelagem/istar/#isr07-videochamada">ISR07</a></em>
+Inspetor: Weiller Fernandes</p>
+<table>
+<thead>
+<tr>
+<th align="center">Nº</th>
+<th align="center">Critério</th>
+<th align="center">Check</th>
+<th align="center">Observação/Melhoria Sugerida</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Strategic Rationale Model</strong></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">1</td>
+<td align="center">A boundary representa a fronteira de um ator, limitando o escopo de sua atuação?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">2</td>
+<td align="center">Todos os elementos presentes dentro da fronteira são elementos relacionados ao ator que ela pertence?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">3</td>
+<td align="center">As ligações com elementos de fora da fronteira são feitas através de dependências?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">4</td>
+<td align="center">As ligações 'and' e 'or' estão corretas?</td>
+<td align="center">Não</td>
+<td align="center">Ligações 'and' e 'or' não estão sendo representadas, revisar todas as ligações e corrigir as erradas.</td>
+</tr>
+<tr>
+<td align="center">5</td>
+<td align="center">Os impactos estão representados com sentido e intensidade corretas?</td>
+<td align="center">Sim</td>
+<td align="center">Verificar se algum impacto deve se tornar uma ligação 'and' ou 'or'.</td>
+</tr>
+<tr>
+<td align="center">6</td>
+<td align="center">Existe propagação de impacto entre diferentes ramos? (Não apenas entre pais e filhos)</td>
+<td align="center">Não</td>
+<td align="center">Verificar se é possível propagar impactos entre diferentes ramos.</td>
+</tr>
+<tr>
+<td align="center">7</td>
+<td align="center">Todos os recursos são substantivos?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">8</td>
+<td align="center">Todas as tarefas(task) são ações e estão representadas com verbos no infinitivo?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">9</td>
+<td align="center">Os Softgoals representam requisitos não-funcionais?</td>
+<td align="center">Sim</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">10</td>
+<td align="center">As metas são objetivos que se deseja alcançar?</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui hardgoals</td>
+</tr>
+<tr>
+<td align="center">11</td>
+<td align="center">As metas estão descritas em voz passiva?</td>
+<td align="center">-</td>
+<td align="center">Este modelo não possui hardgoals.</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center"><strong>Resultados</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Importância</strong></td>
+<td align="center"><strong>Critérios não atendidos</strong></td>
+<td align="center"><strong>Pontuação total dos defeitos</strong></td>
+</tr>
+<tr>
+<td align="center">Alto</td>
+<td align="center">0</td>
+<td align="center">0</td>
+</tr>
+<tr>
+<td align="center">Médio</td>
+<td align="center">1</td>
+<td align="center">2</td>
+</tr>
+<tr>
+<td align="center">Baixo</td>
+<td align="center">1</td>
+<td align="center">1</td>
+</tr>
+<tr>
+<td align="center"><strong>Total</strong></td>
+<td align="center">2</td>
+<td align="center">3</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"><strong>Conclusão</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">Modelo aprovado, pois a pontuação dos defeitos está dentro da tolerância estabelecida. Poucas melhorias são necessárias.</td>
+<td align="center"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="resultado-geral">Resultado Geral</h2>
+<p><strong>Inspeções SD</strong>
+Resultados para as inspeções dos Strategic Dependency Models(SD):</p>
+<p>Inspetor: Weiller Fernandes</p>
+<ul>
+<li>Modelos analisados: 6</li>
+<li>Modelos reprovados: 0</li>
+</ul>
+<p><strong>Inspeções SR</strong>
+Resultados para as inspeções dos Strategic Rationale Models(SR):</p>
+<p>Inspetor: Weiller Fernandes</p>
+<ul>
+<li>Modelos analisados: 7</li>
+<li>Modelos reprovados: 2</li>
+</ul>
+<p>Através destes resultados conclui-se que, de modo geral, os modelos IStar apresentam boa qualidade, principalmente os modelos SD, que foram todos aprovados. Mas vale ressaltar que todos eles podem ser melhorados, visto que todos apresentam algum tipo de erro levantado pela lista de critérios.</p>
+<ul>
+<li>Observação: Após as primeiras análises terem sido feitas, e 2 modelos de ISR terem sido reprovados, foi feito um trabalho de refatoração com estes modelos, que consequentemente tiveram novas versões e novas análises. Nestas novas análises os modelos foram considerados aprovados.</li>
+</ul>
+<h2 id="referencias">Referências</h2>
+<p>1 - Gregolin, Rosângela. Uma proposta de inspeção em modelos de caso de uso. 2007. Disponível em: http://cassiopea.ipt.br/teses/2007_EC_Rosangela_Gregolin.pdf. Acessado em: 07, jun, 2019.</p>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Modificação</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>07/05/2019</td>
+<td>1.0</td>
+<td>Abertura do documento</td>
+<td>Weiller Fernandes</td>
+</tr>
+<tr>
+<td>07/05/2019</td>
+<td>1.1</td>
+<td>Inclusão da Metodologia, Critérios e Critério de aceitação</td>
+<td>Weiller Fernandes</td>
+</tr>
+<tr>
+<td>08/05/2019</td>
+<td>1.2</td>
+<td>Adição das inspeções-modelo IISD-0X e IISR-0X</td>
+<td>Weiller Fernandes</td>
+</tr>
+<tr>
+<td>08/05/2019</td>
+<td>1.3</td>
+<td>Adição das inspeções IISD-01 até IISD-06</td>
+<td>Weiller Fernandes</td>
+</tr>
+<tr>
+<td>09/05/2019</td>
+<td>1.4</td>
+<td>Adição das inspeções IISR-01 até IISR-07</td>
+<td>Weiller Fernandes</td>
+</tr>
+<tr>
+<td>10/05/2019</td>
+<td>1.5</td>
+<td>Adição das conclusões das inspeções IISD-01 a IISD-06 e IISR-01 a IISR-07</td>
+<td>Weiller Fernandes</td>
+</tr>
+<tr>
+<td>10/05/2019</td>
+<td>1.6</td>
+<td>Adição do resultado geral das inspeções</td>
+<td>Weiller Fernandes</td>
+</tr>
+<tr>
+<td>24/06/2019</td>
+<td>1.7</td>
+<td>Adição das inspeções IISR-03 V2 e IISR-06 V2</td>
+<td>Weiller Fernandes</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../DC/" title="Inspeção de Diagramas de caso de Uso" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Inspeção de Diagramas de caso de Uso
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../NFR/" title="Inspeção NFR" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Inspeção NFR
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

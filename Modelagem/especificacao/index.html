@@ -1,0 +1,3455 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Especificação de Caso de Uso - RocketChat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#especificacao-de-caso-de-uso" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="RocketChat" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RocketChat
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Especificação de Caso de Uso
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="RocketChat" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    RocketChat
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Argumentacao/" title="Argumentacao" class="md-nav__link">
+      Argumentacao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Estratégia/" title="Estratégia" class="md-nav__link">
+      Estratégia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Storyboard/" title="Storyboard" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analdiscurso/" title="Análise de Discurso" class="md-nav__link">
+      Análise de Discurso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analprot/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../diagramas/" title="Diagramas de Caso de Uso" class="md-nav__link">
+      Diagramas de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-nav__link">
+      Diagramas de Caso de Uso 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Especificação de Caso de Uso
+      </label>
+    
+    <a href="./" title="Especificação de Caso de Uso" class="md-nav__link md-nav__link--active">
+      Especificação de Caso de Uso
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ec1" title="EC1" class="md-nav__link">
+    EC1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec2" title="EC2" class="md-nav__link">
+    EC2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec3" title="EC3" class="md-nav__link">
+    EC3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec4" title="EC4" class="md-nav__link">
+    EC4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec5" title="EC5" class="md-nav__link">
+    EC5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec6" title="EC6" class="md-nav__link">
+    EC6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec7" title="EC7" class="md-nav__link">
+    EC7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec8" title="EC8" class="md-nav__link">
+    EC8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec9" title="EC9" class="md-nav__link">
+    EC9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec10" title="EC10" class="md-nav__link">
+    EC10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec11" title="EC11" class="md-nav__link">
+    EC11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec12" title="EC12" class="md-nav__link">
+    EC12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec13" title="EC13" class="md-nav__link">
+    EC13
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec14" title="EC14" class="md-nav__link">
+    EC14
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec15" title="EC15" class="md-nav__link">
+    EC15
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec16" title="EC16" class="md-nav__link">
+    EC16
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec17" title="EC17" class="md-nav__link">
+    EC17
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec18" title="EC18" class="md-nav__link">
+    EC18
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec19" title="EC19" class="md-nav__link">
+    EC19
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec20" title="EC20" class="md-nav__link">
+    EC20
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec21" title="EC21" class="md-nav__link">
+    EC21
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec22" title="EC22" class="md-nav__link">
+    EC22
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec23" title="EC23" class="md-nav__link">
+    EC23
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec24" title="EC24" class="md-nav__link">
+    EC24
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec25" title="EC25" class="md-nav__link">
+    EC25
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../istar/" title="IStar" class="md-nav__link">
+      IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nfr/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../suplementar/" title="Documento de Especificação Suplementar" class="md-nav__link">
+      Documento de Especificação Suplementar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/DC/" title="Inspeção de Diagramas de caso de Uso" class="md-nav__link">
+      Inspeção de Diagramas de caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/IStar/" title="Inspeção do IStar" class="md-nav__link">
+      Inspeção do IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/NFR/" title="Inspeção NFR" class="md-nav__link">
+      Inspeção NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/UC/" title="Inspeção de Casos de Uso" class="md-nav__link">
+      Inspeção de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/argumentacao/" title="Inspeção de Argumentação" class="md-nav__link">
+      Inspeção de Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/backlog/" title="Inspeção do Product Backlog" class="md-nav__link">
+      Inspeção do Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Backward-From/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Foward-From/" title="Foward-From" class="md-nav__link">
+      Foward-From
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Final
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Final
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-nav__link">
+      Metricas finais da Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#ec1" title="EC1" class="md-nav__link">
+    EC1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec2" title="EC2" class="md-nav__link">
+    EC2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec3" title="EC3" class="md-nav__link">
+    EC3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec4" title="EC4" class="md-nav__link">
+    EC4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec5" title="EC5" class="md-nav__link">
+    EC5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec6" title="EC6" class="md-nav__link">
+    EC6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec7" title="EC7" class="md-nav__link">
+    EC7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec8" title="EC8" class="md-nav__link">
+    EC8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec9" title="EC9" class="md-nav__link">
+    EC9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec10" title="EC10" class="md-nav__link">
+    EC10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec11" title="EC11" class="md-nav__link">
+    EC11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec12" title="EC12" class="md-nav__link">
+    EC12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec13" title="EC13" class="md-nav__link">
+    EC13
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec14" title="EC14" class="md-nav__link">
+    EC14
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec15" title="EC15" class="md-nav__link">
+    EC15
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec16" title="EC16" class="md-nav__link">
+    EC16
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec17" title="EC17" class="md-nav__link">
+    EC17
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec18" title="EC18" class="md-nav__link">
+    EC18
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec19" title="EC19" class="md-nav__link">
+    EC19
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec20" title="EC20" class="md-nav__link">
+    EC20
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec21" title="EC21" class="md-nav__link">
+    EC21
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec22" title="EC22" class="md-nav__link">
+    EC22
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec23" title="EC23" class="md-nav__link">
+    EC23
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec24" title="EC24" class="md-nav__link">
+    EC24
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ec25" title="EC25" class="md-nav__link">
+    EC25
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/marcosnbj/2019.1-RocketChat/edit/master/docs/Modelagem/especificacao.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="especificacao-de-caso-de-uso">Especificação de Caso de Uso</h1>
+<p>Aqui estão listadas as especificações de casos de uso, que, sendo baseadas cada uma em seu respectivo diagrama de caso de uso, buscam ilustrar de forma verbal e mais detalhada o expresso pelo diagrama.</p>
+<h2 id="ec1">EC1</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC56 - Fixar Mensagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade que tem como objetivo fazer com que o usuário consiga encontrar mensagens com mais facilidade, possui uma similaridade com a funcionalidade de favoritar mensagem</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- Usuário deve estar logado no aplicativo</td>
+</tr>
+<tr>
+<td>- Usuário deve ser integrante em uma room no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona uma mensagem de seu interesse <br> 3 - Abre o menu de opções da mensagem <br> 4 - Seleciona a opção de "fixar mensagem" <strong>[FE2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Erro de conexão</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - Mensagem foi apagada</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- As mensagens fixadas ficarão disponíveis em “mensagens fixadas” localizada no menu principal da <a href="../lexicos/#l51">room</a></td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c11">Fixar Mensagem</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu3">DCU3</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu03">DCU03-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec2">EC2</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC39 - Alterar privacidade do Channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade com objetivo de mudar a <a href="../lexicos/#l72">privacidade do channel</a>, fazendo com que o mesmo quando for privado possa se tornar público, permitindo a entrada de qualquer usuário ou quando for público se tornar privado, impedindo a entrada de usuários sem convites</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> dono do grupo</td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> criador do grupo</td>
+</tr>
+<tr>
+<td><strong>Pré-Condições</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve estar logado</td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve possuir internet com conexão de mínima qualidade</td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve ser dono do grupo ou criador do grupo</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário abre o aplicativo e faz login <br> 2 - Usuário seleciona um canal <br> 3 - criador clica em informações da sala na parte superior direita da janela do canal <br> 4 - Clica em editar no canto inferior esquerdo do modal <br> 5 - Na opção Publico/Privado o usuário dono do canal ou criador muda o estado de privacidade clicando no radio button <br> 6 - Usuário clica em salvar no canto inferior direito para salvar a mudança</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Erro de conexão</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- A <a href="../lexicos/#l72">privacidade do channel</a> é alterada para a aposta a anterior</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c26">Mudar privacidade do Channel</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu8-v1">DCU8</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu02">DCU02-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec3">EC3</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC29 - Criar only-read channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade com objetivo de criar um <a href="../lexicos/#69">only-read channel</a>, que é um canal o qual os usuários que não sejam o usuário criador do channel não podem enviar mensagem, apenas ler</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Condições</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve estar logado</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário abre o aplicativo e faz login <br> 2 - Usuário aperta no menu lateral do aplicativo no canto superior esquerdo <br> 3 - Usuário clica no botão Criar chat <br> 4 - Usuário seleciona a opção Read only channel e cria o channel</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Erro de conexão</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="../lexicos/#69">only-read channel</a> é criado</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c21">Criar only read Channel</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu9-v1">DCU9</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu02">DCU02-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec4">EC4</h2>
+<table>
+<thead>
+<tr>
+<th><strong>Alterar Status</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade que tem como objetivo permitir com que o <a href="../lexicos/#l19">usuário</a> possa trocar seu <a href="../lexicos/#l22">status</a> para mostrar sua disponibilidade dentro do app</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve estar <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve possuir acesso á internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - <a href="../lexicos/#l19">Usuário</a> acessa página inicial <br> 2 - <a href="../lexicos/#l19">Usuário</a> abre a aba lateral do app <br> 3 - <a href="../lexicos/#l19">Usuário</a> clica no <a href="../lexicos/#l17">nome de usuário</a> <br> 4 - <a href="../lexicos/#l19">Usuário</a> escolhe um dos <a href="../lexicos/#l22">status</a> disponíveis <strong>[FA1][FA2][FA3]</strong> <br> 5 - <a href="../lexicos/#l19">Usuário</a> escolhe <a href="../lexicos/#l22">status</a> online <br> 6 - <a href="../lexicos/#l19">Usuário</a> tem um novo <a href="../lexicos/#l22">status</a></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - No passo 4 do fluxo principal <br> 1 - <a href="../lexicos/#l19">Usuário</a> escolhe <a href="../lexicos/#l22">status</a> ausente <br> 2 - <a href="../lexicos/#l19">Usuário</a> tem um novo <a href="../lexicos/#l22">status</a></td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - No passo 4 do fluxo principal <br> 1 - <a href="../lexicos/#l19">Usuário</a> escolhe <a href="../lexicos/#l22">status</a> Ocupado <br> 2 - <a href="../lexicos/#l19">Usuário</a> tem um novo <a href="../lexicos/#l22">status</a></td>
+</tr>
+<tr>
+<td><strong>FA3</strong> - No passo 4 do fluxo principal <br> 1 - <a href="../lexicos/#l19">Usuário</a> escolhe <a href="../lexicos/#l22">status</a> Invisível <br> 2 - <a href="../lexicos/#l19">Usuário</a> tem um novo <a href="../lexicos/#l22">status</a></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- O <a href="../lexicos/#l22">status</a> será diferente do <a href="../lexicos/#l22">status</a> inicial</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c10">Alterar Status</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu4-v1">DCU4</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu05">DC05-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec5">EC5</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC23 - Deletar Conta</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade que tem como objetivo permitir com que o <a href="../lexicos/#l19">usuário</a> possa excluir sua conta do Rocket.Chat</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve estar <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve possuir acesso á internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - <a href="../lexicos/#l19">Usuário</a> acessa página inicial <br> 2 - <a href="../lexicos/#l19">Usuário</a> abre a aba lateral do app <br> 3 - <a href="../lexicos/#l19">Usuário</a> abre o perfil <br> 4 - <a href="../lexicos/#l19">Usuário</a> clica em "Deletar Conta"<strong>[FA1]</strong> <br> 5 - <a href="../lexicos/#l19">Usuário</a> digita senha<strong>[FA1][FE2]</strong> <br> 6 - <a href="../lexicos/#l19">Usuário</a> clica em "Deletar Conta" novamente <br> 7 - <a href="../lexicos/#l19">Usuário</a> tem sua conta deletada</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - Nos passos 4 ou 5 do fluxo principal <br> 1 - <a href="../lexicos/#l19">Usuário</a> clica em cancelar <br> 2 - A conta do <a href="../lexicos/#l19">usuário</a> é mantida</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - No passo 5 do fluxo principal <br> 1 - <a href="../lexicos/#l19">Usuário</a> digita sua senha errado <br> 2 - A conta do <a href="../lexicos/#l19">usuário</a> é mantida</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- A conta será deletada com sucesso</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c6">Deletar Conta</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu5-v1">DCU5</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu01">DCU01-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec6">EC6</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC58 - Favoritar Mensagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade que tem como objetivo permitir com que o <a href="../lexicos/#l19">usuário</a> possa favoritar mensagens de um determinado channel e visualizar as mensagens favoritadas</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve estar <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve possuir acesso á internet</td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve estar participando de algum channel que possua mensagens enviadas</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - <a href="../lexicos/#l19">Usuário</a> acessa página inicial <br> 2 - Usuário abre um channel<strong>[FA1][FE2]</strong> <br> 3 - Usuário clica em uma mensagem<strong>[FA2]</strong> <br> 4 - Usuário clica em "Favoritar" <br> 5 - Mensagem é favoritada</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - No passo 2 do fluxo principal <br> 1 - <a href="../lexicos/#l19">Usuário</a> clica no nome do channel <br> 2 - <a href="../lexicos/#l19">Usuário</a> clica em "Mensagens Favoritas" <br> 3 - <a href="../lexicos/#l19">Usuário</a> visualiza as mensagens favoritadas</td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - No passo 3 do fluxo principal <br> 1 - <a href="../lexicos/#l19">Usuário</a> clica em "Desfavoritar Mensagem" <br> 2 - Mensagem é desfavoritada</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - No passo 2 do fluxo principal <br> Channel não possui nenhuma mensagem</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- A mensagem favoritada irá aparecer no menu de mensagens favoritas e será identificada dentro do chat por um ícone de estrela</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c13">Favoritar Mensagem</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu6-v1">DCU6</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu03">DCU03-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec7">EC7</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC34 - Visualizar membros do Channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade que tem como objetivo permitir com que o <a href="../lexicos/#l19">usuário</a> possa visualizar os membros participantes de determinado chat em grupo bem como visualizar seus status, fotos de perfil e nomes de usuário</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve estar <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve possuir acesso á internet</td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve estar participando de algum chat em grupo</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - <a href="../lexicos/#l19">Usuário</a> acessa página inicial <br> 2 - <a href="../lexicos/#l19">Usuário</a> abre um channel em grupo <br> 3 - <a href="../lexicos/#l19">Usuário</a> clica no nome do channel <br> 4 - <a href="../lexicos/#l19">Usuário</a> clica em "Membros"<strong>[FE2]</strong> <br> 5 - <a href="../lexicos/#l19">Usuário</a> visualiza os membros do grupo e suas informações<strong>[FA1][FA2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - No passo 5 do fluxo principal <br> 1 - <a href="../lexicos/#l19">Usuário</a> clica em um determinado membro do grupo <br> 2 - <a href="../lexicos/#l19">Usuário</a> envia mensagem privada para o membro do grupo</td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - No passo 5 do fluxo principal <br> 1 - <a href="../lexicos/#l19">Usuário</a> clica em um determinado membro do grupo <br> 2 - <a href="../lexicos/#l19">Usuário</a> inicia videochamada com o membro do grupo</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Erro de conexão</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - No passo 4 do fluxo principal <br> Channel não possui nenhum membro</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> pode visualizar todos os membros pertencentes a determinado chat em grupo</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c14">Visualizar Membros de Chat em Grupo</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu7-v1">DCU7</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu02">DCU02-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec8">EC8</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC37 - Definir membro como proprietário</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade que tem como objetivo definir um usuário do channel como dono do mesmo, com a finalidade de aumentar suas permissões sobre o <a href="../lexicos/#l1">channel</a> e assim poder administra-lo</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- Usuário criador do channel</td>
+</tr>
+<tr>
+<td>- Usuário que participa do channel</td>
+</tr>
+<tr>
+<td><strong>Pré-Condição</strong></td>
+</tr>
+<tr>
+<td>- O <a href="../lexicos/#l1">channel</a> deve possuir mais do que um participante</td>
+</tr>
+<tr>
+<td>- O usuário criador do <a href="../lexicos/#l1">channel</a> deve ainda fazer parte do channel</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário criador do channel abre o aplicativo e faz login <br> 2 - Usuário procura o channel criado por ele <br> 3 - Usuário criador do channel entra no channel criado por ele <br> 4 - Usuário criador do channel clica na lista de membros na parte superior direita <br> 5 - Usuário criador do channel clica nos tres pontos ao lado do <a href="../lexicos/#l19">usuário</a> o qual deseja tornar proprietário do channel</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - No passo 2 o criador do channel procura seu channel pela funcionalidade de busca no canto superior direito</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Sem conexão com a internet</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - No passo 2 o usuário não consegue achar o channel pois ele foi apagado</td>
+</tr>
+<tr>
+<td><strong>FE3</strong> - No passo 4 o usuário criador não consegue definir um novo proprietário pois outro proprietário retirou sua permissão</td>
+</tr>
+<tr>
+<td><strong>Pós-Condição</strong></td>
+</tr>
+<tr>
+<td>- Usuário selecionado se torna proprietário do grupo</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><a href="../cenarios/#c23">Definir membro de channel como proprietário</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu10-v1">DCU10</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu02">DCU02-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec9">EC9</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC53 - Alterar tom de pele padrão</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade que tem como objetivo definir o tom de pele padrão dos emojis para assim poder transmitir com mais representatividade os sentimentos expressados pelos mesmos</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré-Condição</strong></td>
+</tr>
+<tr>
+<td>- O <a href="../lexicos/#l19">usuário</a> deve estar logado</td>
+</tr>
+<tr>
+<td>- O <a href="../lexicos/#l19">usuário</a> deve possuir conexão com a internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário abre o aplicativo e faz login <br> 2 - Usuário abre uma conversa privada <br> 3 - Usuário clica no simbolo de emoji presente no canto inferior direito <br> 4 - Usuário clica no circulo amarelo abaixo dos <a href="../lexicos/#l7">emojis</a>, no conto inferior direito <br> 5 - <a href="../lexicos/#l19">Usuário</a> escolhe a cor de pele padrão <br> 6 - Usuário retorna a conversa</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - No passo 2 do fluxo principal o usuário seleciona um channel ao invés de uma conversa privada</td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - No passo 6 o usuário retorna ao channel ao invés da conversa caso tenha usado o <strong>FA1</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxo de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Sem conexão com a internet</td>
+</tr>
+<tr>
+<td><strong>Pós-Condição</strong></td>
+</tr>
+<tr>
+<td>- Os emojis quando clicados aparecerão com o tom de pele escolhido pelo usuário</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><a href="../cenarios/#c21">Escolher tom de pele padrão</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu11-v1">DCU11</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu03">DCU03-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec10">EC10</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC27 - Criar channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade que permite o usuário criar um novo <a href="../lexicos/#l1">channel</a></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve estar <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve possuir acesso á internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário acessa a pagina inicial <br> 2 - Usuário abre a aba lateral do app <br> 3 - Usuário clica em "Criar chat" <br> 4 - Usuário define se o channel será publico <strong>[FA1]</strong> <br> 5 - Usuário escolhe se o channel será somente para leitura <br> 6 - Usuário define o nome do channel <strong>[FE1]</strong> <br> 7 - Usuário convida membros do channel <strong>[FA2]</strong> <br> 8 - Clica no botão "check" no canto superior direito</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - No passo 4 do fluxo principal <br> 1 - Usuário escolhe se o channel será privado</td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - No passo 7 do fluxo principal <br> 1 - Usuário pode criar um channel sem outros membros</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Pode ocorrer em qualquer momento da ação<br>1 - Erro de conexão</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - No passo 6 do fluxo principal <br> 1 - Usuário não define o nome do channel <br> 2 - Botão "check", não estará disponível</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l1">Channel</a> estará criado</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c3-v2">Criar channel</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu16-v1">DCU16</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu02">DCU02-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec11">EC11</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC93 - Conectar com um servidor</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade que permiti o usuário iniciar conexão com uma instância do <a href="../lexicos/#l65">Rocket.chat</a></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> deve possuir acesso á internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário acessa a pagina inicial <br> 2 - Usuário clica em "Conectar com um servidor" <br> 3 - Usuário define o protocolo de conexão <strong>[FA1] [FA2]</strong> <br> 4 - Usuário insere o endereço do servidor <strong>[FE1]</strong> <br> 5 - Usuário clica em “Conectar” <strong>[FE2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - No passo 3 do fluxo principal <br> 1 - Usuário escolhe o protocolo de conexão "https"</td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - No passo 3 do fluxo principal <br> 1 - Usuário escolhe o protocolo de conexão "http"</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - No passo 4 do fluxo principal <br>1 - Usuário insere um endereço de servidor inválido <br> 2 - Será mostrado ao usuário um aviso com o erro</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - No passo 5 do fluxo principal <br>1 - Erro de conexão</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- Usuário estará conectado com um servidor</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c4-v2">Conectar com um servidor</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu17-v1">DCU17</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu06">DCU06-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec12">EC12</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC68 - Visualizar Mensagem Fixadas</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Encontrar Mensagens que foram fixadas</td>
+</tr>
+<tr>
+<td>- Acesso rápido a mensagens do interesse do <a href="../lexicos/#l19">usuário</a></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- Usuário Membro em uma Room</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- Usuário deve estar logado no aplicativo</td>
+</tr>
+<tr>
+<td>- Usuário deve ser integrante em uma room no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1 - Usuário seleciona seleciona uma room <br> 2 - Seleciona o Menu de Opções da Room <br> 3 - Seleciona opção de "Mensagens Fixadas" ou "Pinned Messages" para visualizar as mensagens <strong>[FE2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Erro de conexão</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - Mensagem fixada foi deletada</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- Usuário estará conectado com um servidor</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c4-v2">Conectar com um servidor</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu3">DCU3</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu03">DCU03-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec13">EC13</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC62 - Pesquisa de mensagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade que permite utilizar uma mensagem como base de pesquisa para encontrar mensagens desejadas.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> <a href="../lexicos/#l62">logado</a> no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- Usuário possuir conta no <a href="../lexicos/#l65">Rocket.chat</a> <br> - Usuário ter em mente as mensagens a serem pesquisadas</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1- Usuário acessa o aplicativo <br> 2- Na página inicial seleciona um channel <br> 3- Usuário clica na "Lupa" no canto superior <br> 4- Usuário digita a mensagem que deseja pesquisar <strong>[FA1]</strong> <br> 5- Mensagens relacionadas ao que foi pesquisado são retornadas para o usuário <br> 6- A pesquisa é realizada com sucesso <strong>[FE1]</strong> <strong>[FE2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>[FA1]</strong> - Ocorre no passo 4 do fluxo principal</td>
+</tr>
+<tr>
+<td>- O usuário não especifica bem o termo para pesquisa de mensagem <br> - São retornadas várias mensagens semelhantes a pesquisa</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>[FE1]</strong> Ocorre no passo 6 do fluxo principal <br> - São retornadas mensagens que não correspondem a pesquisada pelo usuário <br> - A pesquisa é finalizada</td>
+</tr>
+<tr>
+<td><strong>[FE2]</strong> Ocorre no passo 6 do fluxo principal <br> - Nada é retornado, a mensagem pesquisada foi apagada ou não existe <br> - A pesquisa é finalizada</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- São retornadas mensagens relacionadas as pesquisadas pelo usuário</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>As ferramentas de pesquisa de mensagens devem oferecer uma interface intuitiva</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c17">Pesquisar mensagem</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu12-v1">DCU12</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu03">DCU03-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec14">EC14</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC11 - Fazer login</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Fazer login no <a href="../lexicos/#l65">Rocket.chat</a> para ter acesso a todas as funcionalidades disponíveis para <a href="../lexicos/#l19">usuário</a> <a href="../lexicos/#l62">logado</a></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a></td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- Usuário possuir o Rocket.chat instalado <br> - Usuário deve ter acesso a internet <br> - Usuário deve possuir uma conta de e-mail ou de alguma rede social</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1- Usuário entra na página de login do aplicativo <strong>[FA1][FA2][FA3][FA4] [FE1][FE2][FE3]]</strong><br> 2- Usuário usa um e-mail e senha válidos <strong>[FE1][FE2][FA5]</strong><br> 3- Usuário obtem acesso e é direcionado para página inicial</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>[FA1]</strong> - Ocorre no passo 1 do fluxo principal <br> - Usuário faz o login com o <strong>Facebook</strong> <br> - Usuário é redirecionado para página principal</td>
+</tr>
+<tr>
+<td><strong>[FA2]</strong> - Ocorre no passo 1 do fluxo principal <br> - Usuário faz o login com o <strong>Google</strong> <br> - Usuário é redirecionado para página principal</td>
+</tr>
+<tr>
+<td><strong>[FA3]</strong> - Ocorre no passo 1 do fluxo principal <br> - Usuário faz o login com o <strong>Github</strong> <br> - Usuário é redirecionado para página principal</td>
+</tr>
+<tr>
+<td><strong>[FA4]</strong> - Ocorre no passo 1 do fluxo principal <br> - Usuário criar uma nova conta com e-mail <br> - Usuário cadastra e-mail e senha de acesso <br> - Usuário é redirecionado para página principal</td>
+</tr>
+<tr>
+<td><strong>[FA5]</strong> - Ocorre no passo 2 do fluxo principal <br> - Usuário não se lembra da senha de acesso <br> - Usuário clica em "Esqueci minha senha" e é redirecionado para criar uma nova senha</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>[FE1]</strong> - Ocorre no passo 1 do fluxo principal <br> - Usuário não tem permissão de acesso a conta do <strong>Facebook</strong> <br> - Usuário retorna a página de login</td>
+</tr>
+<tr>
+<td><strong>[FE1]</strong> - Ocorre no passo 1 do fluxo principal <br> - Usuário não tem permissão de acesso a conta do <strong>Google</strong> <br> - Usuário retorna a página de login</td>
+</tr>
+<tr>
+<td><strong>[FE1]</strong> - Ocorre no passo 1 do fluxo principal <br> - Usuário não tem permissão de acesso a conta do <strong>Github</strong> <br> - Usuário retorna a página de login</td>
+</tr>
+<tr>
+<td><strong>[FE1]</strong> - Ocorre no passo 2 do fluxo principal <br> - Usuário digita um e-mail inválido <br> - Usuário retorna a página de login</td>
+</tr>
+<tr>
+<td><strong>[FE2]</strong> - Ocorre no passo 2 do fluxo principal <br> - Usuário digita uma senha inválida <br> - Usuário retorna a página de login</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- Acessar o aplicativo e todas as funcionalidades disponíveis para usuário logado</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td>- <a href="../cenarios/#c17">Fazer login</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu13-v1">DCU13</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu01">DCU01-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec15">EC15</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC44 - Enviar mensagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>Descrição Enviar uma mensagem em uma conversa para um usuário ou grupo de usuários.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário Logado.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário ter conta no aplicativo e estar dentro do channel.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal (FP)</strong></td>
+</tr>
+<tr>
+<td>1- Entrar na sua lista de channels no aplicativo.</td>
+</tr>
+<tr>
+<td>2- Entrar no channel desejado.</td>
+</tr>
+<tr>
+<td>3- Digitar o texto da mensagem</td>
+</tr>
+<tr>
+<td>4- Enviar mensagem</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos (FA)</strong></td>
+</tr>
+<tr>
+<td><em>FA1</em> - Procurar por channel fora da lista. <strong>[FP-1]</strong></td>
+</tr>
+<tr>
+<td><em>FA2</em> - Selecionar mensagem para <a href="#ec38">responder</a> <strong>[FP -2]</strong></td>
+</tr>
+<tr>
+<td><em>FA3</em> - <a href="#ec16">Anexar arquivo</a>  <strong>[FP -2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção (FE)</strong></td>
+</tr>
+<tr>
+<td><em>FE1</em> - Queda de conexão <strong>[Todo o processo]</strong></td>
+</tr>
+<tr>
+<td><em>FE2</em> - Numero máximo de caracteres excedido <strong>[FP-4]</strong></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>A mensagem enviada pelo usuário poderá ser vista no channel pelos outros usuários membros.</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>O limite máximo de caracteres deve ser satisfatório.</td>
+</tr>
+<tr>
+<td>As ferramentas de edição e formatação do texto devem oferecer grande quantidade de recursos.</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><strong><a href="../cenarios/#c12">Enviar mensagem</a></strong></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu2-v3">DCU2</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu03">DCU03-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec16">EC16</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC46 - Anexar arquivo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>Anexar um arquivo de mídia, como uma foto ou vídeo, a mensagem.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário Logado.</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário ter conta no aplicativo e estar dentro do channel.</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal (FP)</strong></td>
+</tr>
+<tr>
+<td>1- Entrar na sua lista de channels no aplicativo.</td>
+</tr>
+<tr>
+<td>2- Entrar no channel desejado.</td>
+</tr>
+<tr>
+<td>3- Clicar no botão de "anexar arquivo" dentro da caixa de texto.</td>
+</tr>
+<tr>
+<td>4- Selecionar o tipo de arquivo a ser anexado.</td>
+</tr>
+<tr>
+<td>5- Confirmar o arquivo.</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos (FA)</strong></td>
+</tr>
+<tr>
+<td><em>FA1</em> - Procurar por channel fora da lista. <strong>[FP-1]</strong></td>
+</tr>
+<tr>
+<td><em>FA2</em> -  Seleciona o tipo "Tirar Foto" <strong>[FP-4]</strong></td>
+</tr>
+<tr>
+<td>1- Tirar foto com a câmera</td>
+</tr>
+<tr>
+<td>2- Confirmar foto tirada</td>
+</tr>
+<tr>
+<td><em>FA3</em> -  Seleciona o tipo "Arquivo"  <strong>[FP-4]</strong></td>
+</tr>
+<tr>
+<td>1- Vai até a lista de arquivos do dispositivo</td>
+</tr>
+<tr>
+<td>2- Seleciona o arquivo desejado</td>
+</tr>
+<tr>
+<td><em>FA4</em> -  Seleciona o tipo "Desenho" <strong>[FP-4]</strong></td>
+</tr>
+<tr>
+<td>1- <a href="#ec17">Anexa um desenho</a></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção (FE)</strong></td>
+</tr>
+<tr>
+<td><em>FE1</em> - Queda de conexão <strong>[Todo o processo]</strong></td>
+</tr>
+<tr>
+<td><em>FE2</em> - Formato de arquivo não suportado <strong>[FA3-2]</strong></td>
+</tr>
+<tr>
+<td><em>FE3</em> - Falha no envio <strong>[FA3-2]</strong></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário terá em sua mensagem o arquivo anexado.</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>Uma grande quantidade de formatos de arquivo deve ser suportada.</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><strong><a href="../cenarios/#c9">Anexar um arquivo</a></strong></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu18-v1">DCU18</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu03">DCU03-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec17">EC17</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC49 - Criar desenho</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>Anexar um desenho digital, feito na plataforma, a mensagem</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário Logado</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário ter conta no aplicativo e estar dentro do channel</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal (FP)</strong></td>
+</tr>
+<tr>
+<td>1- Logar no servidor</td>
+</tr>
+<tr>
+<td>2- Clicar no channel desejado</td>
+</tr>
+<tr>
+<td>3- Clicar no botão de anexar arquivo</td>
+</tr>
+<tr>
+<td>4- Selecionar a opção desenho</td>
+</tr>
+<tr>
+<td>5- Desenhar</td>
+</tr>
+<tr>
+<td>6- Confirmar desenho</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos (FA)</strong></td>
+</tr>
+<tr>
+<td><em>FA1</em> - Procurar por channel fora da lista. <strong>[FP-1]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção (FE)</strong></td>
+</tr>
+<tr>
+<td><em>FE1</em> - Queda de conexão <strong>[Todo o processo]</strong></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário poderá enviar a mensagem com o desenho anexado</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>A plataforma deve oferecer uma interface intuitiva de desenho, que ofereça ferramentas como coloração, apagador e tipo do pincel.</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><strong><a href="../cenarios/#c8">Anexar um desenho</a></strong></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu18-v1">DCU18</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu03">DCU03-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec18">EC18</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC59 - Responder mensagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>Enviar uma mensagem que responde especificamente a uma outra mensagem, de forma explícita</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário logado</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário ter conta no aplicativo e estar dentro do channel</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal (FP)</strong></td>
+</tr>
+<tr>
+<td>1- Logar no servidor</td>
+</tr>
+<tr>
+<td>2- Clicar no channel desejado</td>
+</tr>
+<tr>
+<td>3- Clicar na mensagem que deseja responder</td>
+</tr>
+<tr>
+<td>4- Clicar na função responder</td>
+</tr>
+<tr>
+<td>5- Escrever e <a href="#ec15">envia a mensagem</a></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos (FA)</strong></td>
+</tr>
+<tr>
+<td><em>FA1</em> - Procurar por channel fora da lista. <strong>[FP-1]</strong></td>
+</tr>
+<tr>
+<td><em>FA2</em> - Pesquisar por uma mensagem no channel.<strong>[FP-2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção (FE)</strong></td>
+</tr>
+<tr>
+<td><em>FE1</em> - Queda de conexão <strong>[Todo o processo]</strong></td>
+</tr>
+<tr>
+<td><em>FE2</em> - Mensagem foi apagada <strong>[FP-3]</strong></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>A resposta enviada pelo usuário será mostrada no channel com o anexo da mensagem respondida abaixo</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><strong><a href="../cenarios/#c7">Responder uma mensagem</a></strong></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu20-v1">DCU20</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu03">DCU03-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec19">EC19</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC64 - Editar Mensagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>Usuário editar o conteúdo textual de uma mensagem para exprimir uma ideia diferente da anterior</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>Usuário logado</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>O usuário ter conta no aplicativo e estar dentro do channel</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal (FP)</strong></td>
+</tr>
+<tr>
+<td>1-  Ir até a lista de channels</td>
+</tr>
+<tr>
+<td>2-  Ir até o channel desejado</td>
+</tr>
+<tr>
+<td>3-  Clicar na mensagem que deseja editar</td>
+</tr>
+<tr>
+<td>4-  Clicar na opção editar</td>
+</tr>
+<tr>
+<td>5-  Entrar no modo de edição de mensagem</td>
+</tr>
+<tr>
+<td>6-  Clicar no botão enviar, finalizando a edição</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos (FA)</strong></td>
+</tr>
+<tr>
+<td><em>FA1</em> - Procurar por channel fora da lista. <strong>[FP-1]</strong></td>
+</tr>
+<tr>
+<td><em>FA2</em> - Pesquisar por uma mensagem no channel.<strong>[FP-2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção (FE)</strong></td>
+</tr>
+<tr>
+<td><em>FE1</em> - Queda de conexão <strong>[Todo o processo]</strong></td>
+</tr>
+<tr>
+<td><em>FE2</em> - Mensagem foi apagada <strong>[FP-6]</strong></td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>A dada mensagem no channel será mostrada com o conteúdo editado e um identificador contendo a palavra “Editada”</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>A interface para editar mensagens deve conter tantos recursos quanto a de enviar.</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><strong><a href="../cenarios/#c5">Editar uma Mensagem</a></strong></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu19-v1">DCU19</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu03">DCU03-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec20">EC20</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC80 - Realizar video Chat</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>Comunicação a distância e online entre um grupo de usuários do Rocket.chat</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>-Usuário logado criador da sala de video chat</td>
+</tr>
+<tr>
+<td>-Participantes do grupo</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>-Possuir o Rocket.chat instalado em seu computador/celular</td>
+</tr>
+<tr>
+<td>-Todos os participantes estarem  logados em suas respectivas contas</td>
+</tr>
+<tr>
+<td>-Participar de um grupo dentro da plataforma</td>
+</tr>
+<tr>
+<td>-Possuir acesso a internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1. Usuários abrem o Rocket.chat em seu computador ou celular<br>2. Usuários procuram um grupo na área lateral da página inicial<strong>[FA1][FE1]</strong><br>3. Usuários clicam no canal e o acessa<strong>[FA2]</strong><br>4. Usuário criador do video chat manda o convite para acesso de uma sala de video conferência<br>5. Participantes do grupo aceitam o convite <strong>[FA3][FE2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> -No passo 2 do fluxo principal<br>1 - Usuário pode clicar na ferramenta de pesquisa<br>2 - Usuário digita o nome do grupo que deseja<br>3 - Usuário seleciona o grupo, se o mesmo for encontrado <strong>[FE1]</strong></td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - no passo 3 do fluxo principal<br>1- usuário pode entrar no chat<br>2- Usuário Desliza a tela para cima<br>3- Usuário lê os comentários anteriores</td>
+</tr>
+<tr>
+<td><strong>FA3</strong> - No passo 5 do fluxo principal<br>1 - O usuário recebe o convite<br>2 - O usuário não entra na sala, ignorando o convite</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Pode acontecer no fluxo principal  2 ou no fluxo alternativo 1 passo 3:<br>1 -  Não encontrar a sala para a video conferencia</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - pode ocorrer no fluxo principal 5<br>1- sala de videio chat atingir um numero limite de participante</td>
+</tr>
+<tr>
+<td><strong>FE3</strong> - pode ocorrer a qualquer momento da ação<br>1- internet cair no do decorrer do video chat</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>-Realização da video conferencia bem sucedida</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>- Para cada interação com o usuário, um convite de video chat é enviado por vez</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><a href="../cenarios/#c2-v2">Realizar video chat</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu1-v2">DCU1</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu04">DCU04-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec21">EC21</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC01 - Cadastrar novo Usuário</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>-Um usuário irá criar sua conta na plataforma</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>-Usuário não cadastrado</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>-Possuir internet</td>
+</tr>
+<tr>
+<td>-Possuir possuir email</td>
+</tr>
+<tr>
+<td>-Ter acesso a plataforma em seu computador/celular</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1. Usuário acessa a página inicial de login<br>2. Usuário clica em registrar nova conta<br>3. Usuário acessa página de cadastro<strong>[FA1]</strong><br>4. Usuário faz o cadastro pelo formulário<strong>[FA2]</strong><br>5. Usuário preenche o campo de nome<strong>[FE1]</strong><br>6. O usuário preenche o campo de email<strong>[FE2]</strong><br>7. Usuário preenche o campo de senha<strong>[FE3]</strong><br>8. Usuário preenche o campo de confirmação de senha<strong>[FE4]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - No passo 3 do fluxo principal:<br>1. O usuário pode clicar em "retornar para a página de login" e retornar para a página de login</td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - No passo 4 do fluxo principal:<br>1. O usuário pode criar sua conta usando redes sociais<strong>[FE5]</strong><br>1.1 usuário pode cadastrar usando o facebook<br>1.2 usuário pode cadastrar usando o Google + <br>1.3 usuário pode cadastrar usando o Twitter<br>1.4 usuário pode cadastrar usando o Github<br>1.5 usuário pode cadastrar usando o GitLab<br>1.6 usuário pode cadastrar usando o meteor<br></td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - No passo 5 do fluxo principal<br>1. O campo  de nome pode estar em branco</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - No passo 6 do fluxo principal<br>1. Campo de email pode estar em branco ou o email pode ser inexistente</td>
+</tr>
+<tr>
+<td><strong>FE3</strong> - No passo 7 do fluxo principal<br>1. Senha fraca ou campo em branco</td>
+</tr>
+<tr>
+<td><strong>FE4</strong> - No passo 8 do fluxo principal<br>1. Campo de confirmação de senha não coincide com o campo de senha</td>
+</tr>
+<tr>
+<td><strong>FE5</strong> - No FA2<br>1. Rede social informada incorreta</td>
+</tr>
+<tr>
+<td><strong>FE6</strong> - Em qualquer momento da interação<br>1. Pode ocorrer falha na conexão</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- Usuário passa a possuir uma nova conta no  Rocket.chat</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>- Os passos 5, 6 e 7 do fluxo principal não precisa seguir a ordem informada</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><a href="../cenarios/#c1-v2">Cadastrar um novo usuário</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu21">DCU21</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu01">DCU01-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec22">EC22</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC40 - Sair do Channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- O usuário sai de um grupo, passando a não receber mais notificações do mesmo</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- usuário logado</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- Possuir conta no Rocket.chat</td>
+</tr>
+<tr>
+<td>- Estar logado a uma conta no Rocket.chat</td>
+</tr>
+<tr>
+<td>- Participar de um grupo</td>
+</tr>
+<tr>
+<td>- Possuir acesso a internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1.Entrar na página inicial do rocket.chat<br>2. Buscar o grupo no  qual deseja sair pela barra lateral onde se encontram os grupos<strong>[FA1][FE2]</strong><br>2. Clicar nos 3 pontos ao lado do ícone do grupo<br>3. Escolher entre as opções mostradas a de "Deixar grupo"<br>4. Confirmar a retirada do grupo<strong>[FA2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - No passo 2 do fluxo principal<br>1. O usuário pode pesquisar o grupo usando a ferramenta de pesquisa</td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - No passo 4 do fluxo principal<br>1. O usuário pode clicar em cancelar</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Em qualquer momento da interação<br>1. Pode ocorrer falha na conexão</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - No passo2 do fluxo principal:<br>1. O grupo pode não ser encontrado</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- Usuário não mais participa do grupo</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><a href="../cenarios/#c15-v1">Sair de um channel</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu22-v1">DCU22</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu02">DCU02-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec23">EC23</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC42 - Esconder Channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- O usuário esconde um grupo, passando a não receber mais notificações do mesmo</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- usuário logado</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- Possuir conta no Rocket.chat</td>
+</tr>
+<tr>
+<td>- Estar logado a uma conta no Rocket.chat</td>
+</tr>
+<tr>
+<td>- Participar de um grupo</td>
+</tr>
+<tr>
+<td>- Possuir acesso a internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1.Entrar na página inicial do rocket.chat<br>2. Buscar o grupo no  qual deseja esconder pela barra lateral onde se encontram os grupos<strong>[FA1][FE2]</strong><br>2. Clicar nos 3 pontos ao lado do ícone do grupo<br>3. Escolher entre as opções mostradas a de "Esconder grupo"<br>4. Confirmar ação<strong>[FA2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - No passo 2 do fluxo principal<br>1. O usuário pode pesquisar o grupo usando a ferramenta de pesquisa</td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - No passo 4 do fluxo principal<br>1. O usuário pode clicar em cancelar</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Em qualquer momento da interação<br>1. Pode ocorrer falha na conexão</td>
+</tr>
+<tr>
+<td><strong>FE2</strong> - No passo2 do fluxo principal:<br>1. O grupo pode não ser encontrado</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- Grupo possa e ser escondido</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><a href="../cenarios/#c16-v1">Sair de um channel</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu23-v1">DCU23</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu02">DCU02-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec24">EC24</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC79 - Receber Notificação</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Funcionalidade(Caso de Uso) com objetivo do usuário receber notificações diversas de mensagens, como de "mensagens diretas" ou o usuário deve ser marcado ou mencionado em qualquer outra room (channel, private groups ou discussões); receber notificações de convite para um Video-Chat(WebConferência) ou notificações de Convite para o usuário se tornar membro em uma room</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- Usuário 1 logado e membro em uma room (realiza ação)</td>
+</tr>
+<tr>
+<td>- Usuário 2 logado e membro em uma room (recebe notificação)</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- Possuir conta no Rocket.chat</td>
+</tr>
+<tr>
+<td>- Estar logado a uma conta no Rocket.chat</td>
+</tr>
+<tr>
+<td>- Participar de uma room</td>
+</tr>
+<tr>
+<td>- Possuir acesso a internet</td>
+</tr>
+<tr>
+<td>- Usuário 1 deve ser o owner(proprietário) de um grupo <strong>[FA2]</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1. Usuário 2 Recebe uma notificação de mensagem <strong>[FA1][FA2]</strong><br>2. Usuário 2 abre a notificação <strong>[FA3][FE1]</strong><br>3. Usuário 2 ler a mensagem</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>FA1</strong> - 1. Usuário 1 envia uma notificação de convite para Video Chat(WebConferência) <br> 2. Usuário 2  abre a notificação <br> 3. Usuário 2 participar do Video Chat <strong>[FA5]</strong></td>
+</tr>
+<tr>
+<td><strong>FA2</strong> - 1. Usuário 1 envia uma notificação de convite para um grupo <br> 2. Usuário 2  abre a notificação <strong>[FA3]</strong><br> 3. Usuário 2 aceita participar do grupo <strong>[FA4]</strong></td>
+</tr>
+<tr>
+<td><strong>FA3</strong> - Usuário 2 ignora a notificação</td>
+</tr>
+<tr>
+<td><strong>FA4</strong> - Usuário 2 se recusa a participar do grupo</td>
+</tr>
+<tr>
+<td><strong>FA5</strong> - Usuário 2 se recusa a participar da Video chat(WebConferência)</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>FE1</strong> - Erro ao visualizar conteúdo da notificação <br>1. Pode ocorrer falha na conexão</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- A notificação irá desaparecer após ocorrer a interação do Usuário 2</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><a href="../cenarios/#c19">Receber Notificação</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu14-v1">DCU14</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu04">DCU04-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="ec25">EC25</h2>
+<table>
+<thead>
+<tr>
+<th><strong>UC11 - Deslogar da Conta</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+</tr>
+<tr>
+<td>- Usuário que esteja logado sair de sua conta do <a href="../lexicos/#l65">Rocket.chat</a></td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+</tr>
+<tr>
+<td>- <a href="../lexicos/#l19">Usuário</a> <a href="../lexicos/#l62">logado</a> na aplicação</td>
+</tr>
+<tr>
+<td><strong>Pré Condições</strong></td>
+</tr>
+<tr>
+<td>- Usuário possuir uma conta no Rocket.chat</td>
+</tr>
+<tr>
+<td>- Usuário estar logado</td>
+</tr>
+<tr>
+<td>- Usuário possuir internet</td>
+</tr>
+<tr>
+<td><strong>Fluxo Principal</strong></td>
+</tr>
+<tr>
+<td>1- Usuário abre a aplicação <br> 2- Usuário é redirecionado a página inicial <br> 3- Usuário clica em "opções" na aba lateral <strong>[FA1][FA2][FA3]</strong> <br> 4- Seleciona a opção de "Sair" <br> 5- Usuário confirma que deseja sair <strong>[FE1]</strong> <br> 6- Usuário é redirecionado para página de login</td>
+</tr>
+<tr>
+<td><strong>Fluxos Alternativos</strong></td>
+</tr>
+<tr>
+<td><strong>[FA1]</strong> - Ocorre no passo 3 <br> - Usuário recebe uma mensagem <br> - Usuário acessa os chats</td>
+</tr>
+<tr>
+<td><strong>[FA2]</strong> - Ocorre no passo 3 <br> - Usuário acessa perfil <br> - Usuário edita algo no perfil</td>
+</tr>
+<tr>
+<td><strong>[FA3]</strong> - Ocorre no passo 3 <br> - Usuário acessa as configurações <br> - Usuário muda alguma configuração</td>
+</tr>
+<tr>
+<td><strong>Fluxos de Exceção</strong></td>
+</tr>
+<tr>
+<td><strong>[FE1]</strong> - Ocorre no passo 5 <br> - Aplicação retorna uma falha devido a falta de internet do usuário <br> - Usuário não consegue concluir a ação</td>
+</tr>
+<tr>
+<td><strong>Pós Condições</strong></td>
+</tr>
+<tr>
+<td>- Usuário deslogado da aplicação</td>
+</tr>
+<tr>
+<td><strong>Requerimentos especiais</strong></td>
+</tr>
+<tr>
+<td>- A aplicação deve dar opcão de saida aos usuários</td>
+</tr>
+<tr>
+<td><strong>Cenário</strong></td>
+</tr>
+<tr>
+<td><a href="../cenarios/#c20">Sair do Rocket.chat</a></td>
+</tr>
+<tr>
+<td><strong>Diagrama</strong></td>
+</tr>
+<tr>
+<td><a href="../diagramas/#dcu15-v1">DCU15</a></td>
+</tr>
+<tr>
+<td><a href="../diagramas_v2/#dcu01">DCU01-V2</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Modificação</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">25/04/2019</td>
+<td align="center">1.0</td>
+<td align="center">Abertura do documento</td>
+<td align="center">Gabriel Davi</td>
+</tr>
+<tr>
+<td align="center">25/04/2019</td>
+<td align="center">1.1</td>
+<td align="center">Inclusão do template para criação das especificações de casos de uso</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">26/04/2019</td>
+<td align="center">1.2</td>
+<td align="center">Adição da EC1</td>
+<td align="center">Lucas Maciel</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">1.3</td>
+<td align="center">Adição de EC2 e EC3</td>
+<td align="center">João Lucas</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">1.4</td>
+<td align="center">Adição da EC4, EC5, EC6 e EC7</td>
+<td align="center">Weiller Fernandes</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">1.5</td>
+<td align="center">Editando EC4, EC5, EC6 e EC7</td>
+<td align="center">Gabriel Davi</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">1.6</td>
+<td align="center">Adição EC8 e EC9</td>
+<td align="center">João Lucas</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">1.7</td>
+<td align="center">Adição EC10 e EC11</td>
+<td align="center">Heron Rodrigues</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">1.8</td>
+<td align="center">Adição EC12</td>
+<td align="center">Lucas Maciel</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">1.9</td>
+<td align="center">Adição EC13 e EC14</td>
+<td align="center">André Lucas</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">2.0</td>
+<td align="center">Adição de EC15 a EC19</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">2.1</td>
+<td align="center">Adição de EC20 a EC23</td>
+<td align="center">Gabriel Davi</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">2.2</td>
+<td align="center">Adição EC24</td>
+<td align="center">Lucas Maciel</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">2.3</td>
+<td align="center">Adição de links</td>
+<td align="center">Weiller Fernandes</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">2.4</td>
+<td align="center">Adição EC25</td>
+<td align="center">André Lucas</td>
+</tr>
+<tr>
+<td align="center">21/06/2019</td>
+<td align="center">2.5</td>
+<td align="center">(Refatoração) Adição dos ids de casos de uso relacionados</td>
+<td align="center">Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Diagramas de Caso de Uso 2.0
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../istar/" title="IStar" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                IStar
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

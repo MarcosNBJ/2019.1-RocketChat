@@ -1,0 +1,1348 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Análise de Discurso - RocketChat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#analise-de-discurso" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="RocketChat" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RocketChat
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Análise de Discurso
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="RocketChat" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    RocketChat
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Argumentacao/" title="Argumentacao" class="md-nav__link">
+      Argumentacao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Estratégia/" title="Estratégia" class="md-nav__link">
+      Estratégia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3" checked>
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Storyboard/" title="Storyboard" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Análise de Discurso
+      </label>
+    
+    <a href="./" title="Análise de Discurso" class="md-nav__link md-nav__link--active">
+      Análise de Discurso
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grupo-de-discussao" title="Grupo de Discussão" class="md-nav__link">
+    Grupo de Discussão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-da-discussao" title="Resumo da Discussão" class="md-nav__link">
+    Resumo da Discussão
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-elicitados" title="Requisitos Elicitados" class="md-nav__link">
+    Requisitos Elicitados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../analprot/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas/" title="Diagramas de Caso de Uso" class="md-nav__link">
+      Diagramas de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-nav__link">
+      Diagramas de Caso de Uso 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/especificacao/" title="Especificação de Caso de Uso" class="md-nav__link">
+      Especificação de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/istar/" title="IStar" class="md-nav__link">
+      IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/nfr/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/suplementar/" title="Documento de Especificação Suplementar" class="md-nav__link">
+      Documento de Especificação Suplementar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/DC/" title="Inspeção de Diagramas de caso de Uso" class="md-nav__link">
+      Inspeção de Diagramas de caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/IStar/" title="Inspeção do IStar" class="md-nav__link">
+      Inspeção do IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/NFR/" title="Inspeção NFR" class="md-nav__link">
+      Inspeção NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/UC/" title="Inspeção de Casos de Uso" class="md-nav__link">
+      Inspeção de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/argumentacao/" title="Inspeção de Argumentação" class="md-nav__link">
+      Inspeção de Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/backlog/" title="Inspeção do Product Backlog" class="md-nav__link">
+      Inspeção do Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Backward-From/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Foward-From/" title="Foward-From" class="md-nav__link">
+      Foward-From
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Final
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Final
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-nav__link">
+      Metricas finais da Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#grupo-de-discussao" title="Grupo de Discussão" class="md-nav__link">
+    Grupo de Discussão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resumo-da-discussao" title="Resumo da Discussão" class="md-nav__link">
+    Resumo da Discussão
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#requisitos-elicitados" title="Requisitos Elicitados" class="md-nav__link">
+    Requisitos Elicitados
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/marcosnbj/2019.1-RocketChat/edit/master/docs/Elicitação/analdiscurso.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="analise-de-discurso">Análise de Discurso</h1>
+<p>Técnica que consiste na análise de construções ideológicas presentes em uma conversa grupal. Por este método, cada membro do grupo de discussão pode exprimir suas ideias e argumentos de forma direta, sem interrupções, uma pessoa por vez, de tal forma que se torna possível fazer uma análise mais profunda dos requisitos que podem ser gerados a partir de cada ponto de vista individual. Este método pode ser aplicado de três princiapais formas:</p>
+<ul>
+<li>
+<p>Análise de Conversação: é um pouco menos estruturado, sem turnos pré-estabelecidos, permite que a análise funcione sob o cenário de interações sociais que fluem mais naturalmente.</p>
+</li>
+<li>
+<p>Turntaking: forma mais estruturada, existem turnos com ordem pré-estabelecida, e com críterio de passagem pro turno seguinte, como tempo ou uma pausa vocal mais longa. </p>
+</li>
+<li>
+<p>Pares Adjacentes: forma ordenada de análise para uma conversa entre os atuantes dos dois lados, na qual a função de orador é transferida de forma alternada entre eles, como o que é visto no tradicional modelo de Pergunta e Resposta.</p>
+</li>
+</ul>
+<h2 id="metodologia">Metodologia</h2>
+<p>Neste caso, o modelo utilizado foi a análise de conversação, cinco membros do grupo se reuniram, sendo um moderador, que também ficou responsável por sintetizar a discussão e análisar os resultados, gerando os requisitos e este documento, e quatro oradores. Os turnos aconteceram na ordem natural da conversa, e podiam se repetir caso o orador tivesse outros pontos de vistas a exprimir.  </p>
+<h2 id="grupo-de-discussao">Grupo de Discussão</h2>
+<table>
+<thead>
+<tr>
+<th>Nome</th>
+<th>Papel</th>
+<th>Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Marcos Nery</td>
+<td>Moderador / Sintetizador</td>
+<td>Membro da equipe</td>
+</tr>
+<tr>
+<td>André Lucas</td>
+<td>Orador</td>
+<td>Membro da equipe</td>
+</tr>
+<tr>
+<td>Gabriel Davi</td>
+<td>Orador</td>
+<td>Membro da equipe</td>
+</tr>
+<tr>
+<td>Heron Rodrigues</td>
+<td>Orador</td>
+<td>Membro da equipe</td>
+</tr>
+<tr>
+<td>João Lucas</td>
+<td>Orador</td>
+<td>Membro da equipe</td>
+</tr>
+</tbody>
+</table>
+<h2 id="resumo-da-discussao">Resumo da Discussão</h2>
+<p><em>Abaixo pode ser visto um resumo dos pontos princiapais levantados por cada orador em seu respectivo turno, bem como os requisitos gerados por cada um deles. A gravação conversação completa pode ser obtida através deste <a href="https://drive.google.com/drive/u/0/folders/18UGonJhOZrWZdTYW7UiKoUXVuvkiyPRo">link</a></em></p>
+<p><strong>André Lucas</strong>: Citou que o aplicativo tem bons diferenciais em relação a outros na mesma categoria, como a possibilidade de utilizar ferramentas de tradução instantánea e vídeo chamadas em grupo, Marcos complementou que, o recurso de compartilhamento de tela, presente na aplicação, também não é vista na maior parte dos concorrentes.
+  <em>Requisitos : AD1, AD2, AD3</em></p>
+<p><strong>André Lucas</strong>: Comentou também que a documentação é boa, e ajuda o usuário a entender mais sobre o aplicativo e seus principais usos, e que o mesmo vale para a comunidade, que é grande e tem sempre gente disposta pra tirar dúvidas sobre funcionalidades ou como contribuir com o projeto.
+  <em>Requisitos : AD4</em></p>
+<p><strong>André Lucas e Gabriel Davi</strong>: Disseram que uma parte difícil no uso da aplicação é que ela não notifica o usuário das mensagens que chegam a menos que alguém tenha explicitamente mencionado a tag do usuário nelas, o que acaba sendo ruim para eles pois eles perdem a chegada de muitas mensagens. Por isso, eles opinaram que a plataforma deveria deixar o usuário escolher se prefere esse comportamento ou se gostaria de ser notificado sobre qualquer mensagem que chega.
+  <em>Requisitos : AD5</em></p>
+<p><strong>Gabriel Davi e Heron Rodrigues</strong>: Citaram que, embora a versão web da aplicação seja muito boa, a versão mobile deixa a desejar, e além de um design pouco intuitívo e pouco atrativo, com muitas ferramentas escondidas do usuário, tem features que estão presentes na versão web mas não lá.
+  <em>Requisitos : AD6</em></p>
+<p><strong>Gabriel Davi e João Lucas</strong>: Citaram que o suporte para bots e plugins externos é muito bom, o que dá para o usuário grande capacidade de customizar a aplicação e dar mais funcionalidades para ela. Foi complementado por Marcos que além dos plugins existem também os temas, pelos quais o usuário modifica livremente a aparência da aplicação.
+  <em>Requisitos : AD7, AD8, AD9</em></p>
+<p><strong>Heron Rodrigues</strong>: Disse que costuma ter alguns problemas quanto a conexão com a internet, e que as vezes algumas funcionalidades do aplicativo não funcionam direito por conta disso, mas que as mensagens de erro nunca são claras o suficiente para saber se essa é de fato a causa ou é algum outro erro.
+  <em>Requisitos : AD10</em></p>
+<p><strong>João Lucas</strong>: Citou que a aplicação conta com uma ótima funcionalidade de pesquisa de channels públicos dentro do servidor, pela qual você pode fácilmente achar e entrar em channels cujo assunto é de seu interesse, para assim interagir com outras pessoas por  dentro desse tema.
+  <em>Requisitos : AD11</em></p>
+<p><strong>João Lucas</strong>: Citou também que a aplicação te dá a possibilidade de criptografar as conversas de chats em grupo, coisa que dá mais segurança ao usuário, e que outros aplicativos concorrentes, como o Slack, não possuem.
+  <em>Requisitos : AD12</em></p>
+<p><strong>Todos</strong> : Comentaram que, ao entrar no servidor público do Rocket.chat, você é automâticamente colocado em alguns channels do servidor, o que alguns usuários acham interessante, pois esses channels são focados na interação da comunidade que contribuí com o app, mas outros acham ruim, pois não tem interesse em participar desses chats. Dessa forma, deveria ser perguntado ao usuário se ele quer ou não ser colocado nesses grupos.
+  <em>Requisitos : AD13</em></p>
+<p><br></p>
+<h3 id="requisitos-elicitados">Requisitos Elicitados</h3>
+<p>Abaixo podem ser vistos de forma tabular os requisitos elicitados pelo moderador da discussão com a aplicação da técnica da análise de discurso. Foi utilizada a técnica MoSCoW de priorização, pela qual os requisitos recebem atribuições de prioridade que variam de Must, a mais alta, até Would, a mais baixa, passandor por Should e Could, que nessa ordem representam prioriádes intermediárias. </p>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Descrição</th>
+<th>Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>AD1</td>
+<td>O aplicativo deve ser capaz de traduzir instantáneamente mensagens em outras linguas</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>AD2</td>
+<td>O aplicativo deve ser capaz de realizar vídeoconferências em grupo</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>AD3</td>
+<td>O aplicativo deve ter a funcionalidade de compartilhamento de tela entre usuários</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>AD4</td>
+<td>A documentação da plataforma deve ser completa, servindo para ajudar os usuários a entender melhor a aplicação</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>AD5</td>
+<td>O usuário deve ser capaz de escolher se quer notificações para todas as mensagens que chegam ou só para as que o mencionam</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>AD6</td>
+<td>As versões da aplicação para diferentes dispositivos devem estar niveladas umas com as outras, para que o usuário tenha uma experiência de igual qualidade em todas elas</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>AD7</td>
+<td>A aplicação deve oferecer suporte para o uso de Bots nos channels</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>AD8</td>
+<td>A aplicação deve oferecer suporte para o uso de plugins externos, que adicionem mais funcionalidades a mesma</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>AD9</td>
+<td>A aplicação deve oferecer suporte para o uso de temas feitos pelos usuários, que permitem customizar a aparência da mesma</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>AD10</td>
+<td>A aplicação deve mostrar mensagens claras de erro, que ajudem o usuário a entender exatamente qual problema está ocorrendo</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>AD11</td>
+<td>A aplicação deve permitir que o usuário pesquise por channels públicos dentro do servidor cujos assuntos sejam de interesse</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>AD12</td>
+<td>A aplicação deve oferecer aos usuários a possibilidade de criptografar as mensagens trocadass via channel</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>AD13</td>
+<td>Deve ser perguntado ao usuário se ele quer ou não entrar nos chennels gerais do servidor, sem coloca-lo neles arbitrariamente</td>
+<td>Would</td>
+</tr>
+</tbody>
+</table>
+<p>Por fim, segue também em formato tabular os requisitos anteriormente organizados, agora priorizados pelo método First Things First.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Funcionalidades (FTF)</td>
+<td>Benefício  Relativo</td>
+<td>Penalidade  Relativa</td>
+<td>Valor  Total</td>
+<td>Valor  %</td>
+<td>Custo Relativo</td>
+<td>Custo %</td>
+<td>Risco Relativo</td>
+<td>Risco %</td>
+<td>Prioridade</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>AD1</td>
+<td>8</td>
+<td>9</td>
+<td>25</td>
+<td>10,12145749</td>
+<td>6</td>
+<td>10,90909091</td>
+<td>5</td>
+<td>10,20408163</td>
+<td>0,6321512847</td>
+</tr>
+<tr>
+<td>AD2</td>
+<td>7</td>
+<td>5</td>
+<td>19</td>
+<td>7,692307692</td>
+<td>6</td>
+<td>10,90909091</td>
+<td>5</td>
+<td>10,20408163</td>
+<td>0,4804349764</td>
+</tr>
+<tr>
+<td>AD3</td>
+<td>6</td>
+<td>1</td>
+<td>13</td>
+<td>5,263157895</td>
+<td>4</td>
+<td>7,272727273</td>
+<td>5</td>
+<td>10,20408163</td>
+<td>0,425313659</td>
+</tr>
+<tr>
+<td>AD4</td>
+<td>7</td>
+<td>5</td>
+<td>19</td>
+<td>7,692307692</td>
+<td>4</td>
+<td>7,272727273</td>
+<td>2</td>
+<td>4,081632653</td>
+<td>0,825927061</td>
+</tr>
+<tr>
+<td>AD5</td>
+<td>8</td>
+<td>9</td>
+<td>25</td>
+<td>10,12145749</td>
+<td>5</td>
+<td>9,090909091</td>
+<td>5</td>
+<td>10,20408163</td>
+<td>0,7131327565</td>
+</tr>
+<tr>
+<td>AD6</td>
+<td>8</td>
+<td>8</td>
+<td>24</td>
+<td>9,71659919</td>
+<td>5</td>
+<td>9,090909091</td>
+<td>4</td>
+<td>8,163265306</td>
+<td>0,7376404174</td>
+</tr>
+<tr>
+<td>AD7</td>
+<td>7</td>
+<td>8</td>
+<td>22</td>
+<td>8,906882591</td>
+<td>6</td>
+<td>10,90909091</td>
+<td>5</td>
+<td>10,20408163</td>
+<td>0,5562931305</td>
+</tr>
+<tr>
+<td>AD8</td>
+<td>4</td>
+<td>4</td>
+<td>12</td>
+<td>4,858299595</td>
+<td>3</td>
+<td>5,454545455</td>
+<td>2</td>
+<td>4,081632653</td>
+<td>0,6481741292</td>
+</tr>
+<tr>
+<td>AD9</td>
+<td>5</td>
+<td>6</td>
+<td>16</td>
+<td>6,477732794</td>
+<td>2</td>
+<td>3,636363636</td>
+<td>2</td>
+<td>4,081632653</td>
+<td>1,14101241</td>
+</tr>
+<tr>
+<td>AD10</td>
+<td>6</td>
+<td>8</td>
+<td>20</td>
+<td>8,097165992</td>
+<td>3</td>
+<td>5,454545455</td>
+<td>2</td>
+<td>4,081632653</td>
+<td>1,080290215</td>
+</tr>
+<tr>
+<td>AD11</td>
+<td>8</td>
+<td>9</td>
+<td>25</td>
+<td>10,12145749</td>
+<td>4</td>
+<td>7,272727273</td>
+<td>4</td>
+<td>8,163265306</td>
+<td>0,8914159456</td>
+</tr>
+<tr>
+<td>AD12</td>
+<td>6</td>
+<td>6</td>
+<td>18</td>
+<td>7,287449393</td>
+<td>5</td>
+<td>9,090909091</td>
+<td>6</td>
+<td>12,24489796</td>
+<td>0,4790164906</td>
+</tr>
+<tr>
+<td>AD13</td>
+<td>4</td>
+<td>1</td>
+<td>9</td>
+<td>3,643724696</td>
+<td>2</td>
+<td>3,636363636</td>
+<td>2</td>
+<td>4,081632653</td>
+<td>0,6418194808</td>
+</tr>
+<tr>
+<td>TOTAL</td>
+<td>84</td>
+<td>79</td>
+<td>247</td>
+<td>100</td>
+<td>55</td>
+<td>100</td>
+<td>49</td>
+<td>30,6122449</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Modificação</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">06/04/2019</td>
+<td align="center">1.0</td>
+<td align="center">Adição da análise de discurso</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">06/04/2019</td>
+<td align="center">1.1</td>
+<td align="center">Adição da priorização por MoSCoW</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">09/04/2019</td>
+<td align="center">1.2</td>
+<td align="center">Adição da priorização por FTF</td>
+<td align="center">Marcos Nery</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Storyboard/" title="Storyboard" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Storyboard
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../analprot/" title="Análise de protocolo" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Análise de protocolo
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

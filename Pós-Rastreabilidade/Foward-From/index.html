@@ -1,0 +1,2408 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Foward-From - RocketChat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#foward-from" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="RocketChat" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RocketChat
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Foward-From
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="RocketChat" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    RocketChat
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Argumentacao/" title="Argumentacao" class="md-nav__link">
+      Argumentacao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Estratégia/" title="Estratégia" class="md-nav__link">
+      Estratégia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Storyboard/" title="Storyboard" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analdiscurso/" title="Análise de Discurso" class="md-nav__link">
+      Análise de Discurso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analprot/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas/" title="Diagramas de Caso de Uso" class="md-nav__link">
+      Diagramas de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-nav__link">
+      Diagramas de Caso de Uso 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/especificacao/" title="Especificação de Caso de Uso" class="md-nav__link">
+      Especificação de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/istar/" title="IStar" class="md-nav__link">
+      IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/nfr/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/suplementar/" title="Documento de Especificação Suplementar" class="md-nav__link">
+      Documento de Especificação Suplementar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/DC/" title="Inspeção de Diagramas de caso de Uso" class="md-nav__link">
+      Inspeção de Diagramas de caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/IStar/" title="Inspeção do IStar" class="md-nav__link">
+      Inspeção do IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/NFR/" title="Inspeção NFR" class="md-nav__link">
+      Inspeção NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/UC/" title="Inspeção de Casos de Uso" class="md-nav__link">
+      Inspeção de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/argumentacao/" title="Inspeção de Argumentação" class="md-nav__link">
+      Inspeção de Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/backlog/" title="Inspeção do Product Backlog" class="md-nav__link">
+      Inspeção do Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Backward-From/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Foward-From
+      </label>
+    
+    <a href="./" title="Foward-From" class="md-nav__link md-nav__link--active">
+      Foward-From
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-funcionais" title="Requisitos Funcionais" class="md-nav__link">
+    Requisitos Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" title="Requisitos Não-Funcionais" class="md-nav__link">
+    Requisitos Não-Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gifs" title="Gifs" class="md-nav__link">
+    Gifs
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rf1_gif" title="RF1_GIF" class="md-nav__link">
+    RF1_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf2_gif" title="RF2_GIF" class="md-nav__link">
+    RF2_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf3_gif" title="RF3_GIF" class="md-nav__link">
+    RF3_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf4_gif" title="RF4_GIF" class="md-nav__link">
+    RF4_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf5_gif" title="RF5_GIF" class="md-nav__link">
+    RF5_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf6_gif" title="RF6_GIF" class="md-nav__link">
+    RF6_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf7_gif" title="RF7_GIF" class="md-nav__link">
+    RF7_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf8_gif" title="RF8_GIF" class="md-nav__link">
+    RF8_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf9_gif" title="RF9_GIF" class="md-nav__link">
+    RF9_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf10_gif" title="RF10_GIF" class="md-nav__link">
+    RF10_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf11_gif" title="RF11_GIF" class="md-nav__link">
+    RF11_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf12_gif" title="RF12_GIF" class="md-nav__link">
+    RF12_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf13_gif" title="RF13_GIF" class="md-nav__link">
+    RF13_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf14_gif" title="RF14_GIF" class="md-nav__link">
+    RF14_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf15_gif" title="RF15_GIF" class="md-nav__link">
+    RF15_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf16_gif" title="RF16_GIF" class="md-nav__link">
+    RF16_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf17_gif" title="RF17_GIF" class="md-nav__link">
+    RF17_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf18_gif" title="RF18_GIF" class="md-nav__link">
+    RF18_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf19_gif" title="RF19_GIF" class="md-nav__link">
+    RF19_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf20_gif" title="RF20_GIF" class="md-nav__link">
+    RF20_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf21_gif" title="RF21_GIF" class="md-nav__link">
+    RF21_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf22_gif" title="RF22_GIF" class="md-nav__link">
+    RF22_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf23_gif" title="RF23_GIF" class="md-nav__link">
+    RF23_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf24_gif" title="RF24_GIF" class="md-nav__link">
+    RF24_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf25_gif" title="RF25_GIF" class="md-nav__link">
+    RF25_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf26_gif" title="RF26_GIF" class="md-nav__link">
+    RF26_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf27_gif" title="RF27_GIF" class="md-nav__link">
+    RF27_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf28_gif" title="RF28_GIF" class="md-nav__link">
+    RF28_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf29_gif" title="RF29_GIF" class="md-nav__link">
+    RF29_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf30_gif" title="RF30_GIF" class="md-nav__link">
+    RF30_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf31_gif" title="RF31_GIF" class="md-nav__link">
+    RF31_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf32_gif" title="RF32_GIF" class="md-nav__link">
+    RF32_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf33_gif" title="RF33_GIF" class="md-nav__link">
+    RF33_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf34_gif" title="RF34_GIF" class="md-nav__link">
+    RF34_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf35_gif" title="RF35_GIF" class="md-nav__link">
+    RF35_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf36_gif" title="RF36_GIF" class="md-nav__link">
+    RF36_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf37_gif" title="RF37_GIF" class="md-nav__link">
+    RF37_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf38_gif" title="RF38_GIF" class="md-nav__link">
+    RF38_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf39_gif" title="RF39_GIF" class="md-nav__link">
+    RF39_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf40_gif" title="RF40_GIF" class="md-nav__link">
+    RF40_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf41_gif" title="RF41_GIF" class="md-nav__link">
+    RF41_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf42_gif" title="RF42_GIF" class="md-nav__link">
+    RF42_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf43_gif" title="RF43_GIF" class="md-nav__link">
+    RF43_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf44_gif" title="RF44_GIF" class="md-nav__link">
+    RF44_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf45_gif" title="RF45_GIF" class="md-nav__link">
+    RF45_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf46_gif" title="RF46_GIF" class="md-nav__link">
+    RF46_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf47_gif" title="RF47_GIF" class="md-nav__link">
+    RF47_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf48_gif" title="RF48_GIF" class="md-nav__link">
+    RF48_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf49_gif" title="RF49_GIF" class="md-nav__link">
+    RF49_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf50_gif" title="RF50_GIF" class="md-nav__link">
+    RF50_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf1" title="RNF1" class="md-nav__link">
+    RNF1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf2" title="RNF2" class="md-nav__link">
+    RNF2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf4" title="RNF4" class="md-nav__link">
+    RNF4
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Final
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Final
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-nav__link">
+      Metricas finais da Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-funcionais" title="Requisitos Funcionais" class="md-nav__link">
+    Requisitos Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" title="Requisitos Não-Funcionais" class="md-nav__link">
+    Requisitos Não-Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gifs" title="Gifs" class="md-nav__link">
+    Gifs
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#rf1_gif" title="RF1_GIF" class="md-nav__link">
+    RF1_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf2_gif" title="RF2_GIF" class="md-nav__link">
+    RF2_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf3_gif" title="RF3_GIF" class="md-nav__link">
+    RF3_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf4_gif" title="RF4_GIF" class="md-nav__link">
+    RF4_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf5_gif" title="RF5_GIF" class="md-nav__link">
+    RF5_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf6_gif" title="RF6_GIF" class="md-nav__link">
+    RF6_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf7_gif" title="RF7_GIF" class="md-nav__link">
+    RF7_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf8_gif" title="RF8_GIF" class="md-nav__link">
+    RF8_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf9_gif" title="RF9_GIF" class="md-nav__link">
+    RF9_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf10_gif" title="RF10_GIF" class="md-nav__link">
+    RF10_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf11_gif" title="RF11_GIF" class="md-nav__link">
+    RF11_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf12_gif" title="RF12_GIF" class="md-nav__link">
+    RF12_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf13_gif" title="RF13_GIF" class="md-nav__link">
+    RF13_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf14_gif" title="RF14_GIF" class="md-nav__link">
+    RF14_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf15_gif" title="RF15_GIF" class="md-nav__link">
+    RF15_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf16_gif" title="RF16_GIF" class="md-nav__link">
+    RF16_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf17_gif" title="RF17_GIF" class="md-nav__link">
+    RF17_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf18_gif" title="RF18_GIF" class="md-nav__link">
+    RF18_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf19_gif" title="RF19_GIF" class="md-nav__link">
+    RF19_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf20_gif" title="RF20_GIF" class="md-nav__link">
+    RF20_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf21_gif" title="RF21_GIF" class="md-nav__link">
+    RF21_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf22_gif" title="RF22_GIF" class="md-nav__link">
+    RF22_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf23_gif" title="RF23_GIF" class="md-nav__link">
+    RF23_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf24_gif" title="RF24_GIF" class="md-nav__link">
+    RF24_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf25_gif" title="RF25_GIF" class="md-nav__link">
+    RF25_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf26_gif" title="RF26_GIF" class="md-nav__link">
+    RF26_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf27_gif" title="RF27_GIF" class="md-nav__link">
+    RF27_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf28_gif" title="RF28_GIF" class="md-nav__link">
+    RF28_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf29_gif" title="RF29_GIF" class="md-nav__link">
+    RF29_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf30_gif" title="RF30_GIF" class="md-nav__link">
+    RF30_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf31_gif" title="RF31_GIF" class="md-nav__link">
+    RF31_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf32_gif" title="RF32_GIF" class="md-nav__link">
+    RF32_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf33_gif" title="RF33_GIF" class="md-nav__link">
+    RF33_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf34_gif" title="RF34_GIF" class="md-nav__link">
+    RF34_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf35_gif" title="RF35_GIF" class="md-nav__link">
+    RF35_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf36_gif" title="RF36_GIF" class="md-nav__link">
+    RF36_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf37_gif" title="RF37_GIF" class="md-nav__link">
+    RF37_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf38_gif" title="RF38_GIF" class="md-nav__link">
+    RF38_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf39_gif" title="RF39_GIF" class="md-nav__link">
+    RF39_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf40_gif" title="RF40_GIF" class="md-nav__link">
+    RF40_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf41_gif" title="RF41_GIF" class="md-nav__link">
+    RF41_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf42_gif" title="RF42_GIF" class="md-nav__link">
+    RF42_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf43_gif" title="RF43_GIF" class="md-nav__link">
+    RF43_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf44_gif" title="RF44_GIF" class="md-nav__link">
+    RF44_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf45_gif" title="RF45_GIF" class="md-nav__link">
+    RF45_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf46_gif" title="RF46_GIF" class="md-nav__link">
+    RF46_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf47_gif" title="RF47_GIF" class="md-nav__link">
+    RF47_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf48_gif" title="RF48_GIF" class="md-nav__link">
+    RF48_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf49_gif" title="RF49_GIF" class="md-nav__link">
+    RF49_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rf50_gif" title="RF50_GIF" class="md-nav__link">
+    RF50_GIF
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf1" title="RNF1" class="md-nav__link">
+    RNF1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf2" title="RNF2" class="md-nav__link">
+    RNF2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rnf4" title="RNF4" class="md-nav__link">
+    RNF4
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/marcosnbj/2019.1-RocketChat/edit/master/docs/Pós-Rastreabilidade/Foward-From.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="foward-from">Foward-From</h1>
+<p>Neste documento busca-se construir a matriz de pós-rastreabilidade através da ótica Foward-From. Foram feitas duas tabelas, a primeira para requisitos funcionais e a segunda para os não funcionais.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas tabelas, a primeira tabela com os requisitos funcionais e a segunda para os requisitos não-funcionais. Como vários membros da equipe iriam trabalhar no documento ao mesmo tempo, foram criadas duas tabelas no drive, para evitar a repetição de requisitos na tabela, que posteriormente seriam convertidas para formato markdown e colocadas na wikia. Link para as tabelas no drive: <a href="https://docs.google.com/spreadsheets/d/17uv-YxoEdDHEgwkEWWxdQUYqHkHEk-N381ivfJEQQyI/edit#gid=0">funcionais</a> e <a href="https://docs.google.com/spreadsheets/d/1HN24HaJRe7yE16k5k425cvma3hwgEx9qS4XVkG3EEkM/edit#gid=0">não-funcionais</a>.</p>
+<h2 id="requisitos-funcionais">Requisitos Funcionais</h2>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Descrição</th>
+<th>Tema</th>
+<th>Épico</th>
+<th>US</th>
+<th>Funcionalidade</th>
+<th>Código</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF1</td>
+<td>Tradução instântanea para mensagens em línguas diferentes da padrão</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep11-acoes-do-channel">EP11</a></td>
+<td><a href="../../Modelagem/backlog/#us45">US45</a></td>
+<td><a href="#rf1_gif">Tradução</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js">View</a></td>
+</tr>
+<tr>
+<td>RF2</td>
+<td>O aplicativo deve ser capaz de realizar videoconferências em  grupo</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep11-acoes-do-channel">EP11</a></td>
+<td><a href="../../Modelagem/backlog/#us46">US46</a></td>
+<td><a href="#rf2_gif">Videoconferência em grupo</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomActionsView/index.js">Código - Método "livevideo"</a></td>
+</tr>
+<tr>
+<td>RF3</td>
+<td>A aplicação deve oferecer ao usuário a possibilidade de entrar no app através de username e senha, previamente cadatrados no aplicativo</td>
+<td><a href="../../Modelagem/backlog/#t01-entrar-no-aplicativo">T01</a></td>
+<td><a href="Modelagem/backlog.md/#ep01-fazer-login">EP01</a></td>
+<td><a href="../../Modelagem/backlog/#us01">US01</a><br> <a href="../../Modelagem/backlog/#us02">US02</a></td>
+<td><a href="#RF3_gif">Login</a><br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/LoginView.js">View</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/login.js">Action</a></td>
+</tr>
+<tr>
+<td>RF4</td>
+<td>O app deve permitir o cadastro na aplicação por contas de serviços de terceiros ou a partir de dados do usuário, como email, username e senha</td>
+<td><a href="../../Modelagem/backlog/#t01-entrar-no-aplicativo">T01</a></td>
+<td><a href="../Modelagem/backlog.md/#ep02-fazer-cadastro">EP02</a></td>
+<td><a href="../../Modelagem/backlog/#us03">US03</a><br> <a href="../../Modelagem/backlog/#us04">US04</a></td>
+<td><a href="#rf4_gif">Cadastro</a> <br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RegisterView.js">View</a><br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/isValidEmail.js">Utils</a></td>
+</tr>
+<tr>
+<td>RF5</td>
+<td>O usuário deve ter a disposição, a criação de canais, subgrupos de discussão e grupos, privados/publicos, ilimitados.</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../Modelagem/backlog.md/#ep08-criar-channel">EP08</a></td>
+<td><a href="../../Modelagem/backlog/#us18">US18</a> <br> <a href="../../Modelagem/backlog/#us19">US19</a> <br> <a href="../../Modelagem/backlog/#us21">US21</a></td>
+<td><a href="#rf5_gif">Criar channel</a> <br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/CreateChannelView.js">View</a><br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/createChannel.js">Action</a></td>
+</tr>
+<tr>
+<td>RF6</td>
+<td>O usuário deve ser capaz de, dentro da plataforma, enviar mensagens dentro de grupos de conversa ou dentro de chats privados</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../Modelagem/backlog.md/#ep08-criar-channel">EP08</a></td>
+<td><a href="../../Modelagem/backlog/#us20">US20</a></td>
+<td><a href="#rf6_gif">Enviar mensagem</a><br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js">Código - Método "sendMessage"</a></td>
+</tr>
+<tr>
+<td>RF7</td>
+<td>O usuário deve ser capaz de realizar uma busca de uma mensagem dentro de um determinado chat</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep11-acoes-do-channel">EP11</a></td>
+<td><a href="../../Modelagem/backlog/#us48">US48</a></td>
+<td><a href="#RF7_gif">Procurar mensagem</a><br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/SearchMessagesView/index.js">Código - SearchMessages</a></td>
+</tr>
+<tr>
+<td>RF8</td>
+<td>O app deve oferecer a possibilidade do usuário instalar seu próprio servidor local.</td>
+<td><a href="../../Modelagem/backlog/#t05-servidor">T05</a></td>
+<td><a href="../../Modelagem/backlog/#ep16-conectar-com-um-servidor">EP16</a></td>
+<td><a href="../../Modelagem/backlog/#us65">US65</a></td>
+<td><a href="#rf8_gif">Servidor</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/server.js">Action</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/deviceInfo.js">Util</a></td>
+</tr>
+<tr>
+<td>RF9</td>
+<td>A plataforma deve permitir a integração de Bots</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep14-integrações">EP14</a></td>
+<td><a href="../../Modelagem/backlog/#us62">US62</a></td>
+<td><a href="#rf9_gif">Bots</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/server.js">Action</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/deviceInfo.js">Util</a></td>
+</tr>
+<tr>
+<td>RF10</td>
+<td>A plataforma deve permitir a alteração nas configurações do app</td>
+<td><a href="../../Modelagem/backlog/#t03--visao-geral-do-aplicativo">T03</a></td>
+<td><a href="../../Modelagem/backlog/#ep05-configurações-do-aplicativo">EP05</a></td>
+<td><a href="../../Modelagem/backlog/#us09">US09</a></td>
+<td><a href="#rf10_gif">Configurações do app</a><br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReacótNative/blob/develop/app/views/SettingsView/index.js">View</a><br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/markdown.js">Action</a><br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/deviceInfo.js">Util</a><br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/info.js">Util</a></td>
+</tr>
+<tr>
+<td>RF11</td>
+<td>Possibilidade de alteração do idioma no aplicativo</td>
+<td><a href="../../Modelagem/backlog/#t03--visao-geral-do-aplicativo">T03</a></td>
+<td><a href="../../Modelagem/backlog/#ep05-configurações-do-aplicativo">EP05</a></td>
+<td><a href="../../Modelagem/backlog/#us09">US09</a>, <a href="../../Modelagem/backlog/#us10">US10</a></td>
+<td><a href="#rf11_gif">Alterar idioma</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/LanguageView/index.js">View</a><br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/info.js">Util</a></td>
+</tr>
+<tr>
+<td>RF12</td>
+<td>Permitir usuario iniciar conexão com uma instância do Rocket.chat</td>
+<td><a href="../../Modelagem/backlog/##t05-servidor">T05</a></td>
+<td><a href="../../Modelagem/backlog/#ep16-conectar-com-um-servidor">EP16</a></td>
+<td><a href="../../Modelagem/backlog/#us10">US65</a></td>
+<td><a href="#rf12_gif">Conectar com um  servidor</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/NewServerView.js">Código</a></td>
+</tr>
+<tr>
+<td>RF13</td>
+<td>Alteração de senha</td>
+<td><a href="../../Modelagem/backlog/#t03--visao-geral-do-aplicativo">T03</a></td>
+<td><a href="../../Modelagem/backlog/#ep05-configurações-do-aplicativo">EP05</a></td>
+<td><a href="../../Modelagem/backlog/#us12">US12</a></td>
+<td><a href="#rf13_gif">Alterar senha</a><br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/ProfileView/index.js">Código - Método "newPassword"</a></td>
+</tr>
+<tr>
+<td>RF14</td>
+<td>Possibilidade de mencionar, um ou todos, os membros do grupo</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep11-acoes-do-channel">EP11</a></td>
+<td><a href="../../Modelagem/backlog/#us43">US43</a></td>
+<td><a href="#rf14_gif">Mencionar</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/MessagesView/index.js">Código - Método "Mention"</a></td>
+</tr>
+<tr>
+<td>RF15</td>
+<td>Sistema deve ser capaz de Adicionar autenticação de 2 Fatores</td>
+<td><a href="../../Modelagem/backlog/#t03--visao-geral-do-aplicativo">T03</a></td>
+<td><a href="../../Modelagem/backlog/#ep06-configurações-da-conta">EP06</a></td>
+<td><a href="../../Modelagem/backlog/#us13">US13</a></td>
+<td><a href="#rf15_gif">Autenticação 2 Fatores</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/OAuthView.js">View</a><br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/deviceInfo.js">Util</a></td>
+</tr>
+<tr>
+<td>RF16</td>
+<td>Sistema deve mostrar e permitir a edição das configurações da conta</td>
+<td><a href="../../Modelagem/backlog/#t03--visao-geral-do-aplicativo">T03</a></td>
+<td><a href="../../Modelagem/backlog/#ep05-configurações-do-aplicativo">EP05</a><br> <a href="../../Modelagem/backlog/#ep06-configurações-da-conta">EP06</a></td>
+<td><a href="../../Modelagem/backlog/#us09">US09</a> <br> <a href="../../Modelagem/backlog/#us14">US14</a></td>
+<td><a href="#rf16_gif">Editar conta</a> <br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/ProfileView/index.js">View</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/info.js">Util</a></td>
+</tr>
+<tr>
+<td>RF17</td>
+<td>O sistema deve permitir o envio de arquivos e documentos em um chat</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../../Modelagem/backlog/#us28">US28</a> <br> <a href="../../Modelagem/backlog/#us33">US33</a></td>
+<td><a href="#rf17_gif">Envio de Arquivo</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/MessagesView/index.js">Código - Método "Files"</a></td>
+</tr>
+<tr>
+<td>RF18</td>
+<td>Permitir a alteração do status do usuário</td>
+<td><a href="../../Modelagem/backlog/#t03--visao-geral-do-aplicativo">T03</a></td>
+<td><a href="../../Modelagem/backlog/#ep06-configurações-da-conta">EP06</a></td>
+<td><a href="../../Modelagem/backlog/#us15">US15</a></td>
+<td><a href="#rf18_gif">Alterar status</a> <br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/SidebarView/index.js">Código - Método "renderStatusItem"</a></td>
+</tr>
+<tr>
+<td>RF19</td>
+<td>App deve possuir ferramenta para busca de Channels</td>
+<td><a href="../../Modelagem/backlog/#t03--visao-geral-do-aplicativo">T03</a></td>
+<td><a href="../../Modelagem/backlog/#ep07-channels">EP07</a></td>
+<td><a href="../../Modelagem/backlog/#us16">US16</a></td>
+<td><a href="#rf_19_gif">Buscar channel</a> <br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">Código - Método "search"</a></td>
+</tr>
+<tr>
+<td>RF20</td>
+<td>App deve possuir opções para listar Channels em categorias</td>
+<td><a href="../../Modelagem/backlog/#t03--visao-geral-do-aplicativo">T03</a></td>
+<td><a href="../../Modelagem/backlog/#ep07-channels">EP07</a></td>
+<td><a href="../../Modelagem/backlog/#us17">US17</a></td>
+<td><a href="#rf20_gif">Ordenar por categoria</a> <br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">Código - Método "groupByType"</a></td>
+</tr>
+<tr>
+<td>RF21</td>
+<td>Possibilidade de favoritar um grupo</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep11-acoes-do-channel">EP11</a></td>
+<td><a href="../../Modelagem/backlog/#us42">US42</a></td>
+<td><a href="#rf21_gif">Favoritar Channel</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomInfoView/index.js">Código - Método "renderRole"</a></td>
+</tr>
+<tr>
+<td>RF22</td>
+<td>Permitir a alteração de privacidade do Channel</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep09-configurações-do-channel">EP09</a></td>
+<td><a href="../../Modelagem/backlog/#us22">US22</a></td>
+<td><a href="#rf22_gif">Privacidade do Channel</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/CreateChannelView.js">Código - Método "renderType"</a></td>
+</tr>
+<tr>
+<td>RF23</td>
+<td>Definir Channel como Read Only</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep09-configurações-do-channel">EP09</a></td>
+<td><a href="../../Modelagem/backlog/#us23">US23</a></td>
+<td><a href="#rf23_gif">Read Only</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/CreateChannelView.js">Código - Método "renderReadOnly"</a></td>
+</tr>
+<tr>
+<td>RF24</td>
+<td>Definir Channel para BroadCast</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep09-configurações-do-channel">EP09</a></td>
+<td><a href="../../Modelagem/backlog/#us24">US24</a></td>
+<td><a href="#rf24_gif">BroadCast</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/CreateChannelView.js">Código - Método "renderBroadcast"</a></td>
+</tr>
+<tr>
+<td>RF25</td>
+<td>Permitir que o usuário possa adicionar ou visualizar as informações do Channel através de uma descrição, tópico do Channel</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep09-configurações-do-channel">EP09</a> <br>  <a href="../../Modelagem/backlog/#ep11-acoes-do-channel">EP11</a></td>
+<td><a href="../../Modelagem/backlog/#us25">US25</a> <br> <a href="../../Modelagem/backlog/#us26">US26</a> <br> <a href="../../Modelagem/backlog/#us47">US47</a></td>
+<td><a href="#rf25_gif">Adicionar descrição</a> <br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomInfoEditView/index.js">Código - Método "description"</a></td>
+</tr>
+<tr>
+<td>RF26</td>
+<td>App deve permitir o envio de desenhos, como mensagens</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../../Modelagem/backlog/#us30">US30</a></td>
+<td><a href="#rf26_gif">Desenho</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js">Código - Método "drawing"</a></td>
+</tr>
+<tr>
+<td>RF27</td>
+<td>O sistema deve permitir o envio de arquivos de midia, como vídeo e áudio</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../../Modelagem/backlog/#us31">US31</a></td>
+<td><a href="#rf27_gif">Midia</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/MessagesView/index.js">Código - Método "Files"</a></td>
+</tr>
+<tr>
+<td>RF28</td>
+<td>O usuário deve poder editar suas mensagens enviadas</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../../Modelagem/backlog/#us34">US34</a></td>
+<td><a href="#rf28_gif">Editar Mensagens</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js">Código - Método "editing"</a></td>
+</tr>
+<tr>
+<td>RF29</td>
+<td>O usuário deve poder copiar uma mensagem</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../Modelagem/backlog.md.md#us35">US35</a></td>
+<td><a href="#rf29_gif">Copiar Mensagem</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js">Código - Método "copying"</a></td>
+</tr>
+<tr>
+<td>RF30</td>
+<td>O sistema deve oferecer uma maneira para o usuário possa compartilhar mensagens</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../../Modelagem/backlog/#us36">US36</a></td>
+<td><a href="#rf30_gif">Compartilhar Mensagens</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js">Código - Método "sharing"</a></td>
+</tr>
+<tr>
+<td>RF31</td>
+<td>O usuário deve ter a possibilidade excluir uma mensagem a qualquer momento</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../../Modelagem/backlog/#us38">US38</a></td>
+<td><a href="#rf31_gif">Excluir Mensagem</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js">Código - Método "deleteMessage"</a></td>
+</tr>
+<tr>
+<td>RF32</td>
+<td>Usuário deve poder adicionar reações a mensagens</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../../Modelagem/backlog/#us39">US39</a></td>
+<td><a href="#rf32_gif">Adicionar reação a mensagens</a> <br></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js">Código - Método "onReactionPress"</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/containers/ReactionsModal.js">Código</a></td>
+</tr>
+<tr>
+<td>RF33</td>
+<td>Usuário deve ser capaz de responder mensagens enviadas dentro de Channels que ele participa</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../../Modelagem/backlog/#us40">US40</a></td>
+<td><a href="#rf33_gif">Responder Mensagem</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js">Código - Método "replying"</a></td>
+</tr>
+<tr>
+<td>RF34</td>
+<td>Usuário deve ter a possibilidade de reportar alguma mensagem em um Channel que não respeite as diretrizes do app</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../../Modelagem/backlog/#us41">US41</a></td>
+<td><a href="#rf34_gif">Reportar Mensagem</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomView/index.js">Código - Método "reporting"</a></td>
+</tr>
+<tr>
+<td>RF35</td>
+<td>O sistema deve ser capaz de exibir notificações para mensagens não lidas e  para menções em chats e possibilitar ao usuário a configuração das mesmas</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep11-acoes-do-channel">EP11</a></td>
+<td><a href="../../Modelagem/backlog/#us44">US44</a></td>
+<td><a href="#rf35_gif">Notificações</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomActionsView/index.js">Código - Método "toggleNotifications"</a></td>
+</tr>
+<tr>
+<td>RF36</td>
+<td>A aplicação deve fornecer suporte aos seus usuários via chat e e-mail.</td>
+<td><a href="../../Modelagem/backlog/#t02-ajuda-ao-usuario">T02</a></td>
+<td><a href="../Modelagem/backlog.md/#ep02-atendimento-online">EP03</a></td>
+<td><a href="../../Modelagem/backlog/#us05">US05</a> <br>  <a href="../../Modelagem/backlog/#us06">US06</a></td>
+<td><a href="#rf36_gif">Suporte</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/SettingsView/index.js">Código - Método "sendEmail"</a></td>
+</tr>
+<tr>
+<td>R37</td>
+<td>O app deve oferecer a possibilidade do usuário procurar mensagens por texto</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep11-acoes-do-channel">EP11</a></td>
+<td><a href="../../Modelagem/backlog/#us48">US48</a></td>
+<td><a href="#rf37_gif">Procurar mensagens</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">Código - Método "searchText"</a></td>
+</tr>
+<tr>
+<td>R38</td>
+<td>O Sistema deve permitir que o usuário favorite uma mensagem</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep11-acoes-do-channel">EP11</a></td>
+<td><a href="../../Modelagem/backlog/#us49">US49</a></td>
+<td><a href="#rf38_gif">Favoritar mensagem</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a></td>
+</tr>
+<tr>
+<td>R39</td>
+<td>O Sistema deve permitir que o usuário possa fixar uma mensagem no Channel</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep11-acoes-do-channel">EP11</a></td>
+<td><a href="../../Modelagem/backlog/#us50">US50</a></td>
+<td><a href="#rf39_gif">Fixar mensagem</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a></td>
+</tr>
+<tr>
+<td>R40</td>
+<td>O Usuário deve conseguir convidar membros do Channel para o Video Chat</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep12-video-chat">EP12</a></td>
+<td><a href="../../Modelagem/backlog/#us53">US53</a></td>
+<td><a href="#rf40_gif">Convidar membros para video chat</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a></td>
+</tr>
+<tr>
+<td>R41</td>
+<td>O Sistema deve permitir que o usuário possa compartilhar a tela de seu dispositivo</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep12-video-chat">EP12</a></td>
+<td><a href="../../Modelagem/backlog/#us57">US57</a></td>
+<td><a href="#rf41_gif">Compartilhar tela</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a></td>
+</tr>
+<tr>
+<td>R42</td>
+<td>A aplicação deve permitir que o usuário possa visualizar a lista de membros do Channel</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep13-gerenciar-usuarios">EP13</a></td>
+<td><a href="../../Modelagem/backlog/#us58">US58</a></td>
+<td><a href="#rf42_gif">Visualizar membros</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/MessagesView/index.js">Código - Método "Members"</a></td>
+</tr>
+<tr>
+<td>R43</td>
+<td>A Aplicação deve permitir que o usuário possa visualizar informações básicas de outro usuário</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep13-gerenciar-usuarios">EP13</a></td>
+<td><a href="../../Modelagem/backlog/#us59">US59</a></td>
+<td><a href="#rf43_gif">Visualizar informações de usuários</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a></td>
+</tr>
+<tr>
+<td>R44</td>
+<td>A Aplicação deve permitir que os usuários administradores do Channel possam adicionar novos usuários</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep13-gerenciar-usuarios">EP13</a></td>
+<td><a href="../../Modelagem/backlog/#us60">US60</a></td>
+<td><a href="#rf44_gif">Adicionar membros</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomActionsView/index.js">Código - Método "canAddUser"</a></td>
+</tr>
+<tr>
+<td>R45</td>
+<td>A Aplicaçaõ deve permitir que os usuários administradores do Channel possam remover usuários</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep13-gerenciar-usuarios">EP13</a></td>
+<td><a href="../../Modelagem/backlog/#us61">US61</a></td>
+<td><a href="#rf45_gif">Remover membros</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a></td>
+</tr>
+<tr>
+<td>R46</td>
+<td>A Aplicação deve permitir que os usuários possam esconder um Channel</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep15-deixar-channel">EP15</a></td>
+<td><a href="../../Modelagem/backlog/#us63">US63</a></td>
+<td><a href="#rf46_gif">Esconder channel</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a></td>
+</tr>
+<tr>
+<td>R47</td>
+<td>A Aplicação deve permitir que os usuários possam deixar um Channel</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep15-deixar-channel">EP15</a></td>
+<td><a href="../../Modelagem/backlog/#us64">US64</a><br> <a href="../../Modelagem/backlog/#us63">US63</a></td>
+<td><a href="#rf47_gif">Deixar channel</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomActionsView/index.js">Código - Método "leaveChannel"</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/room.js">Action - Método "leaveRoom"</a></td>
+</tr>
+<tr>
+<td>R48</td>
+<td>O Sistema deve permitir que um usuário possa visualizar todos os Channels visiveis do Servidor</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep19-diretorio">EP15</a></td>
+<td><a href="../../Modelagem/backlog/#us69">US69</a></td>
+<td><a href="#rf48_gif">Visualizar channels</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/server.js">Action</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/utils/deviceInfo.js">Util</a></td>
+</tr>
+<tr>
+<td>R49</td>
+<td>O Sistema deve permitir que um usuário possa visualizar a lista com todos os usuários do Servidor</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep19-diretorio">EP15</a></td>
+<td><a href="../../Modelagem/backlog/#us70">US70</a></td>
+<td><a href="#rf49_gif">Visualizar usuários de um servidor</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/RoomsListView/index.js">View</a> <br> <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/actions/server.js">Action</a></td>
+</tr>
+<tr>
+<td>RF50</td>
+<td>Sistema deve permitir que o usuário visualize as lista de arquivos enviados no channel</td>
+<td><a href="../../Modelagem/backlog/#t04-channel">T04</a></td>
+<td><a href="../../Modelagem/backlog/#ep10-mensagens">EP10</a></td>
+<td><a href="../../Modelagem/backlog/#us51">US51</a></td>
+<td><a href="#rf50_gif">Visualizar arquivos enviados</a></td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.ReactNative/blob/develop/app/views/MessagesView/index.js">Código - Método "Files"</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="requisitos-nao-funcionais">Requisitos Não-Funcionais</h2>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Descrição</th>
+<th>NFR</th>
+<th>Operacionalizações</th>
+<th>Funcionalidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF1</td>
+<td>A aplicação deve ser capaz de ser executada em diversas plataformas</td>
+<td><a href="../../Modelagem/nfr/#nfr1-portabilidade">NFR-Portabilidade</a></td>
+<td>"Acesso por aplicação mobile".  "Acesso por aplicação web";  "Acesso por aplicação desktop";</td>
+<td><a href="#rnf1">Plataformas</a></td>
+</tr>
+<tr>
+<td>RNF2</td>
+<td>O Rocket.chat deve ofecer suporte tanto para a aplicação, em diversas arquiteturas, como para o usuário</td>
+<td><a href="../../Modelagem/nfr/#nfr3-suporte">NFR-03</a></td>
+<td>"Documentação" "Suporte online"</td>
+<td><a href="#rnf2">Suporte</a></td>
+</tr>
+<tr>
+<td>RNF3</td>
+<td>Deve ser uma plataforma que ofereça segurança com dados dos usuários.</td>
+<td><a href="../../Modelagem/nfr/#nfr3-suporte">NFR-03</a></td>
+<td>"Criptografia ponta a ponta" "Backup de dados"</td>
+<td></td>
+</tr>
+<tr>
+<td>RNF4</td>
+<td>O Rocket.chat deve estar disponível na maior quantidade possível de idiomas</td>
+<td><a href="../../Modelagem/nfr/#nfr5-personabilidade">NFR-05</a></td>
+<td>"Traduzir todos os menus do app para diferentes linguagens" "permitir a escolha de nova linguagem dentro do app"</td>
+<td><a href="#rnf4">Idiomas</a></td>
+</tr>
+<tr>
+<td>RNF5</td>
+<td>O Rocket.chat deve ter uma boa interface visual, minimalista e intuitiva, facilitando a usabilidade do usuário.</td>
+<td><a href="../../Modelagem/nfr/#nfr4-usabilidade">NFR-04</a></td>
+<td>"Layout simples"; "Icones intuitivos"; "Descrições"</td>
+<td><a href="https://github.com/RocketChat/Rocket.Chat.Electron">Repositório aplicação desktop/web</a>  <a href="https://github.com/RocketChat/Rocket.Chat.ReactNative">Repositório aplicação mobile</a></td>
+</tr>
+<tr>
+<td>RNF6</td>
+<td>A plataforma deve possuir uma documentação bem organizada. Que explique todas as funcionalidades e restrições aplicáveis.</td>
+<td><a href="../../Modelagem/nfr/#nfr3-suporte">NFR-03</a></td>
+<td>"Documentação"</td>
+<td></td>
+</tr>
+<tr>
+<td>RNF7</td>
+<td>A aplicação, sendo do tipo openSource, deve possuir a liberdade da contribuição pela comunidade de software</td>
+<td><a href="../../Modelagem/nfr/#nfr8-contribuiçao-da-comunidade">NFR-08</a></td>
+<td>"Encorajar a evolução do código existente""Divulgar as vantagens da comunidade ser ativa"</td>
+<td></td>
+</tr>
+<tr>
+<td>RNF8</td>
+<td>A aplicação deve oferecer uma performace fluida ajude na experiência positiva do usuário</td>
+<td><a href="../../Modelagem/nfr/#nfr2-performace-do-chat">NFR-02</a></td>
+<td>"Compressão de dados" "uso de cach para dados não modificados"</td>
+<td></td>
+</tr>
+<tr>
+<td>RNF9</td>
+<td>Visando uma melhor experiência ao usuário e desempenho da plataforma, o app deve fazer integrações com diferentes plataformas</td>
+<td><a href="../../Modelagem/nfr/#nfr2-conectividade">NFR-09</a></td>
+<td>"Integrável com redes sociais para autenticação"</td>
+<td></td>
+</tr>
+<tr>
+<td>RNF10</td>
+<td>A plataforma deve identificar e tratar erros dentro do aplicativo</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="gifs">Gifs</h2>
+<h3 id="rf1_gif">RF1_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF01.gif" /></p>
+<h3 id="rf2_gif">RF2_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF02.gif" /></p>
+<h3 id="rf3_gif">RF3_GIF</h3>
+<p><img alt="Login" src="../../img/PosRastreabilidade/rf3.gif" /></p>
+<h3 id="rf4_gif">RF4_GIF</h3>
+<p><img alt="Cadastro" src="../../img/PosRastreabilidade/rf4.gif" /></p>
+<h3 id="rf5_gif">RF5_GIF</h3>
+<p><img alt="Criar Channel" src="../../img/PosRastreabilidade/rf5.gif" /></p>
+<h3 id="rf6_gif">RF6_GIF</h3>
+<p><img alt="Enviar Mensagem" src="../../img/PosRastreabilidade/rf6.gif" /></p>
+<h3 id="rf7_gif">RF7_GIF</h3>
+<p><img alt="Pesquisar Mensagem" src="../../img/PosRastreabilidade/pesquisar_mensagem.gif" /></p>
+<h3 id="rf8_gif">RF8_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF8.gif" /></p>
+<h3 id="rf9_gif">RF9_GIF</h3>
+<p><img alt="" src="../img/PosRastreabilidade/" /></p>
+<h3 id="rf10_gif">RF10_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF10.gif" /></p>
+<h3 id="rf11_gif">RF11_GIF</h3>
+<p><img alt="" src="../img/PosRastreabilidade/" /></p>
+<h3 id="rf12_gif">RF12_GIF</h3>
+<p><img alt="" src="../img/PosRastreabilidade/" /></p>
+<h3 id="rf13_gif">RF13_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF13.gif" /></p>
+<h3 id="rf14_gif">RF14_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF14.gif" /></p>
+<h3 id="rf15_gif">RF15_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF15.gif" /></p>
+<h3 id="rf16_gif">RF16_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF16.gif" /></p>
+<h3 id="rf17_gif">RF17_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF17.gif" /></p>
+<h3 id="rf18_gif">RF18_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF18.gif" /></p>
+<h3 id="rf19_gif">RF19_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF19.gif" /></p>
+<h3 id="rf20_gif">RF20_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF20.gif" /></p>
+<h3 id="rf21_gif">RF21_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF21.gif" /></p>
+<h3 id="rf22_gif">RF22_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF22.gif" /></p>
+<h3 id="rf23_gif">RF23_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF23.gif" /></p>
+<h3 id="rf24_gif">RF24_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF24.gif" /></p>
+<h3 id="rf25_gif">RF25_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF25.gif" /></p>
+<h3 id="rf26_gif">RF26_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF26.gif" /></p>
+<h3 id="rf27_gif">RF27_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF27.gif" /></p>
+<h3 id="rf28_gif">RF28_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF28.gif" /></p>
+<h3 id="rf29_gif">RF29_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF29.gif" /></p>
+<h3 id="rf30_gif">RF30_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF30.gif" /></p>
+<h3 id="rf31_gif">RF31_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF31.gif" /></p>
+<h3 id="rf32_gif">RF32_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF32.gif" /></p>
+<h3 id="rf33_gif">RF33_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF33.gif" /></p>
+<h3 id="rf34_gif">RF34_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF34.gif" /></p>
+<h3 id="rf35_gif">RF35_GIF</h3>
+<p><img alt="" src="../img/PosRastreabilidade/" /></p>
+<h3 id="rf36_gif">RF36_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF36.gif" /></p>
+<h3 id="rf37_gif">RF37_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF37.gif" /></p>
+<h3 id="rf38_gif">RF38_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF38.gif" /></p>
+<h3 id="rf39_gif">RF39_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF39.gif" /></p>
+<h3 id="rf40_gif">RF40_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF40.gif" /></p>
+<h3 id="rf41_gif">RF41_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF41.gif" /></p>
+<h3 id="rf42_gif">RF42_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF42.gif" /></p>
+<h3 id="rf43_gif">RF43_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF43.gif" /></p>
+<h3 id="rf44_gif">RF44_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF44.gif" /></p>
+<h3 id="rf45_gif">RF45_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF45.gif" /></p>
+<h3 id="rf46_gif">RF46_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF46.gif" /></p>
+<h3 id="rf47_gif">RF47_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF47.gif" /></p>
+<h3 id="rf48_gif">RF48_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF48.gif" /></p>
+<h3 id="rf49_gif">RF49_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF49.gif" /></p>
+<h3 id="rf50_gif">RF50_GIF</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/RF50.gif" /></p>
+<h3 id="rnf1">RNF1</h3>
+<p>Mobile</p>
+<p><img alt="" src="../../img/PosRastreabilidade/rnf1_03.gif" /></p>
+<p>Web navegador</p>
+<p><img alt="" src="../../img/PosRastreabilidade/rnf1_01.gif" /></p>
+<p>Desktop</p>
+<p><img alt="" src="../../img/PosRastreabilidade/rnf1_02.gif" /></p>
+<h3 id="rnf2">RNF2</h3>
+<p>Suporte</p>
+<p><img alt="" src="../../img/PosRastreabilidade/rnf2_02.gif" /></p>
+<p><img alt="" src="../../img/PosRastreabilidade/rnf2_01.gif" /></p>
+<h3 id="rnf4">RNF4</h3>
+<p><img alt="" src="../../img/PosRastreabilidade/rnf04.gif" /></p>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Modificação</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16/06/2019</td>
+<td>1.0</td>
+<td>Abertura do documento</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>17/06/2019</td>
+<td>1.1</td>
+<td>Inclusão das tabelas inicias de requisitos</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>18/06/2019</td>
+<td>1.2</td>
+<td>Inclusão dos elos</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>19/06/2019</td>
+<td>1.3</td>
+<td>Inclusão dos GIFS</td>
+<td>André Lucas</td>
+</tr>
+<tr>
+<td>24/06/2019</td>
+<td>1.4</td>
+<td>Inclusão dos Requisitos RF37-RF50</td>
+<td>Heron Rodrigues</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../Backward-From/" title="Backward-From" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Backward-From
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Metricas finais da Wiki
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

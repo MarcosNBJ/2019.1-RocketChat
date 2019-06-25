@@ -1,0 +1,5018 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Product Backlog - RocketChat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#product-backlog" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="RocketChat" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RocketChat
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Product Backlog
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="RocketChat" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    RocketChat
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Argumentacao/" title="Argumentacao" class="md-nav__link">
+      Argumentacao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Estratégia/" title="Estratégia" class="md-nav__link">
+      Estratégia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Storyboard/" title="Storyboard" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analdiscurso/" title="Análise de Discurso" class="md-nav__link">
+      Análise de Discurso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analprot/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Product Backlog
+      </label>
+    
+    <a href="./" title="Product Backlog" class="md-nav__link md-nav__link--active">
+      Product Backlog
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-backlog-e-planejamento-das-sprints" title="Tabela de backlog e planejamento das sprints" class="md-nav__link">
+    Tabela de backlog e planejamento das sprints
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t01-entrar-no-aplicativo" title="T01 - Entrar no aplicativo" class="md-nav__link">
+    T01 - Entrar no aplicativo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep01-fazer-login" title="EP01 - Fazer Login" class="md-nav__link">
+    EP01 - Fazer Login
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us01" title="US01" class="md-nav__link">
+    US01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us02" title="US02" class="md-nav__link">
+    US02
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep02-fazer-cadastro" title="EP02 - Fazer Cadastro" class="md-nav__link">
+    EP02 - Fazer Cadastro
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us03" title="US03" class="md-nav__link">
+    US03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04" title="US04" class="md-nav__link">
+    US04
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t02-ajuda-ao-usuario" title="T02 - Ajuda ao usuario" class="md-nav__link">
+    T02 - Ajuda ao usuario
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep03-atendimento-online" title="EP03 - Atendimento online" class="md-nav__link">
+    EP03 - Atendimento online
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us05" title="US05" class="md-nav__link">
+    US05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us06" title="US06" class="md-nav__link">
+    US06
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep04-documentacao" title="EP04 - Documentacao" class="md-nav__link">
+    EP04 - Documentacao
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us07" title="US07" class="md-nav__link">
+    US07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us08" title="US08" class="md-nav__link">
+    US08
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t03-visao-geral-do-aplicativo" title="T03 - Visão geral do aplicativo" class="md-nav__link">
+    T03 - Visão geral do aplicativo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep05-configuracoes-do-aplicativo" title="EP05 - Configurações do aplicativo" class="md-nav__link">
+    EP05 - Configurações do aplicativo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us09" title="US09" class="md-nav__link">
+    US09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us10" title="US10" class="md-nav__link">
+    US10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us11" title="US11" class="md-nav__link">
+    US11
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep06-configuracoes-da-conta" title="EP06 - Configurações da Conta" class="md-nav__link">
+    EP06 - Configurações da Conta
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us12" title="US12" class="md-nav__link">
+    US12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us13" title="US13" class="md-nav__link">
+    US13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us14" title="US14" class="md-nav__link">
+    US14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us15" title="US15" class="md-nav__link">
+    US15
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep07-channels" title="EP07 - Channels" class="md-nav__link">
+    EP07 - Channels
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us16" title="US16" class="md-nav__link">
+    US16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us17" title="US17" class="md-nav__link">
+    US17
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t04-channel" title="T04 - Channel" class="md-nav__link">
+    T04 - Channel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep08-criar-channel" title="EP08 - Criar channel" class="md-nav__link">
+    EP08 - Criar channel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us18" title="US18" class="md-nav__link">
+    US18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us19" title="US19" class="md-nav__link">
+    US19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us20" title="US20" class="md-nav__link">
+    US20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us21" title="US21" class="md-nav__link">
+    US21
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep09-configuracoes-do-channel" title="EP09 - Configurações do Channel" class="md-nav__link">
+    EP09 - Configurações do Channel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us22" title="US22" class="md-nav__link">
+    US22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us23" title="US23" class="md-nav__link">
+    US23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us24" title="US24" class="md-nav__link">
+    US24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us25" title="US25" class="md-nav__link">
+    US25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us26" title="US26" class="md-nav__link">
+    US26
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep10-mensagens" title="EP10 - Mensagens" class="md-nav__link">
+    EP10 - Mensagens
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us27" title="US27" class="md-nav__link">
+    US27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us28" title="US28" class="md-nav__link">
+    US28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us29" title="US29" class="md-nav__link">
+    US29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us30" title="US30" class="md-nav__link">
+    US30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us31" title="US31" class="md-nav__link">
+    US31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us32" title="US32" class="md-nav__link">
+    US32
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us33" title="US33" class="md-nav__link">
+    US33
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us34" title="US34" class="md-nav__link">
+    US34
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us35" title="US35" class="md-nav__link">
+    US35
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us36" title="US36" class="md-nav__link">
+    US36
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us37" title="US37" class="md-nav__link">
+    US37
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us38" title="US38" class="md-nav__link">
+    US38
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us39" title="US39" class="md-nav__link">
+    US39
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us40" title="US40" class="md-nav__link">
+    US40
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us41" title="US41" class="md-nav__link">
+    US41
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep11-acoes-do-channel" title="EP11 - Ações do Channel" class="md-nav__link">
+    EP11 - Ações do Channel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us42" title="US42" class="md-nav__link">
+    US42
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us43" title="US43" class="md-nav__link">
+    US43
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us44" title="US44" class="md-nav__link">
+    US44
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us45" title="US45" class="md-nav__link">
+    US45
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us46" title="US46" class="md-nav__link">
+    US46
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us47" title="US47" class="md-nav__link">
+    US47
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us48" title="US48" class="md-nav__link">
+    US48
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us49" title="US49" class="md-nav__link">
+    US49
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us50" title="US50" class="md-nav__link">
+    US50
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us51" title="US51" class="md-nav__link">
+    US51
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us52" title="US52" class="md-nav__link">
+    US52
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep12-video-chat" title="EP12 - Video Chat" class="md-nav__link">
+    EP12 - Video Chat
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us53" title="US53" class="md-nav__link">
+    US53
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us54" title="US54" class="md-nav__link">
+    US54
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us55" title="US55" class="md-nav__link">
+    US55
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us56" title="US56" class="md-nav__link">
+    US56
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us57" title="US57" class="md-nav__link">
+    US57
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep13-gerenciar-usuarios" title="EP13 - Gerenciar Usuários" class="md-nav__link">
+    EP13 - Gerenciar Usuários
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us58" title="US58" class="md-nav__link">
+    US58
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us59" title="US59" class="md-nav__link">
+    US59
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us60" title="US60" class="md-nav__link">
+    US60
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us61" title="US61" class="md-nav__link">
+    US61
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep14-integracoes" title="EP14 - Integrações" class="md-nav__link">
+    EP14 - Integrações
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us62" title="US62" class="md-nav__link">
+    US62
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep15-deixar-channel" title="EP15 - Deixar Channel" class="md-nav__link">
+    EP15 - Deixar Channel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us63" title="US63" class="md-nav__link">
+    US63
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us64" title="US64" class="md-nav__link">
+    US64
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t05-servidor" title="T05 - Servidor" class="md-nav__link">
+    T05 - Servidor
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep16-conectar-com-um-servidor" title="EP16 - Conectar com um servidor" class="md-nav__link">
+    EP16 - Conectar com um servidor
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us65" title="US65" class="md-nav__link">
+    US65
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep17-seguranca" title="EP17 - Segurança" class="md-nav__link">
+    EP17 - Segurança
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us66" title="US66" class="md-nav__link">
+    US66
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us67" title="US67" class="md-nav__link">
+    US67
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep18-suporte-a-grandes-equipes" title="EP18 - Suporte a grandes Equipes" class="md-nav__link">
+    EP18 - Suporte a grandes Equipes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us68" title="US68" class="md-nav__link">
+    US68
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep19-diretorio" title="EP19 - Diretório" class="md-nav__link">
+    EP19 - Diretório
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us69" title="US69" class="md-nav__link">
+    US69
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us70" title="US70" class="md-nav__link">
+    US70
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us71" title="US71" class="md-nav__link">
+    US71
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us72" title="US72" class="md-nav__link">
+    US72
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../diagramas/" title="Diagramas de Caso de Uso" class="md-nav__link">
+      Diagramas de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-nav__link">
+      Diagramas de Caso de Uso 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao/" title="Especificação de Caso de Uso" class="md-nav__link">
+      Especificação de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../istar/" title="IStar" class="md-nav__link">
+      IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nfr/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../suplementar/" title="Documento de Especificação Suplementar" class="md-nav__link">
+      Documento de Especificação Suplementar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/DC/" title="Inspeção de Diagramas de caso de Uso" class="md-nav__link">
+      Inspeção de Diagramas de caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/IStar/" title="Inspeção do IStar" class="md-nav__link">
+      Inspeção do IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/NFR/" title="Inspeção NFR" class="md-nav__link">
+      Inspeção NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/UC/" title="Inspeção de Casos de Uso" class="md-nav__link">
+      Inspeção de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/argumentacao/" title="Inspeção de Argumentação" class="md-nav__link">
+      Inspeção de Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/backlog/" title="Inspeção do Product Backlog" class="md-nav__link">
+      Inspeção do Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Backward-From/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Foward-From/" title="Foward-From" class="md-nav__link">
+      Foward-From
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Final
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Final
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-nav__link">
+      Metricas finais da Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#tabela-de-backlog-e-planejamento-das-sprints" title="Tabela de backlog e planejamento das sprints" class="md-nav__link">
+    Tabela de backlog e planejamento das sprints
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t01-entrar-no-aplicativo" title="T01 - Entrar no aplicativo" class="md-nav__link">
+    T01 - Entrar no aplicativo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep01-fazer-login" title="EP01 - Fazer Login" class="md-nav__link">
+    EP01 - Fazer Login
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us01" title="US01" class="md-nav__link">
+    US01
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us02" title="US02" class="md-nav__link">
+    US02
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep02-fazer-cadastro" title="EP02 - Fazer Cadastro" class="md-nav__link">
+    EP02 - Fazer Cadastro
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us03" title="US03" class="md-nav__link">
+    US03
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us04" title="US04" class="md-nav__link">
+    US04
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t02-ajuda-ao-usuario" title="T02 - Ajuda ao usuario" class="md-nav__link">
+    T02 - Ajuda ao usuario
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep03-atendimento-online" title="EP03 - Atendimento online" class="md-nav__link">
+    EP03 - Atendimento online
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us05" title="US05" class="md-nav__link">
+    US05
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us06" title="US06" class="md-nav__link">
+    US06
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep04-documentacao" title="EP04 - Documentacao" class="md-nav__link">
+    EP04 - Documentacao
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us07" title="US07" class="md-nav__link">
+    US07
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us08" title="US08" class="md-nav__link">
+    US08
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t03-visao-geral-do-aplicativo" title="T03 - Visão geral do aplicativo" class="md-nav__link">
+    T03 - Visão geral do aplicativo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep05-configuracoes-do-aplicativo" title="EP05 - Configurações do aplicativo" class="md-nav__link">
+    EP05 - Configurações do aplicativo
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us09" title="US09" class="md-nav__link">
+    US09
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us10" title="US10" class="md-nav__link">
+    US10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us11" title="US11" class="md-nav__link">
+    US11
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep06-configuracoes-da-conta" title="EP06 - Configurações da Conta" class="md-nav__link">
+    EP06 - Configurações da Conta
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us12" title="US12" class="md-nav__link">
+    US12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us13" title="US13" class="md-nav__link">
+    US13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us14" title="US14" class="md-nav__link">
+    US14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us15" title="US15" class="md-nav__link">
+    US15
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep07-channels" title="EP07 - Channels" class="md-nav__link">
+    EP07 - Channels
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us16" title="US16" class="md-nav__link">
+    US16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us17" title="US17" class="md-nav__link">
+    US17
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t04-channel" title="T04 - Channel" class="md-nav__link">
+    T04 - Channel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep08-criar-channel" title="EP08 - Criar channel" class="md-nav__link">
+    EP08 - Criar channel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us18" title="US18" class="md-nav__link">
+    US18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us19" title="US19" class="md-nav__link">
+    US19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us20" title="US20" class="md-nav__link">
+    US20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us21" title="US21" class="md-nav__link">
+    US21
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep09-configuracoes-do-channel" title="EP09 - Configurações do Channel" class="md-nav__link">
+    EP09 - Configurações do Channel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us22" title="US22" class="md-nav__link">
+    US22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us23" title="US23" class="md-nav__link">
+    US23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us24" title="US24" class="md-nav__link">
+    US24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us25" title="US25" class="md-nav__link">
+    US25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us26" title="US26" class="md-nav__link">
+    US26
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep10-mensagens" title="EP10 - Mensagens" class="md-nav__link">
+    EP10 - Mensagens
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us27" title="US27" class="md-nav__link">
+    US27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us28" title="US28" class="md-nav__link">
+    US28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us29" title="US29" class="md-nav__link">
+    US29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us30" title="US30" class="md-nav__link">
+    US30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us31" title="US31" class="md-nav__link">
+    US31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us32" title="US32" class="md-nav__link">
+    US32
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us33" title="US33" class="md-nav__link">
+    US33
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us34" title="US34" class="md-nav__link">
+    US34
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us35" title="US35" class="md-nav__link">
+    US35
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us36" title="US36" class="md-nav__link">
+    US36
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us37" title="US37" class="md-nav__link">
+    US37
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us38" title="US38" class="md-nav__link">
+    US38
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us39" title="US39" class="md-nav__link">
+    US39
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us40" title="US40" class="md-nav__link">
+    US40
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us41" title="US41" class="md-nav__link">
+    US41
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep11-acoes-do-channel" title="EP11 - Ações do Channel" class="md-nav__link">
+    EP11 - Ações do Channel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us42" title="US42" class="md-nav__link">
+    US42
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us43" title="US43" class="md-nav__link">
+    US43
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us44" title="US44" class="md-nav__link">
+    US44
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us45" title="US45" class="md-nav__link">
+    US45
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us46" title="US46" class="md-nav__link">
+    US46
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us47" title="US47" class="md-nav__link">
+    US47
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us48" title="US48" class="md-nav__link">
+    US48
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us49" title="US49" class="md-nav__link">
+    US49
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us50" title="US50" class="md-nav__link">
+    US50
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us51" title="US51" class="md-nav__link">
+    US51
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us52" title="US52" class="md-nav__link">
+    US52
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep12-video-chat" title="EP12 - Video Chat" class="md-nav__link">
+    EP12 - Video Chat
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us53" title="US53" class="md-nav__link">
+    US53
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us54" title="US54" class="md-nav__link">
+    US54
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us55" title="US55" class="md-nav__link">
+    US55
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us56" title="US56" class="md-nav__link">
+    US56
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us57" title="US57" class="md-nav__link">
+    US57
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep13-gerenciar-usuarios" title="EP13 - Gerenciar Usuários" class="md-nav__link">
+    EP13 - Gerenciar Usuários
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us58" title="US58" class="md-nav__link">
+    US58
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us59" title="US59" class="md-nav__link">
+    US59
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us60" title="US60" class="md-nav__link">
+    US60
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us61" title="US61" class="md-nav__link">
+    US61
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep14-integracoes" title="EP14 - Integrações" class="md-nav__link">
+    EP14 - Integrações
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us62" title="US62" class="md-nav__link">
+    US62
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep15-deixar-channel" title="EP15 - Deixar Channel" class="md-nav__link">
+    EP15 - Deixar Channel
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us63" title="US63" class="md-nav__link">
+    US63
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us64" title="US64" class="md-nav__link">
+    US64
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#t05-servidor" title="T05 - Servidor" class="md-nav__link">
+    T05 - Servidor
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ep16-conectar-com-um-servidor" title="EP16 - Conectar com um servidor" class="md-nav__link">
+    EP16 - Conectar com um servidor
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us65" title="US65" class="md-nav__link">
+    US65
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep17-seguranca" title="EP17 - Segurança" class="md-nav__link">
+    EP17 - Segurança
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us66" title="US66" class="md-nav__link">
+    US66
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us67" title="US67" class="md-nav__link">
+    US67
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep18-suporte-a-grandes-equipes" title="EP18 - Suporte a grandes Equipes" class="md-nav__link">
+    EP18 - Suporte a grandes Equipes
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us68" title="US68" class="md-nav__link">
+    US68
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ep19-diretorio" title="EP19 - Diretório" class="md-nav__link">
+    EP19 - Diretório
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#us69" title="US69" class="md-nav__link">
+    US69
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us70" title="US70" class="md-nav__link">
+    US70
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us71" title="US71" class="md-nav__link">
+    US71
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#us72" title="US72" class="md-nav__link">
+    US72
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/marcosnbj/2019.1-RocketChat/edit/master/docs/Modelagem/backlog.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="product-backlog">Product Backlog</h1>
+<p>Aqui buscamos construir um backlog completo para o produto com base nos requisitos anteriormente elicitados. Além de, com o backlog construido e todas as histórias de usuário devidamente descritas com críterios de aceitação, simular o que seria desenvolvido em cada Sprint. Sendo que o backlog ficou dividido nos seguinte níveis de granularidade: Tema, Épico, histórias de usuário.</p>
+<h2 id="tabela-de-backlog-e-planejamento-das-sprints">Tabela de backlog e planejamento das sprints</h2>
+<p>Como a tabela que constroí o backlog e o divide em sprints é muito grande, para melhor visualização, a mesma foi colocada em um arquivo excel no drive, que pode ser visualizado a partir deste <a href="https://docs.google.com/spreadsheets/d/1_gxL7uqWzSuB0wnm_buf4MWh9d_7JhUOwTsVjyAAZp0/edit?usp=sharing">link</a>.</p>
+<h2 id="t01-entrar-no-aplicativo">T01 - Entrar no aplicativo</h2>
+<h3 id="ep01-fazer-login">EP01 - Fazer Login</h3>
+<h4 id="us01">US01</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US01</td>
+<td>Usuário</td>
+<td>Fazer login na aplicação utilizando minha conta</td>
+<td>gostaria de acessar as funcionalidades de um usuário logado</td>
+<td>Deve haver um limite de tentativas</td>
+<td>5</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá ser capaz de utilizar uma conta previamente criada na aplicação para fazer login, digitando seu usuário e sua senha</li>
+<li>O usuário deverá conseguir utilizar o email no lugar do nome de usuário se preferir</li>
+<li>Se forem excedidas três tentativas sem sucesso de login com um nome de usuário, as tentativas devem ser bloqueadas temporariamente e o dono da conta deverá receber um email</li>
+<li>Quando o usuário errar os dados de entrada, ele deverá ser avisado se errou o nome ou a senha</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/analprot/#requisitos-elicitados">AP1</a></em></p>
+<h4 id="us02">US02</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US02</td>
+<td>Usuário</td>
+<td>Fazer login na aplicação utilizando minhas redes sociais</td>
+<td>gostaria de acessar as funcionalidades de um usuário logado sem ter que criar uma nova conta</td>
+<td>Login pelo facebook, google ou twitter</td>
+<td>5</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá ser capaz de fazer login no aplicativo utilizando uma conta que ele possui em uma dessas redes sociais: GitHub, Facebook, Twitter e Google</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-02">INT1.3</a>, <a href="../../Elicitação/analprot/#requisitos-elicitados">AP1</a></em></p>
+<h3 id="ep02-fazer-cadastro">EP02 - Fazer Cadastro</h3>
+<h4 id="us03">US03</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US03</td>
+<td>Usuário</td>
+<td>Criar uma conta no aplicativo</td>
+<td>gostaria de ter uma conta para fazer login e acessar as funcionalidades do aplicativo</td>
+<td>Cada usuário deve cadastrar um email, usuário e senha</td>
+<td>8</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá ser capaz de criar uma conta no aplicativo, para conseguir fazer login posteriormente.</li>
+<li>As seguintes informações do usuário deverão ser requisitadas para cadastrar a conta: email, usuário, tag e senha.</li>
+<li>A tag deve ser única, cada usuário tendo a sua. E assim como o nome de usuário estar restrito a letras e números.</li>
+<li>A senha deverá conter um número mínimo de 6 caractéres, incluíndo letras maíusculas, minúsculas, números e caracteres especiais.</li>
+<li>Deverá aparecer uma mensagem clara de erro caso o usuário insira errado alguma das informações.</li>
+<li>Opcionalmente, o usuário deverá conseguir colocar uma foto para aparecer no seu perfil.</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-02">AP10</a>, <a href="../cenarios/#c1-v2">C1</a></em></p>
+<h4 id="us04">US04</h4>
+<table>
+<thead>
+<tr>
+<th align="center">ID</th>
+<th align="center">Eu, como</th>
+<th align="center">desejo</th>
+<th align="center">porque</th>
+<th align="center">comentário</th>
+<th align="center">pontos</th>
+<th align="center">prioridade</th>
+<th align="center">Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">US04</td>
+<td align="center">Dono do servidor</td>
+<td align="center">Modificar as informações pedidas na criação de conta</td>
+<td align="center">gostaria de ter uma experiência mais customizada, adaptada as necessidades do meu grupo</td>
+<td align="center"></td>
+<td align="center">8</td>
+<td align="center">Should</td>
+<td align="center">Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O dono do servidor deverá ser capaz de, ao criar o servidor, modificar quais informações são pedidas ao usuário quando o mesmo cria uma conta</li>
+<li>O dono do servidor deverá também conseguir mudar os critérios de aceitação de cada campo</li>
+<li>O dono do servidor deverá ser capaz de modificar essas definições a qualquer momento que desejar</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-02">AP10</a>, <a href="../cenarios/#c1-v2">C1</a></em></p>
+<h2 id="t02-ajuda-ao-usuario">T02 - Ajuda ao usuario</h2>
+<h3 id="ep03-atendimento-online">EP03 - Atendimento online</h3>
+<h4 id="us05">US05</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US05</td>
+<td>Usuário</td>
+<td>Falar com algum integrande da equipe de suporte do Rocket.chat</td>
+<td>gostaria de tirar uma dúvida ou obter ajuda com algum problema no aplicativo</td>
+<td>Live chat com integrantes da equipe de suporte do Rocket.chat deverá ser disponibilizado no aplicativo</td>
+<td>8</td>
+<td>Would</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Deverá ser criado um grupo de funcionarios do Rocket.chat dedicado a prover suporte aos usuários via chat</li>
+<li>Esse atendimento deverá estar disponível de 8 as 18h nos dias úteis</li>
+<li>Deverá haver, na aplicação, um botão pelo qual o usuário pode ser levado ao chat e direcionado a um atendente</li>
+<li>Os funcionarios responsáveis por prover o atendimento deverão ser previamente capacitados para prover um bom atendimento, dessa forma, devendo saber todo o necessário acerca da aplicação</li>
+</ul>
+<p><em>Originada em: <a href="../Elicitação.md/Entrevista#requisitos">ENT 1.3</a></em></p>
+<h4 id="us06">US06</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US06</td>
+<td>Usuário</td>
+<td>Enviar um email para a equpe de suporte do Rocket.chat e te-lo respondido</td>
+<td>gostaria de tirar uma dúvida ou obter ajuda com algum problema no aplicativo</td>
+<td>Deve haver um botão que encaminha o usuário para uma opção que o permite enviar um email</td>
+<td>5</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-03">INT3.10</a></em></p>
+<h3 id="ep04-documentacao">EP04 - Documentacao</h3>
+<h4 id="us07">US07</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US07</td>
+<td>Usuário ou interessado</td>
+<td>Ter a minha disposição documentos que expliquem mais sobre como utilizar a aplicação</td>
+<td>preciso entender todas as capacidades da aplicação</td>
+<td>Deve ser redigida uma documentação completa do aplicativo</td>
+<td>5</td>
+<td>Must</td>
+<td>Não Funcional</td>
+</tr>
+</tbody>
+</table>
+<p><em>Originada em: <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD4</a>, <a href="../../Elicitação/Introspeccao/#introspeccao-03">INT3.10</a></em></p>
+<h4 id="us08">US08</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US08</td>
+<td>Usuário ou interessado</td>
+<td>Ter acesso a tutoriais ou ajuda dentro do aplicativo</td>
+<td>preciso entender como funciona a aplicação</td>
+<td>Deve haver um botão de ajuda, que fornece ao usuário tutoriais e descrições de como utilizar funcionalidades</td>
+<td>3</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<p><em>Originada em: <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD4</a>, <a href="../../Elicitação/Introspeccao/#introspeccao-03">INT3.10</a></em></p>
+<h2 id="t03-visao-geral-do-aplicativo">T03 - Visão geral do aplicativo</h2>
+<h3 id="ep05-configuracoes-do-aplicativo">EP05 - Configurações do aplicativo</h3>
+<h4 id="us09">US09</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US09</td>
+<td>Usuário</td>
+<td>Acessar as preferências do aplicativo</td>
+<td>quero modificar as preferências do aplicativo que melhor se adequem as minhas necessidades</td>
+<td></td>
+<td>8</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Deve estar disponibilizada no menu de personalização a função de alterar o comportamento das notificações, se são para todas as mensagens ou somente menções</li>
+<li>Deve haver uma opção para configurar os temas utilizados</li>
+<li>Deve haver um menu de seleção de idioma</li>
+<li>Deve haver uma opção de personalização de perfil, que direciona o usuário a tela dedicada alterar suas informações pessoais</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD5</a>, <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AP8</a></em></p>
+<h4 id="us10">US10</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US10</td>
+<td>Usuário</td>
+<td>Alterar Idioma</td>
+<td>preciso alterar para um idioma que eu tenha mais familiaridade ou apenas para padronizar com minha equipe</td>
+<td></td>
+<td>8</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá ser capaz de alterar o idioma no qual a aplicação vigora, alterando os textos de todos os botões e menus existentes</li>
+<li>Inicialmente deverão haver os idiomas Inglês, Portugugês-Brasil e Espanhol.</li>
+<li>A funcionalidade deve dar suporte para que outros idiomas sejam adicionados posteriormente</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-04">INT4.5</a>, <a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">StoryBoarding 6</a></em></p>
+<h4 id="us11">US11</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US11</td>
+<td>Usuário</td>
+<td>Configurar Exibição</td>
+<td>gostaria de alterar opções que melhor se adaptem as minhas necessidades e ao meu dispositivo</td>
+<td></td>
+<td>3</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>A funcionalidade deve oferecer ao usuário a opção de alterar o modo de exibição do aplicativo</li>
+<li>Dois modos de exibição devem por padrão existir, o normal e o simplificado. No simplificado, a tela é focada em um channel e a barra lateral fica escondida</li>
+</ul>
+<p><em>Originada em: <a href="(../Elicitação/analdiscurso.md#requisitos-elicitados)">AD9</a></em></p>
+<h3 id="ep06-configuracoes-da-conta">EP06 - Configurações da Conta</h3>
+<h4 id="us12">US12</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US12</td>
+<td>Usuário</td>
+<td>Alterar Senha</td>
+<td>preciso melhorar a segurança da minha conta</td>
+<td></td>
+<td>3</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Para alterar a senha o usuário deverá informar a senha atual</li>
+<li>A senha deve possuir no minimo 8 caracteres</li>
+</ul>
+<p><em>Originada em: <a href="(lexicos.md#l21)">L21</a>, <a href="(lexicos.md#l45)">L45</a></em></p>
+<h4 id="us13">US13</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US13</td>
+<td>Usuário</td>
+<td>Adicionar autenticação de 2 Fatores</td>
+<td>gostaria de proteger a minha conta com mais eficiência</td>
+<td>na autênticação de 2 fatores, sempre na realização do login é preciso verificar o token enviado para o e-mail do usuário</td>
+<td>8</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Para ativar a autenticação é necessário o usuário confirmar sua conta de e-mail</li>
+<li>Cada a funcionalidade estiver ativa, é necessário que a cada vez que o usuário fizer um login em um novo dispositivo que não está logado, o aplicativo deve pedir para o usuário confirmar o token enviado para seu e-mail</li>
+</ul>
+<h4 id="us14">US14</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US14</td>
+<td>Usuário</td>
+<td>Acessar informações da Conta</td>
+<td>gostaria de visualizar e alterar o nome, e-mail, avatar, ocupações, linguagens entre outras opções</td>
+<td>Na versão de desktop essa funcionalidade é mais completa</td>
+<td>2</td>
+<td>Must</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá ser capaz de visualizar as informações de sua conta, como, nome, e-mail, avatar,, ocupações, idiomas.</li>
+<li>O usuário também deve ser capaz de alterar essas informações, exceto o nome de usuário</li>
+<li>Nessa tela específica o usuário somente poderá visualizar as informações de seu usuário</li>
+</ul>
+<p><em>Originada em: <a href="(../Elicitação/analprot.md#requisitos-elicitados)">AP7</a></em></p>
+<h4 id="us15">US15</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US15</td>
+<td>Usuário</td>
+<td>Verificar e alterar status do perfil</td>
+<td>desejo indicar qual meu estado atual no uso do aplicativo</td>
+<td>Opções de usuário, como: online, ausente, ocupado, invisivel</td>
+<td>3</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Usuário deve ser capaz de visualizar seu status atual (online, ausente, ocupado, invisivel)</li>
+<li>usuário também deve conseguir alterar o seu status atual</li>
+<li>Quando o usuário estiver deslogado, seu status deverá ser alterado para offline, mesmo sem que o usuário altere</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l22">L22</a>, <a href="../cenarios/#c10">C10</a></em></p>
+<h3 id="ep07-channels">EP07 - Channels</h3>
+<h4 id="us16">US16</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US16</td>
+<td>Usuário</td>
+<td>Procurar Channels</td>
+<td>preciso encontrar um channel com a facilidade de procurar por texto</td>
+<td></td>
+<td>2</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Usuário deverar se capaz de procurar, através de texto, por qualquer channel público vísivel no servidor</li>
+<li>Nessa pesquisa deverá ser mostrado todos os channels pessoais do usuário, como private groups, channels públicos, direct messages pessoais, discussões</li>
+<li>Nessa mesma ferramenta de pesquisa, também serão mostrados outros direct messages vazios, se usuário não tiver conversado com o usuário</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h4 id="us17">US17</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US17</td>
+<td>Usuário</td>
+<td>Ordenar Channels</td>
+<td>desejo visualizar e separar meus channels por categorias</td>
+<td>Categorias dos Channels: Channel, Grupo privado, Direct Messages e Discussão</td>
+<td>2</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá visualizar os channel separados por categoria (versão Desktop)</li>
+<li>Usuário deverá conseguir alterar a categoria de um channel favoritando o mesmo</li>
+<li>Usuário poderar alterar a qualquer momento o modo de ordenação dentro das categorias, seja alfabética, ou pela última ativadde.</li>
+<li>Usuário deve conseguir adicionar categorias adicionais, como visualizar o grupo de favoritos ou de channels com mensagens não lidas(unread)</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l39">L39</a></em></p>
+<h2 id="t04-channel">T04 - Channel</h2>
+<h3 id="ep08-criar-channel">EP08 - Criar channel</h3>
+<h4 id="us18">US18</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US18</td>
+<td>Usuário</td>
+<td>Criar channel publico</td>
+<td>para que todos possam procurar e ter acesso à esse channel</td>
+<td>É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação</td>
+<td>5</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Deve ser disponibilizado para o usuário, a opção de criar channel publico</li>
+<li>Usuário pode criar número ilimitado de channels publicos</li>
+<li>Nome do channel deve ser obrigatório</li>
+<li>Qualquer tipo de caractere deve ser aceito para o nome do channel</li>
+<li>Nome do channel deve conter no mínimo um caractere</li>
+<li>Channel deve ser disponibilizado para qualquer usuário ter acesso, ao ser procurado na barra de pesquisa, na página inicial</li>
+<li>Não é necessário que convide membros durante a criação do channel</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-01">INT1.1</a>, <a href="../../Elicitação/Introspeccao/#introspeccao-02">INT2.5</a>, <a href="../../Elicitação/Introspeccao/#introspeccao-03">INT3.1</a>, <a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">Storyboard 1</a>, <a href="../../Elicitação/analprot/#requisitos-elicitados">AP4</a>, <a href="../../Elicitação/questionario/#requisitos-elicitados">Q16</a>, <a href="../cenarios/#c3-v2">C3</a></em></p>
+<h4 id="us19">US19</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US19</td>
+<td>Usuário</td>
+<td>Criar channel privado</td>
+<td>para que seja acessado apenas por convite e visivel somente por seus membros</td>
+<td>É necessário um nome para o channel, porém não é obrigatório convidar membros no momento de sua criação</td>
+<td>5</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Por padrão, somente administradores e moderadores podem convidar novos membros</li>
+<li>Somente membros podem ter acesso à esse channel</li>
+<li>Usuário pode criar número ilimitado de channels privados</li>
+<li>Deve ser disponibilizado para o usuário, a opção de criar channel privado</li>
+<li>Nome do channel deve ser obrigatório</li>
+<li>Membros só podem ser adicionados, se forem convidados</li>
+<li>Qualquer tipo de caractere deve ser aceito para o nome do channel</li>
+<li>Administrador determina quem pode convidar membros</li>
+<li>Nome do channel deve conter no mínimo um caractere</li>
+<li>Não é necessário que convide membros durante a criação do channel</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-01">INT1.1</a>, <a href="../../Elicitação/Introspeccao/#introspeccao-02">INT2.5</a>, <a href="../../Elicitação/Introspeccao/#introspeccao-03">INT3.1</a>, <a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">Storyboard 1</a>, <a href="../../Elicitação/analprot/#requisitos-elicitados">AP4</a>, <a href="../../Elicitação/questionario/#requisitos-elicitados">Q16</a>, <a href="../cenarios/#c3-v2">C3</a></em></p>
+<h4 id="us20">US20</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US20</td>
+<td>Usuário</td>
+<td>Enviar mensagem direta</td>
+<td>gostaria de enviar mensagens privadas para determinado usuário</td>
+<td></td>
+<td>5</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Conversa iniciada ao acessar o perfil de um usuário na lista de membros de um channel, ou ao procura-lo na barra de pesquisa, na página inicial</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-01">INT1.1</a>, <a href="../../Elicitação/Introspeccao/#introspeccao-02">INT2.5</a>, <a href="../../Elicitação/Introspeccao/#introspeccao-03">INT3.1</a>, <a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">Storyboard 1</a>, <a href="../../Elicitação/analprot/#requisitos-elicitados">AP4</a>, <a href="../../Elicitação/questionario/#requisitos-elicitados">Q16</a>, <a href="../cenarios/#c3-v2">C3</a></em></p>
+<h4 id="us21">US21</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US21</td>
+<td>Usuário</td>
+<td>Criar Discussão</td>
+<td>necessito tratar de assuntos rápidos, porém mais específicos entre um pequeno grupo de usuários em um channel</td>
+<td></td>
+<td>3</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Por padrão, somente administradores e moderadores podem convidar novos membros</li>
+<li>Somente membros podem ter acesso à esse channel</li>
+<li>Nome do channel deve ser obrigatório</li>
+<li>Qualquer tipo de caractere deve ser aceito para o nome do channel</li>
+<li>Nome do channel deve conter no mínimo um caractere</li>
+<li>Não é necessário que convide membros durante a criação do channel</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l27">L27</a>, <a href="../cenarios/#c3">C3</a></em></p>
+<h3 id="ep09-configuracoes-do-channel">EP09 - Configurações do Channel</h3>
+<h4 id="us22">US22</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US22</td>
+<td>Administrador/Proprietário do Channel</td>
+<td>Alterar Privacidade do Channel</td>
+<td>preciso da liberdade de poder deixar que os usuários do servidor consigam ou não visualizar a existência do meu Channel</td>
+<td></td>
+<td>3</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Usuário deve conseguir alterar a qualquer momento depois da criação do channel a privacidade</li>
+<li>Somente usuários administradores ou o Proprietário deverão conseguir alterar a privacidade</li>
+<li>Qualquer tipo de channel (private group, channel público, discussões) pode ter a privacidade alterada, exceto direct messages</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l72">L72</a>, <a href="../cenarios/#c26">C26</a>, <a href="../diagramas/#dcu8">DCU8</a>, <a href="../especificacao/#ec2">EC2</a></em></p>
+<h4 id="us23">US23</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US23</td>
+<td>Administrador/Proprietário do Channel</td>
+<td>Definir modo de Read Only Channel</td>
+<td>assim posso usa-lo como uma lista de transmissão onde apenas os administradores podem enviar mensagem</td>
+<td>canal apenas de leitura</td>
+<td>5</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>No momento em que é criado um canal deve existir a opção only-read channel</li>
+<li>Apenas o usuário o qual criou o canal deve poder enviar mensagens</li>
+<li>Apenas administradores devem poder convidar pessoas para o canal</li>
+<li>O nome do canal deve possuir ao menos um caractere</li>
+<li>Não é necessário que convide membros durante a criação do channel</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l69">L69</a>, <a href="../cenarios/#c22">C22</a>, <a href="../diagramas/#dcu9-v1">DCU9</a>, <a href="especificacao#ec3">EC3</a></em></p>
+<h4 id="us24">US24</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US24</td>
+<td>Administrador/Proprietário do Channel</td>
+<td>Alterar modo para BroadCast</td>
+<td>gostaria de alterar o Channel, onde apenas os usuários autorizados consigam enviar mensagens, mas os usuários consigam responder as mesmas</td>
+<td></td>
+<td>5</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Somente usuários administradores ou o Proprietário deverão conseguir alterar o channel para modo de BroaCast</li>
+<li>Com o modo ativado, apenas os usuários autorizados pelos administradores conseguem enviar mensagens, mas todos os outros usuários conseguem responder a mensagem</li>
+<li>Este modo só poderá ser ativado na criação do Channel</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h4 id="us25">US25</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US25</td>
+<td>Administrador/Proprietário do Channel</td>
+<td>Adicionar descrição do Channel</td>
+<td>gostaria de adicionar uma descrição adequada para meu Channel</td>
+<td></td>
+<td>2</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Somente usuários administradores ou o Proprietário deverão conseguir adicionar a descrição de um Channel</li>
+<li>A descrição deverá possuir um limite de caracteres inseridos</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h4 id="us26">US26</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US26</td>
+<td>Administrador/Proprietário do Channel</td>
+<td>Adicionar tópico do Channel</td>
+<td>gostaria de adicionar os tópicos, temas e interesses do meu Channel</td>
+<td></td>
+<td>2</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Somente usuários administradores ou o Proprietário deverão conseguir adicionar o tópico de um Channel</li>
+<li>O tópico deve possuir um limite de caracteres inseridos</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l33">L33</a></em></p>
+<h3 id="ep10-mensagens">EP10 - Mensagens</h3>
+<h4 id="us27">US27</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US27</td>
+<td>Usuário</td>
+<td>Enviar uma mensagem de texto</td>
+<td>preciso me comunicar de forma escrita com os membros de um channel</td>
+<td></td>
+<td>5</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá ser capaz de enviar uma mensagem de texto para qualquer channel que ele faça parte</li>
+<li>A mensagem enviada deverá ser recebida por todos os membros que fazem parte daquele channel</li>
+<li>Quando usuário digitar uma mensagem muito grande será perguntado se ele deseja enviar a mensagem pelo meio padrão ou se ele deseja encapsular a mensagem em um arquivo e enviá-lo ao channel</li>
+</ul>
+<p>_Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-04">INT4.1</a>,
+<a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">Storyboard 1</a>, <a href="../cenarios/#c12-v2">C12</a>__</p>
+<h4 id="us28">US28</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US28</td>
+<td>Usuário</td>
+<td>Enviar um arquivo</td>
+<td>para poder enviar qualquer documento ou arquivo que esteja armazenado no meu dispositivo para os demais membros do channel</td>
+<td>Este arquivo pode ser uma foto, vídeo, documento, áudio, etc</td>
+<td>5</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Essa opção deve possibilitar ao usuário buscar no armazenamento do seu dispositivo o arquivo que deseja enviar</li>
+<li>Essa opção deve possibilitar ao usuário buscar no Google Drive um arquivo que deseja enviar</li>
+<li>O arquivo enviado deverá ser recebido por todos os membros que fazem parte daquele channel</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-02">INT2.1</a>,
+<a href="../../Elicitação/questionario/#requisitos-elicitados">Q6</a>, <a href="../cenarios/#c9-v2">C9</a></em></p>
+<h4 id="us29">US29</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US29</td>
+<td>Usuário</td>
+<td>Enviar um emoji</td>
+<td>para poder demonstrar minha reação ou sentimento em um channel</td>
+<td></td>
+<td>3</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deve poder enviar emojis ou gifs, que estarão divididos por categorias</li>
+<li>O emoji enviado deverá ser recebido por todos os membros que fazem parte daquele channel</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l7">L7</a></em></p>
+<h4 id="us30">US30</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US30</td>
+<td>Usuário</td>
+<td>Enviar desenho</td>
+<td>gostaria de fazer uma representação ou explicação rápida que é melhor representado com um rascunho de um desenho</td>
+<td></td>
+<td>5</td>
+<td>Would</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deve conseguir fazer um desenho estando em um channel (versão mobile)</li>
+<li>O desenho deverá ser enviado como qualquer mensagem no chat</li>
+<li>Os outros usuários devem conseguir visualizar o desenho no próprio aplicativo</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l43">L43</a>, <a href="../cenarios/#c8">C8</a>, <a href="../especificacao/#ec17">EC17</a></em></p>
+<h4 id="us31">US31</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US31</td>
+<td>Usuário</td>
+<td>Enviar mensagem de áudio</td>
+<td>para mandar mensagem de voz ao invés de escreve um texto</td>
+<td></td>
+<td>5</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário poderá enviar mensagem de áudio com tempo ilimitado</li>
+<li>A mensagem de áudio deverá ser recebida por todos os membros que fazem parte daquele channel</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-01">INT1.5</a>,
+<a href="../../Elicitação/questionario/#requisitos-elicitados">Q6</a></em></p>
+<h4 id="us32">US32</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US32</td>
+<td>Usuário</td>
+<td>Enviar Mensagem de vídeo</td>
+<td>preciso transmitir uma mensagem melhor compreendida através de um video</td>
+<td>como por exemplo uma demonstração de um trabalho, ou um video da gravação de uma reunião física</td>
+<td>8</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Qualquer usuário em uma channel deve conseguir enviar um vídeo</li>
+<li>O vídeo deverá ser gravado no momento que o usuário deseja enviar (versão Desktop) ou ser enviado como um arquivo presente no dispositivo</li>
+<li>O vídeo deverá possuir um tamanho máximo suportado</li>
+<li>O aplicativo deverá suportar os principais formatos disponíveis no mercado</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspeccao-01">INT1.5</a></em></p>
+<h4 id="us33">US33</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US33</td>
+<td>Usuário</td>
+<td>Anexar Arquivo na mensagem</td>
+<td>preciso compartilhar um arquivo com minha equipe</td>
+<td>arquivo anexado, pode ser um audio, documento de texto, video, imagem entre outros</td>
+<td>5</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Qualquer usuário em uma channel deve conseguir anexar um arquivo a partir do dispositivo utilizado</li>
+<li>Os arquivos devem ser compativeis com os formatos suportados pelo aplicativo</li>
+<li>O usuário deve conseguir anexar arquivos de audio, documento de texto, video, imagem entre outros</li>
+<li>O arquivo pode ser enviado sozinho ou junto com uma mensagem de texto</li>
+<li>Todos os outros usuários devem ser capazes de visualizar a mensagem com o arquivo anexado</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspecção-02">INT2.1</a></em></p>
+<h4 id="us34">US34</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US34</td>
+<td>Usuário</td>
+<td>Editar uma mensagem que foi enviada em um channel</td>
+<td>para poder corrigir erros ou fazer quaisquer alterações na mesma</td>
+<td>Deve haver um aviso que a mensagem foi editada</td>
+<td>5</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deve poder editar a mensagem a qualquer momento após tê-la enviado</li>
+<li>Um aviso com a mensagem "editado" deve ser exibido junto á mensagem que foi editada</li>
+</ul>
+<p><em>Originada em: <a href="../cenarios/#c5">C5</a></em></p>
+<h4 id="us35">US35</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US35</td>
+<td>Usuário</td>
+<td>Copiar Mensagem</td>
+<td>preciso repassar a mensagem para outro lugar</td>
+<td></td>
+<td>2</td>
+<td>Would</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Os usuários de um channel devem conseguir copiar o texto de mensagens para a área de compartilhamento do dispositivo</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l54">L54</a></em></p>
+<h4 id="us36">US36</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US36</td>
+<td>Usuário</td>
+<td>Pegar Link da Mensagem</td>
+<td>preciso compartilhar a mensagem</td>
+<td></td>
+<td>3</td>
+<td>Would</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá conseguir pegar o link de uma mensagem e compartilhar com outro usuário</li>
+<li>O link poderáser acessado através de um navegador</li>
+<li>Apenas usuários cadastrados no Rocket.Chat e que tenham acesso ao Channel conseguem acessar o link</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l13">L13</a></em></p>
+<h4 id="us37">US37</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US37</td>
+<td>Usuário</td>
+<td>Seguir Mensagem</td>
+<td>gostaria de seguir as respostas para uma mensagem de meu interesse que não foi eu que criei</td>
+<td></td>
+<td>3</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá conseguir acompanhar uma mensagem recebendo notificações de novas respostas para a mensagem seguida</li>
+<li>Qualquer usuário do channel deverá conseguir realizar esta ação</li>
+<li>O usuário que criou a mensagem não precisa realizar essa ação, pois naturalmente ele já recebe notificações de novas respostas</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h4 id="us38">US38</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US38</td>
+<td>Usuário</td>
+<td>Remover uma mensagem de um channel</td>
+<td>para que ela não seja mais exibida dentro daquele channel e os demais membros não possam mais lê-la</td>
+<td>É necessário que tenha um aviso de que a mensagem foi removida</td>
+<td>3</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deve poder remover uma mensagem a qualquer momento após tê-la enviado</li>
+<li>No lugar da mensagem removida deverá ser exibido um aviso escrito "mensagem removida"</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/questionario/#requisitos-elicitados">Q8</a></em></p>
+<h4 id="us39">US39</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US39</td>
+<td>Usuário</td>
+<td>Adicionar uma reação(emoji) em uma determinada mensagem dentro de um channel</td>
+<td>para expressar o sentimento ou sensação que tive ao ler aquela mensagem</td>
+<td>A reação deverá ficar junto á mensagem que foi "reagida"</td>
+<td>2</td>
+<td>Would</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá poder adicionar uma reação para uma mensagem enviada em um channel da qual faz parte</li>
+<li>Se vários usuários adicionarem reações a uma mesma mensagem, todas as reações deverão ser exibidas</li>
+</ul>
+<p><em>Originada em: <a href="lexicos#l9">L9</a></em></p>
+<h4 id="us40">US40</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US40</td>
+<td>Usuário</td>
+<td>Responder uma mensagem de um channel</td>
+<td>para que o usuário que a enviou saiba que aquela resposta foi direcionada a sua mensagem</td>
+<td></td>
+<td>5</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deverá poder responder uma mensagem que foi enviada em um channel</li>
+<li>Uma mensagem de resposta deve exibir junto a ela a mensagem que está sendo respondida</li>
+</ul>
+<p><em>Originada em: <a href="../cenarios/#c7-v2">C7</a></em></p>
+<h4 id="us41">US41</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US41</td>
+<td>Usuário</td>
+<td>Reportar uma mensagem de um channel</td>
+<td>para indicar que aquela mensagem foi ofensiva de alguma forma</td>
+<td></td>
+<td>5</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O usuário deve poder reportar qualquer mensagem que tenha sido enviada no channel caso deseje</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h3 id="ep11-acoes-do-channel">EP11 - Ações do Channel</h3>
+<h4 id="us42">US42</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US42</td>
+<td>Usuário</td>
+<td>Favoritar o channel</td>
+<td>preciso conseguir agrupar os Channels que eu mais interajo, em um espaço para que eu consiga acessá-lo com mais facilidade</td>
+<td></td>
+<td>3</td>
+<td>Could</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Somente os Channels que o usuário é membro favoritou devem aparecer na listagem dessa categoria</li>
+<li>Quando o usuário Favoritar um Channel deve aparecer um botão para remover o Channel como Favorito</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/questionario/#requisitos-elicitados">Q15</a></em></p>
+<h4 id="us43">US43</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US43</td>
+<td>Usuário</td>
+<td>Mencionar Usuários</td>
+<td>preciso enviar uma mensagem direcionada para o usuário, ou apenas chamar a sua atenção</td>
+<td></td>
+<td>5</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Apenas usuários do channels devem aparecer como opção quando o usuário estiver tentando escrever o nome de usuário ao qual quer mencionar</li>
+<li>Quando um usuário for mencionado ele receberá uma notificação</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD5</a>, <a href="../../Elicitação/Introspeccao/#introspecção-01">INT1.6</a>, <a href="lexicos#l4">L4</a></em></p>
+<h4 id="us44">US44</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US44</td>
+<td>Usuário</td>
+<td>Alterar Preferências de notificações</td>
+<td>desejo recebimento de notificações de acordo com minhas preferências de utilização do Channel</td>
+<td></td>
+<td>5</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Apenas usuários membros de um channel podem alterar as notificações</li>
+<li>Devem ter opções separadas de notificaçõs para cada tipo de dispositivo (Desktop, Mobile)</li>
+<li>Deve ser possível alterar notificações de áudio</li>
+<li>Deve ser possível alterar notificações de E-mails</li>
+<li>Deve ser possível desativar ou ativar as notificações quando o usuário for mencionado dentro do channel</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD5</a>, <a href="../lexicos/#l28">L28</a>, <a href="../cenarios/#c19">C19</a>, <a href="../diagramas/#dcu14-v1">DCU14</a>, <a href="../especificacao/#ec24">EC24</a></em></p>
+<h4 id="us45">US45</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US45</td>
+<td>Usuário</td>
+<td>Utilizar tradução instantânea</td>
+<td>preciso me comunicar com membros da equipe que possuem um idioma que não domino totalmente</td>
+<td></td>
+<td>13</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>A tradução deve estar disponível a qualquer momento quando em uma videoconfrerência</li>
+<li>Tradução também deve estar disponível no chat principal do Channel para as mensagens de texto</li>
+<li>Deve ser possível alterar os idiomas de preferência</li>
+<li>Deve ser possível ativar ou desativar a funcionalidade</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspecção-04">INT4.4</a>, <a href="../Elicitação/StoryBoard.md#4-requisitos-obtidos">StoryBoard 3</a>, <a href="../lexicos/#l31">L31</a></em></p>
+<h4 id="us46">US46</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US46</td>
+<td>Usuário</td>
+<td>Iniciar Video Chat</td>
+<td>preciso realizar uma reunião com membros que não podem se encontrar fisicamente</td>
+<td></td>
+<td>8</td>
+<td>Should</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>A funcionalidade deve estar disponível a qualquer momento quando o usuário for membro em uma equipe</li>
+<li>Quando inicada deve aparecer uma mensagem no chat do Channel indicando que um video chat foi iniciado</li>
+<li>Deve ser possível compartilhar o link do Channel que pode ser acessado a partir de qualquer dispositivo suportado pelo aplicativo</li>
+<li>Deve ser possível transmitir o video chat para o YouTube</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspecção-01">INT1.5</a>, <a href="../../Elicitação/Introspeccao/#introspecção-03">INT3.5</a>, <a href="../Elicitação/StoryBoard.md#4-requisitos-obtidos">StoryBoard 2</a>, <a href="../cenarios/#c2-v1">C2</a>, <a href="../lexicos/#l25">L25</a>, <a href="../diagramas/#dcu1-v1">DCU1</a>, <a href="../especificacao/#ec20">EC20</a></em></p>
+<h4 id="us47">US47</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US47</td>
+<td>Usuário</td>
+<td>Visualizar informações do Channel</td>
+<td>gostaria de ver a descrição do Channel, Deixar, ou Esconder o Channel</td>
+<td>Também possui informações de anúncios e tópicos</td>
+<td>3</td>
+<td>Should</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Deve ser possível a visualização da tela por qualquer membro do Channel</li>
+<li>Apenas usuários administradores podem alterar as informações</li>
+<li>Deve aparecer três titulos principais e seu conteúdo (Descrição, Tópico e Anúncios)</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h4 id="us48">US48</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US48</td>
+<td>Usuário</td>
+<td>Procurar Mensagens</td>
+<td>preciso encontrar mensagens a partir de texto</td>
+<td>por exemplo, um trecho da mensagem que eu me lembro</td>
+<td>2</td>
+<td>Could</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Para procurar uma mensagem o usuário deve ser membro do channel ao qual a mensagem pertence</li>
+<li>A busca poderá ser realizada através de texto</li>
+<li>A busca poderá ser realizada através da listagem cronológica de publicação no chat do channel</li>
+<li>A busca poderá ser realizada através da listagem de mensagens favoritadas</li>
+<li>A busca poderá ser realizada através da listagem de mensagens fixadas pelo administrador do Channel</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l11">L11</a>, <a href="../cenarios/#c17">C17</a>, <a href="../diagramas/#dcu12-v1">DCU12</a>, <a href="../especificacao/#ec13">EC13</a></em></p>
+<h4 id="us49">US49</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US49</td>
+<td>Usuário</td>
+<td>Favoritar Mensagem</td>
+<td>gostaria de conseguir encontrá-la com mais facilidade mais tarde</td>
+<td></td>
+<td>3</td>
+<td>Should</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Apenas usuários membros em um Channel podem favoritar uma mensagem pertencente ao Channel</li>
+<li>Quando favoritada a mensagem deve ser listar nas opções pessoais do channel individuais para cada usuários para uma busca rápida da mensagem</li>
+<li>Quando uma mensagem for favoritada deverá a ver um botão para desfavoritar mensagem</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l71">L71</a>, <a href="../cenarios/#c13">C13</a>, <a href="../diagramas/#dcu6-v1">DCU6</a>, <a href="../especificacao/#ec6">EC6</a></em></p>
+<h4 id="us50">US50</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US50</td>
+<td>Administrador/Proprietário do Channel</td>
+<td>Fixar Mensagem</td>
+<td>gostaria de destacar mensagens importantes para todos os membros do channel visualizarem</td>
+<td></td>
+<td>3</td>
+<td>Should</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Apenas usuários administradores em um Channel podem fixar uma mensagem pertencente ao Channel</li>
+<li>Quando favoritada a mensagem deve ser listar nas opções pessoais do channel compartilhdas por todos para uma busca rápida da mensagem</li>
+<li>Quando uma mensagem for fixada deverá a ver um botão para desafixar mensagem</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l3">L3</a>, <a href="../lexicos/#l16">L16</a>, <a href="../cenarios/#c11">C11</a>, <a href="../cenarios/#c25">C25</a>, <a href="../diagramas/#dcu3">DCU3</a>, <a href="../especificacao/#ec6">EC6</a>, <a href="../especificacao/#ec12">EC12</a></em></p>
+<h4 id="us51">US51</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US51</td>
+<td>Usuário</td>
+<td>Visualizar lista de arquivos enviados</td>
+<td>preciso encontrar com mais facilidade um arquivo que foi compartilhado no Channel</td>
+<td>Útil para ganhar tempo, sem preciso encontrar a mensagem em que o arquivo foi enviado</td>
+<td>5</td>
+<td>Could</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Um arquivo irá aparecer nessa listagem imediatamente quando for anexado a uma mensagem</li>
+<li>A lista de arquivos em um channel será única e compartilhada por todos do Channel</li>
+<li>O arquivo deverá desaparecer da lista se a sua mensagem correspondente for apagada</li>
+<li>Quando clicado na representação de um arquivo o usuário deverá imediatamente ser redirecionado para a localização original da mensagem correspondente</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h4 id="us52">US52</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US52</td>
+<td>Usuário</td>
+<td>Utilizar atalhos no teclado</td>
+<td>gostaria de aumentar a eficiência e produtividade para usuários mais experientes</td>
+<td>Funcionalidade disponível apenas no Desktop</td>
+<td>3</td>
+<td>Would</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Qualquer usuário do aplicativo poderá utilizar essa funcionalidade</li>
+<li>Funcionalidade apenas disponível para desktop</li>
+<li>A funcionalidade deverá estar disponível a qualquer momento</li>
+<li>Deverá haver no menu de ajuda uma lista com os atalhos suportados pelo aplicativo</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h3 id="ep12-video-chat">EP12 - Video Chat</h3>
+<h4 id="us53">US53</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US53</td>
+<td>Administrador da Video Chat</td>
+<td>Convidar Membros da equipe</td>
+<td>preciso convidar usuários membros no channel para a video conferência</td>
+<td></td>
+<td>8</td>
+<td>Must</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Apenas o usuário que iniciou a Video Chat poderá convidar novos membros</li>
+<li>Ao Usuário convidado deverá ser enviado uma notificação</li>
+<li>Usuário deverá ter a opção de aceitar ou recusar convite para a Video Chat</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l59">L59</a></em></p>
+<h4 id="us54">US54</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US54</td>
+<td>Administrador da Video Chat</td>
+<td>Compartilhar link</td>
+<td>gostaria de compartilhar video chat com qualquer pessoa que tenha um dispositivo com acesso a internet e um navegador</td>
+<td></td>
+<td>3</td>
+<td>Could</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Qualquer usuário poderá compartilhar o link da Video Chat</li>
+<li>Apenas usuários membros do Channel ao qual a mensagem pertence poderão acessar o link gerado</li>
+<li>O link deverá ser possível o acesso através de qualquer dispositivo suportado, inclusive através do navegador</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l13">L13</a></em></p>
+<h4 id="us55">US55</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US55</td>
+<td>Administrador da Video Chat</td>
+<td>Compartilhar para YouTube</td>
+<td>gostaria de realizar uma transmissão da video conferência na plataforma do YouTube</td>
+<td></td>
+<td>3</td>
+<td>Could</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Apenas o usuário que iniciou a Video Chat poderá realizar esta ação</li>
+<li>Deverá haver a opção para transmitir de maneira ao vivo a Video Chat para um Canal do Youtube</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h4 id="us56">US56</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US56</td>
+<td>Usuário</td>
+<td>Assistir a video aula através de texto</td>
+<td>não sou capaz de acompanhar a reunião através da audição</td>
+<td>pode ser requirido por não entendimento da pronúncia do idioma utlizado por outros membros, por deficiência na audição, ou até mesmo por não possuir um dispositivo disponível com audio</td>
+<td>5</td>
+<td>13</td>
+<td>Could</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Qualquer usuário presente na video chat poderá utilizar essa funcionalidade</li>
+<li>Deverá ter uma opção para ativar ou desativar a funcionalidade</li>
+<li>Deverá ter opções para alterar idioma de tradução</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h4 id="us57">US57</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US57</td>
+<td>Usuário</td>
+<td>Compartilhar tela do computador</td>
+<td>preciso realizar uma apresentação com slides ou mostrar um trabalho que estou realizando</td>
+<td></td>
+<td>8</td>
+<td>Could</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Opção deverá estar disponível para todos usuários presentes na video chat</li>
+<li>O usuário poderá restringir o compartilhamento para uma tela específica</li>
+<li>O usuário poderá compartilhar a tela atual que o mesmo está visualizando no momento</li>
+<li>A qualquer momento deverá haver uma opção para ativar ou desativar a funcionalidade</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD3</a>, <a href="../Elicitação/Instrospeccao.md#introspecção-03">INT3.5</a>, <a href="../../Elicitação/questionario/#requisitos-elicitados">Q11</a>, <a href="../Elicitação/storyboard.md#requisitos-obtidos">Storyboard 2</a></em></p>
+<h3 id="ep13-gerenciar-usuarios">EP13 - Gerenciar Usuários</h3>
+<h4 id="us58">US58</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US58</td>
+<td>Usuário</td>
+<td>Visualizar Lista de Membros</td>
+<td>preciso saber a quantidade de mebros em um Channel ou procurar por um usuário</td>
+<td></td>
+<td>3</td>
+<td>Should</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Qualquer usuário membro no Channel poderá visualizar a lista de integrantes</li>
+<li>Usuário poderá realizar a busca pelo nome de usuário de um mbro</li>
+<li>Usuário poderá filtrar a lista de membros de acordo com os membros "online" ou todos</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h4 id="us59">US59</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US59</td>
+<td>Usuário</td>
+<td>Visualizar informações de um Usuário</td>
+<td>gostaria de iniciar uma conversa com o usuário ou bloquear as notificações enviadas por ele. Também gostaria de saber se o usuário está online</td>
+<td></td>
+<td>3</td>
+<td>Should</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Qualquer usuário poderá visualizar as informações básicas de outro usuário</li>
+<li>Apenas o usuário dono da conta poderá visualizar as informações pessoais</li>
+<li>Apenas o usuário dono da conta poderá alterar as informações pessoais</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/analprot/#requisitos-elicitados">AP7</a>, <a href="../lexicos/#l8">L8</a></em></p>
+<h4 id="us60">US60</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US60</td>
+<td>Administrador/Proprietário do Channel</td>
+<td>Adicionar usuários</td>
+<td>preciso formar a minha equipe dentro de um channel</td>
+<td></td>
+<td>3</td>
+<td>Must</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Apenas os usuários administradores poderão adicionar ou aceitar usuários no Channel</li>
+</ul>
+<p><em>Originada em: <a href="../Elicitação/analpro.md#requisitos-elicitados">AP5</a>, <a href="../lexicos/#l59">L59</a></em></p>
+<h4 id="us61">US61</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US61</td>
+<td>Administrador/Proprietário do Channel</td>
+<td>Remover usuários</td>
+<td>necessito retirar do channel um usuário que não faz mais parte da equipe</td>
+<td></td>
+<td>3</td>
+<td>Should</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Apenas os usuários administradores poderão remover um usuário membro em um grupo</li>
+<li>Para um usuário ser removido ele deverá estar na lista de mebros</li>
+<li>Após removido o usuário deverá ser retirado da lista</li>
+</ul>
+<p><em>Originada em:</em></p>
+<h3 id="ep14-integracoes">EP14 - Integrações</h3>
+<h4 id="us62">US62</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US62</td>
+<td>Administrador/Proprietário do Channel</td>
+<td>Adicionar Bots</td>
+<td>gostaria de ajuda na realização de tarefas repetitivas</td>
+<td>geralmente para mostrarem as regras do Channel, mensagens de rotina em outro serviço que o grupo utilize (como github por exemplo), responderem perguntas programadas ou até mesmo remover um usuário que propaga spam</td>
+<td>8</td>
+<td>Should</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Para adicionar bots o usuário deverá ser administrador em Channel
+8 O bot deverá ser integrado ao Channel como um usuário</li>
+<li>O bot integrado ao channel poderá interagir com os outros usuários</li>
+<li>Para adicionar bots o usuário deverá possuir conhecimentos prévios para configurar ou programar o bot</li>
+<li>As permissões do bot devem ser configurados pelo seu "dono" (exemplo: alguns bots podem ter poder até para remover outros usuários se os mesmos infrigirem alguma regra do Channel)</li>
+<li>A inserção de bots se aplica apenas para Channels e Grupos privados</li>
+</ul>
+<p><em>Originada em: <a href="../Elicitação/analdiscurso.md/requisitos-elicitados">AD7</a>, <a href="../../Elicitação/Entrevista/#requisitos">ENT1.1</a>, <a href="../../Elicitação/Introspeccao/#introspecção-03">INT3.9</a>, <a href="../../Elicitação/questionario/#requisitos-elicitados">Q2</a>, <a href="../lexicos/#l26">L26</a>, <a href="../cenarios/#c24">C24</a></em></p>
+<h3 id="ep15-deixar-channel">EP15 - Deixar Channel</h3>
+<h4 id="us63">US63</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US63</td>
+<td>Usuário</td>
+<td>Esconder um channel</td>
+<td>necessito que possa continuar como membro, porém não receber notificações e não ser exibido em minha lista de channels</td>
+<td></td>
+<td>2</td>
+<td>Should</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Qualquer usuário membro em um grupo poderá realizar a ação de ocultar um channel da listagem de channels</li>
+<li>Channels não podem ser removidas do aplicativo</li>
+<li>Quando um usuário for o único membro em um Channel, essa será a única opção possível, não podendo deixar ou remover o Channel</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l49">L49</a>, <a href="../cenarios/#c16-v1">C16</a>, <a href="../diagramas/#dcu23-v1">DCU23</a>, <a href="../especificacao/#ec23">EC23</a></em></p>
+<h4 id="us64">US64</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US64</td>
+<td>Usuário</td>
+<td>Deixar um Channel</td>
+<td>não faço mais parte da equipe</td>
+<td></td>
+<td>2</td>
+<td>Must</td>
+<td>funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>Opção disponível para qualquer usuário desde que seja membro do Channel</li>
+<li>Se o usuário for o proprietário do Channel, ele deverá nomear outro usuário como membro antes de poder deixar o Channel</li>
+<li>Quando usuário deixar o Channel, deverá ser removido da lista de membros</li>
+</ul>
+<p><em>Originada em: <a href="../lexicos/#l48">L48</a>, <a href="../diagramas/#dcu22-v1">DCU22</a>, <a href="../especificacao/#ec22">EC22</a></em></p>
+<h2 id="t05-servidor">T05 - Servidor</h2>
+<h3 id="ep16-conectar-com-um-servidor">EP16 - Conectar com um servidor</h3>
+<h4 id="us65">US65</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US65</td>
+<td>Usuário</td>
+<td>Conectar com um servidor da aplicação</td>
+<td>para que eu possa acessar o servidor em que meu time/empresa esteja utilizando para se comunicar</td>
+<td>Deve conter o nome do servidor e provedor</td>
+<td>3</td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O endereço de servidor deve ser validado, conter o nome do servidor e provedor</li>
+<li>Deve ser aplicado um protocolo de conexão</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Entrevista/#requisitos">ENT1.7</a>,<a href="../../Elicitação/Introspeccao/#introspeccao-01">INT1.4</a>,  <a href="../../Elicitação/Introspeccao/#introspeccao-03">INT3.2</a>, <a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">Storyboard 4</a>, <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD13</a>, <a href="../../Elicitação/analprot/#requisitos-elicitados">AP2</a>, <a href="../cenarios/#c4-v2">C4</a></em></p>
+<h3 id="ep17-seguranca">EP17 - Segurança</h3>
+<h4 id="us66">US66</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US66</td>
+<td>Usuário</td>
+<td>estar em uma conexão segura</td>
+<td>preciso transmitir mensagens confidenciais com minha equipe</td>
+<td>independente do usuário possuir um servidor particular ou não</td>
+<td>8</td>
+<td>Must</td>
+<td>Não Funcional</td>
+</tr>
+</tbody>
+</table>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspecção-01">INT1.7</a></em></p>
+<h4 id="us67">US67</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US67</td>
+<td>Usuário administrador do servidor</td>
+<td>Definir opção para criptografar meus channels por chave E2E</td>
+<td>preciso transitir mensagens confidenciais com minha equipe</td>
+<td>independente do usuário possuir um servidor particular ou não</td>
+<td></td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<p><em>Originada em:</em></p>
+<h3 id="ep18-suporte-a-grandes-equipes">EP18 - Suporte a grandes Equipes</h3>
+<h4 id="us68">US68</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US68</td>
+<td>Usuário administrador do servidor</td>
+<td>Adicionar vários channels e usuários ao servidor dedicado</td>
+<td>preciso que todas as equipes envolvidas no(s) projeto(s) tenham acesso aos channels que representam suas equipes</td>
+<td>O servidor deve suportar o aumento de usuários</td>
+<td></td>
+<td>Must</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<p><em>Originada em: <a href="../../Elicitação/Introspeccao/#introspecção-03">INT3.2</a></em></p>
+<h3 id="ep19-diretorio">EP19 - Diretório</h3>
+<h4 id="us69">US69</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US69</td>
+<td>Usuário</td>
+<td>Verificar todos os Channels do servidor</td>
+<td>desejo saber a relação de Channels criados no servidor</td>
+<td>Opções disponíveis apenas no Desktop</td>
+<td></td>
+<td>Would</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<p><em>Originada em:</em></p>
+<h4 id="us70">US70</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US70</td>
+<td>Usuário</td>
+<td>Verificas todos os usuários do servidor</td>
+<td>desejo saber a relação de todos os usuários cadastrados no servidor</td>
+<td></td>
+<td>3</td>
+<td>Would</td>
+<td>Funcional</td>
+</tr>
+</tbody>
+</table>
+<p><em>Originada em:</em></p>
+<h4 id="us71">US71</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US71</td>
+<td>Arquiteto do projeto</td>
+<td>que o software possua uma arquitetura escalável para que ele possa atender mais pessoas de forma mais estável</td>
+<td>assim mantenho o servidor funcionando de forma adequada para todos os usuários</td>
+<td></td>
+<td>13</td>
+<td>Should</td>
+<td>Não Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>A arquitetura deve permitir que o servidor além de ser escalável possoa funcionar sob uma infraestrutura on-premise</li>
+<li>A aquitetura deve permitir instâncias individuais do software</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Entrevista/#requisitos">ENT1.9</a></em></p>
+<h4 id="us72">US72</h4>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Eu, como</th>
+<th>desejo</th>
+<th>porque</th>
+<th>comentário</th>
+<th>pontos</th>
+<th>prioridade</th>
+<th>Tipo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>US72</td>
+<td>Usuário</td>
+<td>fazer minha própria instancia do software com infraestrutura on-premise</td>
+<td>assim tenho mais controle dos dados os quais são enviados no servidor o qual uso</td>
+<td></td>
+<td>13</td>
+<td>Must</td>
+<td>Não Funcional</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>O serviço deve ser suportado por servidor Linux</li>
+</ul>
+<p><em>Originada em: <a href="../../Elicitação/Entrevista/#requisitos">ENT1.7</a></em></p>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Modificação</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>07/05/2019</td>
+<td>1.0</td>
+<td>Abertura do documento</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>07/05/2019</td>
+<td>1.1</td>
+<td>Inclusão dos épicos EP01 e EP02</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>07/05/2019</td>
+<td>1.2</td>
+<td>Inclusão do épico EP08</td>
+<td>Heron Rodrigues</td>
+</tr>
+<tr>
+<td>07/05/2019</td>
+<td>1.3</td>
+<td>Inclusão do tema EP10</td>
+<td>Weiller Fernandes</td>
+</tr>
+<tr>
+<td>08/05/2019</td>
+<td>1.4</td>
+<td>Inclusão do tema T05</td>
+<td>Heron Rodrigues</td>
+</tr>
+<tr>
+<td>08/05/2019</td>
+<td>1.5</td>
+<td>Inclusão do tema T03, com EP03 e 04</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>08/05/2019</td>
+<td>1.6</td>
+<td>Melhor formatação das tabelas</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>08/05/2019</td>
+<td>1.7</td>
+<td>Inclusão dos pontos da US27 a US41</td>
+<td>Weiller Fernandes</td>
+</tr>
+<tr>
+<td>08/05/2019</td>
+<td>2.0</td>
+<td>Inclusão dos épicos EP8, EP9, EP10</td>
+<td>João Lucas</td>
+</tr>
+<tr>
+<td>08/05/2019</td>
+<td>2.1</td>
+<td>Inclusão do épico EP11</td>
+<td>João Lucas</td>
+</tr>
+<tr>
+<td>08/05/2019</td>
+<td>2.2</td>
+<td>Inclusão do tema T06, com EP13</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>08/05/2019</td>
+<td>2.3</td>
+<td>Reorganização dos identificadores dos Ts, EPs e USs</td>
+<td>Lucas Maciel</td>
+</tr>
+<tr>
+<td>11/05/2019</td>
+<td>2.4</td>
+<td>Adicionado Us no tema de Visão do aplicativo</td>
+<td>Lucas Maciel</td>
+</tr>
+<tr>
+<td>11/05/2019</td>
+<td>2.5</td>
+<td>Inclusão das USs nos épicos Configurações e Mensagens</td>
+<td>Lucas Maciel</td>
+</tr>
+<tr>
+<td>18/05/2019</td>
+<td>2.6</td>
+<td>Inclusão das USs 46-64</td>
+<td>Lucas Maciel</td>
+</tr>
+<tr>
+<td>17/06/2019</td>
+<td>2.7</td>
+<td>Adição da tablea de backlog no drive</td>
+<td>Marcos Nery</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../Elicitação/questionario/" title="Questionario" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Questionario
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../cenarios/" title="Cenários" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Cenários
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

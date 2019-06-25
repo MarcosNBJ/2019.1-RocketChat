@@ -1,0 +1,2778 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Backward-From - RocketChat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#backward-from" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="RocketChat" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RocketChat
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Backward-From
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="RocketChat" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    RocketChat
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Argumentacao/" title="Argumentacao" class="md-nav__link">
+      Argumentacao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Estratégia/" title="Estratégia" class="md-nav__link">
+      Estratégia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Storyboard/" title="Storyboard" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analdiscurso/" title="Análise de Discurso" class="md-nav__link">
+      Análise de Discurso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analprot/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas/" title="Diagramas de Caso de Uso" class="md-nav__link">
+      Diagramas de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-nav__link">
+      Diagramas de Caso de Uso 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/especificacao/" title="Especificação de Caso de Uso" class="md-nav__link">
+      Especificação de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/istar/" title="IStar" class="md-nav__link">
+      IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/nfr/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Modelagem/suplementar/" title="Documento de Especificação Suplementar" class="md-nav__link">
+      Documento de Especificação Suplementar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/DC/" title="Inspeção de Diagramas de caso de Uso" class="md-nav__link">
+      Inspeção de Diagramas de caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/IStar/" title="Inspeção do IStar" class="md-nav__link">
+      Inspeção do IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/NFR/" title="Inspeção NFR" class="md-nav__link">
+      Inspeção NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/UC/" title="Inspeção de Casos de Uso" class="md-nav__link">
+      Inspeção de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/argumentacao/" title="Inspeção de Argumentação" class="md-nav__link">
+      Inspeção de Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/backlog/" title="Inspeção do Product Backlog" class="md-nav__link">
+      Inspeção do Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6" checked>
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Backward-From
+      </label>
+    
+    <a href="./" title="Backward-From" class="md-nav__link md-nav__link--active">
+      Backward-From
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-funcionais" title="Requisitos Funcionais" class="md-nav__link">
+    Requisitos Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" title="Requisitos Não Funcionais" class="md-nav__link">
+    Requisitos Não Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elos" title="Elos" class="md-nav__link">
+    Elos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ef1" title="EF1" class="md-nav__link">
+    EF1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef2" title="EF2" class="md-nav__link">
+    EF2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef3" title="EF3" class="md-nav__link">
+    EF3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef4" title="EF4" class="md-nav__link">
+    EF4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef5" title="EF5" class="md-nav__link">
+    EF5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef6" title="EF6" class="md-nav__link">
+    EF6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef7" title="EF7" class="md-nav__link">
+    EF7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef8" title="EF8" class="md-nav__link">
+    EF8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef9" title="EF9" class="md-nav__link">
+    EF9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef10" title="EF10" class="md-nav__link">
+    EF10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef11" title="EF11" class="md-nav__link">
+    EF11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef12" title="EF12" class="md-nav__link">
+    EF12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef13" title="EF13" class="md-nav__link">
+    EF13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef14" title="EF14" class="md-nav__link">
+    EF14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef15" title="EF15" class="md-nav__link">
+    EF15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef16" title="EF16" class="md-nav__link">
+    EF16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef17" title="EF17" class="md-nav__link">
+    EF17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef18" title="EF18" class="md-nav__link">
+    EF18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef19" title="EF19" class="md-nav__link">
+    EF19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef20" title="EF20" class="md-nav__link">
+    EF20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef21" title="EF21" class="md-nav__link">
+    EF21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef22" title="EF22" class="md-nav__link">
+    EF22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef23" title="EF23" class="md-nav__link">
+    EF23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef24" title="EF24" class="md-nav__link">
+    EF24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef25" title="EF25" class="md-nav__link">
+    EF25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef26" title="EF26" class="md-nav__link">
+    EF26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef27" title="EF27" class="md-nav__link">
+    EF27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef28" title="EF28" class="md-nav__link">
+    EF28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef29" title="EF29" class="md-nav__link">
+    EF29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef30" title="EF30" class="md-nav__link">
+    EF30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef31" title="EF31" class="md-nav__link">
+    EF31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef32" title="EF32" class="md-nav__link">
+    EF32
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef33" title="EF33" class="md-nav__link">
+    EF33
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef34" title="EF34" class="md-nav__link">
+    EF34
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef35" title="EF35" class="md-nav__link">
+    EF35
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef36" title="EF36" class="md-nav__link">
+    EF36
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ef37" title="EF37" class="md-nav__link">
+    EF37
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef38" title="EF38" class="md-nav__link">
+    EF38
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef39" title="EF39" class="md-nav__link">
+    EF39
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef40" title="EF40" class="md-nav__link">
+    EF40
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef41" title="EF41" class="md-nav__link">
+    EF41
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef42" title="EF42" class="md-nav__link">
+    EF42
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef43" title="EF43" class="md-nav__link">
+    EF43
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef44" title="EF44" class="md-nav__link">
+    EF44
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef45" title="EF45" class="md-nav__link">
+    EF45
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef46" title="EF46" class="md-nav__link">
+    EF46
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef47" title="EF47" class="md-nav__link">
+    EF47
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef48" title="EF48" class="md-nav__link">
+    EF48
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef49" title="EF49" class="md-nav__link">
+    EF49
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Foward-From/" title="Foward-From" class="md-nav__link">
+      Foward-From
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Final
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Final
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-nav__link">
+      Metricas finais da Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#metodologia" title="Metodologia" class="md-nav__link">
+    Metodologia
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-funcionais" title="Requisitos Funcionais" class="md-nav__link">
+    Requisitos Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-nao-funcionais" title="Requisitos Não Funcionais" class="md-nav__link">
+    Requisitos Não Funcionais
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#elos" title="Elos" class="md-nav__link">
+    Elos
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ef1" title="EF1" class="md-nav__link">
+    EF1
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef2" title="EF2" class="md-nav__link">
+    EF2
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef3" title="EF3" class="md-nav__link">
+    EF3
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef4" title="EF4" class="md-nav__link">
+    EF4
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef5" title="EF5" class="md-nav__link">
+    EF5
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef6" title="EF6" class="md-nav__link">
+    EF6
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef7" title="EF7" class="md-nav__link">
+    EF7
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef8" title="EF8" class="md-nav__link">
+    EF8
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef9" title="EF9" class="md-nav__link">
+    EF9
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef10" title="EF10" class="md-nav__link">
+    EF10
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef11" title="EF11" class="md-nav__link">
+    EF11
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef12" title="EF12" class="md-nav__link">
+    EF12
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef13" title="EF13" class="md-nav__link">
+    EF13
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef14" title="EF14" class="md-nav__link">
+    EF14
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef15" title="EF15" class="md-nav__link">
+    EF15
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef16" title="EF16" class="md-nav__link">
+    EF16
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef17" title="EF17" class="md-nav__link">
+    EF17
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef18" title="EF18" class="md-nav__link">
+    EF18
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef19" title="EF19" class="md-nav__link">
+    EF19
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef20" title="EF20" class="md-nav__link">
+    EF20
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef21" title="EF21" class="md-nav__link">
+    EF21
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef22" title="EF22" class="md-nav__link">
+    EF22
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef23" title="EF23" class="md-nav__link">
+    EF23
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef24" title="EF24" class="md-nav__link">
+    EF24
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef25" title="EF25" class="md-nav__link">
+    EF25
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef26" title="EF26" class="md-nav__link">
+    EF26
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef27" title="EF27" class="md-nav__link">
+    EF27
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef28" title="EF28" class="md-nav__link">
+    EF28
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef29" title="EF29" class="md-nav__link">
+    EF29
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef30" title="EF30" class="md-nav__link">
+    EF30
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef31" title="EF31" class="md-nav__link">
+    EF31
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef32" title="EF32" class="md-nav__link">
+    EF32
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef33" title="EF33" class="md-nav__link">
+    EF33
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef34" title="EF34" class="md-nav__link">
+    EF34
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef35" title="EF35" class="md-nav__link">
+    EF35
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef36" title="EF36" class="md-nav__link">
+    EF36
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ef37" title="EF37" class="md-nav__link">
+    EF37
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef38" title="EF38" class="md-nav__link">
+    EF38
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef39" title="EF39" class="md-nav__link">
+    EF39
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef40" title="EF40" class="md-nav__link">
+    EF40
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef41" title="EF41" class="md-nav__link">
+    EF41
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef42" title="EF42" class="md-nav__link">
+    EF42
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef43" title="EF43" class="md-nav__link">
+    EF43
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef44" title="EF44" class="md-nav__link">
+    EF44
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef45" title="EF45" class="md-nav__link">
+    EF45
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef46" title="EF46" class="md-nav__link">
+    EF46
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef47" title="EF47" class="md-nav__link">
+    EF47
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef48" title="EF48" class="md-nav__link">
+    EF48
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ef49" title="EF49" class="md-nav__link">
+    EF49
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/marcosnbj/2019.1-RocketChat/edit/master/docs/Pós-Rastreabilidade/Backward-From.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="backward-from">Backward-From</h1>
+<p>Neste documento busca-se construir a matriz de pós-rastreabilidade através da ótica Backward-From. Foram feitas duas tabelas, a primeira para requisitos funcionais e a segunda para os não funcionais. Além disso, abaixo das duas, podem ser vistos os elos de Toranzo citados.</p>
+<h2 id="metodologia">Metodologia</h2>
+<p>Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas tabelas, a primeira tabela com os requisitos funcionais e a segunda para os requisitos não-funcionais. Como vários membros da equipe iriam trabalhar no documento ao mesmo tempo, foram criadas duas tabelas e um documento para a descrição dos elos de Toranzo, no drive, para evitar a repetição de requisitos na tabela, que posteriormente seriam convertidos para formato markdown e colocados na wikia. Link para os documentos no drive: <a href="https://docs.google.com/spreadsheets/d/168HYGph8Eej0beBT-cx17m5uqU7ri8c5_yXTadeorXA/edit#gid=0">funcionais</a>,  <a href="https://docs.google.com/spreadsheets/d/1UpGv5ptRkG0C3dM1Lm2cr5km9RnHXvbDRiUhfuSoFic/edit#gid=0">não-funcionais</a> e <a href="https://docs.google.com/document/d/1bHJZ8CRE6feJlxCX8M_u0xksos1K2PCDmhw3TzwfqVw/edit">elos de Toranzo</a>.</p>
+<h2 id="requisitos-funcionais">Requisitos Funcionais</h2>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Descrição</th>
+<th>Elicitação</th>
+<th>Modelagem</th>
+<th>Elo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF1</td>
+<td>Tradução instântanea para mensagens em línguas diferentes da padrão</td>
+<td><a href="../Elicitação/analdiscurso#requisitos-elicitados">AD1</a> <br> <a href="../Elicitação/Introspeccao#introspeccao-04">INT4.4</a><br> <a href="../Elicitação/Storyboard#4-requisitos-obtidos">Storyboard3</a></td>
+<td><a href="../Modelagem/lexicos#31">L31</a> <br> <a href="../../Modelagem/backlog/#us45">US45</a> <br> <a href="../Modelagem/istar#isr05-acoes-sobre-o-channel">ISR05</a></td>
+<td><a href="#ef1">EF1</a></td>
+</tr>
+<tr>
+<td>RF2</td>
+<td>O aplicativo deve ser capaz de realizar videoconferências em grupo</td>
+<td><a href="../Elicitação/analdiscurso#requisitos-elicitados">AD2</a> <br> <a href="../Elicitação/analdiscurso#requisitos-elicitados">AD3</a><br> <a href="../Elicitação/Introspeccao#introspeccao-01">INT1.4</a><br> <a href="../Elicitação/Introspeccao#introspeccao-03">INT3.5</a><br> <a href="../Elicitação/Storyboard#4-requisitos-obtidos">Storyboard 2 e 3</a><br> <a href="../Elicitação/questionario#requisitos-elicitados">Q12</a></td>
+<td><a href="../Modelagem/lexicos#25">L25</a><br> <a href="../Modelagem/cenarios#c2-v2">C2</a><br> <a href="../Modelagem/diagramas#dcu1-v2">DCU1-V2</a><br> <a href="../Modelagem/especificacao#ec20">EC20</a><br> <a href="../../Modelagem/backlog/#us46">US46</a><br> <a href="../Modelagem/istar#isd01-chat">ISD01</a></td>
+<td><a href="#ef2">EF2</a></td>
+</tr>
+<tr>
+<td>RF3</td>
+<td>A aplicação deve oferecer ao usuário a possibilidade de entrar no app através de username e senha, previamente cadatrados no aplicativo</td>
+<td><a href="../Elicitação/analprot#requisitos-elicitados">AP1</a><br> <a href="../Elicitação/Introspeccao#introspeccao-01">INT1.3</a> <br></td>
+<td><a href="../Modelagem/cenarios#c1-v2">C1</a><br> <a href="../Modelagem/diagramas#dcu13-v1">DCU13 - V1</a><br> <a href="../Modelagem/especificacao#ec21">EC21</a><br> <a href="../../Modelagem/backlog/#us02">US02</a><br> <a href="../Modelagem/istar#isr02-realizar-cadastro">ISR02</a></td>
+<td><a href="#ef3">EF3</a></td>
+</tr>
+<tr>
+<td>RF4</td>
+<td>O app deve permitir o cadastro na aplicação por contas de serviços de terceiros ou a partir de dados do usuário, como email, username e senha</td>
+<td><a href="../../Elicitação/analprot/#requisitos-elicitados">AP10</a></td>
+<td><a href="../Modelagem/backlog.md/#ep02-fazer-cadastro">EP02</a><br> <a href="../Modelagem/cenarios.md/#c1-v2">C1</a><br> <a href="../Modelagem/diagramas.md/#cadastrar-novo-usuario">DCU21</a><br> <a href="../Modelagem/especificacao.md/#ec21">ECU21</a><br> <a href="../Modelagem/istar.md/#isr02-realizar-cadastro">ISR02</a></td>
+<td><a href="#ef4">EF4</a></td>
+</tr>
+<tr>
+<td>RF5</td>
+<td>O usuário deve ter a disposição, a criação de canais, subgrupos de discussão e grupos, privados/publicos, ilimitados.</td>
+<td><a href="../Elicitação/Introspeccao#introspeccao-01">INT1.1</a><br> <a href="../Elicitação/Introspeccao#introspeccao-03">INT3.1</a><br> <a href="../Elicitação/Introspeccao#introspeccao-04">INT4.2</a><br> <a href="../Elicitação/Storyboard#4-requisitos-obtidos">SB2</a><br> <a href="../../Elicitação/analprot/#requisitos-elicitados">AP4</a></td>
+<td><a href="../Modelagem/backlog.md/#ep08-criar-channel">EP08</a><br><a href="../Modelagem/cenarios.md/#c3-v2">C3</a><br> <a href="../Modelagem/cenarios.md/#c22">C22</a><br> <a href="../Modelagem/diagramas.md/#dcu16-v1">DCU16</a><br>  <a href="../Modelagem/diagramas.md/#dcu9-v1">DCU09</a> <br> <a href="../Modelagem/especificacao.md/#ec3">ECU03</a> <br> <a href="../Modelagem/especificacao.md/#ec10">ECU10</a><br> <a href="../Modelagem/istar.md/#versao-02_2">ISR01</a><br> <a href="../../Modelagem/backlog/#us18">US18</a><br> <a href="../../Modelagem/backlog/#us19">US19</a><br> <a href="../../Modelagem/backlog/#us21">US21</a></td>
+<td><a href="#ef5">EF5</a></td>
+</tr>
+<tr>
+<td>RF6</td>
+<td>O usuário deve ser capaz de, dentro da plataforma, enviar mensagens dentro de grupos de conversa ou dentro de chats privados</td>
+<td><a href="../Elicitação/Introspeccao#introspeccao-04">INT4.1</a><br><a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">SB1</a></td>
+<td><a href="../Modelagem/backlog.md/#ep10-Mensagens">EP10</a><br> <a href="../Modelagem/cenarios.md/#c12-v2">C12</a><br> <a href="../Modelagem/diagramas.md/#dcu2-v2">DCU2</a><br> <a href="../Modelagem/especificacao.md/#ec15">ECU15</a><br> <a href="../Modelagem/istar.md/#isr03-envio-de-mensagens">ISR03</a><br> <a href="../Modelagem/lexicos.md/#l41">L41</a><br> <a href="../../Modelagem/backlog/#us20">US20</a></td>
+<td><a href="#ef6">EF6</a></td>
+</tr>
+<tr>
+<td>RF7</td>
+<td>O usuário deve ser capaz de realizar uma busca de uma mensagem dentro de um determinado chat</td>
+<td><a href="../Elicitação/Introspeccao#introspeccao-02">INT2.2</a><br><a href="../Elicitação/analdiscursi#requisitos-elicitados">AD11</a></td>
+<td><a href="../Modelagem/backlog.md/#ep11-acoes-do-channel">EP11</a><br> <a href="../Modelagem/lexicos.md/#l11">L11</a> <br> <a href="../../Modelagem/backlog/#us48">US48</a></td>
+<td><a href="#ef7">EF7</a></td>
+</tr>
+<tr>
+<td>RF8</td>
+<td>O app deve oferecer a possibilidade do usuário instalar seu próprio servidor local.</td>
+<td><a href="../Elicitação/Introspeccao#introspeccao-04">INT4.8</a><br> <a href="../Elicitação/Introspeccao#introspeccao-01">INT1.4</a> <br><a href="../Elicitação/Storyboard#4-requisitos-obtidos">Storyboard 4</a></td>
+<td><a href="../Modelagem/backlog.md/#ep16-conectar-com-um-servidor">EP16</a><br> <a href="../Modelagem/cenarios.md/#c4-v2">C4</a><br> <a href="../Modelagem/diagramas.md/#dcu17-v2">DCU17</a><br> <a href="../Modelagem/especificacao.md/#ec11">EC11</a><br> <a href="../Modelagem/lexicos.md/#l14">L14</a><br> <a href="../../Modelagem/backlog/#us65">US65</a></td>
+<td><a href="#ef8">EF8</a></td>
+</tr>
+<tr>
+<td>RF9</td>
+<td>A plataforma deve permitir a integração de Bots</td>
+<td><a href="../../Elicitação/Introspeccao/#introspeccao-03">INT3.9</a><br> <a href="../Elicitação/entrevista.md#requisitos">ENT1.1</a><br> <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD7</a><br><a href="../../Elicitação/questionario/#requisitos-elicitados">Q2</a></td>
+<td><a href="../Modelagem/backlog.md/#ep14-integraçoes">EP14</a><br> <a href="../Modelagem/cenarios.md/#c4-v2">C4</a><br> <a href="../Modelagem/diagramas.md/#dcu17-v2">DCU17</a><br> <a href="../Modelagem/especificacao.md/#ec11">EC11</a><br> <a href="../Modelagem/lexicos.md/#ec14">L26</a><br> <a href="../../Modelagem/backlog/#us62">US62</a></td>
+<td><a href="#ef9">EF9</a></td>
+</tr>
+<tr>
+<td>RF10</td>
+<td>A plataforma deve permitir a configuração de preferências dentro do app</td>
+<td><a href="../../Elicitação/analprot/#requisitos-elicitados">AP8</a></td>
+<td><a href="../Modelagem/backlog.md/#ep05-configurações-do-aplicativo">EP05</a><br> <a href="Modelagem/nfr.md#nf5-personabilidade">NFR5</a><br> <a href="../../Modelagem/backlog/#us09">US09</a></td>
+<td><a href="#ef10">EF10</a></td>
+</tr>
+<tr>
+<td>RF11</td>
+<td>Possibilidade de alteração do idioma no aplicativo</td>
+<td><a href="../Elicitação/Introspeccao#introspeccao-04">INT4.5</a><br> <a href="../Elicitação/Storyboard#4-requisitos-obtidos">Storyboard3</a></td>
+<td><a href="../../Modelagem/backlog/#us09">US09</a><br> <a href="../../Modelagem/backlog/#us10">US10</a></td>
+<td><a href="#ef11">EF11</a></td>
+</tr>
+<tr>
+<td>RF12</td>
+<td>Permitir usuario iniciar conexão com uma instância do Rocket.chat</td>
+<td><a href="../Elicitação/Introspeccao#introspeccao-04">INT3.2</a> <br> <a href="../../Elicitação/analprot/#requisitos-elicitados">AP2</a></td>
+<td><a href="../../Modelagem/backlog/#ep16-conectar-com-um-servidor">EP16</a> <br> <a href="../../Modelagem/backlog/#us10">US65</a><br> <a href="../Modelagem/cenarios.md/#c4-v2">C4</a><br> <a href="../Modelagem/diagramas.md/#dcu17-v1">DCU17</a><br> <a href="../Modelagem/especificacao.md/#ec11">EC11</a></td>
+<td><a href="#ef12">EF12</a></td>
+</tr>
+<tr>
+<td>RF13</td>
+<td>Alteração de senha</td>
+<td><a href="../../Modelagem/backlog/#us42">US42</a><br> <a href="../../Modelagem/lexicos/#l34">L34</a></td>
+<td><a href="../../Modelagem/backlog/#us12">US12</a><br> <a href="../../Modelagem/lexicos/#l21">L21</a><br> <a href="../../Modelagem/lexicos/#l41">L41</a><br> <a href="../../Modelagem/lexicos/#l45">L45</a><br> <a href="../../Modelagem/lexicos/#l46">L46</a></td>
+<td><a href="#ef13">EF13</a></td>
+</tr>
+<tr>
+<td>RF14</td>
+<td>Possibilidade de mencionar, um ou todos, os membros do grupo</td>
+<td><a href="../Elicitação/Introspeccao#introspeccao-01">INT1.6</a><br> <a href="../Elicitação/Introspeccao#introspeccao-02">INT2.4</a><br> <a href="../Elicitação/entrevista.md#requisitos">ENT1.5</a></td>
+<td><a href="../../Modelagem/backlog/#us43">US43</a><br> <a href="../Modelagem/istar#isd04-acoes-sobre-o-channel">ISD04</a><br> <a href="../Modelagem/istar#isr05-acoes-sobre-o-channel">ISR05</a><br> <a href="../../Modelagem/lexicos/#l4">L4</a></td>
+<td><a href="#ef14">EF14</a></td>
+</tr>
+<tr>
+<td>RF15</td>
+<td>Sistema deve ser capaz de Adicionar autenticação de 2 Fatores</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us13">US13</a></td>
+<td><a href="#ef15">EF15</a></td>
+</tr>
+<tr>
+<td>RF16</td>
+<td>Sistema deve mostrar e permitir a edição das configurações da conta</td>
+<td><a href="../../Elicitação/analprot/#requisitos-elicitados">AP7</a></td>
+<td><a href="../../Modelagem/backlog/#us09">US09</a><br> <a href="../../Modelagem/backlog/#us14">US14</a><br> <a href="../../Modelagem/lexicos/#l08">L08</a><br> <a href="../Modelagem/istar#isr02-geral">ISD02</a></td>
+<td><a href="#ef16">EF16</a></td>
+</tr>
+<tr>
+<td>RF17</td>
+<td>O sistema deve permitir o envio de arquivos e documentos em um chat</td>
+<td><a href="../Elicitação/Introspeccao#introspeccao-02">INT2.1</a><br> <a href="../Elicitação/questionario#requisitos-elicitados">Q6</a></td>
+<td><a href="../../Modelagem/backlog/#us28">US28</a><br><a href="../../Modelagem/backlog/#us33">US33</a><br><a href="../Modelagem/cenarios.md/#c9-v2">C9</a><br><a href="../Modelagem/diagramas.md/#dcu2-v3">DCU2</a><br><a href="../Modelagem/diagramas.md/#dcu18-v1">DCU18</a><br><a href="../Modelagem/especificacao.md/#ec16">EC16</a><br><a href="../../Modelagem/lexicos/#l5">L5</a></td>
+<td><a href="#ef17">EF17</a></td>
+</tr>
+<tr>
+<td>RF18</td>
+<td>Permitir a alteração do status do usuário</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us15">US15</a><br> <a href="../Modelagem/cenarios.md/#c10">C10</a></td>
+<td><a href="#ef18">EF18</a></td>
+</tr>
+<tr>
+<td>RF19</td>
+<td>App deve possuir ferramenta para busca de Channels</td>
+<td><a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD11</a></td>
+<td><a href="../../Modelagem/backlog/#us16">US16</a></td>
+<td><a href="#ef19">EF19</a></td>
+</tr>
+<tr>
+<td>RF20</td>
+<td>App deve possuir opções para listar Channels em categorias</td>
+<td><a href="../Elicitação/questionario#requisitos-elicitados">Q16</a></td>
+<td><a href="../../Modelagem/backlog/#us17">US17</a><br> <a href="../../Modelagem/lexicos/#l39">L39</a></td>
+<td><a href="#ef20">EF20</a></td>
+</tr>
+<tr>
+<td>RF21</td>
+<td>Possibilidade de favoritar um grupo</td>
+<td><a href="../Elicitação/questionario#requisitos-elicitados">Q15</a></td>
+<td><a href="../../Modelagem/backlog/#us42">US42</a><br><a href="../../Modelagem/lexicos/#l34">L34</a><br><a href="../../Modelagem/lexicos/#l35">L35</a></td>
+<td><a href="#ef21">EF21</a></td>
+</tr>
+<tr>
+<td>RF22</td>
+<td>Permitir a alteração de privacidade do Channel</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us22">US22</a><br> <a href="../Modelagem/cenarios.md/#c26">C26</a><br> <a href="../Modelagem/diagramas.md/#dcu8-v1">DCU8</a><br> <a href="../Modelagem/especificacao.md/#ec2">EC2</a><br> <a href="../../Modelagem/lexicos/#l72">L72</a></td>
+<td><a href="#ef22">EF22</a></td>
+</tr>
+<tr>
+<td>RF23</td>
+<td>Definir Channel como Read Only</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us23">US23</a><br> <a href="../Modelagem/cenarios.md/#c22">C22</a><br> <a href="../Modelagem/diagramas.md/#dcu9-v1">DCU9 </a><br> <a href="../Modelagem/especificacao.md/#ec3">EC3</a><br> <a href="../../Modelagem/lexicos/#l69">L69</a></td>
+<td><a href="#e23">EF23</a></td>
+</tr>
+<tr>
+<td>RF24</td>
+<td>Definir Channel para BroadCast</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us24">US24</a></td>
+<td><a href="#e24">EF24</a></td>
+</tr>
+<tr>
+<td>RF25</td>
+<td>Permitir que o usuário possa adicionar ou visualizar as informações do Channel através de uma descrição, tópico do Channel</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us25">US25</a><br> <a href="../../Modelagem/backlog/#us26">US26</a><br> <a href="../../Modelagem/backlog/#us47">US47</a><br> <a href="../../Modelagem/lexicos/#l33">L33</a></td>
+<td><a href="#e25">EF25</a></td>
+</tr>
+<tr>
+<td>RF26</td>
+<td>App deve permitir o envio de desenhos, como mensagens</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us30">US30</a><br> <a href="../Modelagem/cenarios.md/#c22">C8</a><br> <a href="../Modelagem/diagramas.md/#dcu18-v1">DCU18</a><br> <a href="../Modelagem/especificacao.md/#ec17">EC17</a><br> <a href="../../Modelagem/lexicos/#l43">L43</a></td>
+<td><a href="#e26">EF26</a></td>
+</tr>
+<tr>
+<td>RF27</td>
+<td>O sistema deve permitir o envio de arquivos de midia, como vídeo e áudio</td>
+<td><a href="../Elicitação/Introspeccao#introspeccao-01">INT1.5</a><br> <a href="../Elicitação/questionario#requisitos-elicitados">Q6</a></td>
+<td><a href="../../Modelagem/backlog/#us31">US31</a></td>
+<td><a href="#e27">EF27</a></td>
+</tr>
+<tr>
+<td>RF28</td>
+<td>O usuário deve poder editar suas mensagens enviadas</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us34">US34</a><br> <a href="../../Modelagem/cenarios/#c5">C5</a><br> <a href="../../Modelagem/especificacao/#ec19">E19</a><br> <a href="../../Modelagem/diagramas/#dcu19-v1">DCU19</a></td>
+<td><a href="#e28">EF28</a></td>
+</tr>
+<tr>
+<td>RF29</td>
+<td>O usuário deve poder copiar uma mensagem</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us35">US35</a><br> <a href="../../Modelagem/lexicos/#l54">L54</a></td>
+<td><a href="#e29">EF29</a></td>
+</tr>
+<tr>
+<td>RF30</td>
+<td>O sistema deve oferecer uma maneira para o usuário possa compartilhar mensagens</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us36">US36</a><br> <a href="../../Modelagem/lexicos/#l13">L13</a><br> <a href="../../Modelagem/lexicos/#l54">L54</a></td>
+<td><a href="#e30">EF30</a></td>
+</tr>
+<tr>
+<td>RF31</td>
+<td>O usuário deve ter a possibilidade excluir uma mensagem a qualquer momento</td>
+<td><a href="../../Elicitação/questionario/#requisitos-elicitados">Q8</a></td>
+<td><a href="../../Modelagem/backlog/#us38">US38</a><br> <a href="../../Modelagem/lexicos/#l58">L58</a></td>
+<td><a href="#e31">EF31</a></td>
+</tr>
+<tr>
+<td>RF32</td>
+<td>Usuário deve poder adicionar reações a mensagens</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us39">US39</a><br> <a href="../Modelagem/lexicos#l9">L9</a><br> <a href="../Modelagem/lexicos#l10">L10</a></td>
+<td><a href="#e32">EF32</a></td>
+</tr>
+<tr>
+<td>RF33</td>
+<td>Usuário deve ser capaz de responder mensagens enviadas dentro de Channels que ele participa</td>
+<td><a href="../Elicitação/StoryBoarding.md#4-requisitos-obtidos">StoryBoarding1</a></td>
+<td><a href="../../Modelagem/backlog/#us40">US40</a><br> <a href="cenarios.md#c7-v2">C7</a><br> <a href="../../Modelagem/diagramas/#dcu20-v1">DCU20</a><br> <a href="../Modelagem/especificacao.md/#ec18">EC18</a><br> <a href="../Modelagem/istar#isd01-chat">ISD01</a><br> <a href="../Modelagem/istar#isr03-envio-de-mensagens">ISR03</a></td>
+<td><a href="#e33">EF33</a></td>
+</tr>
+<tr>
+<td>RF34</td>
+<td>Usuário deve ter a possibilidade de reportar alguma mensagem em um Channel que não respeite as diretrizes do app</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us41">US41</a></td>
+<td><a href="#ef34">EF34</a></td>
+</tr>
+<tr>
+<td>RF35</td>
+<td>O sistema deve ser capaz de exibir notificações para mensagens não lidas e  para menções em chats e possibilitar ao usuário a configuração das mesmas</td>
+<td><a href="../Elicitação/entrevista.md#requisitos">ENT1.4</a><br><a href="../Elicitação/analdiscurso#requisitos-elicitados">AD5</a><br><a href="../Elicitação/questionario#requisitos-elicitados">Q6</a></td>
+<td><a href="../../Modelagem/backlog/#us44">US44</a><br><a href="cenarios.md#c19">C19</a><br><a href="../../Modelagem/diagramas/#dcu14-v1">DCU14</a><br><a href="../Modelagem/especificacao.md/#ec24">EC24</a><br><a href="../Modelagem/lexicos#l28">L28</a><br><a href="../../Modelagem/suplementar/#es03-notificacoes">ES03</a></td>
+<td><a href="#ef35">EF35</a></td>
+</tr>
+<tr>
+<td>RF36</td>
+<td>A aplicação deve fornecer suporte aos seus usuários via chat e e-mail.</td>
+<td><a href="../Elicitação/entrevista.md#requisitos">ENT1.3</a><br> <a href="../Elicitação/Introspeccao#introspeccao-03">INT3.10</a></td>
+<td><a href="../../Modelagem/backlog/#us05">US05</a><br> <a href="../../Modelagem/backlog/#us06">US06</a><br> <a href="../../Modelagem/nfr/#nfr3-suporte">NFR-03</a></td>
+<td><a href="#ef36">EF36</a></td>
+</tr>
+<tr>
+<td>R37</td>
+<td>O app deve oferecer a possibilidade do usuário procurar mensagens por texto</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us48">US48</a><br> <a href="../Modelagem/cenarios.md/#c17">C17</a><br> <a href="../../Modelagem/diagramas/#dcu12-v1">DCU12</a><br> <a href="../Modelagem/especificacao.md/#ec13">EC13</a></td>
+<td><a href="#ef37">EF37</a></td>
+</tr>
+<tr>
+<td>R38</td>
+<td>O Sistema deve permitir que o usuário favorite uma mensagem</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us49">US49</a><br> <a href="cenarios.md#c13">C13</a><br> <a href="../../Modelagem/diagramas/#dcu16-v1">DCU6</a><br> <a href="../Modelagem/especificacao.md/#ec6">EC6</a><br> <a href="../modelagem/istar.md#isd01">ID01</a><br> <a href="../modelagem/istar.md#isr03">ISR03</a><br> <a href="../Modelagem/lexicos.md/#l71">L71</a></td>
+<td><a href="#ef38">EF38</a></td>
+</tr>
+<tr>
+<td>R39</td>
+<td>O Sistema deve permitir que o usuário possa fixar uma mensagem no Channel</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us50">US50</a><br> <a href="../Modelagem/cenarios.md/#c11">C11</a><br> <a href="../Modelagem/cenarios.md/#c25">C25</a><br> <a href="../../Modelagem/diagramas/#dcu13-v1">DCU3</a><br> <a href="especificacao.md#ec1">EC1</a><br> <a href="especificacao.md#ec12">EC12</a><br> <a href="../modelagem/istar.md#isd01">ID01</a><br> <a href="../modelagem/istar.md#isr03">ISR03</a><br> <a href="../Modelagem/lexicos#l3">L3</a><br> <a href="../Modelagem/lexicos#l16">L16</a></td>
+<td><a href="#ef39">EF39</a></td>
+</tr>
+<tr>
+<td>R40</td>
+<td>O Usuário deve conseguir convidar membros do Channel para o Video Chat</td>
+<td><a href="../Elicitação/analprot#requisitos-elicitados">AP5</a></td>
+<td><a href="../../Modelagem/backlog/#us53">US53</a><br> <a href="../Modelagem/lexicos#l59">L59</a></td>
+<td><a href="#ef40">EF40</a></td>
+</tr>
+<tr>
+<td>R41</td>
+<td>O Sistema deve permitir que o usuário possa compartilhar a tela de seu dispositivo</td>
+<td><a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD3</a><br> <a href="../Elicitação/Introspeccao#introspeccao-03">INT3.5</a><br> <a href="../../Elicitação/questionario/#requisitos-elicitados">Q11</a><br> <a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">StoryBoard3,5</a><br></td>
+<td><a href="../../Modelagem/backlog/#us57">US57</a><br> <a href="../Modelagem/lexicos#l25">L25</a><br> <a href="especificacao.md#ec20">EC20</a><br> <a href="../Modelagem/diagramas#dcu1-v1">DCU1</a></td>
+<td><a href="#ef41">EF41</a></td>
+</tr>
+<tr>
+<td>R42</td>
+<td>A aplicação deve permitir que o usuário possa visualizar a lista de membros do Channel</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us58">US58</a><br> <a href="../../Modelagem/diagramas/#dcu7-v1">DCU7</a><br> <a href="especificacao.md#ec7">EC7</a><br> <a href="../Modelagem/lexicos#l12">L12</a></td>
+<td><a href="#ef42">EF42</a></td>
+</tr>
+<tr>
+<td>R43</td>
+<td>A Aplicação deve permitir que o usuário possa visualizar informações básicas de outro usuário</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us59">US59</a><br> <a href="../../Modelagem/diagramas/#dcu7-v1">DCU7</a><br> <a href="especificacao.md#ec7">EC7</a><br> <a href="../Modelagem/lexicos#l12">L12</a></td>
+<td><a href="#ef43">EF43</a></td>
+</tr>
+<tr>
+<td>R44</td>
+<td>A Aplicação deve permitir que os usuários administradores do Channel possam adicionar novos usuários</td>
+<td><a href="../Elicitação/analprot#requisitos-elicitados">AP5</a></td>
+<td><a href="../../Modelagem/backlog/#us60">US60</a><br> <a href="../Modelagem/lexicos#l59">L59</a></td>
+<td><a href="#ef44">EF44</a></td>
+</tr>
+<tr>
+<td>R45</td>
+<td>A Aplicaçaõ deve permitir que os usuários administradores do Channel possam remover usuários</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us61">US61</a><br> <a href="../Modelagem/lexicos#l12">L12</a></td>
+<td><a href="#ef45">EF45</a></td>
+</tr>
+<tr>
+<td>R46</td>
+<td>A Aplicação deve permitir que os usuários possam esconder um Channel</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us63">US63</a><br> <a href="../Modelagem/cenarios.md/#c16">C16</a><br> <a href="../../Modelagem/diagramas/#dcu23-v1">DCU23</a><br> <a href="especificacao.md#ec23">ECU23</a><br> <a href="../Modelagem/lexicos#l49">L49</a><br> <a href="../modelagem/istar.md#isd02">ISD02</a></td>
+<td><a href="#ef46">EF46</a></td>
+</tr>
+<tr>
+<td>R47</td>
+<td>A Aplicação deve permitir que os usuários possam deixar um Channel</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us64">US64</a><br> <a href="../../Modelagem/backlog/#us63">US63</a><br> <a href="../Modelagem/cenarios.md/#c15">C15</a><br> <a href="../Modelagem/cenarios.md/#c16">C16</a><br> <a href="../../Modelagem/diagramas/#dcu22-v1">DCU22</a><br> <a href="../../Modelagem/diagramas/#dcu23-v1">DCU23</a><br> <a href="especificacao.md#ec22">EC22</a><br> <a href="especificacao.md#ec23">EC23</a><br> <a href="../Modelagem/lexicos#l48">L48</a><br> <a href="../Modelagem/lexicos#l49">L49</a><br> <a href="../modelagem/istar.md#isd02">ISD02</a></td>
+<td><a href="#ef47">EF47</a></td>
+</tr>
+<tr>
+<td>R48</td>
+<td>O Sistema deve permitir que um usuário possa visualizar todos os Channels visiveis do Servidor</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us69">US69</a></td>
+<td><a href="#ef48">EF48</a></td>
+</tr>
+<tr>
+<td>R49</td>
+<td>O Sistema deve permitir que um usuário possa visualizar a lista com todos os usuários do Servidor</td>
+<td></td>
+<td><a href="../../Modelagem/backlog/#us70">US70</a></td>
+<td><a href="#ef49">EF49</a></td>
+</tr>
+<tr>
+<td>RF50</td>
+<td>Sistema deve permitir que o usuário visualize as lista de arquivos enviados no channel</td>
+<td><a href="../Elicitação/Introspeccao#introspeccao-02">INT2.3</a></td>
+<td><a href="../../Modelagem/backlog/#us51">US51</a></td>
+<td><a href="#ef12">EF12</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="requisitos-nao-funcionais">Requisitos Não Funcionais</h2>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Descrição</th>
+<th>Fonte</th>
+<th>Elicitação</th>
+<th>Modelagem</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF1</td>
+<td>A aplicação deve ser capaz de ser executada em diversas plataformas</td>
+<td><a href="https://rocket.chat/docs/installation/mobile-and-desktop-apps/#mobile-and-desktop-apps">Mobile e Desktop</a> <br> <a href="https://rocket.chat/docs/getting-support/#supported-browser-versions">Navegador web</a></td>
+<td><a href="../../Elicitação/questionario/#requisitos-elicitados">Q17</a><br> <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD6</a><br> <a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">SB2</a></td>
+<td><a href="../../Modelagem/nfr/#nfr1-portabilidade">NFR-01</a><br> <a href="../Modelagem/suplementar.md/#portabilidade">ES - Portabilidade</a></td>
+</tr>
+<tr>
+<td>RNF2</td>
+<td>O Rocket.chat deve ofecer suporte tanto para a aplicação, em diversas arquiteturas, como para o usuário</td>
+<td><a href="https://rocket.chat/docs/getting-support/#getting-support">Recebendo suporte do Rocket.chat</a></td>
+<td><a href="../../Elicitação/questionario/#requisitos-elicitados">Q1</a><br> <a href="../../Elicitação/questionario/#requisitos-elicitados">Q18</a><br> <a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD4</a><br> <a href="../../Elicitação/Entrevista/#requisitos">ENT 1.3</a></td>
+<td><a href="../../Modelagem/nfr/#nfr3-suporte">NFR-03</a><br> <a href="../Modelagem/suplementar.md/#tratamento-de-falhas">ES - Suporte a aplicação</a><br> <a href="../Modelagem/suplementar.md/#requisitos-de-suporte-ao-usuario">ES - Suporte ao usuário</a></td>
+</tr>
+<tr>
+<td>RNF3</td>
+<td>Deve ser uma plataforma que ofereça segurança com dados dos usuários.</td>
+<td><a href="https://rocket.chat/docs/contributing/security/">Security</a></td>
+<td><a href="../../Elicitação/Introspeccao/#requisitos">INT1.7</a><br><a href="../Elicitação/StoryBoarding#4-requisitos-obtidos">SB4</a><br><a href="../Elicitação/analdiscurso#requisitos-elicitados">AD12</a></td>
+<td><a href="../../Modelagem/backlog/#us67">EP17</a><a href="../../Modelagem/nfr/#nfr6">NFR6</a><br> <a href="../../Modelagem/suplementar/#segurança">ES - segurança</a></td>
+</tr>
+<tr>
+<td>RNF4</td>
+<td>O Rocket.chat deve estar disponível na maior quantidade possível de idiomas</td>
+<td><a href="https://rocket.chat/docs/contributing/translating/">idiomas</a></td>
+<td><a href="../../Elicitação/Introspeccao/#requisitos">INT4.5</a><br><a href="../Elicitação/StoryBoarding#4-requisitos-obtidos">SB3</a><br><a href="../Elicitação/analdiscurso#requisitos-elicitados">AD12</a></td>
+<td><a href="../../Modelagem/backlog/#us10">EP05</a><br><a href="../../Modelagem/nfr/#nfr6">NFR6</a><br> <a href="../../Modelagem/suplementar/#es25-pluralidade-de-idiomas">ES25</a></td>
+</tr>
+<tr>
+<td>RNF5</td>
+<td>O Rocket.chat deve ter uma boa interface visual, minimalista e intuitiva, facilitando a usabilidade do usuário.</td>
+<td><a href="https://rocket.chat/docs/user-guides/">Interface Intuitiva</a></td>
+<td><a href="../../Elicitação/Introspeccao/#requisitos">INT1.2</a><br> <a href="../../Elicitação/Introspeccao/#requisitos">INT2.6</a><br> <a href="../Elicitação/analprot#requisitos-elicitados">AP6</a></td>
+<td><a href="../../Modelagem/nfr/#nfr4-usabilidade">NFR-04</a><br> <a href="../../Modelagem/suplementar/#es1-fluxo-de-navegacao">ES01</a><br> <a href="../../Modelagem/suplementar/#es5-icones-e-cores">ES05</a></td>
+</tr>
+<tr>
+<td>RNF6</td>
+<td>A plataforma deve possuir uma documentação bem organizada. Que explique todas as funcionalidades e restrições aplicáveis.</td>
+<td><a href="https://rocket.chat/docs/">Documentação</a></td>
+<td><a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD4</a></td>
+<td><a href="../../Modelagem/backlog/#us07">EP04</a><br><a href="../../Modelagem/nfr/#nfr6">NFR6</a><br> <a href="../../Modelagem/suplementar/#es26-documentaçao">ES26 - Documentação</a></td>
+</tr>
+<tr>
+<td>RNF7</td>
+<td>A aplicação, sendo do tipo openSource, deve possuir a liberdade da contribuição pela comunidade de software</td>
+<td><a href="https://rocket.chat/docs/contributing/">Contribuição pela comunidade</a></td>
+<td><a href="../Elicitação/StoryBoarding#4-requisitos-obtidos">SB5</a><br><a href="../Elicitação/StoryBoarding#4-requisitos-obtidos">SB5</a><br><a href="../Elicitação/questionario#requisitos-elicitados">Q21</a></td>
+<td><a href="../modelagem/istar.md#isd05">ISD05</a><br><a href="../modelagem/istar.md#isr06">ISR06</a><br><a href="../modelagem/nfr.md#nfr08">NFR08</a><br><a href="../modelagem/suplementar.md#es30">ES30</a></td>
+</tr>
+<tr>
+<td>RNF8</td>
+<td>A aplicação deve oferecer uma performace fluida ajude na experiência positiva do usuário</td>
+<td><a href="https://rocket.chat/docs/installation/manual-installation/multiple-instances-to-improve-performance/#run-multiple-instances-of-rocketchat">performace</a></td>
+<td><a href="../../Elicitação/questionario/#requisitos-elicitados">ENT1.8</a></td>
+<td><a href="../../Modelagem/nfr/#nfr2-performace-do-chat">NFR-02</a></td>
+</tr>
+<tr>
+<td>RNF9</td>
+<td>Visando uma melhor experiência ao usuário e desempenho da plataforma, o app deve fazer integrações com diferentes plataformas</td>
+<td><a href="https://rocket.chat/docs/administrator-guides/integrations/giphy/#giphy-integrations">Giphy Integrations</a> <a href="https://rocket.chat/docs/administrator-guides/integrations/nextcloud-and-webdav/#nextcloud-and-webdav-integrations">Nextcloud and WebDAV integrations</a> <a href="https://rocket.chat/docs/administrator-guides/rocket-chat-apps/bamboo-integration/#bamboo-integration">Bamboo Integration </a></td>
+<td><a href="../../Elicitação/questionario/#requisitos-elicitados">ENT1.2</a> <a href="../../Elicitação/questionario/#requisitos-elicitados">ENT1.6</a><br><a href="../../Elicitação/Introspeccao/#introspecçao-03">INT3.8</a><br><a href="../../Elicitação/Introspeccao/#introspecçao-04">INT4.6</a><br><a href="../Elicitação/StoryBoarding#4-requisitos-obtidos">SB5</a></td>
+<td><a href="../../Modelagem/backlog/#us62">EP14</a><br><a href="../modelagem/cenarios.md#C14">C14</a><br><a href="../../Modelagem/suplementar/#es14-redes-sociais">ES14</a><br><a href="../../Modelagem/nfr/#nfr2-conectividade">NFR-09</a></td>
+</tr>
+<tr>
+<td>RNF10</td>
+<td>A plataforma deve identificar e tratar erros dentro do aplicativo</td>
+<td><a href="https://rocket.chat/docs/developer-guides/branches-and-releases/#error-reporting">Reportando erros</a></td>
+<td><a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD10</a></td>
+<td><a href="../Modelagem/suplementar.md/#tratamento-de-falhas">ES - Tratamento de falhas</a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="elos">Elos</h2>
+<h3 id="ef1">EF1</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Elicitação/analdiscurso#requisitos-elicitados">AD1</a></li>
+<li><a href="../Elicitação/Introspeccao#introspeccao-04">INT4.4</a></li>
+<li><a href="../Elicitação/Storyboard#4-requisitos-obtidos">Storyboard 3</a></li>
+<li><a href="../Modelagem/lexicos#31">L31</a></li>
+<li><a href="../../Modelagem/backlog/#us45">US45</a></li>
+<li><a href="../Modelagem/istar#isr05-acoes-sobre-o-channel">ISR05</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Alocação:  <a href="../Modelagem/especificacao.md/#ec20">AD1</a> está alocado em <a href="../Modelagem/backlog.md/#us46">US45</a></li>
+<li>Representação: <a href="../Modelagem//istar#isd01-chat">ISR05</a> representa <a href="../Modelagem/diagramas_v2#dcu2">DCU2</a></li>
+</ul>
+<h3 id="ef2">EF2</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Elicitação/analdiscurso#requisitos-elicitados">AD2</a></li>
+<li><a href="../Elicitação/Introspeccao#introspeccao-01">INT1.4</a></li>
+<li><a href="../Elicitação/Storyboard#4-requisitos-obtidos">Storyboard 2 e 3</a>,</li>
+<li><a href="../Elicitação/questionario#requisitos-elicitados">Q12</a></li>
+<li><a href="../Modelagem/lexicos#25">L25</a></li>
+<li><a href="../Modelagem/cenarios#c2-v2">C2</a></li>
+<li><a href="../Modelagem/diagramas#dcu1-v2">DCU1-V2</a></li>
+<li><a href="../Modelagem/especificacao#ec20">EC20</a></li>
+<li><a href="../../Modelagem/backlog/#us46">US46</a></li>
+<li><a href="../Modelagem/istar#isd01-chat">ISD01</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../Modelagem/especificacao.md/#ec20">ECU20</a> representa <a href="../Modelagem/cenarios.md/#c2-v2">C2</a></li>
+<li>Alocação:  <a href="../Modelagem/especificacao.md/#ec20">ECU20</a> está alocado em <a href="../Modelagem/backlog.md/#us46">US46</a></li>
+<li>Representação: <a href="../Modelagem//istar#isd01-chat">ISD01</a> representa <a href="../Modelagem/diagramas#dcu1-v2">DCU1-V2</a></li>
+</ul>
+<h3 id="ef3">EF3</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Elicitação/analprot#requisitos-elicitados">AP1</a>,</li>
+<li><a href="../Elicitação/Introspeccao#introspeccao-01">INT1.3</a></li>
+<li><a href="../Modelagem/cenarios#c1-v2">C1</a></li>
+<li><a href="../Modelagem/diagramas#dcu13-v1">DCU13</a></li>
+<li><a href="../Modelagem/especificacao#ec21">EC21</a></li>
+<li><a href="../../Modelagem/backlog/#us02">US02</a></li>
+<li><a href="../Modelagem/istar#isr02-realizar-cadastro">ISR02</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../Modelagem/especificacao.md/#ec21">ECU21</a> representa <a href="../Modelagem/cenarios.md/#c1-v2">C1</a></li>
+<li>Alocação:  <a href="../Modelagem/especificacao.md/#ec21">ECU21</a> está alocado em <a href="../Modelagem/backlog.md/#us02">US02</a></li>
+<li>Representação: <a href="../Modelagem/istar.md/#isr02-realizar-cadastro">ISR02</a> representa <a href="../Modelagem/diagramas.md/#cadastrar-novo-usuario">DCU21</a></li>
+</ul>
+<h3 id="ef4">EF4</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Modelagem/backlog.md/#ep02-fazer-cadastro">EP02</a></li>
+<li><a href="../Modelagem/cenarios.md/#c1-v2">C1</a></li>
+<li><a href="../Modelagem/diagramas.md/#cadastrar-novo-usuario">DCU21</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec21">ECU21</a></li>
+<li><a href="../Modelagem/istar.md/#isr02-realizar-cadastro">ISR02</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../Modelagem/especificacao.md/#ec21">ECU21</a> representa <a href="../Modelagem/cenarios.md/#c1-v2">C1</a></li>
+<li>Alocação:  <a href="../Modelagem/especificacao.md/#ec21">ECU21</a> está alocado em <a href="../Modelagem/backlog.md/#ep02-fazer-cadastro">EP02</a></li>
+<li>Representação: <a href="../Modelagem/istar.md/#isr02-realizar-cadastro">ISR02</a> representa <a href="../Modelagem/diagramas.md/#cadastrar-novo-usuario">DCU21</a></li>
+</ul>
+<h3 id="ef5">EF5</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Modelagem/backlog.md/#ep08-criar-channel">EP08</a></li>
+<li><a href="../Modelagem/cenarios.md/#c3-v2">C3</a></li>
+<li><a href="../Modelagem/cenarios.md/#c22">C22</a></li>
+<li><a href="../Modelagem/diagramas.md/#dcu16-v1">DCU16</a></li>
+<li><a href="../Modelagem/diagramas.md/#dcu9-v1">DCU09</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec3">ECU03</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec10">ECU10</a></li>
+<li><a href="../Modelagem/istar.md/#versao-02_2">ISR01</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Agregação: <a href="../Modelagem/cenarios.md/#c3-v2">C3</a> é composto por <a href="../Modelagem/cenarios.md/#c22">C22</a></li>
+<li>Alocação: <a href="../Modelagem/cenarios.md/#c3-v2">C3</a> está alocado em <a href="../Modelagem/backlog.md/#ep08-criar-channel">EP08</a></li>
+<li>Representação: <a href="../Modelagem/especificacao.md/#ec3">ECU03</a> representa <a href="../Modelagem/cenarios.md/#c22">C22</a></li>
+<li>Representação: <a href="../Modelagem/especificacao.md/#ec10">ECU10</a> representa <a href="../Modelagem/cenarios.md/#c3-v2">C3</a></li>
+<li>Representação: <a href="../Modelagem/istar.md/#versao-02_2">ISR01</a> representa <a href="../Modelagem/diagramas.md/#dcu16-v1">DCU16</a></li>
+</ul>
+<h3 id="ef6">EF6</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Elicitação/Introspeccao#introspeccao-04">INT4.1</a></li>
+<li><a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">SB1</a></li>
+<li><a href="../Modelagem/backlog.md/#ep10-Mensagens">EP10</a></li>
+<li><a href="../Modelagem/cenarios.md/#c12-v2">C12</a></li>
+<li><a href="../Modelagem/diagramas.md/#dcu2-v2">DCU2</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec15">ECU15</a></li>
+<li><a href="../Modelagem/istar.md/#isr03-envio-de-mensagens">ISR03</a></li>
+<li><a href="../Modelagem/lexicos.md/#l41">L41</a></li>
+<li><a href="../../Modelagem/backlog/#us20">US20</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Satisfação: <a href="../Modelagem/diagramas.md/#dcu2-v2">DCU2</a> e <a href="../Modelagem/istar.md/#isr03-envio-de-mensagens">ISR03</a> satisfazem <a href="../../Modelagem/backlog/#us20">US20</a> e <a href="../Elicitação/Introspeccao#introspeccao-04">INT4.1</a></li>
+<li>Alocação: <a href="../../Modelagem/backlog/#us20">US20</a> está alocado em <a href="../Modelagem/backlog.md/#ep10-Mensagens">EP10</a></li>
+<li>Representação: <a href="../Modelagem/especificacao.md/#ec15">ECU15</a> representa o <a href="../Modelagem/cenarios.md/#c12-v2">C12</a></li>
+</ul>
+<h3 id="ef7">EF7</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Elicitação/Introspeccao#introspeccao-02">INT2.2</a></li>
+<li><a href="../Elicitação/analdiscursi#requisitos-elicitados">AD11</a></li>
+<li><a href="../Modelagem/backlog.md/#ep11-acoes-do-channel">EP11</a>,</li>
+<li><a href="../Modelagem/lexicos.md/#l11">L11</a></li>
+<li><a href="../../Modelagem/backlog/#us48">US48</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Alocação: <a href="../../Modelagem/backlog/#us48">US48</a> está alocado em <a href="../Modelagem/backlog.md/#ep11-acoes-do-channel">EP11</a></li>
+</ul>
+<h3 id="ef8">EF8</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Elicitação/Introspeccao#introspeccao-04">INT4.8</a></li>
+<li><a href="../Elicitação/Introspeccao#introspeccao-01">INT1.4</a></li>
+<li><a href="../Elicitação/Storyboard#4-requisitos-obtidos">Storyboard 4</a></li>
+<li><a href="../Modelagem/backlog.md/#ep16-conectar-com-um-servidor">EP16</a></li>
+<li><a href="../Modelagem/cenarios.md/#c4-v2">C4</a></li>
+<li><a href="../Modelagem/diagramas.md/#dcu17-v2">DCU17</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec11">EC11</a></li>
+<li><a href="../Modelagem/lexicos.md/#l14">L14</a></li>
+<li><a href="../../Modelagem/backlog/#us65">US65</a></li>
+</ul>
+<p><strong>Elo:</strong>
+* Agregação: <a href="../Modelagem/diagramas.md/#dcu17-v2">DCU17</a> é composto por <a href="../Modelagem/especificacao.md/#ec11">EC11</a>
+* Alocação: <a href="../Modelagem/cenarios.md/#c3-v2">C3</a> está alocado em <a href="../Modelagem/backlog.md/#ep08-criar-channel">EP08</a>
+* Representação: <a href="../Modelagem/especificacao.md/#ec3">ECU03</a> representa <a href="../Modelagem/cenarios.md/#c22">C22</a>
+* Representação: <a href="../Modelagem/especificacao.md/#ec10">ECU10</a> representa <a href="../Modelagem/cenarios.md/#c3-v2">C3</a>
+* Representação: <a href="../Modelagem/istar.md/#versao-02_2">ISR01</a> representa <a href="../Modelagem/diagramas.md/#dcu16-v1">DCU16</a></p>
+<h3 id="ef9">EF9</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Elicitação/Introspeccao/#introspeccao-03">INT3.9</a></li>
+<li><a href="../Elicitação/entrevista.md#requisitos">ENT1.1</a></li>
+<li><a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD7</a></li>
+<li><a href="../../Elicitação/questionario/#requisitos-elicitados">Q2</a></li>
+<li><a href="../Modelagem/backlog.md/#ep14-integraçoes">EP14</a>,</li>
+<li><a href="../Modelagem/cenarios.md/#c4-v2">C4</a>,</li>
+<li><a href="../Modelagem/diagramas.md/#dcu17-v2">DCU17</a>,</li>
+<li><a href="../Modelagem/especificacao.md/#ec11">EC11</a>,</li>
+<li><a href="../Modelagem/lexicos.md/#ec14">L26</a>,</li>
+<li><a href="../../Modelagem/backlog/#us62">US62</a></li>
+</ul>
+<p><strong>Elo:</strong>
+* Agregação: <a href="../Modelagem/diagramas.md/#dcu17-v2">DCU17</a> é composto por <a href="../Modelagem/especificacao.md/#ec11">EC11</a>
+* Alocação: <a href="../Modelagem/cenarios.md/#c4-v2">C4</a> está alocado em <a href="../Modelagem/backlog.md/#ep14-integraçoes">EP14</a>
+* Representação: <a href="../Modelagem/especificacao.md/#ec11">EC11</a> representa <a href="../Modelagem/cenarios.md/#c4-v2">C4</a></p>
+<h3 id="ef10">EF10</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Elicitação/analprot/#requisitos-elicitados">AP8</a></li>
+<li><a href="../Modelagem/backlog.md/#ep05-configurações-do-aplicativo">EP05</a></li>
+<li><a href="Modelagem/nfr.md#nf5-personabilidade">NFR5</a></li>
+<li><a href="../../Modelagem/backlog/#us09">US09</a></li>
+</ul>
+<p><strong>Elo:</strong>
+* Alocação: <a href="../../Modelagem/backlog/#us09">US09</a> está alocado em <a href="../Modelagem/backlog.md/#ep05-configurações-do-aplicativo">EP05</a></p>
+<h3 id="ef11">EF11</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Elicitação/Introspeccao#introspeccao-04">INT4.5</a></li>
+<li><a href="../Elicitação/Storyboard#4-requisitos-obtidos">Storyboard3</a></li>
+</ul>
+<p><strong>Elo:</strong>
+Representação: <a href="../Elicitação/Introspeccao#introspeccao-04">INT4.5</a> representa <a href="../Elicitação/Storyboard#4-requisitos-obtidos">Storyboard3</a></p>
+<h3 id="ef12">EF12</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#ep16-conectar-com-um-servidor">EP16</a>  </li>
+<li><a href="../../Modelagem/backlog/#us10">US65</a></li>
+<li><a href="../Modelagem/cenarios.md/#c4-v2">C4</a></li>
+<li><a href="../Modelagem/diagramas.md/#dcu17-v1">DCU17</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec11">EC11</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Alocação: <a href="../Modelagem/cenarios.md/#c4-v2">C4</a> está alocado em  <a href="../../Modelagem/backlog/#us10">US65</a></li>
+<li>Representação: <a href="../Modelagem/especificacao.md/#ec11">EC11</a> representa <a href="../Modelagem/cenarios.md/#c4-v2">C4</a></li>
+</ul>
+<h3 id="ef13">EF13</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us12">US12</a></li>
+<li><a href="../../Modelagem/lexicos/#l21">L21</a></li>
+<li><a href="../../Modelagem/lexicos/#l41">L41</a></li>
+<li><a href="../../Modelagem/lexicos/#l45">L45</a></li>
+<li><a href="../../Modelagem/lexicos/#l46">L46</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<h3 id="ef14">EF14</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us43">US43</a></li>
+<li><a href="../Modelagem/istar#isd04-acoes-sobre-o-channel">ISD04</a></li>
+<li><a href="../Modelagem/istar#isr05-acoes-sobre-o-channel">ISR05</a></li>
+<li><a href="../../Modelagem/lexicos/#l4">L4</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us43">US43</a> representa <a href="../../Modelagem/lexicos/#l4">L4</a></li>
+</ul>
+<h3 id="ef15">EF15</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us13">US13</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<h3 id="ef16">EF16</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us09">US09</a></li>
+<li><a href="../../Modelagem/backlog/#us14">US14</a></li>
+<li><a href="../../Modelagem/lexicos/#l08">L08</a></li>
+<li><a href="../Modelagem/istar#isr02-geral">ISD02</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Recurso: <a href="../Modelagem/istar#isr02-geral">ISD02</a> depende de um recurso provido pelo <a href="../../Modelagem/lexicos/#l08">L08</a>, no caso, o perfil a ser editado</li>
+<li>Recurso: <a href="../../Modelagem/backlog/#us14">US14</a> depende de um recurso provido pelo <a href="../../Modelagem/lexicos/#l08">L08</a>, no caso, o perfil a ser acessado</li>
+<li>Agregação: <a href="../Modelagem/istar#isr02-geral">ISD02</a> é composto por <a href="../../Modelagem/backlog/#us14">US14</a></li>
+</ul>
+<h3 id="ef17">EF17</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us28">US28</a></li>
+<li><a href="../../Modelagem/backlog/#us33">US33</a></li>
+<li><a href="../Modelagem/cenarios.md/#c9-v2">C9</a></li>
+<li><a href="../Modelagem/diagramas.md/#dcu2-v3">DCU2</a></li>
+<li><a href="../Modelagem/diagramas.md/#dcu18-v1">DCU18</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec16">EC16</a></li>
+<li><a href="../../Modelagem/lexicos/#l5">L5</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us33">US33</a> representa <a href="../Modelagem/cenarios.md/#c9-v2">C9</a></li>
+<li>Representação: <a href="../Modelagem/diagramas.md/#dcu18-v1">DCU18</a> representa <a href="../../Modelagem/lexicos/#l5">L5</a></li>
+<li>Recurso: <a href="../Modelagem/diagramas.md/#dcu2-v3">DCU2</a> depende de um recurso provido pelo <a href="../Modelagem/cenarios.md/#c9-v2">C9</a>, no caso, o arquivo a ser enviado</li>
+</ul>
+<h3 id="ef18">EF18</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us15">US15</a></li>
+<li><a href="../Modelagem/cenarios.md/#c10">C10</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us15">US15</a> representa <a href="../Modelagem/cenarios.md/#c10">C10</a></li>
+</ul>
+<h3 id="ef19">EF19</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us16">US16</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<h3 id="ef20">EF20</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us17">US17</a></li>
+<li><a href="../../Modelagem/lexicos/#l39">L39</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us17">US17</a> representa <a href="../../Modelagem/lexicos/#l39">L39</a></li>
+</ul>
+<h3 id="ef21">EF21</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us42">US42</a></li>
+<li><a href="../../Modelagem/lexicos/#l34">L34</a></li>
+<li><a href="../../Modelagem/lexicos/#l35">L35</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us42">US42</a> representa <a href="../../Modelagem/lexicos/#l35">L35</a></li>
+<li>Recurso: <a href="../../Modelagem/backlog/#us42">US42</a> depende de um recurso provido pelo <a href="../../Modelagem/lexicos/#l34">L34</a>, no caso, o channel favoritado</li>
+</ul>
+<h3 id="ef22">EF22</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us22">US22</a></li>
+<li><a href="../Modelagem/cenarios.md/#c26">C26</a></li>
+<li><a href="../Modelagem/diagramas.md/#dcu8-v1">DCU8</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec2">EC2</a></li>
+<li><a href="../../Modelagem/lexicos/#l72">L72</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../Modelagem/cenarios.md/#c26">C26</a> representa <a href="../../Modelagem/backlog/#us22">US22</a></li>
+<li>Representação: <a href="../Modelagem/especificacao.md/#ec2">EC2</a> representa <a href="../Modelagem/cenarios.md/#c26">C26</a></li>
+<li>Representação:  <a href="../Modelagem/diagramas.md/#dcu8-v1">DCU8</a>representa <a href="../../Modelagem/lexicos/#l72">L72</a></li>
+<li>Recurso: <a href="../../Modelagem/backlog/#us22">US22</a> depende de um recurso provido pelo <a href="../../Modelagem/lexicos/#l72">L72</a>, no caso, a privacidade do channel a ser alterada</li>
+<li>Recurso: <a href="../Modelagem/cenarios.md/#c26">C26</a> depende de um recurso provido pelo <a href="../../Modelagem/lexicos/#l72">L72</a>, no caso, a privacidade do channel a ser alterada</li>
+</ul>
+<h3 id="ef23">EF23</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us23">US23</a></li>
+<li><a href="../Modelagem/cenarios.md/#c22">C22</a></li>
+<li><a href="../Modelagem/diagramas.md/#dcu9-v1">DCU9 </a></li>
+<li><a href="../Modelagem/especificacao.md/#ec3">EC3</a></li>
+<li><a href="../../Modelagem/lexicos/#l69">L69</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us23">US23</a> representa <a href="../Modelagem/cenarios.md/#c22">C22</a></li>
+<li>Representação:  <a href="../Modelagem/diagramas.md/#dcu9-v1">DCU9 </a> representa <a href="../Modelagem/cenarios.md/#c22">C22</a></li>
+<li>Recurso: <a href="../Modelagem/cenarios.md/#c22">C22</a> depende de um recurso provido pelo <a href="../../Modelagem/lexicos/#l69">L69</a>, no caso, o Read-only channel</li>
+<li>Recurso:  <a href="../../Modelagem/backlog/#us23">US23</a> depende de um recurso provido pelo <a href="../../Modelagem/lexicos/#l69">L69</a>, no caso, o Read-only channel</li>
+</ul>
+<h3 id="ef24">EF24</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us24">US24</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<h3 id="ef25">EF25</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us25">US25</a></li>
+<li><a href="../../Modelagem/backlog/#us26">US26</a></li>
+<li><a href="../../Modelagem/backlog/#us47">US47</a></li>
+<li><a href="../../Modelagem/lexicos/#l33">L33</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Recurso: <a href="../../Modelagem/backlog/#us26">US26</a> depende de um recurso provido pelo <a href="../../Modelagem/lexicos/#l33">L33</a>, no caso, o tópico a ser adicionado</li>
+<li>Recurso: <a href="../../Modelagem/backlog/#us47">US47</a> depende de um recurso provido pelo <a href="../../Modelagem/lexicos/#l33">L33</a>, no caso, o tópico a ser visualizado</li>
+</ul>
+<h3 id="ef26">EF26</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us30">US30</a></li>
+<li><a href="../Modelagem/cenarios.md/#c8">C8</a></li>
+<li><a href="../Modelagem/diagramas.md/#dcu18-v1">DCU18</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec17">EC17</a></li>
+<li><a href="../../Modelagem/lexicos/#l43">L43</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us30">US30</a> representa <a href="../Modelagem/cenarios.md/#c8">C8</a></li>
+<li>Representação: <a href="../Modelagem/especificacao.md/#ec17">EC17</a> representa <a href="../Modelagem/cenarios.md/#c8">C8</a></li>
+<li>Agregação: <a href="../Modelagem/diagramas.md/#dcu18-v1">DCU18</a> é composto por <a href="../Modelagem/especificacao.md/#ec17">EC17</a></li>
+</ul>
+<h3 id="ef27">EF27</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us31">US31</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<h3 id="ef28">EF28</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us34">US34</a></li>
+<li><a href="../../Modelagem/cenarios/#c5">C5</a></li>
+<li><a href="../../Modelagem/especificacao/#ec19">E19</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu19-v1">DCU19</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us34">US34</a> representa <a href="../../Modelagem/cenarios/#c5">C5</a></li>
+<li>Representação: <a href="../../Modelagem/diagramas/#dcu19-v1">DCU19</a> representa <a href="../../Modelagem/backlog/#us34">US34</a></li>
+</ul>
+<h3 id="ef29">EF29</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us35">US35</a></li>
+<li><a href="../../Modelagem/lexicos/#l54">L54</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us35">US35</a> representa <a href="../../Modelagem/lexicos/#l54">L54</a></li>
+</ul>
+<h3 id="ef30">EF30</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us36">US36</a></li>
+<li><a href="../../Modelagem/lexicos/#l13">L13</a></li>
+<li><a href="../../Modelagem/lexicos/#l54">L54</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us36">US36</a> representa <a href="../../Modelagem/lexicos/#l13">L13</a></li>
+</ul>
+<h3 id="ef31">EF31</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us38">US38</a></li>
+<li><a href="../../Modelagem/lexicos/#l58">L58</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us38">US38</a> representa <a href="../../Modelagem/lexicos/#l58">L58</a></li>
+</ul>
+<h3 id="ef32">EF32</h3>
+<p><strong>Elementos rastreáveis:</strong>
+* <a href="../../Modelagem/backlog/#us39">US39</a>
+* <a href="../Modelagem/lexicos#l9">L9</a>
+* <a href="../Modelagem/lexicos#l10">L10</a></p>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us39">US39</a> representa <a href="../Modelagem/lexicos#l9">L9</a></li>
+</ul>
+<h3 id="ef33">EF33</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us40">US40</a></li>
+<li><a href="cenarios.md#c7-v2">C7</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu20-v1">DCU20</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec18">EC18</a></li>
+<li><a href="../Modelagem/istar#isd01-chat">ISD01</a></li>
+<li><a href="../Modelagem/istar#isr03-envio-de-mensagens">ISR03</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<h3 id="ef34">EF34</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us41">US41</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<h3 id="ef35">EF35</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us44">US44</a></li>
+<li><a href="cenarios.md#c19">C19</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu14-v1">DCU14</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec24">EC24</a></li>
+<li><a href="../Modelagem/lexicos#l28">L28</a></li>
+<li><a href="../../Modelagem/suplementar/#es03-notificacoes">ES03</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/diagramas/#dcu14-v1">DCU14</a> representa <a href="cenarios.md#c19">C19</a></li>
+<li>Representação: <a href="../../Modelagem/suplementar/#es03-notificacoes">ES03</a> representa <a href="../Modelagem/lexicos#l28">L28</a></li>
+<li>Recurso: <a href="cenarios.md#c19">C19</a> depende de um recurso provido pelo <a href="../Modelagem/lexicos#l28">L28</a>, no caso, a notificação</li>
+<li>Recurso: <a href="../../Modelagem/diagramas/#dcu14-v1">DCU14</a> depende de um recurso provido pelo <a href="../Modelagem/lexicos#l28">L28</a>, no caso, a notificação</li>
+</ul>
+<h3 id="ef36">EF36</h3>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Elicitação/entrevista.md#requisitos">ENT1.3</a></li>
+<li><a href="../Elicitação/Introspeccao#introspeccao-03">INT3.10</a></li>
+<li><a href="../../Modelagem/backlog/#us05">US05</a></li>
+<li><a href="../../Modelagem/backlog/#us06">US06</a></li>
+<li><a href="../../Modelagem/nfr/#nfr3-suporte">NFR-03</a></li>
+</ul>
+<p><strong>Elo:</strong>
+* Representação: <a href="../Elicitação/Introspeccao#introspeccao-03">INT3.10</a> representa <a href="../../Modelagem/nfr/#nfr3-suporte">ENT1.3</a>
+* Agregação: <a href="../../Modelagem/backlog/#us05">US05</a> é composto por <a href="../../Modelagem/backlog/#us06">US06</a></p>
+<h4 id="ef37">EF37</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us48">US48</a></li>
+<li><a href="../Modelagem/cenarios.md/#c17">C17</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu12-v1">DCU12</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec13">EC13</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/diagramas/#dcu12-v1">DCU12</a> representa <a href="../Modelagem/cenarios.md/#c17">C17</a></li>
+<li>Agregação: <a href="../../Modelagem/diagramas/#dcu12-v1">DCU12</a> é composto por <a href="../Modelagem/especificacao.md/#ec13">EC13</a></li>
+</ul>
+<h4 id="ef38">EF38</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us49">US49</a></li>
+<li><a href="cenarios.md#c13">C13</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu16-v1">DCU6</a></li>
+<li><a href="../Modelagem/especificacao.md/#ec6">EC6</a></li>
+<li><a href="../modelagem/istar.md#isd01">ID01</a></li>
+<li><a href="../modelagem/istar.md#isr03">ISR03</a></li>
+<li><a href="../Modelagem/lexicos.md/#l71">L71</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/diagramas/#dcu12-v1">DCU12</a> representa <a href="../Modelagem/cenarios.md/#c17">C17</a></li>
+<li>Agregação: <a href="../../Modelagem/diagramas/#dcu12-v1">DCU12</a> é composto por <a href="../Modelagem/especificacao.md/#ec13">EC13</a></li>
+</ul>
+<h4 id="ef39">EF39</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us50">US50</a></li>
+<li><a href="../Modelagem/cenarios.md/#c11">C11</a></li>
+<li><a href="../Modelagem/cenarios.md/#c25">C25</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu13-v1">DCU3</a></li>
+<li><a href="especificacao.md#ec1">EC1</a></li>
+<li><a href="especificacao.md#ec12">EC12</a></li>
+<li><a href="../modelagem/istar.md#isd01">ID01</a></li>
+<li><a href="../modelagem/istar.md#isr03">ISR03</a></li>
+<li><a href="../Modelagem/lexicos#l3">L3</a></li>
+<li><a href="../Modelagem/lexicos#l16">L16</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/diagramas/#dcu13-v1">DCU3</a> representa <a href="../Modelagem/cenarios.md/#c11">C11</a></li>
+<li>Representação: <a href="../../Modelagem/backlog/#us50">US50</a> representa <a href="../Modelagem/lexicos#l3">L3</a></li>
+<li>Representação: <a href="../../Modelagem/diagramas/#dcu13-v1">DCU3</a> representa <a href="../Modelagem/cenarios.md/#c25">C25</a></li>
+<li>Recurso: <a href="../Modelagem/cenarios.md/#c25">C25</a> depende de um recurso provido pelo <a href="../Modelagem/lexicos#l16">L16</a></li>
+<li>Agregação: <a href="../modelagem/istar.md#isr03">ISR03</a> é composto por <a href="../../Modelagem/backlog/#us50">US50</a></li>
+</ul>
+<h4 id="ef40">EF40</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Elicitação/analprot#requisitos-elicitados">AP5</a></li>
+<li><a href="../../Modelagem/backlog/#us53">US53</a></li>
+<li><a href="../Modelagem/lexicos#l59">L59</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/backlog/#us53">US53</a> representa <a href="../Modelagem/lexicos#l59">L59</a></li>
+</ul>
+<h4 id="ef41">EF41</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Elicitação/analdiscurso/#requisitos-elicitados">AD3</a></li>
+<li><a href="../Elicitação/Introspeccao#introspeccao-03">INT3.5</a></li>
+<li><a href="../../Elicitação/questionario/#requisitos-elicitados">Q11</a></li>
+<li><a href="../../Elicitação/Storyboard/#4-requisitos-obtidos">StoryBoard3,5</a></li>
+<li><a href="../../Modelagem/backlog/#us57">US57</a></li>
+<li><a href="../Modelagem/lexicos#l25">L25</a></li>
+<li><a href="especificacao.md#ec20">EC20</a></li>
+<li><a href="../Modelagem/diagramas#dcu1-v1">DCU1</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../Modelagem/diagramas#dcu1-v1">DCU1</a> representa <a href="especificacao.md#ec20">EC20</a></li>
+<li>Representação: <a href="../../Elicitação/questionario/#requisitos-elicitados">Q11</a> representa <a href="../Modelagem/lexicos#l25">L25</a></li>
+<li>Representação: <a href="../../Modelagem/diagramas/#dcu13-v1">DCU3</a> representa <a href="../Modelagem/cenarios.md/#c25">C25</a></li>
+<li>Recurso: <a href="../Modelagem/cenarios.md/#c25">C25</a> depende de um recurso provido pelo <a href="../Modelagem/lexicos#l16">L16</a></li>
+<li>Agregação: <a href="../../Modelagem/backlog/#us57">US57</a> é composto por <a href="../Modelagem/lexicos#l25">L25</a></li>
+</ul>
+<h4 id="ef42">EF42</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us58">US58</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu7-v1">DCU7</a></li>
+<li><a href="especificacao.md#ec7">EC7</a></li>
+<li><a href="../Modelagem/lexicos#l12">L12</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/diagramas/#dcu7-v1">DCU7</a> representa <a href="especificacao.md#ec7">EC7</a></li>
+<li>Agregação: <a href="../../Modelagem/backlog/#us58">US58</a> é composto por <a href="../Modelagem/lexicos#l12">L12</a></li>
+</ul>
+<h4 id="ef43">EF43</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us59">US59</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu7-v1">DCU7</a></li>
+<li><a href="especificacao.md#ec7">EC7</a></li>
+<li><a href="../Modelagem/lexicos#l12">L12</a></li>
+</ul>
+<p><strong>Elo:</strong>
+* Representação: <a href="../../Modelagem/backlog/#us59">US59</a> representa <a href="../../Modelagem/diagramas/#dcu7-v1">DCU7</a>
+* Agregação: <a href="especificacao.md#ec7">EC7</a> é composto por <a href="../Modelagem/lexicos#l12">L12</a></p>
+<h4 id="ef44">EF44</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../Elicitação/analprot#requisitos-elicitados">AP5</a></li>
+<li><a href="../../Modelagem/backlog/#us60">US60</a></li>
+<li><a href="../Modelagem/lexicos#l59">L59</a></li>
+</ul>
+<p><strong>Elo:</strong>
+* Representação: <a href="../../Modelagem/backlog/#us60">US60</a> representa <a href="../Elicitação/analprot#requisitos-elicitados">AP5</a></p>
+<h4 id="ef45">EF45</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us61">US61</a></li>
+<li><a href="../Modelagem/lexicos#l12">L12</a></li>
+</ul>
+<p><strong>Elo:</strong>
+* Agregação: <a href="../../Modelagem/backlog/#us61">US61</a> é composto por <a href="../Modelagem/lexicos#l12">L12</a></p>
+<h4 id="ef46">EF46</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us63">US63</a></li>
+<li><a href="../Modelagem/cenarios.md/#c16">C16</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu23-v1">DCU23</a></li>
+<li><a href="especificacao.md#ec23">ECU23</a></li>
+<li><a href="../Modelagem/lexicos#l49">L49</a></li>
+<li><a href="../modelagem/istar.md#isd02">ISD02</a></li>
+</ul>
+<p><strong>Elo:</strong>
+* Representação: <a href="../../Modelagem/diagramas/#dcu23-v1">DCU23</a> representa <a href="especificacao.md#ec23">ECU23</a>
+* Representação: <a href="../../Modelagem/backlog/#us63">US63</a> representa <a href="../Modelagem/cenarios.md/#c16">C16</a>
+* Representação: <a href="../../Modelagem/diagramas/#dcu23-v1">DCU23</a> representa <a href="../Modelagem/cenarios.md/#c16">C16</a>
+* Agregação: <a href="../../Modelagem/backlog/#us63">US63</a> é composto por <a href="../Modelagem/lexicos#l49">L49</a> e <a href="../modelagem/istar.md#isd02">ISD02</a></p>
+<h4 id="ef47">EF47</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us64">US64</a></li>
+<li><a href="../../Modelagem/backlog/#us63">US63</a></li>
+<li><a href="../Modelagem/cenarios.md/#c15">C15</a></li>
+<li><a href="../Modelagem/cenarios.md/#c16">C16</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu22-v1">DCU22</a></li>
+<li><a href="../../Modelagem/diagramas/#dcu23-v1">DCU23</a></li>
+<li><a href="especificacao.md#ec22">EC22</a></li>
+<li><a href="especificacao.md#ec23">EC23</a></li>
+<li><a href="../Modelagem/lexicos#l48">L48</a></li>
+<li><a href="../Modelagem/lexicos#l49">L49</a></li>
+<li><a href="../modelagem/istar.md#isd02">ISD02</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<ul>
+<li>Representação: <a href="../../Modelagem/diagramas/#dcu22-v1">DCU22</a> representa <a href="../Modelagem/cenarios.md/#c15">C15</a></li>
+<li>Recurso: <a href="../Modelagem/cenarios.md/#c15">C15</a> depende de um recurso provido pelo <a href="../Modelagem/lexicos#l48">L48</a></li>
+<li>Recurso: <a href="../../Modelagem/diagramas/#dcu23-v1">DCU23</a> depende de um recurso provido pelo <a href="../Modelagem/lexicos#l49">L49</a></li>
+<li>Agregação: <a href="../Modelagem/istar#isr02-geral">ISD02</a> é composto por <a href="../../Modelagem/backlog/#us63">US63</a> e <a href="../../Modelagem/backlog/#us64">US64</a></li>
+</ul>
+<h4 id="ef48">EF48</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us69">US69</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<h4 id="ef49">EF49</h4>
+<p><strong>Elementos rastreáveis:</strong></p>
+<ul>
+<li><a href="../../Modelagem/backlog/#us70">US70</a></li>
+</ul>
+<p><strong>Elo:</strong></p>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Modificação</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>16/06/2019</td>
+<td>1.0</td>
+<td>Abertura do documento</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>17/06/2019</td>
+<td>1.1</td>
+<td>Inclusão das tabelas inicias de requisitos</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>18/06/2019</td>
+<td>1.2</td>
+<td>Inclusão dos elos</td>
+<td>Marcos Nery</td>
+</tr>
+<tr>
+<td>19/06/2019</td>
+<td>1.3</td>
+<td>Inclusão dos elos</td>
+<td>Weiller Fernandes</td>
+</tr>
+<tr>
+<td>24/06/2019</td>
+<td>1.4</td>
+<td>Inclusão dos Requisitos RF37-RF50</td>
+<td>Lucas Maciel</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../../Análise/backlog/" title="Inspeção do Product Backlog" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                Inspeção do Product Backlog
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../Foward-From/" title="Foward-From" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Foward-From
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

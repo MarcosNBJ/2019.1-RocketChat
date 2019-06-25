@@ -1,0 +1,5651 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Léxicos - RocketChat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#lexicos" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="RocketChat" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RocketChat
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Léxicos
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="RocketChat" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    RocketChat
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Argumentacao/" title="Argumentacao" class="md-nav__link">
+      Argumentacao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Estratégia/" title="Estratégia" class="md-nav__link">
+      Estratégia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Storyboard/" title="Storyboard" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analdiscurso/" title="Análise de Discurso" class="md-nav__link">
+      Análise de Discurso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analprot/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../diagramas/" title="Diagramas de Caso de Uso" class="md-nav__link">
+      Diagramas de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-nav__link">
+      Diagramas de Caso de Uso 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao/" title="Especificação de Caso de Uso" class="md-nav__link">
+      Especificação de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../istar/" title="IStar" class="md-nav__link">
+      IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Léxicos
+      </label>
+    
+    <a href="./" title="Léxicos" class="md-nav__link md-nav__link--active">
+      Léxicos
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#l1" title="L1" class="md-nav__link">
+    L1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l2" title="L2" class="md-nav__link">
+    L2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l3" title="L3" class="md-nav__link">
+    L3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l4" title="L4" class="md-nav__link">
+    L4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l5" title="L5" class="md-nav__link">
+    L5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l6" title="L6" class="md-nav__link">
+    L6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l6-v2" title="L6 - V2" class="md-nav__link">
+    L6 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l7" title="L7" class="md-nav__link">
+    L7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l7-v2" title="L7 - V2" class="md-nav__link">
+    L7 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l8" title="L8" class="md-nav__link">
+    L8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l9" title="L9" class="md-nav__link">
+    L9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l10" title="L10" class="md-nav__link">
+    L10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l10-v2" title="L10 - V2" class="md-nav__link">
+    L10 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l11" title="L11" class="md-nav__link">
+    L11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l12" title="L12" class="md-nav__link">
+    L12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l13" title="L13" class="md-nav__link">
+    L13
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l13-v2" title="L13 - V2" class="md-nav__link">
+    L13 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l14" title="L14" class="md-nav__link">
+    L14
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l15" title="L15" class="md-nav__link">
+    L15
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l15-v2" title="L15 - V2" class="md-nav__link">
+    L15 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l16" title="L16" class="md-nav__link">
+    L16
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l17" title="L17" class="md-nav__link">
+    L17
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l18" title="L18" class="md-nav__link">
+    L18
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l19" title="L19" class="md-nav__link">
+    L19
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l20" title="L20" class="md-nav__link">
+    L20
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l21" title="L21" class="md-nav__link">
+    L21
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l22" title="L22" class="md-nav__link">
+    L22
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l23" title="L23" class="md-nav__link">
+    L23
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l24" title="L24" class="md-nav__link">
+    L24
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l25" title="L25" class="md-nav__link">
+    L25
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l26" title="L26" class="md-nav__link">
+    L26
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l27" title="L27" class="md-nav__link">
+    L27
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l28" title="L28" class="md-nav__link">
+    L28
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l29" title="L29" class="md-nav__link">
+    L29
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l30" title="L30" class="md-nav__link">
+    L30
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l31" title="L31" class="md-nav__link">
+    L31
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l32" title="L32" class="md-nav__link">
+    L32
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l32-v2" title="L32 - V2" class="md-nav__link">
+    L32 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l33" title="L33" class="md-nav__link">
+    L33
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l33-v2" title="L33 - V2" class="md-nav__link">
+    L33 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l34" title="L34" class="md-nav__link">
+    L34
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l34-v2" title="L34 - V2" class="md-nav__link">
+    L34 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l35" title="L35" class="md-nav__link">
+    L35
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l35-v2" title="L35 - V2" class="md-nav__link">
+    L35 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l36" title="L36" class="md-nav__link">
+    L36
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l36-v2" title="L36 - V2" class="md-nav__link">
+    L36 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l37" title="L37" class="md-nav__link">
+    L37
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l37-v2" title="L37 - V2" class="md-nav__link">
+    L37 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l38" title="L38" class="md-nav__link">
+    L38
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l38-v2" title="L38 - V2" class="md-nav__link">
+    L38 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l39" title="L39" class="md-nav__link">
+    L39
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l40" title="L40" class="md-nav__link">
+    L40
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l41" title="L41" class="md-nav__link">
+    L41
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l42" title="L42" class="md-nav__link">
+    L42
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l43" title="L43" class="md-nav__link">
+    L43
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l44" title="L44" class="md-nav__link">
+    L44
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l45" title="L45" class="md-nav__link">
+    L45
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l46" title="L46" class="md-nav__link">
+    L46
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l47" title="L47" class="md-nav__link">
+    L47
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l48" title="L48" class="md-nav__link">
+    L48
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l49" title="L49" class="md-nav__link">
+    L49
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l50" title="L50" class="md-nav__link">
+    L50
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l51" title="L51" class="md-nav__link">
+    L51
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l52" title="L52" class="md-nav__link">
+    L52
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l53" title="L53" class="md-nav__link">
+    L53
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l54" title="L54" class="md-nav__link">
+    L54
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l55" title="L55" class="md-nav__link">
+    L55
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l56" title="L56" class="md-nav__link">
+    L56
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l57" title="L57" class="md-nav__link">
+    L57
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l58" title="L58" class="md-nav__link">
+    L58
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l59" title="L59" class="md-nav__link">
+    L59
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l62" title="L62" class="md-nav__link">
+    L62
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l65" title="L65" class="md-nav__link">
+    L65
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l66" title="L66" class="md-nav__link">
+    L66
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l67" title="L67" class="md-nav__link">
+    L67
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l68" title="L68" class="md-nav__link">
+    L68
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l69" title="L69" class="md-nav__link">
+    L69
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l70" title="L70" class="md-nav__link">
+    L70
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l71" title="L71" class="md-nav__link">
+    L71
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l72" title="L72" class="md-nav__link">
+    L72
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nfr/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../suplementar/" title="Documento de Especificação Suplementar" class="md-nav__link">
+      Documento de Especificação Suplementar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/DC/" title="Inspeção de Diagramas de caso de Uso" class="md-nav__link">
+      Inspeção de Diagramas de caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/IStar/" title="Inspeção do IStar" class="md-nav__link">
+      Inspeção do IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/NFR/" title="Inspeção NFR" class="md-nav__link">
+      Inspeção NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/UC/" title="Inspeção de Casos de Uso" class="md-nav__link">
+      Inspeção de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/argumentacao/" title="Inspeção de Argumentação" class="md-nav__link">
+      Inspeção de Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/backlog/" title="Inspeção do Product Backlog" class="md-nav__link">
+      Inspeção do Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Backward-From/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Foward-From/" title="Foward-From" class="md-nav__link">
+      Foward-From
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Final
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Final
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-nav__link">
+      Metricas finais da Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#l1" title="L1" class="md-nav__link">
+    L1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l2" title="L2" class="md-nav__link">
+    L2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l3" title="L3" class="md-nav__link">
+    L3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l4" title="L4" class="md-nav__link">
+    L4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l5" title="L5" class="md-nav__link">
+    L5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l6" title="L6" class="md-nav__link">
+    L6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l6-v2" title="L6 - V2" class="md-nav__link">
+    L6 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l7" title="L7" class="md-nav__link">
+    L7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l7-v2" title="L7 - V2" class="md-nav__link">
+    L7 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l8" title="L8" class="md-nav__link">
+    L8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l9" title="L9" class="md-nav__link">
+    L9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l10" title="L10" class="md-nav__link">
+    L10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l10-v2" title="L10 - V2" class="md-nav__link">
+    L10 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l11" title="L11" class="md-nav__link">
+    L11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l12" title="L12" class="md-nav__link">
+    L12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l13" title="L13" class="md-nav__link">
+    L13
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l13-v2" title="L13 - V2" class="md-nav__link">
+    L13 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l14" title="L14" class="md-nav__link">
+    L14
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l15" title="L15" class="md-nav__link">
+    L15
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l15-v2" title="L15 - V2" class="md-nav__link">
+    L15 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l16" title="L16" class="md-nav__link">
+    L16
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l17" title="L17" class="md-nav__link">
+    L17
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l18" title="L18" class="md-nav__link">
+    L18
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l19" title="L19" class="md-nav__link">
+    L19
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l20" title="L20" class="md-nav__link">
+    L20
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l21" title="L21" class="md-nav__link">
+    L21
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l22" title="L22" class="md-nav__link">
+    L22
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l23" title="L23" class="md-nav__link">
+    L23
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l24" title="L24" class="md-nav__link">
+    L24
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l25" title="L25" class="md-nav__link">
+    L25
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l26" title="L26" class="md-nav__link">
+    L26
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l27" title="L27" class="md-nav__link">
+    L27
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l28" title="L28" class="md-nav__link">
+    L28
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l29" title="L29" class="md-nav__link">
+    L29
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l30" title="L30" class="md-nav__link">
+    L30
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l31" title="L31" class="md-nav__link">
+    L31
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l32" title="L32" class="md-nav__link">
+    L32
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l32-v2" title="L32 - V2" class="md-nav__link">
+    L32 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l33" title="L33" class="md-nav__link">
+    L33
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l33-v2" title="L33 - V2" class="md-nav__link">
+    L33 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l34" title="L34" class="md-nav__link">
+    L34
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l34-v2" title="L34 - V2" class="md-nav__link">
+    L34 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l35" title="L35" class="md-nav__link">
+    L35
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l35-v2" title="L35 - V2" class="md-nav__link">
+    L35 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l36" title="L36" class="md-nav__link">
+    L36
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l36-v2" title="L36 - V2" class="md-nav__link">
+    L36 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l37" title="L37" class="md-nav__link">
+    L37
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l37-v2" title="L37 - V2" class="md-nav__link">
+    L37 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l38" title="L38" class="md-nav__link">
+    L38
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l38-v2" title="L38 - V2" class="md-nav__link">
+    L38 - V2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l39" title="L39" class="md-nav__link">
+    L39
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l40" title="L40" class="md-nav__link">
+    L40
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l41" title="L41" class="md-nav__link">
+    L41
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l42" title="L42" class="md-nav__link">
+    L42
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l43" title="L43" class="md-nav__link">
+    L43
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l44" title="L44" class="md-nav__link">
+    L44
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l45" title="L45" class="md-nav__link">
+    L45
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l46" title="L46" class="md-nav__link">
+    L46
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l47" title="L47" class="md-nav__link">
+    L47
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l48" title="L48" class="md-nav__link">
+    L48
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l49" title="L49" class="md-nav__link">
+    L49
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l50" title="L50" class="md-nav__link">
+    L50
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l51" title="L51" class="md-nav__link">
+    L51
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l52" title="L52" class="md-nav__link">
+    L52
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l53" title="L53" class="md-nav__link">
+    L53
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l54" title="L54" class="md-nav__link">
+    L54
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l55" title="L55" class="md-nav__link">
+    L55
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l56" title="L56" class="md-nav__link">
+    L56
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l57" title="L57" class="md-nav__link">
+    L57
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l58" title="L58" class="md-nav__link">
+    L58
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l59" title="L59" class="md-nav__link">
+    L59
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l62" title="L62" class="md-nav__link">
+    L62
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l65" title="L65" class="md-nav__link">
+    L65
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l66" title="L66" class="md-nav__link">
+    L66
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l67" title="L67" class="md-nav__link">
+    L67
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l68" title="L68" class="md-nav__link">
+    L68
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l69" title="L69" class="md-nav__link">
+    L69
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l70" title="L70" class="md-nav__link">
+    L70
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l71" title="L71" class="md-nav__link">
+    L71
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#l72" title="L72" class="md-nav__link">
+    L72
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/marcosnbj/2019.1-RocketChat/edit/master/docs/Modelagem/lexicos.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="lexicos">Léxicos</h1>
+<p>Aqui estão listados os léxicos, que são termos específicos do contexto do domínio da aplicação, para os quais agora estão listadas uma descrição de significado, seus sinônimos, impactos. E também uma classificação, que pode ser de objeto, verbo ou estado. O segundo para ações, o terceiro para estados, e o primeiro para os quais não se encaixam nas outras duas e se referem apenas para termos, os quais tem um significado, mas não ações.</p>
+<h3 id="l1">L1</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>-Canal de comunicação e compartilhamento de informações.</td>
+</tr>
+<tr>
+<td>-Salas criadas por <a href="#l19">usuários</a>.</td>
+</tr>
+<tr>
+<td>-Onde ocorre as principais discussões de grupo dentro da plataforma.</td>
+</tr>
+<tr>
+<td>-Função principal da plataforma no campo de comunicação entre os <a href="#l19">usuários</a>.</td>
+</tr>
+<tr>
+<td>-Grupo de conversa com um tema selecionado.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>-Um <a href="#l2">canal pode ser criado</a> por determinado <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>-Um grupo pode receber determinado nome.</td>
+</tr>
+<tr>
+<td>-Um <a href="#l19">usuário</a> pode ser adicionado a um channel</td>
+</tr>
+<tr>
+<td>-Um <a href="#l19">usuário</a> pode ser removido de um channel</td>
+</tr>
+<tr>
+<td>-Um <a href="#l19">usuário</a> pode se retirar de um canal</td>
+</tr>
+<tr>
+<td>-<a href="#l5">Arquivos</a>, fotos podem ser compartilhados dentro de um canal</td>
+</tr>
+<tr>
+<td>-Pode-se <a href="#l4">mencionar pessoas</a> dentro de um canal</td>
+</tr>
+<tr>
+<td>-Dentro de um grupo, pode-se <a href="#l11">pesquisar mensagens</a> específicas</td>
+</tr>
+<tr>
+<td>-Há a possibilidade de adicionar uma descrição e um tópico a um channel</td>
+</tr>
+<tr>
+<td>-Pode-se <a href="#l3">dar pin em mensagens</a> em um grupo para salvá-las.</td>
+</tr>
+<tr>
+<td>-Um canal pode ser deletado.</td>
+</tr>
+<tr>
+<td>-Um canal pode ser integrado a <a href="#l26">bots</a>.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Grupos/grupos, chats/chat, canal/canais, channels.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l2">L2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Channel Criado</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Estado</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>-Ocorre quando um <a href="#l19">usuário</a> clica na opção: “criar <a href="#l1">canal</a>”</td>
+</tr>
+<tr>
+<td>-Um <a href="#l1">grupo</a> separado com várias pessoas está em atividade</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>-<a href="#l19">Usuários</a> podem trocar informações com outros <a href="#l19">usuários</a> simultaneamente</td>
+</tr>
+<tr>
+<td>-<a href="#l19">Usuários</a> podem <a href="#l5">enviar arquivos</a> e fotos dentro do <a href="#l1">canal</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Canal aberto/Canais abertos, grupo aberto/grupos abertos</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l3">L3</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Fixar mensagens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>-Atividade realizada pelo <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>-É feito dentro de <a href="#l1">canais de conversa</a></td>
+</tr>
+<tr>
+<td>-Quando um <a href="#l1">usuário</a> salva uma <a href="#l42">mensagem</a></td>
+</tr>
+<tr>
+<td>-Uma <a href="#l42">mensagem</a> leva pin caso haja interesse de visualizá-la em outro momento. (Visualizar <a href="#l42">mensagens</a> com pin)</td>
+</tr>
+<tr>
+<td>-Uma opção "fixar <a href="#l42">mensagem</a> ” possibilita a realização da ação</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>-<a href="#l16">Mensagem está “Fixada”</a></td>
+</tr>
+<tr>
+<td>-Se uma <a href="#l42">mensagem</a> foi fixada, eu posso visualizá-la em um local onde <a href="#l16">mensagens “fixadas”</a> irão aparecer</td>
+</tr>
+<tr>
+<td>-Eu posso desfazer a ação de fixar uma <a href="#l42">mensagem</a>, retirando -a da área de <a href="#l42">mensagens</a> com pin</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Salvar <a href="#l42">mensagem</a>, pinar <a href="#l42">mensagem</a>, fixar <a href="#l42">mensagem</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="l4">L4</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Mencionar <a href="#l19">Usuário</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação do <a href="#l19">usuário</a> em marcar o nome de outro <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- Realizada ao digitar o símbolo ‘@’, colocando a <a href="#l6-v2">tag</a> do <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- A aplicação mostrará uma lista com todos os <a href="#l19">usuários</a></td>
+</tr>
+<tr>
+<td>- Realizada em um <a href="#l1">channel</a> ou <a href="#l52">grupo privado</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Com isso, o <a href="#l19">usuário</a> mencionado receberá uma <a href="#l28">notificação</a></td>
+</tr>
+<tr>
+<td>- Na área “Menções” estará listada todas as mensagens em que o <a href="#l19">usuário</a> foi mencionado</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Mentions, Menções, Mencionar pessoas</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l5">L5</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Anexar arquivo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada por um <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- Ação ocorre ao clicar no botão “Anexar um arquivo”</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> envia um arquivo para um <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> escolhe um tipo de arquivo para enviar (foto, vídeo, documento, etc)</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> do <a href="#l1">channel</a> recebem o arquivo</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> do <a href="#l1">channel</a> podem visualizar o arquivo</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> do <a href="#l1">channel</a> podem salvar o arquivo em seu dispositivo</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Enviar arquivo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l6">L6</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Tag</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Palavra precedida pelo símbolo "@", identifica o <a href="#l19">usuário</a>, sendo que cada um possui uma tag única. E também existe a tag especial @all, que identifica todos os <a href="#l19">usuários</a> de um dado <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> define sua própria Tag.</td>
+</tr>
+<tr>
+<td>- É utilizada pelos <a href="#l19">usuários</a> para procurar por <a href="#l19">usuários</a>, <a href="#l59">adicionar usuários a um grupo</a> , e mencionar <a href="#l19">usuários</a> em uma conversa.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l6-v2">L6 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Tag</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Palavra precedida pelo símbolo "@" que identifica um <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- Cada <a href="#l19">usuários</a> possui uma tag única, que além do "@" que a precede pode ter letras e números.</td>
+</tr>
+<tr>
+<td>- Também existe a tag especial @all, que identifica todos os <a href="#l19">usuários</a> de um dado <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> define sua própria Tag.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuários</a> pode mudar a sua Tag.</td>
+</tr>
+<tr>
+<td>- É utilizada pelos <a href="#l19">usuários</a> para procurar pelo <a href="#l19">usuário</a> dono de uma determinada Tag.</td>
+</tr>
+<tr>
+<td>- É utilizada pelos <a href="#l19">usuários</a> para <a href="#l59">adicionar outros usuários a um grupo</a>.</td>
+</tr>
+<tr>
+<td>- É utilizada pelos <a href="#l19">usuários</a> para mencionar <a href="#l19">outros usuários</a> em uma conversa.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Arroba</td>
+</tr>
+<tr>
+<td>- Label</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l7">L7</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Emoji</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Símbolos gráficos usados para representar ações, objetos ou ideias abstratas, como uma risada, um choro, raiva, um relógio, uma bola, ou mesmo a ação de pedalar.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Podem ser utilizados pelo <a href="#l19">usuário</a> dentro durante uma conversa para exprimir essas ideias ou ações sem ter que descreve-las por palavras.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode <a href="#l9">adicionar uma reação</a> a uma mensagem, anexando a ela um emoji.</td>
+</tr>
+<tr>
+<td>- Muitos já são obtidos junto com o aplicativo. Mas o <a href="#l19">usuário</a> também pode incluir novos, feitos por ele ou por terceiros.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Reação</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l7-v2">L7 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Emoji</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Pequenos símbolos gráficos usados para representar ações, objetos ou ideias abstratas, como uma risada, um choro, raiva, um relógio, uma bola, ou mesmo a ação de pedalar.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Podem ser utilizados pelo <a href="#l19">usuário</a> durante uma conversa para exprimir essas ideias ou ações sem ter que descreve-las por palavras.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode <a href="#l9">adicionar uma reação</a> a uma <a href="#l42">mensagem</a>, anexando a ela um emoji.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode <a href="#l10-v2">remover uma reação</a> de uma <a href="#l42">mensagem</a>, retirando o emoji a ela adicionado.</td>
+</tr>
+<tr>
+<td>- Muitos já são obtidos junto com o aplicativo. Mas o <a href="#l19">usuário</a> também pode incluir novos emojis, feitos por ele ou por terceiros.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode <a href="#l37-v2">modificar a coloração de pele do Emoji</a>, caso este represente uma figura humana.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Reação</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l8">L8</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Perfil</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Área onde o <a href="#l19">usuário</a> pode ver suas informações como nome, <a href="#l17">nome de usuário</a>, email e avatar(foto de perfil)</td>
+</tr>
+<tr>
+<td>- Área onde o <a href="#l19">usuário</a> pode editar suas informações pessoais ou deletar sua conta</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode deletar sua conta</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode editar suas informações pessoais, como nome e email</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode adicionar um avatar, tirando uma foto ou selecionando da galeria</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode resetar seu avatar</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode editar seu <a href="#l17">nome de usuário</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Profile</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l9">L9</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Reagir a mensagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação dentro do Channel a qual um <a href="#l19">usuário</a> pode se expressar seu sentimento em relação a alguma mensagem enviada por outro <a href="#l19">usuário</a> através de emojis</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> clica na mensagem a qual deseja reagir, escolhe um emoji que descreve seu sentimento em relação aquela mensagem</td>
+</tr>
+<tr>
+<td>- Se reações diferentes forem adicionadas a uma mesma mensagem as reações se acumulam embaixo da mensagem</td>
+</tr>
+<tr>
+<td>- Um <a href="#l19">usuário</a> pode reagir a mensagem com mais de um emoji</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Responder</td>
+</tr>
+<tr>
+<td>- Agir</td>
+</tr>
+<tr>
+<td>- Lidar</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l10">L10</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Remover reação</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- Acontece quando o mesmo retira uma <a href="#l7-v2">reação</a> anteriormente <a href="#l9">adicionada</a> a uma mensagem.</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> clica na reação adicionada, e ela é então retirada.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Se outros <a href="#l19">usuários</a> reagiram aquela mensagem com o mesmo <a href="#l7-v2">emoji</a>, a contagem dessas reações na mensagem decresce em um.</td>
+</tr>
+<tr>
+<td>- Se não haviam outras reações com o mesmo <a href="#l7-v2">emoji</a>, a reação é completamente removida da mensagem.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l10-v2">L10 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Remover reação</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- Acontece dentro de uma <a href="#l1">conversa</a> quando o <a href="#l19">usuário</a> retira uma <a href="#l7-v2">reação</a> anteriormente <a href="#l9">adicionada</a> a uma mensagem.</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a> clica na reação adicionada, que vai estar logo abaixo do texto da respectiva <a href="#l42">mensagem</a>, e ela é então retirada.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Se outros <a href="#l19">usuários</a> reagiram aquela mensagem com o mesmo <a href="#l7-v2">emoji</a>, a contagem dessas reações na mensagem decresce em um.</td>
+</tr>
+<tr>
+<td>- Se não haviam outras reações com o mesmo <a href="#l7-v2">emoji</a>, a reação é completamente removida da mensagem.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode agora <a href="#l10-v2">adicionar a reação</a> novamente se desejar.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Remover emoji</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l11">L11</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Procurar mensagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- Ocorre quando o <a href="#l19">usuário</a> clica no botão de “lupa” dentro de um <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> digita uma palavra-chave que será procurada por toda aquela conversa</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Todas as mensagens que contêm a palavra pesquisada serão exibidas</td>
+</tr>
+<tr>
+<td>- Se uma palavra buscada não existir na conversa, o <a href="#l19">usuário</a> é avisado sobre isso</td>
+</tr>
+<tr>
+<td>- Ao clicar em uma das mensagens resultantes da pesquisa, o <a href="#l19">usuário</a> poderá realizar qualquer ação possível em uma mensagem comum</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Buscar mensagem</td>
+</tr>
+<tr>
+<td>- Busca</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l12">L12</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Membros</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> que participam de um <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Membros podem <a href="#l41">enviar mensagem</a>, <a href="#l9">reagir a mensagem</a>, <a href="#l11">procurar mensagem</a>, <a href="#l10-v2">remover reação</a>, <a href="#l3">fixar mensagem</a>, favoritar mensagem, <a href="#l4">mencionar usuário</a>, <a href="#l43">desenhar</a>, <a href="#l5">anexar arquivo</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Membro, members, member</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l13">L13</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Copiar Permalink</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> clica em uma mensagem, e então vai até a opção “Copiar <a href="#l15-v2">Permalink</a> ”, que o permite copiar um link que leva diretamente para a mensagem selecionada dentro do <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- É gerado um <a href="#l15-v2">Permalink</a>, que o <a href="#l19">usuário</a> pode então compartilhar com outros <a href="#l19">usuários</a>.</td>
+</tr>
+<tr>
+<td>- Outros <a href="#l19">usuários</a> que clicam no <a href="#l15-v2">permalink</a> poderão ver a mensagem por ele salva, e então realizar ações como <a href="#l9">aidicionar reação</a> ou <a href="#l56">responder</a>.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l13-v2">L13 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Copiar Permalink</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> clica em uma <a href="#l42">mensagem</a>, e então vai até a opção “Copiar <a href="#l15-v2">Permalink</a> ”, que o permite copiar um link que leva diretamente para a <a href="#l42">mensagem</a> selecionada dentro do <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- É gerado um <a href="#l15-v2">Permalink</a>, que o <a href="#l19">usuário</a> pode então compartilhar com outros <a href="#l19">usuários</a>. Seja pelo próprio app ou por fora.</td>
+</tr>
+<tr>
+<td>- Outros <a href="#l19">usuários</a> que clicam no <a href="#l15-v2">permalink</a> poderão ver a mensagem por ele salva, e então realizar ações como <a href="#l9">aidicionar reação</a> ou <a href="#l56">responder mensagem</a>.</td>
+</tr>
+<tr>
+<td>- O link gerado será adicionado a uma lista de permalinks existentes dentro de um determinado <a href="#l1">channel</a>, e deverá continuar ativo até que seja manualmente removido</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>-Linkar</td>
+</tr>
+<tr>
+<td>-Compartilhar</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l14">L14</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Adicionar novo servidor</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Se conectar a uma nova instância do software</td>
+</tr>
+<tr>
+<td>- Usar outro conector entre <a href="#l19">usuários</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>Um <a href="#l19">usuário</a> pode se conectar a outra instância do software para poder ter maior controle da privacidade das suas mensagens</td>
+</tr>
+<tr>
+<td>Um <a href="#l19">usuário</a> pode adicionar um novo servidor para trabalhar com dois grupos de trabalho diferentes</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="l15">L15</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Permalink</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- É um link permanente que pode levar o <a href="#l19">usuário</a> que clicar a um <a href="#l1">channel</a>, a uma <a href="#l42">mensagem</a>, ou a um <a href="#l18">servidor</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode gerar o permalink através da ação de <a href="#l13-v2">Copiar Permalink</a> para mensagem, ou de convidar um outro <a href="#l19">usuário</a> para um determinado <a href="#l1">channel</a> ou servidor.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> que receber e usar o permalink será levado para o destino para o qual ele foi gerado.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l15-v2">L15 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Permalink</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- É um link permanente que pode levar o <a href="#l19">usuário</a> que clicar a um <a href="#l1">channel</a>, a uma <a href="#l42">mensagem</a>, ou a um <a href="#l18">servidor</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode gerar o permalink através da ação de <a href="#l13-v2">Copiar Permalink</a> para mensagem, ou de convidar um outro <a href="#l19">usuário</a> para um determinado <a href="#l1">channel</a> ou servidor.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> que receber e usar o permalink será levado para o destino para o qual ele foi gerado.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode desativar um permalink que criou</td>
+</tr>
+<tr>
+<td>- Os permalinks existentes podem ser vistos por outros <a href="#l19">usuários</a> do <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>- Link permanente</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l16">L16</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Mensagem Fixada</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Estado</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode fixar mensagem em um <a href="#l1">channel</a> ao clicar nela e selecionar a opção de fixar mensagem.</td>
+</tr>
+<tr>
+<td>- Uma mensagem fixada poderá ser facilmente acessada pelo menu de mensagens fixadas do <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Se a mensagem está fixada, os <a href="#l19">usuários</a> podem clicar nela e escolher desafixar mensagem. Ação pela qual a mensagem passa para o estado de não fixada e deixa de aparecer no menu de mensagens fixadas.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l17">L17</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Nome de usuário</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Nome pelo qual o <a href="#l19">usuário</a> é identificado dentro do app</td>
+</tr>
+<tr>
+<td>- Deve ser único, ou seja, não podem existir dois <a href="#l19">usuários</a> com mesmo nome de <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- Não pode conter caracteres especiais, apenas letras e números</td>
+</tr>
+<tr>
+<td>- Não pode ser nulo ou deixado em branco</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Pode ser alterado dentro do <a href="#l8">perfil</a> a qualquer momento</td>
+</tr>
+<tr>
+<td>- Pode ser <a href="#l4">mencionado</a> dentro de uma conversa, para que o <a href="#l19">usuário</a> seja notificado de uma mensagem</td>
+</tr>
+<tr>
+<td>- Todos os nomes de usuários dos <a href="#l12">membros</a> de um grupo podem ser vistos na aba “<a href="#l12">membros</a>”</td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>- Username</td>
+</tr>
+<tr>
+<td>- Nickname</td>
+</tr>
+<tr>
+<td>- Nick</td>
+</tr>
+<tr>
+<td>- Apelido</td>
+</tr>
+<tr>
+<td>- User</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="l18">L18</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Servidor</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Computador responsável por hospedar o software</td>
+</tr>
+<tr>
+<td>- Computador que possui uma instância do software e lida com as requisições</td>
+</tr>
+<tr>
+<td>- Sistema de computação centralizada que fornece serviços</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="#l19">usuário</a> tem que se conectar a um servidor para poder enviar mensagem</td>
+</tr>
+<tr>
+<td>- Um <a href="#l19">usuário</a> pode ser conectar a vários servidores para poder utilizar ambientes diferentes para situações diferentes</td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>- Servo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l19">L19</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Usuário</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Aquele que desfruta do <a href="#l65">Rocket.Chat</a>, possui <a href="#l67">conta de usuário</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l65">Rocket.Chat</a> disponibiliza todas as suas funcionalidades ao <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a> pode se tornar <a href="#l12">membro</a> de um <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> utiliza uma <a href="#l67">conta de usuário</a></td>
+</tr>
+<tr>
+<td>- Usuário é inicialmente cadastrado como <a href="#l66">Usuário Community</a>, podendo se tornar <a href="#l29">Usuário Pro</a> ou <a href="#l30">Usuário Enterprise</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- User, Users, Usuários</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l20">L20</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Instância do software</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Cópia do software em funcionamento em um computador ou servidor</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Qualquer um pode instanciar o software para criar seu próprio servidor</td>
+</tr>
+<tr>
+<td>- Posso instanciar o software para fazer um teste</td>
+</tr>
+<tr>
+<td>- Para usar o <a href="#l65">Rocket.Chat</a> só é preciso fazer o download porém para ter seu servidor é necessário instanciar o software em seu servidor ou computador</td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>- Exemplo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l21">L21</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Senha</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Código associado à <a href="#l67">conta</a> usado para se garantir mais segurança e privacidade no app</td>
+</tr>
+<tr>
+<td>- A senha é criada no momento em que se cria a <a href="#l67">conta</a></td>
+</tr>
+<tr>
+<td>- A senha deve conter no mínimo 6 dígitos</td>
+</tr>
+<tr>
+<td>- A senha pode ser <a href="#l44">alterada</a> posteriormente</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- A senha pode ser <a href="#l44">alterada</a> no menu de configurações do app</td>
+</tr>
+<tr>
+<td>- Para se <a href="#l44">alterar a senha</a> é necessário <a href="#l45">informar a nova senha</a> e <a href="#l46">confirmar a nova senha</a></td>
+</tr>
+<tr>
+<td>- Para fazer <a href="#l62">login</a> no app a senha é exigida</td>
+</tr>
+<tr>
+<td>- Para se <a href="../cenarios/#c6">deletar a conta</a> no app a senha é exigida</td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>- Password</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l22">L22</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Status do <a href="#l19">Usuário</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Estado do <a href="#l19">usuário</a> no software</td>
+</tr>
+<tr>
+<td>- Disponibilidade do <a href="#l19">usuário</a> para conversar</td>
+</tr>
+<tr>
+<td>- Condição de ociosidade do <a href="#l19">usuário</a> no software</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="#l19">usuário</a> pode expressar sua disponibilidade para conversa através de seu Status de <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- Um <a href="#l19">usuário</a> pode não querer mostrar que está conectado ao <a href="#l65">Rocket.Chat</a> utilizando o status de <a href="#l19">usuário</a> invisível</td>
+</tr>
+<tr>
+<td>- Um <a href="#l19">usuário</a> pode querer deixar claro que no momento não está disponível para responder mensagens utilizando o Status ocupado</td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>- Estado</td>
+</tr>
+<tr>
+<td>- Condição</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l23">L23</h3>
+<table>
+<thead>
+<tr>
+<th><strong> Software Livre</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>-programa de computador que pode ser executado, copiado, modificado e redistribuído pelos <a href="#l19">usuários</a> gratuitamente.</td>
+</tr>
+<tr>
+<td>-Carrega a filosofia de liberdade de expressão e não o lucro.</td>
+</tr>
+<tr>
+<td>-Tem como contraste, o <a href="#l24">software proprietário</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="#l19">usuário</a> pode pode fazer alterações no código fonte, caso programa seja software livre</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l24">L24</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Software proprietário</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>-Software privado ou não livre</td>
+</tr>
+<tr>
+<td>-Software para computadores que é licenciado com direitos exclusivos do produtor.</td>
+</tr>
+<tr>
+<td>-Seu conceito faz oposição ao de <a href="#l23">software livre</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>-Um software proprietário é comprado e não pode ter seu código fonte alterado</td>
+</tr>
+<tr>
+<td>-Recebe patentes, direitos do autor e alguns casos, limitações para comercialização em países terceiros.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- software privado, software não livre</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l25">L25</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Video Chat</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Opção de comunicação alternativa ao chat por texto em que o <a href="#l19">usuário</a> se comunica através de contato visual e sonoro</td>
+</tr>
+<tr>
+<td>- Tecnologia que permite o contacto visual e sonoro em tempo real, entre pessoas que estão em lugares diferentes</td>
+</tr>
+<tr>
+<td>- Reunião virtual entre integrantes de um grupo</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> deseja realizar uma reunião online com sua equipe.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> inicia uma <a href="#l25">Video Chat</a> para se comunicar com outros <a href="#l19">usuários</a></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> participantes de uma <a href="#l25">Video Chat</a> podem interagir entre si</td>
+</tr>
+<tr>
+<td>- Permite que os integrantes de um grupo não precisem se deslocarem para uma reunião em um local físico</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> grava um video da <a href="#l25">Video Chat</a> e compartilha com sua equipe para uma possível consulta do que foi acordado e discutido</td>
+</tr>
+<tr>
+<td>- Permite ao <a href="#l19">usuário</a> transmitir a tela do seu dispositivo (computador ou celular)</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Videoconferência</td>
+</tr>
+<tr>
+<td>- Reunião Online</td>
+</tr>
+<tr>
+<td>- Web conferência</td>
+</tr>
+<tr>
+<td>- Chamada de video</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l26">L26</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Bot</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Robôs que realizam certas tarefas pré determinadas no <a href="#l1">channel</a> ou grupo do aplicativo</td>
+</tr>
+<tr>
+<td>- Módulo que pode ser integrado a uma parte maior de um programa</td>
+</tr>
+<tr>
+<td>- Aplicação de software concebido para simular ações humanas repetidas vezes de maneira padrão</td>
+</tr>
+<tr>
+<td>- Aplicação de software para automatizar determinadas ações</td>
+</tr>
+<tr>
+<td>- Bots são considerados como <a href="#l19">usuário</a> não gerenciador por um humano, mas por uma programa</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Os bots realizam as tarefas, previamente programadas, repetidas vezes, assim, economizando algum tempo do <a href="#l19">usuário</a> real</td>
+</tr>
+<tr>
+<td>- Alguns Bots providos de inteligência artificial podem realizar ações que não são esperadas</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> pode configurar o bot da maneira desejada, de acordo com as possibilidades com que o bot foi desenvolvido</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Robô</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l27">L27</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Discussão</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- “Subgrupo” para os <a href="#l19">usuários</a> adicionarem apenas um parte de outros <a href="#l12">membros</a> para discutir algum assunto</td>
+</tr>
+<tr>
+<td>- “Thread” do grupo ou <a href="#l1">channel</a> principal</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> deseja realizar um debate entre alguns <a href="#l12">membros</a> do grupo, sem incomodar o restante do grupo com assuntos que não são de interesse geral</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> inicia uma discussão a parte do assunto principal do <a href="#l1">channel</a> ou grupo com outros <a href="#l12">membros</a></td>
+</tr>
+<tr>
+<td>- Gera um novo canal de comunicação na barra lateral, na categoria de private groups ou grupo privado</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> adicionados passam a ser integrantes da sala ou grupo criado</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> podem deixar a sala</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> podem receber notificações da sala, grupo ou <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Discussões</td>
+</tr>
+<tr>
+<td>- Subgrupo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l28">L28</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Notificação</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Alerta por meio visual e/ou sonoro ao <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- Alerta de mensagem enviada por outro <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- Alerta quando <a href="#l19">usuário</a> é mencionado em um grupo</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- “Disparado” alerta ao <a href="#l19">usuário</a> ser mencionado por outro <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- As notificações de um <a href="#l1">channel</a>, grupo ou <a href="#l19">usuário</a> podem ser silenciadas</td>
+</tr>
+<tr>
+<td>- Uma notificação não pode ser cancelada, somente ignorada</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Alerta</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l29">L29</h3>
+<table>
+<thead>
+<tr>
+<th><strong><a href="#l19">usuário</a> Pro</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> Pro que desfruta de serviços exclusivos no <a href="#l65">Rocket.chat</a></td>
+</tr>
+<tr>
+<td>- Para empresas prontas para intensificar a comunicação da equipe e acessar mais recursos</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l65">Rocket.chat</a> disponibiliza mais funcionalidades que ao <a href="#l19">usuário</a> community](#l66)</td>
+</tr>
+<tr>
+<td>- Além de todas as funcionalidades disponibilizadas para o <a href="#l19">usuário</a> community](#l66), o <a href="#l19">usuário</a> Pro possui uma quantidade maior de <a href="#l28">notificações</a>, <a href="#l31">tradução em tempo real</a>, suporte 24 horas, assistência de migração e integração</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> premium</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l30">L30</h3>
+<table>
+<thead>
+<tr>
+<th><strong><a href="#l19">usuário</a> Enterprise</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> Enterprise que desfruta de todos serviços exclusivos no <a href="#l65">Rocket.chat</a></td>
+</tr>
+<tr>
+<td>- Para empresas que precisam de escalabilidade de alto nível, gerenciamento e recursos ilimitados</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l65">Rocket.chat</a> disponibiliza mais funcionalidades que ao <a href="#l66">usuário community</a></td>
+</tr>
+<tr>
+<td>- Além de todas as funcionalidades disponibilizadas para o <a href="#l66">usuáriocommunity</a>, e <a href="#l29">usuário Pro</a>, o <a href="#l19">usuário</a> Enterprise possui painel de leitura de mensagens, quantidade ilimitada de <a href="#l28">notificações</a>, <a href="#l40">conversão de áudio para texto</a>, relatórios pós-incidente de suporte, ligação de onboarding e acesso ao product team</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> corporativo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l31">L31</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Tradução em tempo real</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l29">usuário Pro</a> e <a href="#l30">usuário Enterprise</a> podem <a href="#l41">enviar mensagens</a> e fazer <a href="#l25">Video Chat</a>  com tradução em vários idiomas</td>
+</tr>
+<tr>
+<td>- Tecnologia que permite o <a href="#l19">usuário</a> se comunicar em tempo real, entre <a href="#l19">usuários</a> que falam idiomas diferentes, sem restrições</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a> pode trocar mensagens com <a href="#l19">usuários</a> de outros países</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a> pode participar de <a href="#l25">Video Chat</a> com <a href="#l19">usuários</a> de outros países</td>
+</tr>
+<tr>
+<td>- Permite um melhor relacionamento com <a href="#l19">usuários</a>/empresas que falam outro idioma</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Tradutor, Realtime translation</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l32">L32</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Anúncio</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- É um aviso textual que o <a href="#l19">usuário</a> gostaria que fosse visto pelos outros integrantes de um <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um Anúncio pode ser criado pelo <a href="#l19">usuário</a> em um <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td>- Um Anúncio criado será fixado na aba Anúncios do <a href="#l1">channel</a> para todos os outros <a href="#l19">usuários</a></td>
+</tr>
+<tr>
+<td>- Um Anúncio pode ser removido pelo <a href="#l19">usuário</a>, desde que este tenha os privilégios necessários</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Aviso</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l32-v2">L32 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Anúncio</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- É um aviso textual, uma <a href="#l42">mensagem</a>, que o <a href="#l19">usuário</a> gostaria que fosse visto pelos outros integrantes de um <a href="#l1">channel</a>. E que portanto possuí destaque, aparecendo na aba anúncios do <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um Anúncio pode ser criado pelo <a href="#l19">usuário</a> em um <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td>- Um Anúncio criado será fixado na aba Anúncios do <a href="#l1">channel</a> para todos os outros <a href="#l19">usuários</a> <a href="#l12">membros</a> do <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td>- Um Anúncio pode ser removido pelo <a href="#l19">usuário</a>, desde que este tenha os privilégios necessários dentro do <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Aviso</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l33">L33</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Tópico</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Descrição textual que identifica o assunto a ser tratado em um <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O administrador do <a href="#l1">channel</a> pode editar o tópico do <a href="#l1">channel</a>.</td>
+</tr>
+<tr>
+<td>- O tópico colocado será visto por todos os outros <a href="#l19">usuários</a> membros do <a href="#l1">channel</a> que forem até a sua descrição.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Assunto</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l33-v2">L33 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Tópico</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Descrição textual que identifica o assunto a ser tratado em um <a href="#l1">channel</a>. Podendo ou não estar presente em um determinado <a href="#l1">channel</a>, dependendo da preferência do seu criador.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O criador do <a href="#l1">channel</a> pode adcionar a ele um tópico.</td>
+</tr>
+<tr>
+<td>- O administrador do <a href="#l1">channel</a> pode editar o tópico do <a href="#l1">channel</a> a qualquer momento.</td>
+</tr>
+<tr>
+<td>- O tópico colocado será visto por todos os outros <a href="#l19">usuários</a> membros do <a href="#l1">channel</a> que forem até a sua descrição.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Assunto</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l34">L34</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Channel Favoritado</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Estado</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="#l1">channel</a> favoritado irá aparecer em destaque em relação aos outros na lista de channels do <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- Estado é atribuído ao <a href="#l1">channel</a> quando o <a href="#l19">usuário</a> realiza a ação de <a href="#l35-v2">favoritar um channel</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode <a href="#l36-v2">desfavoritar um channel</a> que esteja favoritado.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode favoritar um channel ainda não favoritado.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Stared channel</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l34-v2">L34 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Channel Favoritado</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Estado</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="#l1">channel</a> favoritado irá aparecer em destaque em relação aos outros na lista de channels do <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- Estado é atribuído ao <a href="#l1">channel</a> quando o <a href="#l19">usuário</a> realiza a ação de <a href="#l35-v2">favoritar um channel</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode <a href="#l36-v2">desfavoritar um channel</a> que esteja favoritado.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode favoritar um channel ainda não favoritado ou desfavoritado.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> entrar mais fácilmente em um channel favoritado.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Stared channel</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l35">L35</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Favoritar channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> vai até sua lista de <a href="#l1">channels</a> e dá um click no botão com ícone de estrela para favoritar um channel.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="#l34-v2">channel favoritado</a> vai aparecer em destaque na lista de channels</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode desfavoritar um channel favoritado</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Star channel</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l35-v2">L35 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Favoritar channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a> que quer que um determinado <a href="#l1">channel</a> fique destacado.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> vai até sua lista de <a href="#l1">channels</a> e dá um click no botão com ícone de estrela para favoritar um channel.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="#l34-v2">channel favoritado</a> vai aparecer em destaque na lista de channels do <a href="#l19">usuário</a> .</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode desfavoritar um channel favoritado.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Star channel</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l36">L36</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Desfavoritar channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> vai até um <a href="#l34-v2">channel favoritado</a> e dá um click no ícone da estrela, para desfavoritar o <a href="#l1">canal</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O canal não irá mais aparecer em <a href="#l34-v2">destaque</a></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> poderá <a href="#l35-v2">favoritar</a> novamente o channel</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Unstar channel</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l36-v2">L36 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Desfavoritar channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- Para ser desfavoritado, o <a href="#l1">channel</a> deverá estar <a href="#l34-v2">favoritado</a>.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> vai até um <a href="#l34-v2">channel favoritado</a> e dá um click no ícone da estrela, para desfavoritá-lo.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O canal não irá mais aparecer em <a href="#l34-v2">destaque</a> na lista de <a href="#l1">channels</a> do <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> poderá <a href="#l35-v2">favoritar</a> novamente o channel.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Unstar channel</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l37">L37</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Tom de pele padrão</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Cor da pele que será utilizada nos <a href="#l7-v2">Emojis</a> que representam figuras humanas</td>
+</tr>
+<tr>
+<td>- É possível escolher uma tonalidade dentre 6, 1 neutra que é amarela e 5 que são inspiradas na realidade</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode <a href="#l38-v2">escolher o tom de pele padrão</a> que será utilizado nos Emojis que ele usar.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Emoji Skin</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l37-v2">L37 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Tom de pele padrão</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Cor da pele que será utilizada nos <a href="#l7-v2">Emojis</a> que representam figuras humanas</td>
+</tr>
+<tr>
+<td>- Existem 6 tonalidades, 1 neutra que é amarela e 5 que são inspiradas na realidade, indo de tons de pele mais clara até os mais escuros.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode <a href="#l38-v2">escolher o tom de pele padrão</a> que será utilizado nos Emojis que ele usar.</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode a qualquer momento <a href="#l38-v2">modificar o tom de pele escolhido</a>.</td>
+</tr>
+<tr>
+<td>- Caso o <a href="#l19">usuário</a> não defina um tom de pele padrão, o aplicativo utiliza o tom amarelo.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Emoji Skin</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l38">L38</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Escolher tom de pele padrão</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> realiza a ação ao, dentro de uma <a href="#l1">conversa</a>, selecionar o ícone de <a href="#l7-v2">Emojis</a> e em seguida selecionar o ícone circular colorido que representa o tom de pele padrão.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Todos os emojis que representam figuras humanas que o <a href="#l19">usuário</a> mandar terão a cor de pele na tonalidade selecionada</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode tocar no botão novamente para trocar a cor</td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>-Mudar tom de pele padrão</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l38-v2">L38 - V2</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Escolher tom de pele padrão</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a> realiza a ação ao, dentro de uma <a href="#l1">conversa</a>, selecionar o ícone de <a href="#l7-v2">Emojis</a> e em seguida selecionar o ícone circular colorido que representa o tom de pele padrão.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Todos os <a href="#l7-v2">emojis</a> que representam figuras humanas que o <a href="#l19">usuário</a> mandar terão a cor de pele na tonalidade selecionada</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode tocar no botão novamente para trocar a cor</td>
+</tr>
+<tr>
+<td>- Uma cor escolhida vai ser utilizada para os <a href="#l7-v2">emojis</a> utilizados em qualquer <a href="#l1">conversa</a> dentro do aplicativo.</td>
+</tr>
+<tr>
+<td>- Outros <a href="#l19">usuários</a> no channel verão os <a href="#l7-v2">emojis</a> mandados por este  <a href="#l19">usuários</a> na <a href="#l37-v2">tonalidade de pele</a> escolhida por ele.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l39">L39</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Ordenação de chats</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- É a categorização dos chats  que pode ser visualizada no menu localizado à esquerda na Versão Desktop do aplicativo</td>
+</tr>
+<tr>
+<td>- Disposição de cada tipo de chat em sua categoria: channels, grupos privados, discussões ou mensagens diretas</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> são capazes de visualizarem cada chat em sua devida categoria</td>
+</tr>
+<tr>
+<td>- Facilita encontrar algum chat</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> pode ocultar os chat</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> pode criar novo chat</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Categorias de Chats</td>
+</tr>
+<tr>
+<td>- Listagem de Chats</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l40">L40</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Conversão de áudio para texto</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada pelo aplicativo</td>
+</tr>
+<tr>
+<td>- Ação acontece em uma <a href="#l25">Video Chat</a></td>
+</tr>
+<tr>
+<td>- Aplicativo utiliza um processo de reconhecimento e, logo após, mostra ao <a href="#l19">usuário</a> o áudio processado em formato de texto</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> podem ver os resultados do reconhecimento do áudio quase que em tempo real</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> podem desabilitar essa opção ou ação do aplicativo</td>
+</tr>
+<tr>
+<td>- Essa opção pode ajudar <a href="#l19">usuários</a> que possuem deficiências auditivas</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Transcrição de áudio em texto</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l41">L41</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Enviar mensagens</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada por um <a href="#l19">usuário</a> em um grupo, channel ou chat pessoal</td>
+</tr>
+<tr>
+<td>- Ação de escrever um texto, adicionar imagens, fazer um desenho a partir do aplicativo e compartilhar a um grupo ou outro <a href="#l19">usuário</a> do aplicativo</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> deseja compartilhar uma idéia ou informação com um ou vários outros <a href="#l19">usuários</a> no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> destinatário(s) recebem uma notificação se tiverem sido mencionados em um grupo ou se a mensagem foi enviada de maneira pessoal</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> destinatário(s), ou seja, os <a href="#l19">usuários</a> presentes no grupo, ou channel que a mensagem foi gerada ou <a href="#l19">usuários</a> destinatários diretos conseguem visualizar a mensagem gerada</td>
+</tr>
+<tr>
+<td>- Uma nova mensagem é adicionada em um chat de um grupo, channel, ou chat pessoal</td>
+</tr>
+<tr>
+<td>- Mensagem gerada pode receber todas as ações de uma mensagem</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Mandar Mensagem</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l42">L42</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Mensagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Objeto criado por <a href="#l19">usuário</a> que contém texto, desenho, ou <a href="#l5">arquivo anexado</a></td>
+</tr>
+<tr>
+<td>- Representação de informações ou idéias compartilhadas em grupo, channel ou chat pessoal</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> remetente pode a qualquer momento remover mensagem enviada, porém somente o conteúdo da mensagem é apagado, ainda é possível ver que a mensagem por um momento “existiu”</td>
+</tr>
+<tr>
+<td>- Mensagem gerada torna-se disponível para algum <a href="#l19">usuário</a> favoritar mensagem</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> podem fixar mensagem</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> podem copiar mensagem</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> podem citar ou responder mensagem</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a> remetente pode editar mensagem</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> podem copiar permalink</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l43">L43</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Desenhar</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação realizada por um <a href="#l19">usuário</a> em um grupo, channel ou chat pessoal</td>
+</tr>
+<tr>
+<td>- Maneira alternativa de criar uma mensagem através da criação de um desenho no momento em que se cria a mensagem</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a> deseja expressar uma ideia ou informação através de um desenho</td>
+</tr>
+<tr>
+<td>- Opção disponível na versão mobile do aplicativo</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> presentes em um grupo, channel ou chat pessoal vão poder visualizar a mensagem em formato de desenho</td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuários</a> poderão realizar as mesmas ações que uma mensagem comum</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Rascunho</td>
+</tr>
+<tr>
+<td>- Rasura</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l44">L44</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Alterar <a href="#l21">senha</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Atividade realizada pelo <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- É feito dentro das configurações do app</td>
+</tr>
+<tr>
+<td>- Quando um <a href="#l19">usuário</a> clica  na aba de configurações um menu com uma série de opções é exibido, dentre elas está a opção de alterar a <a href="#l21">senha</a> da <a href="#l67">conta</a></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> clica na opção de alterar <a href="#l21">senha</a> e preenche o campo com sua nova <a href="#l21">senha</a></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> preenche o campo de <a href="#l46">confirmar a nova senha</a> e então a <a href="#l21">senha</a> é alterada com sucesso</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- A <a href="#l21">senha</a> do <a href="#l19">usuário</a> é alterada</td>
+</tr>
+<tr>
+<td>- Para fazer login no app novamente o <a href="#l19">usuário</a> deve digitar sua nova <a href="#l21">senha</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Change password</td>
+</tr>
+<tr>
+<td>- Redefinir <a href="#l21">senha</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="l45">L45</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Informar nova <a href="#l21">senha</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Atividade realizada pelo <a href="#l19">usuário</a>   que possui uma <a href="#l67">conta</a> no app</td>
+</tr>
+<tr>
+<td>- É feito quando o <a href="#l19">usuário</a> deseja substituir uma <a href="#l21">senha</a> antiga por uma nova</td>
+</tr>
+<tr>
+<td>- É feito dentro da opção "<a href="#l44">Alterar senha</a>" do menu de configurações do app</td>
+</tr>
+<tr>
+<td>- A nova <a href="#l21">senha</a> deve possuir no mínimo 6 caracteres</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Quando o <a href="#l19">usuário</a> informa a nova <a href="#l21">senha</a> ele deverá repetí-la no campo de <a href="#l46">confirmar a nova senha</a></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> não pode visualizar a nova <a href="#l21">senha</a> digitada, ficando essa escondida por pontos que representam apenas a quantidade de caracteres inserida</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Inform new password</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l46">L46</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Confirmar nova <a href="#l21">senha</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Atividade realizada pelo <a href="#l19">usuário</a>   que possui uma <a href="#l67">conta</a> no app</td>
+</tr>
+<tr>
+<td>- É feito quando o usuário deseja substituir uma <a href="#l21">senha</a> antiga por uma nova</td>
+</tr>
+<tr>
+<td>- É feito dentro da opção "<a href="#l44">Alterar senha</a>" do menu de configurações do app</td>
+</tr>
+<tr>
+<td>- A <a href="#l21">senha</a> digitada no campo "confirme a nova senha" deve ser igual a <a href="#l21">senha</a> digitada no campo "<a href="#l45">informe a nova senha</a>"</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Quando o <a href="#l19">usuário</a> confirma a nova <a href="#l21">senha</a> que deseja atribuir a sua <a href="#l67">conta</a>, ele deve clicar no botão de "correto" para que essa alteração seja validada</td>
+</tr>
+<tr>
+<td>- Caso a <a href="#l21">senha</a> digitada no campo "confirme a nova senha" seja diferente da digitada no campo "<a href="#l45">informe a nova senha</a>", o botão de validação não é exibido</td>
+</tr>
+<tr>
+<td>- A nova <a href="#l21">senha</a> passa a ser necessária para se fazer <a href="#l62">login</a> no app</td>
+</tr>
+<tr>
+<td>- A nova <a href="#l21">senha</a> passa a ser necessária para se <a href="#cenarios.md#c6">deletar a conta</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Confirm new password</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l47">L47</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Compartilhar app</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Atividade realizada pelo <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- É feito dentro das configurações do app</td>
+</tr>
+<tr>
+<td>- Quando um <a href="#l19">usuário</a> clica  na aba de configurações um menu com uma série de opções é exibido, dentre elas está a opção de compartilhar o app</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> clica na opção de compartilhar app e um novo menu é exibido</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> escolhe por onde quer compartilhar o app, whatsapp, facebook, instagram, etc</td>
+</tr>
+<tr>
+<td>- Um link é gerado e enviado para a pessoa ou pessoas escolhidas, este link dá acesso à página do app na play store</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um link é compartilhado através de um app que o <a href="#l19">usuário</a> escolheu</td>
+</tr>
+<tr>
+<td>- Uma ou mais pessoas recebem o link</td>
+</tr>
+<tr>
+<td>- Com este link é possível fazer o download do app</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l48">L48</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Sair da Sala</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação de deixar de participar de um canal</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> o qual não quer mais receber mensagens de um channel usa a opção sair da sala para não participar do channel</td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> adicionado em um canal o qual o qual não deveria fazer parte sai do mesmo usando o sair da sala</td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>- Retirar-se</td>
+</tr>
+<tr>
+<td>- Abandonar</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l49">L49</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Esconder Sala</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ação de fazer com que um canal não seja mais visível</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">usuário</a> o qual não quer que um canal seja exibido na sua lista de canais usa a ação de esconder sala</td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>- Ocultar</td>
+</tr>
+<tr>
+<td>- Desaparecer</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l50">L50</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Diretório</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Página onde se encontram todos os canais e <a href="#l19">usuários</a> de um servidor</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Em busca de uma grupo com tema específico o <a href="#l19">usuário</a> acessou o diretório e pesquisou os canais</td>
+</tr>
+<tr>
+<td>- Procurando um <a href="#l19">usuário</a> que não lembrava seu <a href="#l17">nome de usuário</a>, o <a href="#l19">usuário</a> 1 acessou o diretório e procurou o <a href="#l17">nome de usuário</a> do <a href="#l19">usuário</a> 2</td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>- Guia</td>
+</tr>
+<tr>
+<td>- Livro de Consulta</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l51">L51</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Room</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- É uma sala virtual onde participantes de um grupo podem conversar, compartilhar informações ou idéias</td>
+</tr>
+<tr>
+<td>- É o termo genérico para channel, grupo privado, discussão ou mensagens diretas presentes no aplicativo</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Uma Room pode ser criada por um <a href="#l19">usuário</a> e este pode convidar <a href="#l19">usuários</a> para serem <a href="#l12">membros</a> da equipe na sala</td>
+</tr>
+<tr>
+<td>- Uma Room pode ser ocultada (somente Versão Desktop)</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Bate-Papo</td>
+</tr>
+<tr>
+<td>- Sala Virtual</td>
+</tr>
+<tr>
+<td>- Chat</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l52">L52</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Grupo Privado</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ocorre quando somente <a href="#l19">usuários</a> adicionados pelo <a href="#l19">usuário</a> administrador do grupo privado podem visualizar e interagir</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Para um grupo privado, os <a href="#l19">usuários</a> precisam ser convidados para ter acesso</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> precisa aceitar a solicitação para entrar no grupo privado</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode se recusar a entrar no grupo privado</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Grupos privados</td>
+</tr>
+<tr>
+<td>- Channel privado</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l53">L53</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Mensagem direta</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Canal de comunicação direta com outros <a href="#l19">usuários</a> do <a href="#l65">Rocket.chat</a></td>
+</tr>
+<tr>
+<td>- Local onde ocorre a troca de mensagens, áudios, fotos e <a href="#l5">arquivos</a></td>
+</tr>
+<tr>
+<td>- Local onde é possível realizar <a href="#l25">Video Chats</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> envia uma mensagem direta para outro <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- Ocorre a troca de mensagens, fotos e <a href="#l5">arquivos</a> dentro da mensagem direta</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Chat Pessoal</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l54">L54</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Copiar mensagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ato de copiar um texto no <a href="#l65">Rocket.chat</a></td>
+</tr>
+<tr>
+<td>- Atividade realizada pelo <a href="#l19">usuário</a> dentro de uma <a href="#l53">mensagem direta</a> ou <a href="#l1">chanel</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode copiar mensagem para enviar para outros <a href="#l19">usuários</a></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode utilizar em outros locais</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Copiar mensagens</td>
+</tr>
+<tr>
+<td>- Clonar mensagem</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l55">L55</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Editar <a href="#l42">Mensagem</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>-Ação realizada pelo <a href="#l19">usuário</a> cadastrado.</td>
+</tr>
+<tr>
+<td>-Acontece quando um <a href="#l19">usuário</a> altera o conteúdo de uma <a href="#l19">mensagem</a> que já foi enviada.</td>
+</tr>
+<tr>
+<td>-Ocorre dentro de um chat em grupo ou chat pessoal.</td>
+</tr>
+<tr>
+<td>-Ao pressionar uma <a href="#l19">mensagem</a>, dentre várias ações, há a de ‘editar <a href="#l42">mensagem</a>’.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>-O conteúdo de uma <a href="#l42">mensagem</a> é modificada.</td>
+</tr>
+<tr>
+<td>-Todos para quem a <a href="#l42">mensagem</a> foi encaminhada anteriormente poderão visualizar a nova mensagem editada.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Modificar mensagem/mensagens, alterar mensagem/mensagens</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l56">L56</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Responder <a href="#l42">Mensagem</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>-Ação realizada por um <a href="#l19">usuário</a> cadastrado</td>
+</tr>
+<tr>
+<td>-Acontece quando o <a href="#l19">usuário</a> pretende enviar uma <a href="#l42">mensagem</a> como sendo uma resposta a uma <a href="#l42">mensagem</a> previamente enviada por ele mesmo ou outro <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>-Ao clicar na <a href="#l42">mensagem</a> no qual se deseja responder, dentre várias ações possíveis, há a de “responder”</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>-Uma <a href="#l42">mensagem</a> será destacada como respondida e ,logo embaixo, haverá a resposta para tal <a href="#l42">mensagem</a>.</td>
+</tr>
+<tr>
+<td>-Uma <a href="#l42">mensagem</a> será respondida.</td>
+</tr>
+<tr>
+<td>-Uma nova <a href="#l42">mensagem</a> é enviada.</td>
+</tr>
+<tr>
+<td>-A <a href="#l42">mensagem</a> enviada como resposta destaca a <a href="#l42">mensagem</a> que está sendo respondida.</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Responder <a href="#l42">mensagem</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="l57">L57</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Pesquisar <a href="#l42">Mensagem</a> </strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>-Atividade realizada pelo <a href="#l19">usuário</a> <a href="#l62">logado</a></td>
+</tr>
+<tr>
+<td>-Seu acontecimento ocorre quando o <a href="#l19">usuário</a> faz uma busca por uma determinada <a href="#l42">mensagem</a></td>
+</tr>
+<tr>
+<td>-Ocorre dentro do <a href="#l2">chanel criado</a> na ferramenta de lupa na parte superior</td>
+</tr>
+<tr>
+<td>-<a href="#l19">usuário</a> clica na ferramenta de busca e digita a <a href="#l42">mensagem</a> a ser buscada</td>
+</tr>
+<tr>
+<td>-<a href="#l42">Mensagem</a> irá ser destacada, caso exista na busca. Caso contrário, um aviso indicará ao <a href="#l19">usuário</a> a ausência da <a href="#l42">mensagem</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>-Uma <a href="#l42">mensagem</a> será buscada</td>
+</tr>
+<tr>
+<td>-Uma <a href="#l42">mensagem</a> poderá ser encontrada</td>
+</tr>
+<tr>
+<td>-Se não houver a <a href="#l42">mensagem</a>, então <a href="#l42">mensagem</a> não encontrada</td>
+</tr>
+<tr>
+<td>-<a href="#l42">mensagem</a> encontrada é exibida dentro da área do <a href="#l42">chat</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Buscar mensagem</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l58">L58</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Remover <a href="#l42">Mensagem</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>-Ação realizada por um <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>-ocorre dentro de um <a href="#l42">mensagem</a> em grupo ou em um <a href="#l1">chat</a> pessoal</td>
+</tr>
+<tr>
+<td>-Acontece quando um <a href="#l19">usuário</a> tentar apagar uma <a href="#l42">mensagem</a> antes enviada</td>
+</tr>
+<tr>
+<td>-<a href="#l19">usuário</a> verifica que a <a href="#l42">mensagem</a> foi enviada e diante da percepção de um equívoco, deseja desfazer a ação.</td>
+</tr>
+<tr>
+<td>-Ação realizada diante de uma <a href="#l42">mensagem</a>.</td>
+</tr>
+<tr>
+<td>-Ao pressionar uma  <a href="#l42">mensagem</a>, diante de diversas ações que podem ser realizadas, há a opção ‘remover <a href="#l42">mensagem</a>’</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>-Ao apagar a <a href="#l42">mensagem</a>, ela desaparece do <a href="#l42">mensagem</a>, tanto para quem enviou tanto para quem recebeu</td>
+</tr>
+<tr>
+<td>-<a href="#l42">Mensagem</a> apagada</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- apagar mensagem/mensagens, deletar mensagem/mensagens.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l59">L59</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Adicionar <a href="#l19">Usuário</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Opção de incluir um <a href="#l19">usuário</a> a um <a href="#l52">grupo privado</a>, um <a href="#l1">chanel</a> ou até uma <a href="#l25">Video Chat</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a> pode adicionar outro <a href="#l19">usuário</a> a um <a href="#l52">grupo privado</a></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a> pode adicionar outro <a href="#l19">usuário</a> a um <a href="#l1">chanel</a></td>
+</tr>
+<tr>
+<td>- <a href="#l19">Usuário</a> pode adicionar outro <a href="#l19">usuário</a> a uma <a href="#l25">Video Chat</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Colocar <a href="#l19">usuário</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="l62">L62</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Login</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ter acesso a uma conta previamente cadastrada usando dados de um <a href="#l19">usuário</a>.</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Ao fazer o login com a conta, o <a href="#l19">usuário</a> pode enviar uma <a href="#l53">mensagem direta</a>, criar um <a href="#l1">channel</a>, fazer uma <a href="#l25">Video Chat</a> e usufruir de várias funcionalidades do <a href="#l65">Rocket.chat</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Logar no Aplicativo</td>
+</tr>
+<tr>
+<td>- Entrar no aplicativo</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l65">L65</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Rocket.chat</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Plataforma de chat de código aberto, gratuita</td>
+</tr>
+<tr>
+<td>- Aplicação focada para equipes que desejam controlar e centralizar sua comunicação</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O Rocket chat disponibiliza todas as suas funcionalidades aos seus <a href="#l19">usuários</a>, essas funcionalidades variando para <a href="#l66">Usuário Community</a>, <a href="#l29">Usuário Pro</a> ou <a href="#l30">Usuário Enterprise</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l66">L66</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Usuário Community</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Aquele que desfruta das funcionalidades gratuitas do <a href="#l65">Rocket.chat</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- <a href="#l66">Usuário Community</a> pode <a href="../cenarios/#c3-v2">criar channel</a>, <a href="#l41">enviar mensagem</a>, <a href="#l43">desenhar</a>, <a href="#l5">anexar arquivo</a>, <a href="../cenarios/#c4-v2">conectar-se a um servidor</a>, juntar-se a comunidade, criar um servidor, deletar conta, alterar o <a href="#l22">status do usuário</a>, gerar um <a href="#l15-v2">permalink</a>, <a href="#l9">reagir a mensagem</a>, <a href="#l11">procurar mensagem</a>, <a href="#l10-v2">remover reação</a>,  <a href="#l3">fixar mensagem</a>, favoritar mensagem, <a href="#l4">mencionar usuário</a>, <a href="#l68">salvar imagem</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Usuário comum</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l67">L67</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Conta de <a href="#l19">Usuário</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Agrupamento dos dados do <a href="#l19">usuário</a></td>
+</tr>
+<tr>
+<td>- Criada no momento de <a href="../cenarios/#c1-v2">cadastrar um novo usuário</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- É necessário uma conta para que o <a href="#l19">usuário</a> utilize as funcionalidades que o <a href="#l65">Rocket.Chat</a> disponibiliza</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Conta</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l68">L68</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Salvar imagem</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Verbo</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Ato do <a href="#l19">usuário</a> de fazer o download de uma imagem para a galeria de seu dispositivo pessoal</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode salvar imagem para usar em outros lugares</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode salvar imagem para editar</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Baixar imagem</td>
+</tr>
+<tr>
+<td>- Download de imagem</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l69">L69</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Read only channel</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Canal o qual apenas os administradores do grupo podem falar</td>
+</tr>
+<tr>
+<td>- Canal onde apenas se visualiza <a href="#l42">mensagens</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="#l19">usuário</a> quer informar algumas pessoas sobre algo, então cria um read only channel</td>
+</tr>
+<tr>
+<td>- Um <a href="#l19">usuário</a> quer fazer um canal apenas de informações onde não exista conversas além do informativos então cria um read only channel, onde apenas quem o cria pode enviar <a href="#l42">mensagem</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Lista de transmissão</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l70">L70</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Administrador do <a href="#l1">channel</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Objeto</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Pessoa a qual cria um <a href="#l1">channel</a>, ou recebe o privilégios de administrador de quem criou o channel</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="#l19">usuário</a> o qual cria um channel se torna o administrador do mesmo</td>
+</tr>
+<tr>
+<td>- O administrador do channel pode querer ceder os privilégios de administrador a outro <a href="#l19">usuário</a> podendo então torna-lo também administrador do channel</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Gerente</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l71">L71</h3>
+<table>
+<thead>
+<tr>
+<th><strong><a href="#l42">Mensagem</a> favoritada</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Estado</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Estado decorrente da ação do <a href="#l19">usuário</a> em favoritar mensagem</td>
+</tr>
+<tr>
+<td>- Mensagens favoritadas podem ser identificadas em uma conversa pelo símbolo de estrela</td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Uma mensagem favoritada é exibida dentro do menu de Detalhes do canal, na opção "Mensagens Favoritas"</td>
+</tr>
+<tr>
+<td>- Uma mensagem favoritada pode ser desfavoritada a qualquer momento, bastando clicar nela e selecionando a opção "desfavoritar"</td>
+</tr>
+<tr>
+<td>- O <a href="#l19">usuário</a> pode favoritar uma mensagem não favoritada</td>
+</tr>
+<tr>
+<td><strong>Sinônimos</strong></td>
+</tr>
+<tr>
+<td>- Favorite message</td>
+</tr>
+<tr>
+<td>- Mensagens favoritadas</td>
+</tr>
+</tbody>
+</table>
+<h3 id="l72">L72</h3>
+<table>
+<thead>
+<tr>
+<th><strong>Privacidade do <a href="#l1">channel</a></strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Classificação</strong></td>
+</tr>
+<tr>
+<td>Estado</td>
+</tr>
+<tr>
+<td><strong>Noção</strong></td>
+</tr>
+<tr>
+<td>- Estado de visibilidade de um <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td>- Estado de possibilidade de participação de um <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td>- Dita a possibilidade de visualização de um <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td><strong>Impacto</strong></td>
+</tr>
+<tr>
+<td>- Um <a href="#l1">channel</a> pode ser visivel ou não dependendo da <a href="#l72">privacidade do channel</a></td>
+</tr>
+<tr>
+<td>- O usuário criador do <a href="#l1">channel</a> quer deixa-lo privado, faz isso alterando a <a href="#l72">privacidade do channel</a></td>
+</tr>
+<tr>
+<td>- O usuário criador <a href="#l1">channel</a> quer deixa-lo público, faz isso alterando a <a href="#l72">privacidade do channel</a></td>
+</tr>
+<tr>
+<td>- A <a href="#l72">privacidade do channel</a> determina quem pode ou não ver a conversa do <a href="#l1">channel</a></td>
+</tr>
+<tr>
+<td><strong>Sinônimo</strong></td>
+</tr>
+<tr>
+<td>- privatividade</td>
+</tr>
+<tr>
+<td>- Visibilidade</td>
+</tr>
+<tr>
+<td>- Acessibilidade</td>
+</tr>
+</tbody>
+</table>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Modificação</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">19/04/2019</td>
+<td align="center">1.0</td>
+<td align="center">Abertura do documento</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">20/04/2019</td>
+<td align="center">1.1</td>
+<td align="center">Adição dos léxicos L9, L14, L18, L20, L22, L48, L49 e L50</td>
+<td align="center">João Lucas</td>
+</tr>
+<tr>
+<td align="center">20/04/2019</td>
+<td align="center">1.2</td>
+<td align="center">Adição dos léxicos L25-L28</td>
+<td align="center">Lucas Maciel</td>
+</tr>
+<tr>
+<td align="center">21/04/2019</td>
+<td align="center">1.3</td>
+<td align="center">Adição dos léxicos L39-L43, L51</td>
+<td align="center">Lucas Maciel</td>
+</tr>
+<tr>
+<td align="center">21/04/2019</td>
+<td align="center">1.4</td>
+<td align="center">Adição dos léxicos L6, L7, L10, L13, L15 L32-L38</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">21/04/2019</td>
+<td align="center">1.5</td>
+<td align="center">Adição dos léxicos L4, L12, L19, L65-L67</td>
+<td align="center">Heron Rodrigues</td>
+</tr>
+<tr>
+<td align="center">21/04/2019</td>
+<td align="center">1.6</td>
+<td align="center">Adição dos léxicos L1, L2, L3, L23, L24,L55-L58</td>
+<td align="center">Gabriel Davi</td>
+</tr>
+<tr>
+<td align="center">21/04/2019</td>
+<td align="center">1.7</td>
+<td align="center">Adição dos léxicos L5, L8, L11, L17, L21, L44-L47</td>
+<td align="center">Weiller Fernandes</td>
+</tr>
+<tr>
+<td align="center">21/04/2019</td>
+<td align="center">1.8</td>
+<td align="center">Adição dos léxicos L29-L31, L52-L54, L59, L62, L68</td>
+<td align="center">André Lucas</td>
+</tr>
+<tr>
+<td align="center">22/04/2019</td>
+<td align="center">1.9</td>
+<td align="center">Linkando alguns léxicos</td>
+<td align="center">Gabriel Davi</td>
+</tr>
+<tr>
+<td align="center">22/04/2019</td>
+<td align="center">2.0</td>
+<td align="center">Linkando alguns léxicos</td>
+<td align="center">Weiller Fernandes</td>
+</tr>
+<tr>
+<td align="center">22/04/2019</td>
+<td align="center">2.1</td>
+<td align="center">Adição dos léxicos L69 e L70</td>
+<td align="center">João Lucas</td>
+</tr>
+<tr>
+<td align="center">23/04/2019</td>
+<td align="center">2.2</td>
+<td align="center">Editando alguns léxicos e adicionando léxico L71</td>
+<td align="center">Weiller Fernandes</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">2.3</td>
+<td align="center">Adicionando léxico L72</td>
+<td align="center">João Lucas</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">2.4</td>
+<td align="center">Adicionando segunda versão para os Léxicos L6, L7, L10, L13, L15 L32-L38</td>
+<td align="center">Marcos Nery</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../istar/" title="IStar" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                IStar
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../nfr/" title="NFR Framework" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                NFR Framework
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>

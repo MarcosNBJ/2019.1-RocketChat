@@ -1,0 +1,1972 @@
+
+
+
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copiar para área de transferência">
+      
+        <meta name="lang:clipboard.copied" content="Copiado para área de transferência">
+      
+        <meta name="lang:search.language" content="pt">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="Nenhum resultado encontrado">
+      
+        <meta name="lang:search.result.one" content="1 resultado encontrado">
+      
+        <meta name="lang:search.result.other" content="# resultados encontrados">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.0">
+    
+    
+      
+        <title>Documento de Especificação Suplementar - RocketChat</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.0284f74d.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.01803549.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="white" data-md-color-accent="">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#documento-de-especificacao-suplementar" tabindex="1" class="md-skip">
+        Ir para o conteúdo
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="RocketChat" class="md-header-nav__button md-logo">
+          
+            <img src="../../favicon.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              RocketChat
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Documento de Especificação Suplementar
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Digite para iniciar a busca
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="RocketChat" class="md-nav__button md-logo">
+      
+        <img src="../../favicon.png" width="48" height="48">
+      
+    </a>
+    RocketChat
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/marcosnbj/2019.1-RocketChat/" title="Ir ao repositório" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Rocket Chat
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Pré Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Pré Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/5w2h/" title="5w2h" class="md-nav__link">
+      5w2h
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Argumentacao/" title="Argumentacao" class="md-nav__link">
+      Argumentacao
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/Estratégia/" title="Estratégia" class="md-nav__link">
+      Estratégia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pré-Rastreabilidade/RichPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Elicitação
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Elicitação
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/Storyboard/" title="Storyboard" class="md-nav__link">
+      Storyboard
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analdiscurso/" title="Análise de Discurso" class="md-nav__link">
+      Análise de Discurso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/analprot/" title="Análise de protocolo" class="md-nav__link">
+      Análise de protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Elicitação/questionario/" title="Questionario" class="md-nav__link">
+      Questionario
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
+    
+    <label class="md-nav__link" for="nav-4">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../diagramas/" title="Diagramas de Caso de Uso" class="md-nav__link">
+      Diagramas de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../diagramas_v2/" title="Diagramas de Caso de Uso 2.0" class="md-nav__link">
+      Diagramas de Caso de Uso 2.0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao/" title="Especificação de Caso de Uso" class="md-nav__link">
+      Especificação de Caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../istar/" title="IStar" class="md-nav__link">
+      IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../lexicos/" title="Léxicos" class="md-nav__link">
+      Léxicos
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../nfr/" title="NFR Framework" class="md-nav__link">
+      NFR Framework
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Documento de Especificação Suplementar
+      </label>
+    
+    <a href="./" title="Documento de Especificação Suplementar" class="md-nav__link md-nav__link--active">
+      Documento de Especificação Suplementar
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="Introdução" class="md-nav__link">
+    Introdução
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finalidade" title="Finalidade" class="md-nav__link">
+    Finalidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escopo" title="Escopo" class="md-nav__link">
+    Escopo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicoes-acronimos-e-abreviacoes" title="Definições, Acrônimos e Abreviações" class="md-nav__link">
+    Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades" title="Funcionalidades" class="md-nav__link">
+    Funcionalidades
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usabilidade" title="Usabilidade" class="md-nav__link">
+    Usabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es01-fluxo-de-navecaao" title="ES01 - Fluxo de naveçaão" class="md-nav__link">
+    ES01 - Fluxo de naveçaão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es02-instrucoes-de-uso" title="ES02 - Instruções de uso" class="md-nav__link">
+    ES02 - Instruções de uso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es03-notificacoes" title="ES03 - Notificações" class="md-nav__link">
+    ES03 - Notificações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es04-visibilidade-de-status-do-sistema" title="ES04 - Visibilidade de status do sistema" class="md-nav__link">
+    ES04 - Visibilidade de status do sistema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es05-icones-e-cores" title="ES05 - Ícones e cores" class="md-nav__link">
+    ES05 - Ícones e cores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es06-resolucao-de-erros" title="ES06 - Resolução de erros" class="md-nav__link">
+    ES06 - Resolução de erros
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desempenho" title="Desempenho" class="md-nav__link">
+    Desempenho
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es07-velocidade-de-resposta" title="ES07 - Velocidade de resposta" class="md-nav__link">
+    ES07 - Velocidade de resposta
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es08-servidores" title="ES08 - Servidores" class="md-nav__link">
+    ES08 - Servidores
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#portabilidade" title="Portabilidade" class="md-nav__link">
+    Portabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es09-android" title="ES09 - Android" class="md-nav__link">
+    ES09 - Android
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es10-ios" title="ES10 - IOS" class="md-nav__link">
+    ES10 - IOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es11-windows" title="ES11 - Windows" class="md-nav__link">
+    ES11 - Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es12-linux" title="ES12 - Linux" class="md-nav__link">
+    ES12 - Linux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es13-macos" title="ES13 - MacOS" class="md-nav__link">
+    ES13 - MacOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conectividade" title="Conectividade" class="md-nav__link">
+    Conectividade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es14-redes-sociais" title="ES14 - Redes sociais" class="md-nav__link">
+    ES14 - Redes sociais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es15-padrao-de-interface-entre-plataformas" title="ES15 - Padrão de interface entre plataformas" class="md-nav__link">
+    ES15 - Padrão de interface entre plataformas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es16-comunicacao-com-usuarios" title="ES16 - Comunicação com usuários" class="md-nav__link">
+    ES16 - Comunicação com usuários
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tratamento-de-falhas" title="Tratamento de Falhas" class="md-nav__link">
+    Tratamento de Falhas
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es17-monitoramento" title="ES17 - Monitoramento" class="md-nav__link">
+    ES17 - Monitoramento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es18-atualizacao" title="ES18 - Atualização" class="md-nav__link">
+    ES18 - Atualização
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es19-feedback" title="ES19 - Feedback" class="md-nav__link">
+    ES19 - Feedback
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seguranca" title="Segurança" class="md-nav__link">
+    Segurança
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es20-autenticacao" title="ES20 - Autenticação" class="md-nav__link">
+    ES20 - Autenticação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es21-criptografia" title="ES21 - Criptografia" class="md-nav__link">
+    ES21 - Criptografia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es22-servidores-particulares" title="ES22 - Servidores particulares" class="md-nav__link">
+    ES22 - Servidores particulares
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restricoes-de-design" title="Restrições de Design" class="md-nav__link">
+    Restrições de Design
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es23-listagem-de-channels" title="ES23 - Listagem de channels" class="md-nav__link">
+    ES23 - Listagem de channels
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es24-interface-de-edicao-de-texto" title="ES24 - Interface de edição de texto" class="md-nav__link">
+    ES24 - Interface de edição de texto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es25-pluralidade-de-idiomas" title="ES25 - Pluralidade de idiomas" class="md-nav__link">
+    ES25 - Pluralidade de idiomas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-de-suporte-ao-usuario" title="Requisitos de Suporte ao usuário" class="md-nav__link">
+    Requisitos de Suporte ao usuário
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es26-documentacao" title="ES26 - Documentação" class="md-nav__link">
+    ES26 - Documentação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es27-ajuda" title="ES27 - Ajuda" class="md-nav__link">
+    ES27 - Ajuda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es28-suporte-online" title="ES28 - Suporte online" class="md-nav__link">
+    ES28 - Suporte online
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es29-forum-de-discussao" title="ES29 - Forum de discussão" class="md-nav__link">
+    ES29 - Forum de discussão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es30-como-contribuir" title="ES30 - Como contribuir" class="md-nav__link">
+    ES30 - Como contribuir
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es31-organizacao-do-repositorio" title="ES31 - Organização do repositório." class="md-nav__link">
+    ES31 - Organização do repositório.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" title="Interfaces" class="md-nav__link">
+    Interfaces
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es32-interfaces-do-usuario" title="ES32 - Interfaces do Usuário" class="md-nav__link">
+    ES32 - Interfaces do Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es33-interfaces-de-hardware" title="ES33 - Interfaces de Hardware" class="md-nav__link">
+    ES33 - Interfaces de Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es34-interfaces-de-software" title="ES34 - Interfaces de Software" class="md-nav__link">
+    ES34 - Interfaces de Software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-de-licenciamento" title="Requisitos de Licenciamento" class="md-nav__link">
+    Requisitos de Licenciamento
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es35-cadastro" title="ES35 - Cadastro" class="md-nav__link">
+    ES35 - Cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es36-gdpr" title="ES36 - GDPR" class="md-nav__link">
+    ES36 - GDPR
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#es37-observacoes-legais-de-copyright-e-outras" title="ES37 - Observações Legais, de Copyright e Outras" class="md-nav__link">
+    ES37 - Observações Legais, de Copyright e Outras
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" title="Referências" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/DC/" title="Inspeção de Diagramas de caso de Uso" class="md-nav__link">
+      Inspeção de Diagramas de caso de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/IStar/" title="Inspeção do IStar" class="md-nav__link">
+      Inspeção do IStar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/NFR/" title="Inspeção NFR" class="md-nav__link">
+      Inspeção NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/UC/" title="Inspeção de Casos de Uso" class="md-nav__link">
+      Inspeção de Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/argumentacao/" title="Inspeção de Argumentação" class="md-nav__link">
+      Inspeção de Argumentação
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Análise/backlog/" title="Inspeção do Product Backlog" class="md-nav__link">
+      Inspeção do Product Backlog
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Pós Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Pós Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Backward-From/" title="Backward-From" class="md-nav__link">
+      Backward-From
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Pós-Rastreabilidade/Foward-From/" title="Foward-From" class="md-nav__link">
+      Foward-From
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-7" type="checkbox" id="nav-7">
+    
+    <label class="md-nav__link" for="nav-7">
+      Final
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-7">
+        Final
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Final/metricas/" title="Metricas finais da Wiki" class="md-nav__link">
+      Metricas finais da Wiki
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Índice</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" title="Introdução" class="md-nav__link">
+    Introdução
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#finalidade" title="Finalidade" class="md-nav__link">
+    Finalidade
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#escopo" title="Escopo" class="md-nav__link">
+    Escopo
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definicoes-acronimos-e-abreviacoes" title="Definições, Acrônimos e Abreviações" class="md-nav__link">
+    Definições, Acrônimos e Abreviações
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades" title="Funcionalidades" class="md-nav__link">
+    Funcionalidades
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#usabilidade" title="Usabilidade" class="md-nav__link">
+    Usabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es01-fluxo-de-navecaao" title="ES01 - Fluxo de naveçaão" class="md-nav__link">
+    ES01 - Fluxo de naveçaão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es02-instrucoes-de-uso" title="ES02 - Instruções de uso" class="md-nav__link">
+    ES02 - Instruções de uso
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es03-notificacoes" title="ES03 - Notificações" class="md-nav__link">
+    ES03 - Notificações
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es04-visibilidade-de-status-do-sistema" title="ES04 - Visibilidade de status do sistema" class="md-nav__link">
+    ES04 - Visibilidade de status do sistema
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es05-icones-e-cores" title="ES05 - Ícones e cores" class="md-nav__link">
+    ES05 - Ícones e cores
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es06-resolucao-de-erros" title="ES06 - Resolução de erros" class="md-nav__link">
+    ES06 - Resolução de erros
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#desempenho" title="Desempenho" class="md-nav__link">
+    Desempenho
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es07-velocidade-de-resposta" title="ES07 - Velocidade de resposta" class="md-nav__link">
+    ES07 - Velocidade de resposta
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es08-servidores" title="ES08 - Servidores" class="md-nav__link">
+    ES08 - Servidores
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#portabilidade" title="Portabilidade" class="md-nav__link">
+    Portabilidade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es09-android" title="ES09 - Android" class="md-nav__link">
+    ES09 - Android
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es10-ios" title="ES10 - IOS" class="md-nav__link">
+    ES10 - IOS
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es11-windows" title="ES11 - Windows" class="md-nav__link">
+    ES11 - Windows
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es12-linux" title="ES12 - Linux" class="md-nav__link">
+    ES12 - Linux
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es13-macos" title="ES13 - MacOS" class="md-nav__link">
+    ES13 - MacOS
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conectividade" title="Conectividade" class="md-nav__link">
+    Conectividade
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es14-redes-sociais" title="ES14 - Redes sociais" class="md-nav__link">
+    ES14 - Redes sociais
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es15-padrao-de-interface-entre-plataformas" title="ES15 - Padrão de interface entre plataformas" class="md-nav__link">
+    ES15 - Padrão de interface entre plataformas
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es16-comunicacao-com-usuarios" title="ES16 - Comunicação com usuários" class="md-nav__link">
+    ES16 - Comunicação com usuários
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tratamento-de-falhas" title="Tratamento de Falhas" class="md-nav__link">
+    Tratamento de Falhas
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es17-monitoramento" title="ES17 - Monitoramento" class="md-nav__link">
+    ES17 - Monitoramento
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es18-atualizacao" title="ES18 - Atualização" class="md-nav__link">
+    ES18 - Atualização
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es19-feedback" title="ES19 - Feedback" class="md-nav__link">
+    ES19 - Feedback
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#seguranca" title="Segurança" class="md-nav__link">
+    Segurança
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es20-autenticacao" title="ES20 - Autenticação" class="md-nav__link">
+    ES20 - Autenticação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es21-criptografia" title="ES21 - Criptografia" class="md-nav__link">
+    ES21 - Criptografia
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es22-servidores-particulares" title="ES22 - Servidores particulares" class="md-nav__link">
+    ES22 - Servidores particulares
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#restricoes-de-design" title="Restrições de Design" class="md-nav__link">
+    Restrições de Design
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es23-listagem-de-channels" title="ES23 - Listagem de channels" class="md-nav__link">
+    ES23 - Listagem de channels
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es24-interface-de-edicao-de-texto" title="ES24 - Interface de edição de texto" class="md-nav__link">
+    ES24 - Interface de edição de texto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es25-pluralidade-de-idiomas" title="ES25 - Pluralidade de idiomas" class="md-nav__link">
+    ES25 - Pluralidade de idiomas
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-de-suporte-ao-usuario" title="Requisitos de Suporte ao usuário" class="md-nav__link">
+    Requisitos de Suporte ao usuário
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es26-documentacao" title="ES26 - Documentação" class="md-nav__link">
+    ES26 - Documentação
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es27-ajuda" title="ES27 - Ajuda" class="md-nav__link">
+    ES27 - Ajuda
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es28-suporte-online" title="ES28 - Suporte online" class="md-nav__link">
+    ES28 - Suporte online
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es29-forum-de-discussao" title="ES29 - Forum de discussão" class="md-nav__link">
+    ES29 - Forum de discussão
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es30-como-contribuir" title="ES30 - Como contribuir" class="md-nav__link">
+    ES30 - Como contribuir
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es31-organizacao-do-repositorio" title="ES31 - Organização do repositório." class="md-nav__link">
+    ES31 - Organização do repositório.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#interfaces" title="Interfaces" class="md-nav__link">
+    Interfaces
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es32-interfaces-do-usuario" title="ES32 - Interfaces do Usuário" class="md-nav__link">
+    ES32 - Interfaces do Usuário
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es33-interfaces-de-hardware" title="ES33 - Interfaces de Hardware" class="md-nav__link">
+    ES33 - Interfaces de Hardware
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es34-interfaces-de-software" title="ES34 - Interfaces de Software" class="md-nav__link">
+    ES34 - Interfaces de Software
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#requisitos-de-licenciamento" title="Requisitos de Licenciamento" class="md-nav__link">
+    Requisitos de Licenciamento
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#es35-cadastro" title="ES35 - Cadastro" class="md-nav__link">
+    ES35 - Cadastro
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#es36-gdpr" title="ES36 - GDPR" class="md-nav__link">
+    ES36 - GDPR
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#es37-observacoes-legais-de-copyright-e-outras" title="ES37 - Observações Legais, de Copyright e Outras" class="md-nav__link">
+    ES37 - Observações Legais, de Copyright e Outras
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" title="Referências" class="md-nav__link">
+    Referências
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#versionamento" title="Versionamento" class="md-nav__link">
+    Versionamento
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/marcosnbj/2019.1-RocketChat/edit/master/docs/Modelagem/suplementar.md" title="Editar esta página" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="documento-de-especificacao-suplementar">Documento de Especificação Suplementar</h1>
+<h2 id="introducao">Introdução</h2>
+<h3 id="finalidade">Finalidade</h3>
+<p>Aqui buscamos reunir requisitos, principalmente não funcionais, que abrangem de forma mais geral alguns critérios de qualidade aos quais está submetida a aplicação, além de outros tipos de necessidade do produto.</p>
+<h3 id="escopo">Escopo</h3>
+<p>O escopo é definido por uma plataforma de chat, focada em uso profissional e chat em grupos, que pode ser acessada via web, mobile, ou instalada nos computadores de sistemas operacionais MacOS, Windows e Linux.</p>
+<h3 id="definicoes-acronimos-e-abreviacoes">Definições, Acrônimos e Abreviações</h3>
+<p>Listados nos <a href="../lexicos/">Léxicos</a>.</p>
+<h2 id="funcionalidades">Funcionalidades</h2>
+<p>Os requisitos funcionais podem ser vistos através das listagens nos métodos de elicitação e também por meio dos <a href="../cenarios/">Cenários</a>, <a href="../diagramas/">Casos de uso</a>, e <a href="../especificacao/">especificações dos casos de uso</a></p>
+<h2 id="usabilidade">Usabilidade</h2>
+<p>Aqui são listados critérios de qualidade quanto a interação do usuário com a aplicação.</p>
+<h3 id="es01-fluxo-de-navecaao">ES01 - Fluxo de naveçaão</h3>
+<p>A plataforma deve oferecer um fluxo intuitivo de navegação pela plataforma
+<em>Rastro:<a href="../Elicitação/analprot/#requisitos-elicitados">AP6</a></em></p>
+<h3 id="es02-instrucoes-de-uso">ES02 - Instruções de uso</h3>
+<p>A aplicação deve possuir instruções aos novos usuário para ajudá-lo no uso do aplicativo.
+<em>Rastro:<a href="../Elicitação/analprot/#requisitos-elicitados">AP3</a></em></p>
+<h3 id="es03-notificacoes">ES03 - Notificações</h3>
+<p>O sistema deve dar avisos ao usuário quando alguma ação importante ocorrer na plataforma, como uma nova mensagem
+<em>Rastro:<a href="../Elicitação/questionario/#requisitos-elicitados">Q3</a>,<a href="../Elicitação/analdiscurso/#requisitos-elicitados">AD5</a></em></p>
+<h3 id="es04-visibilidade-de-status-do-sistema">ES04 - Visibilidade de status do sistema</h3>
+<p>O sistema deve fornecer feedbacks ao usuário, de forma que ele entenda o antes, durante e depois das suas ações no sistema.</p>
+<h3 id="es05-icones-e-cores">ES05 - Ícones e cores</h3>
+<p>O sistema deve possuir ícones e cores que condizem com alguma ação que será realizada no aplicativo
+<em>Rastro:<a href="../Elicitação/analprot/#requisitos-elicitados">AP6</a></em></p>
+<h3 id="es06-resolucao-de-erros">ES06 - Resolução de erros</h3>
+<p>O sistema deve fornecer avisos quando houver algum erro no ato de uma ação.</p>
+<h2 id="desempenho">Desempenho</h2>
+<p>Este tópico descreve as restrições de comportamento geral do sistema.</p>
+<h3 id="es07-velocidade-de-resposta">ES07 - Velocidade de resposta</h3>
+<p>A aplicação deve ser capaz de responder com rapidez a uma ação de um usuário.</p>
+<h3 id="es08-servidores">ES08 - Servidores</h3>
+<p>O sistema deve possuir servidores eficientes para o suporte e tratamento do fluxo de dados criado pelos diversos usuários sem gerar sobrecarga, considerando também o suporte a escalabilidade de usuários ao longo do ciclo de existência do aplicativo.
+<em>Rastro:<a href="../Elicitação/Introspeccao/#introspeccao-01">ENT1.7</a></em></p>
+<h2 id="portabilidade">Portabilidade</h2>
+<p>Aqui são listados os requisitos da aplicação quanto a sua portabilidade, em diferentes plataformas.</p>
+<h3 id="es09-android">ES09 - Android</h3>
+<p>A aplicação deve estar disponível e ser suportada em dispositivos móveis com sistema operacional Android 5.0 ou superior, incluindo tablets e smartphones
+<em>Rastro:<a href="../Elicitação/Introspeccao/#introspeccao-03">INT3.7</a> e <a href="../Elicitação/questionario/#requisitos-elicitados">Q18</a></em></p>
+<h3 id="es10-ios">ES10 - IOS</h3>
+<p>A aplicação deve estar disponível e ser suportada em dispositivos móveis com sistema operacional IOS 11.0 ou superior, incluindo dispositivos como Iphone e Ipad.
+<em>Rastro:<a href="../Elicitação/Introspeccao/#introspeccao-03">INT3.7</a> e <a href="../Elicitação/questionario/#requisitos-elicitados">Q18</a></em></p>
+<h3 id="es11-windows">ES11 - Windows</h3>
+<p>A aplicação deve estar disponível e ser suportada em computadores ou notebooks com sistema operacional Windows 7 ou superior.
+<em>Rastro:<a href="../Elicitação/Introspeccao/#introspeccao-03">INT3.7</a> e <a href="../Elicitação/questionario/#requisitos-elicitados">Q18</a></em></p>
+<h3 id="es12-linux">ES12 - Linux</h3>
+<p>A aplicação deve estar disponível e ser suportada em computadores ou notebooks com sistema operacional Linux, com processadores de 32 ou 64 bits, incluindo diversas distribuições: CentOs, Baseadas no Debian através dos pacotes .deb ou gerenciadores de pacote (apt ou snap), RedHat ou outras distribuições que suportam pacotes .rpm.
+<em>Rastro:<a href="../Elicitação/Introspeccao/#introspeccao-03">INT3.7</a> e <a href="../Elicitação/questionario/#requisitos-elicitados">Q18</a></em></p>
+<h3 id="es13-macos">ES13 - MacOS</h3>
+<p>A aplicação deve estar disponível e ser suportada em computadores ou notebooks com sistema operacional MacOs X 10.10.0 ou superior, com processadores de 64 bits.
+<em>Rastro:<a href="../Elicitação/Introspeccao/#introspeccao-03">INT3.7</a> e <a href="../Elicitação/questionario/#requisitos-elicitados">Q18</a></em></p>
+<h2 id="conectividade">Conectividade</h2>
+<p>Descreve a integração da aplicação com diferentes plataformas de sistema e aplicações de terceiros.</p>
+<h3 id="es14-redes-sociais">ES14 - Redes sociais</h3>
+<p>A aplicação deve permitir a integração com redes sociais, para maior facilidade do usuário em se cadastrar.
+<em>Rastro:<a href="../Elicitação/analprot/#requisitos-elicitados">AP1</a></em></p>
+<h3 id="es15-padrao-de-interface-entre-plataformas">ES15 - Padrão de interface entre plataformas</h3>
+<p>A aplicação deve manter um padrão de interface em todas as plataformas se adequando a qualquer dispositivo, para que o usuário possa ter uma fácil integração em todos os meios.
+<em>Rastro:<a href="../Elicitação/questionario/#requisitos-elicitados">Q18</a>, <a href="../Elicitação/questionario/#requisitos-elicitados">Q1</a></em></p>
+<h3 id="es16-comunicacao-com-usuarios">ES16 - Comunicação com usuários</h3>
+<p>A aplicação deve manter a comunicação com o usuário por meio de notificações e por meio de e-mails previamente cadastrados.</p>
+<h2 id="tratamento-de-falhas">Tratamento de Falhas</h2>
+<p>Este tópico descrece como a aplicação deve identificar e tratar erros.</p>
+<h3 id="es17-monitoramento">ES17 - Monitoramento</h3>
+<p>A aplicação deve manter monitoramento e inspeção constantes de problemas afim de executar a correção de bugs.</p>
+<h3 id="es18-atualizacao">ES18 - Atualização</h3>
+<p>A aplicação pede ao usuário que certifique-se de que está executando a última versão. É muito provável que a simples atualização resolva seu problema.</p>
+<h3 id="es19-feedback">ES19 - Feedback</h3>
+<p>A aplicação relata ao usuário que ocorreu uma falha no sistema e solicita um feedback para tentar resolve-lá. Com essas informações o suporte pode corrigir o problema mais rapidamente.</p>
+<h2 id="seguranca">Segurança</h2>
+<p>Aqui são tratados os requerimentos da aplicação quanto a sua segurança e a segurança dos dados que nela trafegam.</p>
+<h3 id="es20-autenticacao">ES20 - Autenticação</h3>
+<p>A aplicação deve fornecer um sistema de autenticação segura, por meio de e-mail ou nome de usuário, acrescido da senha do usuário.</p>
+<h3 id="es21-criptografia">ES21 - Criptografia</h3>
+<p>A aplicação deve oferecer a opção de Criptografar as mensagens dos grupos privados e mensagens diretas na aplicação, através de uma chave E2E única para cada usuário no servidor principal compartilhado da Rocket.Chat</p>
+<h3 id="es22-servidores-particulares">ES22 - Servidores particulares</h3>
+<p>O sistema de possuir a opção do usuário adicionar servidores particulares para a prevenção e segurança dos seus dados.</p>
+<h2 id="restricoes-de-design">Restrições de Design</h2>
+<h3 id="es23-listagem-de-channels">ES23 - Listagem de channels</h3>
+<p>Na página principal do usuário, deverão estar acessíveis os chennels principais que o usuário acessa, um menu com as configurações do aplicativo e opções de suporte, bem como ferramentas de pesquisa para que o usuário procure rapidamente por usuários ou channels.</p>
+<h3 id="es24-interface-de-edicao-de-texto">ES24 - Interface de edição de texto</h3>
+<p>Dentro do channel, deverá existir uma interface de edição de texto com ferramentas para formatar e escrever o texto. Bem como menus visíveis com todas as funcionalidades relacionadas aquele channel em específico.</p>
+<h3 id="es25-pluralidade-de-idiomas">ES25 - Pluralidade de idiomas</h3>
+<p>A interface deverá estar disponível na maior pluralidade possível de idiomas.</p>
+<h2 id="requisitos-de-suporte-ao-usuario">Requisitos de Suporte ao usuário</h2>
+<p>Aqui são listados todos os requisitos referentes a ajuda e suporte aos usuários da aplicação.</p>
+<h3 id="es26-documentacao">ES26 - Documentação</h3>
+<p>A plataforma deve possuir uma documentação bem organizada, no formato de uma Wikia. Que explique todas as funcionalidades e restrições aplicáveis.
+<em>Rastro: <a href="https://rocket.chat/docs/">Documentação</a></em></p>
+<h3 id="es27-ajuda">ES27 - Ajuda</h3>
+<p>Dentro do menu da aplicação deve haver um botão de ajuda. Que leva para uma página com problemas frequentes dos usuário e suas respectivas resoluções, bem como um link para a documentação e para entrar em contato com o suporte caso a ajuda ali não seja suficiente.
+<em>Rastro: <a href="https://rocket.chat/docs/getting-support/">Ajuda</a></em></p>
+<h3 id="es28-suporte-online">ES28 - Suporte online</h3>
+<p>A equipe de suporte ao usuário deve ser eficiente, de forma que o usuário que entre em contato para receber ajuda com algo deve receber sua resposta idealmente no prazo máximo de 24 horas.</p>
+<h3 id="es29-forum-de-discussao">ES29 - Forum de discussão</h3>
+<p>Deve haver um fórum dedicado a discussão de problemas e submissão de feedbacks acerca da aplicação. Pelo qual tanto os usuário quanto a equipe de desenvolvimento podem se manifestar.</p>
+<h3 id="es30-como-contribuir">ES30 - Como contribuir</h3>
+<p>Por ser uma aplicação Open Source, na documentação deve haver uma secção explicando claramente os passos de como alguém pode contribuir com o projeto.
+<em>Rastro: <a href="https://rocket.chat/docs/contributing/">Guia de contribuição</a></em></p>
+<h3 id="es31-organizacao-do-repositorio">ES31 - Organização do repositório.</h3>
+<p>O repositório da aplicação do Github deve ser bem organizado, de modo que os interessados consigam facilmente submeter problemas, resoluções e feedbacks através das issues.
+<em>Rastro: <a href="https://github.com/RocketChat">Repositório do Rocket.chat</a></em></p>
+<h2 id="interfaces">Interfaces</h2>
+<p>Aqui são definidos todos os tipos de interface presentes na aplicação.</p>
+<h3 id="es32-interfaces-do-usuario">ES32 - Interfaces do Usuário</h3>
+<p>A plataforma deverá possuir uma interface gráfica, pela qual os usuários sejam capazes de interagir com todas as funcionalidades para eles disponíveis no sistema.</p>
+<h3 id="es33-interfaces-de-hardware">ES33 - Interfaces de Hardware</h3>
+<p>Os dispositivos de hardware nos quais a aplicação pode ser instalada são: Computadores Desktop, Notebooks e dispositivos mobile como smartphones e tablets.</p>
+<h3 id="es34-interfaces-de-software">ES34 - Interfaces de Software</h3>
+<p>As definições de linguagens, frameworks e paradigmas para a criação e evolução do software devem ser as quais ofereçam a longo prazo uma fácil manutenção e confiabilidade.</p>
+<h2 id="requisitos-de-licenciamento">Requisitos de Licenciamento</h2>
+<p>Será expecificado os aspectos referentes às permissões e restrições ao usuário, definidas na <a href="https://rocket.chat/privacy">politica de privacidade</a> e <a href="https://rocket.chat/terms">termos de serviço</a>, estes, que não serão aplicados quando usuário estiver usando a instalação on-premises do Rocket.chat.</p>
+<h3 id="es35-cadastro">ES35 - Cadastro</h3>
+<p>Ao se cadastrar na aplicação, o usuário disponibiliza seu endereço de e-mail, primeiro e ultimo nome, alem de cookies e dados de uso, como o endereço de IP, informações do navegador, na versão web e ID do dispositivo, endereço de IP, sistema operacional, na versão mobile, entre outras informações. Será enviado noticias e notificações para o usuário, o mesmo sendo opcional.
+<em>Rastro:<a href="https://rocket.chat/privacy">Rocket.chat-Privacidade</a></em></p>
+<h3 id="es36-gdpr">ES36 - GDPR</h3>
+<p>Rocket.Chat é compativel à General Data Protection Regulation (GDPR), é um regulamento do direito europeu sobre privacidade e proteção de dados pessoais, aplicável a todos os indivíduos na União Europeia e Espaço Económico Europeu.</p>
+<h2 id="es37-observacoes-legais-de-copyright-e-outras">ES37 - Observações Legais, de Copyright e Outras</h2>
+<p>A aplicação é licenciada sob a MIT License. É permitido o uso, copía, modificação, entre outros, totalmente gratuito garantido pela <a href="https://github.com/RocketChat/Rocket.Chat.Hubot/blob/master/LICENSE">licença do software</a>.</p>
+<h2 id="referencias">Referências</h2>
+<ul>
+<li><a href="https://rocket.chat/docs/">Documentação do Rocket chat</a></li>
+<li><a href="https://rocket.chat/">Site do Rocket chat</a></li>
+<li><a href="https://github.com/RocketChat">Repositórios do Rocket chat</a></li>
+</ul>
+<h2 id="versionamento">Versionamento</h2>
+<table>
+<thead>
+<tr>
+<th align="center">Data</th>
+<th align="center">Versão</th>
+<th align="center">Modificação</th>
+<th align="center">Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">1.0</td>
+<td align="center">Abertura do documento e inclusão do template</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">28/04/2019</td>
+<td align="center">1.1</td>
+<td align="center">Preenchimento inicial do documento, de introdução à funcionalidades</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">1.2</td>
+<td align="center">Preenchendo os requisitos de usabilidade e desempenho</td>
+<td align="center">Gabriel Davi</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">1.3</td>
+<td align="center">Adição dos requisitos de portabilidade e segurança</td>
+<td align="center">Lucas Maciel</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">1.4</td>
+<td align="center">Adição dos requisitos de conectividade e tratamento de falhas</td>
+<td align="center">André Lucas</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">1.5</td>
+<td align="center">Adição dos requisitos de suporte ao usuário</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">1.6</td>
+<td align="center">Adição da listagem de Interfaces</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">1.7</td>
+<td align="center">Adição das observações legais e copyright</td>
+<td align="center">Heron Rodrigues</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">1.8</td>
+<td align="center">Adição dos requisitos de licenciamento</td>
+<td align="center">Heron Rodrigues</td>
+</tr>
+<tr>
+<td align="center">29/04/2019</td>
+<td align="center">1.9</td>
+<td align="center">Adição das referências</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">03/04/2019</td>
+<td align="center">2.0</td>
+<td align="center">Refatoração dos títulos dos tópicos</td>
+<td align="center">Marcos Nery</td>
+</tr>
+<tr>
+<td align="center">22/06/2019</td>
+<td align="center">2.1</td>
+<td align="center">Adição dos rastros por tópico</td>
+<td align="center">Marcos Nery</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../nfr/" title="NFR Framework" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Anterior
+                </span>
+                NFR Framework
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../../Análise/DC/" title="Inspeção de Diagramas de caso de Uso" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Próximo
+                </span>
+                Inspeção de Diagramas de caso de Uso
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.245445c6.js"></script>
+      
+        
+        
+          
+          <script src="../../assets/javascripts/lunr/lunr.stemmer.support.js"></script>
+          
+            
+              
+              
+                <script src="../../assets/javascripts/lunr/lunr.pt.js"></script>
+              
+            
+          
+          
+        
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
