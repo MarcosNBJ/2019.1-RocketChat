@@ -120,6 +120,8 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 
 ![DCU05](../img/Modelagem/dcu2_config.png)
 
+* __Id dos casos de Uso gerados:__ UC83 - UC92
+
 * __Diagrama baseado nos diagramas anterirores:__
 
     * [DCU4-V1](diagramas.md#dcu4-v1):
@@ -131,6 +133,8 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 ### __Servidores__
 
 ![DCU06](../img/Modelagem/dcu2_servidores.png)
+
+* __Id dos casos de Uso gerados:__ UC93 - UC100
 
 * __Diagrama baseado nos diagramas anterirores:__
 
@@ -146,4 +150,5 @@ Neste documento os "temas" escolhidos para os diagramas são: Gerenciamento de C
 | 21/06/2019 | 1.1    | Padronização da rastreabilidade dos diagramas | Lucas Maciel |
 | 21/06/2019 | 1.2    | Adição do Diagrama DCU01 - DCU3 | Lucas Maciel |
 | 21/06/2019 | 1.3    | Adição do Diagrama DCU04 | Gabriel Davi |
-| 22/06/2019 | 1.4 | Adição do Diagrama DCU05 | André Lucas |
+| 24/06/2019 | 1.4    | Adição do Diagrama DCU05 | André Lucas |
+| 24/06/2019 | 1.5    | Adição do Diagrama DCU06 | Lucas Maciel |
