@@ -580,6 +580,9 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 
 **Elo:**
 
+* Representação: [DCU12](../Modelagem/diagramas.md#dcu12-v1) representa [C17](../Modelagem/cenarios.md/#c17)
+* Agregação: [DCU12](../Modelagem/diagramas.md#dcu12-v1) é composto por [EC13](../Modelagem/especificacao.md/#ec13)
+
 #### EF38
 
 **Elementos rastreáveis:**
@@ -593,6 +596,9 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [L71](../Modelagem/lexicos.md/#l71)
 
 **Elo:**
+
+* Representação: [DCU12](../Modelagem/diagramas.md#dcu12-v1) representa [C17](../Modelagem/cenarios.md/#c17)
+* Agregação: [DCU12](../Modelagem/diagramas.md#dcu12-v1) é composto por [EC13](../Modelagem/especificacao.md/#ec13)
 
 #### EF39
 
@@ -707,6 +713,12 @@ Para o desenvolvimento do documento a seguir, a equipe decidiu separa-lo em duas
 * [ISD02](../modelagem/istar.md#isd02)
 
 **Elo:**
+
+* Representação: [DCU22](../Modelagem/diagramas.md#dcu22-v1) representa [C15](../Modelagem/cenarios.md/#c15)
+* Recurso: [C15](../Modelagem/cenarios.md/#c15) depende de um recurso provido pelo [L48](../Modelagem/lexicos#l48)
+* Recurso: [DCU23](../Modelagem/diagramas.md#dcu23-v1) depende de um recurso provido pelo [L49](../Modelagem/lexicos#l49)
+* Agregação: [ISD02](../Modelagem/istar#isr02-geral) é composto por [US63](../Modelagem/backlog.md#us63) e [US64](../Modelagem/backlog.md#us64)
+
 
 #### EF48
 
